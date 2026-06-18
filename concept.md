@@ -116,6 +116,16 @@ function multiplyVector(vec, x, y, z) {
 | x | HDG Steel Mechanism Block | x |
 | x | HDG Steel Block | x |
 
+## Rolling Mill
+### 설명
+- 레시피 변경
+
+### Rolling Mill(Create Crafts & Additions)
+| 재료 | 재료 | 재료 |
+|----------|--------|--------|
+| HDG Steel Sheet | Shaft | HDG Steel Sheet |
+| HDG Steel | Shaft | HDG Steel |
+| HDG Steel | HDG Steel Mechanism Block | HDG Steel |
 
 ## Mechanical Mixer
 ### 설명
