@@ -40,8 +40,8 @@
 | Clay | Brick | Clay |
 
 ## Blaze Burner
-### 변겅점
-연료는 Coal Coke와 Blaze Cake만 받음
+### 설명
+- 연료는 Coal Coke와 Blaze Cake만 받음
 
 ## Blast Furnace(Multi Block)
 ### 설명
@@ -90,6 +90,7 @@ function multiplyVector(vec, x, y, z) {
 ## HDG Steel Mechanism Block
 ### 설명
 - 기계를 이루는 기본 단계 블록
+
 ### HDG Steel Mechanism Block(KubeJS)
 | 재료 | 재료 | 재료 |
 |----------|--------|--------|
@@ -104,6 +105,38 @@ function multiplyVector(vec, x, y, z) {
 
 ## Industrial Ingot
 - 모든 Industrial Ingot을 Create Deco 모드로 통일(Create: More Bridges)
+
+## Stirling Engine
+### 설명
+- 옛날 버전에 있던 그 엔진이 맞음(!!!)
+- Furnace 위에 올려서 씀
+- Flywheel 필요
+
+### Stirling Engine (Create: Dreams n' Desires)
+| 재료 | 재료 | 재료 |
+|----------|--------|--------|
+| x | HDG Steel Sheet | x |
+| x | HDG Steel Mechanism Block | x |
+| x | HDG Steel Block | x |
+
+## Flywheel
+### 설명
+- 레시피 변경 및 텍스쳐 변경
+
+### Flywheel (Create)
+| 재료 | 재료 | 재료 |
+|----------|--------|--------|
+| HDG Steel | HDG Steel | HDG Steel |
+| HDG Steel | Shaft | HDG Steel |
+| HDG Steel | HDG Steel | HDG Steel |
+
+## Water Wheel and Large Water Wheel
+### 설명
+- 밴
+
+## Windmill Bearing
+### 설명
+- 밴
 
 ## Mechanical Press
 ### 설명
@@ -142,10 +175,49 @@ function multiplyVector(vec, x, y, z) {
 ### 설명
 - 레시피 변경
 
-
 ### Whisk(Create)
 | 재료 | 재료 | 재료 |
 |----------|--------|--------|
 | x | Andesite Alloy | x |
 | HDG Steel Sheet | Andesite Alloy | HDG Steel Sheet |
 | HDG Steel Sheet | Iron Sheet | HDG Steel Sheet |
+
+## Millstone
+### 설명
+- 레시피 변경
+  
+### Millstone(Create)
+| 재료 | 재료 | 재료 |
+|----------|--------|--------|
+| x | Industrial Cogwheel | x |
+| x | HDG Steel Mechanism Block | x |
+| x | HDG Steel Block | x |
+
+## Encased Fan
+### 설명
+- 레시피 변경
+
+### Encased Fan(Create)
+| 재료 | 재료 | 재료 |
+|----------|--------|--------|
+| x | Shaft | x |
+| x | HDG Steel Mechanism Block | x |
+| x | Propeller | x |
+
+## Propeller
+### 설명
+- 레시피 변경
+
+### Propeller(Create)
+| 재료 | 재료 | 재료 |
+|----------|--------|--------|
+| x | HDG Steel Sheet | x |
+| HDG Steel Sheet | Andesite Alloy | HDG Steel Sheet |
+| x | HDG Steel Sheet | x |
+
+## Polished Brass Ingot
+### 설명
+- Brass Ingot 을 Bulk sanding
+
+## Polished Brass Sheet
+- Polished Brass Ingot 을 납작하게
