@@ -1,14 +1,29 @@
-## 해머
+## Hammer
 ### 설명 
 - Create: Diesel Generators 모드에 있는 해머를 사용
 - ingot이랑 조합 시 plate를 제작하고 내구도를 소모
 - 내구도는 20회 사용 분량
-
-## 니퍼
+```Javascript
+// kubejs/startup_scripts/hammer.js
+ItemEvents.modification(event => {
+    event.modify('createdieselgenerators:hammer', item => {
+        item.maxDamage = 20
+    })
+})
+```
+## Wire Cutter
 ### 설명 
 - Create: Diesel Generators 모드에 있는 니퍼를 사용
 - plate랑 조합 시 wire를 제작하고 내구도를 소모
 - 내구도는 20회 사용 분량
+```Javascript
+// kubejs/startup_scripts/wire_cutter.js
+ItemEvents.modification(event => {
+    event.modify('createdieselgenerators:wire_cutters', item => {
+        item.maxDamage = 20
+    })
+})
+```
 
 ## Coke Oven(Multi Block)
 ### 설명
