@@ -54,7 +54,7 @@ ItemEvents.modification(event => {
 | Brick | Sand Stone(c:sandstone) | Brick |
 | Clay | Brick | Clay |
 
-## 코드
+### 코드
 ```javascript
 MBDMachineEvents.onTick('mbd2:coke_oven_core', event => {
     const machine = event.getEvent().getMachine();
