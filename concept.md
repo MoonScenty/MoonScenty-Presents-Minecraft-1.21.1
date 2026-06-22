@@ -47,12 +47,49 @@ ItemEvents.modification(event => {
 | Brick | Furnace | Brick |
 | Clay | Brick | Clay |
 
+```javascript
+ServerEvents.recipes(event => {
+    event.shaped(
+        Item.of('kubejs:coke_oven_core'),
+        [
+            'CBC',
+            'BFB',
+            'CBC'
+        ],
+        {
+            C: 'minecraft:clay_ball',
+            B: 'minecraft:brick',
+            F: 'minecraft:furnace'
+        }
+    )
+})
+```
+
+
 ### Coke Oven Bricks(KubeJS)
 | 재료 | 재료 | 재료 |
 |----------|--------|--------|
 | Clay | Brick | Clay |
 | Brick | Sand Stone(c:sandstone) | Brick |
 | Clay | Brick | Clay |
+
+```javascript
+ServerEvents.recipes(event => {
+    event.shaped(
+        Item.of('kubejs:coke_oven_bricks'),
+        [
+            'CBC',
+            'BSB',
+            'CBC'
+        ],
+        {
+            C: 'minecraft:clay_ball',
+            B: 'minecraft:brick',
+            S: '#c:sandstone'
+        }
+    )
+})
+```
 
 ### 코드
 ```javascript
@@ -186,12 +223,48 @@ MBDMachineEvents.onTick('mbd2:blast_furnace_core', event => {
 | Brick | Furnace | Brick |
 | Nether Brick | Brick | Nether Brick |
 
+```javascript
+ServerEvents.recipes(event => {
+    event.shaped(
+        Item.of('kubejs:blast_furnace_core'),
+        [
+            'NBN',
+            'BFB',
+            'NBN'
+        ],
+        {
+            N: 'minecraft:nether_brick',
+            B: 'minecraft:brick',
+            F: 'minecraft:furnace'
+        }
+    )
+})
+```
+
 ### Blast Furnace Bricks(KubeJS)
 | 재료 | 재료 | 재료 |
 |----------|--------|--------|
 | Nether Brick | Brick | Nether Brick |
 | Brick | Blaze Rod | Brick |
 | Nether Brick | Brick | Nether Brick |
+
+```javascript
+ServerEvents.recipes(event => {
+    event.shaped(
+        Item.of('kubejs:blast_furnace_bricks'),
+        [
+            'NBN',
+            'BRB',
+            'NBN'
+        ],
+        {
+            N: 'minecraft:nether_brick',
+            B: 'minecraft:brick',
+            R: 'minecraft:blaze_rod'
+        }
+    )
+})
+```
 
 ## HDG Steel Mechanism Block
 ### 설명
