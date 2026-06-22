@@ -126,20 +126,52 @@ function getBurnTime(stack) {
 - 동작에는 Core 밑에 Blaze Burner가 필요
 
 ### 코드
-```Java
-MBDMachineEvents.onTick("machine:id", event => {
-    var machine = event.getEvent().getMachine();
-    var dir = machine.getPos().offset(multiplyVector(machine.getFrontFacing().get().getNormal(), 0,0,-1)).offset(0,-1,0/*<<<<< offset here*/);
-    if(machine.level.getBlock(dir).id != "create:blaze_burner") console.error("Expected blaze burner, got " + machine.level.getBlock(dir).id); // this line is for debugging, if it works, remove for performance
-    var heat = machine.getLevel().getBlockEntity(dir).saveWithId().get("fuelLevel");
-    machine.getCustomData().putBoolean("heated", heat > 0);
-    machine.getCustomData().putBoolean("superHeated", heat > 1);
-    
-});
+```javascript
+const BlazeBurnerBlock = Java.loadClass(
+    "com.simibubi.create.content.processing.burner.BlazeBurnerBlock"
+);
 
-function multiplyVector(vec, x, y, z) {
-    return new Vec3i(vec.getX() * x, vec.getY() * y, vec.getZ() * z);
-}
+MBDMachineEvents.onTick('mbd2:blast_furnace_core', event => {
+    const machine = event.getEvent().getMachine();
+    const level = machine.getLevel();
+
+    const bricksPos = machine.getPos().offset(0, 1, 0);
+    const bricksBlock = level.getBlock(bricksPos);
+    const bricksBlockId = String(bricksBlock.id);
+
+    const burnerPos = machine.getPos().offset(0, -1, 0);
+    const burnerBlock = level.getBlock(burnerPos);
+    const burnerBlockId = String(burnerBlock.id);
+
+    if (bricksBlockId != 'kubejs:blast_furnace_bricks') {
+        machine.getCustomData().putBoolean("isHereBricks", false);
+        machine.getCustomData().putBoolean("heated", false);
+        machine.getCustomData().putBoolean("superHeated", false);
+        return;
+    }
+
+    machine.getCustomData().putBoolean("isHereBricks", true);
+
+    if (burnerBlockId !== "create:blaze_burner") {
+        machine.getCustomData().putBoolean("heated", false);
+        machine.getCustomData().putBoolean("superHeated", false);
+        return;
+    }
+
+    const state = level.getBlockState(burnerPos);
+    const heatLevel = String(state.getValue(BlazeBurnerBlock.HEAT_LEVEL)).toUpperCase();
+
+    machine.getCustomData().putBoolean(
+        "heated",
+        heatLevel === "KINDLED" || heatLevel === "SEETHING"
+    );
+
+    machine.getCustomData().putBoolean(
+        "superHeated",
+        heatLevel === "SEETHING"
+    );
+
+});
 ```
 
 ### 레시피
