@@ -54,6 +54,26 @@ ItemEvents.modification(event => {
 | Brick | Sand Stone(c:sandstone) | Brick |
 | Clay | Brick | Clay |
 
+## 코드
+```javascript
+MBDMachineEvents.onTick('mbd2:coke_oven_core', event => {
+    const machine = event.getEvent().getMachine();
+    const level = machine.getLevel();
+
+    const burnerPos = machine.getPos().offset(0, 1, 0);
+
+    const block = level.getBlock(burnerPos);
+    const blockId = String(block.id);
+
+    if (blockId !== 'kubejs:coke_oven_bricks') {
+        machine.getCustomData().putBoolean("isHereBricks", false);
+        return;
+    }
+    machine.getCustomData().putBoolean("isHereBricks", true);
+
+});
+```
+
 ## Blaze Burner
 ### 설명
 - 연료는 Coal Coke와 Blaze Cake만 받음
