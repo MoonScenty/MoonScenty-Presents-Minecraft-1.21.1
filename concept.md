@@ -77,6 +77,45 @@ MBDMachineEvents.onTick('mbd2:coke_oven_core', event => {
 ## Blaze Burner
 ### 설명
 - 연료는 Coal Coke와 Blaze Cake만 받음
+### 코드
+```javascript
+// 이전 버전에서는 태그로 구분이 가능했었는데 datamap으로 바꿨더라... 후
+const RecipeType = Java.loadClass("net.minecraft.world.item.crafting.RecipeType");
+
+BlockEvents.rightClicked("create:blaze_burner", event => {
+    const stack = event.player.mainHandItem;
+
+    if (stack.empty) return;
+
+    const burnTime = getBurnTime(stack);
+
+    // 허용 연료
+    if (stack.id === "kubejs:coal_coke") {
+        return;
+    }
+
+    if (stack.id === "create:blaze_cake") {
+        return;
+    }
+
+    // 그 외 furnace fuel은 Blaze Burner에서만 차단
+    if (burnTime > 0) {
+        event.cancel();
+        return;
+    }
+
+});
+
+function getBurnTime(stack) {
+    try {
+        return stack.getBurnTime(RecipeType.SMELTING);
+    } catch (e) {
+        //console.info("getBurnTime(RecipeType.SMELTING) failed: " + e);
+    }
+
+    return 0;
+}
+```
 
 ## Blast Furnace(Multi Block)
 ### 설명
