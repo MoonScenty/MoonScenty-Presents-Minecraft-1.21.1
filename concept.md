@@ -50,7 +50,7 @@ ItemEvents.modification(event => {
 ```javascript
 ServerEvents.recipes(event => {
     event.shaped(
-        Item.of('kubejs:coke_oven_core'),
+        Item.of('mbd2:coke_oven_core'),
         [
             'CBC',
             'BFB',
@@ -85,7 +85,7 @@ ServerEvents.recipes(event => {
         {
             C: 'minecraft:clay_ball',
             B: 'minecraft:brick',
-            S: '#c:sandstone'
+            S:  Ingredient.of('#c:sandstone')
         }
     )
 })
@@ -226,7 +226,7 @@ MBDMachineEvents.onTick('mbd2:blast_furnace_core', event => {
 ```javascript
 ServerEvents.recipes(event => {
     event.shaped(
-        Item.of('kubejs:blast_furnace_core'),
+        Item.of('mbd2:blast_furnace_core'),
         [
             'NBN',
             'BFB',
