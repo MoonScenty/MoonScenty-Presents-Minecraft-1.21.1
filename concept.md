@@ -315,7 +315,7 @@ ServerEvents.recipes(event => {
 
 
 
-## Industrial Ingot
+## Industrial Ingot 관련
 - 모든 Industrial Ingot을 Create Deco 모드로 통일(Create: More Bridges)
 
 ## Stirling Engine
@@ -338,9 +338,9 @@ ServerEvents.recipes(event => {
 ### Flywheel (Create)
 | 재료 | 재료 | 재료 |
 |----------|--------|--------|
-| HDG Steel | HDG Steel | HDG Steel |
-| HDG Steel | Shaft | HDG Steel |
-| HDG Steel | HDG Steel | HDG Steel |
+| HDG Steel Ingot | HDG Steel Ingot | HDG Steel Ingot |
+| HDG Steel Ingot | Shaft | HDG Steel Ingot |
+| HDG Steel Ingot | HDG Steel Ingot | HDG Steel Ingot |
 
 ## Water Wheel and Large Water Wheel
 ### 설명
@@ -427,9 +427,9 @@ ServerEvents.recipes(event => {
 | HDG Steel Sheet | Andesite Alloy | HDG Steel Sheet |
 | x | HDG Steel Sheet | x |
 
-## Polished Brass Ingot
+## Haunted Brass Ingot
 ### 설명
-- Brass Ingot 을 Bulk sanding
+- Brass Ingot 을 Bulk haunting
 
-## Polished Brass Sheet
-- Polished Brass Ingot 을 납작하게
+## Haunted Brass Sheet
+- Haunted Brass Ingot 을 납작하게
