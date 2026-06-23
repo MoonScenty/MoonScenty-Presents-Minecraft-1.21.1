@@ -110,13 +110,13 @@ MBDMachineEvents.onTick('mbd2:coke_oven_core', event => {
 
 });
 ```
-## Treated Wood Planks
+## Treated Wood Log
 ### 설명
-- Creosote를 planks에 발라 만듬
+- Creosote를 stripped_log에 발라 만듬
 
 ### Treated Wood Planks(KubeJS)
 - Shapeless
-- c:planks x 4 , creosote bucket x 1
+- minecraft:stripped_log x 1, creosote bucket x 1
 
 
 ## Blaze Burner
