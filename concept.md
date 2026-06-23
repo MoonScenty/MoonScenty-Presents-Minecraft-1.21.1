@@ -279,8 +279,41 @@ ServerEvents.recipes(event => {
 
 ## Industrial Cogwheel(Design n' Decor)
 ### 설명
-- 기존의 나무로 된 cogwheel들은 모두 밴(안타까운 이야기입니다)
-- 기존의 cogwheel을 Industrial Cogwheel로 교체
+- 기존의 나무로 된 cogwheel들은 모두 deploying 레시피로 변경
+- 동력 전달을 위해서 Industrial Cogwheel을 사용합시다.
+
+### 코드
+```javascript
+ServerEvents.recipes(event => {
+  // 기존 레시피 제거
+  event.remove({ output: 'create:cogwheel' })
+
+  // Shaft + 아무 나무 판자 -> Cogwheel
+  event.recipes.create.deploying(
+    'create:cogwheel',
+    [
+      'create:shaft',
+      Ingredient.of('#minecraft:planks')
+    ]
+  ).id('kubejs:deploying_cogwheel')
+})
+
+ServerEvents.recipes(event => {
+  // 기존 Large Cogwheel 레시피 제거
+  event.remove({ output: 'create:large_cogwheel' })
+
+  // Shaft + Pressure Plate -> Large Cogwheel
+  event.recipes.create.deploying(
+    'create:large_cogwheel',
+    [
+      'create:shaft',
+      Ingredient.of('#minecraft:wooden_pressure_plates')
+    ]
+  ).id('kubejs:deploying_large_cogwheel')
+})
+```
+
+
 
 ## Industrial Ingot
 - 모든 Industrial Ingot을 Create Deco 모드로 통일(Create: More Bridges)
