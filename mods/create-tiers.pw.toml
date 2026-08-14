@@ -1,0 +1,13 @@
+name = "Create Tiers"
+filename = "create-tiers-neoforge-1.21.1-0.2.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bcd1edac8ddd27ddb1921ef5afbaaeadde27b6f4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8375592
+project-id = 1487875

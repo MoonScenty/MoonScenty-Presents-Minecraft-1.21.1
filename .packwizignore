@@ -1,0 +1,10 @@
+# This file follows .gitignore syntax and controls files included in exports.
+/.git/
+/.gitattributes
+/.gitignore
+/.packwizignore
+/README.md
+/CHANGELOG.md
+*.zip
+*.mrpack
+packwiz.exe

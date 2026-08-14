@@ -1,0 +1,11 @@
+name = "MoonScenty Presents Minecraft 1.21.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "33cbba13af6385fd8a53c5e67040f7838a3ac0ac626b0f782f396b630737885f"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.248"

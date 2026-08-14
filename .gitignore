@@ -1,0 +1,13 @@
+# Exported modpacks
+*.zip
+*.mrpack
+
+# Local packwiz executable
+packwiz.exe
+
+# Minecraft runtime data
+logs/
+crash-reports/
+saves/
+screenshots/
+backups/
