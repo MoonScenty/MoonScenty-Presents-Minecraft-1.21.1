@@ -529,12 +529,172 @@ file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
+file = "kubejs/assets/balm/lang/ko_kr.json"
+hash = "d0ec8bea3c22ab855b717922230ec6b2fb739096fc55721604655b0d7d87f8c1"
+
+[[files]]
+file = "kubejs/assets/bookshelf/lang/ko_kr.json"
+hash = "b85d919b3936bd358cb082b52b02b621d312d39e3f0985bf5f978ad71edc89cf"
+
+[[files]]
+file = "kubejs/assets/create_bb/lang/ko_kr.json"
+hash = "04ad8cca2ee85bd357b33450c1f941dfeb4bc8f3219f538d729bbad510168666"
+
+[[files]]
+file = "kubejs/assets/create_bic_bit/lang/ko_kr.json"
+hash = "daf353b0748cd2bf5e21c62e4d432e84b52815560c3982b672ec72b6cb8b0537"
+
+[[files]]
+file = "kubejs/assets/create_central_kitchen/lang/ko_kr.json"
+hash = "2587e1282ef71dc1f6a8642ffa5f5eaa0a7af0c1719f593740fcee2bf95c1731"
+
+[[files]]
+file = "kubejs/assets/create_dragons_plus/lang/ko_kr.json"
+hash = "f05f7cc6f14be6520f1c9ee28cafa3fe64bf03935090d295905ea2e550eb0d4f"
+
+[[files]]
+file = "kubejs/assets/create_enchantment_industry/lang/ko_kr.json"
+hash = "273b3794e11173f729bf5951f1c054af41b7579a38e4f1fe70fa38d09b4a9bc7"
+
+[[files]]
+file = "kubejs/assets/create_integrated_farming/lang/ko_kr.json"
+hash = "47647e65307b2d3f8071a2efccbdc265944554537441803fcb6a335f517dfa8b"
+
+[[files]]
+file = "kubejs/assets/create_unbreakable_tools_series/lang/ko_kr.json"
+hash = "75231aa617a17bb4ac7467c3f8a92064f27031cd0fda3f8bbcb3773091abc301"
+
+[[files]]
+file = "kubejs/assets/createatomic/lang/ko_kr.json"
+hash = "b01461582f5364b9f64a26c4a1f78617888ae1318a739eafa1c5b3271407d3cf"
+
+[[files]]
+file = "kubejs/assets/createdeco/lang/ko_kr.json"
+hash = "9ed87eb0c055624733d3e890b9d98f68578c1b9323b7d23b0f5239705411e9d3"
+
+[[files]]
+file = "kubejs/assets/createdynlight/lang/ko_kr.json"
+hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+
+[[files]]
+file = "kubejs/assets/createmetallurgy/lang/ko_kr.json"
+hash = "e39d7fd64fb8648485aeccbfcb3a1dcfc10b133e550bfcd0848663a662feb2fc"
+
+[[files]]
+file = "kubejs/assets/createtransmission/lang/ko_kr.json"
+hash = "08ecd65204003eafef76fb50dd4437a5c4fd701bfc7911c468837263bb58ee69"
+
+[[files]]
+file = "kubejs/assets/createtreadmill/lang/ko_kr.json"
+hash = "dac0e48bd721d233a3005a00c9a5053ab8e4b7af862606238d6b39d20f9d87a6"
+
+[[files]]
+file = "kubejs/assets/createultimine/lang/ko_kr.json"
+hash = "2e5e47d680e01401fd0309fa9a74fdc895caefc1d76f270b3b004c47a5e9e6b6"
+
+[[files]]
+file = "kubejs/assets/createutilities/lang/ko_kr.json"
+hash = "36e81b332e1a0723ac50eb84af07bf660277cd48a792508a8014f9394e751496"
+
+[[files]]
+file = "kubejs/assets/createvintageneoforged/lang/ko_kr.json"
+hash = "703bace15f80a6376c52535b56595cf655a1c0c2cbc3fa9c2c2947be0baf9f26"
+
+[[files]]
+file = "kubejs/assets/dndesires/lang/ko_kr.json"
+hash = "a268388c2c7b5ff0a4794ae16c83d6339df98d8b84cc7aef2613a62f77692e17"
+
+[[files]]
+file = "kubejs/assets/entity_model_features/lang/ko_kr.json"
+hash = "0d536a1f1de67848b20117ee2deb7bef6a25da47c9869167ae9063065d0b8786"
+
+[[files]]
+file = "kubejs/assets/entity_texture_features/lang/ko_kr.json"
+hash = "ee70db42b70b332e57b6f4d5a24d5a14c33474e7d7adffb7d7b23c2e2806e8a3"
+
+[[files]]
+file = "kubejs/assets/entityculling/lang/ko_kr.json"
+hash = "6836affa4ebf3e75ab6df71fe7faec907a2877e41db04529656796e2b6870a88"
+
+[[files]]
+file = "kubejs/assets/ftblibrary/lang/ko_kr.json"
+hash = "f5cdb4603d8c0857c867a9f1cd218ae1472080419ebc5462c0533f2c332a1cce"
+
+[[files]]
+file = "kubejs/assets/ftbquests/lang/ko_kr.json"
+hash = "7460e1970a1304a0e94e05c80868c81622772d3560d50d3118f4555370d7868c"
+
+[[files]]
+file = "kubejs/assets/fusion/lang/ko_kr.json"
+hash = "16b0b24d9e5aa0fdec54a625655376add4b76a385831dc7d65abe0435cbe7b7e"
+
+[[files]]
+file = "kubejs/assets/guideme/lang/ko_kr.json"
+hash = "908fc8a644b0bf865ce31ed31dcdb9716c4e4da89bbec7ce017bf8a69315315d"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
 hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+
+[[files]]
+file = "kubejs/assets/mechanicals/lang/ko_kr.json"
+hash = "9bc78a74dd9990ca483bea15284817bdbfa16a53d4fed8034ac2486fa8a79909"
+
+[[files]]
+file = "kubejs/assets/modernfix/lang/ko_kr.json"
+hash = "aeab85d3fd1d8edbbd277e8a665e97c4e98ba0a813c8ba46f009f80ea6b4e0d8"
+
+[[files]]
+file = "kubejs/assets/notenoughanimations/lang/ko_kr.json"
+hash = "ab8a7a27604fbcbfdddeeef1f5efbaeaf2a61aeab5396906731b3e9a7f9b940b"
+
+[[files]]
+file = "kubejs/assets/nowheel/lang/ko_kr.json"
+hash = "f4e497f9585c09738be24c888f97238823410331033d9b3e8ff353f9ed2e3db1"
+
+[[files]]
+file = "kubejs/assets/petrochem/lang/ko_kr.json"
+hash = "08838c4106a4c41d6404d1b96ef1858a6b2ac5904acc3091c6d00b3bd7e1796a"
+
+[[files]]
+file = "kubejs/assets/rechiseled/lang/ko_kr.json"
+hash = "6117e7e7c32040b3a27091b4505437d273c89441ec85f99703a988150a72b66c"
+
+[[files]]
+file = "kubejs/assets/rechiseledcreate/lang/ko_kr.json"
+hash = "67834063f1cf9e146ce441fdc4fbc66d513f76ac2fe5bddafd777f3bd2d85101"
+
+[[files]]
+file = "kubejs/assets/reeses-sodium-options/lang/ko_kr.json"
+hash = "f32895fa7de9f7ae6a2d0eb475e9ef445d360777e063ebc46035bf897c8e8907"
+
+[[files]]
+file = "kubejs/assets/rubberworks/lang/ko_kr.json"
+hash = "ca7f6d393b3010d98c7cc39b4cdcb289484ef6302cd766f4845aa900e7401ec5"
+
+[[files]]
+file = "kubejs/assets/sodiumdynamiclights/lang/ko_kr.json"
+hash = "c4d649e0ee7a9e169f2d8509f03d0c89ae7e8bb3def97fd0e642e1144e84b50e"
+
+[[files]]
+file = "kubejs/assets/supermartijn642corelib/lang/ko_kr.json"
+hash = "db0d00cf20bda7f7523c60809a2f7574084b7ab6cf5fa0cf333ff57ee0627bbe"
+
+[[files]]
+file = "kubejs/assets/toastcontrol/lang/ko_kr.json"
+hash = "8d7bdf3991cc9a5cd644c989c5ad2d72b6e112ed774efc6b83a2840192c949e7"
+
+[[files]]
+file = "kubejs/assets/xaerobetterpvp/lang/ko_kr.json"
+hash = "2f7acc8caa0e6d6f93bfecad0c2af5629c9312c92bb111464569b05068bf095d"
+
+[[files]]
+file = "kubejs/assets/zeta/lang/ko_kr.json"
+hash = "00f5ff0458f53a8728bb7b25e4262d5e12a7f1e0171ea33cf76cc190802b9f78"
 
 [[files]]
 file = "kubejs/client_scripts/main.js"
