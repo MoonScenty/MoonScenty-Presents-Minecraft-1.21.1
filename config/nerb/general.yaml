@@ -1,0 +1,3 @@
+# Recipe Book mode:
+# DISABLED removes the recipe book button and disables its default functionality.
+buttonMode: DISABLED
