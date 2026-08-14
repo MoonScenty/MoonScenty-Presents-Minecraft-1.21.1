@@ -936,6 +936,11 @@ hash = "346f28e2ec19543a6b410bf2cf5389401bc6d1aa0189e39d07bf11d64d8bd321"
 metafile = true
 
 [[files]]
+file = "mods/fancy-toasts.pw.toml"
+hash = "29be823efa9da654953dcb7df12bc20f69be6aaed73a9d1e05c5aae85538c10b"
+metafile = true
+
+[[files]]
 file = "mods/fancymenu.pw.toml"
 hash = "02155d3a34a5624446f0d2231f2232efe5fb2059374e3655c7dd7eaaaec784a1"
 metafile = true
@@ -1133,11 +1138,6 @@ metafile = true
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
 hash = "d50dfa866f719fe606d34bb81b0e466c1e6017878fa6b58b405e419ceaf9ee0d"
-metafile = true
-
-[[files]]
-file = "mods/toast-control.pw.toml"
-hash = "29d1e04030fcbdad4ee91eb9bc0b0d6b8907ffe967c9bd0543e8bb7e3dab5282"
 metafile = true
 
 [[files]]
