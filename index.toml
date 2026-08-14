@@ -369,6 +369,10 @@ file = "config/neoforge-server.toml"
 hash = "b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f"
 
 [[files]]
+file = "config/noadvancements_config.toml"
+hash = "b3051ec739b44782668e280df89c3aaea22b154bf5dbdc34ef014bdae8dc1bf7"
+
+[[files]]
 file = "config/notenoughanimations.json"
 hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
@@ -719,6 +723,11 @@ hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 [[files]]
 file = "kubejs/startup_scripts/main.js"
 hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
+
+[[files]]
+file = "mods/advancement-disabler.pw.toml"
+hash = "6c8480d437335c16dc18f5a4b084cd9dab634ecd9c29b124351342b9b95ae72a"
+metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"

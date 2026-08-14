@@ -11,7 +11,8 @@
 - 워든은 처치 대상으로 취급하지 않습니다. Deep Dark 분기는 잠입, 탐색, 전리품 회수와 생환을 목표로 합니다.
 - 농사, 주민, 탐험, 레드스톤과 양조는 메인 진행을 막지 않는 선택 분기로 구성합니다.
 - 아이템 감지 과제는 가능한 한 아이템을 소비하지 않도록 설정합니다.
-- 바닐라 발전 과제로 확인할 수 있는 목표는 발전 과제 감지를 우선 사용합니다.
+- 바닐라 발전 과제는 비활성화하므로 아이템, 엔티티 처치, 차원 진입, 통계 또는 KubeJS 이벤트로 목표를 직접 감지합니다.
+- 모드 발전 과제는 호환성을 위해 유지하며, 안정적인 공개 발전 과제는 퀘스트 감지 조건으로 사용할 수 있습니다.
 - 보상은 다음 진행을 건너뛰게 하는 장비보다 음식, 횃불, 경험치, 장식품과 기념품을 우선합니다.
 - Create 기술 시대는 별도의 퀘스트 챕터로 구성하고 이 문서에서는 연결 지점만 다룹니다.
 
@@ -563,4 +564,3 @@ Deep Dark는 보스를 쓰러뜨리는 전투 챕터가 아닙니다. 워든은 
 - [Minecraft Wiki: Beginner's Guide](https://minecraft.wiki/w/Tutorial%3ABeginner%27s_guide)
 - [Minecraft Wiki: Complete Main Adventure](https://minecraft.wiki/w/Tutorial%3AComplete_main_adventure)
 - [Minecraft Wiki: Defeating the Ender Dragon](https://minecraft.wiki/w/Tutorial%3ADefeating_the_ender_dragon)
-

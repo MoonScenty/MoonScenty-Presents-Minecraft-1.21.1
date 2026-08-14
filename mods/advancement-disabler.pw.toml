@@ -1,0 +1,13 @@
+name = "- Advancement Disabler"
+filename = "neoforge-1.20.2_1.21.11.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6f3f8301d2a5c283d997e7cd662d3bb10be4e3a6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7728362
+project-id = 1480416

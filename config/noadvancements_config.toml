@@ -1,0 +1,8 @@
+# Disable vanilla advancements in favor of the FTB Quests tutorial line.
+disableVanillaAdvancements = true
+
+# Keep modded advancements because some mods may use them for progression or internal triggers.
+disableModdedAdvancements = false
+
+# Hide the vanilla advancements screen; progression is presented through FTB Quests.
+hideAdvancementScreen = true
