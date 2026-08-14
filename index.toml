@@ -249,6 +249,22 @@ file = "config/ftbquests-client.snbt"
 hash = "122a0205ec0cbf63f1db42f24f6c5c6095f54083f2c4f985c473acd2e228988f"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "3899c2186cf6071e680d8d413ef2b07ff6f7973cb3522cd09260450b26fb07b1"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/tutorial.snbt"
+hash = "e06cb4712f28d746eb5b5b5b0e7b4972ff68f503de4fd57f6d13f3da3169bbec"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "e93fc2fb13aeddfd3a747af0fdb6da873898205873410cb0e452704aa92a77f3"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/tutorial.snbt"
+hash = "49a877bc36c699d871983493d6376137161f22dad39e96d3d098b90bc94c4e00"
+
+[[files]]
 file = "config/ftbteams-server.snbt"
 hash = "2ef5e2dca3a653ced3f3981a85a32832fb3716caa5fa05e233f50ab16044a2c4"
 
@@ -965,6 +981,11 @@ hash = "dff824171060c79b327a4880c2f0546c727a041a489ef3af643ec2dcd9cd0c48"
 metafile = true
 
 [[files]]
+file = "mods/ftb-filter-system.pw.toml"
+hash = "9cb8d355c77067b00a96d96db398f60db62a6ee238dabff45ade33dd8d9f9e3b"
+metafile = true
+
+[[files]]
 file = "mods/ftb-library-forge.pw.toml"
 hash = "276e79d919c3a698ab2881d784544b7e60bef69b43f44808353bb65d38633cb3"
 metafile = true
@@ -1047,6 +1068,11 @@ metafile = true
 [[files]]
 file = "mods/modernfix.pw.toml"
 hash = "b0364f6b95f6ed837239c232bad0e2d7317e58f0e4c040e66a4f533239d5775e"
+metafile = true
+
+[[files]]
+file = "mods/more-quest-types.pw.toml"
+hash = "e7cd37629df693ca65bbf6693c0540026c3d556878e951d60e3a10858f165b9a"
 metafile = true
 
 [[files]]

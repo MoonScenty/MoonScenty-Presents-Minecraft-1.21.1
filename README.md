@@ -44,13 +44,13 @@ Minecraft 1.21.1과 NeoForge 21.1.248를 기반으로 제작한 모드팩입니�
 - **마인크래프트 튜토리얼 퀘스트**: 바닐라 생존과 모드팩의 기본 사용법을 안내합니다.
 - **Create 기술 시대 퀘스트**: 각 시대의 핵심 설비, 생산 스택과 다음 시대 진입 조건을 안내합니다.
 
-마인크래프트 튜토리얼 퀘스트의 세부 구조, 제목 후보와 포스트게임 분기는 [QUEST_TUTORIAL.md](QUEST_TUTORIAL.md)에서 관리합니다.
+마인크래프트 튜토리얼 퀘스트의 세부 구조와 구현 현황은 [QUEST_TUTORIAL.md](QUEST_TUTORIAL.md)에서 관리합니다. 실제 퀘스트는 `Tutorial` 단일 챕터의 큰 진행도로 구성하며 게임 내 기본 문구는 영어로 작성합니다.
 
 ### 향후 확장
 
 추후 탐험 및 모험 관련 모드를 추가할 수 있습니다. 해당 모드에서 얻는 아이템은 기술 시대의 필수 진행 재료보다는 퀘스트라인의 특별 보상이나 성취감을 주는 보상 시스템에 활용할 예정입니다.
 
-## 모드 목록 (88개)
+## 모드 목록 (90개)
 
 각 모드는 주된 역할을 기준으로 분류했습니다. 여러 기능을 가진 모드는 모드팩에서 가장 크게 활용되는 분류에 배치했습니다.
 
@@ -166,13 +166,19 @@ Minecraft 1.21.1과 NeoForge 21.1.248를 기반으로 제작한 모드팩입니�
 - **Sophisticated Storage Create Integration**
   - Sophisticated Storage와 Create 물류 장치가 원활하게 아이템을 주고받도록 연동합니다.
 
-### 퀘스트 및 멀티플레이 (2개)
+### 퀘스트 및 멀티플레이 (4개)
+
+- **FTB Filter System**
+  - 태그와 논리 조건을 조합한 아이템 필터를 제공하여 '아무 원목'처럼 여러 아이템을 하나의 퀘스트 목표로 판정할 수 있게 합니다.
 
 - **FTB Quests (NeoForge)**
   - 진행 목표, 보상과 안내를 제공하는 퀘스트 시스템을 추가합니다.
 
 - **FTB Teams (NeoForge)**
   - 플레이어 팀 구성과 FTB 계열 모드의 팀 단위 데이터 공유 기능을 제공합니다.
+
+- **More Quest Types**
+  - 블록 파괴·설치, 몹 길들이기, 낚시와 주민 거래처럼 기본 FTB Quests만으로 부족한 행동 판정 과제를 추가합니다.
 
 ### 사망 및 아이템 복구 (1개)
 
@@ -411,6 +417,7 @@ packwiz update --all
 다음 폴더의 파일을 직접 수정할 수 있습니다.
 
 - `config/`: 클라이언트 및 공통 모드 설정
+- `config/ftbquests/quests/`: FTB Quests 챕터, 의존 관계와 영어 문구
 - `kubejs/client_scripts/`: 클라이언트 스크립트
 - `kubejs/server_scripts/`: 레시피와 서버 동작 스크립트
 - `kubejs/startup_scripts/`: 게임 시작 시 등록되는 콘텐츠 스크립트
@@ -429,12 +436,21 @@ CurseForge 앱에서 가져올 수 있는 클라이언트용 ZIP을 생성합니
 packwiz curseforge export -o "MoonScenty-Presents-0.1.0.zip"
 ```
 
+정식 릴리즈가 아닌 테스트 빌드는 `output/모드팩이름-YYYY-MM-DD-HHmmss.zip` 형식으로 생성합니다.
+
+```powershell
+$buildDate = Get-Date -Format "yyyy-MM-dd-HHmmss"
+packwiz curseforge export -o "output/MoonScenty Presents Minecraft 1.21.1-$buildDate.zip"
+```
+
 생성된 ZIP을 CurseForge 앱에서 새 프로필로 가져온 뒤 다음 항목을 확인합니다.
 
 - 게임이 오류 없이 실행되는지
 - 새 월드를 생성하고 다시 접속할 수 있는지
 - JEI에서 레시피가 정상적으로 표시되는지
 - Create 장치와 KubeJS 레시피가 정상적으로 작동하는지
+- FTB Quests의 단일 `Tutorial` 챕터가 오류 없이 열리고 263개 퀘스트의 배치, 목표 판정과 의존 관계가 정상적으로 작동하는지
+- Deep Dark와 위더 챕터가 에필로그 완료 전에는 숨겨지고 완료 후 각각 독립적으로 열리는지
 - Corpse가 일반 지형, 용암과 공허에서 사망 아이템을 정상적으로 보존하는지
 - Sophisticated Backpack과 Cosmetic Armor 슬롯의 아이템이 사망 후 정상적으로 복구되는지
 - 클라이언트 전용 모드 때문에 서버 실행이 실패하지 않는지

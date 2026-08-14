@@ -1,6 +1,7 @@
 # Exported modpacks
 *.zip
 *.mrpack
+output/
 
 # Local packwiz executable
 packwiz.exe
