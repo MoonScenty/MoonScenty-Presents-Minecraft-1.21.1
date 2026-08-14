@@ -5,6 +5,7 @@
 /.packwizignore
 /README.md
 /CHANGELOG.md
+/QUEST_TUTORIAL.md
 *.zip
 *.mrpack
 packwiz.exe
