@@ -1076,6 +1076,11 @@ hash = "8f47f534372061308021b082fe67802a0bb6cb323e1dbbeb911c461b4cfe0518"
 metafile = true
 
 [[files]]
+file = "mods/resource-pack-overrides.pw.toml"
+hash = "c4d9632be7af16a78d3f1c42937783cd38bddf69a63bdf85257c90bd75f3c314"
+metafile = true
+
+[[files]]
 file = "mods/rhino.pw.toml"
 hash = "2e8064e6ac6f707d6df65ee2738279ec31802ef70514584bb8c8a8ed2010f5f6"
 metafile = true
