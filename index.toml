@@ -1039,6 +1039,11 @@ hash = "0562522dfc3dc69842e1c76ede0f2da156125f9694828400d59739c844b74a7f"
 metafile = true
 
 [[files]]
+file = "mods/create-low-heated.pw.toml"
+hash = "6c3e9e4080fb19168d98020371eff4b9124a62215893921ec8db69b05eaee39e"
+metafile = true
+
+[[files]]
 file = "mods/create-mechanical-extruder.pw.toml"
 hash = "dd9ffc834ec8790d53e41c0ab6e784158158b69a78ffe4beea719d6b9e493cb8"
 metafile = true

@@ -68,7 +68,7 @@ Minecraft 1.21.1과 NeoForge 21.1.248를 기반으로 제작한 모드팩입니�
 - **Quark**
   - 바닐라 분위기를 유지하면서 건축, 탐험, 자동화와 편의 기능을 다양하게 확장합니다.
 
-### Create 생산·기술 확장 (18개)
+### Create 생산·기술 확장 (19개)
 
 - **Create Crafts & Additions**
   - Create에 전기 모터, 발전기, 전선 및 추가 자동화 장치를 더합니다.
@@ -99,6 +99,9 @@ Minecraft 1.21.1과 NeoForge 21.1.248를 기반으로 제작한 모드팩입니�
 
 - **Create: Integrated Farming**
   - Create 장치와 연계되는 농업 기계 및 작물 자동화 기능을 추가합니다.
+
+- **Create Low-Heated**
+  - 수동 가열을 연료가 필요한 기본 버너로 대체하고, 분지 레시피에 저온 가열 단계를 추가해 열 생산을 자동화 과제로 만듭니다.
 
 - **Create: Metallurgy**
   - 금속을 녹이고 주조하는 Create 기반 야금 생산 체계를 추가합니다.
