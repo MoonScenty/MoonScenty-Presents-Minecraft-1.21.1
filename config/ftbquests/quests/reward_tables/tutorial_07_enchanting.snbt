@@ -1,0 +1,15 @@
+{
+	id: "6A00000000000007"
+	loot_crate: { color: 10158204, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "7장: 마법사의 서고 상자", string_id: "tutorial_07_enchanting" }
+	loot_size: 2
+	order_index: 7
+	rewards: [
+		{ count: 32, item: "minecraft:lapis_lazuli" }
+		{ count: 8, item: "minecraft:experience_bottle" }
+		{ count: 8, item: "minecraft:book" }
+		{ count: 16, item: "minecraft:leather" }
+		{ count: 16, item: "minecraft:amethyst_shard" }
+	]
+	title: "7장: 마법 부여 보급품"
+	use_title: true
+}

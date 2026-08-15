@@ -254,7 +254,7 @@ hash = "3899c2186cf6071e680d8d413ef2b07ff6f7973cb3522cd09260450b26fb07b1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tutorial.snbt"
-hash = "fbe1ab011f1d7bc408afab5d1c70455f50df174db906b82b00188513b73e0455"
+hash = "e512bec62efcacfbde9b38a480b95495ad73c8cbde439668b2f3ccbe9c229620"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -262,7 +262,83 @@ hash = "e93fc2fb13aeddfd3a747af0fdb6da873898205873410cb0e452704aa92a77f3"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "e3d2ac96269d3c5ad7ade687e52d40d76218ad9a9dc4780b1810708c2deb51a0"
+hash = "41025aef32c7ba9f3d052ebbf8fb23eb175169f372a6d650d50f670f46708714"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/tutorial_00_welcome.snbt"
+hash = "8556dae75bbaecb49bd74ef48ab81b292f9309d07e0256327defd1e6ce99ffa7"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/tutorial_01_wood.snbt"
+hash = "24d0c955b6c30831faa4031c6bf4d9bc5e4affd28a847adb86355b47756a52a0"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/tutorial_02_stone.snbt"
+hash = "524aec29ad391083764bcd86ce036071702bc8acf2f462b04e88ba67af1bd77c"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/tutorial_03_food.snbt"
+hash = "8ebd93283f342eca4603a9471577b1b9a413c88b8f590890700decf55ac02a8a"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/tutorial_04_iron.snbt"
+hash = "213cac13e8b8d74e666c01a402f60a847d192732989652790dc7f08b32e2797c"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/tutorial_05_mining.snbt"
+hash = "7df879ced654de4d655aa2085f33b5017af4fa4b77cb91e96d8726eac99153ec"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/tutorial_06_combat.snbt"
+hash = "3c641428ea912ca2980a28e6954142bee313806c6ce82e2ab577928a95adc8e4"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/tutorial_07_enchanting.snbt"
+hash = "92668208ff4540763505b638f27ecf4959716e37d7c08d50ffe7515edfabd83d"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/tutorial_08_villagers.snbt"
+hash = "5fe772dac57b47cacc7a2166e54510bc8e8eb4a647e8c66c41486338edf9ce5d"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/tutorial_09_exploration.snbt"
+hash = "c071fcc3c19b176ed45d0cdbbd0eb0ef54e6a5dd12c00ddd712a0651e3324a8d"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/tutorial_10_redstone.snbt"
+hash = "070bdb1d39f8c31abe1958214ef980b047da69827217d89e60a2f2ef6e300a71"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/tutorial_11_nether.snbt"
+hash = "ca4c828640385c7e784310675cb94159eb6187c6562099b83815eed1852e108a"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/tutorial_12_brewing.snbt"
+hash = "a0ff473ce2b083cc96c8dc020f603be0fc7a9a1ea7105cd9bb7c815eeac6952e"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/tutorial_13_stronghold.snbt"
+hash = "88296cea0695c6d5c9c98aa9c85608028fe305ededf9e00fc5eb9f2d87306b3f"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/tutorial_14_dragon_prep.snbt"
+hash = "3ae8b55c70c1746bdd3ab18ed3ce9b9211a7a88dd90e93f1b9b73d5f4d93a68f"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/tutorial_15_dragon.snbt"
+hash = "89d0732946e2a274443cd7a38ad5bc1801a7e4d55fc5602f3bc59984c761cf82"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/tutorial_16_end.snbt"
+hash = "6ba4c69ba2c83e08ff5b7c87f52be36905d1414a242e7afe47afb3682ecc702c"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/tutorial_17a_deep_dark.snbt"
+hash = "8ec5c5fd3f807a015705e3f83692b2025f66f69850c4e09e72966214cd727ff8"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/tutorial_17b_wither.snbt"
+hash = "812cb96d736c5befecdef60d3ca354ca657c536efc3da2a37a23a6f102d767e9"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -990,6 +1066,16 @@ hash = "dff824171060c79b327a4880c2f0546c727a041a489ef3af643ec2dcd9cd0c48"
 metafile = true
 
 [[files]]
+file = "mods/ftb-chunks-forge.pw.toml"
+hash = "0922cfee3b7351e62fb22ccc6e5a59f35fd99fe80737dc861ada3b5407ecdf87"
+metafile = true
+
+[[files]]
+file = "mods/ftb-essentials.pw.toml"
+hash = "6fa984dc1b5905ae909b417ed1cd92d6b536ba4832ed8c8d95aa9d424ad789df"
+metafile = true
+
+[[files]]
 file = "mods/ftb-filter-system.pw.toml"
 hash = "9cb8d355c77067b00a96d96db398f60db62a6ee238dabff45ade33dd8d9f9e3b"
 metafile = true
@@ -1005,6 +1091,11 @@ hash = "89cd21d579629da99be6871a9bc877424c89bb37f227868cf952b866efa8211a"
 metafile = true
 
 [[files]]
+file = "mods/ftb-ranks-forge.pw.toml"
+hash = "da91da44b5eafdbf7a964bae0f7b550722f46d5959752ca17c942da5436d9ef0"
+metafile = true
+
+[[files]]
 file = "mods/ftb-teams-forge.pw.toml"
 hash = "e717bb275a54a5caadaa7cf82bc34df3589f49402074adf93c31eaac43860313"
 metafile = true
@@ -1012,6 +1103,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-ultimine-forge.pw.toml"
 hash = "3529bc9c3a7b54933869be1d1d84a948d091c3d6064bbb6b17874d7c153b4dca"
+metafile = true
+
+[[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
+hash = "6a76a2faafbca6e5743c1907e5acf878b0ef75c29807452af8c2655439a1c085"
 metafile = true
 
 [[files]]

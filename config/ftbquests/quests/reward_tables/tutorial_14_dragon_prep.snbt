@@ -1,0 +1,15 @@
+{
+	id: "6A0000000000000E"
+	loot_crate: { color: 16755200, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "14장: 결전 준비 상자", string_id: "tutorial_14_dragon_prep" }
+	loot_size: 2
+	order_index: 14
+	rewards: [
+		{ count: 64, item: "minecraft:arrow" }
+		{ count: 4, item: "minecraft:golden_apple" }
+		{ count: 16, item: "minecraft:ender_pearl" }
+		{ count: 32, item: "minecraft:cooked_beef" }
+		{ count: 4, item: "minecraft:phantom_membrane" }
+	]
+	title: "14장: 드래곤전 보급품"
+	use_title: true
+}

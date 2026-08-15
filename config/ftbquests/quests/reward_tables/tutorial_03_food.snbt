@@ -1,0 +1,15 @@
+{
+	id: "6A00000000000003"
+	loot_crate: { color: 5619496, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "3장: 풍년의 식량 상자", string_id: "tutorial_03_food" }
+	loot_size: 2
+	order_index: 3
+	rewards: [
+		{ count: 16, item: "minecraft:bone_meal" }
+		{ count: 16, item: "minecraft:carrot" }
+		{ count: 16, item: "minecraft:potato" }
+		{ count: 16, item: "minecraft:cooked_chicken" }
+		{ count: 8, item: "minecraft:honey_bottle" }
+	]
+	title: "3장: 농업과 식량 보급품"
+	use_title: true
+}

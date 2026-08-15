@@ -1,0 +1,15 @@
+{
+	id: "6A0000000000000F"
+	loot_crate: { color: 8388736, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "15장: 드래곤 슬레이어의 상자", string_id: "tutorial_15_dragon" }
+	loot_size: 2
+	order_index: 15
+	rewards: [
+		{ count: 4, item: "minecraft:diamond" }
+		{ count: 16, item: "minecraft:experience_bottle" }
+		{ count: 32, item: "minecraft:firework_rocket" }
+		{ count: 16, item: "minecraft:glass_bottle" }
+		{ count: 16, item: "minecraft:obsidian" }
+	]
+	title: "15장: 드래곤 토벌 보급품"
+	use_title: true
+}

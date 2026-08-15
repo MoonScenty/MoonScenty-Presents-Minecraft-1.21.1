@@ -1,0 +1,15 @@
+{
+	id: "6A00000000000010"
+	loot_crate: { color: 5635925, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "16장: 외곽 엔드의 보물 상자", string_id: "tutorial_16_end" }
+	loot_size: 2
+	order_index: 16
+	rewards: [
+		{ count: 64, item: "minecraft:firework_rocket" }
+		{ count: 8, item: "minecraft:phantom_membrane" }
+		{ count: 4, item: "minecraft:shulker_shell" }
+		{ count: 8, item: "minecraft:diamond" }
+		{ count: 32, item: "minecraft:chorus_fruit" }
+	]
+	title: "16장: 엔드 탐험 보급품"
+	use_title: true
+}

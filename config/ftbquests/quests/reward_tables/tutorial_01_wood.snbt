@@ -1,0 +1,15 @@
+{
+	id: "6A00000000000001"
+	loot_crate: { color: 10053120, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "1장: 나무꾼의 보급 상자", string_id: "tutorial_01_wood" }
+	loot_size: 2
+	order_index: 1
+	rewards: [
+		{ count: 32, item: "minecraft:cobblestone" }
+		{ count: 16, item: "minecraft:coal" }
+		{ count: 16, item: "minecraft:oak_log" }
+		{ count: 16, item: "minecraft:torch" }
+		{ count: 8, item: "minecraft:leather" }
+	]
+	title: "1장: 첫 자원 보급품"
+	use_title: true
+}

@@ -1,0 +1,15 @@
+{
+	id: "6A00000000000002"
+	loot_crate: { color: 15044167, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "2장: 첫날밤 생존 상자", string_id: "tutorial_02_stone" }
+	loot_size: 2
+	order_index: 2
+	rewards: [
+		{ count: 16, item: "minecraft:cooked_beef" }
+		{ count: 32, item: "minecraft:torch" }
+		{ count: 16, item: "minecraft:coal" }
+		{ count: 8, item: "minecraft:white_wool" }
+		{ count: 16, item: "minecraft:glass" }
+	]
+	title: "2장: 정착 보급품"
+	use_title: true
+}

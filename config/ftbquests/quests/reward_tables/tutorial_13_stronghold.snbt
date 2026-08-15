@@ -1,0 +1,15 @@
+{
+	id: "6A0000000000000D"
+	loot_crate: { color: 6697881, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "13장: 근거지 탐사 상자", string_id: "tutorial_13_stronghold" }
+	loot_size: 2
+	order_index: 13
+	rewards: [
+		{ count: 32, item: "minecraft:arrow" }
+		{ count: 8, item: "minecraft:ender_pearl" }
+		{ count: 8, item: "minecraft:blaze_powder" }
+		{ count: 16, item: "minecraft:cooked_beef" }
+		{ count: 8, item: "minecraft:experience_bottle" }
+	]
+	title: "13장: 엔드 원정 보급품"
+	use_title: true
+}

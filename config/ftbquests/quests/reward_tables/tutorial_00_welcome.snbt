@@ -1,0 +1,15 @@
+{
+	id: "6A00000000000000"
+	loot_crate: { color: 9803157, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "0장: 초심자의 보급 상자", string_id: "tutorial_00_welcome" }
+	loot_size: 2
+	order_index: 0
+	rewards: [
+		{ count: 8, item: "minecraft:bread" }
+		{ count: 16, item: "minecraft:torch" }
+		{ count: 16, item: "minecraft:stick" }
+		{ count: 8, item: "minecraft:apple" }
+		{ count: 8, item: "minecraft:string" }
+	]
+	title: "0장: 게임 적응 보급품"
+	use_title: true
+}

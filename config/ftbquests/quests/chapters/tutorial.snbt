@@ -38,6 +38,7 @@
 			hide_dependency_lines: false
 			icon: { id: "ftbquests:book" }
 			id: "24BD4D58549E2AB9"
+			rewards: [{ id: "6B00000000000000", table_id: 7638104968020361216L, type: "loot" }]
 			tasks: [
 			{
 				id: "34D5BC3C670B4C9A"
@@ -177,6 +178,7 @@
 			hide_dependency_lines: false
 			icon: { id: "minecraft:cobblestone" }
 			id: "29525BE6E014E9E8"
+			rewards: [{ id: "6B00000000000001", table_id: 7638104968020361217L, type: "loot" }]
 			tasks: [
 			{
 				id: "36AC9616A2E0311B"
@@ -363,6 +365,7 @@
 			hide_dependency_lines: false
 			icon: { id: "minecraft:clock" }
 			id: "214BC51A55318E70"
+			rewards: [{ id: "6B00000000000002", table_id: 7638104968020361218L, type: "loot" }]
 			tasks: [
 			{
 				id: "38CAA5B7BD949D8B"
@@ -616,6 +619,7 @@
 			hide_dependency_lines: false
 			icon: { id: "minecraft:bread" }
 			id: "282D4717D7E2BE05"
+			rewards: [{ id: "6B00000000000003", table_id: 7638104968020361219L, type: "loot" }]
 			optional: true
 			tasks: [
 			{
@@ -936,6 +940,7 @@
 			hide_dependency_lines: false
 			icon: { id: "minecraft:iron_chestplate" }
 			id: "2AD72E75FF8F6967"
+			rewards: [{ id: "6B00000000000004", table_id: 7638104968020361220L, type: "loot" }]
 			tasks: [
 			{
 				id: "3BCE6266CF3FF0D4"
@@ -1150,6 +1155,7 @@
 			hide_dependency_lines: false
 			icon: { id: "minecraft:obsidian" }
 			id: "2683A9B7D4981410"
+			rewards: [{ id: "6B00000000000005", table_id: 7638104968020361221L, type: "loot" }]
 			tasks: [
 			{
 				id: "348DCEBCD0796C85"
@@ -1527,6 +1533,7 @@
 			hide_dependency_lines: false
 			icon: { id: "minecraft:ender_pearl" }
 			id: "28FF9EEBA1168340"
+			rewards: [{ id: "6B00000000000006", table_id: 7638104968020361222L, type: "loot" }]
 			optional: true
 			tasks: [
 			{
@@ -1692,6 +1699,7 @@
 			hide_dependency_lines: false
 			icon: { id: "minecraft:enchanted_book" }
 			id: "264FB21F62CC57A3"
+			rewards: [{ id: "6B00000000000007", table_id: 7638104968020361223L, type: "loot" }]
 			optional: true
 			tasks: [
 			{
@@ -1873,6 +1881,7 @@
 			hide_dependency_lines: false
 			icon: { id: "minecraft:ominous_bottle" }
 			id: "2CAEAF1A82769DD1"
+			rewards: [{ id: "6B00000000000008", table_id: 7638104968020361224L, type: "loot" }]
 			optional: true
 			tasks: [
 			{
@@ -2101,6 +2110,7 @@
 			hide_dependency_lines: false
 			icon: { id: "minecraft:prismarine" }
 			id: "23C71F33BF655C03"
+			rewards: [{ id: "6B00000000000009", table_id: 7638104968020361225L, type: "loot" }]
 			optional: true
 			tasks: [
 			{
@@ -2283,6 +2293,7 @@
 			hide_dependency_lines: false
 			icon: { id: "create:cogwheel" }
 			id: "2A06ACA38C008EA7"
+			rewards: [{ id: "6B0000000000000A", table_id: 7638104968020361226L, type: "loot" }]
 			optional: true
 			tasks: [
 			{
@@ -2450,6 +2461,7 @@
 			hide_dependency_lines: false
 			icon: { id: "minecraft:blaze_powder" }
 			id: "2B1ED371A9BBD195"
+			rewards: [{ id: "6B0000000000000B", table_id: 7638104968020361227L, type: "loot" }]
 			tasks: [
 			{
 				id: "36E7DEBF6D115930"
@@ -2810,6 +2822,7 @@
 			hide_dependency_lines: false
 			icon: { id: "minecraft:glistering_melon_slice" }
 			id: "2E32E40B77AEBA19"
+			rewards: [{ id: "6B0000000000000C", table_id: 7638104968020361228L, type: "loot" }]
 			optional: true
 			tasks: [
 			{
@@ -2943,6 +2956,7 @@
 			hide_dependency_lines: false
 			icon: { id: "minecraft:ender_eye" }
 			id: "229D7172C2C1D7ED"
+			rewards: [{ id: "6B0000000000000D", table_id: 7638104968020361229L, type: "loot" }]
 			tasks: [
 			{
 				id: "378CF1432E0940B2"
@@ -3137,6 +3151,7 @@
 			hide_dependency_lines: false
 			icon: { id: "minecraft:red_bed" }
 			id: "2CEF9C2C322EF548"
+			rewards: [{ id: "6B0000000000000E", table_id: 7638104968020361230L, type: "loot" }]
 			optional: true
 			tasks: [
 			{
@@ -3233,6 +3248,7 @@
 			hide_dependency_lines: false
 			icon: { id: "minecraft:end_portal_frame" }
 			id: "2AED3403409C973C"
+			rewards: [{ id: "6B0000000000000F", table_id: 7638104968020361231L, type: "loot" }]
 			tasks: [{ id: "35FA031A15392747", type: "checkmark" }]
 			x: 62.0d
 			y: -3.0d
@@ -3390,6 +3406,7 @@
 			hide_dependency_lines: false
 			icon: { id: "minecraft:dragon_egg" }
 			id: "203FD34AD0697ACD"
+			rewards: [{ id: "6B00000000000010", table_id: 7638104968020361232L, type: "loot" }]
 			tasks: [{ id: "36EC3C113FC6EB02", type: "checkmark" }]
 			x: 77.0d
 			y: -1.5d
@@ -3470,6 +3487,7 @@
 			hide_dependency_lines: false
 			icon: { id: "minecraft:recovery_compass" }
 			id: "2CF9DF9E80FDC356"
+			rewards: [{ id: "6B00000000000011", table_id: 7638104968020361233L, type: "loot" }]
 			optional: true
 			tasks: [{ id: "32F640BFD662868F", type: "checkmark" }]
 			x: 82.0d
@@ -3701,6 +3719,7 @@
 			hide_dependency_lines: false
 			icon: { id: "minecraft:nether_star" }
 			id: "24375E7F0F1F4684"
+			rewards: [{ id: "6B00000000000012", table_id: 7638104968020361234L, type: "loot" }]
 			optional: true
 			tasks: [{ id: "396DB30FB0E1FE4B", type: "checkmark" }]
 			x: 82.0d

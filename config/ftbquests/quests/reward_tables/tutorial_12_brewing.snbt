@@ -1,0 +1,15 @@
+{
+	id: "6A0000000000000C"
+	loot_crate: { color: 12255419, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "12장: 연금술사의 재료 상자", string_id: "tutorial_12_brewing" }
+	loot_size: 2
+	order_index: 12
+	rewards: [
+		{ count: 16, item: "minecraft:glass_bottle" }
+		{ count: 16, item: "minecraft:nether_wart" }
+		{ count: 16, item: "minecraft:redstone" }
+		{ count: 16, item: "minecraft:glowstone_dust" }
+		{ count: 16, item: "minecraft:gunpowder" }
+	]
+	title: "12장: 양조 보급품"
+	use_title: true
+}

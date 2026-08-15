@@ -1,0 +1,15 @@
+{
+	id: "6A00000000000008"
+	loot_crate: { color: 3066993, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "8장: 마을의 감사 상자", string_id: "tutorial_08_villagers" }
+	loot_size: 2
+	order_index: 8
+	rewards: [
+		{ count: 16, item: "minecraft:emerald" }
+		{ count: 16, item: "minecraft:bread" }
+		{ count: 8, item: "minecraft:book" }
+		{ count: 16, item: "minecraft:golden_carrot" }
+		{ count: 2, item: "minecraft:name_tag" }
+	]
+	title: "8장: 주민 거래 보급품"
+	use_title: true
+}
