@@ -958,7 +958,7 @@ hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 
 [[files]]
 file = "kubejs/server_scripts/materials.js"
-hash = "3cf76ea0ebd821af3fe6d88c795f73fe7f62989679eda5bef4dbca3e144b9e7d"
+hash = "3f62b35ae96193f8566fb42f89d363425023c4c6d6bb9f0e39f180b821d4d9cb"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
