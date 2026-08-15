@@ -3,6 +3,8 @@
 /.gitattributes
 /.gitignore
 /.packwizignore
+/.tmp/
+/.claude/
 /README.md
 /CHANGELOG.md
 /QUEST_TUTORIAL.md

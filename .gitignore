@@ -12,3 +12,7 @@ crash-reports/
 saves/
 screenshots/
 backups/
+
+# Local tooling and scratch data
+.tmp/
+.claude/

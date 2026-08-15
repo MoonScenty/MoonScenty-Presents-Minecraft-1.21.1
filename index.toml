@@ -765,6 +765,14 @@ file = "kubejs/assets/guideme/lang/ko_kr.json"
 hash = "908fc8a644b0bf865ce31ed31dcdb9716c4e4da89bbec7ce017bf8a69315315d"
 
 [[files]]
+file = "kubejs/assets/kubejs/lang/en_us.json"
+hash = "d5299ea2c466b7983d048dac53ac1581ea814c4dc92a5716ab08d72e178d945f"
+
+[[files]]
+file = "kubejs/assets/kubejs/lang/ko_kr.json"
+hash = "76e3649ca4d0cbe014f993607efa715fe568d593ae87a5d43f87a56b2a0caa3d"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
 hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 
@@ -925,8 +933,16 @@ file = "kubejs/server_scripts/main.js"
 hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 
 [[files]]
+file = "kubejs/server_scripts/materials.js"
+hash = "3cf76ea0ebd821af3fe6d88c795f73fe7f62989679eda5bef4dbca3e144b9e7d"
+
+[[files]]
 file = "kubejs/startup_scripts/main.js"
 hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
+
+[[files]]
+file = "kubejs/startup_scripts/materials.js"
+hash = "73d96f3c9fdee7388c6ec7c4128c29a68929e256265dab157baf6314aecbc79b"
 
 [[files]]
 file = "mods/advancement-disabler.pw.toml"
