@@ -13,16 +13,25 @@ ServerEvents.recipes(event => {
     C: 'minecraft:clay_ball'
   }).id('kubejs:crafting/refractory_mortar')
 
-  // 용해로 대야는 기본이 안산암 합금 8개라 안산암 합금 라인 직후에 바로 지어진다.
+  // 용해로 대야와 주조 대야는 기본이 안산암 합금이라 합금 라인 직후에 바로 지어진다.
   // 산업용 철 블록으로 올려 철 가공 단계를 먼저 거치게 한다.
   event.remove({ id: 'createmetallurgy:crafting/content/foundry_basin' })
+  event.remove({ id: 'createmetallurgy:crafting/content/casting_basin' })
 
   event.shaped('createmetallurgy:foundry_basin', [
     'I I',
     'IMI',
     'III'
   ], {
-    I: '#c:storage_blocks/industrial_iron',
+    I: 'create:industrial_iron_block',
     M: 'createmetallurgy:refractory_mortar'
   }).id('kubejs:crafting/foundry_basin')
+
+  event.shaped('createmetallurgy:casting_basin', [
+    'I I',
+    'I I',
+    ' I '
+  ], {
+    I: 'create:industrial_iron_block'
+  }).id('kubejs:crafting/casting_basin')
 })
