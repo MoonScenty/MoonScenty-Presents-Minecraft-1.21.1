@@ -1,6 +1,12 @@
 {
-	chapter.1A6B9C2D4E7F8051.title: "WELCOME"
+	chapter.1A6B9C2D4E7F8051.title: "환영합니다"
 	chapter.1F13D457ABCA8E5A.title: "튜토리얼"
+	chapter.7A1B2C3D4E5F6001.title: "TIPS AND TRICKS"
+	chapter.5A0E000000000001.title: "STONE AGE"
+	chapter.5A0E000000000002.title: "ANDESITE ALLOY AGE"
+	chapter.5A0E000000000003.title: "BRASS AGE"
+	chapter.5A0E000000000004.title: "INDUSTRIAL AGE"
+	chapter.5A0E000000000005.title: "ATOMIC AGE"
 	file.0000000000000001.title: "MoonScenty Presents Minecraft"
 	quest.2A6B9C2D4E7F8051.quest_desc: ["이 퀘스트북은 콘텐츠를 잠그거나 플레이를 강제하지 않습니다. 모드팩의 핵심 시스템과 추천 진행 순서를 알려주는 안내서로 사용하세요.", "체크 표시가 목표인 안내 퀘스트는 내용을 확인한 뒤 직접 완료하면 됩니다."]
 	quest.2A6B9C2D4E7F8051.quest_subtitle: "모드팩과 퀘스트북 소개"

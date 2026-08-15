@@ -1,0 +1,10 @@
+{
+  "default_packs": [
+    "file/FreshAnimations_v1.10.4.zip",
+    "file/FA+All_Extensions-v1.4.zip",
+    "file/FA+Player-v1.1.zip",
+    "file/Slightly-Improved-Font-1.1.5.zip",
+    "file/McDGM"
+  ],
+  "pack_overrides": {}
+}

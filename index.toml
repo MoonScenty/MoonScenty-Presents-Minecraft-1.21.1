@@ -150,11 +150,11 @@ hash = "7116b95a9b6797af8db84e410a2ca2fdf6f813461e37cd04bff5af933f31567b"
 
 [[files]]
 file = "config/entity_model_features.json"
-hash = "c633e3370aa256a71ab45aec68683a2ec4b29b6c5c2dfd430f9788a854ccf920"
+hash = "dfd60c9e5cc65c8d151846928497faea8eb962222b1ca1d9f28d1eeea184fc08"
 
 [[files]]
 file = "config/entity_texture_features.json"
-hash = "d8d72a9ac49bbe45921f1ace5a22c30b65802c5e70829343cf7acfd25f79b8dc"
+hash = "2951cca9830687ee6e712c79fee613a468661773c52b9c334f801e82c4fbdd70"
 
 [[files]]
 file = "config/entityculling.json"
@@ -250,11 +250,35 @@ hash = "122a0205ec0cbf63f1db42f24f6c5c6095f54083f2c4f985c473acd2e228988f"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
+hash = "327d0eb5af923162d629742392afa7ec35ad59880c7f82d48b8c3b373388aa65"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/andesite_alloy_age.snbt"
+hash = "1aaeccfd9710fe565433be4cf1d228e58208200bd265f736880131ac05044347"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/atomic_age.snbt"
+hash = "5aa2a00af83fb45285ec07f22f7987b96347513b23c4ef44d2bc8d12cd75b9f3"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/brass_age.snbt"
+hash = "68fe9287a7354fa6c0e755bc5aa631aa55e9496c84148f20a167004abc8997e6"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/industrial_age.snbt"
+hash = "24c9ba9fd84d39188ea74ec7b800402abd696b7bd18b54a4acb57be359beb3a2"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/stone_age.snbt"
+hash = "caf0afef8c237cef82470cfb0cdc72a095b9adfccd6820b56c18bf77862306bf"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/tips_and_tricks.snbt"
+hash = "39cb90882c67270b5e73f7e2f34ef9f64a4d920de752217285a8fd868071c45a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tutorial.snbt"
-hash = "f862e9fbf20bf2ae6b39f75e4c0a257e55f9c3f841a022d98c2017fbad54e9a5"
+hash = "1836bdcdc0733847ad296a46104258444656e2f74eb03fd8180d2258bcdc4bc4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
@@ -266,7 +290,7 @@ hash = "24e9fe7e47c76996148659e54497635510fbf3e47fdec9798fd6c46df0c19a43"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "60ebb74d8b3a0752e0c855cc9eb400f555541c07e932b9952af80329469ce96b"
+hash = "a9ac0bf1da196c9e919600d028872e82096f83f8a20cd5244d67192c19d97b5f"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_00_welcome.snbt"
@@ -499,6 +523,10 @@ hash = "55affffe67e84dfe11e590769e235aee999b77f9484a3adf7ee8247a9f3d35ba"
 [[files]]
 file = "config/quark-common.toml"
 hash = "a2d380d4908df370ab38c62c80639c63c0aae58fd20a96158c0f2f6e8d39094a"
+
+[[files]]
+file = "config/resourcepackoverrides.json"
+hash = "3e2c4befc22b102d4567ee880164d33aaf10dac6e5a114462c7c678f519194e0"
 
 [[files]]
 file = "config/rubberworks-common.toml"
@@ -1398,4 +1426,48 @@ metafile = true
 [[files]]
 file = "mods/zeta.pw.toml"
 hash = "d1baffd370868590fcb2785146c278df5781d20994022749c53c0f9b2bffc7fc"
+metafile = true
+
+[[files]]
+file = "resourcepacks/McDGM/LICENSE.txt"
+hash = "5339532c9ded8581ba068d8462d1817163ae186c3f7abf4d2463e2b238ad9880"
+
+[[files]]
+file = "resourcepacks/McDGM/README.txt"
+hash = "6ad13a36079c8fc912b86a3594137c77600296196fddf16b27fd2cd43b8dadb1"
+
+[[files]]
+file = "resourcepacks/McDGM/assets/minecraft/font/default.json"
+hash = "322330efce77c3063b6f2224b280c162def1ccd83b74c3626a3515e7554964a4"
+
+[[files]]
+file = "resourcepacks/McDGM/assets/minecraft/font/neodgm.ttf"
+hash = "77305267996073aae07bad9313dad2e306a4128e55bfafbed4c41558fee57b4d"
+
+[[files]]
+file = "resourcepacks/McDGM/pack.mcmeta"
+hash = "1de71b76e01ea1f454125a4e7ba58c098d1c7ca22183296b61ad6e4f18be4835"
+
+[[files]]
+file = "resourcepacks/McDGM/pack.png"
+hash = "ac92017b48abb143d5cf1f8661876841d12764cad0509fa6720007c52e472a55"
+
+[[files]]
+file = "resourcepacks/fa-player-extension.pw.toml"
+hash = "fa1d7ba075806a4650ed488c13d5f0f8debfdb5b248edb0fc428ce2859baf728"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations-extensions.pw.toml"
+hash = "8ea87dfad25b7be9122afd1b185badbbe61225143f2534b78f561cd82b50d4be"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "da66421a2a0dcab59fc4b17705b0aae4cd88b20634ebea20b0224fee2bef8251"
+metafile = true
+
+[[files]]
+file = "resourcepacks/slightly-improved-font.pw.toml"
+hash = "1500696334c198418def3441b2a5764156c1b68d7de1882d345f61d842dc3d25"
 metafile = true

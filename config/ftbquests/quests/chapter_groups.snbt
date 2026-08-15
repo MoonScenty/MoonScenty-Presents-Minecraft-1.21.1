@@ -1,3 +1,6 @@
 {
-	chapter_groups: [ ]
+	chapter_groups: [{
+		id: "4D41494E51554553"
+		title: "MAIN QUEST"
+	}]
 }

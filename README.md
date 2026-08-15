@@ -380,6 +380,23 @@ Minecraft 1.21.1과 NeoForge 21.1.248를 기반으로 제작한 모드팩입니�
 - **Zeta**
   - Quark와 관련 모드가 사용하는 공통 기능 및 설정 시스템을 제공합니다.
 
+## 기본 리소스팩
+
+리소스팩은 아래 순서로 겹쳐 적용되며, 아이템 텍스처를 교체하는 팩은 포함하지 않습니다.
+
+1. **Mc둥근모**
+   - 공식 Neo둥근모를 사용해 한글을 선명한 도트 글꼴로 표시합니다.
+2. **Slightly Improved Font**
+   - 바닐라 감각을 유지한 32× 영문·유럽 문자 글꼴을 적용합니다. Mc둥근모의 공급자 순서와 조합되어 한글에는 영향을 주지 않습니다.
+3. **Fresh Animations: Player Extension**
+   - 플레이어의 대기, 이동, 점프, 수영, 등반, 비행과 장비 사용 동작을 Fresh Animations 스타일로 확장합니다.
+4. **Fresh Animations: Extensions**
+   - 몹의 세부 모델과 표정, 화살통, 발광 효과를 보강하고 상자·보트·광산 수레 같은 오브젝트에 생동감 있는 동작을 추가합니다.
+5. **Fresh Animations**
+   - 바닐라 몹의 외형 감각은 유지하면서 움직임과 표정을 마인크래프트 트레일러처럼 풍부하게 만듭니다.
+
+Fresh Animations 계열 리소스팩은 이미 포함된 Entity Model Features 및 Entity Texture Features를 사용합니다. 아이템을 들고 먹거나 마시는 동작 등은 Not Enough Animations가 보완합니다. Player Extension과 Extensions는 인벤토리 아이템 텍스처를 교체하지 않습니다. 기본 활성화 순서는 Resource Pack Overrides의 `config/resourcepackoverrides.json`에서 관리합니다.
+
 ## 개발 및 관리
 
 ### 필요 환경
