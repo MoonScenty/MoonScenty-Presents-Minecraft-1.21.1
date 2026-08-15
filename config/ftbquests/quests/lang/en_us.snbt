@@ -1,6 +1,13 @@
 {
+	chapter.1A6B9C2D4E7F8051.title: "WELCOME"
 	chapter.1F13D457ABCA8E5A.title: "튜토리얼"
 	file.0000000000000001.title: "MoonScenty Presents Minecraft"
+	quest.2A6B9C2D4E7F8051.quest_desc: ["이 퀘스트북은 콘텐츠를 잠그거나 플레이를 강제하지 않습니다. 모드팩의 핵심 시스템과 추천 진행 순서를 알려주는 안내서로 사용하세요.", "체크 표시가 목표인 안내 퀘스트는 내용을 확인한 뒤 직접 완료하면 됩니다."]
+	quest.2A6B9C2D4E7F8051.quest_subtitle: "모드팩과 퀘스트북 소개"
+	quest.2A6B9C2D4E7F8051.title: "먼저 읽어주세요"
+	quest.2A6B9C2D4E7F8052.quest_desc: ["인벤토리 왼쪽 위의 파란 지도 아이콘이나 기본 M 키로 FTB Chunks 지도를 여세요.", "보호할 청크를 왼쪽 클릭하면 점유되고, 드래그하면 여러 청크를 한 번에 점유할 수 있습니다. 오른쪽 클릭은 점유를 해제합니다.", "점유한 청크는 다른 플레이어의 블록 파괴·설치와 상호작용으로부터 기지를 보호합니다. Shift 클릭의 강제 로딩은 보호와 별개의 기능입니다."]
+	quest.2A6B9C2D4E7F8052.quest_subtitle: "FTB Chunks로 청크 점유와 보호"
+	quest.2A6B9C2D4E7F8052.title: "여긴 이제 제 땅입니다"
 	quest.2004FC52B8DAE583.quest_desc: ["구리와 자수정 조각으로 망원경을 만드세요. 멀리 있는 구조물과 위험 요소를 먼저 확인해 불필요한 이동을 줄일 수 있습니다."]
 	quest.2004FC52B8DAE583.quest_subtitle: "망원경 제작"
 	quest.2004FC52B8DAE583.title: "멀리서 보면 희극"

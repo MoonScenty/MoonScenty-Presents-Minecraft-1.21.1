@@ -250,95 +250,99 @@ hash = "122a0205ec0cbf63f1db42f24f6c5c6095f54083f2c4f985c473acd2e228988f"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "3899c2186cf6071e680d8d413ef2b07ff6f7973cb3522cd09260450b26fb07b1"
+hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tutorial.snbt"
-hash = "e512bec62efcacfbde9b38a480b95495ad73c8cbde439668b2f3ccbe9c229620"
+hash = "f862e9fbf20bf2ae6b39f75e4c0a257e55f9c3f841a022d98c2017fbad54e9a5"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/welcome.snbt"
+hash = "ae5d51d1fa96f499f84518a45b10a6c8b1a5255fa67046e60b5f5fd3b3457353"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "e93fc2fb13aeddfd3a747af0fdb6da873898205873410cb0e452704aa92a77f3"
+hash = "24e9fe7e47c76996148659e54497635510fbf3e47fdec9798fd6c46df0c19a43"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "41025aef32c7ba9f3d052ebbf8fb23eb175169f372a6d650d50f670f46708714"
+hash = "60ebb74d8b3a0752e0c855cc9eb400f555541c07e932b9952af80329469ce96b"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_00_welcome.snbt"
-hash = "8556dae75bbaecb49bd74ef48ab81b292f9309d07e0256327defd1e6ce99ffa7"
+hash = "36e072c5c234b0914143aca9d6010219ad0e5354036cd81b4be397ba929bc74a"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_01_wood.snbt"
-hash = "24d0c955b6c30831faa4031c6bf4d9bc5e4affd28a847adb86355b47756a52a0"
+hash = "e6ff73f19ad34c0f35b6e6b7dbd281e4e68ab6ffce3a483d704a2d7fd2b34e08"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_02_stone.snbt"
-hash = "524aec29ad391083764bcd86ce036071702bc8acf2f462b04e88ba67af1bd77c"
+hash = "041b79dd1d0316362f035f9b7f786a1e817f3d599d35f2a23755123222d929d9"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_03_food.snbt"
-hash = "8ebd93283f342eca4603a9471577b1b9a413c88b8f590890700decf55ac02a8a"
+hash = "d6f99fc85bb8abf023372df95eb8a23fbe8b7b905c92e1128dcd09263ee837ba"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_04_iron.snbt"
-hash = "213cac13e8b8d74e666c01a402f60a847d192732989652790dc7f08b32e2797c"
+hash = "8e21f0bcd7ada48e018d2f92eff59c3b106353adcaadc18d420e909354dc9dbf"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_05_mining.snbt"
-hash = "7df879ced654de4d655aa2085f33b5017af4fa4b77cb91e96d8726eac99153ec"
+hash = "63888c0175beca5c26086f52353e8d941ad94c1238be58abb21b193d7f14a97d"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_06_combat.snbt"
-hash = "3c641428ea912ca2980a28e6954142bee313806c6ce82e2ab577928a95adc8e4"
+hash = "925d7e896c75a15a47ff0b61642314ab422d947094b8f8936ff08be4c2b98869"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_07_enchanting.snbt"
-hash = "92668208ff4540763505b638f27ecf4959716e37d7c08d50ffe7515edfabd83d"
+hash = "7180bae905939d087d706549337a84b7800a77a5159c10b2e0e644a50d905a1b"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_08_villagers.snbt"
-hash = "5fe772dac57b47cacc7a2166e54510bc8e8eb4a647e8c66c41486338edf9ce5d"
+hash = "848df5496acee1d592194217a6e9416b858f9f69df121aaaee6fbf5404ed53fc"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_09_exploration.snbt"
-hash = "c071fcc3c19b176ed45d0cdbbd0eb0ef54e6a5dd12c00ddd712a0651e3324a8d"
+hash = "c521d115ae7ae1660c44b1a2f5230fec4c58349de237ee05a4bf29506dda392e"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_10_redstone.snbt"
-hash = "070bdb1d39f8c31abe1958214ef980b047da69827217d89e60a2f2ef6e300a71"
+hash = "8591066d1aaf3d7606cf202deb582a7d9c9e3e2dfbd015437c299f032e53c20a"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_11_nether.snbt"
-hash = "ca4c828640385c7e784310675cb94159eb6187c6562099b83815eed1852e108a"
+hash = "de37c4677448ffc450a42b01922ee27dc1c1a7c627480731dfb71816fb39ee70"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_12_brewing.snbt"
-hash = "a0ff473ce2b083cc96c8dc020f603be0fc7a9a1ea7105cd9bb7c815eeac6952e"
+hash = "8036fa74123da68de0f7575916234db6996138b219b886613ac38d48426c88c3"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_13_stronghold.snbt"
-hash = "88296cea0695c6d5c9c98aa9c85608028fe305ededf9e00fc5eb9f2d87306b3f"
+hash = "ed90b15dc91cf7757e24705a58256573c6f5ea67a46f8f90337054cf04b42afa"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_14_dragon_prep.snbt"
-hash = "3ae8b55c70c1746bdd3ab18ed3ce9b9211a7a88dd90e93f1b9b73d5f4d93a68f"
+hash = "a0a8e68ff1ef89b7e4be2fa5965c7a24cd96b9dd703c5187d04a2d938e1d69f2"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_15_dragon.snbt"
-hash = "89d0732946e2a274443cd7a38ad5bc1801a7e4d55fc5602f3bc59984c761cf82"
+hash = "0011b93de7ae7acf5ca6507035d8521d6579e72c273e065527269f07a4e7d0dc"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_16_end.snbt"
-hash = "6ba4c69ba2c83e08ff5b7c87f52be36905d1414a242e7afe47afb3682ecc702c"
+hash = "635bc1267e30f8d6786049eebdbccfcd4d7bdac0e99afb7a9cb54ab558232495"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_17a_deep_dark.snbt"
-hash = "8ec5c5fd3f807a015705e3f83692b2025f66f69850c4e09e72966214cd727ff8"
+hash = "b7969c7aebbcd7b2566a8b0813c9a49b60e4ded003576fafaabfdba028777554"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_17b_wither.snbt"
-hash = "812cb96d736c5befecdef60d3ca354ca657c536efc3da2a37a23a6f102d767e9"
+hash = "17083aa0d1a896eb645c4607b21aa159823f1280ab2616f6ee0fa9681ea97ae9"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -749,6 +753,82 @@ file = "kubejs/assets/modernfix/lang/ko_kr.json"
 hash = "aeab85d3fd1d8edbbd277e8a665e97c4e98ba0a813c8ba46f009f80ea6b4e0d8"
 
 [[files]]
+file = "kubejs/assets/moonscenty/textures/tutorial_00_welcome.png"
+hash = "d8929594e8110d35ffd5bf8e528faee21fa05eef0d041f2f999bf0adbe934bfd"
+
+[[files]]
+file = "kubejs/assets/moonscenty/textures/tutorial_01_first_wood.png"
+hash = "3cf798cfcbcd169b5de117d8a9d020a3a8d69be447e4cac04caa323bbf595ba6"
+
+[[files]]
+file = "kubejs/assets/moonscenty/textures/tutorial_02_stone_life.png"
+hash = "bca267852bd53668e294f1e501fc605a5be7cc749d2009c8af8225eb7db94650"
+
+[[files]]
+file = "kubejs/assets/moonscenty/textures/tutorial_03_food.png"
+hash = "f863bf082312f773941767ea44d119c9f1efb6bfd16db871afcd13dc21c99e6d"
+
+[[files]]
+file = "kubejs/assets/moonscenty/textures/tutorial_04_iron_age.png"
+hash = "0d3b72e9e7436f2086766c7d7ef10ebd56717c2467d5840727bb43b05ab7902b"
+
+[[files]]
+file = "kubejs/assets/moonscenty/textures/tutorial_05_underground.png"
+hash = "6961b21514f3f01073508bd163030e58ccfd3a17bda6d3fb745985382397f1b0"
+
+[[files]]
+file = "kubejs/assets/moonscenty/textures/tutorial_06_combat.png"
+hash = "9474eb91dc1326acaf298a8679c46096c8c3c1e9965a4c4836fbc4e5cbc10add"
+
+[[files]]
+file = "kubejs/assets/moonscenty/textures/tutorial_07_enchanting.png"
+hash = "b420e4edd47b01a409310db12477ad3f7800fabf6a4319f5653dab05d3037ca4"
+
+[[files]]
+file = "kubejs/assets/moonscenty/textures/tutorial_08_villagers.png"
+hash = "5e056020f6c57247332029ca37b3fb2dae4447e3145e6aa55cce0c5877d64e3e"
+
+[[files]]
+file = "kubejs/assets/moonscenty/textures/tutorial_09_overworld.png"
+hash = "c97b7a5c6a197433a48439faec7357075fd54601c050dff901f68da1b6abe369"
+
+[[files]]
+file = "kubejs/assets/moonscenty/textures/tutorial_10_redstone.png"
+hash = "a3ccfcc65c1b839ecb8497036fa2b420a83f204b4099f9b6560339a9979cd975"
+
+[[files]]
+file = "kubejs/assets/moonscenty/textures/tutorial_11_nether.png"
+hash = "cd8a89c197241e98990a58099c57a46cf122d7acecad14b462360ba9597af033"
+
+[[files]]
+file = "kubejs/assets/moonscenty/textures/tutorial_12_brewing.png"
+hash = "b067a5deedb40b5ed829e0a1241fee89a90045386736b73c905537818e68a9d5"
+
+[[files]]
+file = "kubejs/assets/moonscenty/textures/tutorial_13_ender_eye.png"
+hash = "597ac1ef45464694f9f37593e13503dea027f7ac9396390bba9f08128144c976"
+
+[[files]]
+file = "kubejs/assets/moonscenty/textures/tutorial_14_dragon_prep.png"
+hash = "cabdcdaaa358bd541c4d479bd2729a8718c7baf26d73637abe7f5c0f603d4b20"
+
+[[files]]
+file = "kubejs/assets/moonscenty/textures/tutorial_15_ender_dragon.png"
+hash = "ea2504ba31450bbf915d6c0d75864f07891c7b84b4939052e5f9efa41f4b8aff"
+
+[[files]]
+file = "kubejs/assets/moonscenty/textures/tutorial_16_end_epilogue.png"
+hash = "20448af57a9847f87f8423690299dc17cff33ae6d478745c84a178df56f1f43e"
+
+[[files]]
+file = "kubejs/assets/moonscenty/textures/tutorial_17a_deep_dark.png"
+hash = "868f36a7b482ae64e372a0902b0df1c798144dcdc68859415cfb0aebf07a3d85"
+
+[[files]]
+file = "kubejs/assets/moonscenty/textures/tutorial_17b_wither.png"
+hash = "a3c5f65b9bcb525c47959ca3abbe0cc33a73542b6d34f57dba5c89cc00e22ab6"
+
+[[files]]
 file = "kubejs/assets/notenoughanimations/lang/ko_kr.json"
 hash = "ab8a7a27604fbcbfdddeeef1f5efbaeaf2a61aeab5396906731b3e9a7f9b940b"
 
@@ -1016,6 +1096,11 @@ hash = "d4e1dace036a2f0a60d4dedf324153f830d8cddb1275969d12557d114920a78f"
 metafile = true
 
 [[files]]
+file = "mods/default-options.pw.toml"
+hash = "12602d5c4952c42a2390b1d78869777d81e37f0393188a3bb409ded91e18f373"
+metafile = true
+
+[[files]]
 file = "mods/disable-compliance-notification.pw.toml"
 hash = "82542d857a48f02a9c3fa011a93ec4e7fdb3ccf18af9c5d112896a43b753a8f9"
 metafile = true
@@ -1198,6 +1283,11 @@ metafile = true
 [[files]]
 file = "mods/notenoughrecipebook.pw.toml"
 hash = "02c4f941c76c49cbaeb17e549dc0e37562ff5cbd6ca51fec9d8da3bb73538507"
+metafile = true
+
+[[files]]
+file = "mods/pipez.pw.toml"
+hash = "3c4fbbd6d5cfcb5ac1faaf56fc85ae79194f3c0155013afc39e4fed20a3812c1"
 metafile = true
 
 [[files]]
