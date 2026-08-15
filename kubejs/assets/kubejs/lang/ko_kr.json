@@ -4,5 +4,13 @@
   "item.kubejs.copper_filings": "구리 부스러기",
   "item.kubejs.gold_filings": "금 부스러기",
   "item.kubejs.zinc_filings": "아연 부스러기",
-  "item.kubejs.wolframite_filings": "울프라마이트 부스러기"
+  "item.kubejs.wolframite_filings": "울프라마이트 부스러기",
+
+  "fluid.kubejs.molten_andesite": "용융 안산암",
+  "block.kubejs.molten_andesite": "용융 안산암",
+  "item.kubejs.molten_andesite_bucket": "용융 안산암 양동이",
+
+  "fluid.kubejs.molten_andesite_alloy": "용융 안산암 합금",
+  "block.kubejs.molten_andesite_alloy": "용융 안산암 합금",
+  "item.kubejs.molten_andesite_alloy_bucket": "용융 안산암 합금 양동이"
 }

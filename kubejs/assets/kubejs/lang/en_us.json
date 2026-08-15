@@ -4,5 +4,13 @@
   "item.kubejs.copper_filings": "Copper Filings",
   "item.kubejs.gold_filings": "Gold Filings",
   "item.kubejs.zinc_filings": "Zinc Filings",
-  "item.kubejs.wolframite_filings": "Wolframite Filings"
+  "item.kubejs.wolframite_filings": "Wolframite Filings",
+
+  "fluid.kubejs.molten_andesite": "Molten Andesite",
+  "block.kubejs.molten_andesite": "Molten Andesite",
+  "item.kubejs.molten_andesite_bucket": "Molten Andesite Bucket",
+
+  "fluid.kubejs.molten_andesite_alloy": "Molten Andesite Alloy",
+  "block.kubejs.molten_andesite_alloy": "Molten Andesite Alloy",
+  "item.kubejs.molten_andesite_alloy_bucket": "Molten Andesite Alloy Bucket"
 }
