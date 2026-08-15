@@ -1,10 +1,11 @@
 # 바닐라 튜토리얼 퀘스트 구상
 
-이 문서는 MoonScenty Presents Minecraft 1.21.1의 바닐라 튜토리얼 퀘스트라인 설계와 구현 기준을 관리합니다. 실제 FTB Quests 데이터는 `config/ftbquests/quests/`에, 기본 표시 문구는 `lang/en_us/`에 영어로 작성합니다.
+이 문서는 MoonScenty Presents Minecraft 1.21.1의 바닐라 튜토리얼 퀘스트라인 설계와 구현 기준을 관리합니다. 실제 FTB Quests 데이터는 `config/ftbquests/quests/`에, 기본 표시 문구는 `lang/en_us.snbt`에 한글로 작성합니다.
 
 ## 구현 현황
 
 - 0장부터 17B장까지의 설계 구역을 FTB Quests의 단일 `Tutorial` 챕터에 구현했습니다.
+- 게임 내 기본 언어와 관계없이 같은 문구가 표시되도록 `en_us` 언어 파일에 한글 제목과 설명을 작성합니다.
 - 설계 문서의 장 구분은 별도의 게임 내 챕터가 아니라 한 진행도 안에서 퀘스트를 묶어 배치하는 구역을 의미합니다.
 - 현재 퀘스트에는 보상을 넣지 않습니다.
 - FTB Filter System으로 태그 및 복수 아이템 목표를 판정합니다.

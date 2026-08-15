@@ -1,0 +1,731 @@
+{
+	chapter.1F13D457ABCA8E5A.title: "튜토리얼"
+
+quest.20A4AA9E260BD193.title: "여기가 그 마인크래프트인가요"
+quest.20A4AA9E260BD193.quest_desc: ["모드팩과 튜토리얼 퀘스트 소개"]
+
+	quest.2848CD423C444B56.title: "주머니 사정부터 확인합시다"
+	quest.2848CD423C444B56.quest_desc: ["인벤토리 열기"]
+
+	quest.24BD4D58549E2AB9.title: "퀘스트는 거들 뿐"
+	quest.24BD4D58549E2AB9.quest_desc: ["퀘스트가 콘텐츠를 잠그지 않음을 안내"]
+
+	quest.21438F602D0CA906.title: "고개를 들어 주위를 보라"
+	quest.21438F602D0CA906.quest_desc: ["이동, 시점 전환과 점프 안내"]
+
+	quest.2B067B1F677E454B.title: "일단 때려 봅시다"
+	quest.2B067B1F677E454B.quest_desc: ["블록 파괴 방법 안내"]
+
+	quest.2D6274C3059DF1F6.title: "파괴했으면 책임지고 놓기"
+	quest.2D6274C3059DF1F6.quest_desc: ["블록 설치 방법 안내"]
+
+	quest.26ACDF5E4D0DBBB0.title: "모르면 JEI에게 물어봐"
+	quest.26ACDF5E4D0DBBB0.quest_desc: ["레시피 북, JEI 검색과 사용처 확인법"]
+
+quest.23223152350FFF50.title: "나무를 캐라고? 맨손으로?"
+quest.23223152350FFF50.quest_desc: ["아무 원목 1개 획득"]
+
+	quest.243E44363E4506BD.title: "원목의 정상화"
+	quest.243E44363E4506BD.quest_desc: ["판자 제작"]
+
+	quest.2DD9C2FBCAD2FB64.title: "장인은 작업대부터 만든다"
+	quest.2DD9C2FBCAD2FB64.quest_desc: ["작업대 제작"]
+
+	quest.2EC3C2890801629B.title: "장인은 도구를 탓하지 않는다"
+	quest.2EC3C2890801629B.quest_desc: ["나무 곡괭이 제작"]
+
+	quest.29525BE6E014E9E8.title: "돌을 돌려드립니다"
+	quest.29525BE6E014E9E8.quest_desc: ["조약돌 3개 획득"]
+
+	quest.28AE2D2D8046D748.title: "나무꾼의 자격"
+	quest.28AE2D2D8046D748.quest_desc: ["나무 도끼 제작"]
+
+	quest.26AFB3538EBB1ABB.title: "삽질도 기술이다"
+	quest.26AFB3538EBB1ABB.quest_desc: ["나무 삽 제작"]
+
+	quest.2C68BC2D558E0EF4.title: "농사 준비 완료"
+	quest.2C68BC2D558E0EF4.quest_desc: ["나무 괭이 제작"]
+
+	quest.25E74183A8B96E75.title: "호신용입니다"
+	quest.25E74183A8B96E75.quest_desc: ["나무 검 제작"]
+
+quest.28714DC98AC69692.title: "돌고 돌아 돌곡괭이"
+quest.28714DC98AC69692.quest_desc: ["돌 곡괭이 제작"]
+
+	quest.24CEDEA6921DB89F.title: "이제 말로 해결할 단계는 지났다"
+	quest.24CEDEA6921DB89F.quest_desc: ["돌 검 또는 돌 도끼 제작"]
+
+	quest.2B2542E435DBE263.title: "불 좀 빌립시다"
+	quest.2B2542E435DBE263.quest_desc: ["화로 제작"]
+
+	quest.247BF94E4EAD98F8.title: "검은 것이 연료로다"
+	quest.247BF94E4EAD98F8.quest_desc: ["석탄 또는 숯 획득"]
+
+	quest.2C4AECE8B3560B0D.title: "빛이 있으라"
+	quest.2C4AECE8B3560B0D.quest_desc: ["횃불 제작"]
+
+	quest.2FB316E5CA0968CA.title: "금강산도 식후경"
+	quest.2FB316E5CA0968CA.quest_desc: ["익힌 음식 획득"]
+
+	quest.253986523F8632C9.title: "누울 자리부터 보고 눕자"
+	quest.253986523F8632C9.quest_desc: ["침대 제작"]
+
+	quest.214BC51A55318E70.title: "오늘 밤 주인공은 나야 나"
+	quest.214BC51A55318E70.quest_desc: ["밤을 보내거나 침대에서 자기"]
+
+	quest.2B8D6AF946E6A047.title: "내 집 마련의 꿈"
+	quest.2B8D6AF946E6A047.quest_desc: ["벽, 지붕과 조명이 있는 거처 안내"]
+
+	quest.276210F28C8CD376.title: "문단속은 철저하게"
+	quest.276210F28C8CD376.quest_desc: ["문 제작"]
+
+	quest.2AAAA6367C6F6333.title: "넣을 곳이 필요해"
+	quest.2AAAA6367C6F6333.quest_desc: ["상자 제작"]
+
+	quest.2BF79498183370C6.title: "두 배로 모시겠습니다"
+	quest.2BF79498183370C6.quest_desc: ["큰 상자 만들기"]
+
+	quest.2ED76AED88E4D480.title: "전망 좋은 집"
+	quest.2ED76AED88E4D480.quest_desc: ["유리 제작"]
+
+	quest.2DFA570C709DACC6.title: "집 나가면 좌표 고생"
+	quest.2DFA570C709DACC6.quest_desc: ["좌표 또는 웨이포인트 기록 안내"]
+
+quest.2C95D7D3C915C4DE.title: "배고파서 현기증 나요"
+quest.2C95D7D3C915C4DE.quest_desc: ["허기와 포만도 설명"]
+
+	quest.2843C8BB0B6A8C51.title: "익혀야 제맛"
+	quest.2843C8BB0B6A8C51.quest_desc: ["익힌 음식 준비"]
+
+	quest.29E0F676B8EDF5D4.title: "밥이 보약이다"
+	quest.29E0F676B8EDF5D4.quest_desc: ["자연 회복 조건 설명"]
+
+	quest.2D1F854A134D5D8B.title: "집에 가고 싶다"
+	quest.2D1F854A134D5D8B.quest_desc: ["침대로 리스폰 지점 설정"]
+
+	quest.23C8FD0BE2812004.title: "죽어도 다시 한 번"
+	quest.23C8FD0BE2812004.quest_desc: ["사망과 아이템 회수 설명"]
+
+	quest.28AA7B0C8DAB164A.title: "내 발밑이 낭떠러지"
+	quest.28AA7B0C8DAB164A.quest_desc: ["수직 채굴 위험 안내"]
+
+	quest.2F679B2A0765D2ED.title: "작은 씨앗 큰 수확"
+	quest.2F679B2A0765D2ED.quest_desc: ["씨앗 획득"]
+
+	quest.2C053EE4B2ADEA38.title: "땅부터 갈아엎자"
+	quest.2C053EE4B2ADEA38.quest_desc: ["경작지 만들기"]
+
+	quest.25D50AE10F56F9F3.title: "내가 키운 밀"
+	quest.25D50AE10F56F9F3.quest_desc: ["밀 수확"]
+
+	quest.282D4717D7E2BE05.title: "빵이 없으면 밀을 먹...지는 맙시다"
+	quest.282D4717D7E2BE05.quest_desc: ["빵 제작"]
+
+	quest.2C58BD6BC3CA0781.title: "물은 답을 알고 있다"
+	quest.2C58BD6BC3CA0781.quest_desc: ["농지 수분 공급 설명"]
+
+	quest.216D61608B2F3189.title: "감자합니다"
+	quest.216D61608B2F3189.quest_desc: ["감자와 당근 재배"]
+
+	quest.24A49531A3B800D3.title: "달콤한 미래"
+	quest.24A49531A3B800D3.quest_desc: ["사탕수수 재배"]
+
+	quest.2C77C6A1BBD32107.title: "남김없이 넣어드립니다"
+	quest.2C77C6A1BBD32107.quest_desc: ["퇴비통과 뼛가루 안내"]
+
+	quest.24FBDB0B19577067.title: "둘이 만나 하나가 되는"
+	quest.24FBDB0B19577067.quest_desc: ["동물 번식"]
+
+	quest.21C9C5409FFB45FA.title: "양털 깎는 노인...은 아닙니다"
+	quest.21C9C5409FFB45FA.quest_desc: ["가위 사용"]
+
+	quest.2FCCC58DED59D45D.title: "닭이 먼저냐 달걀이 먼저냐"
+	quest.2FCCC58DED59D45D.quest_desc: ["닭과 달걀 안내"]
+
+	quest.2AC0124A99F9493D.title: "오늘부터 1일"
+	quest.2AC0124A99F9493D.quest_desc: ["늑대 길들이기"]
+
+	quest.2B1867CE61AF1D8B.title: "집사 간택 완료"
+	quest.2B1867CE61AF1D8B.quest_desc: ["고양이 길들이기"]
+
+	quest.235BA25F1595D62F.title: "물고기를 낚는다는 믿음"
+	quest.235BA25F1595D62F.quest_desc: ["낚싯대 제작"]
+
+	quest.2C376CB348F22EEF.title: "월척이다"
+	quest.2C376CB348F22EEF.quest_desc: ["물고기 낚기"]
+
+quest.24996CB1BB5861FC.title: "철이 들어버렸다"
+quest.24996CB1BB5861FC.quest_desc: ["철 원석 획득"]
+
+	quest.24B94048DAF82D77.title: "뜨거운 것이 좋아"
+	quest.24B94048DAF82D77.quest_desc: ["철 주괴 제련"]
+
+	quest.2F4B0C83900ACB1B.title: "철든 곡괭이"
+	quest.2F4B0C83900ACB1B.quest_desc: ["철 곡괭이 제작"]
+
+	quest.2362E2130A0AA510.title: "강철은 아니지만 강하다"
+	quest.2362E2130A0AA510.quest_desc: ["철 검 또는 철 도끼 제작"]
+
+	quest.2BC365D93204FE70.title: "응, 안 돼"
+	quest.2BC365D93204FE70.quest_desc: ["방패 제작과 막기 안내"]
+
+	quest.243B6C84F095ED17.title: "무엇이든 담아드립니다"
+	quest.243B6C84F095ED17.quest_desc: ["양동이 제작"]
+
+	quest.24126090A651A73F.title: "물은 답을 알고 있다 2"
+	quest.24126090A651A73F.quest_desc: ["물 양동이 획득"]
+
+	quest.28F9EF64615A116B.title: "입으면 단단해집니다"
+	quest.28F9EF64615A116B.quest_desc: ["철 방어구 한 부위 제작"]
+
+	quest.2AD72E75FF8F6967.title: "철통 방어"
+	quest.2AD72E75FF8F6967.quest_desc: ["철 방어구 전체 착용"]
+
+	quest.271398FBD71A64FF.title: "깎아 주세요"
+	quest.271398FBD71A64FF.quest_desc: ["가위 제작"]
+
+	quest.2DE6A40EE28846B2.title: "불장난은 네더에서"
+	quest.2DE6A40EE28846B2.quest_desc: ["부싯돌과 부시 제작"]
+
+	quest.2D7ED308AB1B6F9F.title: "들어올 때는 마음대로지만"
+	quest.2D7ED308AB1B6F9F.quest_desc: ["호퍼 제작과 이동 방향 설명"]
+
+	quest.26742BC73BBEE275.title: "모루겠으면 외우세요"
+	quest.26742BC73BBEE275.quest_desc: ["모루 제작"]
+
+	quest.2F44CF391D9858AF.title: "집은 가리키지 않습니다"
+	quest.2F44CF391D9858AF.quest_desc: ["나침반이 월드 스폰을 가리킨다는 설명"]
+
+quest.2FC5F85EF66E9EA5.title: "내려갈 사람은 내려갑니다"
+quest.2FC5F85EF66E9EA5.quest_desc: ["깊은 동굴 진입"]
+
+	quest.25656C93E2338354.title: "구리구리하네"
+	quest.25656C93E2338354.quest_desc: ["구리 원석 획득"]
+
+	quest.22950F6504A97B79.title: "빨간 가루의 비밀"
+	quest.22950F6504A97B79.quest_desc: ["레드스톤 획득"]
+
+	quest.2368BEE635B9841E.title: "파란 돌이 마법을 부린다"
+	quest.2368BEE635B9841E.quest_desc: ["청금석 획득"]
+
+	quest.2BE0706CBF280953.title: "금 나와라 뚝딱"
+	quest.2BE0706CBF280953.quest_desc: ["금 원석 획득"]
+
+	quest.29904C30882B35A7.title: "다이아몬드는 영원하다"
+	quest.29904C30882B35A7.quest_desc: ["다이아몬드 획득"]
+
+	quest.25643C8D1C65D677.title: "이 곡괭이는 이제 제 겁니다"
+	quest.25643C8D1C65D677.quest_desc: ["다이아몬드 곡괭이 제작"]
+
+	quest.2683A9B7D4981410.title: "검고 단단한 그것"
+	quest.2683A9B7D4981410.quest_desc: ["흑요석 획득"]
+
+	quest.22A3B5DF4D7A6DD6.title: "준비된 광부에게 사고는 없다"
+	quest.22A3B5DF4D7A6DD6.quest_desc: ["음식, 횃불, 나무 준비"]
+
+	quest.257C737E46060DAA.title: "어둠은 몬스터를 낳고"
+	quest.257C737E46060DAA.quest_desc: ["조명과 몬스터 생성 설명"]
+
+	quest.217F6E6E0699E7AA.title: "위를 보세요"
+	quest.217F6E6E0699E7AA.quest_desc: ["자갈과 모래 낙하 위험"]
+
+	quest.29A05C6E6619C14A.title: "뜨거우니 조심하세요"
+	quest.29A05C6E6619C14A.quest_desc: ["용암과 물 양동이 사용법"]
+
+	quest.272150786C755A60.title: "왔던 길도 다시 보자"
+	quest.272150786C755A60.quest_desc: ["길 표시"]
+
+	quest.202C90D93C50325D.title: "급이 다릅니다"
+	quest.202C90D93C50325D.quest_desc: ["채굴 등급 설명"]
+
+	quest.212E128CD01ECBC6.title: "행운이냐 섬세함이냐"
+	quest.212E128CD01ECBC6.quest_desc: ["행운과 섬세한 손길 비교"]
+
+	quest.2170D74C4D3986AE.title: "폐광인데 사람이 많다"
+	quest.2170D74C4D3986AE.quest_desc: ["폐광 발견"]
+
+	quest.248B0FAD159182E9.title: "방은 방인데 주인이 많다"
+	quest.248B0FAD159182E9.quest_desc: ["몬스터 방 발견"]
+
+	quest.2047E917AA9C6508.title: "작다고 얕보지 마라"
+	quest.2047E917AA9C6508.quest_desc: ["동굴 거미 주의"]
+
+	quest.2753315078FF303B.title: "반짝반짝 작은 정동"
+	quest.2753315078FF303B.quest_desc: ["자수정 정동 발견"]
+
+quest.29A696583A463B4F.title: "때에도 때가 있다"
+quest.29A696583A463B4F.quest_desc: ["Java Edition 공격 충전 설명"]
+
+	quest.2F02AB8F15F0A9B9.title: "칼이냐 도끼냐 그것이 문제로다"
+	quest.2F02AB8F15F0A9B9.quest_desc: ["무기 차이"]
+
+	quest.27922FE1A280A8C4.title: "방패로 막았다고 합니다"
+	quest.27922FE1A280A8C4.quest_desc: ["방패 사용"]
+
+	quest.2AEE5B8FF0F8FF8B.title: "가까이 오지 마세요"
+	quest.2AEE5B8FF0F8FF8B.quest_desc: ["활 제작"]
+
+	quest.2D8BC747D4EE1B8F.title: "화살은 넉넉하게"
+	quest.2D8BC747D4EE1B8F.quest_desc: ["화살 제작"]
+
+	quest.260F77B06A848314.title: "맞기 전에 입자"
+	quest.260F77B06A848314.quest_desc: ["방어구 설명"]
+
+	quest.20B5D3891DED4F1A.title: "떨어지면서 때리면 더 아프다"
+	quest.20B5D3891DED4F1A.quest_desc: ["치명타 안내"]
+
+	quest.2B8F4A77FC29123F.title: "도망친 곳에 낙원이 있다"
+	quest.2B8F4A77FC29123F.quest_desc: ["불리한 전투에서 이탈"]
+
+	quest.2776ED94E843D970.title: "걸어 다니는 유통기한"
+	quest.2776ED94E843D970.quest_desc: ["좀비 처치"]
+
+	quest.23288AD59515CF31.title: "뼈 때리는 한 발"
+	quest.23288AD59515CF31.quest_desc: ["스켈레톤 처치"]
+
+	quest.2521BC6F34305CB4.title: "가까이 오면 터지는 사이"
+	quest.2521BC6F34305CB4.quest_desc: ["크리퍼 처치"]
+
+	quest.2857C49A2D0D7EEB.title: "거미가 줄을 타고"
+	quest.2857C49A2D0D7EEB.quest_desc: ["거미 처치"]
+
+	quest.28FF9EEBA1168340.title: "눈을 마주치지 말아요"
+	quest.28FF9EEBA1168340.quest_desc: ["엔더맨 처치와 시선 판정 설명"]
+
+quest.22A5D7A1985AA779.title: "종이 한 장 차이"
+quest.22A5D7A1985AA779.quest_desc: ["종이 제작"]
+
+	quest.2C20759677319158.title: "사람은 책을 만들고 책은 장비를 만든다"
+	quest.2C20759677319158.quest_desc: ["책 제작"]
+
+	quest.294EB5CFB6162D85.title: "마법은 장비빨"
+	quest.294EB5CFB6162D85.quest_desc: ["마법 부여대 제작"]
+
+	quest.2EB85E962D885638.title: "지식이 힘이다"
+	quest.2EB85E962D885638.quest_desc: ["책장 배치"]
+
+	quest.25DB3CB1BB52DB62.title: "30레벨의 품격"
+	quest.25DB3CB1BB52DB62.quest_desc: ["최대 단계 조건 안내"]
+
+	quest.2A5750050800C247.title: "주문하신 마법 나왔습니다"
+	quest.2A5750050800C247.quest_desc: ["첫 마법 부여"]
+
+	quest.2723F8E14746A659.title: "책으로 배웠습니다"
+	quest.2723F8E14746A659.quest_desc: ["마법이 부여된 책 획득"]
+
+	quest.2D959C6A688B2451.title: "합치면 더 강해진다"
+	quest.2D959C6A688B2451.quest_desc: ["모루 사용"]
+
+	quest.240F2D33718F37EA.title: "없던 마법으로 하겠습니다"
+	quest.240F2D33718F37EA.quest_desc: ["숫돌 사용"]
+
+	quest.264FB21F62CC57A3.title: "고쳐 쓰는 것이 미덕"
+	quest.264FB21F62CC57A3.quest_desc: ["수선 작동 방식과 획득처 안내"]
+
+quest.2FB23CA24FE081C9.title: "사람 사는 곳을 찾았다"
+quest.2FB23CA24FE081C9.quest_desc: ["마을 발견"]
+
+	quest.27E94D31418A7BE8.title: "흥정은 없습니다"
+	quest.27E94D31418A7BE8.quest_desc: ["첫 거래"]
+
+	quest.20DA9946A9EA27AC.title: "직업에는 귀천이 없지만 작업대는 있다"
+	quest.20DA9946A9EA27AC.quest_desc: ["직업 블록 설명"]
+
+	quest.242DB03DB309BF1B.title: "농부는 모든 것을 알고 있다"
+	quest.242DB03DB309BF1B.quest_desc: ["농부 거래"]
+
+	quest.274EC933EFDB9616.title: "책 좀 읽으셨네요"
+	quest.274EC933EFDB9616.quest_desc: ["사서 거래"]
+
+	quest.2656558113183F41.title: "장비는 주민에게"
+	quest.2656558113183F41.quest_desc: ["대장장이 계열 거래"]
+
+	quest.289C47C1AAA8FE2E.title: "재고가 돌아왔다"
+	quest.289C47C1AAA8FE2E.quest_desc: ["재입고 조건 안내"]
+
+	quest.2FF3AB0A5AD0A84A.title: "소문은 빠릅니다"
+	quest.2FF3AB0A5AD0A84A.quest_desc: ["평판 설명"]
+
+	quest.21BAC370613B26D5.title: "마을 인구 정상화"
+	quest.21BAC370613B26D5.quest_desc: ["주민 번식"]
+
+	quest.2359FA621F618BAB.title: "치료가 필요합니다"
+	quest.2359FA621F618BAB.quest_desc: ["좀비 주민 치료"]
+
+	quest.2CAEAF1A82769DD1.title: "마을을 지켜라"
+	quest.2CAEAF1A82769DD1.quest_desc: ["습격 발생 조건과 방어"]
+
+quest.22B0838FF51C4311.title: "세상은 넓고 지도는 작다"
+quest.22B0838FF51C4311.quest_desc: ["지도 제작"]
+
+	quest.2EC0EDF6A91A18E4.title: "크게 보겠습니다"
+	quest.2EC0EDF6A91A18E4.quest_desc: ["지도 확장"]
+
+	quest.2004FC52B8DAE583.title: "멀리서 보면 희극"
+	quest.2004FC52B8DAE583.quest_desc: ["망원경 제작"]
+
+	quest.236DE6C0D99A80C8.title: "숫자는 거짓말하지 않는다"
+	quest.236DE6C0D99A80C8.quest_desc: ["좌표 안내"]
+
+	quest.2C1D7FBBA08584DA.title: "길 잃을 자유를 드립니다"
+	quest.2C1D7FBBA08584DA.quest_desc: ["웨이포인트 사용"]
+
+	quest.2132FA6E4DCC8228.title: "사막에서 보물 찾기"
+	quest.2132FA6E4DCC8228.quest_desc: ["사막 피라미드를 찾고 압력판을 해제한 뒤 전리품 획득"]
+
+	quest.2437A17A242F5910.title: "밀림의 함정"
+	quest.2437A17A242F5910.quest_desc: ["밀림 피라미드를 찾고 발사기와 실 함정을 조심하며 탐색"]
+
+	quest.2EC71B725222CD97.title: "배가 산으로...이 아니라 바다 밑으로"
+	quest.2EC71B725222CD97.quest_desc: ["난파선을 찾고 구역별 상자를 탐색"]
+
+	quest.25FEE6AE3F6725C0.title: "보물은 X 아래에 있다"
+	quest.25FEE6AE3F6725C0.quest_desc: ["보물 지도를 따라 표시된 지역의 매장된 보물 발견"]
+
+	quest.2E9F0C91454CA38D.title: "물속의 옛날 옛적에"
+	quest.2E9F0C91454CA38D.quest_desc: ["바다 폐허를 찾고 익사와 드라운드를 조심하며 탐색"]
+
+	quest.2BF93C6AFE19E58C.title: "저기 깃발이 보인다"
+	quest.2BF93C6AFE19E58C.quest_desc: ["약탈자 전초기지를 찾고 불길한 병을 주의하며 탐색"]
+
+	quest.2DDC0F516A0532CF.title: "큰 집에는 사연이 있다"
+	quest.2DDC0F516A0532CF.quest_desc: ["삼림 대저택을 찾고 방마다 안전하게 탐색"]
+
+	quest.25C82B207FAFE817.title: "솔질 한 번 하시죠"
+	quest.25C82B207FAFE817.quest_desc: ["고고학 안내"]
+
+	quest.23C71F33BF655C03.title: "바다의 주인은 누구인가"
+	quest.23C71F33BF655C03.quest_desc: ["해저 유적 안내"]
+
+quest.2782CA9338D0A483.title: "빨간 맛 전력"
+quest.2782CA9338D0A483.quest_desc: ["레버와 레드스톤 램프"]
+
+	quest.261C3E67E4E6AE43.title: "멀어지면 희미해지는 사이"
+	quest.261C3E67E4E6AE43.quest_desc: ["신호 세기"]
+
+	quest.2BACB4531F23C29D.title: "다시 한 번 말씀드립니다"
+	quest.2BACB4531F23C29D.quest_desc: ["중계기"]
+
+	quest.27C76242FD357969.title: "비교를 거부할 수 없다"
+	quest.27C76242FD357969.quest_desc: ["비교기"]
+
+	quest.22B5455EE6BFD457.title: "다 보고 있습니다"
+	quest.22B5455EE6BFD457.quest_desc: ["관측기"]
+
+	quest.26ADAD408D6777B0.title: "밀어드립니다"
+	quest.26ADAD408D6777B0.quest_desc: ["피스톤"]
+
+	quest.22EF93EA655A2A86.title: "밀고 당기기"
+	quest.22EF93EA655A2A86.quest_desc: ["끈끈이 피스톤"]
+
+	quest.29AEAD149607137A.title: "물류가 흐르는 방향"
+	quest.29AEAD149607137A.quest_desc: ["호퍼 연결"]
+
+	quest.20DD84B712A72F16.title: "시간은 돌고 돈다"
+	quest.20DD84B712A72F16.quest_desc: ["레드스톤 시계"]
+
+	quest.2E7D5645B6FFD030.title: "다음 역은 자동화역입니다"
+	quest.2E7D5645B6FFD030.quest_desc: ["전동 레일"]
+
+	quest.2A06ACA38C008EA7.title: "톱니바퀴를 돌릴 시간"
+	quest.2A06ACA38C008EA7.quest_desc: ["Create 기술 시대 퀘스트라인 안내"]
+
+quest.22EF3880460138CE.title: "이세계 전생 준비 완료"
+quest.22EF3880460138CE.quest_desc: ["네더 차원문 제작"]
+
+	quest.2358BCD118403516.title: "문은 열렸습니다"
+	quest.2358BCD118403516.quest_desc: ["차원문 점화"]
+
+	quest.24422C192DBE3B20.title: "여기가 어디요"
+	quest.24422C192DBE3B20.quest_desc: ["네더 진입"]
+
+	quest.2C23B6617E2E2977.title: "돌아갈 좌표는 적으셨습니까"
+	quest.2C23B6617E2E2977.quest_desc: ["차원문 좌표 기록 안내"]
+
+	quest.25125955795DC581.title: "금수저 생존법"
+	quest.25125955795DC581.quest_desc: ["금 방어구 한 부위 착용"]
+
+	quest.256971872A1E56B7.title: "하얀 돌도 쓸모가 있다"
+	quest.256971872A1E56B7.quest_desc: ["네더 석영 획득"]
+
+	quest.213FAB5695AACB9D.title: "요새가 안 보여요"
+	quest.213FAB5695AACB9D.quest_desc: ["네더 요새 발견"]
+
+	quest.2BCD814B11C9795E.title: "불 좀 꺼 줄래"
+	quest.2BCD814B11C9795E.quest_desc: ["블레이즈 처치"]
+
+	quest.23C9E89B45435A41.title: "불막대기 획득"
+	quest.23C9E89B45435A41.quest_desc: ["블레이즈 막대 획득"]
+
+	quest.270A46992DCED9E2.title: "빨간 혹 같은 그것"
+	quest.270A46992DCED9E2.quest_desc: ["네더 사마귀 획득"]
+
+	quest.2B1ED371A9BBD195.title: "곱게 갈아드립니다"
+	quest.2B1ED371A9BBD195.quest_desc: ["블레이즈 가루 제작"]
+
+	quest.2283ECD69DC3610E.title: "물이 안 나와요"
+	quest.2283ECD69DC3610E.quest_desc: ["네더에서 물을 놓을 수 없음"]
+
+	quest.278FD162EC9890DE.title: "누우면 큰일 납니다"
+	quest.278FD162EC9890DE.quest_desc: ["침대 폭발 경고"]
+
+	quest.29DA17247C728116.title: "8배 빠른 길"
+	quest.29DA17247C728116.quest_desc: ["네더 좌표 비율"]
+
+	quest.23A2306BA3721F9E.title: "금을 입으면 친구인 척"
+	quest.23A2306BA3721F9E.quest_desc: ["피글린 중립 조건"]
+
+	quest.289AA3B5E7DC9007.title: "쟤는 금을 몰라요"
+	quest.289AA3B5E7DC9007.quest_desc: ["호글린 주의"]
+
+	quest.29EE7D960C576326.title: "발밑이 뜨겁습니다"
+	quest.29EE7D960C576326.quest_desc: ["용암 지형 안전"]
+
+	quest.2069A8472126117D.title: "금으로 대화합시다"
+	quest.2069A8472126117D.quest_desc: ["피글린 물물교환"]
+
+	quest.2FE081C7B890AA53.title: "흑요석도 웁니다"
+	quest.2FE081C7B890AA53.quest_desc: ["우는 흑요석"]
+
+	quest.29638C6B24B2BDC3.title: "뜨거운 형제들"
+	quest.29638C6B24B2BDC3.quest_desc: ["화염 저항 획득"]
+
+	quest.29C6D3A5C0AAACAF.title: "그 시절 우리는 보루에 있었다"
+	quest.29C6D3A5C0AAACAF.quest_desc: ["보루 잔해 발견"]
+
+	quest.2E6961D7675948D1.title: "말이 통하지 않는 친구"
+	quest.2E6961D7675948D1.quest_desc: ["피글린 야수 주의"]
+
+	quest.226CB1D23CE3AC5F.title: "오래된 것이 강하다"
+	quest.226CB1D23CE3AC5F.quest_desc: ["고대 잔해 획득"]
+
+	quest.28A9066994CC950D.title: "업그레이드는 못 참지"
+	quest.28A9066994CC950D.quest_desc: ["네더라이트 장비 제작"]
+
+quest.2BFC92150F5DF38C.title: "오늘은 내가 연금술사"
+quest.2BFC92150F5DF38C.quest_desc: ["양조기 제작"]
+
+	quest.254E86B7542E4BA1.title: "불맛을 더했습니다"
+	quest.254E86B7542E4BA1.quest_desc: ["블레이즈 가루 투입"]
+
+	quest.2F0C3875995B9CB2.title: "어색한 물약이 시작입니다"
+	quest.2F0C3875995B9CB2.quest_desc: ["어색한 물약 제작"]
+
+	quest.2B9FCC1CCBA7FE65.title: "오래오래 갑니다"
+	quest.2B9FCC1CCBA7FE65.quest_desc: ["레드스톤으로 지속시간 증가"]
+
+	quest.2F3D4CEF6F117BCF.title: "진하게 부탁드립니다"
+	quest.2F3D4CEF6F117BCF.quest_desc: ["발광석으로 효과 강화"]
+
+	quest.241233BC1ACE1C04.title: "마시는 것보다 던지는 게 빠르다"
+	quest.241233BC1ACE1C04.quest_desc: ["투척용 물약"]
+
+	quest.2162A265A74861B3.title: "불 속성 면역"
+	quest.2162A265A74861B3.quest_desc: ["화염 저항 물약"]
+
+	quest.2D967FE90D2E9C7A.title: "천천히 떨어져도 괜찮아"
+	quest.2D967FE90D2E9C7A.quest_desc: ["느린 낙하 물약"]
+
+	quest.2D5DC1F047F7FC82.title: "힘이 장사다"
+	quest.2D5DC1F047F7FC82.quest_desc: ["힘의 물약"]
+
+	quest.2E32E40B77AEBA19.title: "원샷 원회복"
+	quest.2E32E40B77AEBA19.quest_desc: ["즉시 치유 물약"]
+
+quest.2B1F6B8CE7BC3902.title: "눈물은 아니고 진주입니다"
+quest.2B1F6B8CE7BC3902.quest_desc: ["엔더 진주 획득"]
+
+	quest.2722B782024D7FA3.title: "눈에는 눈, 진주에는 가루"
+	quest.2722B782024D7FA3.quest_desc: ["엔더의 눈 제작"]
+
+	quest.234FA47BF87CD9E5.title: "눈을 던져 길을 묻다"
+	quest.234FA47BF87CD9E5.quest_desc: ["엔더의 눈 던지기"]
+
+	quest.2EB38E8623FD1AC3.title: "여분은 배신하지 않는다"
+	quest.2EB38E8623FD1AC3.quest_desc: ["파괴 가능성과 여분 준비 안내"]
+
+	quest.207692C488E36AC5.title: "찾았다 요새... 맞겠지?"
+	quest.207692C488E36AC5.quest_desc: ["근거지 발견"]
+
+	quest.2609D1E1916E037F.title: "지하 도서관에 오신 것을 환영합니다"
+	quest.2609D1E1916E037F.quest_desc: ["근거지 도서관 발견"]
+
+	quest.2EEFE6DBCB6451A7.title: "드디어 문 앞입니다"
+	quest.2EEFE6DBCB6451A7.quest_desc: ["엔드 차원문 방 발견"]
+
+	quest.266EA9A8485ED99A.title: "돌에서 벌레가 왜 나와"
+	quest.266EA9A8485ED99A.quest_desc: ["좀벌레 생성기 처리 안내"]
+
+	quest.229D7172C2C1D7ED.title: "열두 눈이 지켜보고 있다"
+	quest.229D7172C2C1D7ED.quest_desc: ["엔드 차원문 활성화"]
+
+quest.2DEB7AC25A6BAE43.title: "믿을 만한 한 자루"
+quest.2DEB7AC25A6BAE43.quest_desc: ["다이아몬드 무기 권장"]
+
+	quest.2894465774576B89.title: "거리는 곧 생명이다"
+	quest.2894465774576B89.quest_desc: ["활 또는 쇠뇌 준비"]
+
+	quest.28C0D79B888A8041.title: "화살은 많을수록 좋다"
+	quest.28C0D79B888A8041.quest_desc: ["충분한 화살 준비"]
+
+	quest.2A77350D551791D2.title: "갑옷은 배신하지 않는다"
+	quest.2A77350D551791D2.quest_desc: ["방어구 준비"]
+
+	quest.2F8BD40FB53BF0AD.title: "쌓을 것은 많고 시간은 없다"
+	quest.2F8BD40FB53BF0AD.quest_desc: ["건축 블록 준비"]
+
+	quest.28A69A83D01944B2.title: "물 한 바가지의 기적"
+	quest.28A69A83D01944B2.quest_desc: ["물 양동이 준비"]
+
+	quest.205DAB6369C76AC6.title: "떨어질 때 쓰는 보험"
+	quest.205DAB6369C76AC6.quest_desc: ["엔더 진주 준비"]
+
+	quest.278293B9205CDD1B.title: "싸움도 식후경"
+	quest.278293B9205CDD1B.quest_desc: ["음식 준비"]
+
+	quest.2E62538D25B2BA1A.title: "낙하산 없는 낙하"
+	quest.2E62538D25B2BA1A.quest_desc: ["느린 낙하 물약 권장"]
+
+	quest.2ED272F9C13587AB.title: "죽어도 문 앞에서"
+	quest.2ED272F9C13587AB.quest_desc: ["근거지에 리스폰 지점 설정"]
+
+	quest.2391E50928ECF945.title: "플랜 B는 상자 안에"
+	quest.2391E50928ECF945.quest_desc: ["예비 장비 보관"]
+
+	quest.2CEF9C2C322EF548.title: "엔드에서 숙면 금지"
+	quest.2CEF9C2C322EF548.quest_desc: ["침대 폭발 전술과 위험성 설명"]
+
+quest.2C455DE030CB7353.title: "돌아올 수 없는 강을 건넜다"
+quest.2C455DE030CB7353.quest_desc: ["엔드 진입"]
+	quest.2E9207295388974C.title: "섬까지 안전배송"
+	quest.2E9207295388974C.quest_desc: ["중앙 섬으로 이동"]
+	quest.2D2897D8C814E32D.title: "눈을 마주치지 말아요 2"
+	quest.2D2897D8C814E32D.quest_desc: ["엔더맨 대응 안내"]
+	quest.26492CCC83A0441F.title: "저 수정이 범인입니다"
+	quest.26492CCC83A0441F.quest_desc: ["엔드 수정의 회복 기능 설명"]
+	quest.2D84BC10F51093E9.title: "연결을 끊겠습니다"
+	quest.2D84BC10F51093E9.quest_desc: ["엔드 수정 파괴"]
+	quest.2D8AFCE4D8F7A60F.title: "철창 안의 수정"
+	quest.2D8AFCE4D8F7A60F.quest_desc: ["철창 수정 처리"]
+	quest.2E4A07D835841C3D.title: "보라색 바닥은 밟는 게 아닙니다"
+	quest.2E4A07D835841C3D.quest_desc: ["드래곤의 숨결 회피"]
+	quest.2E9EEB3C8E75E9F1.title: "중앙으로 와라"
+	quest.2E9EEB3C8E75E9F1.quest_desc: ["드래곤 착지 중 근접 공격 안내"]
+	quest.2FC0FBEB5C3B3E55.title: "내가 왕이 될 상인가"
+	quest.2FC0FBEB5C3B3E55.quest_desc: ["엔더 드래곤 처치"]
+	quest.2AED3403409C973C.title: "집으로 가는 길"
+	quest.2AED3403409C973C.quest_desc: ["귀환 차원문 진입"]
+	quest.2627CC14E83E02BC.title: "숨결까지 알뜰하게"
+	quest.2627CC14E83E02BC.quest_desc: ["드래곤의 숨결 획득"]
+	quest.23CF33578CCDEC88.title: "알은 건드리면 도망갑니다"
+	quest.23CF33578CCDEC88.quest_desc: ["드래곤 알 획득"]
+	quest.2B671527AF5A73CB.title: "한 번 더 하시겠습니까"
+	quest.2B671527AF5A73CB.quest_desc: ["엔드 수정으로 드래곤 부활"]
+	quest.2261DE13E8ECCEC6.title: "끝... 다시"
+	quest.2261DE13E8ECCEC6.quest_desc: ["부활한 드래곤 처치"]
+
+quest.21CF78563D572C07.title: "문 너머 또 다른 문"
+quest.21CF78563D572C07.quest_desc: ["엔드 관문 이용"]
+	quest.287DB19021C0B223.title: "끝의 바깥쪽"
+	quest.287DB19021C0B223.quest_desc: ["외곽 엔드 섬 도달"]
+	quest.2FA9650FD1A71516.title: "먹으면 어디로 갈지 모릅니다"
+	quest.2FA9650FD1A71516.quest_desc: ["후렴과 열매 획득"]
+	quest.23E97717160E9740.title: "게임 끝에 도시가 있었다"
+	quest.23E97717160E9740.quest_desc: ["엔드 도시 발견"]
+	quest.28969B87B3D90E53.title: "열리면 맞고 맞으면 뜹니다"
+	quest.28969B87B3D90E53.quest_desc: ["셜커 처치"]
+	quest.2B2A7A64850EC6B2.title: "하늘을 나는 기분은 이런 걸까"
+	quest.2B2A7A64850EC6B2.quest_desc: ["공중 부양 대응 안내"]
+	quest.28223A99A5DD3016.title: "껍데기는 남는다"
+	quest.28223A99A5DD3016.quest_desc: ["셜커 껍데기 획득"]
+	quest.2350D6F6680B35CD.title: "상자째 들고 갑니다"
+	quest.2350D6F6680B35CD.quest_desc: ["셜커 상자 제작"]
+	quest.299073A0221D05B5.title: "배는 있는데 바다는 없다"
+	quest.299073A0221D05B5.quest_desc: ["엔드 함선 발견"]
+	quest.2C389C7A2762CD20.title: "날개를 펼쳐라"
+	quest.2C389C7A2762CD20.quest_desc: ["겉날개 획득"]
+	quest.2A7B892355827F39.title: "추진력을 얻기 위함이었다"
+	quest.2A7B892355827F39.quest_desc: ["폭죽 로켓 제작"]
+	quest.225607A20E1F38D8.title: "날아라 슈퍼보드...는 아니고"
+	quest.225607A20E1F38D8.quest_desc: ["겉날개 비행"]
+	quest.203FD34AD0697ACD.title: "끝난 줄 알았지?"
+	quest.203FD34AD0697ACD.quest_desc: ["에필로그 완료 및 포스트게임 분기 안내"]
+
+quest.2231512688E7D895.title: "들어는 봤나, Deep Dark"
+quest.2231512688E7D895.quest_desc: ["Deep Dark 분기와 비전투 원칙 소개"]
+	quest.2CD0E7DBD00FCBA6.title: "더 깊고 더 어둡게"
+	quest.2CD0E7DBD00FCBA6.quest_desc: ["Deep Dark 생물군계 발견"]
+	quest.2174D20E9E35FDBD.title: "사람이 없는데 도시가 있다"
+	quest.2174D20E9E35FDBD.quest_desc: ["고대 도시 발견"]
+	quest.2745E1F6DCD67D4D.title: "조용히 챙기고 조용히 나갑시다"
+	quest.2745E1F6DCD67D4D.quest_desc: ["고대 도시 상자 전리품 획득"]
+	quest.2E62B60378C29777.title: "메아리만 남았습니다"
+	quest.2E62B60378C29777.quest_desc: ["메아리 조각 획득"]
+	quest.2CAFFF7AA4EEA2D1.title: "잃어버린 나를 찾아서"
+	quest.2CAFFF7AA4EEA2D1.quest_desc: ["복구 나침반 제작"]
+	quest.2343A2F304005C7E.title: "튀어!"
+	quest.2343A2F304005C7E.quest_desc: ["워든을 공격하지 않고 고대 도시에서 생환"]
+	quest.2CF9DF9E80FDC356.title: "들어갈 때보다 조용히 나왔다"
+	quest.2CF9DF9E80FDC356.quest_desc: ["주요 전리품을 확보하고 오버월드로 귀환"]
+	quest.27DDEBE769354FED.title: "이끼인 줄 알았는데 듣고 있습니다"
+	quest.27DDEBE769354FED.quest_desc: ["스컬크 블록 획득 또는 관찰"]
+	quest.228E5EDBEB613B0A.title: "다 듣고 있습니다"
+	quest.228E5EDBEB613B0A.quest_desc: ["스컬크 감지기와 진동 설명"]
+	quest.27F9DA0D6A958B3D.title: "소리 지르지 마"
+	quest.27F9DA0D6A958B3D.quest_desc: ["스컬크 비명체의 경고 단계 설명"]
+	quest.28F84E0C8F487635.title: "양털은 생각보다 조용하다"
+	quest.28F84E0C8F487635.quest_desc: ["양털로 진동을 차단하는 방법 안내"]
+	quest.27FB23EDF4A4FF37.title: "쉿, 조용히 해"
+	quest.27FB23EDF4A4FF37.quest_desc: ["스컬크 감지기 근처에서 웅크리고 이동"]
+	quest.21B2A3A587E3CF59.title: "발소리도 포장해 드립니다"
+	quest.21B2A3A587E3CF59.quest_desc: ["양털과 괭이 준비 권장"]
+	quest.211E52854DA90DA7.title: "조용하지만 빠르게"
+	quest.211E52854DA90DA7.quest_desc: ["신속한 잠행 마법책 획득"]
+	quest.28B58871792FA331.title: "조각난 음악의 기억"
+	quest.28B58871792FA331.quest_desc: ["음반 파편 획득"]
+	quest.2D00C541551763BD.title: "5번 트랙에는 사연이 있다"
+	quest.2D00C541551763BD.quest_desc: ["음반 5 제작"]
+	quest.2AC30C39C6F2A053.title: "잡는 거 아닙니다"
+	quest.2AC30C39C6F2A053.quest_desc: ["워든의 목적, 높은 공격력과 회피 원칙 설명"]
+	quest.2750274BD6574992.title: "소리는 저쪽에서 났습니다"
+	quest.2750274BD6574992.quest_desc: ["눈덩이 또는 화살로 진동 유도"]
+	quest.2D38DE80A2571C0D.title: "올 것이 왔다"
+	quest.2D38DE80A2571C0D.quest_desc: ["워든 출현 시 싸우지 말고 거리 확보"]
+
+quest.24039B1AB38B5053.title: "내가 만든 보스에 내가 당한다"
+quest.24039B1AB38B5053.quest_desc: ["위더 소환과 지형 파괴 위험 소개"]
+	quest.238047173D35A699.title: "영혼까지 끌어모았습니다"
+	quest.238047173D35A699.quest_desc: ["영혼 모래 또는 영혼 흙 4개 준비"]
+	quest.295056F543D97C20.title: "뼈대 있는 집안"
+	quest.295056F543D97C20.quest_desc: ["위더 스켈레톤 처치"]
+	quest.22032DAD07AC602F.title: "머리 하나 주웠습니다"
+	quest.22032DAD07AC602F.quest_desc: ["위더 스켈레톤 해골 획득"]
+	quest.2CF21FABD33EDF0A.title: "삼두정치의 시작"
+	quest.2CF21FABD33EDF0A.quest_desc: ["해골 3개 준비"]
+	quest.24BC1FF5AB8AE97C.title: "해골 세 개면 충분해"
+	quest.24BC1FF5AB8AE97C.quest_desc: ["위더 소환"]
+	quest.2DBF0129446819C9.title: "내가 소환하고 내가 잡는다"
+	quest.2DBF0129446819C9.quest_desc: ["위더 처치"]
+	quest.2183D57AAFC8A7A8.title: "별이 빛나는 밤에"
+	quest.2183D57AAFC8A7A8.quest_desc: ["네더의 별 획득"]
+	quest.23F2794CB6E0444E.title: "빛이 있으라 2"
+	quest.23F2794CB6E0444E.quest_desc: ["신호기 제작"]
+	quest.246F7468C9CFB9B1.title: "저 높은 곳을 향하여"
+	quest.246F7468C9CFB9B1.quest_desc: ["신호기 활성화"]
+	quest.24375E7F0F1F4684.title: "보스도 잡고 별도 따고"
+	quest.24375E7F0F1F4684.quest_desc: ["위더 분기 완료"]
+	quest.216FB4B87786641C.title: "언데드 특효약"
+	quest.216FB4B87786641C.quest_desc: ["강타 마법이 위더에게 유효함을 안내"]
+	quest.27369B22C0A6CC65.title: "우유는 답을 알고 있다"
+	quest.27369B22C0A6CC65.quest_desc: ["위더 상태 효과 제거용 우유 준비"]
+	quest.2E210D1406F05126.title: "장소 협찬은 지하에서"
+	quest.2E210D1406F05126.quest_desc: ["기지와 중요 시설에서 멀리 떨어진 전장 권장"]
+	quest.2645AD58B01D63FE.title: "폭발은 예고되었습니다"
+	quest.2645AD58B01D63FE.quest_desc: ["생성 직후 폭발과 거리 확보 안내"]
+	quest.2C97C43BF3F3686E.title: "화살이 안 통한다고요?"
+	quest.2C97C43BF3F3686E.quest_desc: ["체력 절반 이하의 위더 갑옷과 근접전 설명"]
+	quest.2375A682DEA63545.title: "피라미드 사업 완공"
+	quest.2375A682DEA63545.quest_desc: ["최대 단계 신호기 완성"]
+	quest.209664B16DC537C8.title: "이 구역의 버프는 나야"
+	quest.209664B16DC537C8.quest_desc: ["여러 신호기 효과 활용 안내"]
+}
