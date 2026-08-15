@@ -13,3 +13,4 @@
 - NERB와 필수 라이브러리 ShatterLib을 추가하고 바닐라 레시피북 버튼 및 기능을 비활성화했습니다.
 - FTB Quests가 인식하는 `lang/en_us.snbt`에 튜토리얼 퀘스트 263개의 제목과 설명을 한글로 작성했습니다.
 - 게임 내 편집기에서 정리한 튜토리얼 퀘스트 263개의 배치 좌표를 저장소에 반영했습니다.
+- 대한민국 이용 시간 알림을 숨기는 Disable Compliance Notification과 한글 입력을 개선하는 Korean Chat Patch를 추가했습니다.

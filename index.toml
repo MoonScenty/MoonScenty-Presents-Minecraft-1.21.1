@@ -940,6 +940,11 @@ hash = "d4e1dace036a2f0a60d4dedf324153f830d8cddb1275969d12557d114920a78f"
 metafile = true
 
 [[files]]
+file = "mods/disable-compliance-notification.pw.toml"
+hash = "82542d857a48f02a9c3fa011a93ec4e7fdb3ccf18af9c5d112896a43b753a8f9"
+metafile = true
+
+[[files]]
 file = "mods/dynamiclights-reforged.pw.toml"
 hash = "f619c1ed2e189f9d482d081411fccee4bd26c05cce52a5db914f1989303f080c"
 metafile = true
@@ -1042,6 +1047,11 @@ metafile = true
 [[files]]
 file = "mods/konkrete.pw.toml"
 hash = "e8ad4c0b1a01858f6d653672472641f24aeacf7d6fb3b63a4358157312381a76"
+metafile = true
+
+[[files]]
+file = "mods/korean-patch-fabric.pw.toml"
+hash = "10056262f79e64712adfbcfc34304efa8d1050dab80e030a78273e0de7dce330"
 metafile = true
 
 [[files]]

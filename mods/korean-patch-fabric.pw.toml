@@ -1,0 +1,13 @@
+name = "Korean Chat Patch"
+filename = "koreanpatch-neoforge-1.9.6+mc1.21.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b8ea18df43478b1432dc184b313d9dc5ead2c19d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8221015
+project-id = 657742
