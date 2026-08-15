@@ -1,15 +1,58 @@
 {
 	id: "6A0000000000000E"
-	loot_crate: { color: 16755200, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "14장: 결전 준비 상자", string_id: "tutorial_14_dragon_prep" }
+	loot_crate: {
+		color: 16755200
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "14장: 결전 준비 상자"
+		string_id: "tutorial_14_dragon_prep"
+	}
 	loot_size: 2
 	order_index: 14
 	rewards: [
-		{ count: 64, item: "minecraft:arrow" }
-		{ count: 4, item: "minecraft:golden_apple" }
-		{ count: 16, item: "minecraft:ender_pearl" }
-		{ count: 32, item: "minecraft:cooked_beef" }
-		{ count: 4, item: "minecraft:phantom_membrane" }
+		{
+			count: 64
+			id: "708276FD6ADE9791"
+			item: {
+				count: 1
+				id: "minecraft:arrow"
+			}
+		}
+		{
+			count: 4
+			id: "12F0B5B046EEB090"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+		}
+		{
+			count: 16
+			id: "5A83BADC3710FC81"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+		}
+		{
+			count: 32
+			id: "0AC1AEEA360B7670"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+		}
+		{
+			count: 4
+			id: "674AD2B37705DC27"
+			item: {
+				count: 1
+				id: "minecraft:phantom_membrane"
+			}
+		}
 	]
-	title: "14장: 드래곤전 보급품"
 	use_title: true
 }

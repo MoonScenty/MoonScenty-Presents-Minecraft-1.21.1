@@ -1,15 +1,58 @@
 {
 	id: "6A0000000000000F"
-	loot_crate: { color: 8388736, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "15장: 드래곤 슬레이어의 상자", string_id: "tutorial_15_dragon" }
+	loot_crate: {
+		color: 8388736
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "15장: 드래곤 슬레이어의 상자"
+		string_id: "tutorial_15_dragon"
+	}
 	loot_size: 2
 	order_index: 15
 	rewards: [
-		{ count: 4, item: "minecraft:diamond" }
-		{ count: 16, item: "minecraft:experience_bottle" }
-		{ count: 32, item: "minecraft:firework_rocket" }
-		{ count: 16, item: "minecraft:glass_bottle" }
-		{ count: 16, item: "minecraft:obsidian" }
+		{
+			count: 4
+			id: "63A26D57F8A6F00B"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+		}
+		{
+			count: 16
+			id: "2303214842758A30"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+		}
+		{
+			count: 32
+			id: "4A0C3D39972B4D48"
+			item: {
+				count: 1
+				id: "minecraft:firework_rocket"
+			}
+		}
+		{
+			count: 16
+			id: "72AA8D3280804C8C"
+			item: {
+				count: 1
+				id: "minecraft:glass_bottle"
+			}
+		}
+		{
+			count: 16
+			id: "7ECCFAFC9A6BCC41"
+			item: {
+				count: 1
+				id: "minecraft:obsidian"
+			}
+		}
 	]
-	title: "15장: 드래곤 토벌 보급품"
 	use_title: true
 }

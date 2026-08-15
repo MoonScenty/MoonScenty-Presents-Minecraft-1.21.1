@@ -1,15 +1,58 @@
 {
 	id: "6A00000000000001"
-	loot_crate: { color: 10053120, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "1장: 나무꾼의 보급 상자", string_id: "tutorial_01_wood" }
+	loot_crate: {
+		color: 10053120
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "1장: 나무꾼의 보급 상자"
+		string_id: "tutorial_01_wood"
+	}
 	loot_size: 2
 	order_index: 1
 	rewards: [
-		{ count: 32, item: "minecraft:cobblestone" }
-		{ count: 16, item: "minecraft:coal" }
-		{ count: 16, item: "minecraft:oak_log" }
-		{ count: 16, item: "minecraft:torch" }
-		{ count: 8, item: "minecraft:leather" }
+		{
+			count: 32
+			id: "594ECF840547D795"
+			item: {
+				count: 1
+				id: "minecraft:cobblestone"
+			}
+		}
+		{
+			count: 16
+			id: "1DE0914FB3DE242D"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+		}
+		{
+			count: 16
+			id: "405F669D70DE3F48"
+			item: {
+				count: 1
+				id: "minecraft:oak_log"
+			}
+		}
+		{
+			count: 16
+			id: "263E3E7086CEA9CC"
+			item: {
+				count: 1
+				id: "minecraft:torch"
+			}
+		}
+		{
+			count: 8
+			id: "1FB8E96EBFAD7EE9"
+			item: {
+				count: 1
+				id: "minecraft:leather"
+			}
+		}
 	]
-	title: "1장: 첫 자원 보급품"
 	use_title: true
 }

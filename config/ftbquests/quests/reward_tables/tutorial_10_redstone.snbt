@@ -1,15 +1,58 @@
 {
 	id: "6A0000000000000A"
-	loot_crate: { color: 11546150, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "10장: 회로공의 부품 상자", string_id: "tutorial_10_redstone" }
+	loot_crate: {
+		color: 11546150
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "10장: 회로공의 부품 상자"
+		string_id: "tutorial_10_redstone"
+	}
 	loot_size: 2
 	order_index: 10
 	rewards: [
-		{ count: 64, item: "minecraft:redstone" }
-		{ count: 16, item: "minecraft:quartz" }
-		{ count: 16, item: "minecraft:slime_ball" }
-		{ count: 8, item: "minecraft:iron_ingot" }
-		{ count: 8, item: "minecraft:repeater" }
+		{
+			count: 64
+			id: "495C5BCE24243169"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+		}
+		{
+			count: 16
+			id: "24FC8665940426BE"
+			item: {
+				count: 1
+				id: "minecraft:quartz"
+			}
+		}
+		{
+			count: 16
+			id: "35F29665C2050D0F"
+			item: {
+				count: 1
+				id: "minecraft:slime_ball"
+			}
+		}
+		{
+			count: 8
+			id: "437B70D84EAA43E0"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+		}
+		{
+			count: 8
+			id: "06AAE0A110FBE1C2"
+			item: {
+				count: 1
+				id: "minecraft:repeater"
+			}
+		}
 	]
-	title: "10장: 레드스톤 보급품"
 	use_title: true
 }

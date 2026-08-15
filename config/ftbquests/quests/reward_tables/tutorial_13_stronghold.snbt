@@ -1,15 +1,58 @@
 {
 	id: "6A0000000000000D"
-	loot_crate: { color: 6697881, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "13장: 근거지 탐사 상자", string_id: "tutorial_13_stronghold" }
+	loot_crate: {
+		color: 6697881
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "13장: 근거지 탐사 상자"
+		string_id: "tutorial_13_stronghold"
+	}
 	loot_size: 2
 	order_index: 13
 	rewards: [
-		{ count: 32, item: "minecraft:arrow" }
-		{ count: 8, item: "minecraft:ender_pearl" }
-		{ count: 8, item: "minecraft:blaze_powder" }
-		{ count: 16, item: "minecraft:cooked_beef" }
-		{ count: 8, item: "minecraft:experience_bottle" }
+		{
+			count: 32
+			id: "0B4835169F11C500"
+			item: {
+				count: 1
+				id: "minecraft:arrow"
+			}
+		}
+		{
+			count: 8
+			id: "1A05C87C16C53996"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+		}
+		{
+			count: 8
+			id: "07CCEF258A40294E"
+			item: {
+				count: 1
+				id: "minecraft:blaze_powder"
+			}
+		}
+		{
+			count: 16
+			id: "4930C6902DB5DBC3"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+		}
+		{
+			count: 8
+			id: "20781A835228D76E"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+		}
 	]
-	title: "13장: 엔드 원정 보급품"
 	use_title: true
 }

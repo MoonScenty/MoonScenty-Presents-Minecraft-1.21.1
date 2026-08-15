@@ -1,15 +1,58 @@
 {
 	id: "6A00000000000007"
-	loot_crate: { color: 10158204, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "7장: 마법사의 서고 상자", string_id: "tutorial_07_enchanting" }
+	loot_crate: {
+		color: 10158204
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "7장: 마법사의 서고 상자"
+		string_id: "tutorial_07_enchanting"
+	}
 	loot_size: 2
 	order_index: 7
 	rewards: [
-		{ count: 32, item: "minecraft:lapis_lazuli" }
-		{ count: 8, item: "minecraft:experience_bottle" }
-		{ count: 8, item: "minecraft:book" }
-		{ count: 16, item: "minecraft:leather" }
-		{ count: 16, item: "minecraft:amethyst_shard" }
+		{
+			count: 32
+			id: "79038FB7F66A57AB"
+			item: {
+				count: 1
+				id: "minecraft:lapis_lazuli"
+			}
+		}
+		{
+			count: 8
+			id: "534881D25E4CDE27"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+		}
+		{
+			count: 8
+			id: "661CBBDC03F9DB08"
+			item: {
+				count: 1
+				id: "minecraft:book"
+			}
+		}
+		{
+			count: 16
+			id: "7C92B67E5D7EBB09"
+			item: {
+				count: 1
+				id: "minecraft:leather"
+			}
+		}
+		{
+			count: 16
+			id: "1B92AAC064BE5170"
+			item: {
+				count: 1
+				id: "minecraft:amethyst_shard"
+			}
+		}
 	]
-	title: "7장: 마법 부여 보급품"
 	use_title: true
 }

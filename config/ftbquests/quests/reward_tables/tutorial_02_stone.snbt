@@ -1,15 +1,58 @@
 {
 	id: "6A00000000000002"
-	loot_crate: { color: 15044167, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "2장: 첫날밤 생존 상자", string_id: "tutorial_02_stone" }
+	loot_crate: {
+		color: 15044167
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "2장: 첫날밤 생존 상자"
+		string_id: "tutorial_02_stone"
+	}
 	loot_size: 2
 	order_index: 2
 	rewards: [
-		{ count: 16, item: "minecraft:cooked_beef" }
-		{ count: 32, item: "minecraft:torch" }
-		{ count: 16, item: "minecraft:coal" }
-		{ count: 8, item: "minecraft:white_wool" }
-		{ count: 16, item: "minecraft:glass" }
+		{
+			count: 16
+			id: "25BF0779918B52E7"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+		}
+		{
+			count: 32
+			id: "7375C2590C2F9436"
+			item: {
+				count: 1
+				id: "minecraft:torch"
+			}
+		}
+		{
+			count: 16
+			id: "526A6F18BDAC42B7"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+		}
+		{
+			count: 8
+			id: "7C13FB930A15D522"
+			item: {
+				count: 1
+				id: "minecraft:white_wool"
+			}
+		}
+		{
+			count: 16
+			id: "637B14CFC58AEF86"
+			item: {
+				count: 1
+				id: "minecraft:glass"
+			}
+		}
 	]
-	title: "2장: 정착 보급품"
 	use_title: true
 }

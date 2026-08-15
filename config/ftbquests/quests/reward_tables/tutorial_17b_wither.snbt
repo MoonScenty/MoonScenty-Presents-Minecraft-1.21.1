@@ -1,15 +1,59 @@
 {
 	id: "6A00000000000012"
-	loot_crate: { color: 16763904, drops: { boss: 0, monster: 0, passive: 0 }, glow: true, item_name: "17B장: 위더 정복자의 상자", string_id: "tutorial_17b_wither" }
+	loot_crate: {
+		color: 16763904
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "17B장: 위더 정복자의 상자"
+		string_id: "tutorial_17b_wither"
+	}
 	loot_size: 2
 	order_index: 18
 	rewards: [
-		{ count: 16, item: "minecraft:iron_block" }
-		{ count: 8, item: "minecraft:gold_block" }
-		{ count: 8, item: "minecraft:golden_apple" }
-		{ count: 32, item: "minecraft:experience_bottle" }
-		{ count: 16, item: "minecraft:emerald_block" }
+		{
+			count: 16
+			id: "6919045859CEFF99"
+			item: {
+				count: 1
+				id: "minecraft:iron_block"
+			}
+		}
+		{
+			count: 8
+			id: "4F75574AAF16958E"
+			item: {
+				count: 1
+				id: "minecraft:gold_block"
+			}
+		}
+		{
+			count: 8
+			id: "64DD04E9E7FC18D5"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+		}
+		{
+			count: 32
+			id: "27454E51C4576784"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+		}
+		{
+			count: 16
+			id: "3A729CB70C6CE0DC"
+			item: {
+				count: 1
+				id: "minecraft:emerald_block"
+			}
+		}
 	]
-	title: "17B장: 위더 토벌 보급품"
 	use_title: true
 }

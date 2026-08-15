@@ -1,15 +1,58 @@
 {
 	id: "6A00000000000005"
-	loot_crate: { color: 3381759, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "5장: 심층 광부의 상자", string_id: "tutorial_05_mining" }
+	loot_crate: {
+		color: 3381759
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "5장: 심층 광부의 상자"
+		string_id: "tutorial_05_mining"
+	}
 	loot_size: 2
 	order_index: 5
 	rewards: [
-		{ count: 64, item: "minecraft:torch" }
-		{ count: 32, item: "minecraft:lapis_lazuli" }
-		{ count: 32, item: "minecraft:redstone" }
-		{ count: 16, item: "minecraft:gold_ingot" }
-		{ count: 4, item: "minecraft:experience_bottle" }
+		{
+			count: 64
+			id: "666F86B08AAACE61"
+			item: {
+				count: 1
+				id: "minecraft:torch"
+			}
+		}
+		{
+			count: 32
+			id: "034BF6EC322E4435"
+			item: {
+				count: 1
+				id: "minecraft:lapis_lazuli"
+			}
+		}
+		{
+			count: 32
+			id: "13C4EABE822D141E"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+		}
+		{
+			count: 16
+			id: "4A952C197DC1CC9A"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+		}
+		{
+			count: 4
+			id: "2E6AB46CE13D89A5"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+		}
 	]
-	title: "5장: 지하 탐사 보급품"
 	use_title: true
 }

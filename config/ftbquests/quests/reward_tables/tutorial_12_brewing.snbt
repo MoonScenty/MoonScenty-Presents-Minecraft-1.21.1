@@ -1,15 +1,58 @@
 {
 	id: "6A0000000000000C"
-	loot_crate: { color: 12255419, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "12장: 연금술사의 재료 상자", string_id: "tutorial_12_brewing" }
+	loot_crate: {
+		color: 12255419
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "12장: 연금술사의 재료 상자"
+		string_id: "tutorial_12_brewing"
+	}
 	loot_size: 2
 	order_index: 12
 	rewards: [
-		{ count: 16, item: "minecraft:glass_bottle" }
-		{ count: 16, item: "minecraft:nether_wart" }
-		{ count: 16, item: "minecraft:redstone" }
-		{ count: 16, item: "minecraft:glowstone_dust" }
-		{ count: 16, item: "minecraft:gunpowder" }
+		{
+			count: 16
+			id: "61867CFC90B51A6B"
+			item: {
+				count: 1
+				id: "minecraft:glass_bottle"
+			}
+		}
+		{
+			count: 16
+			id: "7B675A5BBCEE73CF"
+			item: {
+				count: 1
+				id: "minecraft:nether_wart"
+			}
+		}
+		{
+			count: 16
+			id: "72F0B99C30F00C28"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+		}
+		{
+			count: 16
+			id: "41669304E66841EC"
+			item: {
+				count: 1
+				id: "minecraft:glowstone_dust"
+			}
+		}
+		{
+			count: 16
+			id: "2557E61AEBBCDA72"
+			item: {
+				count: 1
+				id: "minecraft:gunpowder"
+			}
+		}
 	]
-	title: "12장: 양조 보급품"
 	use_title: true
 }

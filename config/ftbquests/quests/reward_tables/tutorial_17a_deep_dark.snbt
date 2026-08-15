@@ -1,15 +1,58 @@
 {
 	id: "6A00000000000011"
-	loot_crate: { color: 2236962, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "17A장: 고대 도시 생환 상자", string_id: "tutorial_17a_deep_dark" }
+	loot_crate: {
+		color: 2236962
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "17A장: 고대 도시 생환 상자"
+		string_id: "tutorial_17a_deep_dark"
+	}
 	loot_size: 2
 	order_index: 17
 	rewards: [
-		{ count: 32, item: "minecraft:white_wool" }
-		{ count: 16, item: "minecraft:snowball" }
-		{ count: 8, item: "minecraft:echo_shard" }
-		{ count: 16, item: "minecraft:experience_bottle" }
-		{ count: 8, item: "minecraft:diamond" }
+		{
+			count: 32
+			id: "3E9BCCF84791EB41"
+			item: {
+				count: 1
+				id: "minecraft:white_wool"
+			}
+		}
+		{
+			count: 16
+			id: "7275ED9FBAC2A23A"
+			item: {
+				count: 1
+				id: "minecraft:snowball"
+			}
+		}
+		{
+			count: 8
+			id: "4EED632A19DE5880"
+			item: {
+				count: 1
+				id: "minecraft:echo_shard"
+			}
+		}
+		{
+			count: 16
+			id: "6B9AF2D8D975C073"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+		}
+		{
+			count: 8
+			id: "5EA2149E0275240B"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+		}
 	]
-	title: "17A장: Deep Dark 탐사 보급품"
 	use_title: true
 }

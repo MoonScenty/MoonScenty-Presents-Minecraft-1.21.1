@@ -1,15 +1,58 @@
 {
 	id: "6A00000000000004"
-	loot_crate: { color: 13421772, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "4장: 철든 광부의 상자", string_id: "tutorial_04_iron" }
+	loot_crate: {
+		color: 13421772
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "4장: 철든 광부의 상자"
+		string_id: "tutorial_04_iron"
+	}
 	loot_size: 2
 	order_index: 4
 	rewards: [
-		{ count: 8, item: "minecraft:iron_ingot" }
-		{ count: 32, item: "minecraft:coal" }
-		{ count: 32, item: "minecraft:arrow" }
-		{ count: 2, item: "minecraft:bucket" }
-		{ count: 16, item: "minecraft:chain" }
+		{
+			count: 8
+			id: "2C3C466E35F7EB49"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+		}
+		{
+			count: 32
+			id: "074620660780A4ED"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+		}
+		{
+			count: 32
+			id: "55E24A571B7F77A9"
+			item: {
+				count: 1
+				id: "minecraft:arrow"
+			}
+		}
+		{
+			count: 2
+			id: "69BD05A343FEF608"
+			item: {
+				count: 1
+				id: "minecraft:bucket"
+			}
+		}
+		{
+			count: 16
+			id: "554A8312C25887D0"
+			item: {
+				count: 1
+				id: "minecraft:chain"
+			}
+		}
 	]
-	title: "4장: 철기 보급품"
 	use_title: true
 }

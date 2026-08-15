@@ -1,15 +1,58 @@
 {
 	id: "6A00000000000009"
-	loot_crate: { color: 3851519, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "9장: 탐험가의 귀환 상자", string_id: "tutorial_09_exploration" }
+	loot_crate: {
+		color: 3851519
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "9장: 탐험가의 귀환 상자"
+		string_id: "tutorial_09_exploration"
+	}
 	loot_size: 2
 	order_index: 9
 	rewards: [
-		{ count: 32, item: "minecraft:firework_rocket" }
-		{ count: 2, item: "minecraft:compass" }
-		{ count: 4, item: "minecraft:map" }
-		{ count: 16, item: "minecraft:golden_carrot" }
-		{ count: 8, item: "minecraft:nautilus_shell" }
+		{
+			count: 32
+			id: "51932507154B513C"
+			item: {
+				count: 1
+				id: "minecraft:firework_rocket"
+			}
+		}
+		{
+			count: 2
+			id: "0655E3C080BDBB93"
+			item: {
+				count: 1
+				id: "minecraft:compass"
+			}
+		}
+		{
+			count: 4
+			id: "3097A90E946DB90B"
+			item: {
+				count: 1
+				id: "minecraft:map"
+			}
+		}
+		{
+			count: 16
+			id: "0D56257FEBB4F389"
+			item: {
+				count: 1
+				id: "minecraft:golden_carrot"
+			}
+		}
+		{
+			count: 8
+			id: "04BC8FF70F64455B"
+			item: {
+				count: 1
+				id: "minecraft:nautilus_shell"
+			}
+		}
 	]
-	title: "9장: 오버월드 탐험 보급품"
 	use_title: true
 }

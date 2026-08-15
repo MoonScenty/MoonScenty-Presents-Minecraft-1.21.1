@@ -6,13 +6,54 @@
 	default_reward_team: false
 	detection_delay: 20
 	disable_gui: false
+	drop_book_on_death: false
 	drop_loot_crates: false
 	emergency_items_cooldown: 300
+	fallback_locale: ""
 	grid_scale: 0.5d
-	icon: { id: "ftbquests:book" }
+	hide_excluded_quests: false
+	icon: {
+		components: {
+			"minecraft:profile": {
+				id: [I;
+					-176985168
+					-1779611902
+					-1221538244
+					1761806999
+				]
+				name: "MoonScenty"
+				properties: [{
+					name: "textures"
+					signature: "kGUHlPV+Ebt95E2hJ7jX5uDKjLDGIqlxsYJIfbCht+M6I2qp9d5VAqczIBkNv7UCZMzbyfaFWUJiqzZ2LWCwjWAi+50BTpKOCsRNe8ezHX1LGSqiJYC3SXhl1yQUYWNt6r+dIaGAZGHVlu5VYh9blrgCMH7s2nYeawph8LF3phjUbW7PzfFza300F2uoqsz+GyyTOEMt7aMp4HpRHZXa+gmPALcJMlTXsxObcmFCqqIUM/PA06/FStjXUjLRzHasmU9zPLZdId0MVWkb5HDfzVC+5DtEfW5y85tOimCt/Tq+UY+t+OoaIN7XWKfv7S/O3xtKCStVqc3CYM33R7o1LSUz3kiGEklJPQNGtzi3Xj1vJ8V3UHaC9D1ksu8D4tpRy6c4idampO5l5sPZfcM3zk7NgY7+T+2rCu+Acu30z4S/XPDNIPJ/BO0cFvVQxa3pSNzQi6weMZcm1ZnBxLyQZZ8mYn2ZLvJ/aMbKA/ZxHCa3ykVOqbC1d7/7ZmRUAJmhq0ZbnWfu/spTFqqyLLAJns9r3K180umiLG3nlV9o35Ks4Xh+zJxFfO8VsRvHFzguxRA89r39tXm5AeTNPT9idRw9avpMirQasQjPkQuyZmn/mAB3t4YA6rlAwgkRqAb0ia1hcvHbdSKN+0gVdb6J/F/kymxgfhC23gj5Pz5PRzE="
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTc4Njc4MjQyMDg2MSwKICAicHJvZmlsZUlkIiA6ICJmNTczNmJiMDk1ZWQ0NzAyYjczMGNlM2M2OTAzMGE5NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb29uU2NlbnR5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RmNTk4M2Y3Njk5ZDJiYjIyMzJjZTlhNWVmMjhhY2Q5MzZjNjQxYTg4NzRjYmZmMzQ3MTc5YmRmMGZjY2Y3MTIiCiAgICB9CiAgfQp9"
+				}]
+			}
+		}
+		id: "minecraft:player_head"
+	}
 	lock_message: ""
+	loot_crate_no_drop: {
+		boss: 0
+		monster: 600
+		passive: 4000
+	}
 	pause_game: false
+	presets: {
+		goal: {
+			shape: "hexagon"
+			size: 2.0d
+		}
+		info: {
+			shape: "gear"
+			size: 1.0d
+		}
+		normal: {
+			shape: "square"
+			size: 1.0d
+		}
+	}
 	progression_mode: "flexible"
 	show_lock_icons: true
+	verify_on_load: false
 	version: 13
 }
