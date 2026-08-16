@@ -1006,7 +1006,7 @@ hash = "3f62b35ae96193f8566fb42f89d363425023c4c6d6bb9f0e39f180b821d4d9cb"
 
 [[files]]
 file = "kubejs/server_scripts/metallurgy.js"
-hash = "62350c5c18d41a70c7f1f25059eaa824d0baebb82c6f97b22ea730f6c74042c5"
+hash = "17a0ae8080bf84b8cbc54e1d7b1b660ba4f44d1263d26e3b325449aac369a27a"
 
 [[files]]
 file = "kubejs/startup_scripts/fluids.js"

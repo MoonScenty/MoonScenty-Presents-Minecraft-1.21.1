@@ -53,4 +53,16 @@ ServerEvents.recipes(event => {
   ], {
     I: 'create:industrial_iron_block'
   }).id('kubejs:crafting/casting_table')
+
+  // 튼튼한 거품기도 기본은 안산암 합금 + 강화 판금이다.
+  event.remove({ id: 'createmetallurgy:crafting/content/sturdy_whisk' })
+
+  event.shaped('createmetallurgy:sturdy_whisk', [
+    ' Z ',
+    'IZI',
+    'III'
+  ], {
+    Z: '#c:ingots/zinc',
+    I: 'create:industrial_iron_block'
+  }).id('kubejs:crafting/sturdy_whisk')
 })
