@@ -1,0 +1,9 @@
+# Default config file that will be copied to local\certain_questing_additions\client-config.snbt if it doesn't exist!
+# Just copy any values you wish to override in here!
+
+{
+	appearance: {
+		# 퀘스트 화면 셰이더 배경. 모드 기본값은 false다.
+		shader_background: true
+	}
+}
