@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: "circle"
 	filename: "tips_and_tricks"
 	group: ""
@@ -7,8 +7,1456 @@
 		id: "minecraft:spyglass"
 	}
 	id: "7A1B2C3D4E5F6001"
+	images: [ ]
 	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:golden_apple"
+			}
+			id: "7A1B100000000002"
+			rewards: [{
+				id: "7A1B200000001002"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000000002"
+				item: { count: 1, id: "minecraft:bread" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:amethyst_shard"
+			}
+			id: "7A1B100000000003"
+			rewards: [{
+				id: "7A1B200000001003"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000000003"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:enchanted_book"
+			}
+			id: "7A1B100000000004"
+			rewards: [{
+				id: "7A1B200000001004"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000000004"
+				item: { count: 1, id: "minecraft:enchanted_book" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "7A1B100000000005"
+			rewards: [{
+				id: "7A1B200000001005"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000000005"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "7A1B100000000006"
+			rewards: [{
+				id: "7A1B200000001006"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000000006"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "minecraft:torch"
+			}
+			id: "7A1B100000000007"
+			rewards: [{
+				id: "7A1B200000001007"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000000007"
+				item: { count: 1, id: "minecraft:torch" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "minecraft:string"
+			}
+			id: "7A1B100000000008"
+			rewards: [{
+				id: "7A1B200000001008"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000000008"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "minecraft:cobblestone"
+			}
+			id: "7A1B100000000009"
+			rewards: [{
+				id: "7A1B200000001009"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000000009"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "7A1B10000000000A"
+			rewards: [{
+				id: "7A1B20000000100A"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B20000000000A"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "minecraft:iron_chestplate"
+			}
+			id: "7A1B10000000000B"
+			rewards: [{
+				id: "7A1B20000000100B"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B20000000000B"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "minecraft:iron_hoe"
+			}
+			id: "7A1B10000000000C"
+			rewards: [{
+				id: "7A1B20000000100C"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B20000000000C"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:hoes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "minecraft:shulker_box"
+			}
+			id: "7A1B10000000000D"
+			rewards: [{
+				id: "7A1B20000000100D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B20000000000D"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:shulker_boxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "minecraft:ladder"
+			}
+			id: "7A1B10000000000E"
+			rewards: [{
+				id: "7A1B20000000100E"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B20000000000E"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "minecraft:stone_pickaxe"
+			}
+			id: "7A1B10000000000F"
+			rewards: [{
+				id: "7A1B20000000100F"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B20000000000F"
+				item: { count: 1, id: "minecraft:stone_pickaxe" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "minecraft:stone_pickaxe"
+			}
+			id: "7A1B100000000018"
+			rewards: [{
+				id: "7A1B200000001018"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000000018"
+				item: { count: 1, id: "minecraft:stone_pickaxe" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			icon: {
+				id: "create:wrench"
+			}
+			id: "7A1B100000000019"
+			rewards: [{
+				id: "7A1B200000001019"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000000019"
+				item: { count: 1, id: "create:wrench" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			icon: {
+				id: "waystones:waystone"
+			}
+			id: "7A1B10000000001A"
+			rewards: [{
+				id: "7A1B20000000101A"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B20000000001A"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(waystones:waystones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			icon: {
+				id: "elevatorid:elevator_white"
+			}
+			id: "7A1B10000000001B"
+			rewards: [{
+				id: "7A1B20000000101B"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B20000000001B"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(elevatorid:elevators)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			icon: {
+				id: "minecraft:white_bed"
+			}
+			id: "7A1B10000000001C"
+			rewards: [{
+				id: "7A1B20000000101C"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B20000000001C"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "7A1B10000000001D"
+			rewards: [{
+				id: "7A1B20000000101D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B20000000001D"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			icon: {
+				id: "minecraft:golden_shovel"
+			}
+			id: "7A1B10000000001E"
+			rewards: [{
+				id: "7A1B20000000101E"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B20000000001E"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 12.5d
+		}
+		{
+			icon: {
+				id: "minecraft:stick"
+			}
+			id: "7A1B10000000001F"
+			rewards: [{
+				id: "7A1B20000000101F"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B20000000001F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			icon: {
+				id: "chipped:mason_table"
+			}
+			id: "7A1B100000000020"
+			rewards: [{
+				id: "7A1B200000001020"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000000020"
+				item: { count: 1, id: "chipped:mason_table" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.5d
+		}
+		{
+			icon: {
+				id: "framedblocks:framing_saw"
+			}
+			id: "7A1B100000000021"
+			rewards: [{
+				id: "7A1B200000001021"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000000021"
+				item: { count: 1, id: "framedblocks:framing_saw" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.5d
+		}
+		{
+			icon: {
+				id: "handcrafted:oak_fancy_bed"
+			}
+			id: "7A1B100000000022"
+			rewards: [{
+				id: "7A1B200000001022"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000000022"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(handcrafted:fancy_beds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 14.5d
+		}
+		{
+			icon: {
+				id: "refurbished_furniture:workbench"
+			}
+			id: "7A1B100000000023"
+			rewards: [{
+				id: "7A1B200000001023"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000000023"
+				item: { count: 1, id: "refurbished_furniture:workbench" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 14.5d
+		}
+		{
+			icon: {
+				id: "immersive_paintings:painting"
+			}
+			id: "7A1B100000000024"
+			rewards: [{
+				id: "7A1B200000001024"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000000024"
+				item: { count: 1, id: "immersive_paintings:painting" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 14.5d
+		}
+		{
+			icon: {
+				id: "supplementaries:flax"
+			}
+			id: "7A1B100000000025"
+			rewards: [{
+				id: "7A1B200000001025"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000000025"
+				item: { count: 1, id: "supplementaries:flax" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 14.5d
+		}
+		{
+			icon: {
+				id: "minecraft:lantern"
+			}
+			id: "7A1B100000000026"
+			rewards: [{
+				id: "7A1B200000001026"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000000026"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 14.5d
+		}
+		{
+			icon: {
+				id: "simplylight:illuminant_block_on"
+			}
+			id: "7A1B100000000027"
+			rewards: [{
+				id: "7A1B200000001027"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000000027"
+				item: { components: { "ftbfiltersystem:filter": "or(item(simplylight:illuminant_block_on)item(simplylight:illuminant_black_block_on)item(simplylight:illuminant_blue_block_on)item(simplylight:illuminant_brown_block_on)item(simplylight:illuminant_cyan_block_on)item(simplylight:illuminant_gray_block_on)item(simplylight:illuminant_green_block_on)item(simplylight:illuminant_light_blue_block_on)item(simplylight:illuminant_light_gray_block_on)item(simplylight:illuminant_lime_block_on)item(simplylight:illuminant_magenta_block_on)item(simplylight:illuminant_orange_block_on)item(simplylight:illuminant_pink_block_on)item(simplylight:illuminant_purple_block_on)item(simplylight:illuminant_red_block_on)item(simplylight:illuminant_yellow_block_on))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 14.5d
+		}
+		{
+			icon: {
+				id: "etched:etching_table"
+			}
+			id: "7A1B100000000028"
+			rewards: [{
+				id: "7A1B200000001028"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000000028"
+				item: { count: 1, id: "etched:etching_table" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 14.5d
+		}
+		{
+			icon: {
+				id: "minecraft:paper"
+			}
+			id: "7A1B100000000029"
+			rewards: [{
+				id: "7A1B200000001029"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000000029"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 14.5d
+		}
+		{
+			icon: {
+				id: "minecraft:sulfur_cube_bucket"
+			}
+			id: "7A1B10000000002A"
+			rewards: [{
+				id: "7A1B20000000102A"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B20000000002A"
+				item: { count: 1, id: "minecraft:sulfur" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 14.5d
+		}
+		{
+			icon: {
+				id: "uppers:upper"
+			}
+			id: "7A1B10000000002B"
+			rewards: [{
+				id: "7A1B20000000102B"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B20000000002B"
+				item: { count: 1, id: "uppers:upper" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 16.5d
+		}
+		{
+			icon: {
+				id: "simplemagnets:basicmagnet"
+			}
+			id: "7A1B10000000002C"
+			rewards: [{
+				id: "7A1B20000000102C"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B20000000002C"
+				item: { count: 1, id: "simplemagnets:basicmagnet" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 16.5d
+		}
+		{
+			icon: {
+				id: "farmingforblockheads:market"
+			}
+			id: "7A1B10000000002D"
+			rewards: [{
+				id: "7A1B20000000102D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B20000000002D"
+				item: { count: 1, id: "farmingforblockheads:market" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 16.5d
+		}
+		{
+			icon: {
+				id: "minecraft:note_block"
+			}
+			id: "7A1B10000000002E"
+			rewards: [{
+				id: "7A1B20000000102E"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B20000000002E"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 18.5d
+		}
+		{
+			icon: {
+				id: "cognition:cognitive_alloy"
+			}
+			id: "7A1B10000000002F"
+			rewards: [{
+				id: "7A1B20000000102F"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B20000000002F"
+				item: { count: 1, id: "cognition:cognitive_alloy" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 18.5d
+		}
+		{
+			icon: {
+				id: "minecraft:leather_helmet"
+			}
+			id: "7A1B100000000030"
+			rewards: [{
+				id: "7A1B200000001030"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000000030"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 18.5d
+		}
+		{
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "7A1B100000000031"
+			rewards: [{
+				id: "7A1B200000001031"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000000031"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 18.5d
+		}
+		{
+			icon: {
+				id: "minecraft:experience_bottle"
+			}
+			id: "7A1B100000000032"
+			rewards: [{
+				id: "7A1B200000001032"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000000032"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 18.5d
+		}
+		{
+			icon: {
+				id: "quark:brown_stool"
+			}
+			id: "7A1B100000000033"
+			rewards: [{
+				id: "7A1B200000003033"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000001033"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(quark:stools)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			icon: {
+				id: "quark:redstone_randomizer"
+			}
+			id: "7A1B100000000034"
+			rewards: [{
+				id: "7A1B200000003034"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000001034"
+				item: { count: 1, id: "quark:redstone_randomizer" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			icon: {
+				id: "quark:chute"
+			}
+			id: "7A1B100000000035"
+			rewards: [{
+				id: "7A1B200000003035"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000001035"
+				item: { count: 1, id: "quark:chute" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			icon: {
+				id: "quark:ender_watcher"
+			}
+			id: "7A1B100000000036"
+			rewards: [{
+				id: "7A1B200000003036"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000001036"
+				item: { count: 1, id: "quark:ender_watcher" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			icon: {
+				id: "quark:gravisand"
+			}
+			id: "7A1B100000000037"
+			rewards: [{
+				id: "7A1B200000003037"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000001037"
+				item: { count: 1, id: "quark:gravisand" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			icon: {
+				id: "quark:pickarang"
+			}
+			id: "7A1B100000000038"
+			rewards: [{
+				id: "7A1B200000003038"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000001038"
+				item: { components: { "ftbfiltersystem:filter": "or(item(quark:pickarang)item(quark:flamerang))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			icon: {
+				id: "quark:slime_in_a_bucket"
+			}
+			id: "7A1B100000000039"
+			rewards: [{
+				id: "7A1B200000003039"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000001039"
+				item: { count: 1, id: "quark:slime_in_a_bucket" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			icon: {
+				id: "quark:bottled_cloud"
+			}
+			id: "7A1B10000000003A"
+			rewards: [{
+				id: "7A1B20000000303A"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B20000000103A"
+				item: { count: 1, id: "quark:bottled_cloud" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.5d
+		}
+		{
+			icon: {
+				id: "quark:trowel"
+			}
+			id: "7A1B10000000003B"
+			rewards: [{
+				id: "7A1B20000000303B"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B20000000103B"
+				item: { count: 1, id: "quark:trowel" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			icon: {
+				id: "quark:seed_pouch"
+			}
+			id: "7A1B10000000003C"
+			rewards: [{
+				id: "7A1B20000000303C"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B20000000103C"
+				item: { count: 1, id: "quark:seed_pouch" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			icon: {
+				id: "quark:abacus"
+			}
+			id: "7A1B10000000003D"
+			rewards: [{
+				id: "7A1B20000000303D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B20000000103D"
+				item: { count: 1, id: "quark:abacus" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.5d
+		}
+		{
+			icon: {
+				id: "quark:pathfinders_quill"
+			}
+			id: "7A1B10000000003E"
+			rewards: [{
+				id: "7A1B20000000303E"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B20000000103E"
+				item: { count: 1, id: "quark:pathfinders_quill" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.5d
+		}
+		{
+			icon: {
+				id: "quark:soul_bead"
+			}
+			id: "7A1B10000000003F"
+			rewards: [{
+				id: "7A1B20000000303F"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B20000000103F"
+				item: { count: 1, id: "quark:soul_bead" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			icon: {
+				id: "quark:forgotten_hat"
+			}
+			id: "7A1B100000000040"
+			rewards: [{
+				id: "7A1B200000003040"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B200000001040"
+				item: { count: 1, id: "quark:forgotten_hat" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.5d
+		}
+		{
+			icon: {
+				id: "quark:glass_item_frame"
+			}
+			id: "7A1B100000000041"
+			rewards: [{
+				id: "7A1B2C3D4E5F9002"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7A1B2C3D4E5F6002"
+				item: { components: { "ftbfiltersystem:filter": "or(item(quark:glass_item_frame)item(quark:glowing_glass_item_frame))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+	]
 }
