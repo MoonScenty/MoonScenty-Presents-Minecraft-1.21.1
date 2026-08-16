@@ -12,5 +12,7 @@
 
   "fluid.kubejs.molten_andesite_alloy": "Molten Andesite Alloy",
   "block.kubejs.molten_andesite_alloy": "Molten Andesite Alloy",
-  "item.kubejs.molten_andesite_alloy_bucket": "Molten Andesite Alloy Bucket"
+  "item.kubejs.molten_andesite_alloy_bucket": "Molten Andesite Alloy Bucket",
+
+  "block.kubejs.manufactured_iron_block": "Block of Manufactured Iron"
 }

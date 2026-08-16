@@ -15,7 +15,8 @@ ServerEvents.recipes(event => {
 
   // 용해로 부품과 주조 기계는 기본이 안산암 합금이라
   // 합금 라인 직후에 바로 지어진다.
-  // 산업용 철 블록으로 올려 철 가공 단계를 먼저 거치게 한다.
+  // 제조된 철 블록으로 올려 아연을 들인 한 단계를 더 거치게 한다.
+  // 산업용 철 블록은 철 주괴 석재 절단만으로 나와 게이팅 효과가 없다.
   event.remove({ id: 'createmetallurgy:crafting/content/foundry_basin' })
   event.remove({ id: 'createmetallurgy:crafting/content/foundry_lid' })
   event.remove({ id: 'createmetallurgy:crafting/content/casting_basin' })
@@ -26,7 +27,7 @@ ServerEvents.recipes(event => {
     'IMI',
     'III'
   ], {
-    I: 'create:industrial_iron_block',
+    I: 'kubejs:manufactured_iron_block',
     M: 'createmetallurgy:refractory_mortar'
   }).id('kubejs:crafting/foundry_basin')
 
@@ -35,7 +36,7 @@ ServerEvents.recipes(event => {
     'III',
     'I I'
   ], {
-    I: 'create:industrial_iron_block'
+    I: 'kubejs:manufactured_iron_block'
   }).id('kubejs:crafting/foundry_lid')
 
   event.shaped('createmetallurgy:casting_basin', [
@@ -43,7 +44,7 @@ ServerEvents.recipes(event => {
     'I I',
     ' I '
   ], {
-    I: 'create:industrial_iron_block'
+    I: 'kubejs:manufactured_iron_block'
   }).id('kubejs:crafting/casting_basin')
 
   event.shaped('createmetallurgy:casting_table', [
@@ -51,7 +52,7 @@ ServerEvents.recipes(event => {
     'I I',
     'I I'
   ], {
-    I: 'create:industrial_iron_block'
+    I: 'kubejs:manufactured_iron_block'
   }).id('kubejs:crafting/casting_table')
 
   // 튼튼한 거품기도 기본은 안산암 합금 + 강화 판금이다.
@@ -63,7 +64,7 @@ ServerEvents.recipes(event => {
     'III'
   ], {
     Z: '#c:ingots/zinc',
-    I: 'create:industrial_iron_block'
+    I: 'kubejs:manufactured_iron_block'
   }).id('kubejs:crafting/sturdy_whisk')
 
   // 용해로 믹서는 기본이 톱니바퀴 + 구리 케이싱 + 거품기다.

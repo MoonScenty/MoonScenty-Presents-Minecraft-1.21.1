@@ -11,4 +11,17 @@ ServerEvents.recipes(event => {
     P: '#minecraft:planks',
     Z: '#c:ingots/zinc'
   }).id('kubejs:crafting/hand_crank')
+
+  // 설치된 산업용 철 블록에 아연 주괴를 들고 우클릭하면 제조된 철 블록이 된다.
+  // 첫 재료가 대상 블록, 둘째가 손에 든 아이템이다.
+  event.custom({
+    type: 'create:item_application',
+    ingredients: [
+      { item: 'create:industrial_iron_block' },
+      { tag: 'c:ingots/zinc' }
+    ],
+    results: [
+      { id: 'kubejs:manufactured_iron_block' }
+    ]
+  }).id('kubejs:item_application/manufactured_iron_block')
 })

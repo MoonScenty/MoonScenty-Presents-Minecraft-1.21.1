@@ -766,15 +766,23 @@ hash = "908fc8a644b0bf865ce31ed31dcdb9716c4e4da89bbec7ce017bf8a69315315d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "c0b81a20d2d07b6f47126dee6d031d450a3d781a912282667e58b7440a625dea"
+hash = "2205edce7d566c34507afe5f11fd95c34ca131c328d058ad61f5c6af300a09b2"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/ko_kr.json"
-hash = "e3af1db854844923960ef1eabd95a8b626121c9ee60df7d860c69bbf88ed3a4a"
+hash = "b8f460d070a919f8472edf96e067d887e7df32f0385984efa8d98b3207032211"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
 hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/manufactured_iron_block.png"
+hash = "d619e0ac27c1b634762d703f15af3d206229ddb2addfee45ebc5f49cf0256a11"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/manufactured_iron_block_top.png"
+hash = "03a789fef334aa1c471e7ceaecf97c8c6c66ef9f9edbce8a5827f451f29b1fad"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/molten_andesite_alloy_flow.png"
@@ -990,11 +998,15 @@ hash = "ce78dff07ef255936c9cf08f2a3c6698423282036abe05e0b026726c314f7ee0"
 
 [[files]]
 file = "kubejs/server_scripts/create.js"
-hash = "144f246532031a487e09a1e7d2c89475d499097313cf4378d2d69a903f718f85"
+hash = "7e2512a1a8514a725e7ae82cf78a8b7b7b3e7b1482555c83ce370c26b10255f9"
 
 [[files]]
 file = "kubejs/server_scripts/dndesires.js"
 hash = "a828855625dfad290478d435f964b97b5c7fee964bead5a2bbc6e499f9338cbd"
+
+[[files]]
+file = "kubejs/server_scripts/lowheated.js"
+hash = "bfb5c35d7c04747801eaed17afae0e3f1ef50fafa593656bcacfbe8c60d7d882"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -1006,7 +1018,11 @@ hash = "3f62b35ae96193f8566fb42f89d363425023c4c6d6bb9f0e39f180b821d4d9cb"
 
 [[files]]
 file = "kubejs/server_scripts/metallurgy.js"
-hash = "2fabe863f6d482a0a6e6a16746b7daa2c0932a25e6b1225758e92fcf5cce861c"
+hash = "d393f46d005900704d93afd6827beb8c76a610ac2b98da72a423091a96e9ddc0"
+
+[[files]]
+file = "kubejs/startup_scripts/blocks.js"
+hash = "1c82a9f0833dffc6aaf7dc9059d2baae4b304b971bff1d6a8dc4061263198c2d"
 
 [[files]]
 file = "kubejs/startup_scripts/fluids.js"

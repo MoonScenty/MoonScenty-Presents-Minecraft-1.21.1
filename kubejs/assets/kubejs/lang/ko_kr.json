@@ -12,5 +12,7 @@
 
   "fluid.kubejs.molten_andesite_alloy": "용융 안산암 합금",
   "block.kubejs.molten_andesite_alloy": "용융 안산암 합금",
-  "item.kubejs.molten_andesite_alloy_bucket": "용융 안산암 합금 양동이"
+  "item.kubejs.molten_andesite_alloy_bucket": "용융 안산암 합금 양동이",
+
+  "block.kubejs.manufactured_iron_block": "제조된 철 블록"
 }
