@@ -530,7 +530,7 @@ hash = "a2d380d4908df370ab38c62c80639c63c0aae58fd20a96158c0f2f6e8d39094a"
 
 [[files]]
 file = "config/resourcepackoverrides.json"
-hash = "3e2c4befc22b102d4567ee880164d33aaf10dac6e5a114462c7c678f519194e0"
+hash = "d9d266a31ef4cb9aae6f9c86227de1535b855bc7b9509321a4c13159bf4cd0c9"
 
 [[files]]
 file = "config/rubberworks-common.toml"
@@ -2266,6 +2266,11 @@ hash = "1de71b76e01ea1f454125a4e7ba58c098d1c7ca22183296b61ad6e4f18be4835"
 [[files]]
 file = "resourcepacks/McDGM/pack.png"
 hash = "ac92017b48abb143d5cf1f8661876841d12764cad0509fa6720007c52e472a55"
+
+[[files]]
+file = "resourcepacks/enhanced-boss-bars.pw.toml"
+hash = "36fd61cc07f0427665959bd56531b33b5b6e153ea502badbb2b5d2fdad3beeab"
+metafile = true
 
 [[files]]
 file = "resourcepacks/fa-player-extension.pw.toml"

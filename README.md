@@ -383,6 +383,8 @@ Expert 방식으로 전면 재구성하는 대상입니다.
    - 몹의 세부 모델과 표정, 화살통, 발광 효과를 보강하고 상자·보트·광산 수레 같은 오브젝트에 생동감 있는 동작을 추가합니다.
 5. **Fresh Animations**
    - 바닐라 몹의 외형 감각은 유지하면서 움직임과 표정을 마인크래프트 트레일러처럼 풍부하게 만듭니다.
+6. **Enhanced Boss Bars**
+   - 보스별로 구분되는 체력 표시줄 텍스처를 제공합니다. 같은 이름의 Enhanced Boss Bars 모드가 이 텍스처를 사용합니다.
 
 Fresh Animations 계열 리소스팩은 이미 포함된 Entity Model Features 및 Entity Texture Features를 사용합니다. 아이템을 들고 먹거나 마시는 동작 등은 Not Enough Animations가 보완합니다. Player Extension과 Extensions는 인벤토리 아이템 텍스처를 교체하지 않습니다. 기본 활성화 순서는 Resource Pack Overrides의 `config/resourcepackoverrides.json`에서 관리합니다.
 
