@@ -455,5 +455,66 @@
 			x: 39.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["5A0E10000000001E"]
+			icon: {
+				id: "kubejs:refractory_mortar_pickaxe_mold"
+			}
+			id: "5A0E100000000020"
+			optional: true
+			tasks: [{
+				id: "5A0E200000000022"
+				item: { count: 1, id: "kubejs:refractory_mortar_pickaxe_mold" }
+				type: "item"
+			}]
+			x: 36.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5A0E100000000020"]
+			icon: {
+				id: "kubejs:andesite_alloy_pickaxe_head"
+			}
+			id: "5A0E100000000021"
+			optional: true
+			tasks: [{
+				id: "5A0E200000000023"
+				item: { count: 1, id: "kubejs:andesite_alloy_pickaxe_head" }
+				type: "item"
+			}]
+			x: 39.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5A0E100000000021"]
+			icon: {
+				id: "kubejs:reforged_andesite_alloy_pickaxe"
+			}
+			id: "5A0E100000000022"
+			optional: true
+			size: 1.5d
+			tasks: [{
+				id: "5A0E200000000024"
+				item: { count: 1, id: "kubejs:reforged_andesite_alloy_pickaxe" }
+				type: "item"
+			}]
+			x: 41.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5A0E100000000022"]
+			icon: {
+				id: "minecraft:experience_bottle"
+			}
+			id: "5A0E100000000023"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "5A0E200000000025"
+				type: "checkmark"
+			}]
+			x: 41.5d
+			y: 7.0d
+		}
 	]
 }

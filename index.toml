@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "QUEST_STONE_AGE.md"
-hash = "73e869d4b082ee9239d6970ab78367be1c06837248585467081cfad6f113d00e"
+hash = "57ca5d7c97caea55c98d02777aa757e6c6fd84a07f19caa28e901d01561c0787"
 
 [[files]]
 file = "config/CreateEnergistics2-common.toml"
@@ -274,7 +274,7 @@ hash = "24c9ba9fd84d39188ea74ec7b800402abd696b7bd18b54a4acb57be359beb3a2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stone_age.snbt"
-hash = "dae09cf0d5afc04f306f09fd20877fa696b9b7c25eb4e70395d8b278b22156d1"
+hash = "e3fe54fe13284661c629907fe9dd243ba1fad9f6ac460dc30baeb6e3eadd98bd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks.snbt"
@@ -294,7 +294,7 @@ hash = "24e9fe7e47c76996148659e54497635510fbf3e47fdec9798fd6c46df0c19a43"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "4eb52a96243dfdaf344ca2e04bf5c65855f91663e643beb261521c5d8f4e12a0"
+hash = "1582e749ecab24aa27730c29eb48072bd141c67fc60bd69a7efbf40cac0c70a8"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_00_welcome.snbt"
