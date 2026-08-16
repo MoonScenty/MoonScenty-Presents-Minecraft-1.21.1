@@ -209,6 +209,11 @@
 				id: "minecraft:grass_block"
 			}
 			id: "20A4AA9E260BD193"
+			rewards: [{
+				id: "6C00000000000001"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "3D7C2D86C420199C"
@@ -224,6 +229,11 @@
 				id: "minecraft:chest"
 			}
 			id: "2848CD423C444B56"
+			rewards: [{
+				id: "6C00000000000002"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3ED8926E94DAC753"
 				type: "checkmark"
@@ -259,6 +269,11 @@
 			}
 			id: "21438F602D0CA906"
 			optional: true
+			rewards: [{
+				id: "6C00000000000003"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3751AAC1DA9326AD"
 				stat: "minecraft:jump"
@@ -276,6 +291,11 @@
 			}
 			id: "2B067B1F677E454B"
 			optional: true
+			rewards: [{
+				id: "6C00000000000004"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3CE4B2E3747D8BE4"
 				type: "break_block"
@@ -292,6 +312,11 @@
 			}
 			id: "2D6274C3059DF1F6"
 			optional: true
+			rewards: [{
+				id: "6C00000000000005"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3457AC1850AA61A7"
 				type: "place_block"
@@ -308,6 +333,11 @@
 			}
 			id: "26ACDF5E4D0DBBB0"
 			optional: true
+			rewards: [{
+				id: "6C00000000000006"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "33896275D315B5BB"
 				type: "checkmark"
@@ -322,6 +352,11 @@
 				id: "minecraft:oak_log"
 			}
 			id: "23223152350FFF50"
+			rewards: [{
+				id: "6C00000000000007"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "38792EEC80A24E83"
@@ -338,6 +373,11 @@
 				id: "minecraft:oak_planks"
 			}
 			id: "243E44363E4506BD"
+			rewards: [{
+				id: "6C00000000000008"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				count: 4L
 				id: "3B1AF94845FA29D6"
@@ -354,6 +394,11 @@
 				id: "minecraft:crafting_table"
 			}
 			id: "2DD9C2FBCAD2FB64"
+			rewards: [{
+				id: "6C00000000000009"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3D03D656F16E2231"
 				item: { count: 1, id: "minecraft:crafting_table" }
@@ -369,6 +414,11 @@
 				id: "minecraft:wooden_pickaxe"
 			}
 			id: "2EC3C2890801629B"
+			rewards: [{
+				id: "6C0000000000000A"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "35E9788F8877D602"
 				item: { count: 1, id: "minecraft:wooden_pickaxe" }
@@ -407,6 +457,11 @@
 			}
 			id: "28AE2D2D8046D748"
 			optional: true
+			rewards: [{
+				id: "6C0000000000000B"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3ED8F23FC05591CD"
 				item: { count: 1, id: "minecraft:wooden_axe" }
@@ -423,6 +478,11 @@
 			}
 			id: "26AFB3538EBB1ABB"
 			optional: true
+			rewards: [{
+				id: "6C0000000000000C"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "330934A66570C780"
 				item: { count: 1, id: "minecraft:wooden_shovel" }
@@ -439,6 +499,11 @@
 			}
 			id: "2C68BC2D558E0EF4"
 			optional: true
+			rewards: [{
+				id: "6C0000000000000D"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "31E86E0545CA4F01"
 				item: { count: 1, id: "minecraft:wooden_hoe" }
@@ -455,6 +520,11 @@
 			}
 			id: "25E74183A8B96E75"
 			optional: true
+			rewards: [{
+				id: "6C0000000000000E"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3BCB7F832EBC2910"
 				item: { count: 1, id: "minecraft:wooden_sword" }
@@ -470,6 +540,11 @@
 				id: "minecraft:stone_pickaxe"
 			}
 			id: "28714DC98AC69692"
+			rewards: [{
+				id: "6C0000000000000F"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "3C331C6BDF67456D"
@@ -486,6 +561,11 @@
 				id: "minecraft:stone_sword"
 			}
 			id: "24CEDEA6921DB89F"
+			rewards: [{
+				id: "6C00000000000010"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "38E6E845E0F6BD0E"
 				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:stone_sword)item(minecraft:stone_axe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -501,6 +581,11 @@
 				id: "minecraft:furnace"
 			}
 			id: "2B2542E435DBE263"
+			rewards: [{
+				id: "6C00000000000011"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3A0E3FDA96416130"
 				item: { count: 1, id: "minecraft:furnace" }
@@ -516,6 +601,11 @@
 				id: "minecraft:coal"
 			}
 			id: "247BF94E4EAD98F8"
+			rewards: [{
+				id: "6C00000000000012"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "325846811FC3C479"
 				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:coals)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -531,6 +621,11 @@
 				id: "minecraft:torch"
 			}
 			id: "2C4AECE8B3560B0D"
+			rewards: [{
+				id: "6C00000000000013"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				count: 4L
 				id: "3971FFF97B71280A"
@@ -547,6 +642,11 @@
 				id: "minecraft:cooked_beef"
 			}
 			id: "2FB316E5CA0968CA"
+			rewards: [{
+				id: "6C00000000000014"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3280E2C81C8DC0AB"
 				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:cooked_beef)item(minecraft:cooked_porkchop)item(minecraft:cooked_chicken)item(minecraft:cooked_mutton)item(minecraft:cooked_rabbit)item(minecraft:cooked_cod)item(minecraft:cooked_salmon)item(minecraft:baked_potato)item(minecraft:bread))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -562,6 +662,11 @@
 				id: "minecraft:red_bed"
 			}
 			id: "253986523F8632C9"
+			rewards: [{
+				id: "6C00000000000015"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3B1BE58F0E44C2A6"
 				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:beds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -600,6 +705,11 @@
 			}
 			id: "2B8D6AF946E6A047"
 			optional: true
+			rewards: [{
+				id: "6C00000000000016"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3BC5669B1C88CB98"
 				type: "checkmark"
@@ -615,6 +725,11 @@
 			}
 			id: "276210F28C8CD376"
 			optional: true
+			rewards: [{
+				id: "6C00000000000017"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3815242FAB7BE4EB"
 				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:doors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -631,6 +746,11 @@
 			}
 			id: "2AAAA6367C6F6333"
 			optional: true
+			rewards: [{
+				id: "6C00000000000018"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3F0CD106F881FAAC"
 				item: { count: 1, id: "minecraft:chest" }
@@ -647,6 +767,11 @@
 			}
 			id: "2BF79498183370C6"
 			optional: true
+			rewards: [{
+				id: "6C00000000000019"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "31BB74567CD13217"
 				stat: "minecraft:open_chest"
@@ -664,6 +789,11 @@
 			}
 			id: "2ED76AED88E4D480"
 			optional: true
+			rewards: [{
+				id: "6C0000000000001A"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3EFC14ECA90B4B91"
 				item: { count: 1, id: "minecraft:glass" }
@@ -680,6 +810,11 @@
 			}
 			id: "2DFA570C709DACC6"
 			optional: true
+			rewards: [{
+				id: "6C0000000000001B"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3276806967753B99"
 				type: "checkmark"
@@ -695,6 +830,11 @@
 			}
 			id: "2C95D7D3C915C4DE"
 			optional: true
+			rewards: [{
+				id: "6C0000000000001C"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "3398F6AB732676DB"
@@ -711,6 +851,11 @@
 			}
 			id: "2843C8BB0B6A8C51"
 			optional: true
+			rewards: [{
+				id: "6C0000000000001D"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				count: 8L
 				id: "33FEEA87EF6C00EE"
@@ -728,6 +873,11 @@
 			}
 			id: "29E0F676B8EDF5D4"
 			optional: true
+			rewards: [{
+				id: "6C0000000000001E"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "38DFA012671200E9"
 				type: "checkmark"
@@ -743,6 +893,11 @@
 			}
 			id: "2D1F854A134D5D8B"
 			optional: true
+			rewards: [{
+				id: "6C0000000000001F"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "33514123EF297A78"
 				stat: "minecraft:sleep_in_bed"
@@ -760,6 +915,11 @@
 			}
 			id: "23C8FD0BE2812004"
 			optional: true
+			rewards: [{
+				id: "6C00000000000020"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "329D6F59905D56BB"
 				type: "checkmark"
@@ -775,6 +935,11 @@
 			}
 			id: "28AA7B0C8DAB164A"
 			optional: true
+			rewards: [{
+				id: "6C00000000000021"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "34DB45B05EB6AA2D"
 				type: "checkmark"
@@ -789,6 +954,11 @@
 			}
 			id: "2F679B2A0765D2ED"
 			optional: true
+			rewards: [{
+				id: "6C00000000000022"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "399429668A28560A"
 				item: { count: 1, id: "minecraft:wheat_seeds" }
@@ -805,6 +975,11 @@
 			}
 			id: "2C053EE4B2ADEA38"
 			optional: true
+			rewards: [{
+				id: "6C00000000000023"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3B9AF8206E150605"
 				item: { count: 1, id: "minecraft:wooden_hoe" }
@@ -821,6 +996,11 @@
 			}
 			id: "25D50AE10F56F9F3"
 			optional: true
+			rewards: [{
+				id: "6C00000000000024"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3648F5279B58F208"
 				item: { count: 1, id: "minecraft:wheat" }
@@ -859,6 +1039,11 @@
 			}
 			id: "2C58BD6BC3CA0781"
 			optional: true
+			rewards: [{
+				id: "6C00000000000025"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3A962BB3CCEE0B0C"
 				type: "checkmark"
@@ -874,6 +1059,11 @@
 			}
 			id: "216D61608B2F3189"
 			optional: true
+			rewards: [{
+				id: "6C00000000000026"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
 					id: "3154B786423F6EA4"
@@ -897,6 +1087,11 @@
 			}
 			id: "24A49531A3B800D3"
 			optional: true
+			rewards: [{
+				id: "6C00000000000027"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "303C0BC5BAFF9E9A"
 				item: { count: 1, id: "minecraft:sugar_cane" }
@@ -913,6 +1108,11 @@
 			}
 			id: "2C77C6A1BBD32107"
 			optional: true
+			rewards: [{
+				id: "6C00000000000028"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "39C530D09D0D6874"
 				item: { count: 1, id: "minecraft:composter" }
@@ -929,6 +1129,11 @@
 			}
 			id: "24FBDB0B19577067"
 			optional: true
+			rewards: [{
+				id: "6C00000000000029"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3F30FA93CE7DA848"
 				stat: "minecraft:animals_bred"
@@ -946,6 +1151,11 @@
 			}
 			id: "21C9C5409FFB45FA"
 			optional: true
+			rewards: [{
+				id: "6C0000000000002A"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3A6A551623567E9D"
 				item: { count: 1, id: "minecraft:white_wool" }
@@ -962,6 +1172,11 @@
 			}
 			id: "2FCCC58DED59D45D"
 			optional: true
+			rewards: [{
+				id: "6C0000000000002B"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "378F6917C110FA30"
 				item: { count: 1, id: "minecraft:egg" }
@@ -978,6 +1193,11 @@
 			}
 			id: "2AC0124A99F9493D"
 			optional: true
+			rewards: [{
+				id: "6C0000000000002C"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				entity: "minecraft:wolf"
 				id: "3A7829B0D1119AC6"
@@ -995,6 +1215,11 @@
 			}
 			id: "2B1867CE61AF1D8B"
 			optional: true
+			rewards: [{
+				id: "6C0000000000002D"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				entity: "minecraft:cat"
 				id: "390D92355478447A"
@@ -1012,6 +1237,11 @@
 			}
 			id: "235BA25F1595D62F"
 			optional: true
+			rewards: [{
+				id: "6C0000000000002E"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3F0ABD28C5C696F8"
 				item: { count: 1, id: "minecraft:fishing_rod" }
@@ -1028,6 +1258,11 @@
 			}
 			id: "2C376CB348F22EEF"
 			optional: true
+			rewards: [{
+				id: "6C0000000000002F"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "393CB51F8D6A0582"
 				item_tag: "minecraft:fishes"
@@ -1043,6 +1278,11 @@
 				id: "minecraft:raw_iron"
 			}
 			id: "24996CB1BB5861FC"
+			rewards: [{
+				id: "6C00000000000030"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "3AC70E42239D37BD"
@@ -1059,6 +1299,11 @@
 				id: "minecraft:iron_ingot"
 			}
 			id: "24B94048DAF82D77"
+			rewards: [{
+				id: "6C00000000000031"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "39925C4CCDB8B836"
 				item: { count: 1, id: "minecraft:iron_ingot" }
@@ -1074,6 +1319,11 @@
 				id: "minecraft:iron_pickaxe"
 			}
 			id: "2F4B0C83900ACB1B"
+			rewards: [{
+				id: "6C00000000000032"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "35E58AF0C6F9719A"
 				item: { count: 1, id: "minecraft:iron_pickaxe" }
@@ -1089,6 +1339,11 @@
 				id: "minecraft:iron_sword"
 			}
 			id: "2362E2130A0AA510"
+			rewards: [{
+				id: "6C00000000000033"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3496C0382674D90F"
 				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:iron_sword)item(minecraft:iron_axe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -1104,6 +1359,11 @@
 				id: "minecraft:shield"
 			}
 			id: "2BC365D93204FE70"
+			rewards: [{
+				id: "6C00000000000034"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "32AA7EDDFE48485D"
 				item: { count: 1, id: "minecraft:shield" }
@@ -1119,6 +1379,11 @@
 				id: "minecraft:bucket"
 			}
 			id: "243B6C84F095ED17"
+			rewards: [{
+				id: "6C00000000000035"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "314AAB5D3023AB8E"
 				item: { count: 1, id: "minecraft:bucket" }
@@ -1134,6 +1399,11 @@
 				id: "minecraft:water_bucket"
 			}
 			id: "24126090A651A73F"
+			rewards: [{
+				id: "6C00000000000036"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "36B9338C57A0A32A"
 				item: { count: 1, id: "minecraft:water_bucket" }
@@ -1149,6 +1419,11 @@
 				id: "minecraft:iron_chestplate"
 			}
 			id: "28F9EF64615A116B"
+			rewards: [{
+				id: "6C00000000000037"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3F2AEF4FEDEA2E32"
 				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:iron_helmet)item(minecraft:iron_chestplate)item(minecraft:iron_leggings)item(minecraft:iron_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -1203,6 +1478,11 @@
 			}
 			id: "271398FBD71A64FF"
 			optional: true
+			rewards: [{
+				id: "6C00000000000038"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "342CBC30DB53412E"
 				item: { count: 1, id: "minecraft:shears" }
@@ -1219,6 +1499,11 @@
 			}
 			id: "2DE6A40EE28846B2"
 			optional: true
+			rewards: [{
+				id: "6C00000000000039"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3BE71ADE1287C6F1"
 				item: { count: 1, id: "minecraft:flint_and_steel" }
@@ -1235,6 +1520,11 @@
 			}
 			id: "2D7ED308AB1B6F9F"
 			optional: true
+			rewards: [{
+				id: "6C0000000000003A"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "33116FFC82EBBF82"
 				item: { count: 1, id: "minecraft:hopper" }
@@ -1251,6 +1541,11 @@
 			}
 			id: "26742BC73BBEE275"
 			optional: true
+			rewards: [{
+				id: "6C0000000000003B"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "33DA46236D097A6E"
 				item: { count: 1, id: "minecraft:anvil" }
@@ -1267,6 +1562,11 @@
 			}
 			id: "2F44CF391D9858AF"
 			optional: true
+			rewards: [{
+				id: "6C0000000000003C"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3FA69ABCD2408F14"
 				item: { count: 1, id: "minecraft:compass" }
@@ -1282,6 +1582,11 @@
 				id: "minecraft:deepslate"
 			}
 			id: "2FC5F85EF66E9EA5"
+			rewards: [{
+				id: "6C0000000000003D"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "3900654B7CD619C6"
@@ -1297,6 +1602,11 @@
 				id: "minecraft:raw_copper"
 			}
 			id: "25656C93E2338354"
+			rewards: [{
+				id: "6C0000000000003E"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "35456742F69D0431"
 				item: { count: 1, id: "minecraft:raw_copper" }
@@ -1312,6 +1622,11 @@
 				id: "minecraft:redstone"
 			}
 			id: "22950F6504A97B79"
+			rewards: [{
+				id: "6C0000000000003F"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3E010FBA6EC11E34"
 				item: { count: 1, id: "minecraft:redstone" }
@@ -1327,6 +1642,11 @@
 				id: "minecraft:lapis_lazuli"
 			}
 			id: "2368BEE635B9841E"
+			rewards: [{
+				id: "6C00000000000040"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "381392B082F3CB15"
 				item: { count: 1, id: "minecraft:lapis_lazuli" }
@@ -1342,6 +1662,11 @@
 				id: "minecraft:raw_gold"
 			}
 			id: "2BE0706CBF280953"
+			rewards: [{
+				id: "6C00000000000041"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "30D23281C420688A"
 				item: { count: 1, id: "minecraft:raw_gold" }
@@ -1357,6 +1682,11 @@
 				id: "minecraft:diamond"
 			}
 			id: "29904C30882B35A7"
+			rewards: [{
+				id: "6C00000000000042"
+				type: "xp"
+				xp: 30
+			}]
 			size: 2.5d
 			tasks: [{
 				id: "314ED2FB5D7B9568"
@@ -1373,6 +1703,11 @@
 				id: "minecraft:diamond_pickaxe"
 			}
 			id: "25643C8D1C65D677"
+			rewards: [{
+				id: "6C00000000000043"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3008E0749C5A3FB0"
 				item: { count: 1, id: "minecraft:diamond_pickaxe" }
@@ -1411,6 +1746,11 @@
 			}
 			id: "22A3B5DF4D7A6DD6"
 			optional: true
+			rewards: [{
+				id: "6C00000000000044"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3A1F93B590685131"
 				type: "checkmark"
@@ -1426,6 +1766,11 @@
 			}
 			id: "257C737E46060DAA"
 			optional: true
+			rewards: [{
+				id: "6C00000000000045"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3FE771CAE820F16D"
 				type: "checkmark"
@@ -1441,6 +1786,11 @@
 			}
 			id: "217F6E6E0699E7AA"
 			optional: true
+			rewards: [{
+				id: "6C00000000000046"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "390EFFD8529A406F"
 				type: "checkmark"
@@ -1456,6 +1806,11 @@
 			}
 			id: "29A05C6E6619C14A"
 			optional: true
+			rewards: [{
+				id: "6C00000000000047"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "33ACFD485CD562D1"
 				type: "checkmark"
@@ -1471,6 +1826,11 @@
 			}
 			id: "272150786C755A60"
 			optional: true
+			rewards: [{
+				id: "6C00000000000048"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3857458E78052FDD"
 				type: "checkmark"
@@ -1486,6 +1846,11 @@
 			}
 			id: "202C90D93C50325D"
 			optional: true
+			rewards: [{
+				id: "6C00000000000049"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3E211FBF1E8F50A0"
 				type: "checkmark"
@@ -1501,6 +1866,11 @@
 			}
 			id: "212E128CD01ECBC6"
 			optional: true
+			rewards: [{
+				id: "6C0000000000004A"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3CA2020B3D837A9B"
 				type: "checkmark"
@@ -1516,6 +1886,11 @@
 			}
 			id: "2170D74C4D3986AE"
 			optional: true
+			rewards: [{
+				id: "6C0000000000004B"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:rail"
@@ -1535,6 +1910,11 @@
 			}
 			id: "248B0FAD159182E9"
 			optional: true
+			rewards: [{
+				id: "6C0000000000004C"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3D3A68390EE38FF4"
 				type: "checkmark"
@@ -1550,6 +1930,11 @@
 			}
 			id: "2047E917AA9C6508"
 			optional: true
+			rewards: [{
+				id: "6C0000000000004D"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				entity: "minecraft:cave_spider"
 				id: "36BBC2072B9E66C3"
@@ -1567,6 +1952,11 @@
 			}
 			id: "2753315078FF303B"
 			optional: true
+			rewards: [{
+				id: "6C0000000000004E"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3EE35B293EFDF6E6"
 				item: { count: 1, id: "minecraft:amethyst_shard" }
@@ -1582,6 +1972,11 @@
 			}
 			id: "29A696583A463B4F"
 			optional: true
+			rewards: [{
+				id: "6C0000000000004F"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "372256E8CF34B91C"
@@ -1598,6 +1993,11 @@
 			}
 			id: "2F02AB8F15F0A9B9"
 			optional: true
+			rewards: [{
+				id: "6C00000000000050"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3F70F9439D8A10AC"
 				type: "checkmark"
@@ -1613,6 +2013,11 @@
 			}
 			id: "27922FE1A280A8C4"
 			optional: true
+			rewards: [{
+				id: "6C00000000000051"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "381D6790EC3A77E1"
 				type: "checkmark"
@@ -1628,6 +2033,11 @@
 			}
 			id: "2AEE5B8FF0F8FF8B"
 			optional: true
+			rewards: [{
+				id: "6C00000000000052"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3E65B5119FB81834"
 				item: { count: 1, id: "minecraft:bow" }
@@ -1644,6 +2054,11 @@
 			}
 			id: "2D8BC747D4EE1B8F"
 			optional: true
+			rewards: [{
+				id: "6C00000000000053"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				count: 16L
 				id: "39F68BF2A3CF4E0E"
@@ -1661,6 +2076,11 @@
 			}
 			id: "260F77B06A848314"
 			optional: true
+			rewards: [{
+				id: "6C00000000000054"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3A450DB8866751DB"
 				type: "checkmark"
@@ -1676,6 +2096,11 @@
 			}
 			id: "20B5D3891DED4F1A"
 			optional: true
+			rewards: [{
+				id: "6C00000000000055"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "33A42214F830B317"
 				type: "checkmark"
@@ -1691,6 +2116,11 @@
 			}
 			id: "2B8F4A77FC29123F"
 			optional: true
+			rewards: [{
+				id: "6C00000000000056"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "31EBB94DCA7F5AEE"
 				type: "checkmark"
@@ -1706,6 +2136,11 @@
 			}
 			id: "2776ED94E843D970"
 			optional: true
+			rewards: [{
+				id: "6C00000000000057"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				entity: "minecraft:zombie"
 				id: "31AB21A309AD3D6B"
@@ -1723,6 +2158,11 @@
 			}
 			id: "23288AD59515CF31"
 			optional: true
+			rewards: [{
+				id: "6C00000000000058"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				entity: "minecraft:skeleton"
 				id: "3424F3D61070ADDE"
@@ -1740,6 +2180,11 @@
 			}
 			id: "2521BC6F34305CB4"
 			optional: true
+			rewards: [{
+				id: "6C00000000000059"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				entity: "minecraft:creeper"
 				id: "3D0C84B777DD0371"
@@ -1757,6 +2202,11 @@
 			}
 			id: "2857C49A2D0D7EEB"
 			optional: true
+			rewards: [{
+				id: "6C0000000000005A"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				entity: "minecraft:spider"
 				id: "3474642576264AEC"
@@ -1796,6 +2246,11 @@
 			}
 			id: "22A5D7A1985AA779"
 			optional: true
+			rewards: [{
+				id: "6C0000000000005B"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
 			tasks: [{
 				count: 3L
@@ -1814,6 +2269,11 @@
 			}
 			id: "2C20759677319158"
 			optional: true
+			rewards: [{
+				id: "6C0000000000005C"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3BD43035B8BFB335"
 				item: { count: 1, id: "minecraft:book" }
@@ -1830,6 +2290,11 @@
 			}
 			id: "294EB5CFB6162D85"
 			optional: true
+			rewards: [{
+				id: "6C0000000000005D"
+				type: "xp"
+				xp: 30
+			}]
 			size: 2.5d
 			tasks: [{
 				id: "3DAFE44DCA433040"
@@ -1847,6 +2312,11 @@
 			}
 			id: "2EB85E962D885638"
 			optional: true
+			rewards: [{
+				id: "6C0000000000005E"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				count: 15L
 				id: "32D840F5C5D256A7"
@@ -1864,6 +2334,11 @@
 			}
 			id: "25DB3CB1BB52DB62"
 			optional: true
+			rewards: [{
+				id: "6C0000000000005F"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3B23196745058D6F"
 				type: "checkmark"
@@ -1879,6 +2354,11 @@
 			}
 			id: "2A5750050800C247"
 			optional: true
+			rewards: [{
+				id: "6C00000000000060"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3EB60D4986B58178"
 				stat: "minecraft:enchant_item"
@@ -1896,6 +2376,11 @@
 			}
 			id: "2723F8E14746A659"
 			optional: true
+			rewards: [{
+				id: "6C00000000000061"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3C1D57BE76F7D3A0"
 				item: { count: 1, id: "minecraft:enchanted_book" }
@@ -1912,6 +2397,11 @@
 			}
 			id: "2D959C6A688B2451"
 			optional: true
+			rewards: [{
+				id: "6C00000000000062"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3C9421A98B33329C"
 				stat: "minecraft:interact_with_anvil"
@@ -1929,6 +2419,11 @@
 			}
 			id: "240F2D33718F37EA"
 			optional: true
+			rewards: [{
+				id: "6C00000000000063"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3304D0CB8632D70F"
 				stat: "minecraft:interact_with_grindstone"
@@ -1966,6 +2461,11 @@
 			}
 			id: "2FB23CA24FE081C9"
 			optional: true
+			rewards: [{
+				id: "6C00000000000064"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
 			tasks: [{
 				icon: {
@@ -1986,6 +2486,11 @@
 			}
 			id: "27E94D31418A7BE8"
 			optional: true
+			rewards: [{
+				id: "6C00000000000065"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				check_buy_item: true
 				entity: "minecraft:villager"
@@ -2005,6 +2510,11 @@
 			}
 			id: "20DA9946A9EA27AC"
 			optional: true
+			rewards: [{
+				id: "6C00000000000066"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "386E9D68B1BD2D7B"
 				type: "checkmark"
@@ -2020,6 +2530,11 @@
 			}
 			id: "242DB03DB309BF1B"
 			optional: true
+			rewards: [{
+				id: "6C00000000000067"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				check_buy_item: true
 				entity: "minecraft:villager"
@@ -2040,6 +2555,11 @@
 			}
 			id: "274EC933EFDB9616"
 			optional: true
+			rewards: [{
+				id: "6C00000000000068"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				check_buy_item: true
 				entity: "minecraft:villager"
@@ -2060,6 +2580,11 @@
 			}
 			id: "2656558113183F41"
 			optional: true
+			rewards: [{
+				id: "6C00000000000069"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "389D4C5BBB89CCAE"
 				type: "checkmark"
@@ -2075,6 +2600,11 @@
 			}
 			id: "289C47C1AAA8FE2E"
 			optional: true
+			rewards: [{
+				id: "6C0000000000006A"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "35B4005FF9A78291"
 				type: "checkmark"
@@ -2090,6 +2620,11 @@
 			}
 			id: "2FF3AB0A5AD0A84A"
 			optional: true
+			rewards: [{
+				id: "6C0000000000006B"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "36A3BFAE67E67243"
 				type: "checkmark"
@@ -2105,6 +2640,11 @@
 			}
 			id: "21BAC370613B26D5"
 			optional: true
+			rewards: [{
+				id: "6C0000000000006C"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "32E64D84A0386DE2"
 				type: "checkmark"
@@ -2120,6 +2660,11 @@
 			}
 			id: "2359FA621F618BAB"
 			optional: true
+			rewards: [{
+				id: "6C0000000000006D"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
 					id: "39D4C25BFF2E832C"
@@ -2165,6 +2710,11 @@
 			}
 			id: "22B0838FF51C4311"
 			optional: true
+			rewards: [{
+				id: "6C0000000000006E"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "36F58F1F314B6736"
@@ -2182,6 +2732,11 @@
 			}
 			id: "2EC0EDF6A91A18E4"
 			optional: true
+			rewards: [{
+				id: "6C0000000000006F"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3A61607A20168159"
 				type: "checkmark"
@@ -2197,6 +2752,11 @@
 			}
 			id: "2004FC52B8DAE583"
 			optional: true
+			rewards: [{
+				id: "6C00000000000070"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3ADEEEEBF24E6726"
 				item: { count: 1, id: "minecraft:spyglass" }
@@ -2213,6 +2773,11 @@
 			}
 			id: "236DE6C0D99A80C8"
 			optional: true
+			rewards: [{
+				id: "6C00000000000071"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "31388376948AF8F7"
 				type: "checkmark"
@@ -2228,6 +2793,11 @@
 			}
 			id: "2C1D7FBBA08584DA"
 			optional: true
+			rewards: [{
+				id: "6C00000000000072"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "357C2F6E83B321A7"
 				type: "checkmark"
@@ -2243,6 +2813,11 @@
 			}
 			id: "2132FA6E4DCC8228"
 			optional: true
+			rewards: [{
+				id: "6C00000000000073"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:chiseled_sandstone"
@@ -2262,6 +2837,11 @@
 			}
 			id: "2437A17A242F5910"
 			optional: true
+			rewards: [{
+				id: "6C00000000000074"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:mossy_cobblestone"
@@ -2281,6 +2861,11 @@
 			}
 			id: "2EC71B725222CD97"
 			optional: true
+			rewards: [{
+				id: "6C00000000000075"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:oak_boat"
@@ -2300,6 +2885,11 @@
 			}
 			id: "25FEE6AE3F6725C0"
 			optional: true
+			rewards: [{
+				id: "6C00000000000076"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:heart_of_the_sea"
@@ -2319,6 +2909,11 @@
 			}
 			id: "2E9F0C91454CA38D"
 			optional: true
+			rewards: [{
+				id: "6C00000000000077"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3D9C6CD10B108366"
 				type: "checkmark"
@@ -2334,6 +2929,11 @@
 			}
 			id: "2BF93C6AFE19E58C"
 			optional: true
+			rewards: [{
+				id: "6C00000000000078"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:crossbow"
@@ -2353,6 +2953,11 @@
 			}
 			id: "2DDC0F516A0532CF"
 			optional: true
+			rewards: [{
+				id: "6C00000000000079"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:dark_oak_log"
@@ -2372,6 +2977,11 @@
 			}
 			id: "25C82B207FAFE817"
 			optional: true
+			rewards: [{
+				id: "6C0000000000007A"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:brush"
@@ -2415,6 +3025,11 @@
 			}
 			id: "2782CA9338D0A483"
 			optional: true
+			rewards: [{
+				id: "6C0000000000007B"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
 			tasks: [
 				{
@@ -2439,6 +3054,11 @@
 			}
 			id: "261C3E67E4E6AE43"
 			optional: true
+			rewards: [{
+				id: "6C0000000000007C"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3F1FE6BF9CDE0A28"
 				type: "checkmark"
@@ -2454,6 +3074,11 @@
 			}
 			id: "2BACB4531F23C29D"
 			optional: true
+			rewards: [{
+				id: "6C0000000000007D"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3E9EDE74FC5FC304"
 				item: { count: 1, id: "minecraft:repeater" }
@@ -2470,6 +3095,11 @@
 			}
 			id: "27C76242FD357969"
 			optional: true
+			rewards: [{
+				id: "6C0000000000007E"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "39EFD36A8C767728"
 				item: { count: 1, id: "minecraft:comparator" }
@@ -2486,6 +3116,11 @@
 			}
 			id: "22B5455EE6BFD457"
 			optional: true
+			rewards: [{
+				id: "6C0000000000007F"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3D6A8750D4BED35E"
 				item: { count: 1, id: "minecraft:observer" }
@@ -2502,6 +3137,11 @@
 			}
 			id: "26ADAD408D6777B0"
 			optional: true
+			rewards: [{
+				id: "6C00000000000080"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "30797EC25B72AB11"
 				item: { count: 1, id: "minecraft:piston" }
@@ -2518,6 +3158,11 @@
 			}
 			id: "22EF93EA655A2A86"
 			optional: true
+			rewards: [{
+				id: "6C00000000000081"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "366CD619DA694521"
 				item: { count: 1, id: "minecraft:sticky_piston" }
@@ -2534,6 +3179,11 @@
 			}
 			id: "29AEAD149607137A"
 			optional: true
+			rewards: [{
+				id: "6C00000000000082"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				count: 2L
 				id: "374A83AFCA900795"
@@ -2551,6 +3201,11 @@
 			}
 			id: "20DD84B712A72F16"
 			optional: true
+			rewards: [{
+				id: "6C00000000000083"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "335C17637286E1D7"
 				type: "checkmark"
@@ -2566,6 +3221,11 @@
 			}
 			id: "2E7D5645B6FFD030"
 			optional: true
+			rewards: [{
+				id: "6C00000000000084"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				count: 6L
 				id: "3CE1D38D9C23585D"
@@ -2602,6 +3262,11 @@
 				id: "minecraft:obsidian"
 			}
 			id: "22EF3880460138CE"
+			rewards: [{
+				id: "6C00000000000085"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
 			tasks: [{
 				count: 10L
@@ -2619,6 +3284,11 @@
 				id: "minecraft:flint_and_steel"
 			}
 			id: "2358BCD118403516"
+			rewards: [{
+				id: "6C00000000000086"
+				type: "xp"
+				xp: 30
+			}]
 			size: 2.5d
 			tasks: [{
 				id: "3108B1303E5E483B"
@@ -2634,6 +3304,11 @@
 				id: "minecraft:netherrack"
 			}
 			id: "24422C192DBE3B20"
+			rewards: [{
+				id: "6C00000000000087"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				icon: {
@@ -2652,6 +3327,11 @@
 				id: "minecraft:compass"
 			}
 			id: "2C23B6617E2E2977"
+			rewards: [{
+				id: "6C00000000000088"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "36388F9DC7463EE4"
 				type: "checkmark"
@@ -2666,6 +3346,11 @@
 				id: "minecraft:golden_helmet"
 			}
 			id: "25125955795DC581"
+			rewards: [{
+				id: "6C00000000000089"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3C13FC7F74DCB06E"
 				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:golden_helmet)item(minecraft:golden_chestplate)item(minecraft:golden_leggings)item(minecraft:golden_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -2681,6 +3366,11 @@
 				id: "minecraft:quartz"
 			}
 			id: "256971872A1E56B7"
+			rewards: [{
+				id: "6C0000000000008A"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "364C589E07152858"
 				item: { count: 1, id: "minecraft:quartz" }
@@ -2696,6 +3386,11 @@
 				id: "minecraft:nether_bricks"
 			}
 			id: "213FAB5695AACB9D"
+			rewards: [{
+				id: "6C0000000000008B"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:nether_bricks"
@@ -2714,6 +3409,11 @@
 				id: "minecraft:blaze_rod"
 			}
 			id: "2BCD814B11C9795E"
+			rewards: [{
+				id: "6C0000000000008C"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				entity: "minecraft:blaze"
 				id: "3C7F8B4B7DD849E7"
@@ -2730,6 +3430,11 @@
 				id: "minecraft:blaze_rod"
 			}
 			id: "23C9E89B45435A41"
+			rewards: [{
+				id: "6C0000000000008D"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3CC2A1A3058FC4BA"
 				item: { count: 1, id: "minecraft:blaze_rod" }
@@ -2745,6 +3450,11 @@
 				id: "minecraft:nether_wart"
 			}
 			id: "270A46992DCED9E2"
+			rewards: [{
+				id: "6C0000000000008E"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3BC47DFF7AE5FF75"
 				item: { count: 1, id: "minecraft:nether_wart" }
@@ -2783,6 +3493,11 @@
 			}
 			id: "2283ECD69DC3610E"
 			optional: true
+			rewards: [{
+				id: "6C0000000000008F"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "38A6E320658C7567"
 				type: "checkmark"
@@ -2798,6 +3513,11 @@
 			}
 			id: "278FD162EC9890DE"
 			optional: true
+			rewards: [{
+				id: "6C00000000000090"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "375B3C4BDB266977"
 				type: "checkmark"
@@ -2813,6 +3533,11 @@
 			}
 			id: "29DA17247C728116"
 			optional: true
+			rewards: [{
+				id: "6C00000000000091"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "30CF47560A4EDBD7"
 				type: "checkmark"
@@ -2828,6 +3553,11 @@
 			}
 			id: "23A2306BA3721F9E"
 			optional: true
+			rewards: [{
+				id: "6C00000000000092"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3359094AB13B5B21"
 				type: "checkmark"
@@ -2843,6 +3573,11 @@
 			}
 			id: "289AA3B5E7DC9007"
 			optional: true
+			rewards: [{
+				id: "6C00000000000093"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3983FB5CCFE0A5D6"
 				type: "checkmark"
@@ -2858,6 +3593,11 @@
 			}
 			id: "29EE7D960C576326"
 			optional: true
+			rewards: [{
+				id: "6C00000000000094"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "31C42CC48F8E35D1"
 				type: "checkmark"
@@ -2873,6 +3613,11 @@
 			}
 			id: "2069A8472126117D"
 			optional: true
+			rewards: [{
+				id: "6C00000000000095"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "39B9882B5101897C"
 				type: "checkmark"
@@ -2888,6 +3633,11 @@
 			}
 			id: "2FE081C7B890AA53"
 			optional: true
+			rewards: [{
+				id: "6C00000000000096"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "398823CB762FE5A8"
 				item: { count: 1, id: "minecraft:crying_obsidian" }
@@ -2904,6 +3654,11 @@
 			}
 			id: "29638C6B24B2BDC3"
 			optional: true
+			rewards: [{
+				id: "6C00000000000097"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "306BC43E3E67AFA0"
 				item: { components: { "minecraft:potion_contents": { potion: "minecraft:fire_resistance" } }, count: 1, id: "minecraft:potion" }
@@ -2920,6 +3675,11 @@
 			}
 			id: "29C6D3A5C0AAACAF"
 			optional: true
+			rewards: [{
+				id: "6C00000000000098"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:polished_blackstone_bricks"
@@ -2939,6 +3699,11 @@
 			}
 			id: "2E6961D7675948D1"
 			optional: true
+			rewards: [{
+				id: "6C00000000000099"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "30AF773A2DBD288C"
 				type: "checkmark"
@@ -2954,6 +3719,11 @@
 			}
 			id: "226CB1D23CE3AC5F"
 			optional: true
+			rewards: [{
+				id: "6C0000000000009A"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "369AC582886813E6"
 				item: { count: 1, id: "minecraft:ancient_debris" }
@@ -2970,6 +3740,11 @@
 			}
 			id: "28A9066994CC950D"
 			optional: true
+			rewards: [{
+				id: "6C0000000000009B"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "33561E187280ECE6"
 				item: { count: 1, id: "minecraft:netherite_ingot" }
@@ -2986,6 +3761,11 @@
 			}
 			id: "2BFC92150F5DF38C"
 			optional: true
+			rewards: [{
+				id: "6C0000000000009C"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "30B30858943177E7"
@@ -3003,6 +3783,11 @@
 			}
 			id: "254E86B7542E4BA1"
 			optional: true
+			rewards: [{
+				id: "6C0000000000009D"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3E6470C1FC7510D8"
 				stat: "minecraft:interact_with_brewingstand"
@@ -3020,6 +3805,11 @@
 			}
 			id: "2F0C3875995B9CB2"
 			optional: true
+			rewards: [{
+				id: "6C0000000000009E"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "37626BF9E10967EF"
 				item: { components: { "minecraft:potion_contents": { potion: "minecraft:awkward" } }, count: 1, id: "minecraft:potion" }
@@ -3036,6 +3826,11 @@
 			}
 			id: "2B9FCC1CCBA7FE65"
 			optional: true
+			rewards: [{
+				id: "6C0000000000009F"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3A90B886767990F6"
 				type: "checkmark"
@@ -3051,6 +3846,11 @@
 			}
 			id: "2F3D4CEF6F117BCF"
 			optional: true
+			rewards: [{
+				id: "6C000000000000A0"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "306271EFF50A5C1A"
 				type: "checkmark"
@@ -3066,6 +3866,11 @@
 			}
 			id: "241233BC1ACE1C04"
 			optional: true
+			rewards: [{
+				id: "6C000000000000A1"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3F2A2508C95EB877"
 				item: { count: 1, id: "minecraft:splash_potion" }
@@ -3082,6 +3887,11 @@
 			}
 			id: "2162A265A74861B3"
 			optional: true
+			rewards: [{
+				id: "6C000000000000A2"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "388509156C5A3562"
 				item: { components: { "minecraft:potion_contents": { potion: "minecraft:fire_resistance" } }, count: 1, id: "minecraft:potion" }
@@ -3098,6 +3908,11 @@
 			}
 			id: "2D967FE90D2E9C7A"
 			optional: true
+			rewards: [{
+				id: "6C000000000000A3"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3954E54FC942CEA9"
 				item: { components: { "minecraft:potion_contents": { potion: "minecraft:slow_falling" } }, count: 1, id: "minecraft:potion" }
@@ -3114,6 +3929,11 @@
 			}
 			id: "2D5DC1F047F7FC82"
 			optional: true
+			rewards: [{
+				id: "6C000000000000A4"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3743B05B9BD9DB61"
 				item: { components: { "minecraft:potion_contents": { potion: "minecraft:strength" } }, count: 1, id: "minecraft:potion" }
@@ -3150,6 +3970,11 @@
 				id: "minecraft:ender_pearl"
 			}
 			id: "2B1F6B8CE7BC3902"
+			rewards: [{
+				id: "6C000000000000A5"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "3F0ACEE58C9AD785"
@@ -3166,6 +3991,11 @@
 				id: "minecraft:ender_eye"
 			}
 			id: "2722B782024D7FA3"
+			rewards: [{
+				id: "6C000000000000A6"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				count: 12L
 				id: "3161E0E9EA336252"
@@ -3182,6 +4012,11 @@
 				id: "minecraft:ender_eye"
 			}
 			id: "234FA47BF87CD9E5"
+			rewards: [{
+				id: "6C000000000000A7"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3A568BF2973DFAB2"
 				type: "checkmark"
@@ -3196,6 +4031,11 @@
 				id: "minecraft:ender_eye"
 			}
 			id: "2EB38E8623FD1AC3"
+			rewards: [{
+				id: "6C000000000000A8"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "39EB28084766E582"
 				type: "checkmark"
@@ -3210,6 +4050,11 @@
 				id: "minecraft:stone_bricks"
 			}
 			id: "207692C488E36AC5"
+			rewards: [{
+				id: "6C000000000000A9"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:stone_bricks"
@@ -3228,6 +4073,11 @@
 				id: "minecraft:bookshelf"
 			}
 			id: "2609D1E1916E037F"
+			rewards: [{
+				id: "6C000000000000AA"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3D344BB07DF8303A"
 				type: "checkmark"
@@ -3242,6 +4092,11 @@
 				id: "minecraft:end_portal_frame"
 			}
 			id: "2EEFE6DBCB6451A7"
+			rewards: [{
+				id: "6C000000000000AB"
+				type: "xp"
+				xp: 30
+			}]
 			size: 2.5d
 			tasks: [{
 				id: "35F9EEE20857F6D0"
@@ -3257,6 +4112,11 @@
 				id: "minecraft:spawner"
 			}
 			id: "266EA9A8485ED99A"
+			rewards: [{
+				id: "6C000000000000AC"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3FA985E09D1BC0FF"
 				type: "checkmark"
@@ -3292,6 +4152,11 @@
 			}
 			id: "2DEB7AC25A6BAE43"
 			optional: true
+			rewards: [{
+				id: "6C000000000000AD"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "373A6255B4136474"
@@ -3309,6 +4174,11 @@
 			}
 			id: "2894465774576B89"
 			optional: true
+			rewards: [{
+				id: "6C000000000000AE"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "349480B27B761EB8"
 				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:bow)item(minecraft:crossbow))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -3325,6 +4195,11 @@
 			}
 			id: "28C0D79B888A8041"
 			optional: true
+			rewards: [{
+				id: "6C000000000000AF"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				count: 64L
 				id: "32D5A59BFD0D803A"
@@ -3342,6 +4217,11 @@
 			}
 			id: "2A77350D551791D2"
 			optional: true
+			rewards: [{
+				id: "6C000000000000B0"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3E22F6BDBA29E45F"
 				type: "checkmark"
@@ -3357,6 +4237,11 @@
 			}
 			id: "2F8BD40FB53BF0AD"
 			optional: true
+			rewards: [{
+				id: "6C000000000000B1"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				count: 64L
 				id: "343AE716A0710952"
@@ -3374,6 +4259,11 @@
 			}
 			id: "28A69A83D01944B2"
 			optional: true
+			rewards: [{
+				id: "6C000000000000B2"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3E89286092E3B4CB"
 				item: { count: 1, id: "minecraft:water_bucket" }
@@ -3390,6 +4280,11 @@
 			}
 			id: "205DAB6369C76AC6"
 			optional: true
+			rewards: [{
+				id: "6C000000000000B3"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				count: 4L
 				id: "3ACAE484461A1979"
@@ -3407,6 +4302,11 @@
 			}
 			id: "278293B9205CDD1B"
 			optional: true
+			rewards: [{
+				id: "6C000000000000B4"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				count: 16L
 				id: "3218B38A68FA4EF4"
@@ -3424,6 +4324,11 @@
 			}
 			id: "2E62538D25B2BA1A"
 			optional: true
+			rewards: [{
+				id: "6C000000000000B5"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3C40E821F044B2FD"
 				item: { components: { "minecraft:potion_contents": { potion: "minecraft:slow_falling" } }, count: 1, id: "minecraft:potion" }
@@ -3440,6 +4345,11 @@
 			}
 			id: "2ED272F9C13587AB"
 			optional: true
+			rewards: [{
+				id: "6C000000000000B6"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3DD7D6595AB7EE92"
 				stat: "minecraft:sleep_in_bed"
@@ -3457,6 +4367,11 @@
 			}
 			id: "2391E50928ECF945"
 			optional: true
+			rewards: [{
+				id: "6C000000000000B7"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3FC428CF9DED7B30"
 				item: { count: 1, id: "minecraft:chest" }
@@ -3492,6 +4407,11 @@
 				id: "minecraft:end_stone"
 			}
 			id: "2C455DE030CB7353"
+			rewards: [{
+				id: "6C000000000000B8"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
 			tasks: [{
 				dimension: "minecraft:the_end"
@@ -3508,6 +4428,11 @@
 				id: "minecraft:obsidian"
 			}
 			id: "2E9207295388974C"
+			rewards: [{
+				id: "6C000000000000B9"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3A07A6C5E0400805"
 				type: "checkmark"
@@ -3522,6 +4447,11 @@
 				id: "minecraft:carved_pumpkin"
 			}
 			id: "2D2897D8C814E32D"
+			rewards: [{
+				id: "6C000000000000BA"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "38EAFAC8191A8980"
 				type: "checkmark"
@@ -3536,6 +4466,11 @@
 				id: "minecraft:end_crystal"
 			}
 			id: "26492CCC83A0441F"
+			rewards: [{
+				id: "6C000000000000BB"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3FFA0595AB56D990"
 				type: "checkmark"
@@ -3550,6 +4485,11 @@
 				id: "minecraft:bow"
 			}
 			id: "2D84BC10F51093E9"
+			rewards: [{
+				id: "6C000000000000BC"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "386D9A8D8785E758"
 				type: "checkmark"
@@ -3564,6 +4504,11 @@
 				id: "minecraft:iron_bars"
 			}
 			id: "2D8AFCE4D8F7A60F"
+			rewards: [{
+				id: "6C000000000000BD"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3708411B3BF36CDA"
 				type: "checkmark"
@@ -3578,6 +4523,11 @@
 				id: "minecraft:dragon_breath"
 			}
 			id: "2E4A07D835841C3D"
+			rewards: [{
+				id: "6C000000000000BE"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3AAE03251785B49A"
 				type: "checkmark"
@@ -3592,6 +4542,11 @@
 				id: "minecraft:diamond_sword"
 			}
 			id: "2E9EEB3C8E75E9F1"
+			rewards: [{
+				id: "6C000000000000BF"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3ADF9864EC54414C"
 				type: "checkmark"
@@ -3606,6 +4561,11 @@
 				id: "minecraft:dragon_head"
 			}
 			id: "2FC0FBEB5C3B3E55"
+			rewards: [{
+				id: "6C000000000000C0"
+				type: "xp"
+				xp: 30
+			}]
 			size: 2.5d
 			tasks: [{
 				entity: "minecraft:ender_dragon"
@@ -3644,6 +4604,11 @@
 			}
 			id: "2627CC14E83E02BC"
 			optional: true
+			rewards: [{
+				id: "6C000000000000C1"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3582A9E782DDD6C1"
 				item: { count: 1, id: "minecraft:dragon_breath" }
@@ -3660,6 +4625,11 @@
 			}
 			id: "23CF33578CCDEC88"
 			optional: true
+			rewards: [{
+				id: "6C000000000000C2"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3E5463A2B11AD1BD"
 				item: { count: 1, id: "minecraft:dragon_egg" }
@@ -3676,6 +4646,11 @@
 			}
 			id: "2B671527AF5A73CB"
 			optional: true
+			rewards: [{
+				id: "6C000000000000C3"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				count: 4L
 				id: "3094DB05C68677F2"
@@ -3693,6 +4668,11 @@
 			}
 			id: "2261DE13E8ECCEC6"
 			optional: true
+			rewards: [{
+				id: "6C000000000000C4"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				id: "31930379B54B23C1"
@@ -3709,6 +4689,11 @@
 				id: "minecraft:ender_pearl"
 			}
 			id: "21CF78563D572C07"
+			rewards: [{
+				id: "6C000000000000C5"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "33447DF1CF424904"
@@ -3724,6 +4709,11 @@
 				id: "minecraft:ender_pearl"
 			}
 			id: "287DB19021C0B223"
+			rewards: [{
+				id: "6C000000000000C6"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "375FF357A1AF65E8"
 				type: "checkmark"
@@ -3738,6 +4728,11 @@
 				id: "minecraft:chorus_fruit"
 			}
 			id: "2FA9650FD1A71516"
+			rewards: [{
+				id: "6C000000000000C7"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "37A7E27A24EC99A7"
 				item: { count: 1, id: "minecraft:chorus_fruit" }
@@ -3753,6 +4748,11 @@
 				id: "minecraft:purpur_block"
 			}
 			id: "23E97717160E9740"
+			rewards: [{
+				id: "6C000000000000C8"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "32C12FFAEEDCC57D"
 				structure: "minecraft:end_city"
@@ -3768,6 +4768,11 @@
 				id: "minecraft:shulker_shell"
 			}
 			id: "28969B87B3D90E53"
+			rewards: [{
+				id: "6C000000000000C9"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				entity: "minecraft:shulker"
 				id: "3774C8548972CC40"
@@ -3784,6 +4789,11 @@
 				id: "minecraft:feather"
 			}
 			id: "2B2A7A64850EC6B2"
+			rewards: [{
+				id: "6C000000000000CA"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "30743817D5E54823"
 				type: "checkmark"
@@ -3798,6 +4808,11 @@
 				id: "minecraft:shulker_shell"
 			}
 			id: "28223A99A5DD3016"
+			rewards: [{
+				id: "6C000000000000CB"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				count: 2L
 				id: "3335EC296CE96B91"
@@ -3814,6 +4829,11 @@
 				id: "minecraft:shulker_box"
 			}
 			id: "2350D6F6680B35CD"
+			rewards: [{
+				id: "6C000000000000CC"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "38E9F57B7649BCAA"
 				item: { count: 1, id: "minecraft:shulker_box" }
@@ -3829,6 +4849,11 @@
 				id: "minecraft:end_rod"
 			}
 			id: "299073A0221D05B5"
+			rewards: [{
+				id: "6C000000000000CD"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "35ED0C0D4D0B3340"
 				type: "checkmark"
@@ -3843,6 +4868,11 @@
 				id: "minecraft:elytra"
 			}
 			id: "2C389C7A2762CD20"
+			rewards: [{
+				id: "6C000000000000CE"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "384BE498C258C1F5"
 				item: { count: 1, id: "minecraft:elytra" }
@@ -3858,6 +4888,11 @@
 				id: "minecraft:firework_rocket"
 			}
 			id: "2A7B892355827F39"
+			rewards: [{
+				id: "6C000000000000CF"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				count: 16L
 				id: "3BAB515F65A4652E"
@@ -3874,6 +4909,11 @@
 				id: "minecraft:firework_rocket"
 			}
 			id: "225607A20E1F38D8"
+			rewards: [{
+				id: "6C000000000000D0"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "34787A29A6037521"
 				stat: "minecraft:aviate_one_cm"
@@ -3912,6 +4952,11 @@
 			}
 			id: "2231512688E7D895"
 			optional: true
+			rewards: [{
+				id: "6C000000000000D1"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "3C92F9BEB155629A"
@@ -3928,6 +4973,11 @@
 			}
 			id: "2CD0E7DBD00FCBA6"
 			optional: true
+			rewards: [{
+				id: "6C000000000000D2"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				biome: "minecraft:deep_dark"
 				id: "30E2361ED466550B"
@@ -3944,6 +4994,11 @@
 			}
 			id: "2174D20E9E35FDBD"
 			optional: true
+			rewards: [{
+				id: "6C000000000000D3"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "35A367555A2B8F7A"
 				structure: "minecraft:ancient_city"
@@ -3960,6 +5015,11 @@
 			}
 			id: "2745E1F6DCD67D4D"
 			optional: true
+			rewards: [{
+				id: "6C000000000000D4"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "38603F1885BD7B72"
 				type: "checkmark"
@@ -3975,6 +5035,11 @@
 			}
 			id: "2E62B60378C29777"
 			optional: true
+			rewards: [{
+				id: "6C000000000000D5"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "383556A38C5C8E56"
 				item: { count: 1, id: "minecraft:echo_shard" }
@@ -3991,6 +5056,11 @@
 			}
 			id: "2CAFFF7AA4EEA2D1"
 			optional: true
+			rewards: [{
+				id: "6C000000000000D6"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3B6F56A0DF776320"
 				item: { count: 1, id: "minecraft:recovery_compass" }
@@ -4007,6 +5077,11 @@
 			}
 			id: "2343A2F304005C7E"
 			optional: true
+			rewards: [{
+				id: "6C000000000000D7"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3516A991FFD3FCB1"
 				type: "checkmark"
@@ -4043,6 +5118,11 @@
 			}
 			id: "27DDEBE769354FED"
 			optional: true
+			rewards: [{
+				id: "6C000000000000D8"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "32018939EDE6CFBE"
 				item: { count: 1, id: "minecraft:sculk" }
@@ -4059,6 +5139,11 @@
 			}
 			id: "228E5EDBEB613B0A"
 			optional: true
+			rewards: [{
+				id: "6C000000000000D9"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "33E01DC758598F47"
 				item: { count: 1, id: "minecraft:sculk_sensor" }
@@ -4075,6 +5160,11 @@
 			}
 			id: "27F9DA0D6A958B3D"
 			optional: true
+			rewards: [{
+				id: "6C000000000000DA"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "379C7AE37F147108"
 				item: { count: 1, id: "minecraft:sculk_shrieker" }
@@ -4091,6 +5181,11 @@
 			}
 			id: "28F84E0C8F487635"
 			optional: true
+			rewards: [{
+				id: "6C000000000000DB"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "35DBB86AB916C806"
 				item: { components: { "ftbfiltersystem:filter": "tag(minecraft:wool)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -4107,6 +5202,11 @@
 			}
 			id: "27FB23EDF4A4FF37"
 			optional: true
+			rewards: [{
+				id: "6C000000000000DC"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3BAD2EFE94A4EDD4"
 				stat: "minecraft:sneak_time"
@@ -4124,6 +5224,11 @@
 			}
 			id: "21B2A3A587E3CF59"
 			optional: true
+			rewards: [{
+				id: "6C000000000000DD"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				count: 32L
 				id: "31EBA0366283A48C"
@@ -4141,6 +5246,11 @@
 			}
 			id: "211E52854DA90DA7"
 			optional: true
+			rewards: [{
+				id: "6C000000000000DE"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3DD53C91C287FD0C"
 				item: { count: 1, id: "minecraft:enchanted_book" }
@@ -4157,6 +5267,11 @@
 			}
 			id: "28B58871792FA331"
 			optional: true
+			rewards: [{
+				id: "6C000000000000DF"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "39DFDC74135EC04A"
 				item: { count: 1, id: "minecraft:disc_fragment_5" }
@@ -4173,6 +5288,11 @@
 			}
 			id: "2D00C541551763BD"
 			optional: true
+			rewards: [{
+				id: "6C000000000000E0"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3A7AA32872051272"
 				item: { count: 1, id: "minecraft:music_disc_5" }
@@ -4189,6 +5309,11 @@
 			}
 			id: "2AC30C39C6F2A053"
 			optional: true
+			rewards: [{
+				id: "6C000000000000E1"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3B0B53C7BF25398E"
 				type: "checkmark"
@@ -4204,6 +5329,11 @@
 			}
 			id: "2750274BD6574992"
 			optional: true
+			rewards: [{
+				id: "6C000000000000E2"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				count: 16L
 				id: "332ABF92847AB90B"
@@ -4221,6 +5351,11 @@
 			}
 			id: "2D38DE80A2571C0D"
 			optional: true
+			rewards: [{
+				id: "6C000000000000E3"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3440EA925E8A1B5C"
 				type: "checkmark"
@@ -4237,6 +5372,11 @@
 			}
 			id: "24039B1AB38B5053"
 			optional: true
+			rewards: [{
+				id: "6C000000000000E4"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "3067BA46B992A4A6"
@@ -4253,6 +5393,11 @@
 			}
 			id: "238047173D35A699"
 			optional: true
+			rewards: [{
+				id: "6C000000000000E5"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				count: 4L
 				id: "397FF0A1129B2F42"
@@ -4270,6 +5415,11 @@
 			}
 			id: "295056F543D97C20"
 			optional: true
+			rewards: [{
+				id: "6C000000000000E6"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				entity: "minecraft:wither_skeleton"
 				id: "395B4046364CB353"
@@ -4287,6 +5437,11 @@
 			}
 			id: "22032DAD07AC602F"
 			optional: true
+			rewards: [{
+				id: "6C000000000000E7"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "364910C7D18D85E6"
 				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
@@ -4303,6 +5458,11 @@
 			}
 			id: "2CF21FABD33EDF0A"
 			optional: true
+			rewards: [{
+				id: "6C000000000000E8"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				count: 3L
 				id: "354532C23D1E8A55"
@@ -4323,6 +5483,11 @@
 			}
 			id: "24BC1FF5AB8AE97C"
 			optional: true
+			rewards: [{
+				id: "6C000000000000E9"
+				type: "xp"
+				xp: 30
+			}]
 			size: 2.5d
 			tasks: [{
 				id: "33AC368764250C1B"
@@ -4339,6 +5504,11 @@
 			}
 			id: "2DBF0129446819C9"
 			optional: true
+			rewards: [{
+				id: "6C000000000000EA"
+				type: "xp"
+				xp: 30
+			}]
 			size: 2.5d
 			tasks: [{
 				entity: "minecraft:wither"
@@ -4357,6 +5527,11 @@
 			}
 			id: "2183D57AAFC8A7A8"
 			optional: true
+			rewards: [{
+				id: "6C000000000000EB"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3C60D038E2F2CC6F"
 				item: { count: 1, id: "minecraft:nether_star" }
@@ -4373,6 +5548,11 @@
 			}
 			id: "23F2794CB6E0444E"
 			optional: true
+			rewards: [{
+				id: "6C000000000000EC"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3941B2A582D421B7"
 				item: { count: 1, id: "minecraft:beacon" }
@@ -4389,6 +5569,11 @@
 			}
 			id: "246F7468C9CFB9B1"
 			optional: true
+			rewards: [{
+				id: "6C000000000000ED"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3F28EBE2544FD202"
 				stat: "minecraft:interact_with_beacon"
@@ -4427,6 +5612,11 @@
 			}
 			id: "216FB4B87786641C"
 			optional: true
+			rewards: [{
+				id: "6C000000000000EE"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "363E0B101C2A4EF9"
 				item: { count: 1, id: "minecraft:diamond_sword" }
@@ -4443,6 +5633,11 @@
 			}
 			id: "27369B22C0A6CC65"
 			optional: true
+			rewards: [{
+				id: "6C000000000000EF"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				count: 2L
 				id: "322E2DB98750D2E6"
@@ -4460,6 +5655,11 @@
 			}
 			id: "2E210D1406F05126"
 			optional: true
+			rewards: [{
+				id: "6C000000000000F0"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "323C47C541A526CD"
 				type: "checkmark"
@@ -4475,6 +5675,11 @@
 			}
 			id: "2645AD58B01D63FE"
 			optional: true
+			rewards: [{
+				id: "6C000000000000F1"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "32AEBD68DC745597"
 				type: "checkmark"
@@ -4490,6 +5695,11 @@
 			}
 			id: "2C97C43BF3F3686E"
 			optional: true
+			rewards: [{
+				id: "6C000000000000F2"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "37DF31C28380F4EB"
 				type: "checkmark"
@@ -4505,6 +5715,11 @@
 			}
 			id: "2375A682DEA63545"
 			optional: true
+			rewards: [{
+				id: "6C000000000000F3"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3161DA459BED095A"
 				type: "checkmark"
@@ -4520,6 +5735,11 @@
 			}
 			id: "209664B16DC537C8"
 			optional: true
+			rewards: [{
+				id: "6C000000000000F4"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3A46113EE3D8D985"
 				type: "checkmark"
