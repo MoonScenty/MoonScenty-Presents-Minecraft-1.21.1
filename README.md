@@ -67,7 +67,7 @@ Create 기술 시대 퀘스트는 시대별로 문서를 나눠 관리합니다.
 
 추후 탐험 및 모험 관련 모드를 추가할 수 있습니다. 해당 모드에서 얻는 아이템은 기술 시대의 필수 진행 재료보다는 퀘스트라인의 특별 보상이나 성취감을 주는 보상 시스템에 활용할 예정입니다.
 
-## 모드 목록 (238개)
+## 모드 목록 (257개)
 
 각 모드는 주된 역할과 **조정 방침**을 기준으로 분류했습니다. 여러 기능을 가진 모드는 모드팩에서 가장 크게 활용되는 분류에 배치했습니다.
 
@@ -193,6 +193,27 @@ Expert 방식으로 전면 재구성하는 대상입니다.
 - **Building Gadgets** — 넓은 범위를 한 번에 짓고 복사하는 건축 도구를 추가합니다.
 - **Construction Sticks** — 바라보는 면을 따라 블록을 이어 붙이는 건축 막대를 추가합니다.
 - **Build Guide** — 원, 구 같은 도형의 안내선을 화면에 투영합니다.
+
+### Farmer's Delight 확장 (16개)
+
+Farmer's Delight를 기반으로 작물, 요리와 조리 기구를 넓히는 애드온 묶음입니다. 요리 콘텐츠는 별도의 퀘스트 챕터로 다룰 예정입니다.
+
+- **Expanded Delight** — 아스파라거스, 고구마, 고추 등 작물과 조리법을 넓혀 진행 자체를 확장합니다.
+- **Fruits Delight** — 과일 나무와 잼, 젤리를 추가하고 가마솥으로 가공하는 공정을 제공합니다.
+- **Veggies Delight** — 피망, 브로콜리, 마늘, 순무 등 채소 작물과 채식 요리를 추가합니다.
+- **Rustic Delight** — 여러 색의 피망과 커피 디저트를 비롯한 농가풍 요리를 추가합니다.
+- **Crabber's Delight** — 게, 새우, 조개와 오징어 다리 같은 어패류와 해산물 요리를 추가합니다.
+- **Ocean's Delight** — 가디언과 대구, 오징어를 재료로 쓰는 해양 요리를 추가합니다.
+- **My Nether's Delight** — 네더 작물과 블레이저 조리 기구, 네더 재료 요리를 추가합니다.
+- **Ender's Delight** — 코러스와 셜커를 재료로 쓰는 요리와 엔드스톤 화덕을 추가합니다.
+- **Twilight Delight** — 트와일라잇 포레스트 재료 요리와 스스로 가열하는 불꽃 냄비를 추가합니다.
+- **Miner's Delight +** — 동굴 당근과 구리 냄비를 추가하고 채굴 중에 쓰는 신속 물약 요리를 제공합니다.
+- **Barbeque's Delight** — 석쇠와 재료 대야로 꼬치와 바비큐를 굽는 조리 라인을 추가합니다.
+- **Dumplings Delight Rewrapped** — 속 재료에 따라 종류가 나뉘는 만두 요리를 추가합니다.
+- **Corn Delight** — 옥수수 작물과 팝콘, 나초, 콘도그 같은 가공 식품을 추가합니다.
+- **Brewin' And Chewin'** — 발효 통과 가열 통으로 맥주와 술을 담그고 마시면 효과를 주는 콘텐츠를 추가합니다.
+- **More Delight** — 나이프와 토스트, 파스타 등 일상적인 요리를 폭넓게 추가합니다.
+- **Display Delight** — 완성한 요리를 접시에 담아 블록으로 전시할 수 있게 합니다.
 
 ### 생활 및 농사 (8개)
 
@@ -327,7 +348,7 @@ Expert 방식으로 전면 재구성하는 대상입니다.
 - **Create: Threaded Trains** — 열차 연산을 최적화해 복잡한 철도망의 성능을 개선합니다.
 - **FTB Quests Optimizer** — FTB Quests의 성능 문제를 개선합니다.
 
-### 기반 라이브러리 (40개)
+### 기반 라이브러리 (43개)
 
 - **Architectury API** — 여러 모드 로더를 지원하는 모드의 공통 기반입니다.
 - **Accessories** — 데이터 기반의 확장 가능한 장신구 시스템을 제공합니다.
@@ -338,6 +359,7 @@ Expert 방식으로 전면 재구성하는 대상입니다.
 - **Bookshelf** — 여러 모드가 설정과 공통 코드를 공유하는 기반입니다.
 - **Cloth Config API** — 설정 화면을 만들기 위한 공통 API입니다.
 - **Collective** — Serilum 계열 모드의 공통 코드입니다.
+- **Delight Lib** — Farmer's Delight 확장 모드들이 공유하는 공통 기능을 제공합니다.
 - **CoroUtil** — CoroUtil 계열 모드의 기반 유틸리티입니다.
 - **CreativeCore** — CreativeMD 계열 모드의 기반 라이브러리입니다.
 - **Cryonic Config** — 설정 관리를 위한 경량 라이브러리입니다.
@@ -352,9 +374,11 @@ Expert 방식으로 전면 재구성하는 대상입니다.
 - **Iron's Lib** — Iron's 계열 모드의 기반 라이브러리입니다.
 - **Konkrete** — Keksuccino 계열 모드의 기반 라이브러리입니다.
 - **Kotlin for Forge** — Kotlin으로 작성된 모드를 실행하기 위한 언어 지원입니다.
+- **Lodestone** — Malum 계열 모드의 파티클과 렌더링 기반을 제공합니다.
 - **Mechanicals Lib** — 여러 Create 애드온이 공유하는 코드입니다.
 - **Melody** — FancyMenu 계열의 오디오 재생 기반입니다.
 - **Moonlight Lib** — Supplementaries 계열 모드의 기반 라이브러리입니다.
+- **Mysterious Mountain Lib** — Fruits Delight 등이 사용하는 공통 기능을 제공합니다.
 - **oωo (owo-lib)** — UI와 설정을 위한 공통 라이브러리입니다.
 - **Placebo** — Shadows_of_Fire 계열 모드의 공통 코드입니다.
 - **Platform** — 여러 로더를 함께 지원하기 위한 라이브러리입니다.

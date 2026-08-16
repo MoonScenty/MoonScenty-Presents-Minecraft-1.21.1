@@ -1,0 +1,13 @@
+name = "Dumplings Delight Rewrapped"
+filename = "DumplingsDelightRewrapped-1.21.1-1.4.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "69ab0adfb311126117270eb77e0740d0119193dc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8091613
+project-id = 1093375

@@ -5,6 +5,10 @@ file = "QUEST_STONE_AGE.md"
 hash = "57ca5d7c97caea55c98d02777aa757e6c6fd84a07f19caa28e901d01561c0787"
 
 [[files]]
+file = "QUEST_TIPS_AND_TRICKS.md"
+hash = "ea9a6032af7de52a3a64c3ebf5b967fb1f07ceeb4b725cbfcdbbbd11da25088d"
+
+[[files]]
 file = "config/CreateEnergistics2-common.toml"
 hash = "eb20ae8de018f79c09ec336e8e55a4a61ffa59e1ba6d8b5db15d92d06a133dfe"
 
@@ -1483,6 +1487,11 @@ hash = "48ccf754257a1d140c12e4cee3bd7901392023fcd5a3fc961b7275448459fe73"
 metafile = true
 
 [[files]]
+file = "mods/barbeques-delight.pw.toml"
+hash = "feb35b136d405fe64075a577514f228c0cbc69d31efd30a81b058f8643e182d5"
+metafile = true
+
+[[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "84fd12a30b0fecc1df5c03b6ec1bcbd6263211e65e17f24075a54773af6bfaff"
 metafile = true
@@ -1505,6 +1514,11 @@ metafile = true
 [[files]]
 file = "mods/bookshelf.pw.toml"
 hash = "cf914684c4151076b726116a66f7bc81a6116655551bcce70a9e64e34e5aa308"
+metafile = true
+
+[[files]]
+file = "mods/brewin-and-chewin.pw.toml"
+hash = "816ae53b09d3b3c2e3b4e74470bf2332fcde8a5ae322e1a39bd11656ef1fa8e6"
 metafile = true
 
 [[files]]
@@ -1608,6 +1622,11 @@ hash = "e3d0e6da51df08d87c9b88fd6b4011de711d95497263b9ecfd1466cbd34b98d5"
 metafile = true
 
 [[files]]
+file = "mods/corn-delight.pw.toml"
+hash = "41cbceff43ac74133823335b2fa44d21674c0ec7f4189cf6792ba9540c7108e2"
+metafile = true
+
+[[files]]
 file = "mods/coroutil.pw.toml"
 hash = "8ff227007d3ea2f499193f04410000892bcc35b87572ae74d3f19494c6572368"
 metafile = true
@@ -1620,6 +1639,11 @@ metafile = true
 [[files]]
 file = "mods/cosmetic-armor-reworked.pw.toml"
 hash = "b65ee01fec17228645121952de6dec75053b0b4c59a8c8036d6fa7829819f3f9"
+metafile = true
+
+[[files]]
+file = "mods/crabbers-delight.pw.toml"
+hash = "ea7cb5bf6ee3dd0730c0c8984ae063ce996f31cfb10e8b3895bd53ab84a71b7a"
 metafile = true
 
 [[files]]
@@ -1793,6 +1817,11 @@ hash = "12602d5c4952c42a2390b1d78869777d81e37f0393188a3bb409ded91e18f373"
 metafile = true
 
 [[files]]
+file = "mods/delight-lib.pw.toml"
+hash = "53db992bf801e7788e72d611281252f73b53c1161c8958137f8a1b912bb3f615"
+metafile = true
+
+[[files]]
 file = "mods/ding.pw.toml"
 hash = "c49a7dff3e52d696cc632ed5602870b396b43eb800c4f448fa0d82cd066463f0"
 metafile = true
@@ -1803,8 +1832,18 @@ hash = "82542d857a48f02a9c3fa011a93ec4e7fdb3ccf18af9c5d112896a43b753a8f9"
 metafile = true
 
 [[files]]
+file = "mods/display-delight.pw.toml"
+hash = "4bf529c0b36ea0e8e01dc12e80f69a703948d28f7587460526ff0a1330f9e891"
+metafile = true
+
+[[files]]
 file = "mods/domum-ornamentum.pw.toml"
 hash = "9d93dfc367eb58ff112a7ea21959b8c8864890d0a0b5f9d825fa67dba9262471"
+metafile = true
+
+[[files]]
+file = "mods/dumplings-delight-rewrapped.pw.toml"
+hash = "8a736202905e37b8b2d5a1cf0919642ab4debede147aafd2d1c63365a0f5f088"
 metafile = true
 
 [[files]]
@@ -1820,6 +1859,11 @@ metafile = true
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "65b3488ff2104f458ab5fa16a7a274157f5d012d7013a9c24437ae9ca6c11d55"
+metafile = true
+
+[[files]]
+file = "mods/enders-delight.pw.toml"
+hash = "1598c4eaca8666404c4d1dbf117c7afff4aaa384cd3d4dc131a8a11b7dfc1616"
 metafile = true
 
 [[files]]
@@ -1845,6 +1889,11 @@ metafile = true
 [[files]]
 file = "mods/etched.pw.toml"
 hash = "82e12d4fe6767264c396cab79de5b7165d022c8ab851765ef4e38d3a3be20232"
+metafile = true
+
+[[files]]
+file = "mods/expanded-delight.pw.toml"
+hash = "264eddc40fa431a57c829b3154eed8352000432397d30cac046a0659355aaf6d"
 metafile = true
 
 [[files]]
@@ -1945,6 +1994,11 @@ metafile = true
 [[files]]
 file = "mods/framework.pw.toml"
 hash = "dd0153bc05a3ffc8592dfaf35b4e8014127e6e1b352d7c18462d49a1ed7a5035"
+metafile = true
+
+[[files]]
+file = "mods/fruits-delight.pw.toml"
+hash = "0f6e0b6104b24ce5acdde8f2174c455e584a5954676f293a5559100c6eb52988"
 metafile = true
 
 [[files]]
@@ -2178,6 +2232,11 @@ hash = "0d7ce37fd00f170025118f0e3fbeef7f4e7147c332b1a5a4e924950eb5e36bc0"
 metafile = true
 
 [[files]]
+file = "mods/lodestone.pw.toml"
+hash = "8590e77951c4fb7c1ac4a52f8e1e0fa0103518b8c64ef3ae55ae654bfd6d2594"
+metafile = true
+
+[[files]]
 file = "mods/login-protection.pw.toml"
 hash = "b1e954812f4110d81e40cf6905337d19bebe5cf8dc16d4ab798cf57c675df3fa"
 metafile = true
@@ -2208,6 +2267,11 @@ hash = "4acb02c7e590ebb510be417e6269e7f07c7b650cf95080cab0daa3005cc8c919"
 metafile = true
 
 [[files]]
+file = "mods/miners-delight-plus.pw.toml"
+hash = "6309c1eba3f762ba6141a0369c5be7673a3056cc3804a8ff424300551157f8bd"
+metafile = true
+
+[[files]]
 file = "mods/moderately-enough-effect-descriptions-meed.pw.toml"
 hash = "7d1bb13ab473cfd40bdee92ef7bbedb90ab854cd0d629bca4534258205577ca4"
 metafile = true
@@ -2215,6 +2279,11 @@ metafile = true
 [[files]]
 file = "mods/modernfix.pw.toml"
 hash = "b0364f6b95f6ed837239c232bad0e2d7317e58f0e4c040e66a4f533239d5775e"
+metafile = true
+
+[[files]]
+file = "mods/more-delight-forge.pw.toml"
+hash = "983f834edf2911324a9db31af66c139c10b49e20a5ca11ed3517169d92a4d9ec"
 metafile = true
 
 [[files]]
@@ -2235,6 +2304,16 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "2bdee19bd39b4bd411d7c858a7978ca9d2bdda41c1cf15920ea6be0014663f79"
+metafile = true
+
+[[files]]
+file = "mods/my-nethers-delight.pw.toml"
+hash = "ceca044e7cabf16b147a79c0800235249d26a95075058970c77957b1a1054d3c"
+metafile = true
+
+[[files]]
+file = "mods/mysterious-mountain-lib.pw.toml"
+hash = "5ed526fa4aae3c132bb7fe7c66c5665d1990364265e64320c9667875147a2c95"
 metafile = true
 
 [[files]]
@@ -2265,6 +2344,11 @@ metafile = true
 [[files]]
 file = "mods/notrample.pw.toml"
 hash = "7e2149adca5224eedf38aa7ba83359a01ad8eecabbe01e28edb2442fff9f50b8"
+metafile = true
+
+[[files]]
+file = "mods/oceans-delight.pw.toml"
+hash = "67f092232a92992046932f1f157c883d6a560c6ffe1de61b1fc6c7e83a0a9f52"
 metafile = true
 
 [[files]]
@@ -2403,6 +2487,11 @@ hash = "2e8064e6ac6f707d6df65ee2738279ec31802ef70514584bb8c8a8ed2010f5f6"
 metafile = true
 
 [[files]]
+file = "mods/rustic-delight.pw.toml"
+hash = "83af3a46d3e6592aa591a627dc53d81ce26977a68a410da6c5722f1c241d7f25"
+metafile = true
+
+[[files]]
 file = "mods/searchables.pw.toml"
 hash = "6c0fac550bb053ee2728144a28819835823dcc6d04ad7897750431fe55100e53"
 metafile = true
@@ -2494,7 +2583,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "e58445d8ff30273c8ee9d7a21ce224c8ce4de73f4367176a72cdaf7b389553bc"
+hash = "247b8a745886ca6662f32c703bcd281788ea149df0d6108f74b4e1f8c521bf5b"
 metafile = true
 
 [[files]]
@@ -2524,7 +2613,12 @@ metafile = true
 
 [[files]]
 file = "mods/trash-cans.pw.toml"
-hash = "98796f38bc82aacfb155506a662df4f19a26e810962a1ca2337dd584718badcd"
+hash = "3cd7280f90ef9e2754cf2b6f45b749d1054c6348873a61044ce808dfe977c15a"
+metafile = true
+
+[[files]]
+file = "mods/twilights-flavors-delight.pw.toml"
+hash = "24f7c7e71dfc654dfa73999e236955f03cfef2ef7a3851b9fff7981995ba7331"
 metafile = true
 
 [[files]]
@@ -2548,8 +2642,13 @@ hash = "2ed8143d74813a492685aa18210835862a6bd70789e6a0301ceb270174b51460"
 metafile = true
 
 [[files]]
+file = "mods/veggies-delight.pw.toml"
+hash = "ec67949efa72d48d9fbb7c7301d7a8d7006eb2cd7697747c280d58e70dd6b27a"
+metafile = true
+
+[[files]]
 file = "mods/waystones.pw.toml"
-hash = "6d60c47501f6dc6a081efde506f1998cb4c80f5ca670e404e7ede0e93a4a5c60"
+hash = "8bcf5e1090d99f4b1e448d4c02cb14ac450e53c466233e514315e069f179b6b9"
 metafile = true
 
 [[files]]
