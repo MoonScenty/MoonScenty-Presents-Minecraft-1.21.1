@@ -1,4 +1,5 @@
 {
+	autofocus_id: "5A0E100000000001"
 	default_hide_dependency_lines: false
 	default_quest_shape: "circle"
 	filename: "stone_age"
@@ -7,8 +8,481 @@
 		id: "minecraft:stone_pickaxe"
 	}
 	id: "5A0E000000000001"
+	images: [ ]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			icon: {
+				id: "create:raw_zinc"
+			}
+			id: "5A0E100000000001"
+			size: 1.5d
+			tasks: [{
+				id: "5A0E200000000001"
+				item: { count: 1, id: "create:raw_zinc" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000000001"]
+			icon: {
+				id: "create:zinc_ingot"
+			}
+			id: "5A0E100000000002"
+			tasks: [{
+				id: "5A0E200000000002"
+				item: { count: 1, id: "create:zinc_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000000001"]
+			icon: {
+				id: "kubejs:mortar"
+			}
+			id: "5A0E100000000003"
+			tasks: [{
+				id: "5A0E200000000003"
+				item: { count: 1, id: "kubejs:mortar" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A0E100000000003"]
+			icon: {
+				id: "kubejs:zinc_filings"
+			}
+			id: "5A0E100000000004"
+			tasks: [{
+				id: "5A0E200000000004"
+				item: { count: 1, id: "kubejs:zinc_filings" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A0E100000000004"]
+			icon: {
+				id: "kubejs:iron_filings"
+			}
+			id: "5A0E100000000005"
+			shape: "square"
+			tasks: [
+				{
+					id: "5A0E200000000005"
+					item: { count: 1, id: "kubejs:iron_filings" }
+					type: "item"
+				}
+				{
+					id: "5A0E200000000006"
+					item: { count: 1, id: "kubejs:copper_filings" }
+					type: "item"
+				}
+				{
+					id: "5A0E200000000007"
+					item: { count: 1, id: "kubejs:gold_filings" }
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5A0E100000000001"]
+			icon: {
+				id: "createmetallurgy:refractory_mortar"
+			}
+			id: "5A0E100000000006"
+			tasks: [{
+				id: "5A0E200000000008"
+				item: { count: 1, id: "createmetallurgy:refractory_mortar" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5A0E100000000006"]
+			icon: {
+				id: "create:mechanical_mixer"
+			}
+			id: "5A0E100000000007"
+			shape: "square"
+			tasks: [{
+				id: "5A0E200000000009"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5A0E100000000002"]
+			icon: {
+				id: "minecraft:stonecutter"
+			}
+			id: "5A0E100000000008"
+			tasks: [{
+				id: "5A0E20000000000A"
+				item: { count: 1, id: "minecraft:stonecutter" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000000008"]
+			icon: {
+				id: "create:industrial_iron_block"
+			}
+			id: "5A0E100000000009"
+			tasks: [{
+				count: 4L
+				id: "5A0E20000000000B"
+				item: { count: 1, id: "create:industrial_iron_block" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000000009"]
+			icon: {
+				id: "kubejs:manufactured_iron_block"
+			}
+			id: "5A0E10000000000A"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "5A0E20000000000C"
+				item: { count: 1, id: "kubejs:manufactured_iron_block" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E10000000000A"]
+			icon: {
+				id: "create:deployer"
+			}
+			id: "5A0E10000000000B"
+			shape: "square"
+			tasks: [{
+				id: "5A0E20000000000D"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5A0E10000000000A"
+				"5A0E100000000006"
+			]
+			icon: {
+				id: "createmetallurgy:foundry_basin"
+			}
+			id: "5A0E10000000000C"
+			tasks: [{
+				id: "5A0E20000000000E"
+				item: { count: 1, id: "createmetallurgy:foundry_basin" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5A0E10000000000A"]
+			icon: {
+				id: "createmetallurgy:foundry_lid"
+			}
+			id: "5A0E10000000000D"
+			tasks: [{
+				id: "5A0E20000000000F"
+				item: { count: 1, id: "createmetallurgy:foundry_lid" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5A0E10000000000C"
+				"5A0E10000000000D"
+				"5A0E100000000004"
+			]
+			icon: {
+				id: "createlowheated:basic_burner"
+			}
+			id: "5A0E10000000000E"
+			size: 1.5d
+			tasks: [{
+				id: "5A0E200000000010"
+				item: { count: 1, id: "createlowheated:basic_burner" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E10000000000E"]
+			icon: {
+				id: "minecraft:blaze_powder"
+			}
+			id: "5A0E10000000000F"
+			shape: "square"
+			tasks: [{
+				id: "5A0E200000000011"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E10000000000E"]
+			icon: {
+				id: "createmetallurgy:casting_basin"
+			}
+			id: "5A0E100000000010"
+			tasks: [{
+				id: "5A0E200000000012"
+				item: { count: 1, id: "createmetallurgy:casting_basin" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A0E10000000000E"]
+			icon: {
+				id: "createmetallurgy:casting_table"
+			}
+			id: "5A0E100000000011"
+			tasks: [{
+				id: "5A0E200000000013"
+				item: { count: 1, id: "createmetallurgy:casting_table" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5A0E100000000010"
+				"5A0E100000000011"
+			]
+			icon: {
+				id: "createmetallurgy:graphite"
+			}
+			id: "5A0E100000000012"
+			tasks: [{
+				count: 9L
+				id: "5A0E200000000014"
+				item: { count: 1, id: "createmetallurgy:graphite" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000000012"]
+			icon: {
+				id: "createmetallurgy:graphite_blank_mold"
+			}
+			id: "5A0E100000000013"
+			tasks: [{
+				id: "5A0E200000000015"
+				item: { count: 1, id: "createmetallurgy:graphite_blank_mold" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000000013"]
+			icon: {
+				id: "createmetallurgy:graphite_ingot_mold"
+			}
+			id: "5A0E100000000014"
+			size: 1.5d
+			tasks: [{
+				id: "5A0E200000000016"
+				item: { count: 1, id: "createmetallurgy:graphite_ingot_mold" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000000014"]
+			icon: {
+				id: "minecraft:stonecutter"
+			}
+			id: "5A0E100000000015"
+			shape: "square"
+			tasks: [{
+				id: "5A0E200000000017"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000000014"]
+			icon: {
+				id: "createmetallurgy:sturdy_whisk"
+			}
+			id: "5A0E100000000016"
+			tasks: [{
+				id: "5A0E200000000018"
+				item: { count: 1, id: "createmetallurgy:sturdy_whisk" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E100000000016"]
+			icon: {
+				id: "createmetallurgy:foundry_mixer"
+			}
+			id: "5A0E100000000017"
+			tasks: [{
+				id: "5A0E200000000019"
+				item: { count: 1, id: "createmetallurgy:foundry_mixer" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E100000000014"]
+			icon: {
+				id: "create:hand_crank"
+			}
+			id: "5A0E100000000018"
+			tasks: [{
+				id: "5A0E20000000001A"
+				item: { count: 1, id: "create:hand_crank" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000000018"]
+			icon: {
+				id: "dndesires:cog_crank"
+			}
+			id: "5A0E100000000019"
+			tasks: [{
+				id: "5A0E20000000001B"
+				item: { count: 1, id: "dndesires:cog_crank" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000000019"]
+			icon: {
+				id: "create:water_wheel"
+			}
+			id: "5A0E10000000001A"
+			shape: "square"
+			tasks: [{
+				id: "5A0E20000000001C"
+				type: "checkmark"
+			}]
+			x: 29.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5A0E100000000017"
+				"5A0E100000000019"
+			]
+			icon: {
+				id: "kubejs:molten_andesite_bucket"
+			}
+			id: "5A0E10000000001B"
+			tasks: [{
+				id: "5A0E20000000001D"
+				type: "checkmark"
+			}]
+			x: 31.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5A0E100000000017"
+				"5A0E100000000019"
+			]
+			icon: {
+				id: "createmetallurgy:molten_zinc_bucket"
+			}
+			id: "5A0E10000000001C"
+			tasks: [{
+				id: "5A0E20000000001E"
+				type: "checkmark"
+			}]
+			x: 31.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5A0E10000000001B"
+				"5A0E10000000001C"
+			]
+			icon: {
+				id: "kubejs:molten_andesite_alloy_bucket"
+			}
+			id: "5A0E10000000001D"
+			tasks: [{
+				id: "5A0E20000000001F"
+				type: "checkmark"
+			}]
+			x: 34.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E10000000001D"]
+			icon: {
+				id: "create:andesite_alloy"
+			}
+			id: "5A0E10000000001E"
+			size: 2.0d
+			tasks: [{
+				id: "5A0E200000000020"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 36.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E10000000001E"]
+			icon: {
+				id: "create:cogwheel"
+			}
+			id: "5A0E10000000001F"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "5A0E200000000021"
+				type: "checkmark"
+			}]
+			x: 39.0d
+			y: 0.0d
+		}
+	]
 }

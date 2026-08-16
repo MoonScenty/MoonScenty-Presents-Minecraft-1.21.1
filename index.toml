@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "QUEST_STONE_AGE.md"
+hash = "3ab3aca25c7fd6d46b105d2bd00a8af14b85669a2e61ed5d475705340d0082e1"
+
+[[files]]
 file = "config/CreateEnergistics2-common.toml"
 hash = "eb20ae8de018f79c09ec336e8e55a4a61ffa59e1ba6d8b5db15d92d06a133dfe"
 
@@ -250,7 +254,7 @@ hash = "122a0205ec0cbf63f1db42f24f6c5c6095f54083f2c4f985c473acd2e228988f"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "327d0eb5af923162d629742392afa7ec35ad59880c7f82d48b8c3b373388aa65"
+hash = "0bd70012654aefba5b702ab2c13b8ff3df15ba249fd2518cba064f6bd35fa7ed"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andesite_alloy_age.snbt"
@@ -270,7 +274,7 @@ hash = "24c9ba9fd84d39188ea74ec7b800402abd696b7bd18b54a4acb57be359beb3a2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stone_age.snbt"
-hash = "caf0afef8c237cef82470cfb0cdc72a095b9adfccd6820b56c18bf77862306bf"
+hash = "06fe946ed11b1c55e719749a4267c4ee7bee97ab51b17f3c6b1875a7dbbbeaf1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks.snbt"
@@ -278,7 +282,7 @@ hash = "39cb90882c67270b5e73f7e2f34ef9f64a4d920de752217285a8fd868071c45a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tutorial.snbt"
-hash = "1836bdcdc0733847ad296a46104258444656e2f74eb03fd8180d2258bcdc4bc4"
+hash = "bd85ae7c8fa4ef0ab6b60f956198a608045cd2f3a687d2fd87fe69feec1be265"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
@@ -290,7 +294,7 @@ hash = "24e9fe7e47c76996148659e54497635510fbf3e47fdec9798fd6c46df0c19a43"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "a9ac0bf1da196c9e919600d028872e82096f83f8a20cd5244d67192c19d97b5f"
+hash = "fd872f20c5d5a2b1a685528758630a4951c26fee4531864c6aba1c4e54f558d7"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_00_welcome.snbt"
