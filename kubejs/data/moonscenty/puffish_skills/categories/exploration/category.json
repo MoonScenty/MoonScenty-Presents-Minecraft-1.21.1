@@ -1,6 +1,7 @@
 {
+  "unlocked_by_default": true,
   "title": "탐험",
-  "description": "멀리 가고 많이 봅니다.\n포인트는 퀘스트로 받습니다.",
+  "description": "멀리 가고 많이 봅니다.",
   "icon": {
     "type": "item",
     "data": {
@@ -13,9 +14,7 @@
     "width": 16,
     "height": 16
   },
-  "unlocked_by_default": true,
   "starting_points": 1,
-  "exclusive_root": false,
   "spent_points_limit": 0,
   "erase_on_death": false
 }

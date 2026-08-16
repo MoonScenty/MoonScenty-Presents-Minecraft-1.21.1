@@ -1,4 +1,5 @@
 {
+  "unlocked_by_default": true,
   "title": "생활",
   "description": "먹고, 기르고, 낚습니다.\n새로운 음식은 최대 체력도 함께 늘립니다.",
   "icon": {
@@ -13,9 +14,7 @@
     "width": 16,
     "height": 16
   },
-  "unlocked_by_default": true,
   "starting_points": 1,
-  "exclusive_root": false,
   "spent_points_limit": 0,
   "erase_on_death": false
 }

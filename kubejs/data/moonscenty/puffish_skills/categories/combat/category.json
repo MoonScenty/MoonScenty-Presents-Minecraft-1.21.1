@@ -1,4 +1,5 @@
 {
+  "unlocked_by_default": true,
   "title": "전투",
   "description": "근접, 원거리, 마법을 자유롭게 섞어 키웁니다.\n주문 자체는 Iron's Spells에서 배웁니다.",
   "icon": {
@@ -13,9 +14,7 @@
     "width": 16,
     "height": 16
   },
-  "unlocked_by_default": true,
   "starting_points": 1,
-  "exclusive_root": false,
   "spent_points_limit": 0,
   "erase_on_death": false
 }

@@ -1,40 +1,23 @@
 {
-  "enabled": true,
   "level_limit": 59,
   "experience_per_level": {
     "type": "expression",
     "data": {
-      "expression": "100 + 20 * level"
+      "expression": "min(level ^ 2.5 + 150, 4000)"
     }
   },
   "sources": [
     {
       "type": "puffish_skills:eat_food",
       "data": {
-        "calculation": {
-          "operations": [],
-          "fallback": 20
-        }
+        "experience": "25"
       }
     },
     {
       "type": "puffish_skills:fish_item",
       "data": {
-        "calculation": {
-          "operations": [],
-          "fallback": 20
-        }
-      }
-    },
-    {
-      "type": "puffish_skills:heal",
-      "data": {
-        "calculation": {
-          "operations": [],
-          "fallback": 1
-        }
+        "experience": "40"
       }
     }
-  ],
-  "reset_on_death": false
+  ]
 }

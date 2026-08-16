@@ -1,303 +1,303 @@
 {
-  "n00": {
-    "definition": "root",
-    "x": 0,
-    "y": 0,
+  "1": {
+    "definition": "root_speed+2%",
+    "x": 0.0,
+    "y": 0.0,
     "root": true
   },
-  "n01": {
-    "definition": "speed",
-    "x": 0,
-    "y": -34
+  "2": {
+    "definition": "speed+2%",
+    "x": -64.0,
+    "y": -36.95
   },
-  "n02": {
-    "definition": "speed",
-    "x": 27,
-    "y": -21
+  "3": {
+    "definition": "speed+2%",
+    "x": 0.0,
+    "y": -73.9
   },
-  "n03": {
-    "definition": "speed",
-    "x": 33,
-    "y": 8
+  "4": {
+    "definition": "sprint+5%",
+    "x": 64.0,
+    "y": -36.95
   },
-  "n04": {
-    "definition": "speed",
-    "x": 15,
-    "y": 31
+  "5": {
+    "definition": "sprint+5%",
+    "x": 64.0,
+    "y": 36.95
   },
-  "n05": {
-    "definition": "speed",
-    "x": -15,
-    "y": 31
+  "6": {
+    "definition": "swim+10%",
+    "x": 0.0,
+    "y": 73.9
   },
-  "n06": {
-    "definition": "speed",
-    "x": -33,
-    "y": 8
+  "7": {
+    "definition": "luck+0.5",
+    "x": -64.0,
+    "y": 36.95
   },
-  "n07": {
-    "definition": "speed",
-    "x": -27,
-    "y": -21
+  "8": {
+    "definition": "speed+2%",
+    "x": -128.0,
+    "y": -73.9
   },
-  "n08": {
-    "definition": "speed",
-    "x": 0,
-    "y": -70
+  "9": {
+    "definition": "speed+2%",
+    "x": -64.0,
+    "y": -110.85
   },
-  "n09": {
-    "definition": "sprint",
-    "x": 38,
-    "y": -59
+  "10": {
+    "definition": "speed+2%",
+    "x": 0.0,
+    "y": -147.8
   },
-  "n10": {
-    "definition": "sprint",
-    "x": 64,
-    "y": -29
+  "11": {
+    "definition": "sprint+5%",
+    "x": 64.0,
+    "y": -110.85
   },
-  "n11": {
-    "definition": "sprint",
-    "x": 69,
-    "y": 10
+  "12": {
+    "definition": "sprint+5%",
+    "x": 128.0,
+    "y": -73.9
   },
-  "n12": {
-    "definition": "sprint",
-    "x": 53,
-    "y": 46
+  "13": {
+    "definition": "swim+10%",
+    "x": 128.0,
+    "y": 0.0
   },
-  "n13": {
-    "definition": "sprint",
-    "x": 20,
-    "y": 67
+  "14": {
+    "definition": "swim+10%",
+    "x": 128.0,
+    "y": 73.9
   },
-  "n14": {
-    "definition": "sprint",
-    "x": -20,
-    "y": 67
+  "15": {
+    "definition": "jump+5%",
+    "x": 64.0,
+    "y": 110.85
   },
-  "n15": {
-    "definition": "sstep",
-    "x": -53,
-    "y": 46
+  "16": {
+    "definition": "jump+5%",
+    "x": 0.0,
+    "y": 147.8
   },
-  "n16": {
-    "definition": "sstep",
-    "x": -69,
-    "y": 10
+  "17": {
+    "definition": "luck+0.5",
+    "x": -64.0,
+    "y": 110.85
   },
-  "n17": {
-    "definition": "sstep",
-    "x": -64,
-    "y": -29
+  "18": {
+    "definition": "luck+0.5",
+    "x": -128.0,
+    "y": 73.9
   },
-  "n18": {
-    "definition": "sstep",
-    "x": -38,
-    "y": -59
+  "19": {
+    "definition": "nametag+4",
+    "x": -128.0,
+    "y": 0.0
   },
-  "n19": {
-    "definition": "swim",
-    "x": 0,
-    "y": -108
+  "20": {
+    "definition": "speed+2%",
+    "x": -192.0,
+    "y": -36.95
   },
-  "n20": {
-    "definition": "swim",
-    "x": 50,
-    "y": -96
+  "21": {
+    "definition": "speed+2%",
+    "x": -192.0,
+    "y": -110.85
   },
-  "n21": {
-    "definition": "swim",
-    "x": 89,
-    "y": -61
+  "22": {
+    "definition": "speed+2%",
+    "x": -128.0,
+    "y": -147.8
   },
-  "n22": {
-    "definition": "swim",
-    "x": 107,
-    "y": -13
+  "23": {
+    "definition": "sprint+5%",
+    "x": -64.0,
+    "y": -184.75
   },
-  "n23": {
-    "definition": "swim",
-    "x": 101,
-    "y": 38
+  "24": {
+    "definition": "sprint+5%",
+    "x": 0.0,
+    "y": -221.7
   },
-  "n24": {
-    "definition": "water",
-    "x": 72,
-    "y": 81
+  "25": {
+    "definition": "sprint+5%",
+    "x": 64.0,
+    "y": -184.75
   },
-  "n25": {
-    "definition": "water",
-    "x": 26,
-    "y": 105
+  "26": {
+    "definition": "sprint_step+0.25",
+    "x": 128.0,
+    "y": -147.8
   },
-  "n26": {
-    "definition": "water",
-    "x": -26,
-    "y": 105
+  "27": {
+    "definition": "sprint_step+0.25",
+    "x": 192.0,
+    "y": -110.85
   },
-  "n27": {
-    "definition": "water",
-    "x": -72,
-    "y": 81
+  "28": {
+    "definition": "swim+10%",
+    "x": 192.0,
+    "y": -36.95
   },
-  "n28": {
-    "definition": "water",
-    "x": -101,
-    "y": 38
+  "29": {
+    "definition": "swim+10%",
+    "x": 192.0,
+    "y": 36.95
   },
-  "n29": {
-    "definition": "snow",
-    "x": -107,
-    "y": -13
+  "30": {
+    "definition": "snow+10%",
+    "x": 192.0,
+    "y": 110.85
   },
-  "n30": {
-    "definition": "snow",
-    "x": -89,
-    "y": -61
+  "31": {
+    "definition": "snow+10%",
+    "x": 128.0,
+    "y": 147.8
   },
-  "n31": {
-    "definition": "snow",
-    "x": -50,
-    "y": -96
+  "32": {
+    "definition": "slip+10%",
+    "x": 64.0,
+    "y": 184.75
   },
-  "n32": {
-    "definition": "snow",
-    "x": 0,
-    "y": -148
+  "33": {
+    "definition": "slip+10%",
+    "x": 0.0,
+    "y": 221.7
   },
-  "n33": {
-    "definition": "slip",
-    "x": 64,
-    "y": -133
+  "34": {
+    "definition": "luck+0.5",
+    "x": -64.0,
+    "y": 184.75
   },
-  "n34": {
-    "definition": "slip",
-    "x": 116,
-    "y": -92
+  "35": {
+    "definition": "luck+0.5",
+    "x": -128.0,
+    "y": 147.8
   },
-  "n35": {
-    "definition": "slip",
-    "x": 144,
-    "y": -33
+  "36": {
+    "definition": "jump+5%",
+    "x": -192.0,
+    "y": 110.85
   },
-  "n36": {
-    "definition": "slip",
-    "x": 144,
-    "y": 33
+  "37": {
+    "definition": "jump+5%",
+    "x": -192.0,
+    "y": 36.95
   },
-  "n37": {
-    "definition": "luck",
-    "x": 116,
-    "y": 92
+  "38": {
+    "definition": "speed+5%",
+    "x": -256.0,
+    "y": -73.9
   },
-  "n38": {
-    "definition": "luck",
-    "x": 64,
-    "y": 133
+  "39": {
+    "definition": "speed+5%",
+    "x": -256.0,
+    "y": -147.8
   },
-  "n39": {
-    "definition": "luck",
-    "x": 0,
-    "y": 148
+  "40": {
+    "definition": "speed+5%",
+    "x": -192.0,
+    "y": -184.75
   },
-  "n40": {
-    "definition": "luck",
-    "x": -64,
-    "y": 133
+  "41": {
+    "definition": "sprint+5%",
+    "x": -128.0,
+    "y": -221.7
   },
-  "n41": {
-    "definition": "luck",
-    "x": -116,
-    "y": 92
+  "42": {
+    "definition": "sprint+5%",
+    "x": -64.0,
+    "y": -258.65
   },
-  "n42": {
-    "definition": "luck",
-    "x": -144,
-    "y": 33
+  "43": {
+    "definition": "sprint+5%",
+    "x": 0.0,
+    "y": -295.6
   },
-  "n43": {
-    "definition": "jump",
-    "x": -144,
-    "y": -33
+  "44": {
+    "definition": "sprint_step+0.25",
+    "x": 64.0,
+    "y": -258.65
   },
-  "n44": {
-    "definition": "jump",
-    "x": -116,
-    "y": -92
+  "45": {
+    "definition": "sprint_step+0.25",
+    "x": 128.0,
+    "y": -221.7
   },
-  "n45": {
-    "definition": "jump",
-    "x": -64,
-    "y": -133
+  "46": {
+    "definition": "water_move+10%",
+    "x": 192.0,
+    "y": -184.75
   },
-  "n46": {
-    "definition": "jump",
-    "x": 0,
-    "y": -190
+  "47": {
+    "definition": "water_move+10%",
+    "x": 256.0,
+    "y": -147.8
   },
-  "n47": {
-    "definition": "jump",
-    "x": 82,
-    "y": -171
+  "48": {
+    "definition": "water_move+10%",
+    "x": 256.0,
+    "y": -73.9
   },
-  "n48": {
-    "definition": "tag",
-    "x": 149,
-    "y": -118
+  "49": {
+    "definition": "snow+10%",
+    "x": 256.0,
+    "y": 0.0
   },
-  "n49": {
-    "definition": "tag",
-    "x": 185,
-    "y": -42
+  "50": {
+    "definition": "snow+10%",
+    "x": 256.0,
+    "y": 73.9
   },
-  "n50": {
-    "definition": "tag",
-    "x": 185,
-    "y": 42
+  "51": {
+    "definition": "slip+10%",
+    "x": 256.0,
+    "y": 147.8
   },
-  "n51": {
-    "definition": "tag",
-    "x": 149,
-    "y": 118
+  "52": {
+    "definition": "slip+10%",
+    "x": 192.0,
+    "y": 184.75
   },
-  "n52": {
-    "definition": "rep",
-    "x": 82,
-    "y": 171
+  "53": {
+    "definition": "luck+0.5",
+    "x": 128.0,
+    "y": 221.7
   },
-  "n53": {
-    "definition": "rep",
-    "x": 0,
-    "y": 190
+  "54": {
+    "definition": "luck+0.5",
+    "x": 64.0,
+    "y": 258.65
   },
-  "n54": {
-    "definition": "rep",
-    "x": -82,
-    "y": 171
+  "55": {
+    "definition": "luck+2",
+    "x": 0.0,
+    "y": 295.6
   },
-  "n55": {
-    "definition": "rep",
-    "x": -149,
-    "y": 118
+  "56": {
+    "definition": "jump+5%",
+    "x": -64.0,
+    "y": 258.65
   },
-  "n56": {
-    "definition": "rep",
-    "x": -185,
-    "y": 42
+  "57": {
+    "definition": "jump+5%",
+    "x": -128.0,
+    "y": 221.7
   },
-  "n57": {
-    "definition": "e_swift",
-    "x": -185,
-    "y": -42
+  "58": {
+    "definition": "nametag+4",
+    "x": -192.0,
+    "y": 184.75
   },
-  "n58": {
-    "definition": "e_luck",
-    "x": -149,
-    "y": -118
+  "59": {
+    "definition": "nametag+4",
+    "x": -256.0,
+    "y": 147.8
   },
-  "n59": {
-    "definition": "e_amphi",
-    "x": -82,
-    "y": -171
+  "60": {
+    "definition": "reputation+5",
+    "x": -256.0,
+    "y": 73.9
   }
 }

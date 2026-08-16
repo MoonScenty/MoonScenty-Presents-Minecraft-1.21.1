@@ -1,303 +1,303 @@
 {
-  "n00": {
-    "definition": "root",
-    "x": 0,
-    "y": 0,
+  "1": {
+    "definition": "root_ultimine+3",
+    "x": 0.0,
+    "y": 0.0,
     "root": true
   },
-  "n01": {
-    "definition": "ult",
-    "x": 0,
-    "y": -34
+  "2": {
+    "definition": "ultimine+3",
+    "x": -64.0,
+    "y": -36.95
   },
-  "n02": {
-    "definition": "ult",
-    "x": 27,
-    "y": -21
+  "3": {
+    "definition": "ultimine+3",
+    "x": 0.0,
+    "y": -73.9
   },
-  "n03": {
-    "definition": "ult",
-    "x": 33,
-    "y": 8
+  "4": {
+    "definition": "reach+0.5",
+    "x": 64.0,
+    "y": -36.95
   },
-  "n04": {
-    "definition": "ult",
-    "x": 15,
-    "y": 31
+  "5": {
+    "definition": "safe_fall+1",
+    "x": 64.0,
+    "y": 36.95
   },
-  "n05": {
-    "definition": "ult",
-    "x": -15,
-    "y": 31
+  "6": {
+    "definition": "sneak+5%",
+    "x": 0.0,
+    "y": 73.9
   },
-  "n06": {
-    "definition": "ult",
-    "x": -33,
-    "y": 8
+  "7": {
+    "definition": "oxygen+1",
+    "x": -64.0,
+    "y": 36.95
   },
-  "n07": {
-    "definition": "ult",
-    "x": -27,
-    "y": -21
+  "8": {
+    "definition": "ultimine+3",
+    "x": -128.0,
+    "y": -73.9
   },
-  "n08": {
-    "definition": "ult",
-    "x": 0,
-    "y": -70
+  "9": {
+    "definition": "ultimine+3",
+    "x": -64.0,
+    "y": -110.85
   },
-  "n09": {
-    "definition": "ult",
-    "x": 38,
-    "y": -59
+  "10": {
+    "definition": "ultimine+3",
+    "x": 0.0,
+    "y": -147.8
   },
-  "n10": {
-    "definition": "ult",
-    "x": 64,
-    "y": -29
+  "11": {
+    "definition": "ultimine_xp+10%",
+    "x": 64.0,
+    "y": -110.85
   },
-  "n11": {
-    "definition": "ult",
-    "x": 69,
-    "y": 10
+  "12": {
+    "definition": "ultimine_xp+10%",
+    "x": 128.0,
+    "y": -73.9
   },
-  "n12": {
-    "definition": "ult",
-    "x": 53,
-    "y": 46
+  "13": {
+    "definition": "safe_fall+1",
+    "x": 128.0,
+    "y": 0.0
   },
-  "n13": {
-    "definition": "ult_xp",
-    "x": 20,
-    "y": 67
+  "14": {
+    "definition": "safe_fall+1",
+    "x": 128.0,
+    "y": 73.9
   },
-  "n14": {
-    "definition": "ult_xp",
-    "x": -20,
-    "y": 67
+  "15": {
+    "definition": "fall_dmg-10%",
+    "x": 64.0,
+    "y": 110.85
   },
-  "n15": {
-    "definition": "ult_xp",
-    "x": -53,
-    "y": 46
+  "16": {
+    "definition": "fall_dmg-10%",
+    "x": 0.0,
+    "y": 147.8
   },
-  "n16": {
-    "definition": "ult_xp",
-    "x": -69,
-    "y": 10
+  "17": {
+    "definition": "step+0.25",
+    "x": -64.0,
+    "y": 110.85
   },
-  "n17": {
-    "definition": "ult_xp",
-    "x": -64,
-    "y": -29
+  "18": {
+    "definition": "burn-10%",
+    "x": -128.0,
+    "y": 73.9
   },
-  "n18": {
-    "definition": "reach",
-    "x": -38,
-    "y": -59
+  "19": {
+    "definition": "water_mining+25%",
+    "x": -128.0,
+    "y": 0.0
   },
-  "n19": {
-    "definition": "reach",
-    "x": 0,
-    "y": -108
+  "20": {
+    "definition": "ultimine+6",
+    "x": -192.0,
+    "y": -36.95
   },
-  "n20": {
-    "definition": "reach",
-    "x": 50,
-    "y": -96
+  "21": {
+    "definition": "ultimine+6",
+    "x": -192.0,
+    "y": -110.85
   },
-  "n21": {
-    "definition": "reach",
-    "x": 89,
-    "y": -61
+  "22": {
+    "definition": "ultimine+6",
+    "x": -128.0,
+    "y": -147.8
   },
-  "n22": {
-    "definition": "reach",
-    "x": 107,
-    "y": -13
+  "23": {
+    "definition": "ultimine_xp+10%",
+    "x": -64.0,
+    "y": -184.75
   },
-  "n23": {
-    "definition": "reach",
-    "x": 101,
-    "y": 38
+  "24": {
+    "definition": "ultimine_xp+10%",
+    "x": 0.0,
+    "y": -221.7
   },
-  "n24": {
-    "definition": "fall",
-    "x": 72,
-    "y": 81
+  "25": {
+    "definition": "ultimine_xp+10%",
+    "x": 64.0,
+    "y": -184.75
   },
-  "n25": {
-    "definition": "fall",
-    "x": 26,
-    "y": 105
+  "26": {
+    "definition": "fall_dmg-10%",
+    "x": 128.0,
+    "y": -147.8
   },
-  "n26": {
-    "definition": "fall",
-    "x": -26,
-    "y": 105
+  "27": {
+    "definition": "fall_dmg-10%",
+    "x": 192.0,
+    "y": -110.85
   },
-  "n27": {
-    "definition": "fall",
-    "x": -72,
-    "y": 81
+  "28": {
+    "definition": "fall_dmg-10%",
+    "x": 192.0,
+    "y": -36.95
   },
-  "n28": {
-    "definition": "fall",
-    "x": -101,
-    "y": 38
+  "29": {
+    "definition": "oxygen+1",
+    "x": 192.0,
+    "y": 36.95
   },
-  "n29": {
-    "definition": "fall",
-    "x": -107,
-    "y": -13
+  "30": {
+    "definition": "oxygen+1",
+    "x": 192.0,
+    "y": 110.85
   },
-  "n30": {
-    "definition": "falldmg",
-    "x": -89,
-    "y": -61
+  "31": {
+    "definition": "burn-10%",
+    "x": 128.0,
+    "y": 147.8
   },
-  "n31": {
-    "definition": "falldmg",
-    "x": -50,
-    "y": -96
+  "32": {
+    "definition": "burn-10%",
+    "x": 64.0,
+    "y": 184.75
   },
-  "n32": {
-    "definition": "falldmg",
-    "x": 0,
-    "y": -148
+  "33": {
+    "definition": "sneak+5%",
+    "x": 0.0,
+    "y": 221.7
   },
-  "n33": {
-    "definition": "falldmg",
-    "x": 64,
-    "y": -133
+  "34": {
+    "definition": "sneak+5%",
+    "x": -64.0,
+    "y": 184.75
   },
-  "n34": {
-    "definition": "falldmg",
-    "x": 116,
-    "y": -92
+  "35": {
+    "definition": "reach+0.5",
+    "x": -128.0,
+    "y": 147.8
   },
-  "n35": {
-    "definition": "falldmg",
-    "x": 144,
-    "y": -33
+  "36": {
+    "definition": "reach+0.5",
+    "x": -192.0,
+    "y": 110.85
   },
-  "n36": {
-    "definition": "oxy",
-    "x": 144,
-    "y": 33
+  "37": {
+    "definition": "step+0.25",
+    "x": -192.0,
+    "y": 36.95
   },
-  "n37": {
-    "definition": "oxy",
-    "x": 116,
-    "y": 92
+  "38": {
+    "definition": "ultimine+6",
+    "x": -256.0,
+    "y": -73.9
   },
-  "n38": {
-    "definition": "oxy",
-    "x": 64,
-    "y": 133
+  "39": {
+    "definition": "ultimine+6",
+    "x": -256.0,
+    "y": -147.8
   },
-  "n39": {
-    "definition": "oxy",
-    "x": 0,
-    "y": 148
+  "40": {
+    "definition": "ultimine+6",
+    "x": -192.0,
+    "y": -184.75
   },
-  "n40": {
-    "definition": "oxy",
-    "x": -64,
-    "y": 133
+  "41": {
+    "definition": "ultimine+6",
+    "x": -128.0,
+    "y": -221.7
   },
-  "n41": {
-    "definition": "burn",
-    "x": -116,
-    "y": 92
+  "42": {
+    "definition": "ultimine+10",
+    "x": -64.0,
+    "y": -258.65
   },
-  "n42": {
-    "definition": "burn",
-    "x": -144,
-    "y": 33
+  "43": {
+    "definition": "ultimine+10",
+    "x": 0.0,
+    "y": -295.6
   },
-  "n43": {
-    "definition": "burn",
-    "x": -144,
-    "y": -33
+  "44": {
+    "definition": "ultimine_xp+25%",
+    "x": 64.0,
+    "y": -258.65
   },
-  "n44": {
-    "definition": "burn",
-    "x": -116,
-    "y": -92
+  "45": {
+    "definition": "ultimine_xp+25%",
+    "x": 128.0,
+    "y": -221.7
   },
-  "n45": {
-    "definition": "burn",
-    "x": -64,
-    "y": -133
+  "46": {
+    "definition": "ultimine_cost-25%",
+    "x": 192.0,
+    "y": -184.75
   },
-  "n46": {
-    "definition": "sneak",
-    "x": 0,
-    "y": -190
+  "47": {
+    "definition": "ultimine_cost-25%",
+    "x": 256.0,
+    "y": -147.8
   },
-  "n47": {
-    "definition": "sneak",
-    "x": 82,
-    "y": -171
+  "48": {
+    "definition": "reach+1",
+    "x": 256.0,
+    "y": -73.9
   },
-  "n48": {
-    "definition": "sneak",
-    "x": 149,
-    "y": -118
+  "49": {
+    "definition": "reach+1",
+    "x": 256.0,
+    "y": 0.0
   },
-  "n49": {
-    "definition": "sneak",
-    "x": 185,
-    "y": -42
+  "50": {
+    "definition": "fall_dmg-10%",
+    "x": 256.0,
+    "y": 73.9
   },
-  "n50": {
-    "definition": "sneak",
-    "x": 185,
-    "y": 42
+  "51": {
+    "definition": "fall_dmg-10%",
+    "x": 256.0,
+    "y": 147.8
   },
-  "n51": {
-    "definition": "step",
-    "x": 149,
-    "y": 118
+  "52": {
+    "definition": "fall_dmg-10%",
+    "x": 192.0,
+    "y": 184.75
   },
-  "n52": {
-    "definition": "step",
-    "x": 82,
-    "y": 171
+  "53": {
+    "definition": "water_mining+25%",
+    "x": 128.0,
+    "y": 221.7
   },
-  "n53": {
-    "definition": "step",
-    "x": 0,
-    "y": 190
+  "54": {
+    "definition": "water_mining+25%",
+    "x": 64.0,
+    "y": 258.65
   },
-  "n54": {
-    "definition": "step",
-    "x": -82,
-    "y": 171
+  "55": {
+    "definition": "water_mining+25%",
+    "x": 0.0,
+    "y": 295.6
   },
-  "n55": {
-    "definition": "sub",
-    "x": -149,
-    "y": 118
+  "56": {
+    "definition": "step+0.25",
+    "x": -64.0,
+    "y": 258.65
   },
-  "n56": {
-    "definition": "sub",
-    "x": -185,
-    "y": 42
+  "57": {
+    "definition": "step+0.25",
+    "x": -128.0,
+    "y": 221.7
   },
-  "n57": {
-    "definition": "m_cd",
-    "x": -185,
-    "y": -42
+  "58": {
+    "definition": "burn-10%",
+    "x": -192.0,
+    "y": 184.75
   },
-  "n58": {
-    "definition": "m_exh",
-    "x": -149,
-    "y": -118
+  "59": {
+    "definition": "burn-10%",
+    "x": -256.0,
+    "y": 147.8
   },
-  "n59": {
-    "definition": "m_resp",
-    "x": -82,
-    "y": -171
+  "60": {
+    "definition": "safe_fall+1",
+    "x": -256.0,
+    "y": 73.9
   }
 }

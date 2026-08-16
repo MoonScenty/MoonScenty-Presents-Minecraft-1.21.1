@@ -1,22 +1,71 @@
 {
-  "enabled": true,
   "level_limit": 59,
   "experience_per_level": {
     "type": "expression",
     "data": {
-      "expression": "150 + 30 * level"
+      "expression": "min(level ^ 2.6 + 300, 6000)"
     }
   },
   "sources": [
     {
       "type": "puffish_skills:mine_block",
       "data": {
-        "calculation": {
-          "operations": [],
-          "fallback": 1
-        }
+        "variables": {
+          "deepslate_ores": {
+            "operations": [
+              {
+                "type": "get_mined_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "#c:ores_in_ground/deepslate"
+                }
+              }
+            ]
+          },
+          "ores": {
+            "operations": [
+              {
+                "type": "get_mined_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "#c:ores"
+                }
+              }
+            ]
+          },
+          "stone": {
+            "operations": [
+              {
+                "type": "get_mined_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "#minecraft:base_stone_overworld"
+                }
+              }
+            ]
+          }
+        },
+        "experience": [
+          {
+            "condition": "deepslate_ores",
+            "expression": "9"
+          },
+          {
+            "condition": "ores",
+            "expression": "7"
+          },
+          {
+            "condition": "stone",
+            "expression": "0.25"
+          }
+        ]
       }
     }
-  ],
-  "reset_on_death": false
+  ]
 }

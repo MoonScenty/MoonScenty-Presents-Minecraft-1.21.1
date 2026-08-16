@@ -1,430 +1,298 @@
 {
-  "root": {
-    "title": "길을 나서다",
-    "description": "탐험 숙련의 시작입니다.",
+  "root_speed+2%": {
+    "title": "이동 속도 +2%",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "speed"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    }
+  },
+  "speed+2%": {
+    "title": "이동 속도 +2%",
     "icon": {
       "type": "item",
       "data": {
         "item": "minecraft:leather_boots"
       }
     },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "goal"
-      }
-    },
-    "size": 26,
-    "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.movement_speed",
-          "value": 0.002,
-          "operation": "add_value"
+          "value": 0.02,
+          "operation": "multiply_base"
         }
       }
     ]
   },
-  "speed": {
-    "title": "이동 속도 +0.2%",
-    "description": "걷는 속도가 빨라집니다.",
+  "speed+5%": {
+    "title": "이동 속도 +5%",
     "icon": {
       "type": "item",
       "data": {
         "item": "minecraft:golden_boots"
       }
     },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "size": 14,
-    "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.movement_speed",
-          "value": 0.002,
-          "operation": "add_value"
+          "value": 0.05,
+          "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    }
   },
-  "sprint": {
-    "title": "달리기 +2%",
-    "description": "달리는 속도가 빨라집니다.",
+  "sprint+5%": {
+    "title": "달리기 +5%",
     "icon": {
       "type": "item",
       "data": {
         "item": "minecraft:diamond_boots"
       }
     },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "size": 14,
-    "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "artifacts:generic.sprinting_speed",
-          "value": 0.02,
-          "operation": "add_value"
+          "value": 0.05,
+          "operation": "addition"
         }
       }
     ]
   },
-  "sstep": {
-    "title": "달리며 넘기 +0.1",
-    "description": "달리는 중에 턱을 넘습니다.",
+  "sprint_step+0.25": {
+    "title": "달리며 넘기 +0.25",
     "icon": {
       "type": "item",
       "data": {
         "item": "minecraft:cobblestone_stairs"
       }
     },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "size": 14,
-    "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "artifacts:generic.sprinting_step_height",
-          "value": 0.1,
-          "operation": "add_value"
+          "value": 0.25,
+          "operation": "addition"
         }
       }
     ]
   },
-  "swim": {
-    "title": "수영 +4%",
-    "description": "헤엄치는 속도가 빨라집니다.",
+  "swim+10%": {
+    "title": "수영 +10%",
     "icon": {
       "type": "item",
       "data": {
         "item": "minecraft:prismarine_shard"
       }
     },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "size": 14,
-    "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "neoforge:swim_speed",
-          "value": 0.04,
-          "operation": "add_value"
+          "value": 0.1,
+          "operation": "addition"
         }
       }
     ]
   },
-  "water": {
-    "title": "물살 저항 +5%",
-    "description": "물속 이동이 지상에 가까워집니다.",
+  "water_move+10%": {
+    "title": "물살 저항 +10%",
     "icon": {
       "type": "item",
       "data": {
         "item": "minecraft:heart_of_the_sea"
       }
     },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "size": 14,
-    "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.water_movement_efficiency",
-          "value": 0.05,
-          "operation": "add_value"
+          "value": 0.1,
+          "operation": "addition"
         }
       }
-    ]
+    ],
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    }
   },
-  "snow": {
-    "title": "설상 이동 +4%",
-    "description": "눈 위에서 느려지지 않습니다.",
+  "snow+10%": {
+    "title": "설상 이동 +10%",
     "icon": {
       "type": "item",
       "data": {
         "item": "minecraft:powder_snow_bucket"
       }
     },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "size": 14,
-    "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "artifacts:generic.movement_speed_on_snow",
-          "value": 0.04,
-          "operation": "add_value"
+          "value": 0.1,
+          "operation": "addition"
         }
       }
     ]
   },
-  "slip": {
-    "title": "빙판 접지 +5%",
-    "description": "얼음 위에서 미끄러지지 않습니다.",
+  "slip+10%": {
+    "title": "빙판 접지 +10%",
     "icon": {
       "type": "item",
       "data": {
         "item": "minecraft:blue_ice"
       }
     },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "size": 14,
-    "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "artifacts:generic.slip_resistance",
-          "value": 0.05,
-          "operation": "add_value"
+          "value": 0.1,
+          "operation": "addition"
         }
       }
     ]
   },
-  "luck": {
-    "title": "행운 +0.2",
-    "description": "전리품 품질이 좋아집니다.",
+  "luck+0.5": {
+    "title": "행운 +0.5",
     "icon": {
       "type": "item",
       "data": {
         "item": "minecraft:rabbit_foot"
       }
     },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "size": 14,
-    "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.luck",
-          "value": 0.2,
-          "operation": "add_value"
+          "value": 0.5,
+          "operation": "addition"
         }
       }
     ]
   },
-  "jump": {
-    "title": "점프 +2%",
-    "description": "더 높이 뜁니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:rabbit_hide"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "size": 14,
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "minecraft:generic.jump_strength",
-          "value": 0.02,
-          "operation": "add_value"
-        }
-      }
-    ]
-  },
-  "tag": {
-    "title": "시야 +2",
-    "description": "개체 이름표가 멀리서도 보입니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:spyglass"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "size": 14,
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "neoforge:nametag_distance",
-          "value": 2,
-          "operation": "add_value"
-        }
-      }
-    ]
-  },
-  "rep": {
-    "title": "평판 +3",
-    "description": "주민이 더 반겨줍니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:emerald"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "size": 14,
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "artifacts:player.villager_reputation",
-          "value": 3,
-          "operation": "add_value"
-        }
-      }
-    ]
-  },
-  "e_swift": {
-    "title": "바람처럼",
-    "description": "이동 속도가 크게 빨라집니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:feather"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "goal"
-      }
-    },
-    "size": 22,
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "minecraft:generic.movement_speed",
-          "value": 0.01,
-          "operation": "add_value"
-        }
-      }
-    ]
-  },
-  "e_luck": {
-    "title": "타고난 운",
-    "description": "행운이 크게 늘어납니다.",
+  "luck+2": {
+    "title": "행운 +2",
     "icon": {
       "type": "item",
       "data": {
         "item": "minecraft:gold_ingot"
       }
     },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "goal"
-      }
-    },
-    "size": 22,
-    "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.luck",
           "value": 2,
-          "operation": "add_value"
+          "operation": "addition"
         }
       }
-    ]
-  },
-  "e_amphi": {
-    "title": "물을 가르는 자",
-    "description": "수중 이동이 지상과 같아집니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:trident"
-      }
-    },
+    ],
     "frame": {
       "type": "advancement",
       "data": {
         "frame": "challenge"
       }
+    }
+  },
+  "jump+5%": {
+    "title": "점프 +5%",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "jump_boost"
+      }
     },
-    "size": 22,
-    "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "neoforge:swim_speed",
-          "value": 0.3,
-          "operation": "add_value"
-        }
-      },
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "minecraft:generic.water_movement_efficiency",
-          "value": 0.3,
-          "operation": "add_value"
+          "attribute": "minecraft:generic.jump_strength",
+          "value": 0.05,
+          "operation": "multiply_base"
         }
       }
     ]
+  },
+  "nametag+4": {
+    "title": "이름표 시야 +4",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spyglass"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "neoforge:nametag_distance",
+          "value": 4,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "reputation+5": {
+    "title": "주민 평판 +5",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:emerald"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "artifacts:player.villager_reputation",
+          "value": 5,
+          "operation": "addition"
+        }
+      }
+    ],
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    }
   }
 }

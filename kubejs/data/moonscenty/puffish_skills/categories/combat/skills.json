@@ -1,303 +1,303 @@
 {
-  "n00": {
-    "definition": "root",
-    "x": 0,
-    "y": 0,
+  "1": {
+    "definition": "root_absorption+2",
+    "x": 0.0,
+    "y": 0.0,
     "root": true
   },
-  "n01": {
-    "definition": "crit",
-    "x": 0,
-    "y": -34
+  "2": {
+    "definition": "crit_chance+2%",
+    "x": -64.0,
+    "y": -36.95
   },
-  "n02": {
-    "definition": "crit",
-    "x": 27,
-    "y": -21
+  "3": {
+    "definition": "crit_chance+2%",
+    "x": 0.0,
+    "y": -73.9
   },
-  "n03": {
-    "definition": "crit",
-    "x": 33,
-    "y": 8
+  "4": {
+    "definition": "draw_speed+10%",
+    "x": 64.0,
+    "y": -36.95
   },
-  "n04": {
-    "definition": "crit",
-    "x": 15,
-    "y": 31
+  "5": {
+    "definition": "max_mana+10",
+    "x": 64.0,
+    "y": 36.95
   },
-  "n05": {
-    "definition": "crit",
-    "x": -15,
-    "y": 31
+  "6": {
+    "definition": "armor+1",
+    "x": 0.0,
+    "y": 73.9
   },
-  "n06": {
-    "definition": "crit",
-    "x": -33,
-    "y": 8
+  "7": {
+    "definition": "dodge+2%",
+    "x": -64.0,
+    "y": 36.95
   },
-  "n07": {
-    "definition": "critdmg",
-    "x": -27,
-    "y": -21
+  "8": {
+    "definition": "crit_chance+2%",
+    "x": -128.0,
+    "y": -73.9
   },
-  "n08": {
-    "definition": "critdmg",
-    "x": 0,
-    "y": -70
+  "9": {
+    "definition": "crit_chance+2%",
+    "x": -64.0,
+    "y": -110.85
   },
-  "n09": {
-    "definition": "critdmg",
-    "x": 38,
-    "y": -59
+  "10": {
+    "definition": "crit_damage+5%",
+    "x": 0.0,
+    "y": -147.8
   },
-  "n10": {
-    "definition": "critdmg",
-    "x": 64,
-    "y": -29
+  "11": {
+    "definition": "crit_damage+5%",
+    "x": 64.0,
+    "y": -110.85
   },
-  "n11": {
-    "definition": "critdmg",
-    "x": 69,
-    "y": 10
+  "12": {
+    "definition": "arrow_damage+0.5",
+    "x": 128.0,
+    "y": -73.9
   },
-  "n12": {
-    "definition": "steal",
-    "x": 53,
-    "y": 46
+  "13": {
+    "definition": "arrow_damage+0.5",
+    "x": 128.0,
+    "y": 0.0
   },
-  "n13": {
-    "definition": "steal",
-    "x": 20,
-    "y": 67
+  "14": {
+    "definition": "max_mana+10",
+    "x": 128.0,
+    "y": 73.9
   },
-  "n14": {
-    "definition": "steal",
-    "x": -20,
-    "y": 67
+  "15": {
+    "definition": "max_mana+10",
+    "x": 64.0,
+    "y": 110.85
   },
-  "n15": {
-    "definition": "steal",
-    "x": -53,
-    "y": 46
+  "16": {
+    "definition": "mana_regen+10%",
+    "x": 0.0,
+    "y": 147.8
   },
-  "n16": {
-    "definition": "pierce",
-    "x": -69,
-    "y": 10
+  "17": {
+    "definition": "armor+1",
+    "x": -64.0,
+    "y": 110.85
   },
-  "n17": {
-    "definition": "pierce",
-    "x": -64,
-    "y": -29
+  "18": {
+    "definition": "armor+1",
+    "x": -128.0,
+    "y": 73.9
   },
-  "n18": {
-    "definition": "pierce",
-    "x": -38,
-    "y": -59
+  "19": {
+    "definition": "dodge+2%",
+    "x": -128.0,
+    "y": 0.0
   },
-  "n19": {
-    "definition": "pierce",
-    "x": 0,
-    "y": -108
+  "20": {
+    "definition": "crit_damage+5%",
+    "x": -192.0,
+    "y": -36.95
   },
-  "n20": {
-    "definition": "sweep",
-    "x": 50,
-    "y": -96
+  "21": {
+    "definition": "crit_damage+5%",
+    "x": -192.0,
+    "y": -110.85
   },
-  "n21": {
-    "definition": "sweep",
-    "x": 89,
-    "y": -61
+  "22": {
+    "definition": "crit_damage+5%",
+    "x": -128.0,
+    "y": -147.8
   },
-  "n22": {
-    "definition": "sweep",
-    "x": 107,
-    "y": -13
+  "23": {
+    "definition": "life_steal+2%",
+    "x": -64.0,
+    "y": -184.75
   },
-  "n23": {
-    "definition": "draw",
-    "x": 101,
-    "y": 38
+  "24": {
+    "definition": "life_steal+2%",
+    "x": 0.0,
+    "y": -221.7
   },
-  "n24": {
-    "definition": "draw",
-    "x": 72,
-    "y": 81
+  "25": {
+    "definition": "armor_pierce+1",
+    "x": 64.0,
+    "y": -184.75
   },
-  "n25": {
-    "definition": "draw",
-    "x": 26,
-    "y": 105
+  "26": {
+    "definition": "armor_pierce+1",
+    "x": 128.0,
+    "y": -147.8
   },
-  "n26": {
-    "definition": "draw",
-    "x": -26,
-    "y": 105
+  "27": {
+    "definition": "sweeping+10%",
+    "x": 192.0,
+    "y": -110.85
   },
-  "n27": {
-    "definition": "arrow",
-    "x": -72,
-    "y": 81
+  "28": {
+    "definition": "sweeping+10%",
+    "x": 192.0,
+    "y": -36.95
   },
-  "n28": {
-    "definition": "arrow",
-    "x": -101,
-    "y": 38
+  "29": {
+    "definition": "arrow_velocity+10%",
+    "x": 192.0,
+    "y": 36.95
   },
-  "n29": {
-    "definition": "arrow",
-    "x": -107,
-    "y": -13
+  "30": {
+    "definition": "arrow_velocity+10%",
+    "x": 192.0,
+    "y": 110.85
   },
-  "n30": {
-    "definition": "arrow",
-    "x": -89,
-    "y": -61
+  "31": {
+    "definition": "draw_speed+10%",
+    "x": 128.0,
+    "y": 147.8
   },
-  "n31": {
-    "definition": "velo",
-    "x": -50,
-    "y": -96
+  "32": {
+    "definition": "draw_speed+10%",
+    "x": 64.0,
+    "y": 184.75
   },
-  "n32": {
-    "definition": "velo",
-    "x": 0,
-    "y": -148
+  "33": {
+    "definition": "spell_power+5%",
+    "x": 0.0,
+    "y": 221.7
   },
-  "n33": {
-    "definition": "velo",
-    "x": 64,
-    "y": -133
+  "34": {
+    "definition": "spell_power+5%",
+    "x": -64.0,
+    "y": 184.75
   },
-  "n34": {
-    "definition": "proj",
-    "x": 116,
-    "y": -92
+  "35": {
+    "definition": "spell_power+5%",
+    "x": -128.0,
+    "y": 147.8
   },
-  "n35": {
-    "definition": "proj",
-    "x": 144,
-    "y": -33
+  "36": {
+    "definition": "mana_regen+10%",
+    "x": -192.0,
+    "y": 110.85
   },
-  "n36": {
-    "definition": "proj",
-    "x": 144,
-    "y": 33
+  "37": {
+    "definition": "mana_regen+10%",
+    "x": -192.0,
+    "y": 36.95
   },
-  "n37": {
-    "definition": "proj",
-    "x": 116,
-    "y": 92
+  "38": {
+    "definition": "crit_chance+5%",
+    "x": -256.0,
+    "y": -73.9
   },
-  "n38": {
-    "definition": "mana",
-    "x": 64,
-    "y": 133
+  "39": {
+    "definition": "crit_chance+5%",
+    "x": -256.0,
+    "y": -147.8
   },
-  "n39": {
-    "definition": "mana",
-    "x": 0,
-    "y": 148
+  "40": {
+    "definition": "crit_damage+15%",
+    "x": -192.0,
+    "y": -184.75
   },
-  "n40": {
-    "definition": "mana",
-    "x": -64,
-    "y": 133
+  "41": {
+    "definition": "crit_damage+15%",
+    "x": -128.0,
+    "y": -221.7
   },
-  "n41": {
-    "definition": "mana",
-    "x": -116,
-    "y": 92
+  "42": {
+    "definition": "life_steal+2%",
+    "x": -64.0,
+    "y": -258.65
   },
-  "n42": {
-    "definition": "regen",
-    "x": -144,
-    "y": 33
+  "43": {
+    "definition": "life_steal+2%",
+    "x": 0.0,
+    "y": -295.6
   },
-  "n43": {
-    "definition": "regen",
-    "x": -144,
-    "y": -33
+  "44": {
+    "definition": "armor_pierce+1",
+    "x": 64.0,
+    "y": -258.65
   },
-  "n44": {
-    "definition": "regen",
-    "x": -116,
-    "y": -92
+  "45": {
+    "definition": "armor_pierce+1",
+    "x": 128.0,
+    "y": -221.7
   },
-  "n45": {
-    "definition": "regen",
-    "x": -64,
-    "y": -133
+  "46": {
+    "definition": "arrow_damage+0.5",
+    "x": 192.0,
+    "y": -184.75
   },
-  "n46": {
-    "definition": "power",
-    "x": 0,
-    "y": -190
+  "47": {
+    "definition": "arrow_damage+0.5",
+    "x": 256.0,
+    "y": -147.8
   },
-  "n47": {
-    "definition": "power",
-    "x": 82,
-    "y": -171
+  "48": {
+    "definition": "projectile+1",
+    "x": 256.0,
+    "y": -73.9
   },
-  "n48": {
-    "definition": "power",
-    "x": 149,
-    "y": -118
+  "49": {
+    "definition": "projectile+1",
+    "x": 256.0,
+    "y": 0.0
   },
-  "n49": {
-    "definition": "power",
-    "x": 185,
-    "y": -42
+  "50": {
+    "definition": "spell_power+5%",
+    "x": 256.0,
+    "y": 73.9
   },
-  "n50": {
-    "definition": "dodge",
-    "x": 185,
-    "y": 42
+  "51": {
+    "definition": "spell_power+5%",
+    "x": 256.0,
+    "y": 147.8
   },
-  "n51": {
-    "definition": "dodge",
-    "x": 149,
-    "y": 118
+  "52": {
+    "definition": "spell_cooldown+10%",
+    "x": 192.0,
+    "y": 184.75
   },
-  "n52": {
-    "definition": "dodge",
-    "x": 82,
-    "y": 171
+  "53": {
+    "definition": "spell_cooldown+10%",
+    "x": 128.0,
+    "y": 221.7
   },
-  "n53": {
-    "definition": "dodge",
-    "x": 0,
-    "y": 190
+  "54": {
+    "definition": "spell_resist+10%",
+    "x": 64.0,
+    "y": 258.65
   },
-  "n54": {
-    "definition": "armor",
-    "x": -82,
-    "y": 171
+  "55": {
+    "definition": "spell_resist+10%",
+    "x": 0.0,
+    "y": 295.6
   },
-  "n55": {
-    "definition": "armor",
-    "x": -149,
-    "y": 118
+  "56": {
+    "definition": "absorption+4",
+    "x": -64.0,
+    "y": 258.65
   },
-  "n56": {
-    "definition": "armor",
-    "x": -185,
-    "y": 42
+  "57": {
+    "definition": "absorption+4",
+    "x": -128.0,
+    "y": 221.7
   },
-  "n57": {
-    "definition": "c_cd",
-    "x": -185,
-    "y": -42
+  "58": {
+    "definition": "armor+1",
+    "x": -192.0,
+    "y": 184.75
   },
-  "n58": {
-    "definition": "c_resist",
-    "x": -149,
-    "y": -118
+  "59": {
+    "definition": "armor+1",
+    "x": -256.0,
+    "y": 147.8
   },
-  "n59": {
-    "definition": "c_absorb",
-    "x": -82,
-    "y": -171
+  "60": {
+    "definition": "dodge+2%",
+    "x": -256.0,
+    "y": 73.9
   }
 }
