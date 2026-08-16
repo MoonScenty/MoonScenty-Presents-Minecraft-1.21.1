@@ -65,7 +65,7 @@ Create 기술 시대 퀘스트는 시대별로 문서를 나눠 관리합니다.
 
 추후 탐험 및 모험 관련 모드를 추가할 수 있습니다. 해당 모드에서 얻는 아이템은 기술 시대의 필수 진행 재료보다는 퀘스트라인의 특별 보상이나 성취감을 주는 보상 시스템에 활용할 예정입니다.
 
-## 모드 목록 (239개)
+## 모드 목록 (238개)
 
 각 모드는 주된 역할과 **조정 방침**을 기준으로 분류했습니다. 여러 기능을 가진 모드는 모드팩에서 가장 크게 활용되는 분류에 배치했습니다.
 
@@ -79,7 +79,7 @@ Create 기술 시대 퀘스트는 시대별로 문서를 나눠 관리합니다.
 - **Iron's Spells 'n Spellbooks** — 주문서와 마법 학파를 갖춘 본격적인 마법 전투 시스템을 추가합니다.
 - **Forbidden and Arcanus** — 어두운 분위기의 마법 재료, 의식과 장비를 추가합니다.
 
-### Create 생산·기술 확장 (20개)
+### Create 생산·기술 확장 (19개)
 
 Expert 방식으로 전면 재구성하는 대상입니다.
 
@@ -101,7 +101,6 @@ Expert 방식으로 전면 재구성하는 대상입니다.
 - **Create: Rubberworks** — 고무 생산과 가공을 Create 기계로 자동화합니다.
 - **Create: Transmission!** — 회전력을 전달하고 분배하는 추가 동력 장치를 제공합니다.
 - **Create: Treadmill** — 몹이 러닝머신을 움직여 회전력을 생산하게 합니다.
-- **Create: Unbreakable series** — Create 공정으로 내구도가 소모되지 않는 네더라이트 장비를 만들 수 있게 합니다.
 - **Create: Vintage** — 이전 Create 버전의 장치와 기능을 다시 사용할 수 있게 합니다.
 
 ### Create 철도·건축·장식 (6개)
@@ -383,7 +382,11 @@ Expert 방식으로 전면 재구성하는 대상입니다.
    - 몹의 세부 모델과 표정, 화살통, 발광 효과를 보강하고 상자·보트·광산 수레 같은 오브젝트에 생동감 있는 동작을 추가합니다.
 5. **Fresh Animations**
    - 바닐라 몹의 외형 감각은 유지하면서 움직임과 표정을 마인크래프트 트레일러처럼 풍부하게 만듭니다.
-6. **Enhanced Boss Bars**
+6. **Icon Fresh**
+   - Xaero's Minimap의 몹 아이콘을 Fresh Animations 감각에 맞춘 형태로 교체합니다. Icon Xaero's와 겹치는 아이콘은 이쪽이 우선합니다.
+7. **Icon Xaero's**
+   - Xaero's Minimap의 엔티티와 웨이포인트 아이콘을 모드 전반에 걸쳐 대량으로 추가합니다.
+8. **Enhanced Boss Bars**
    - 보스별로 구분되는 체력 표시줄 텍스처를 제공합니다. 같은 이름의 Enhanced Boss Bars 모드가 이 텍스처를 사용합니다.
 
 Fresh Animations 계열 리소스팩은 이미 포함된 Entity Model Features 및 Entity Texture Features를 사용합니다. 아이템을 들고 먹거나 마시는 동작 등은 Not Enough Animations가 보완합니다. Player Extension과 Extensions는 인벤토리 아이템 텍스처를 교체하지 않습니다. 기본 활성화 순서는 Resource Pack Overrides의 `config/resourcepackoverrides.json`에서 관리합니다.

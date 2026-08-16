@@ -530,7 +530,7 @@ hash = "a2d380d4908df370ab38c62c80639c63c0aae58fd20a96158c0f2f6e8d39094a"
 
 [[files]]
 file = "config/resourcepackoverrides.json"
-hash = "d9d266a31ef4cb9aae6f9c86227de1535b855bc7b9509321a4c13159bf4cd0c9"
+hash = "e280ad0a25b357a965e4e3e6ca834dfad04756b4e9686f49d9330d2814901df1"
 
 [[files]]
 file = "config/rubberworks-common.toml"
@@ -695,10 +695,6 @@ hash = "273b3794e11173f729bf5951f1c054af41b7579a38e4f1fe70fa38d09b4a9bc7"
 [[files]]
 file = "kubejs/assets/create_integrated_farming/lang/ko_kr.json"
 hash = "47647e65307b2d3f8071a2efccbdc265944554537441803fcb6a335f517dfa8b"
-
-[[files]]
-file = "kubejs/assets/create_unbreakable_tools_series/lang/ko_kr.json"
-hash = "75231aa617a17bb4ac7467c3f8a92064f27031cd0fda3f8bbcb3773091abc301"
 
 [[files]]
 file = "kubejs/assets/createatomic/lang/ko_kr.json"
@@ -1401,11 +1397,6 @@ metafile = true
 [[files]]
 file = "mods/create-ultimine.pw.toml"
 hash = "15842d4b438ac8537662f798b80621a876fc9ec7483c2917e41fc852ed07a364"
-metafile = true
-
-[[files]]
-file = "mods/create-unbreakable-netherite-tools-series.pw.toml"
-hash = "a678583d41a3cce3e28f52cd0ee4f2d93cb5da0ef8fbfafd5303d0acf3e64f11"
 metafile = true
 
 [[files]]
@@ -2285,6 +2276,16 @@ metafile = true
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
 hash = "da66421a2a0dcab59fc4b17705b0aae4cd88b20634ebea20b0224fee2bef8251"
+metafile = true
+
+[[files]]
+file = "resourcepacks/icon-fresh.pw.toml"
+hash = "c9532a56f952b3e1fe229f97738ea0e5fb2f04f3ed501737b23983d180592092"
+metafile = true
+
+[[files]]
+file = "resourcepacks/icon-xaeros.pw.toml"
+hash = "10c4bfeb1e50970014df2b34176ca67dc02a966062f593a53ff1f02741bee2cd"
 metafile = true
 
 [[files]]
