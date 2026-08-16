@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "QUEST_STONE_AGE.md"
-hash = "3ab3aca25c7fd6d46b105d2bd00a8af14b85669a2e61ed5d475705340d0082e1"
+hash = "73e869d4b082ee9239d6970ab78367be1c06837248585467081cfad6f113d00e"
 
 [[files]]
 file = "config/CreateEnergistics2-common.toml"
@@ -274,7 +274,7 @@ hash = "24c9ba9fd84d39188ea74ec7b800402abd696b7bd18b54a4acb57be359beb3a2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stone_age.snbt"
-hash = "06fe946ed11b1c55e719749a4267c4ee7bee97ab51b17f3c6b1875a7dbbbeaf1"
+hash = "dae09cf0d5afc04f306f09fd20877fa696b9b7c25eb4e70395d8b278b22156d1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks.snbt"
@@ -294,7 +294,7 @@ hash = "24e9fe7e47c76996148659e54497635510fbf3e47fdec9798fd6c46df0c19a43"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "fd872f20c5d5a2b1a685528758630a4951c26fee4531864c6aba1c4e54f558d7"
+hash = "4eb52a96243dfdaf344ca2e04bf5c65855f91663e643beb261521c5d8f4e12a0"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_00_welcome.snbt"
@@ -770,11 +770,11 @@ hash = "908fc8a644b0bf865ce31ed31dcdb9716c4e4da89bbec7ce017bf8a69315315d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "2205edce7d566c34507afe5f11fd95c34ca131c328d058ad61f5c6af300a09b2"
+hash = "fba0f85e09af62f194a1442f52ab8a366a6565f04594a02be11ccc06679adda8"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/ko_kr.json"
-hash = "b8f460d070a919f8472edf96e067d887e7df32f0385984efa8d98b3207032211"
+hash = "61b332119dea8770b6ed941f9233fb2869791617b23e16abc97b976342a8e76f"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
@@ -839,6 +839,10 @@ hash = "3c2d2a7c37f0ffb8cb2d86ed4981826e321b074b37fbb01cd15bc147f10c45e4"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/mortar.png"
 hash = "1131c3dcccdf6f82c290023e564d506145e5c1018587f87a49afe8b792852da0"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/refractory_mortar_mold.png"
+hash = "1cfb8fa39b8ff5e440cc28e2562b56d9485a4732a74cbfe025c28ec11b20adf2"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/wolframite_filings.png"
@@ -998,7 +1002,7 @@ hash = "e914347bd0879cc175bf2ccf301e2b7869bfebca4a40fdabe935821e53954739"
 
 [[files]]
 file = "kubejs/server_scripts/andesite.js"
-hash = "ce78dff07ef255936c9cf08f2a3c6698423282036abe05e0b026726c314f7ee0"
+hash = "583cf5b3df5bd1ee11d20fcdfdda471a307dd3a71385a4171ece97fe0992e9e6"
 
 [[files]]
 file = "kubejs/server_scripts/create.js"
@@ -1022,7 +1026,7 @@ hash = "3f62b35ae96193f8566fb42f89d363425023c4c6d6bb9f0e39f180b821d4d9cb"
 
 [[files]]
 file = "kubejs/server_scripts/metallurgy.js"
-hash = "dec2b22bfd1bee9c91806670d9d15b968b426cc2c27ecb7cf3df58fc861fb0f9"
+hash = "ee2165ab70653aeed67078742af501a93d2b9e4887b016f6bddaf62037131516"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
@@ -1038,7 +1042,7 @@ hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
 file = "kubejs/startup_scripts/materials.js"
-hash = "73d96f3c9fdee7388c6ec7c4128c29a68929e256265dab157baf6314aecbc79b"
+hash = "00902d44098d6b57c4eda03b6f82e407e28bc5aafa85aae755c3f99bcca3a1e7"
 
 [[files]]
 file = "kubejs/startup_scripts/tiers.js"

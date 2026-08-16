@@ -281,51 +281,22 @@
 				"5A0E100000000011"
 			]
 			icon: {
-				id: "createmetallurgy:graphite"
+				id: "kubejs:refractory_mortar_mold"
 			}
-			id: "5A0E100000000012"
+			id: "5A0E100000000014"
+			size: 1.5d
 			tasks: [{
-				count: 9L
-				id: "5A0E200000000014"
-				item: { count: 1, id: "createmetallurgy:graphite" }
-				type: "item"
-			}]
-			x: 20.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5A0E100000000012"]
-			icon: {
-				id: "createmetallurgy:graphite_blank_mold"
-			}
-			id: "5A0E100000000013"
-			tasks: [{
-				id: "5A0E200000000015"
-				item: { count: 1, id: "createmetallurgy:graphite_blank_mold" }
+				id: "5A0E200000000016"
+				item: { count: 1, id: "kubejs:refractory_mortar_mold" }
 				type: "item"
 			}]
 			x: 22.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["5A0E100000000013"]
-			icon: {
-				id: "createmetallurgy:graphite_ingot_mold"
-			}
-			id: "5A0E100000000014"
-			size: 1.5d
-			tasks: [{
-				id: "5A0E200000000016"
-				item: { count: 1, id: "createmetallurgy:graphite_ingot_mold" }
-				type: "item"
-			}]
-			x: 24.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["5A0E100000000014"]
 			icon: {
-				id: "minecraft:stonecutter"
+				id: "createmetallurgy:refractory_mortar"
 			}
 			id: "5A0E100000000015"
 			shape: "square"
@@ -333,7 +304,7 @@
 				id: "5A0E200000000017"
 				type: "checkmark"
 			}]
-			x: 24.0d
+			x: 22.0d
 			y: 2.5d
 		}
 		{

@@ -22,14 +22,16 @@ ServerEvents.recipes(event => {
     results: [{ amount: 180, id: 'kubejs:molten_andesite_alloy' }]
   }).id('kubejs:alloying/andesite_alloy')
 
-  // 용융 안산암 합금 -> 안산암 합금 (주괴 거푸집)
+  // 용융 안산암 합금 -> 안산암 합금 (내화 모르타르 거푸집)
+  // mold_consumed로 거푸집이 주조 1회마다 사라진다.
   event.custom({
     type: 'createmetallurgy:casting_in_table',
     ingredients: [
       { type: 'neoforge:single', amount: 90, fluid: 'kubejs:molten_andesite_alloy' },
-      { item: 'createmetallurgy:graphite_ingot_mold' }
+      { item: 'kubejs:refractory_mortar_mold' }
     ],
     processing_time: 60,
+    mold_consumed: true,
     result: { item: { count: 1, id: 'create:andesite_alloy' } }
   }).id('kubejs:casting_in_table/andesite_alloy')
 })

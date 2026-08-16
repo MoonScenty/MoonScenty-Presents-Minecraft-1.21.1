@@ -13,15 +13,14 @@ ServerEvents.recipes(event => {
     C: 'minecraft:clay_ball'
   }).id('kubejs:crafting/refractory_mortar')
 
-  // 흑연 거푸집은 모드 기본으로는 graphite_molds 태그를 석재 절단하는 길밖에 없어
-  // 거푸집이 있어야 거푸집을 만드는 순환이 된다. 흑연 9개로 진입점을 만든다.
-  event.shaped('createmetallurgy:graphite_blank_mold', [
-    'GGG',
-    'GGG',
-    'GGG'
+  // 주조는 내화 모르타르 거푸집으로 진행한다. 1회 주조마다 소모된다.
+  // 흑연 거푸집이 열리기 전까지 쓰는 초반 수단이라 값을 낮추지 않는다.
+  event.shaped('kubejs:refractory_mortar_mold', [
+    'M M',
+    ' M '
   ], {
-    G: 'createmetallurgy:graphite'
-  }).id('kubejs:crafting/graphite_blank_mold')
+    M: 'createmetallurgy:refractory_mortar'
+  }).id('kubejs:crafting/refractory_mortar_mold')
 
   // 용해로 부품과 주조 기계는 기본이 안산암 합금이라
   // 합금 라인 직후에 바로 지어진다.
