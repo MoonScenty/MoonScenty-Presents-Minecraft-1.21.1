@@ -13,6 +13,16 @@ ServerEvents.recipes(event => {
     C: 'minecraft:clay_ball'
   }).id('kubejs:crafting/refractory_mortar')
 
+  // 흑연 거푸집은 모드 기본으로는 graphite_molds 태그를 석재 절단하는 길밖에 없어
+  // 거푸집이 있어야 거푸집을 만드는 순환이 된다. 흑연 9개로 진입점을 만든다.
+  event.shaped('createmetallurgy:graphite_blank_mold', [
+    'GGG',
+    'GGG',
+    'GGG'
+  ], {
+    G: 'createmetallurgy:graphite'
+  }).id('kubejs:crafting/graphite_blank_mold')
+
   // 용해로 부품과 주조 기계는 기본이 안산암 합금이라
   // 합금 라인 직후에 바로 지어진다.
   // 제조된 철 블록으로 올려 아연을 들인 한 단계를 더 거치게 한다.

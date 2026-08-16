@@ -1,5 +1,4 @@
-const SoundType = Java.loadClass('net.minecraft.world.level.block.SoundType')
-
+// SoundType은 KubeJS가 전역으로 제공하므로 따로 불러오지 않는다.
 StartupEvents.registry('block', event => {
   // 산업용 철 블록의 복제본. 야금 기계 재료를 이쪽으로 옮겨
   // 석재 절단만으로 도달하던 것보다 비싸게 만들기 위한 블록이다.
