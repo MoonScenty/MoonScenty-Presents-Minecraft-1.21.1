@@ -394,7 +394,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "066964331e58cd4f19fab29cb0a41ebc7fc8ea6ac81d75c7c0355b59d0756960"
+hash = "f9c9581c0ba5f0bd08f5ad1b320439b6c7a30427ba0bef0659f7b50819e91c2b"
 
 [[files]]
 file = "config/irisflw-client.toml"
@@ -530,7 +530,7 @@ hash = "a2d380d4908df370ab38c62c80639c63c0aae58fd20a96158c0f2f6e8d39094a"
 
 [[files]]
 file = "config/resourcepackoverrides.json"
-hash = "e280ad0a25b357a965e4e3e6ca834dfad04756b4e9686f49d9330d2814901df1"
+hash = "190406bbd1c9c87a029e05ed1476d34582a9b5f1dd16baca14a2678c9cea55c6"
 
 [[files]]
 file = "config/rubberworks-common.toml"
@@ -638,7 +638,7 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
-hash = "f1ff62b22cfc97486d00e8bd3367a3207f0a8da235e7b365c5aa2a54e3f8dc25"
+hash = "98efe3c6f4b954974a5df3b21a66024f2c33645905362d6634bb1cf2a1bc51ac"
 
 [[files]]
 file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
@@ -766,11 +766,11 @@ hash = "908fc8a644b0bf865ce31ed31dcdb9716c4e4da89bbec7ce017bf8a69315315d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "fba0f85e09af62f194a1442f52ab8a366a6565f04594a02be11ccc06679adda8"
+hash = "71e9b07ecf8a8537dc0a07e6b076ee859803fc56a14f75c0a360dd39dc17e48e"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/ko_kr.json"
-hash = "61b332119dea8770b6ed941f9233fb2869791617b23e16abc97b976342a8e76f"
+hash = "1544efb0af1562fe070bc69bcd7f7262648cbc1cbc610d417ff2e7e8ba2cd6b6"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
@@ -817,8 +817,16 @@ file = "kubejs/assets/kubejs/textures/block/molten_andesite_still.png.mcmeta"
 hash = "e9b8025fde1b09b0a4d2a38427b04f98f28a593045be6d177eb2b29164c872b0"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_copper_pickaxe.png"
+hash = "9f42945e6a30d6fd41416785672ab266d47877850883c8a2f25ded816d5dbf6f"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/copper_filings.png"
 hash = "30a3788b54cd3cb0a5b584ca4dc64392bbeab6a11349600b2273d8c9d8055f8d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/copper_pickaxe.png"
+hash = "88a5cf0f061da263787dc9afa20e43457058ee52b226b527d6b261771dd9baef"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/example_item.png"
@@ -1025,6 +1033,10 @@ file = "kubejs/server_scripts/metallurgy.js"
 hash = "ee2165ab70653aeed67078742af501a93d2b9e4887b016f6bddaf62037131516"
 
 [[files]]
+file = "kubejs/server_scripts/tools.js"
+hash = "d413829ff1917e32f3e03ad43a4ca5e8121607082ea24b7511cde806ed706b19"
+
+[[files]]
 file = "kubejs/startup_scripts/blocks.js"
 hash = "be5b4657e55609201a84c7d6b19537d712625d68955ce534b46ad5022164efb6"
 
@@ -1043,6 +1055,10 @@ hash = "00902d44098d6b57c4eda03b6f82e407e28bc5aafa85aae755c3f99bcca3a1e7"
 [[files]]
 file = "kubejs/startup_scripts/tiers.js"
 hash = "4c372e79b2223140e31501f5a63ae2508c7d19c8d97536e0787dfed95f1ad1bb"
+
+[[files]]
+file = "kubejs/startup_scripts/tools.js"
+hash = "c302100ff39ce36d02d6601b41fd9a9e3606c53c88c0bb68250dc8e99668231c"
 
 [[files]]
 file = "mods/accessories.pw.toml"
@@ -1137,11 +1153,6 @@ metafile = true
 [[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "84fd12a30b0fecc1df5c03b6ec1bcbd6263211e65e17f24075a54773af6bfaff"
-metafile = true
-
-[[files]]
-file = "mods/better-combat-by-daedelus.pw.toml"
-hash = "f75f946469a16f1640622c2bdecbd8a6dafa0876bf7f1000332abd1328e15ef5"
 metafile = true
 
 [[files]]
@@ -1692,6 +1703,11 @@ metafile = true
 [[files]]
 file = "mods/haydenapi.pw.toml"
 hash = "1786d9195462da4c4fbb62eca162a1cba82c1b25e73a1a064aa52d07b18306e2"
+metafile = true
+
+[[files]]
+file = "mods/hold-my-items-reforged.pw.toml"
+hash = "94f45c1bac3bf099a8ec4c213a45178b493500f18b12d716274711179771ec72"
 metafile = true
 
 [[files]]
@@ -2270,7 +2286,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/fresh-animations-extensions.pw.toml"
-hash = "8ea87dfad25b7be9122afd1b185badbbe61225143f2534b78f561cd82b50d4be"
+hash = "633345333ff363fd71d17faa2bb39be6c3b1041bb1c5fdcc616827d2221c152f"
 metafile = true
 
 [[files]]
@@ -2291,4 +2307,19 @@ metafile = true
 [[files]]
 file = "resourcepacks/slightly-improved-font.pw.toml"
 hash = "1500696334c198418def3441b2a5764156c1b68d7de1882d345f61d842dc3d25"
+metafile = true
+
+[[files]]
+file = "shaderpacks/bsl-shaders.pw.toml"
+hash = "4a5ea44fb3e87c430dbb19df9587ec93bd189ea1a12a15ed190dde3cf5a5cf13"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "335d3e0f28b42381f929c9997dd188cd656178904833c2d1b01dfd3e098b0569"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "d5bbf1d80ecd2261d38311b897469fdd2dd48029bc520193bfefbc4407f5cc81"
 metafile = true

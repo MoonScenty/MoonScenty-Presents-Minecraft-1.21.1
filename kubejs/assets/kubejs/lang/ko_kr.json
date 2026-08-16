@@ -5,6 +5,8 @@
   "item.kubejs.gold_filings": "금 부스러기",
   "item.kubejs.zinc_filings": "아연 부스러기",
   "item.kubejs.wolframite_filings": "울프라마이트 부스러기",
+  "item.kubejs.copper_pickaxe": "구리 곡괭이",
+  "item.kubejs.broken_copper_pickaxe": "부서진 구리 곡괭이",
   "item.kubejs.refractory_mortar_mold": "내화 모르타르 거푸집",
 
   "fluid.kubejs.molten_andesite": "용융 안산암",

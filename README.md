@@ -156,11 +156,10 @@ Expert 방식으로 전면 재구성하는 대상입니다.
 - **OpenBlocks Elevator** — 위아래로 즉시 이동하는 승강기 블록을 추가합니다.
 - **Vanilla Backport** — 최신 버전의 바닐라 요소를 이 버전으로 가져옵니다.
 
-### 전투, RPG 및 장신구 (10개)
+### 전투, RPG 및 장신구 (9개)
 
 별도 트윅 없이 모드 개발자의 의도대로 둡니다.
 
-- **Better Combat [Fabric & Forge]** — 무기별 동작과 범위를 갖춘 근접 전투 체계로 교체합니다.
 - **Pufferfish's Skills** — 능력치와 특성을 올리는 스킬 트리 시스템을 추가합니다.
 - **Relics** — 고유 능력을 지닌 유물 장비와 강화 요소를 추가합니다.
 - **Artifacts** — 탐험으로만 얻을 수 있는 특수 능력 장비를 추가합니다.
@@ -290,7 +289,7 @@ Expert 방식으로 전면 재구성하는 대상입니다.
 - **NeoAuth** — 서버 접속 시 비밀번호 인증을 제공합니다.
 - **Login Protection** — 접속 직후 일정 시간 피해를 받지 않게 보호합니다.
 
-### 그래픽·셰이더·애니메이션 (10개)
+### 그래픽·셰이더·애니메이션 (11개)
 
 - **Iris Shaders** — Sodium 환경에서 셰이더팩을 사용할 수 있게 합니다.
 - **Iris & Oculus Flywheel Compat** — Iris 셰이더와 Create의 Flywheel 렌더링 호환성을 제공합니다.
@@ -298,6 +297,7 @@ Expert 방식으로 전면 재구성하는 대상입니다.
 - **[EMF] Entity Model Features** — 리소스팩에서 커스텀 엔티티 모델을 쓸 수 있게 합니다.
 - **[ETF] Entity Texture Features** — 엔티티의 무작위·발광 텍스처 같은 고급 기능을 지원합니다.
 - **Not Enough Animations** — 3인칭 시점의 플레이어 동작 애니메이션을 표시합니다.
+- **Hold My Items - Reforged** — 1인칭 시점에서 손과 들고 있는 아이템을 표시하고 동작 애니메이션을 더합니다.
 - **playerAnimator** — 모드가 플레이어 애니메이션을 재생하기 위한 기반을 제공합니다.
 - **Sodium/Embeddium Dynamic Lights** — 손에 든 발광 아이템이 주변을 밝히게 합니다.
 - **Create: Dynamic Lights** — Create의 조명 부품이 움직이는 구조물에서도 작동하게 합니다.
@@ -376,12 +376,12 @@ Expert 방식으로 전면 재구성하는 대상입니다.
    - 공식 Neo둥근모를 사용해 한글을 선명한 도트 글꼴로 표시합니다.
 2. **Slightly Improved Font**
    - 바닐라 감각을 유지한 32× 영문·유럽 문자 글꼴을 적용합니다. Mc둥근모의 공급자 순서와 조합되어 한글에는 영향을 주지 않습니다.
-3. **Fresh Animations: Player Extension**
-   - 플레이어의 대기, 이동, 점프, 수영, 등반, 비행과 장비 사용 동작을 Fresh Animations 스타일로 확장합니다.
-4. **Fresh Animations: Extensions**
+3. **Fresh Animations: Extensions**
    - 몹의 세부 모델과 표정, 화살통, 발광 효과를 보강하고 상자·보트·광산 수레 같은 오브젝트에 생동감 있는 동작을 추가합니다.
-5. **Fresh Animations**
+4. **Fresh Animations**
    - 바닐라 몹의 외형 감각은 유지하면서 움직임과 표정을 마인크래프트 트레일러처럼 풍부하게 만듭니다.
+5. **Fresh Animations: Player Extension**
+   - 플레이어의 대기, 이동, 점프, 수영, 등반, 비행과 장비 사용 동작을 Fresh Animations 스타일로 확장합니다. 플레이어 모델(`player.jem`)을 정의하는 유일한 팩입니다.
 6. **Icon Fresh**
    - Xaero's Minimap의 몹 아이콘을 Fresh Animations 감각에 맞춘 형태로 교체합니다. Icon Xaero's와 겹치는 아이콘은 이쪽이 우선합니다.
 7. **Icon Xaero's**
@@ -389,7 +389,19 @@ Expert 방식으로 전면 재구성하는 대상입니다.
 8. **Enhanced Boss Bars**
    - 보스별로 구분되는 체력 표시줄 텍스처를 제공합니다. 같은 이름의 Enhanced Boss Bars 모드가 이 텍스처를 사용합니다.
 
-Fresh Animations 계열 리소스팩은 이미 포함된 Entity Model Features 및 Entity Texture Features를 사용합니다. 아이템을 들고 먹거나 마시는 동작 등은 Not Enough Animations가 보완합니다. Player Extension과 Extensions는 인벤토리 아이템 텍스처를 교체하지 않습니다. 기본 활성화 순서는 Resource Pack Overrides의 `config/resourcepackoverrides.json`에서 관리합니다.
+Fresh Animations 계열 리소스팩은 이미 포함된 Entity Model Features 및 Entity Texture Features를 사용합니다. 아이템을 들고 먹거나 마시는 동작 등은 Not Enough Animations가, 1인칭 손 표시는 Hold My Items - Reforged가 보완합니다. 리소스팩은 CurseForge에 올라와 있는 것만 사용해 배포 경로를 하나로 유지합니다. 기본 활성화 순서는 Resource Pack Overrides의 `config/resourcepackoverrides.json`에서 관리합니다.
+
+**플레이어 모델을 정의하는 팩은 하나만 유지합니다.** `player.jem`을 정의하는 팩을 둘 이상 켜면 우선순위가 높은 하나만 적용되고 나머지는 무시됩니다. 같은 이유로 Fresh Moves를 제외했습니다. Detailed Animations는 현재 EMF 버전에서 애니메이션 파싱에 실패해(`ASM animation was invalid`) 사용하지 않습니다.
+
+## 기본 셰이더
+
+Iris Shaders로 아래 세 종류를 제공하며 기본값은 **BSL**입니다. 활성 셰이더는 `config/iris.properties`의 `shaderPack` 항목에서 관리합니다.
+
+- **BSL Shaders** — 기본값. 밝고 선명한 색감에 성능 부담이 비교적 낮습니다.
+- **Complementary Shaders - Reimagined** — 바닐라 감성을 유지하면서 조명과 그림자를 다듬는 방향입니다.
+- **Complementary Shaders - Unbound** — Reimagined보다 자유롭게 색감과 분위기를 바꾸는 방향입니다.
+
+셰이더와 Create의 Flywheel 렌더링 호환은 Iris & Oculus Flywheel Compat이 담당합니다.
 
 ## 개발 및 관리
 
