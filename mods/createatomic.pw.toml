@@ -1,13 +1,13 @@
 name = "Create: Atomic"
-filename = "createatomic-1.1.0.jar"
+filename = "createatomic-1.2.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "67ba03d4c80678ca31f036affe143d349ebc4d0a"
+hash = "8d29bc80296228edf21de224312263563e02f84e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8239324
+file-id = 8654764
 project-id = 859733

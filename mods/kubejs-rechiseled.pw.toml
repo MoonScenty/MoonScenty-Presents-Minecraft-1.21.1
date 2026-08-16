@@ -1,0 +1,13 @@
+name = "KubeJS Rechiseled"
+filename = "kubejs_rechiseled-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "068dfd20ffb1598ddb881829f361a66653325bdc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8481352
+project-id = 1619436

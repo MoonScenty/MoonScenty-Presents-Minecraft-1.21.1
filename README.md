@@ -6,13 +6,25 @@ Minecraft 1.21.1과 NeoForge 21.1.248를 기반으로 제작한 모드팩입니�
 
 바닐라 마인크래프트의 기본 진행 방식은 가능한 한 유지하면서, Create를 중심으로 한 Expert 스타일의 기술 발전을 제공합니다. 플레이어는 다섯 개의 기술 시대를 순서대로 거치며 새로운 재료, 기계와 생산 방식을 확보하게 됩니다.
 
+기술 축 바깥에는 건축, 전투, 모험과 마법 콘텐츠를 폭넓게 함께 담았습니다. 이쪽은 진행을 강제하지 않는 선택 콘텐츠이며, 플레이어가 기술 진행에 지치면 언제든 다른 방향으로 놀 수 있게 하는 것이 목적입니다.
+
+### 모드 조정 방침
+
+모드마다 손을 대는 정도를 다르게 가져갑니다.
+
+| 분류 | 조정 방침 |
+| --- | --- |
+| **Create와 그 확장** | Expert 방식으로 전면 재구성합니다. 제작법, 시대 게이팅과 RPM 요구를 직접 설계합니다. |
+| **물류 및 기술 모드** | 일부를 Create 진행에 종속시킵니다. 규모가 큰 모드는 별도의 퀘스트 챕터로 분리해 다룹니다. |
+| **건축, RPG, 전투, 모험, 마법** | **별도의 트윅을 하지 않습니다.** 모드 개발자가 의도한 그대로 두고, 퀘스트로 소개만 합니다. |
+
 ### 핵심 설계 원칙
 
 - 바닐라의 기본 생존 및 진행 구조는 웬만하면 변경하지 않습니다.
 - 시대를 건너뛰는 것은 어렵게 만들되, 다음 시대에 진입하면 이전 시대의 자원과 부품은 더 쉽게 생산할 수 있어야 합니다.
 - 시대 진행은 퀘스트 보상이 아닌 제작법과 생산 설비의 발전으로 이루어집니다.
 - 실제 진행 제한과 레시피 조정은 KubeJS로 구현합니다.
-- 단계 시스템에 직접 참여하지 않는 모드는 특별한 이유가 없다면 별도로 조정하지 않습니다.
+- 기술 축에 참여하지 않는 모드는 조정하지 않습니다. 밸런스가 어긋나 보여도 해당 모드의 설계를 존중합니다.
 - 전기는 핵심 동력원으로 사용하지 않으며 Create의 회전력을 중심으로 모든 산업을 구성합니다.
 - 일부 전기 장치는 Create Crafts & Additions를 통해 제한적으로만 허용합니다.
 
@@ -53,338 +65,309 @@ Create 기술 시대 퀘스트는 시대별로 문서를 나눠 관리합니다.
 
 추후 탐험 및 모험 관련 모드를 추가할 수 있습니다. 해당 모드에서 얻는 아이템은 기술 시대의 필수 진행 재료보다는 퀘스트라인의 특별 보상이나 성취감을 주는 보상 시스템에 활용할 예정입니다.
 
-## 모드 목록 (100개)
-
-각 모드는 주된 역할을 기준으로 분류했습니다. 여러 기능을 가진 모드는 모드팩에서 가장 크게 활용되는 분류에 배치했습니다.
-
-### 핵심 콘텐츠 및 대형 시스템 (4개)
-
-- **Applied Energistics 2**
-  - 아이템과 유체를 디지털 네트워크에 저장하고 자동화하는 대규모 물류 시스템을 추가합니다.
-
-- **Create**
-  - 회전력, 톱니바퀴, 컨베이어와 움직이는 구조물을 이용한 기계식 자동화를 추가합니다.
-
-- **Farmer's Delight**
-  - 새로운 작물, 조리 도구, 음식과 농사 중심의 생활 콘텐츠를 추가합니다.
-
-- **Quark**
-  - 바닐라 분위기를 유지하면서 건축, 탐험, 자동화와 편의 기능을 다양하게 확장합니다.
-
-### Create 생산·기술 확장 (19개)
-
-- **Create Crafts & Additions**
-  - Create에 전기 모터, 발전기, 전선 및 추가 자동화 장치를 더합니다.
-
-- **Create Mechanical Extruder**
-  - 유체와 블록 조건을 조합해 조약돌 생성기처럼 자원을 생산하는 압출기를 추가합니다.
-
-- **Create Tiers**
-  - Create 장치에 여러 성능 등급과 업그레이드 요소를 추가합니다.
-
-- **Create Utilities J**
-  - Create 자동화와 건축에 활용할 수 있는 여러 편의 장치와 부품을 추가합니다.
-
-- **Create: AE Generator**
-  - Create의 회전력을 Applied Energistics 2 네트워크용 에너지로 활용할 수 있게 합니다.
-
-- **Create: Atomic**
-  - Create 기반 자동화에 원자력·에너지 관련 콘텐츠와 생산 과정을 추가합니다.
-
-- **Create: Dragons Plus**
-  - Create에 새로운 기계 장치, 재료, 유체 처리와 자동화 콘텐츠를 확장합니다.
-
-- **Create: Dreams n' Desires**
-  - Create에 실험적인 기계, 도구, 장식과 새로운 제작 과정을 폭넓게 추가합니다.
-
-- **Create: Enchantment Industry**
-  - 액체 경험치와 인쇄 공정을 이용해 마법 부여 및 경험치 처리를 자동화합니다.
-
-- **Create: Integrated Farming**
-  - Create 장치와 연계되는 농업 기계 및 작물 자동화 기능을 추가합니다.
-
-- **Create Low-Heated**
-  - 수동 가열을 연료가 필요한 기본 버너로 대체하고, 분지 레시피에 저온 가열 단계를 추가해 열 생산을 자동화 과제로 만듭니다.
-
-- **Create: Metallurgy**
-  - 금속을 녹이고 주조하는 Create 기반 야금 생산 체계를 추가합니다.
-
-- **Create: Petrochem**
-  - 원유 정제, 석유화학 물질과 관련 Create 자동화 공정을 추가합니다.
-
-- **Create: Recipe Need RPM**
-  - Create 가공 레시피가 일정 회전 속도에 도달해야 작동하도록 조건을 추가합니다.
-
-- **Create: Rubberworks**
-  - 고무 생산과 가공을 Create 기계로 자동화하는 제조 공정을 추가합니다.
-
-- **Create: Transmission!**
-  - 회전력을 전달하고 분배하기 위한 추가 동력 전달 장치를 제공합니다.
-
-- **Create: Treadmill**
-  - 몹이 러닝머신을 움직여 Create 회전력을 생산하게 하는 장치를 추가합니다.
-
-- **Create: Unbreakable series**
-  - Create 공정을 활용해 내구도가 소모되지 않는 네더라이트 장비를 제작할 수 있게 합니다.
-
-- **Create: Vintage**
-  - 이전 Create 버전의 장치와 기능을 현재 버전에서 다시 사용할 수 있게 합니다.
-
-### Create 철도·건축·장식 (5개)
-
-- **Create Deco**
-  - Create 분위기에 어울리는 장식 블록, 금속 블록과 건축 요소를 추가합니다.
-
-- **Create: Bells & Whistles**
-  - Create 열차를 꾸밀 수 있는 장식, 차체 부품과 철도 관련 블록을 추가합니다.
-
-- **Create: Blocks & Bogies**
-  - Create 열차용 추가 보기와 건축·장식 블록을 제공합니다.
-
-- **Create: Copycats+**
-  - 다른 블록의 외형을 입힐 수 있는 다양한 형태의 카피캣 블록을 추가합니다.
-
-- **Create: Nowheel**
-  - Create 열차의 바퀴 표시와 관련 외형을 조정할 수 있게 합니다.
-
-### 요리 및 농업 연동 (3개)
-
-- **Create Slice & Dice**
-  - Farmer's Delight의 도마와 요리 과정을 Create 기계로 자동화합니다.
-
-- **Create: Bitterballen**
-  - Create 방식으로 제작하고 자동화할 수 있는 음식과 관련 생산 과정을 추가합니다.
-
-- **Create: Central Kitchen**
-  - Create와 Farmer's Delight 계열 요리 모드를 연결해 음식 생산을 자동화합니다.
-
-### 저장 및 물류 (5개)
-
-- **Pipez**
-  - 아이템과 유체 등을 간단하고 효율적으로 운송하는 파이프와 전송 속도·필터 업그레이드를 추가합니다.
-
-- **Sophisticated Backpacks**
-  - 업그레이드, 자동 정리와 필터 기능을 갖춘 확장형 가방을 추가합니다.
-
-- **Sophisticated Backpacks Create Integration**
-  - Sophisticated Backpacks와 Create의 벨트·깔때기 등 물류 장치 간 연동을 제공합니다.
-
-- **Sophisticated Storage**
-  - 업그레이드와 필터 기능을 갖춘 상자, 통 및 저장 블록을 추가합니다.
-
-- **Sophisticated Storage Create Integration**
-  - Sophisticated Storage와 Create 물류 장치가 원활하게 아이템을 주고받도록 연동합니다.
-
-### 퀘스트 및 멀티플레이 (7개)
-
-- **FTB Chunks (NeoForge)**
-  - 청크 소유권과 보호, 강제 로딩 기능을 제공하고 미니맵과 전체 지도로 탐험 정보를 확인할 수 있게 합니다.
-
-- **FTB Essentials (Forge & Fabric)**
-  - 홈, 스폰 이동과 텔레포트 요청 등 싱글플레이와 멀티플레이에서 유용한 편의 명령어를 제공합니다.
-
-- **FTB Filter System**
-  - 태그와 논리 조건을 조합한 아이템 필터를 제공하여 '아무 원목'처럼 여러 아이템을 하나의 퀘스트 목표로 판정할 수 있게 합니다.
-
-- **FTB Quests (NeoForge)**
-  - 진행 목표, 보상과 안내를 제공하는 퀘스트 시스템을 추가합니다.
-
-- **FTB Ranks (NeoForge)**
-  - 플레이어 등급별 권한과 명령어 사용 범위를 설정할 수 있게 합니다.
-
-- **FTB Teams (NeoForge)**
-  - 플레이어 팀 구성과 FTB 계열 모드의 팀 단위 데이터 공유 기능을 제공합니다.
-
-- **More Quest Types**
-  - 블록 파괴·설치, 몹 길들이기, 낚시와 주민 거래처럼 기본 FTB Quests만으로 부족한 행동 판정 과제를 추가합니다.
-
-### 사망 및 아이템 복구 (1개)
-
-- **Corpse**
-  - 사망한 자리에 플레이어의 시체를 남겨 떨어뜨린 아이템을 안전하게 보관하고 원래 인벤토리 슬롯으로 회수할 수 있게 합니다.
-
-### 스크립팅 및 모드팩 제작 (2개)
-
-- **KubeJS**
-  - JavaScript로 레시피, 아이템, 태그와 게임 이벤트를 수정할 수 있게 합니다.
-
-- **KubeJS Create**
-  - KubeJS 스크립트에서 Create의 가공 레시피와 기능을 제어할 수 있게 합니다.
-
-### 건축 블록 (2개)
-
-- **Rechiseled**
-  - 하나의 재료를 다양한 무늬와 형태의 장식 블록으로 가공할 수 있게 합니다.
-
-- **Rechiseled: Create**
-  - Rechiseled에 Create 스타일의 장식 블록과 두 모드 간 연동을 추가합니다.
-
-### 그래픽·셰이더·애니메이션 (8개)
-
-- **[EMF] Entity Model Features [Fabric & Forge]**
-  - 리소스팩에서 커스텀 엔티티 모델을 사용할 수 있도록 지원합니다.
-
-- **[ETF] Entity Texture Features - [Fabric & Forge]**
-  - 엔티티의 무작위·발광·변형 텍스처 같은 고급 리소스팩 기능을 지원합니다.
-
-- **Create: Dynamic Lights**
-  - Create의 횃불과 조명 부품이 움직이는 구조물에서도 동적 광원으로 작동하게 합니다.
-
-- **Fusion (Connected Textures)**
-  - 서로 붙은 블록의 텍스처를 자연스럽게 연결하고 다양한 모델 렌더링 기능을 제공합니다.
-
-- **Iris & Oculus Flywheel Compat**
-  - Iris 셰이더와 Create의 Flywheel 렌더링이 함께 작동하도록 호환성을 개선합니다.
-
-- **Iris Shaders**
-  - Sodium 환경에서 셰이더팩을 사용할 수 있도록 지원합니다.
-
-- **Not Enough Animations**
-  - 3인칭 시점에서 먹기, 지도 보기 등 다양한 플레이어 동작 애니메이션을 표시합니다.
-
-- **Sodium/Embeddium Dynamic Lights**
-  - 손에 든 횃불이나 빛나는 아이템·엔티티가 주변을 실시간으로 밝히게 합니다.
-
-### 성능 최적화 (7개)
-
-- **Clumps**
-  - 가까이 있는 경험치 구슬을 합쳐 렉을 줄이고 경험치 획득을 편하게 만듭니다.
-
-- **Create Better FPS**
-  - Create의 움직이는 장치와 렌더링을 최적화해 성능 저하를 줄입니다.
-
-- **Create: Threaded Trains**
-  - Create 열차 관련 연산을 최적화해 복잡한 철도망의 성능을 개선합니다.
-
-- **Entity Culling Fabric/Forge**
-  - 화면에 가려져 보이지 않는 엔티티와 블록 엔티티의 렌더링을 생략해 성능을 높입니다.
-
-- **FerriteCore ((Neo)Forge)**
-  - 블록 상태와 모델 데이터의 메모리 사용량을 줄여 게임의 RAM 효율을 개선합니다.
-
-- **ModernFix**
-  - 로딩 시간, 메모리 사용량과 여러 게임 병목을 개선하는 종합 최적화 모드입니다.
-
-- **Sodium**
-  - 렌더링 엔진을 최적화해 프레임과 그래픽 성능을 개선합니다.
-
-### UI 및 편의 기능 (20개)
-
-- **Advancement Disabler**
-  - 바닐라 발전 과제와 발전 과제 화면을 비활성화하여 진행 안내를 FTB Quests로 통합하고, 모드 발전 과제는 호환성을 위해 유지합니다.
-
-- **Chat Heads**
-  - 채팅 메시지 옆에 해당 플레이어의 얼굴 아이콘을 표시합니다.
-
-- **Cosmetic Armor Reworked**
-  - 실제 방어구와 별개로 외형만 보여주는 코스메틱 방어구 슬롯을 추가합니다.
-
-- **Create Ultimine**
-  - Create 관련 블록을 FTB Ultimine 방식으로 편리하게 일괄 채굴할 수 있게 합니다.
-
-- **Disable Compliance Notification**
-  - 대한민국 사용자에게 매시간 표시되는 게임 이용 시간 준수 알림을 비활성화합니다.
-
-- **Default Options**
-  - 신규 설치에 적용할 기본 게임 설정과 단축키를 배포하면서 사용자가 이후 변경한 설정은 유지할 수 있게 합니다.
-
-- **Enchantment Descriptions**
-  - 마법 부여 책과 장비 툴팁에 인챈트 효과 설명을 표시합니다.
-
-- **FancyMenu**
-  - 메인 메뉴와 게임 화면을 이미지, 버튼 및 애니메이션으로 자유롭게 꾸밀 수 있게 합니다.
-
-- **FTB Ultimine (NeoForge)**
-  - 키를 누른 채 같은 종류의 블록을 한 번에 여러 개 채굴할 수 있게 합니다.
-
-- **Jade 🔍**
-  - 바라보는 블록이나 엔티티의 이름, 상태와 저장 정보를 화면에 표시합니다.
-
-- **Just Enough Items (JEI)**
-  - 아이템 목록과 제작법·사용처를 게임 안에서 검색하고 확인할 수 있게 합니다.
-
-- **Korean Chat Patch**
-  - 한글 조합과 한·영 전환을 개선하여 게임 내 채팅과 텍스트 입력을 편리하게 합니다.
-
-- **NetherPortalFix**
-  - 네더 포탈을 통과할 때 잘못된 위치나 다른 포탈로 연결되는 문제를 줄입니다.
-
-- **Not Enough Recipe Book [NERB]**
-  - 바닐라 레시피북 버튼과 기본 기능을 제거하여 제작법 확인을 JEI로 통합합니다.
-
-- **Polymorph (Fabric/Forge/Quilt)**
-  - 같은 재료 조합에 여러 제작 결과가 겹칠 때 원하는 레시피를 선택할 수 있게 합니다.
-
-- **Reese's Sodium Options**
-  - Sodium 비디오 설정 화면을 더 보기 쉽고 편리한 구조로 개선합니다.
-
-- **Resource Pack Overrides**
-  - 모드팩에 포함된 리소스팩의 기본 활성화 상태, 순서, 잠금과 표시 여부를 관리합니다.
-
-- **Fancy Toasts | Better Advancements**
-  - 발전 과제 달성 알림에 유형별 테마, 효과음과 애니메이션을 적용하고 모드팩 전용 텍스처로 꾸밀 수 있게 합니다.
-
-- **Xaero's Minimap**
-  - 웨이포인트, 지형과 주변 정보를 보여주는 미니맵을 화면에 추가합니다.
-
-- **Yeetus Experimentus**
-  - 기존 월드로 접속할 때 표시되는 실험적 설정 관련 경고 화면을 제거합니다.
-
-### 기반 라이브러리 (18개)
-
-- **Architectury API**
-  - 여러 모드 로더를 지원하는 모드들이 공통으로 사용하는 기반 라이브러리입니다.
-
-- **Balm**
-  - BlayTheNinth 계열 모드가 공통 기능을 사용하기 위한 기반 라이브러리입니다.
-
-- **Bookshelf**
-  - 여러 모드에서 설정, 데이터 및 공통 코드를 공유하기 위한 기반 라이브러리입니다.
-
-- **FTB Library (NeoForge)**
-  - FTB 계열 모드의 화면, 설정 및 공통 기능을 제공하는 기반 라이브러리입니다.
-
-- **FTB XMod Compat**
-  - FTB Quests가 FTB Filter System의 Smart Filter 조건을 판정하게 하고, KubeJS·권한 등 FTB 모드와 외부 모드 사이의 연동을 활성화합니다.
-
-- **GuideME**
-  - 모드가 게임 내 가이드북과 도움말 화면을 제공할 때 사용하는 기반 시스템입니다.
-
-- **Konkrete**
-  - FancyMenu 등 Keksuccino 계열 모드가 사용하는 공통 기반 라이브러리입니다.
-
-- **Kotlin for Forge**
-  - Kotlin으로 작성된 Forge 및 NeoForge 모드를 실행하기 위한 언어 지원 라이브러리입니다.
-
-- **Mechanicals Lib**
-  - 여러 Create 애드온이 공통으로 사용하는 코드와 기능을 제공하는 기반 라이브러리입니다.
-
-- **Melody**
-  - FancyMenu 계열 모드에서 오디오 재생 기능을 제공하는 기반 라이브러리입니다.
-
-- **Placebo**
-  - Shadows_of_Fire 계열 모드가 사용하는 공통 코드와 설정 기능을 제공하는 라이브러리입니다.
-
-- **Prickle**
-  - Darkhax 계열 모드가 공통 기능을 사용하기 위한 경량 기반 라이브러리입니다.
-
-- **Rhino**
-  - KubeJS가 JavaScript를 실행하고 Java 코드와 연동하기 위해 사용하는 스크립트 엔진입니다.
-
-- **ShatterLib | OctoLib**
-  - NERB 등 Shatterbyte 계열 모드가 공유하는 설정과 공통 코드를 제공합니다.
-
-- **Sophisticated Core**
-  - Sophisticated 계열 모드가 공유하는 업그레이드와 인벤토리 기능을 제공하는 라이브러리입니다.
-
-- **SuperMartijn642's Config Lib**
-  - SuperMartijn642 계열 모드의 설정 파일과 설정 화면을 처리하는 기반 라이브러리입니다.
-
-- **SuperMartijn642's Core Lib**
-  - SuperMartijn642 계열 모드가 사용하는 공통 코드와 유틸리티를 제공합니다.
-
-- **Zeta**
-  - Quark와 관련 모드가 사용하는 공통 기능 및 설정 시스템을 제공합니다.
+## 모드 목록 (239개)
+
+각 모드는 주된 역할과 **조정 방침**을 기준으로 분류했습니다. 여러 기능을 가진 모드는 모드팩에서 가장 크게 활용되는 분류에 배치했습니다.
+
+### 핵심 콘텐츠 및 대형 시스템 (7개)
+
+- **Create** — 회전력, 톱니바퀴, 컨베이어와 움직이는 구조물을 이용한 기계식 자동화를 추가합니다. 이 모드팩 기술 축의 중심입니다.
+- **Applied Energistics 2** — 아이템과 유체를 디지털 네트워크에 저장하고 자동화하는 대규모 물류 시스템을 추가합니다.
+- **Quark** — 바닐라 분위기를 유지하면서 건축, 탐험, 자동화와 편의 기능을 다양하게 확장합니다.
+- **Farmer's Delight** — 새로운 작물, 조리 도구, 음식과 농사 중심의 생활 콘텐츠를 추가합니다.
+- **The Twilight Forest** — 보스와 던전으로 구성된 대형 모험 차원을 추가합니다.
+- **Iron's Spells 'n Spellbooks** — 주문서와 마법 학파를 갖춘 본격적인 마법 전투 시스템을 추가합니다.
+- **Forbidden and Arcanus** — 어두운 분위기의 마법 재료, 의식과 장비를 추가합니다.
+
+### Create 생산·기술 확장 (20개)
+
+Expert 방식으로 전면 재구성하는 대상입니다.
+
+- **Create Crafts & Additions** — 전기 모터, 발전기, 전선 및 추가 자동화 장치를 더합니다.
+- **Create Low-Heated** — 수동 가열을 연료가 필요한 기본 버너로 대체하고 저온 가열 단계를 추가합니다.
+- **Create Mechanical Extruder** — 유체와 블록 조건을 조합해 자원을 생산하는 압출기를 추가합니다.
+- **Create Tiers** — Create 장치에 여러 성능 등급과 업그레이드 요소를 추가합니다.
+- **Create Ultimine** — Create 관련 블록을 일괄 채굴할 수 있게 합니다.
+- **Create Utilities J** — Create 자동화와 건축에 활용하는 편의 장치와 부품을 추가합니다.
+- **Create: AE Generator** — Create의 회전력을 Applied Energistics 2 네트워크용 에너지로 바꿉니다.
+- **Create: Atomic** — 원자력·에너지 관련 콘텐츠와 생산 과정을 추가합니다.
+- **Create: Dragons Plus** — 새로운 기계 장치, 재료, 유체 처리와 자동화 콘텐츠를 확장합니다.
+- **Create: Dreams n' Desires** — 실험적인 기계, 도구, 장식과 새로운 제작 과정을 추가합니다.
+- **Create: Enchantment Industry** — 액체 경험치와 인쇄 공정으로 마법 부여를 자동화합니다.
+- **Create: Integrated Farming** — Create 장치와 연계되는 농업 기계와 작물 자동화를 추가합니다.
+- **Create: Metallurgy** — 금속을 녹이고 주조하는 Create 기반 야금 생산 체계를 추가합니다.
+- **Create: Petrochem** — 원유 정제, 석유화학 물질과 관련 자동화 공정을 추가합니다.
+- **Create: Recipe Need RPM** — 가공 레시피가 일정 회전 속도에 도달해야 작동하도록 조건을 추가합니다.
+- **Create: Rubberworks** — 고무 생산과 가공을 Create 기계로 자동화합니다.
+- **Create: Transmission!** — 회전력을 전달하고 분배하는 추가 동력 장치를 제공합니다.
+- **Create: Treadmill** — 몹이 러닝머신을 움직여 회전력을 생산하게 합니다.
+- **Create: Unbreakable series** — Create 공정으로 내구도가 소모되지 않는 네더라이트 장비를 만들 수 있게 합니다.
+- **Create: Vintage** — 이전 Create 버전의 장치와 기능을 다시 사용할 수 있게 합니다.
+
+### Create 철도·건축·장식 (6개)
+
+- **Create Deco** — Create 분위기의 장식 블록, 금속 블록과 건축 요소를 추가합니다.
+- **Create: Bells & Whistles** — 열차를 꾸미는 장식, 차체 부품과 철도 블록을 추가합니다.
+- **Create: Blocks & Bogies** — 열차용 추가 보기와 건축·장식 블록을 제공합니다.
+- **Create: Copycats+** — 다른 블록의 외형을 입힐 수 있는 카피캣 블록을 추가합니다.
+- **Create: Nowheel** — 열차의 바퀴 표시와 외형을 조정할 수 있게 합니다.
+- **Rechiseled: Create** — Rechiseled에 Create 스타일 장식 블록과 연동을 추가합니다.
+
+### 요리 자동화 연동 (3개)
+
+- **Create Slice & Dice** — Farmer's Delight의 도마와 요리 과정을 Create 기계로 자동화합니다.
+- **Create: Bitterballen** — Create 방식으로 제작하고 자동화하는 음식과 생산 과정을 추가합니다.
+- **Create: Central Kitchen** — Create와 요리 모드를 연결해 음식 생산을 자동화합니다.
+
+### 기술 및 물류 (11개)
+
+일부를 Create 진행에 종속시키는 대상입니다. 규모가 큰 모드는 별도 퀘스트 챕터로 다룹니다.
+
+- **Pipez** — 아이템과 유체를 운송하는 파이프와 속도·필터 업그레이드를 추가합니다.
+- **LaserIO** — 레이저로 아이템, 유체와 에너지를 원거리 전송하는 물류 시스템을 추가합니다.
+- **Functional Storage** — 한 종류를 대량으로 담는 서랍형 저장 블록을 추가합니다.
+- **Uppers** — 아이템을 위로 올리는 장치를 추가합니다.
+- **Trash Cans** — 아이템, 유체와 에너지를 버리는 쓰레기통을 추가합니다.
+- **Simple Magnets** — 주변 아이템을 끌어오는 자석을 추가합니다.
+- **Applied Energistics 2 Wireless Terminals** — AE2 터미널의 무선 버전을 추가합니다.
+- **AEInfinityBooster** — AE2에 무한 범위 카드와 차원 카드를 추가합니다.
+- **Polymorphic Energistics** — AE2와 다른 에너지 체계 사이의 변환을 지원합니다.
+- **Cognition (Experience Obelisk)** — 경험치를 저장하고 가공하는 장치를 추가합니다.
+- **Productive Bees** — 자원을 생산하는 벌과 벌통 자동화를 추가합니다.
+
+### 저장 및 인벤토리 (6개)
+
+- **Sophisticated Backpacks** — 업그레이드, 자동 정리와 필터를 갖춘 확장형 가방을 추가합니다.
+- **Sophisticated Storage** — 업그레이드와 필터를 갖춘 상자, 통 및 저장 블록을 추가합니다.
+- **Sophisticated Core** — Sophisticated 계열 모드의 공통 기반을 제공합니다.
+- **Sophisticated Backpacks Create Integration** — 가방과 Create 물류 장치의 연동을 제공합니다.
+- **Sophisticated Storage Create Integration** — 저장 블록과 Create 물류 장치의 연동을 제공합니다.
+- **Akashic Tome** — 여러 모드의 가이드북을 한 권으로 합칩니다.
+
+### 모험 및 탐험 (8개)
+
+별도 트윅 없이 모드 개발자의 의도대로 둡니다.
+
+- **When Dungeons Arise - Forge!** — 대형 구조물과 로그라이크 던전을 세계에 추가합니다.
+- **Unusual End** — 엔드 차원에 새로운 지형, 구조물과 콘텐츠를 추가합니다.
+- **Lootr (Forge & NeoForge)** — 전리품 상자를 플레이어별로 분리해 멀티플레이에서 공평하게 만듭니다.
+- **Waystones** — 지역을 오가는 순간이동 거점을 추가합니다.
+- **Explorer's Compass** — 원하는 구조물의 위치를 찾아주는 나침반을 추가합니다.
+- **Nature's Compass** — 원하는 생물 군계의 위치를 찾아주는 나침반을 추가합니다.
+- **OpenBlocks Elevator** — 위아래로 즉시 이동하는 승강기 블록을 추가합니다.
+- **Vanilla Backport** — 최신 버전의 바닐라 요소를 이 버전으로 가져옵니다.
+
+### 전투, RPG 및 장신구 (10개)
+
+별도 트윅 없이 모드 개발자의 의도대로 둡니다.
+
+- **Better Combat [Fabric & Forge]** — 무기별 동작과 범위를 갖춘 근접 전투 체계로 교체합니다.
+- **Pufferfish's Skills** — 능력치와 특성을 올리는 스킬 트리 시스템을 추가합니다.
+- **Relics** — 고유 능력을 지닌 유물 장비와 강화 요소를 추가합니다.
+- **Artifacts** — 탐험으로만 얻을 수 있는 특수 능력 장비를 추가합니다.
+- **Reliquified Artifacts** — Relics와 Artifacts를 연결해 유물을 강화할 수 있게 합니다.
+- **Charm of Undying** — 불사의 토템을 장신구 슬롯에 착용할 수 있게 합니다.
+- **Angel Ring** — 착용 시 비행할 수 있는 반지를 추가합니다.
+- **Passive Shield** — 방패를 들지 않아도 일정 조건에서 막을 수 있게 합니다.
+- **Responsive Shields** — 방패의 반응 속도와 판정을 개선합니다.
+- **Enhanced Boss Bars** — 보스 체력 표시줄을 모드별로 구분해 보여줍니다.
+
+### 건축 및 장식 (17개)
+
+별도 트윅 없이 모드 개발자의 의도대로 둡니다.
+
+- **Chipped** — 바닐라 블록의 변형 장식 블록을 대량으로 추가합니다.
+- **Chisel Reborn** — 끌로 블록을 다양한 무늬로 가공할 수 있게 합니다.
+- **Rechiseled** — 하나의 재료를 다양한 무늬와 형태의 장식 블록으로 가공합니다.
+- **Rechiseled: Chipped** — Rechiseled와 Chipped의 블록을 서로 연동합니다.
+- **FramedBlocks** — 다른 블록의 외형을 입히는 다양한 형태의 골조 블록을 추가합니다.
+- **Handcrafted** — 의자, 식탁 등 생활감 있는 가구를 추가합니다.
+- **MrCrayfish's Furniture Mod: Refurbished** — 주방, 욕실과 전자기기를 포함한 가구 세트를 추가합니다.
+- **Supplementaries** — 표지판, 등불, 장식 소품 등 생활 밀착 블록을 다수 추가합니다.
+- **Domum Ornamentum** — 재료를 조합해 만드는 건축용 변형 블록을 추가합니다.
+- **Factory Blocks** — 공장풍 산업 건축 블록을 추가합니다.
+- **Connected Glass** — 서로 이어지는 텍스처의 유리 종류를 추가합니다.
+- **Simply Light** — 단순하고 깔끔한 조명 블록을 추가합니다.
+- **Immersive Paintings** — 직접 만든 그림을 액자로 걸 수 있게 합니다.
+- **Amendments** — 바닐라 블록의 배치와 상호작용을 세밀하게 다듬습니다.
+- **Building Gadgets** — 넓은 범위를 한 번에 짓고 복사하는 건축 도구를 추가합니다.
+- **Construction Sticks** — 바라보는 면을 따라 블록을 이어 붙이는 건축 막대를 추가합니다.
+- **Build Guide** — 원, 구 같은 도형의 안내선을 화면에 투영합니다.
+
+### 생활 및 농사 (8개)
+
+- **Cooking for Blockheads** — 요리책과 다중 블록 주방을 추가해 만들 수 있는 요리만 보여줍니다.
+- **Farming for Blockheads** — 상인과 시장으로 작물과 동물을 손쉽게 구할 수 있게 합니다.
+- **Spice of Life: Carrot Edition** — 같은 음식만 먹으면 효율이 떨어지게 해 식단 다양성을 유도합니다.
+- **Comforts** — 침낭과 해먹으로 휴대성과 시간 넘기기를 제공합니다.
+- **Etched** — 직접 만든 음악 디스크와 재생 장치를 추가합니다.
+- **Simple Hats** — 착용 가능한 모자 장식을 추가합니다.
+- **Fast Leaf Decay** — 원목을 벤 뒤 잎이 빠르게 사라지게 합니다.
+- **No Farmland Trample** — 농지가 밟혀 망가지지 않게 합니다.
+
+### 퀘스트 및 멀티플레이 (13개)
+
+- **FTB Quests (NeoForge)** — 진행 목표, 보상과 안내를 제공하는 퀘스트 시스템을 추가합니다.
+- **FTB Library (NeoForge)** — FTB 계열 모드의 화면, 설정 및 공통 기능을 제공합니다.
+- **FTB XMod Compat** — FTB Quests와 KubeJS, 필터 시스템 등 외부 모드의 연동을 활성화합니다.
+- **FTB Filter System** — 태그와 논리 조건을 조합한 아이템 필터를 제공합니다.
+- **FTB Chunks (NeoForge)** — 청크 소유권과 보호, 강제 로딩과 지도 기능을 제공합니다.
+- **FTB Teams (NeoForge)** — 팀 구성과 팀 단위 데이터 공유를 제공합니다.
+- **FTB Ranks (NeoForge)** — 플레이어 등급별 권한과 명령어 범위를 설정합니다.
+- **FTB Essentials (Forge & Fabric)** — 홈, 스폰 이동과 텔레포트 요청 등 편의 명령어를 제공합니다.
+- **FTB Ultimine (NeoForge)** — 키를 누른 채 같은 블록을 한 번에 채굴할 수 있게 합니다.
+- **FTB Backups 2** — 월드를 주기적으로 자동 백업합니다.
+- **More Quest Types** — 블록 파괴·설치, 길들이기, 낚시와 거래 같은 행동 목표를 추가합니다.
+- **Quests Kill Task Tweaks** — 퀘스트의 처치 목표 판정 방식을 조정합니다.
+- **Certain Questing Additions** — FTB Quests 화면의 시각적 표현을 개선합니다.
+
+### 스크립팅 및 모드팩 제작 (9개)
+
+- **KubeJS** — JavaScript로 레시피, 아이템, 태그와 게임 이벤트를 수정할 수 있게 합니다.
+- **KubeJS Create** — KubeJS에서 Create의 가공 레시피와 기능을 제어합니다.
+- **KubeJS Additions** — KubeJS에 추가 유틸리티와 기능을 더합니다.
+- **KubeJS Curios** — KubeJS에서 Curios 장신구 슬롯을 다룰 수 있게 합니다.
+- **KubeJS Rechiseled** — KubeJS에서 Rechiseled 블록 그룹을 정의할 수 있게 합니다.
+- **LootJS: KubeJS Addon** — 전리품 테이블을 스크립트로 수정할 수 있게 합니다.
+- **MoreJS** — 거래, 번식 등 추가 게임 요소를 스크립트로 다룰 수 있게 합니다.
+- **Ponder for KubeJS** — 스크립트로 Create의 Ponder 안내 장면을 만들 수 있게 합니다.
+- **Rhino** — KubeJS가 JavaScript를 실행하기 위해 사용하는 스크립트 엔진입니다.
+
+### JEI 및 레시피 조회 (9개)
+
+- **Just Enough Items (JEI)** — 아이템 목록과 제작법·사용처를 게임 안에서 확인할 수 있게 합니다.
+- **Just Enough Resources (JER)** — JEI에 광물 분포와 몹 전리품 정보를 추가합니다.
+- **Just Enough Professions (JEP)** — JEI에 주민 직업 정보를 추가합니다.
+- **Just Enough Breeding (JEBr)** — JEI에 동물 번식 조건을 추가합니다.
+- **Just Enough Archaeology** — JEI에 고고학 발굴 결과를 추가합니다.
+- **Just Enough Effect Descriptions (JEED)** — JEI에 상태 효과 설명을 추가합니다.
+- **Moderately Enough Effect Descriptions (MEED)** — 상태 효과 설명 표시를 보완합니다.
+- **AE2 JEI Integration** — AE2 터미널과 JEI를 연동합니다.
+- **Polymorph (Fabric/Forge/Quilt)** — 같은 재료로 여러 결과가 나올 때 원하는 레시피를 선택합니다.
+
+### UI 및 편의 기능 (43개)
+
+- **Jade 🔍** — 바라보는 블록이나 엔티티의 이름, 상태와 저장 정보를 표시합니다.
+- **Jade Addons (Neo/Forge)** — Jade가 여러 모드의 블록 정보를 표시하도록 지원합니다.
+- **Xaero's Minimap** — 웨이포인트와 주변 정보를 보여주는 미니맵을 추가합니다.
+- **Xaero's World Map** — 탐사한 지형을 전체 지도로 확인할 수 있게 합니다.
+- **Controlling** — 키 설정 화면에서 단축키를 검색할 수 있게 합니다.
+- **Mouse Tweaks** — 드래그와 휠로 인벤토리를 빠르게 정리할 수 있게 합니다.
+- **Inventory Essentials** — 인벤토리 아이템 이동과 정리를 위한 조작을 추가합니다.
+- **Inventory Sorter** — 클릭 한 번으로 인벤토리를 정렬합니다.
+- **Crafting Tweaks** — 제작 격자를 회전하거나 비우는 조작을 추가합니다.
+- **AppleSkin** — 허기, 포만도와 음식 정보를 화면에 표시합니다.
+- **Colorful Hearts** — 여러 줄이던 체력 표시를 한 줄로 압축해 보여줍니다.
+- **Max Health Fix** — 최대 체력 변화가 잘못 저장되는 문제를 고칩니다.
+- **Tooltip Overhaul** — 아이템 툴팁의 외형을 다듬고 장식 테두리를 제공합니다.
+- **Clean Tooltips** — 툴팁 표시를 간결하게 정리합니다.
+- **Enchantment Descriptions** — 마법 부여 책과 장비 툴팁에 효과 설명을 표시합니다.
+- **Tips** — 로딩 화면과 게임 중에 유용한 정보를 보여줍니다.
+- **More Overlays Updated** — 몹 생성 가능 구역과 청크 경계 등을 화면에 표시합니다.
+- **FindMe** — 상자 안에서 찾는 아이템의 위치를 표시합니다.
+- **Corpse** — 사망 지점에 시체를 남겨 아이템을 원래 슬롯으로 회수하게 합니다.
+- **Cosmetic Armor Reworked** — 실제 방어구와 별개인 외형 전용 슬롯을 추가합니다.
+- **Immersive UI** — 화면 전환에 애니메이션 효과를 적용합니다.
+- **FancyMenu** — 메인 메뉴와 게임 화면을 자유롭게 꾸밀 수 있게 합니다.
+- **Fancy Toasts | Better Advancements** — 알림에 유형별 테마와 효과음을 적용합니다.
+- **Advancement Disabler** — 바닐라 발전 과제를 비활성화해 진행 안내를 퀘스트로 통합합니다.
+- **Not Enough Recipe Book [NERB]** — 바닐라 레시피북을 제거해 제작법 확인을 JEI로 통합합니다.
+- **Default Options** — 신규 설치에 적용할 기본 설정과 단축키를 배포합니다.
+- **Resource Pack Overrides** — 포함된 리소스팩의 활성 상태와 순서를 관리합니다.
+- **Chat Heads** — 채팅 메시지 옆에 플레이어 얼굴을 표시합니다.
+- **Emojiful** — 채팅에서 이모지를 사용할 수 있게 합니다.
+- **What Are They Up To (Watut)** — 다른 플레이어가 무엇을 하는 중인지 표시합니다.
+- **Korean Chat Patch** — 한글 조합과 한·영 전환을 개선합니다.
+- **BetterF3** — 디버그 화면을 읽기 쉬운 구조로 교체합니다.
+- **Ding (Forge)** — 게임과 월드 로딩이 끝나면 소리로 알립니다.
+- **AmbientSounds 6** — 지형과 상황에 맞는 환경음을 추가합니다.
+- **Extreme sound muffler** — 원하는 소리를 선택적으로 줄일 수 있게 합니다.
+- **Torchmaster** — 넓은 범위의 몹 생성을 막는 특수 조명을 추가합니다.
+- **Clean Swing Through Grass** — 풀 대신 몹을 정확히 때리게 합니다.
+- **Faster Ladder Climbing** — 사다리를 더 빠르게 오를 수 있게 합니다.
+- **NetherPortalFix** — 네더 차원문 연결이 어긋나는 문제를 줄입니다.
+- **Yeetus Experimentus** — 실험적 설정 경고 화면을 제거합니다.
+- **Disable Compliance Notification** — 대한민국 사용자에게 표시되는 이용 시간 알림을 비활성화합니다.
+- **NeoAuth** — 서버 접속 시 비밀번호 인증을 제공합니다.
+- **Login Protection** — 접속 직후 일정 시간 피해를 받지 않게 보호합니다.
+
+### 그래픽·셰이더·애니메이션 (10개)
+
+- **Iris Shaders** — Sodium 환경에서 셰이더팩을 사용할 수 있게 합니다.
+- **Iris & Oculus Flywheel Compat** — Iris 셰이더와 Create의 Flywheel 렌더링 호환성을 제공합니다.
+- **Fusion (Connected Textures)** — 붙어 있는 블록의 텍스처를 자연스럽게 연결합니다.
+- **[EMF] Entity Model Features** — 리소스팩에서 커스텀 엔티티 모델을 쓸 수 있게 합니다.
+- **[ETF] Entity Texture Features** — 엔티티의 무작위·발광 텍스처 같은 고급 기능을 지원합니다.
+- **Not Enough Animations** — 3인칭 시점의 플레이어 동작 애니메이션을 표시합니다.
+- **playerAnimator** — 모드가 플레이어 애니메이션을 재생하기 위한 기반을 제공합니다.
+- **Sodium/Embeddium Dynamic Lights** — 손에 든 발광 아이템이 주변을 밝히게 합니다.
+- **Create: Dynamic Lights** — Create의 조명 부품이 움직이는 구조물에서도 작동하게 합니다.
+- **FlickerFix** — 조명이 깜빡이는 현상을 완화합니다.
+
+### 성능 최적화 (19개)
+
+- **Sodium** — 렌더링 엔진을 최적화해 프레임과 그래픽 성능을 개선합니다.
+- **Reese's Sodium Options** — Sodium 설정 화면을 보기 쉬운 구조로 개선합니다.
+- **ModernFix** — 로딩 시간, 메모리와 여러 병목을 개선하는 종합 최적화 모드입니다.
+- **FerriteCore ((Neo)Forge)** — 블록 상태와 모델 데이터의 메모리 사용량을 줄입니다.
+- **Entity Culling Fabric/Forge** — 보이지 않는 엔티티의 렌더링을 생략합니다.
+- **ImmediatelyFast** — 즉시 모드 렌더링을 최적화합니다.
+- **BadOptimizations** — 렌더링 이외의 영역을 최적화합니다.
+- **FastSuite** — 레시피 조회를 다중 스레드로 처리합니다.
+- **FastBoot** — 게임 시작 시간을 단축합니다.
+- **FPS Reducer** — 조작이 없을 때 자원 사용을 줄입니다.
+- **Better Fps - Render Distance** — 더 세밀한 렌더 거리 설정을 제공합니다.
+- **fix GPU memory leak** — 그래픽 메모리 누수를 완화합니다.
+- **Server Performance - Smooth Chunk Save** — 청크 저장을 분산해 끊김을 줄입니다.
+- **Clumps** — 가까운 경험치 구슬을 합쳐 부하를 줄입니다.
+- **AI Improvements** — 몹 인공지능 연산을 최적화합니다.
+- **spark** — 성능을 측정하고 병목을 분석하는 도구를 제공합니다.
+- **Create Better FPS** — Create의 움직이는 장치 렌더링을 최적화합니다.
+- **Create: Threaded Trains** — 열차 연산을 최적화해 복잡한 철도망의 성능을 개선합니다.
+- **FTB Quests Optimizer** — FTB Quests의 성능 문제를 개선합니다.
+
+### 기반 라이브러리 (40개)
+
+- **Architectury API** — 여러 모드 로더를 지원하는 모드의 공통 기반입니다.
+- **Accessories** — 데이터 기반의 확장 가능한 장신구 시스템을 제공합니다.
+- **Athena** — 여러 모드가 공유하는 모델 로더를 제공합니다.
+- **bad packets** — 모드 간 패킷 통신을 지원합니다.
+- **Balm** — Blay 계열 모드의 기반 라이브러리입니다.
+- **Blueprint** — Abnormals 계열 모드의 기반 라이브러리입니다.
+- **Bookshelf** — 여러 모드가 설정과 공통 코드를 공유하는 기반입니다.
+- **Cloth Config API** — 설정 화면을 만들기 위한 공통 API입니다.
+- **Collective** — Serilum 계열 모드의 공통 코드입니다.
+- **CoroUtil** — CoroUtil 계열 모드의 기반 유틸리티입니다.
+- **CreativeCore** — CreativeMD 계열 모드의 기반 라이브러리입니다.
+- **Cryonic Config** — 설정 관리를 위한 경량 라이브러리입니다.
+- **Cupboard** — 여러 모드가 사용하는 설정과 유틸리티를 제공합니다.
+- **Curios API** — 장신구 슬롯 체계를 제공하는 표준 라이브러리입니다.
+- **Framework** — MrCrayfish 계열 모드의 기반 라이브러리입니다.
+- **Fzzy Config** — 설정 화면과 동기화를 제공하는 라이브러리입니다.
+- **GeckoLib** — 복잡한 모델 애니메이션을 재생하기 위한 라이브러리입니다.
+- **GuideME** — 모드가 게임 내 가이드북을 제공할 때 사용하는 기반입니다.
+- **HaydenAPI** — 일부 모드가 공유하는 공통 코드입니다.
+- **iChunUtil** — iChun 계열 모드의 기반 라이브러리입니다.
+- **Iron's Lib** — Iron's 계열 모드의 기반 라이브러리입니다.
+- **Konkrete** — Keksuccino 계열 모드의 기반 라이브러리입니다.
+- **Kotlin for Forge** — Kotlin으로 작성된 모드를 실행하기 위한 언어 지원입니다.
+- **Mechanicals Lib** — 여러 Create 애드온이 공유하는 코드입니다.
+- **Melody** — FancyMenu 계열의 오디오 재생 기반입니다.
+- **Moonlight Lib** — Supplementaries 계열 모드의 기반 라이브러리입니다.
+- **oωo (owo-lib)** — UI와 설정을 위한 공통 라이브러리입니다.
+- **Placebo** — Shadows_of_Fire 계열 모드의 공통 코드입니다.
+- **Platform** — 여러 로더를 함께 지원하기 위한 라이브러리입니다.
+- **PolyLib** — Polymorphic 계열 모드의 기반 라이브러리입니다.
+- **Prickle** — Darkhax 계열 모드의 경량 기반 라이브러리입니다.
+- **Resourceful Lib** — Team Resourceful 모드의 기반 라이브러리입니다.
+- **Searchables** — 검색과 자동 완성 기능을 제공하는 라이브러리입니다.
+- **ShatterLib | OctoLib** — OctoStudios 계열 모드가 공유하는 코드입니다.
+- **SuperMartijn642's Config Lib** — SuperMartijn642 계열의 설정 라이브러리입니다.
+- **SuperMartijn642's Core Lib** — SuperMartijn642 계열의 핵심 라이브러리입니다.
+- **Titanium** — Team Rats 계열 모드의 기반 라이브러리입니다.
+- **Valhelsia Core** — Valhelsia 계열 모드의 기반 라이브러리입니다.
+- **Flight API** — 비행 능력을 다루는 모드가 공유하는 API입니다.
+- **Zeta** — Quark이 사용하는 모듈형 기반 라이브러리입니다.
 
 ## 기본 리소스팩
 
