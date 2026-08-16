@@ -989,6 +989,10 @@ file = "kubejs/server_scripts/andesite.js"
 hash = "ce78dff07ef255936c9cf08f2a3c6698423282036abe05e0b026726c314f7ee0"
 
 [[files]]
+file = "kubejs/server_scripts/create.js"
+hash = "144f246532031a487e09a1e7d2c89475d499097313cf4378d2d69a903f718f85"
+
+[[files]]
 file = "kubejs/server_scripts/main.js"
 hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 
