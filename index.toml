@@ -6,7 +6,7 @@ hash = "57ca5d7c97caea55c98d02777aa757e6c6fd84a07f19caa28e901d01561c0787"
 
 [[files]]
 file = "QUEST_TIPS_AND_TRICKS.md"
-hash = "ea9a6032af7de52a3a64c3ebf5b967fb1f07ceeb4b725cbfcdbbbd11da25088d"
+hash = "52487333763d62c287ffb3041b887f46dbc04c266e2bf0be6531a18d52afa5d1"
 
 [[files]]
 file = "config/CreateEnergistics2-common.toml"
@@ -567,6 +567,10 @@ hash = "44478bef0973f1aa587c0493568a5cbc5426233b611f14bd2be489b5b862fa7f"
 [[files]]
 file = "config/sodiumdynamiclights-client.toml"
 hash = "d8ebc5a26f6f4fc0d27c3746a3aa6ec8d2652873bd3cec6f254be1628f0472f7"
+
+[[files]]
+file = "config/solcarrot-server.toml"
+hash = "b4c7da474b0d67549292a09d0d386045bafe8fbc82ad9e42c4d9a443d5494b83"
 
 [[files]]
 file = "config/sophisticatedbackpacks-common.toml"
@@ -1402,6 +1406,11 @@ hash = "39ec3cac812f819f45b88a70f6b83eb8c0e6007e9272bbccfb3f364b421d2631"
 metafile = true
 
 [[files]]
+file = "mods/additional-attributes.pw.toml"
+hash = "9fcfc4f1599df9bafa85a41f3d638d05c5f98f9f0bc2c954dfc6fec2d90084b2"
+metafile = true
+
+[[files]]
 file = "mods/advancement-disabler.pw.toml"
 hash = "6c8480d437335c16dc18f5a4b084cd9dab634ecd9c29b124351342b9b95ae72a"
 metafile = true
@@ -1442,6 +1451,11 @@ hash = "8aac17572b78194ed9e51bb0e9f06d6e65ada660958fcd40c1dcf205dfe70f13"
 metafile = true
 
 [[files]]
+file = "mods/apothic-attributes.pw.toml"
+hash = "5fbeebfba16e5480242c5e0db97a9167289500e53bc0df1a0a872c0e62f55de8"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "3f910a2722d6884203aba5eee8f5c129ea3c2e0b78bc683b2d7b5604fec755f5"
 metafile = true
@@ -1469,6 +1483,11 @@ metafile = true
 [[files]]
 file = "mods/athena.pw.toml"
 hash = "38bddea8d550568799dd7f208c0bbe10280de3e456016a0d59aa20de112a2345"
+metafile = true
+
+[[files]]
+file = "mods/attributefix.pw.toml"
+hash = "a445471ac6843bcf9fb76eabb4357de0357dfa7782be536a7827a26764fe45c1"
 metafile = true
 
 [[files]]
