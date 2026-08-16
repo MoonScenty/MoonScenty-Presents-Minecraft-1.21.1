@@ -13,10 +13,11 @@ ServerEvents.recipes(event => {
     C: 'minecraft:clay_ball'
   }).id('kubejs:crafting/refractory_mortar')
 
-  // 용해로 대야, 주조 대야, 주조 테이블은 기본이 안산암 합금이라
+  // 용해로 부품과 주조 기계는 기본이 안산암 합금이라
   // 합금 라인 직후에 바로 지어진다.
   // 산업용 철 블록으로 올려 철 가공 단계를 먼저 거치게 한다.
   event.remove({ id: 'createmetallurgy:crafting/content/foundry_basin' })
+  event.remove({ id: 'createmetallurgy:crafting/content/foundry_lid' })
   event.remove({ id: 'createmetallurgy:crafting/content/casting_basin' })
   event.remove({ id: 'createmetallurgy:crafting/content/casting_table' })
 
@@ -28,6 +29,14 @@ ServerEvents.recipes(event => {
     I: 'create:industrial_iron_block',
     M: 'createmetallurgy:refractory_mortar'
   }).id('kubejs:crafting/foundry_basin')
+
+  event.shaped('createmetallurgy:foundry_lid', [
+    '   ',
+    'III',
+    'I I'
+  ], {
+    I: 'create:industrial_iron_block'
+  }).id('kubejs:crafting/foundry_lid')
 
   event.shaped('createmetallurgy:casting_basin', [
     'I I',

@@ -998,7 +998,7 @@ hash = "3f62b35ae96193f8566fb42f89d363425023c4c6d6bb9f0e39f180b821d4d9cb"
 
 [[files]]
 file = "kubejs/server_scripts/metallurgy.js"
-hash = "d1e7ba63c334b562ac799eea1059250033c105507920b1fbcbc5d4bbb857afc6"
+hash = "62350c5c18d41a70c7f1f25059eaa824d0baebb82c6f97b22ea730f6c74042c5"
 
 [[files]]
 file = "kubejs/startup_scripts/fluids.js"
@@ -1011,6 +1011,10 @@ hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 [[files]]
 file = "kubejs/startup_scripts/materials.js"
 hash = "73d96f3c9fdee7388c6ec7c4128c29a68929e256265dab157baf6314aecbc79b"
+
+[[files]]
+file = "kubejs/startup_scripts/tiers.js"
+hash = "4c372e79b2223140e31501f5a63ae2508c7d19c8d97536e0787dfed95f1ad1bb"
 
 [[files]]
 file = "mods/advancement-disabler.pw.toml"
