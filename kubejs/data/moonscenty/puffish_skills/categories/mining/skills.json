@@ -1,73 +1,303 @@
 {
-  "root": {
+  "n00": {
     "definition": "root",
     "x": 0,
     "y": 0,
     "root": true
   },
-  "ultimine_blocks_1": {
-    "definition": "ultimine_blocks_1",
+  "n01": {
+    "definition": "ult",
     "x": 0,
-    "y": -24
+    "y": -34
   },
-  "ultimine_blocks_2": {
-    "definition": "ultimine_blocks_2",
+  "n02": {
+    "definition": "ult",
+    "x": 27,
+    "y": -21
+  },
+  "n03": {
+    "definition": "ult",
+    "x": 33,
+    "y": 8
+  },
+  "n04": {
+    "definition": "ult",
+    "x": 15,
+    "y": 31
+  },
+  "n05": {
+    "definition": "ult",
+    "x": -15,
+    "y": 31
+  },
+  "n06": {
+    "definition": "ult",
+    "x": -33,
+    "y": 8
+  },
+  "n07": {
+    "definition": "ult",
+    "x": -27,
+    "y": -21
+  },
+  "n08": {
+    "definition": "ult",
     "x": 0,
-    "y": -48
+    "y": -70
   },
-  "ultimine_cooldown": {
-    "definition": "ultimine_cooldown",
-    "x": -24,
-    "y": -48
+  "n09": {
+    "definition": "ult",
+    "x": 38,
+    "y": -59
   },
-  "ultimine_exhaustion": {
-    "definition": "ultimine_exhaustion",
-    "x": 24,
-    "y": -48
+  "n10": {
+    "definition": "ult",
+    "x": 64,
+    "y": -29
   },
-  "ultimine_xp": {
-    "definition": "ultimine_xp",
+  "n11": {
+    "definition": "ult",
+    "x": 69,
+    "y": 10
+  },
+  "n12": {
+    "definition": "ult",
+    "x": 53,
+    "y": 46
+  },
+  "n13": {
+    "definition": "ult_xp",
+    "x": 20,
+    "y": 67
+  },
+  "n14": {
+    "definition": "ult_xp",
+    "x": -20,
+    "y": 67
+  },
+  "n15": {
+    "definition": "ult_xp",
+    "x": -53,
+    "y": 46
+  },
+  "n16": {
+    "definition": "ult_xp",
+    "x": -69,
+    "y": 10
+  },
+  "n17": {
+    "definition": "ult_xp",
+    "x": -64,
+    "y": -29
+  },
+  "n18": {
+    "definition": "reach",
+    "x": -38,
+    "y": -59
+  },
+  "n19": {
+    "definition": "reach",
     "x": 0,
-    "y": -72
+    "y": -108
   },
-  "cave_fall_1": {
-    "definition": "cave_fall_1",
-    "x": -24,
-    "y": 0
+  "n20": {
+    "definition": "reach",
+    "x": 50,
+    "y": -96
   },
-  "cave_fall_2": {
-    "definition": "cave_fall_2",
-    "x": -48,
-    "y": 0
+  "n21": {
+    "definition": "reach",
+    "x": 89,
+    "y": -61
   },
-  "cave_oxygen": {
-    "definition": "cave_oxygen",
-    "x": -48,
-    "y": 24
+  "n22": {
+    "definition": "reach",
+    "x": 107,
+    "y": -13
   },
-  "cave_fire": {
-    "definition": "cave_fire",
-    "x": -72,
-    "y": 0
+  "n23": {
+    "definition": "reach",
+    "x": 101,
+    "y": 38
   },
-  "work_reach": {
-    "definition": "work_reach",
-    "x": 24,
-    "y": 0
-  },
-  "work_sneak": {
-    "definition": "work_sneak",
-    "x": 48,
-    "y": 0
-  },
-  "work_step": {
-    "definition": "work_step",
-    "x": 48,
-    "y": 24
-  },
-  "work_submerged": {
-    "definition": "work_submerged",
+  "n24": {
+    "definition": "fall",
     "x": 72,
-    "y": 0
+    "y": 81
+  },
+  "n25": {
+    "definition": "fall",
+    "x": 26,
+    "y": 105
+  },
+  "n26": {
+    "definition": "fall",
+    "x": -26,
+    "y": 105
+  },
+  "n27": {
+    "definition": "fall",
+    "x": -72,
+    "y": 81
+  },
+  "n28": {
+    "definition": "fall",
+    "x": -101,
+    "y": 38
+  },
+  "n29": {
+    "definition": "fall",
+    "x": -107,
+    "y": -13
+  },
+  "n30": {
+    "definition": "falldmg",
+    "x": -89,
+    "y": -61
+  },
+  "n31": {
+    "definition": "falldmg",
+    "x": -50,
+    "y": -96
+  },
+  "n32": {
+    "definition": "falldmg",
+    "x": 0,
+    "y": -148
+  },
+  "n33": {
+    "definition": "falldmg",
+    "x": 64,
+    "y": -133
+  },
+  "n34": {
+    "definition": "falldmg",
+    "x": 116,
+    "y": -92
+  },
+  "n35": {
+    "definition": "falldmg",
+    "x": 144,
+    "y": -33
+  },
+  "n36": {
+    "definition": "oxy",
+    "x": 144,
+    "y": 33
+  },
+  "n37": {
+    "definition": "oxy",
+    "x": 116,
+    "y": 92
+  },
+  "n38": {
+    "definition": "oxy",
+    "x": 64,
+    "y": 133
+  },
+  "n39": {
+    "definition": "oxy",
+    "x": 0,
+    "y": 148
+  },
+  "n40": {
+    "definition": "oxy",
+    "x": -64,
+    "y": 133
+  },
+  "n41": {
+    "definition": "burn",
+    "x": -116,
+    "y": 92
+  },
+  "n42": {
+    "definition": "burn",
+    "x": -144,
+    "y": 33
+  },
+  "n43": {
+    "definition": "burn",
+    "x": -144,
+    "y": -33
+  },
+  "n44": {
+    "definition": "burn",
+    "x": -116,
+    "y": -92
+  },
+  "n45": {
+    "definition": "burn",
+    "x": -64,
+    "y": -133
+  },
+  "n46": {
+    "definition": "sneak",
+    "x": 0,
+    "y": -190
+  },
+  "n47": {
+    "definition": "sneak",
+    "x": 82,
+    "y": -171
+  },
+  "n48": {
+    "definition": "sneak",
+    "x": 149,
+    "y": -118
+  },
+  "n49": {
+    "definition": "sneak",
+    "x": 185,
+    "y": -42
+  },
+  "n50": {
+    "definition": "sneak",
+    "x": 185,
+    "y": 42
+  },
+  "n51": {
+    "definition": "step",
+    "x": 149,
+    "y": 118
+  },
+  "n52": {
+    "definition": "step",
+    "x": 82,
+    "y": 171
+  },
+  "n53": {
+    "definition": "step",
+    "x": 0,
+    "y": 190
+  },
+  "n54": {
+    "definition": "step",
+    "x": -82,
+    "y": 171
+  },
+  "n55": {
+    "definition": "sub",
+    "x": -149,
+    "y": 118
+  },
+  "n56": {
+    "definition": "sub",
+    "x": -185,
+    "y": 42
+  },
+  "n57": {
+    "definition": "m_cd",
+    "x": -185,
+    "y": -42
+  },
+  "n58": {
+    "definition": "m_exh",
+    "x": -149,
+    "y": -118
+  },
+  "n59": {
+    "definition": "m_resp",
+    "x": -82,
+    "y": -171
   }
 }

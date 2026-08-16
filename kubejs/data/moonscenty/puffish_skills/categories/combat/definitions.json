@@ -1,7 +1,7 @@
 {
   "root": {
     "title": "싸울 준비",
-    "description": "전투 숙련의 시작입니다. 흡수 체력을 조금 얻습니다.",
+    "description": "전투 숙련의 시작입니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -14,7 +14,7 @@
         "frame": "goal"
       }
     },
-    "size": 24,
+    "size": 26,
     "cost": 1,
     "rewards": [
       {
@@ -27,65 +27,9 @@
       }
     ]
   },
-  "core_dodge": {
-    "title": "스치듯 피하기",
-    "description": "공격을 회피할 확률이 3% 늘어납니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:phantom_membrane"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "size": 16,
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "apothic_attributes:dodge_chance",
-          "value": 0.03,
-          "operation": "add_value"
-        }
-      }
-    ]
-  },
-  "core_armor": {
-    "title": "한 겹 더",
-    "description": "방어력이 1 늘어납니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:iron_chestplate"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "size": 16,
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "minecraft:generic.armor",
-          "value": 1,
-          "operation": "add_value"
-        }
-      }
-    ]
-  },
-  "melee_crit": {
-    "title": "급소를 노려",
-    "description": "치명타 확률이 5% 늘어납니다.",
+  "crit": {
+    "title": "치명타 +1%",
+    "description": "치명타가 터질 확률이 늘어납니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -98,22 +42,22 @@
         "frame": "task"
       }
     },
-    "size": 16,
+    "size": 14,
     "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "apothic_attributes:crit_chance",
-          "value": 0.05,
+          "value": 0.01,
           "operation": "add_value"
         }
       }
     ]
   },
-  "melee_crit_dmg": {
-    "title": "깊게 찌르기",
-    "description": "치명타 피해가 15% 늘어납니다.",
+  "critdmg": {
+    "title": "치명 피해 +3%",
+    "description": "치명타 피해가 늘어납니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -126,21 +70,21 @@
         "frame": "task"
       }
     },
-    "size": 16,
+    "size": 14,
     "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "apothic_attributes:crit_damage",
-          "value": 0.15,
+          "value": 0.03,
           "operation": "add_value"
         }
       }
     ]
   },
-  "melee_lifesteal": {
-    "title": "피를 마시는 칼",
+  "steal": {
+    "title": "흡혈 +1%",
     "description": "입힌 피해의 일부를 체력으로 돌려받습니다.",
     "icon": {
       "type": "item",
@@ -151,53 +95,25 @@
     "frame": {
       "type": "advancement",
       "data": {
-        "frame": "goal"
+        "frame": "task"
       }
     },
-    "size": 16,
+    "size": 14,
     "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "apothic_attributes:life_steal",
-          "value": 0.05,
+          "value": 0.01,
           "operation": "add_value"
         }
       }
     ]
   },
-  "melee_sweep": {
-    "title": "휘둘러 베기",
-    "description": "휩쓸기 피해 비율이 늘어납니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:iron_axe"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "size": 16,
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "minecraft:player.sweeping_damage_ratio",
-          "value": 0.1,
-          "operation": "add_value"
-        }
-      }
-    ]
-  },
-  "melee_pierce": {
-    "title": "갑옷을 뚫고",
-    "description": "상대의 방어력을 1 무시합니다.",
+  "pierce": {
+    "title": "방어 관통 +0.25",
+    "description": "상대의 방어력을 무시합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -210,22 +126,50 @@
         "frame": "task"
       }
     },
-    "size": 16,
+    "size": 14,
     "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "apothic_attributes:armor_pierce",
-          "value": 1,
+          "value": 0.25,
           "operation": "add_value"
         }
       }
     ]
   },
-  "ranged_draw": {
-    "title": "빠른 시위",
-    "description": "활을 당기는 속도가 15% 빨라집니다.",
+  "sweep": {
+    "title": "휩쓸기 +3%",
+    "description": "휩쓸기 공격의 피해 비율이 늘어납니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_axe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 14,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.sweeping_damage_ratio",
+          "value": 0.03,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "draw": {
+    "title": "시위 +3%",
+    "description": "활을 당기는 속도가 빨라집니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -238,22 +182,22 @@
         "frame": "task"
       }
     },
-    "size": 16,
+    "size": 14,
     "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "apothic_attributes:draw_speed",
-          "value": 0.15,
+          "value": 0.03,
           "operation": "add_value"
         }
       }
     ]
   },
-  "ranged_damage": {
-    "title": "묵직한 화살",
-    "description": "화살 피해가 늘어납니다.",
+  "arrow": {
+    "title": "화살 피해 +0.15",
+    "description": "화살이 주는 피해가 늘어납니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -266,22 +210,22 @@
         "frame": "task"
       }
     },
-    "size": 16,
+    "size": 14,
     "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "apothic_attributes:arrow_damage",
-          "value": 0.5,
+          "value": 0.15,
           "operation": "add_value"
         }
       }
     ]
   },
-  "ranged_velocity": {
-    "title": "곧게 날아가",
-    "description": "화살이 더 빠르고 곧게 날아갑니다.",
+  "velo": {
+    "title": "탄속 +5%",
+    "description": "화살이 더 빠르게 날아갑니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -294,21 +238,21 @@
         "frame": "task"
       }
     },
-    "size": 16,
+    "size": 14,
     "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "apothic_attributes:arrow_velocity",
-          "value": 0.2,
+          "value": 0.05,
           "operation": "add_value"
         }
       }
     ]
   },
-  "ranged_projectile": {
-    "title": "던지는 것마다",
+  "proj": {
+    "title": "투사체 +0.15",
     "description": "모든 투사체 피해가 늘어납니다.",
     "icon": {
       "type": "item",
@@ -319,25 +263,25 @@
     "frame": {
       "type": "advancement",
       "data": {
-        "frame": "goal"
+        "frame": "task"
       }
     },
-    "size": 16,
+    "size": 14,
     "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "apothic_attributes:projectile_damage",
-          "value": 0.5,
+          "value": 0.15,
           "operation": "add_value"
         }
       }
     ]
   },
-  "magic_mana": {
-    "title": "마나의 그릇",
-    "description": "최대 마나가 늘어납니다.",
+  "mana": {
+    "title": "최대 마나 +5",
+    "description": "마나 총량이 늘어납니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -350,22 +294,22 @@
         "frame": "task"
       }
     },
-    "size": 16,
+    "size": 14,
     "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:max_mana",
-          "value": 20,
+          "value": 5,
           "operation": "add_value"
         }
       }
     ]
   },
-  "magic_regen": {
-    "title": "차오르는 마나",
-    "description": "마나 회복 속도가 빨라집니다.",
+  "regen": {
+    "title": "마나 회복 +5%",
+    "description": "마나가 차오르는 속도가 빨라집니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -378,21 +322,21 @@
         "frame": "task"
       }
     },
-    "size": 16,
+    "size": 14,
     "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:mana_regen",
-          "value": 0.2,
+          "value": 0.05,
           "operation": "add_value"
         }
       }
     ]
   },
-  "magic_power": {
-    "title": "주문에 힘을",
+  "power": {
+    "title": "주문 위력 +2%",
     "description": "모든 주문의 위력이 늘어납니다.",
     "icon": {
       "type": "item",
@@ -403,25 +347,81 @@
     "frame": {
       "type": "advancement",
       "data": {
-        "frame": "goal"
+        "frame": "task"
       }
     },
-    "size": 16,
+    "size": 14,
     "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:spell_power",
-          "value": 0.1,
+          "value": 0.02,
           "operation": "add_value"
         }
       }
     ]
   },
-  "magic_cooldown": {
+  "dodge": {
+    "title": "회피 +1%",
+    "description": "공격을 흘려낼 확률이 늘어납니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:phantom_membrane"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 14,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:dodge_chance",
+          "value": 0.01,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "armor": {
+    "title": "방어력 +0.5",
+    "description": "방어력이 늘어납니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 14,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 0.5,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "c_cd": {
     "title": "쉼 없는 영창",
-    "description": "주문 재사용 대기와 시전 시간이 줄어듭니다.",
+    "description": "주문 대기와 시전 시간이 줄어듭니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -431,17 +431,17 @@
     "frame": {
       "type": "advancement",
       "data": {
-        "frame": "task"
+        "frame": "goal"
       }
     },
-    "size": 16,
+    "size": 22,
     "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:cooldown_reduction",
-          "value": 0.05,
+          "value": 0.1,
           "operation": "add_value"
         }
       },
@@ -449,13 +449,13 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:cast_time_reduction",
-          "value": 0.05,
+          "value": 0.1,
           "operation": "add_value"
         }
       }
     ]
   },
-  "magic_resist": {
+  "c_resist": {
     "title": "마법을 흘려보내다",
     "description": "받는 마법 피해가 줄어듭니다.",
     "icon": {
@@ -467,17 +467,45 @@
     "frame": {
       "type": "advancement",
       "data": {
-        "frame": "challenge"
+        "frame": "goal"
       }
     },
-    "size": 16,
+    "size": 22,
     "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:spell_resist",
-          "value": 0.1,
+          "value": 0.15,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "c_absorb": {
+    "title": "무쇠 같은 몸",
+    "description": "흡수 체력을 크게 얻습니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 22,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_absorption",
+          "value": 6,
           "operation": "add_value"
         }
       }

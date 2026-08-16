@@ -1,53 +1,303 @@
 {
-  "root": {
+  "n00": {
     "definition": "root",
     "x": 0,
     "y": 0,
     "root": true
   },
-  "land_sprint": {
-    "definition": "land_sprint",
-    "x": -24,
-    "y": 0
+  "n01": {
+    "definition": "speed",
+    "x": 0,
+    "y": -34
   },
-  "land_step": {
-    "definition": "land_step",
-    "x": -48,
-    "y": 0
+  "n02": {
+    "definition": "speed",
+    "x": 27,
+    "y": -21
   },
-  "land_terrain": {
-    "definition": "land_terrain",
+  "n03": {
+    "definition": "speed",
+    "x": 33,
+    "y": 8
+  },
+  "n04": {
+    "definition": "speed",
+    "x": 15,
+    "y": 31
+  },
+  "n05": {
+    "definition": "speed",
+    "x": -15,
+    "y": 31
+  },
+  "n06": {
+    "definition": "speed",
+    "x": -33,
+    "y": 8
+  },
+  "n07": {
+    "definition": "speed",
+    "x": -27,
+    "y": -21
+  },
+  "n08": {
+    "definition": "speed",
+    "x": 0,
+    "y": -70
+  },
+  "n09": {
+    "definition": "sprint",
+    "x": 38,
+    "y": -59
+  },
+  "n10": {
+    "definition": "sprint",
+    "x": 64,
+    "y": -29
+  },
+  "n11": {
+    "definition": "sprint",
+    "x": 69,
+    "y": 10
+  },
+  "n12": {
+    "definition": "sprint",
+    "x": 53,
+    "y": 46
+  },
+  "n13": {
+    "definition": "sprint",
+    "x": 20,
+    "y": 67
+  },
+  "n14": {
+    "definition": "sprint",
+    "x": -20,
+    "y": 67
+  },
+  "n15": {
+    "definition": "sstep",
+    "x": -53,
+    "y": 46
+  },
+  "n16": {
+    "definition": "sstep",
+    "x": -69,
+    "y": 10
+  },
+  "n17": {
+    "definition": "sstep",
+    "x": -64,
+    "y": -29
+  },
+  "n18": {
+    "definition": "sstep",
+    "x": -38,
+    "y": -59
+  },
+  "n19": {
+    "definition": "swim",
+    "x": 0,
+    "y": -108
+  },
+  "n20": {
+    "definition": "swim",
+    "x": 50,
+    "y": -96
+  },
+  "n21": {
+    "definition": "swim",
+    "x": 89,
+    "y": -61
+  },
+  "n22": {
+    "definition": "swim",
+    "x": 107,
+    "y": -13
+  },
+  "n23": {
+    "definition": "swim",
+    "x": 101,
+    "y": 38
+  },
+  "n24": {
+    "definition": "water",
+    "x": 72,
+    "y": 81
+  },
+  "n25": {
+    "definition": "water",
+    "x": 26,
+    "y": 105
+  },
+  "n26": {
+    "definition": "water",
+    "x": -26,
+    "y": 105
+  },
+  "n27": {
+    "definition": "water",
     "x": -72,
-    "y": 0
+    "y": 81
   },
-  "water_swim": {
-    "definition": "water_swim",
-    "x": 24,
-    "y": 0
+  "n28": {
+    "definition": "water",
+    "x": -101,
+    "y": 38
   },
-  "water_efficiency": {
-    "definition": "water_efficiency",
-    "x": 48,
-    "y": 0
+  "n29": {
+    "definition": "snow",
+    "x": -107,
+    "y": -13
   },
-  "find_luck": {
-    "definition": "find_luck",
+  "n30": {
+    "definition": "snow",
+    "x": -89,
+    "y": -61
+  },
+  "n31": {
+    "definition": "snow",
+    "x": -50,
+    "y": -96
+  },
+  "n32": {
+    "definition": "snow",
     "x": 0,
-    "y": -24
+    "y": -148
   },
-  "find_jump": {
-    "definition": "find_jump",
-    "x": 0,
-    "y": -48
+  "n33": {
+    "definition": "slip",
+    "x": 64,
+    "y": -133
   },
-  "find_range": {
-    "definition": "find_range",
-    "x": 0,
-    "y": 24
+  "n34": {
+    "definition": "slip",
+    "x": 116,
+    "y": -92
   },
-  "find_villager": {
-    "definition": "find_villager",
+  "n35": {
+    "definition": "slip",
+    "x": 144,
+    "y": -33
+  },
+  "n36": {
+    "definition": "slip",
+    "x": 144,
+    "y": 33
+  },
+  "n37": {
+    "definition": "luck",
+    "x": 116,
+    "y": 92
+  },
+  "n38": {
+    "definition": "luck",
+    "x": 64,
+    "y": 133
+  },
+  "n39": {
+    "definition": "luck",
     "x": 0,
-    "y": 48
+    "y": 148
+  },
+  "n40": {
+    "definition": "luck",
+    "x": -64,
+    "y": 133
+  },
+  "n41": {
+    "definition": "luck",
+    "x": -116,
+    "y": 92
+  },
+  "n42": {
+    "definition": "luck",
+    "x": -144,
+    "y": 33
+  },
+  "n43": {
+    "definition": "jump",
+    "x": -144,
+    "y": -33
+  },
+  "n44": {
+    "definition": "jump",
+    "x": -116,
+    "y": -92
+  },
+  "n45": {
+    "definition": "jump",
+    "x": -64,
+    "y": -133
+  },
+  "n46": {
+    "definition": "jump",
+    "x": 0,
+    "y": -190
+  },
+  "n47": {
+    "definition": "jump",
+    "x": 82,
+    "y": -171
+  },
+  "n48": {
+    "definition": "tag",
+    "x": 149,
+    "y": -118
+  },
+  "n49": {
+    "definition": "tag",
+    "x": 185,
+    "y": -42
+  },
+  "n50": {
+    "definition": "tag",
+    "x": 185,
+    "y": 42
+  },
+  "n51": {
+    "definition": "tag",
+    "x": 149,
+    "y": 118
+  },
+  "n52": {
+    "definition": "rep",
+    "x": 82,
+    "y": 171
+  },
+  "n53": {
+    "definition": "rep",
+    "x": 0,
+    "y": 190
+  },
+  "n54": {
+    "definition": "rep",
+    "x": -82,
+    "y": 171
+  },
+  "n55": {
+    "definition": "rep",
+    "x": -149,
+    "y": 118
+  },
+  "n56": {
+    "definition": "rep",
+    "x": -185,
+    "y": 42
+  },
+  "n57": {
+    "definition": "e_swift",
+    "x": -185,
+    "y": -42
+  },
+  "n58": {
+    "definition": "e_luck",
+    "x": -149,
+    "y": -118
+  },
+  "n59": {
+    "definition": "e_amphi",
+    "x": -82,
+    "y": -171
   }
 }

@@ -5,7 +5,9 @@
 ## 구현 현황
 
 - 대상 모드는 Puffish Skills `0.18.3-1.21-neoforge`입니다.
-- 카테고리 4개와 노드 51개를 작성했으며 인게임 검증이 남아 있습니다.
+- 카테고리 4개에 노드를 60개씩, 모두 240개 작성했으며 인게임 검증이 남아 있습니다.
+- 노드는 작은 증가량을 여러 번 쌓는 방식입니다. 정의를 재사용해 같은 정의를 여러 노드에 붙입니다.
+- 배치는 동심원 다섯 겹을 방사선과 원주선으로 이은 거미줄입니다. 한 노드로 가는 길이 여러 개입니다.
 - KubeJS 스크립트는 사용하지 않습니다. `kubejs/data/`를 데이터팩 경로로만 쓰고 내용은 순수 JSON입니다.
 - 네임스페이스는 `moonscenty`입니다.
 - 게임 내 기본 언어와 관계없이 같은 문구가 표시되도록 JSON에 한글을 직접 적습니다.
@@ -16,6 +18,8 @@
 - 그러므로 탭은 모드가 아니라 **행동**으로 나눕니다. 검을 휘두른 사람은 전투 포인트만, 요리한 사람은 생활 포인트만 쌓입니다.
 - 루트를 제한하지 않습니다. `exclusive_root`는 모든 탭에서 `false`이며 갈래를 자유롭게 섞을 수 있습니다.
 - `spent_points_limit`도 걸지 않습니다. 페이싱은 오직 경험치 곡선으로 조절합니다.
+- 포인트는 노드 수와 같게 줍니다. 끝까지 하면 한 탭을 전부 채울 수 있습니다.
+- 노드 하나하나는 작게 잡습니다. 어느 노드도 반드시 찍어야 하는 것이 되지 않게 합니다.
 - **기술 축은 트리에 넣지 않습니다.** Create를 Expert로 재구성한 이유가 병목 설계인데 스킬로 우회하면 의미가 없어집니다.
 - **자원 산출량을 늘리지 않습니다.** 광석에서 부스러기, 용탕으로 이어지는 사슬은 석기 시대의 핵심 병목입니다. 속도와 범위만 다룹니다.
 - 다른 모드의 진행 체계를 건너뛰게 하지 않습니다. 주문은 위력만 올리고 습득은 Iron's Spells에 맡깁니다.
@@ -33,14 +37,16 @@
 
 ## 탭 구성
 
-| 탭 | 카테고리 ID | 경험치 원천 | 성격 | 노드 |
-| --- | --- | --- | --- | --- |
-| 채굴 | `moonscenty:mining` | `mine_block` | 일괄 채굴 범위와 동굴 생존 | 14 |
-| 전투 | `moonscenty:combat` | `kill_entity` `deal_damage` `take_damage` | 근접·원거리·마법 자유 조합 | 17 |
-| 생활 | `moonscenty:living` | `eat_food` `fish_item` `heal` | 몸, 식탁, 낚시 | 10 |
-| 탐험 | `moonscenty:exploration` | `increase_stat` `criterion` | 육상, 수상, 발견 | 10 |
+| 탭 | 카테고리 ID | 경험치 원천 | 노드 | 정의 | 포인트 |
+| --- | --- | --- | --- | --- | --- |
+| 채굴 | `moonscenty:mining` | `mine_block` | 60 | 14 | 60 |
+| 전투 | `moonscenty:combat` | `kill_entity` `deal_damage` `take_damage` | 60 | 18 | 60 |
+| 생활 | `moonscenty:living` | `eat_food` `fish_item` `heal` | 60 | 14 | 60 |
+| 탐험 | `moonscenty:exploration` | **없음 (미결정)** | 60 | 15 | 1 |
 
-네 탭 모두 `unlocked_by_default: true`, `starting_points: 1`, `level_limit: 30`입니다.
+네 탭 모두 `unlocked_by_default: true`, `starting_points: 1`입니다. 탐험을 뺀 세 탭은 `level_limit: 59`라 시작 포인트를 더해 60개가 되어 노드 수와 일치합니다.
+
+각 탭의 연결선은 118개입니다. 고리 안에서 옆으로도 이어져 있어 막다른 길이 없습니다.
 
 ---
 
@@ -208,6 +214,26 @@ kubejs/data/moonscenty/puffish_skills/categories/<카테고리>/
 **경험치 원천 종류**
 
 `break_block` `mine_block` `craft_item` `smelt_item` `enchant_item` `kill_entity` `shared_kill_entity` `deal_damage` `take_damage` `eat_food` `fish_item` `heal` `increase_stat` `criterion`
+
+## 탐험 탭의 경험치 원천 (미결정)
+
+탐험만 경험치 원천이 비어 있습니다. `enabled: false`로 두었고 포인트는 외부에서만 들어옵니다. 쓸 수 있는 원천이 둘 다 막혔기 때문입니다.
+
+| 후보 | 막힌 이유 |
+| --- | --- |
+| `criterion` | `criterion` 필드가 필수인데 이 모드팩은 No Advancements로 바닐라 발전 과제를 껐습니다. |
+| `increase_stat` | 대상 통계를 거르지 않으면 `play_time`까지 세어 가만히 서 있어도 초당 20씩 오릅니다. |
+
+`increase_stat`을 거르려면 `calculation`의 `operations`에 `StatCondition`을 넣어야 합니다. 이 연산은 데이터로 `stat`과 `test`를 받는 것까지는 확인했으나, 연산 등록 ID가 클래스 상수에 남아 있지 않아 확정하지 못했습니다. 잘못 적으면 카테고리 전체가 로드되지 않습니다.
+
+당장 쓸 수 있는 우회는 `PointsReward`입니다. 다른 탭의 큰 노드나 FTB Quests 보상에서 탐험 포인트를 직접 지급할 수 있습니다.
+
+```json
+{ "type": "puffish_skills:points",
+  "data": { "category": "moonscenty:exploration", "points": 1 } }
+```
+
+퀘스트로 포인트를 주는 방식은 오히려 이 모드팩과 잘 맞습니다. 걸은 거리를 쌓는 대신 **탐험 퀘스트를 깨면 포인트가 들어오는** 구조가 되기 때문입니다. 다만 해당 퀘스트가 아직 없어서 지금은 시작 포인트 1개만 있습니다.
 
 ## 검증 현황
 

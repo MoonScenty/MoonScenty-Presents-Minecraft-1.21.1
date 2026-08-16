@@ -1,88 +1,303 @@
 {
-  "root": {
+  "n00": {
     "definition": "root",
     "x": 0,
     "y": 0,
     "root": true
   },
-  "core_dodge": {
-    "definition": "core_dodge",
+  "n01": {
+    "definition": "crit",
     "x": 0,
-    "y": -24
+    "y": -34
   },
-  "core_armor": {
-    "definition": "core_armor",
+  "n02": {
+    "definition": "crit",
+    "x": 27,
+    "y": -21
+  },
+  "n03": {
+    "definition": "crit",
+    "x": 33,
+    "y": 8
+  },
+  "n04": {
+    "definition": "crit",
+    "x": 15,
+    "y": 31
+  },
+  "n05": {
+    "definition": "crit",
+    "x": -15,
+    "y": 31
+  },
+  "n06": {
+    "definition": "crit",
+    "x": -33,
+    "y": 8
+  },
+  "n07": {
+    "definition": "critdmg",
+    "x": -27,
+    "y": -21
+  },
+  "n08": {
+    "definition": "critdmg",
     "x": 0,
-    "y": -48
+    "y": -70
   },
-  "melee_crit": {
-    "definition": "melee_crit",
-    "x": -24,
-    "y": 0
+  "n09": {
+    "definition": "critdmg",
+    "x": 38,
+    "y": -59
   },
-  "melee_crit_dmg": {
-    "definition": "melee_crit_dmg",
-    "x": -48,
-    "y": 0
+  "n10": {
+    "definition": "critdmg",
+    "x": 64,
+    "y": -29
   },
-  "melee_lifesteal": {
-    "definition": "melee_lifesteal",
-    "x": -72,
-    "y": 0
+  "n11": {
+    "definition": "critdmg",
+    "x": 69,
+    "y": 10
   },
-  "melee_sweep": {
-    "definition": "melee_sweep",
-    "x": -48,
-    "y": 24
+  "n12": {
+    "definition": "steal",
+    "x": 53,
+    "y": 46
   },
-  "melee_pierce": {
-    "definition": "melee_pierce",
-    "x": -48,
-    "y": -24
+  "n13": {
+    "definition": "steal",
+    "x": 20,
+    "y": 67
   },
-  "ranged_draw": {
-    "definition": "ranged_draw",
-    "x": 24,
-    "y": 0
+  "n14": {
+    "definition": "steal",
+    "x": -20,
+    "y": 67
   },
-  "ranged_damage": {
-    "definition": "ranged_damage",
-    "x": 48,
-    "y": 0
+  "n15": {
+    "definition": "steal",
+    "x": -53,
+    "y": 46
   },
-  "ranged_velocity": {
-    "definition": "ranged_velocity",
-    "x": 48,
-    "y": -24
+  "n16": {
+    "definition": "pierce",
+    "x": -69,
+    "y": 10
   },
-  "ranged_projectile": {
-    "definition": "ranged_projectile",
+  "n17": {
+    "definition": "pierce",
+    "x": -64,
+    "y": -29
+  },
+  "n18": {
+    "definition": "pierce",
+    "x": -38,
+    "y": -59
+  },
+  "n19": {
+    "definition": "pierce",
+    "x": 0,
+    "y": -108
+  },
+  "n20": {
+    "definition": "sweep",
+    "x": 50,
+    "y": -96
+  },
+  "n21": {
+    "definition": "sweep",
+    "x": 89,
+    "y": -61
+  },
+  "n22": {
+    "definition": "sweep",
+    "x": 107,
+    "y": -13
+  },
+  "n23": {
+    "definition": "draw",
+    "x": 101,
+    "y": 38
+  },
+  "n24": {
+    "definition": "draw",
     "x": 72,
-    "y": 0
+    "y": 81
   },
-  "magic_mana": {
-    "definition": "magic_mana",
+  "n25": {
+    "definition": "draw",
+    "x": 26,
+    "y": 105
+  },
+  "n26": {
+    "definition": "draw",
+    "x": -26,
+    "y": 105
+  },
+  "n27": {
+    "definition": "arrow",
+    "x": -72,
+    "y": 81
+  },
+  "n28": {
+    "definition": "arrow",
+    "x": -101,
+    "y": 38
+  },
+  "n29": {
+    "definition": "arrow",
+    "x": -107,
+    "y": -13
+  },
+  "n30": {
+    "definition": "arrow",
+    "x": -89,
+    "y": -61
+  },
+  "n31": {
+    "definition": "velo",
+    "x": -50,
+    "y": -96
+  },
+  "n32": {
+    "definition": "velo",
     "x": 0,
-    "y": 24
+    "y": -148
   },
-  "magic_regen": {
-    "definition": "magic_regen",
+  "n33": {
+    "definition": "velo",
+    "x": 64,
+    "y": -133
+  },
+  "n34": {
+    "definition": "proj",
+    "x": 116,
+    "y": -92
+  },
+  "n35": {
+    "definition": "proj",
+    "x": 144,
+    "y": -33
+  },
+  "n36": {
+    "definition": "proj",
+    "x": 144,
+    "y": 33
+  },
+  "n37": {
+    "definition": "proj",
+    "x": 116,
+    "y": 92
+  },
+  "n38": {
+    "definition": "mana",
+    "x": 64,
+    "y": 133
+  },
+  "n39": {
+    "definition": "mana",
     "x": 0,
-    "y": 48
+    "y": 148
   },
-  "magic_power": {
-    "definition": "magic_power",
-    "x": -24,
-    "y": 48
+  "n40": {
+    "definition": "mana",
+    "x": -64,
+    "y": 133
   },
-  "magic_cooldown": {
-    "definition": "magic_cooldown",
-    "x": 24,
-    "y": 48
+  "n41": {
+    "definition": "mana",
+    "x": -116,
+    "y": 92
   },
-  "magic_resist": {
-    "definition": "magic_resist",
+  "n42": {
+    "definition": "regen",
+    "x": -144,
+    "y": 33
+  },
+  "n43": {
+    "definition": "regen",
+    "x": -144,
+    "y": -33
+  },
+  "n44": {
+    "definition": "regen",
+    "x": -116,
+    "y": -92
+  },
+  "n45": {
+    "definition": "regen",
+    "x": -64,
+    "y": -133
+  },
+  "n46": {
+    "definition": "power",
     "x": 0,
-    "y": 72
+    "y": -190
+  },
+  "n47": {
+    "definition": "power",
+    "x": 82,
+    "y": -171
+  },
+  "n48": {
+    "definition": "power",
+    "x": 149,
+    "y": -118
+  },
+  "n49": {
+    "definition": "power",
+    "x": 185,
+    "y": -42
+  },
+  "n50": {
+    "definition": "dodge",
+    "x": 185,
+    "y": 42
+  },
+  "n51": {
+    "definition": "dodge",
+    "x": 149,
+    "y": 118
+  },
+  "n52": {
+    "definition": "dodge",
+    "x": 82,
+    "y": 171
+  },
+  "n53": {
+    "definition": "dodge",
+    "x": 0,
+    "y": 190
+  },
+  "n54": {
+    "definition": "armor",
+    "x": -82,
+    "y": 171
+  },
+  "n55": {
+    "definition": "armor",
+    "x": -149,
+    "y": 118
+  },
+  "n56": {
+    "definition": "armor",
+    "x": -185,
+    "y": 42
+  },
+  "n57": {
+    "definition": "c_cd",
+    "x": -185,
+    "y": -42
+  },
+  "n58": {
+    "definition": "c_resist",
+    "x": -149,
+    "y": -118
+  },
+  "n59": {
+    "definition": "c_absorb",
+    "x": -82,
+    "y": -171
   }
 }

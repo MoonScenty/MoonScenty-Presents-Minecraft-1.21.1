@@ -1,7 +1,7 @@
 {
   "root": {
     "title": "잘 먹고 잘 살기",
-    "description": "생활 숙련의 시작입니다. 최대 체력이 조금 늘어납니다.",
+    "description": "생활 숙련의 시작입니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -14,7 +14,7 @@
         "frame": "goal"
       }
     },
-    "size": 24,
+    "size": 26,
     "cost": 1,
     "rewards": [
       {
@@ -27,9 +27,9 @@
       }
     ]
   },
-  "body_health": {
-    "title": "튼튼한 몸",
-    "description": "최대 체력이 하트 2개만큼 늘어납니다.",
+  "hp": {
+    "title": "최대 체력 +1",
+    "description": "최대 체력이 반 칸 늘어납니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -42,21 +42,21 @@
         "frame": "task"
       }
     },
-    "size": 16,
+    "size": 14,
     "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.max_health",
-          "value": 4,
+          "value": 1,
           "operation": "add_value"
         }
       }
     ]
   },
-  "body_healing": {
-    "title": "빨리 낫는다",
+  "heal": {
+    "title": "회복량 +2%",
     "description": "받는 회복량이 늘어납니다.",
     "icon": {
       "type": "item",
@@ -70,22 +70,50 @@
         "frame": "task"
       }
     },
-    "size": 16,
+    "size": 14,
     "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "apothic_attributes:healing_received",
-          "value": 0.15,
+          "value": 0.02,
           "operation": "add_value"
         }
       }
     ]
   },
-  "body_overheal": {
-    "title": "넘치도록",
-    "description": "최대 체력을 넘겨 회복한 만큼이 남습니다.",
+  "absorb": {
+    "title": "흡수 +1",
+    "description": "흡수 체력이 늘어납니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:pumpkin_pie"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 14,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_absorption",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "over": {
+    "title": "초과 회복 +3%",
+    "description": "최대 체력을 넘겨 회복한 양이 남습니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -95,25 +123,25 @@
     "frame": {
       "type": "advancement",
       "data": {
-        "frame": "challenge"
+        "frame": "task"
       }
     },
-    "size": 16,
+    "size": 14,
     "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "apothic_attributes:overheal",
-          "value": 0.2,
+          "value": 0.03,
           "operation": "add_value"
         }
       }
     ]
   },
-  "table_eat": {
-    "title": "한입에 꿀꺽",
-    "description": "먹고 마시는 속도가 빨라집니다.",
+  "eat": {
+    "title": "식사 속도 +5%",
+    "description": "먹는 속도가 빨라집니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -126,29 +154,49 @@
         "frame": "task"
       }
     },
-    "size": 16,
+    "size": 14,
     "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "artifacts:generic.eating_speed",
-          "value": 0.25,
-          "operation": "add_value"
-        }
-      },
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "artifacts:generic.drinking_speed",
-          "value": 0.25,
+          "value": 0.05,
           "operation": "add_value"
         }
       }
     ]
   },
-  "table_harvest": {
-    "title": "한 포기 더",
+  "drink": {
+    "title": "음용 속도 +5%",
+    "description": "마시는 속도가 빨라집니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:honey_bottle"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 14,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "artifacts:generic.drinking_speed",
+          "value": 0.05,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "harvest": {
+    "title": "수확 +0.2",
     "description": "작물 수확량이 늘어납니다.",
     "icon": {
       "type": "item",
@@ -162,50 +210,22 @@
         "frame": "task"
       }
     },
-    "size": 16,
+    "size": 14,
     "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "additional_attributes:harvest",
-          "value": 1,
+          "value": 0.2,
           "operation": "add_value"
         }
       }
     ]
   },
-  "table_absorb": {
-    "title": "든든한 배",
-    "description": "흡수 체력을 얻습니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:pumpkin_pie"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "goal"
-      }
-    },
-    "size": 16,
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "minecraft:generic.max_absorption",
-          "value": 4,
-          "operation": "add_value"
-        }
-      }
-    ]
-  },
-  "fish_luck": {
-    "title": "손맛을 알다",
-    "description": "낚시로 좋은 물건이 걸릴 확률이 늘어납니다.",
+  "fluck": {
+    "title": "낚시 행운 +0.2",
+    "description": "좋은 물건이 걸릴 확률이 늘어납니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -218,21 +238,21 @@
         "frame": "task"
       }
     },
-    "size": 16,
+    "size": 14,
     "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "additional_attributes:fishing_luck",
-          "value": 1,
+          "value": 0.2,
           "operation": "add_value"
         }
       }
     ]
   },
-  "fish_lure": {
-    "title": "금방 물어요",
+  "flure": {
+    "title": "입질 +0.2",
     "description": "물고기가 미끼를 무는 시간이 짧아집니다.",
     "icon": {
       "type": "item",
@@ -246,22 +266,22 @@
         "frame": "task"
       }
     },
-    "size": 16,
+    "size": 14,
     "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "additional_attributes:fishing_lure",
-          "value": 1,
+          "value": 0.2,
           "operation": "add_value"
         }
       }
     ]
   },
-  "fish_loot": {
-    "title": "건져 올린 보물",
-    "description": "전리품이 더 나옵니다.",
+  "loot": {
+    "title": "전리품 +0.2",
+    "description": "처치 시 전리품이 더 나옵니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -271,17 +291,109 @@
     "frame": {
       "type": "advancement",
       "data": {
-        "frame": "goal"
+        "frame": "task"
       }
     },
-    "size": 16,
+    "size": 14,
     "cost": 1,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "additional_attributes:looting",
+          "value": 0.2,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "l_hp": {
+    "title": "타고난 체력",
+    "description": "최대 체력이 하트 2개만큼 늘어납니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_carrot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 22,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "l_harvest": {
+    "title": "풍년",
+    "description": "작물 수확량이 크게 늘어납니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:hay_block"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 22,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "additional_attributes:harvest",
           "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "l_feast": {
+    "title": "대식가",
+    "description": "먹고 마시는 것이 훨씬 빨라집니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cake"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 22,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "artifacts:generic.eating_speed",
+          "value": 0.3,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "artifacts:generic.drinking_speed",
+          "value": 0.3,
           "operation": "add_value"
         }
       }

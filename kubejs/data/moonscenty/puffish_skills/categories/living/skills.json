@@ -1,53 +1,303 @@
 {
-  "root": {
+  "n00": {
     "definition": "root",
     "x": 0,
     "y": 0,
     "root": true
   },
-  "body_health": {
-    "definition": "body_health",
+  "n01": {
+    "definition": "hp",
     "x": 0,
-    "y": -24
+    "y": -34
   },
-  "body_healing": {
-    "definition": "body_healing",
+  "n02": {
+    "definition": "hp",
+    "x": 27,
+    "y": -21
+  },
+  "n03": {
+    "definition": "hp",
+    "x": 33,
+    "y": 8
+  },
+  "n04": {
+    "definition": "hp",
+    "x": 15,
+    "y": 31
+  },
+  "n05": {
+    "definition": "hp",
+    "x": -15,
+    "y": 31
+  },
+  "n06": {
+    "definition": "hp",
+    "x": -33,
+    "y": 8
+  },
+  "n07": {
+    "definition": "hp",
+    "x": -27,
+    "y": -21
+  },
+  "n08": {
+    "definition": "hp",
     "x": 0,
-    "y": -48
+    "y": -70
   },
-  "body_overheal": {
-    "definition": "body_overheal",
+  "n09": {
+    "definition": "hp",
+    "x": 38,
+    "y": -59
+  },
+  "n10": {
+    "definition": "hp",
+    "x": 64,
+    "y": -29
+  },
+  "n11": {
+    "definition": "heal",
+    "x": 69,
+    "y": 10
+  },
+  "n12": {
+    "definition": "heal",
+    "x": 53,
+    "y": 46
+  },
+  "n13": {
+    "definition": "heal",
+    "x": 20,
+    "y": 67
+  },
+  "n14": {
+    "definition": "heal",
+    "x": -20,
+    "y": 67
+  },
+  "n15": {
+    "definition": "heal",
+    "x": -53,
+    "y": 46
+  },
+  "n16": {
+    "definition": "heal",
+    "x": -69,
+    "y": 10
+  },
+  "n17": {
+    "definition": "absorb",
+    "x": -64,
+    "y": -29
+  },
+  "n18": {
+    "definition": "absorb",
+    "x": -38,
+    "y": -59
+  },
+  "n19": {
+    "definition": "absorb",
     "x": 0,
-    "y": -72
+    "y": -108
   },
-  "table_eat": {
-    "definition": "table_eat",
-    "x": -24,
-    "y": 0
+  "n20": {
+    "definition": "absorb",
+    "x": 50,
+    "y": -96
   },
-  "table_harvest": {
-    "definition": "table_harvest",
-    "x": -48,
-    "y": 0
+  "n21": {
+    "definition": "absorb",
+    "x": 89,
+    "y": -61
   },
-  "table_absorb": {
-    "definition": "table_absorb",
-    "x": -72,
-    "y": 0
+  "n22": {
+    "definition": "absorb",
+    "x": 107,
+    "y": -13
   },
-  "fish_luck": {
-    "definition": "fish_luck",
-    "x": 24,
-    "y": 0
+  "n23": {
+    "definition": "over",
+    "x": 101,
+    "y": 38
   },
-  "fish_lure": {
-    "definition": "fish_lure",
-    "x": 48,
-    "y": 0
-  },
-  "fish_loot": {
-    "definition": "fish_loot",
+  "n24": {
+    "definition": "over",
     "x": 72,
-    "y": 0
+    "y": 81
+  },
+  "n25": {
+    "definition": "over",
+    "x": 26,
+    "y": 105
+  },
+  "n26": {
+    "definition": "over",
+    "x": -26,
+    "y": 105
+  },
+  "n27": {
+    "definition": "over",
+    "x": -72,
+    "y": 81
+  },
+  "n28": {
+    "definition": "eat",
+    "x": -101,
+    "y": 38
+  },
+  "n29": {
+    "definition": "eat",
+    "x": -107,
+    "y": -13
+  },
+  "n30": {
+    "definition": "eat",
+    "x": -89,
+    "y": -61
+  },
+  "n31": {
+    "definition": "eat",
+    "x": -50,
+    "y": -96
+  },
+  "n32": {
+    "definition": "eat",
+    "x": 0,
+    "y": -148
+  },
+  "n33": {
+    "definition": "drink",
+    "x": 64,
+    "y": -133
+  },
+  "n34": {
+    "definition": "drink",
+    "x": 116,
+    "y": -92
+  },
+  "n35": {
+    "definition": "drink",
+    "x": 144,
+    "y": -33
+  },
+  "n36": {
+    "definition": "drink",
+    "x": 144,
+    "y": 33
+  },
+  "n37": {
+    "definition": "harvest",
+    "x": 116,
+    "y": 92
+  },
+  "n38": {
+    "definition": "harvest",
+    "x": 64,
+    "y": 133
+  },
+  "n39": {
+    "definition": "harvest",
+    "x": 0,
+    "y": 148
+  },
+  "n40": {
+    "definition": "harvest",
+    "x": -64,
+    "y": 133
+  },
+  "n41": {
+    "definition": "harvest",
+    "x": -116,
+    "y": 92
+  },
+  "n42": {
+    "definition": "harvest",
+    "x": -144,
+    "y": 33
+  },
+  "n43": {
+    "definition": "fluck",
+    "x": -144,
+    "y": -33
+  },
+  "n44": {
+    "definition": "fluck",
+    "x": -116,
+    "y": -92
+  },
+  "n45": {
+    "definition": "fluck",
+    "x": -64,
+    "y": -133
+  },
+  "n46": {
+    "definition": "fluck",
+    "x": 0,
+    "y": -190
+  },
+  "n47": {
+    "definition": "fluck",
+    "x": 82,
+    "y": -171
+  },
+  "n48": {
+    "definition": "flure",
+    "x": 149,
+    "y": -118
+  },
+  "n49": {
+    "definition": "flure",
+    "x": 185,
+    "y": -42
+  },
+  "n50": {
+    "definition": "flure",
+    "x": 185,
+    "y": 42
+  },
+  "n51": {
+    "definition": "flure",
+    "x": 149,
+    "y": 118
+  },
+  "n52": {
+    "definition": "flure",
+    "x": 82,
+    "y": 171
+  },
+  "n53": {
+    "definition": "loot",
+    "x": 0,
+    "y": 190
+  },
+  "n54": {
+    "definition": "loot",
+    "x": -82,
+    "y": 171
+  },
+  "n55": {
+    "definition": "loot",
+    "x": -149,
+    "y": 118
+  },
+  "n56": {
+    "definition": "loot",
+    "x": -185,
+    "y": 42
+  },
+  "n57": {
+    "definition": "l_hp",
+    "x": -185,
+    "y": -42
+  },
+  "n58": {
+    "definition": "l_harvest",
+    "x": -149,
+    "y": -118
+  },
+  "n59": {
+    "definition": "l_feast",
+    "x": -82,
+    "y": -171
   }
 }

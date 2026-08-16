@@ -1,31 +1,12 @@
 {
-  "enabled": true,
-  "level_limit": 30,
+  "enabled": false,
+  "level_limit": 0,
   "experience_per_level": {
     "type": "expression",
     "data": {
-      "expression": "500 + 100 * level"
+      "expression": "1"
     }
   },
-  "sources": [
-    {
-      "type": "puffish_skills:increase_stat",
-      "data": {
-        "calculation": {
-          "operations": [],
-          "fallback": 1
-        }
-      }
-    },
-    {
-      "type": "puffish_skills:criterion",
-      "data": {
-        "calculation": {
-          "operations": [],
-          "fallback": 200
-        }
-      }
-    }
-  ],
+  "sources": [],
   "reset_on_death": false
 }
