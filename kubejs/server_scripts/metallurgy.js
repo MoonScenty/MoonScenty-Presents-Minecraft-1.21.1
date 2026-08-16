@@ -65,4 +65,20 @@ ServerEvents.recipes(event => {
     Z: '#c:ingots/zinc',
     I: 'create:industrial_iron_block'
   }).id('kubejs:crafting/sturdy_whisk')
+
+  // 용해로 믹서는 기본이 톱니바퀴 + 구리 케이싱 + 거품기다.
+  // 케이싱을 완제품으로 쓰지 않고 구성 재료를 직접 조립하게 바꾼다.
+  event.remove({ id: 'createmetallurgy:crafting/content/foundry_mixer' })
+
+  event.shaped('createmetallurgy:foundry_mixer', [
+    'PZP',
+    'CLC',
+    ' W '
+  ], {
+    P: '#minecraft:planks',
+    Z: '#c:ingots/zinc',
+    C: '#c:storage_blocks/copper',
+    L: '#c:stripped_logs',
+    W: 'createmetallurgy:sturdy_whisk'
+  }).id('kubejs:crafting/foundry_mixer')
 })
