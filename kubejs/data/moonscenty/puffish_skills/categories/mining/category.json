@@ -1,0 +1,21 @@
+{
+  "title": "채굴",
+  "description": "동굴에서 살아남고 더 넓게 캡니다.\n광물 산출량은 늘어나지 않습니다.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:diamond_pickaxe"
+    }
+  },
+  "background": {
+    "texture": "minecraft:textures/block/deepslate.png",
+    "position": "tile",
+    "width": 16,
+    "height": 16
+  },
+  "unlocked_by_default": true,
+  "starting_points": 1,
+  "exclusive_root": false,
+  "spent_points_limit": 0,
+  "erase_on_death": false
+}

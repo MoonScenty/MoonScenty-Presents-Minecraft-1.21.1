@@ -1,0 +1,40 @@
+{
+  "enabled": true,
+  "level_limit": 30,
+  "experience_per_level": {
+    "type": "expression",
+    "data": {
+      "expression": "500 + 100 * level"
+    }
+  },
+  "sources": [
+    {
+      "type": "puffish_skills:kill_entity",
+      "data": {
+        "calculation": {
+          "operations": [],
+          "fallback": 5
+        }
+      }
+    },
+    {
+      "type": "puffish_skills:deal_damage",
+      "data": {
+        "calculation": {
+          "operations": [],
+          "fallback": 1
+        }
+      }
+    },
+    {
+      "type": "puffish_skills:take_damage",
+      "data": {
+        "calculation": {
+          "operations": [],
+          "fallback": 1
+        }
+      }
+    }
+  ],
+  "reset_on_death": false
+}

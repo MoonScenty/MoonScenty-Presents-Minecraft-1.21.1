@@ -1,0 +1,73 @@
+{
+  "root": {
+    "definition": "root",
+    "x": 0,
+    "y": 0,
+    "root": true
+  },
+  "ultimine_blocks_1": {
+    "definition": "ultimine_blocks_1",
+    "x": 0,
+    "y": -24
+  },
+  "ultimine_blocks_2": {
+    "definition": "ultimine_blocks_2",
+    "x": 0,
+    "y": -48
+  },
+  "ultimine_cooldown": {
+    "definition": "ultimine_cooldown",
+    "x": -24,
+    "y": -48
+  },
+  "ultimine_exhaustion": {
+    "definition": "ultimine_exhaustion",
+    "x": 24,
+    "y": -48
+  },
+  "ultimine_xp": {
+    "definition": "ultimine_xp",
+    "x": 0,
+    "y": -72
+  },
+  "cave_fall_1": {
+    "definition": "cave_fall_1",
+    "x": -24,
+    "y": 0
+  },
+  "cave_fall_2": {
+    "definition": "cave_fall_2",
+    "x": -48,
+    "y": 0
+  },
+  "cave_oxygen": {
+    "definition": "cave_oxygen",
+    "x": -48,
+    "y": 24
+  },
+  "cave_fire": {
+    "definition": "cave_fire",
+    "x": -72,
+    "y": 0
+  },
+  "work_reach": {
+    "definition": "work_reach",
+    "x": 24,
+    "y": 0
+  },
+  "work_sneak": {
+    "definition": "work_sneak",
+    "x": 48,
+    "y": 0
+  },
+  "work_step": {
+    "definition": "work_step",
+    "x": 48,
+    "y": 24
+  },
+  "work_submerged": {
+    "definition": "work_submerged",
+    "x": 72,
+    "y": 0
+  }
+}

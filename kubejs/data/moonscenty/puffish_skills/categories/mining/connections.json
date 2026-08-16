@@ -1,0 +1,63 @@
+{
+  "normal": {
+    "bidirectional": [
+      [
+        "root",
+        "ultimine_blocks_1"
+      ],
+      [
+        "ultimine_blocks_1",
+        "ultimine_blocks_2"
+      ],
+      [
+        "ultimine_blocks_2",
+        "ultimine_cooldown"
+      ],
+      [
+        "ultimine_blocks_2",
+        "ultimine_exhaustion"
+      ],
+      [
+        "ultimine_blocks_2",
+        "ultimine_xp"
+      ],
+      [
+        "root",
+        "cave_fall_1"
+      ],
+      [
+        "cave_fall_1",
+        "cave_fall_2"
+      ],
+      [
+        "cave_fall_2",
+        "cave_oxygen"
+      ],
+      [
+        "cave_fall_2",
+        "cave_fire"
+      ],
+      [
+        "root",
+        "work_reach"
+      ],
+      [
+        "work_reach",
+        "work_sneak"
+      ],
+      [
+        "work_sneak",
+        "work_step"
+      ],
+      [
+        "work_sneak",
+        "work_submerged"
+      ]
+    ],
+    "unidirectional": []
+  },
+  "exclusive": {
+    "bidirectional": [],
+    "unidirectional": []
+  }
+}

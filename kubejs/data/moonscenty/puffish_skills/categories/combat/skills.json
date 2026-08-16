@@ -1,0 +1,88 @@
+{
+  "root": {
+    "definition": "root",
+    "x": 0,
+    "y": 0,
+    "root": true
+  },
+  "core_dodge": {
+    "definition": "core_dodge",
+    "x": 0,
+    "y": -24
+  },
+  "core_armor": {
+    "definition": "core_armor",
+    "x": 0,
+    "y": -48
+  },
+  "melee_crit": {
+    "definition": "melee_crit",
+    "x": -24,
+    "y": 0
+  },
+  "melee_crit_dmg": {
+    "definition": "melee_crit_dmg",
+    "x": -48,
+    "y": 0
+  },
+  "melee_lifesteal": {
+    "definition": "melee_lifesteal",
+    "x": -72,
+    "y": 0
+  },
+  "melee_sweep": {
+    "definition": "melee_sweep",
+    "x": -48,
+    "y": 24
+  },
+  "melee_pierce": {
+    "definition": "melee_pierce",
+    "x": -48,
+    "y": -24
+  },
+  "ranged_draw": {
+    "definition": "ranged_draw",
+    "x": 24,
+    "y": 0
+  },
+  "ranged_damage": {
+    "definition": "ranged_damage",
+    "x": 48,
+    "y": 0
+  },
+  "ranged_velocity": {
+    "definition": "ranged_velocity",
+    "x": 48,
+    "y": -24
+  },
+  "ranged_projectile": {
+    "definition": "ranged_projectile",
+    "x": 72,
+    "y": 0
+  },
+  "magic_mana": {
+    "definition": "magic_mana",
+    "x": 0,
+    "y": 24
+  },
+  "magic_regen": {
+    "definition": "magic_regen",
+    "x": 0,
+    "y": 48
+  },
+  "magic_power": {
+    "definition": "magic_power",
+    "x": -24,
+    "y": 48
+  },
+  "magic_cooldown": {
+    "definition": "magic_cooldown",
+    "x": 24,
+    "y": 48
+  },
+  "magic_resist": {
+    "definition": "magic_resist",
+    "x": 0,
+    "y": 72
+  }
+}

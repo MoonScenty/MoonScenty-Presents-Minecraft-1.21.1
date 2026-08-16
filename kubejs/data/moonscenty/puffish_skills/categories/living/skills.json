@@ -1,0 +1,53 @@
+{
+  "root": {
+    "definition": "root",
+    "x": 0,
+    "y": 0,
+    "root": true
+  },
+  "body_health": {
+    "definition": "body_health",
+    "x": 0,
+    "y": -24
+  },
+  "body_healing": {
+    "definition": "body_healing",
+    "x": 0,
+    "y": -48
+  },
+  "body_overheal": {
+    "definition": "body_overheal",
+    "x": 0,
+    "y": -72
+  },
+  "table_eat": {
+    "definition": "table_eat",
+    "x": -24,
+    "y": 0
+  },
+  "table_harvest": {
+    "definition": "table_harvest",
+    "x": -48,
+    "y": 0
+  },
+  "table_absorb": {
+    "definition": "table_absorb",
+    "x": -72,
+    "y": 0
+  },
+  "fish_luck": {
+    "definition": "fish_luck",
+    "x": 24,
+    "y": 0
+  },
+  "fish_lure": {
+    "definition": "fish_lure",
+    "x": 48,
+    "y": 0
+  },
+  "fish_loot": {
+    "definition": "fish_loot",
+    "x": 72,
+    "y": 0
+  }
+}

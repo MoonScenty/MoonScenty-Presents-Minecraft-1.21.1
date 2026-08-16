@@ -1,0 +1,53 @@
+{
+  "root": {
+    "definition": "root",
+    "x": 0,
+    "y": 0,
+    "root": true
+  },
+  "land_sprint": {
+    "definition": "land_sprint",
+    "x": -24,
+    "y": 0
+  },
+  "land_step": {
+    "definition": "land_step",
+    "x": -48,
+    "y": 0
+  },
+  "land_terrain": {
+    "definition": "land_terrain",
+    "x": -72,
+    "y": 0
+  },
+  "water_swim": {
+    "definition": "water_swim",
+    "x": 24,
+    "y": 0
+  },
+  "water_efficiency": {
+    "definition": "water_efficiency",
+    "x": 48,
+    "y": 0
+  },
+  "find_luck": {
+    "definition": "find_luck",
+    "x": 0,
+    "y": -24
+  },
+  "find_jump": {
+    "definition": "find_jump",
+    "x": 0,
+    "y": -48
+  },
+  "find_range": {
+    "definition": "find_range",
+    "x": 0,
+    "y": 24
+  },
+  "find_villager": {
+    "definition": "find_villager",
+    "x": 0,
+    "y": 48
+  }
+}

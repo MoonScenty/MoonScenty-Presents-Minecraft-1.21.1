@@ -1,0 +1,47 @@
+{
+  "normal": {
+    "bidirectional": [
+      [
+        "root",
+        "land_sprint"
+      ],
+      [
+        "land_sprint",
+        "land_step"
+      ],
+      [
+        "land_step",
+        "land_terrain"
+      ],
+      [
+        "root",
+        "water_swim"
+      ],
+      [
+        "water_swim",
+        "water_efficiency"
+      ],
+      [
+        "root",
+        "find_luck"
+      ],
+      [
+        "find_luck",
+        "find_jump"
+      ],
+      [
+        "root",
+        "find_range"
+      ],
+      [
+        "find_range",
+        "find_villager"
+      ]
+    ],
+    "unidirectional": []
+  },
+  "exclusive": {
+    "bidirectional": [],
+    "unidirectional": []
+  }
+}

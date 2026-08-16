@@ -1,0 +1,402 @@
+{
+  "root": {
+    "title": "곡괭이를 들다",
+    "description": "채굴 숙련의 시작입니다. 블록에 손이 조금 더 닿습니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 24,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.block_interaction_range",
+          "value": 0.5,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "ultimine_blocks_1": {
+    "title": "한 줌 더",
+    "description": "일괄 채굴로 캘 수 있는 블록이 8개 늘어납니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stone_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 16,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ftbultimine:max_blocks_modifier",
+          "value": 8,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "ultimine_blocks_2": {
+    "title": "광맥째로",
+    "description": "일괄 채굴 한도가 16개 더 늘어납니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 16,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ftbultimine:max_blocks_modifier",
+          "value": 16,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "ultimine_cooldown": {
+    "title": "쉴 틈 없이",
+    "description": "일괄 채굴의 재사용 대기가 짧아집니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 16,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ftbultimine:cooldown_modifier",
+          "value": -0.25,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "ultimine_exhaustion": {
+    "title": "지치지 않는 팔",
+    "description": "일괄 채굴이 소모하는 허기가 줄어듭니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cooked_beef"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 16,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ftbultimine:exhaustion_modifier",
+          "value": -0.25,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "ultimine_xp": {
+    "title": "한 번에 쓸어담기",
+    "description": "일괄 채굴로 얻는 경험치가 늘어납니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:experience_bottle"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 16,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ftbultimine:experience_modifier",
+          "value": 0.5,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "cave_fall_1": {
+    "title": "발을 헛디뎌도",
+    "description": "안전 낙하 거리가 2블록 늘어납니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 16,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "value": 2,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "cave_fall_2": {
+    "title": "굴러서 착지",
+    "description": "낙하 피해를 15% 덜 받습니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:hay_block"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 16,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.fall_damage_multiplier",
+          "value": -0.15,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "cave_oxygen": {
+    "title": "숨이 길다",
+    "description": "물속에서 숨을 오래 참습니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:turtle_helmet"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 16,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.oxygen_bonus",
+          "value": 3,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "additional_attributes:respiration",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "cave_fire": {
+    "title": "불에 그을려도",
+    "description": "화상 지속 시간이 30% 짧아집니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:magma_cream"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 16,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.burning_time",
+          "value": -0.3,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "work_reach": {
+    "title": "팔이 길어졌다",
+    "description": "블록에 닿는 거리가 1블록 늘어납니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stick"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 16,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.block_interaction_range",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "work_sneak": {
+    "title": "웅크려도 빠르게",
+    "description": "웅크린 채 움직이는 속도가 빨라집니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 16,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.sneaking_speed",
+          "value": 0.15,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "work_step": {
+    "title": "턱을 넘어",
+    "description": "한 블록 높이를 걸어서 오릅니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stone_brick_stairs"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 16,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.step_height",
+          "value": 0.5,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "work_submerged": {
+    "title": "물속에서도",
+    "description": "물에 잠긴 채 캐는 속도가 빨라집니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:water_bucket"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 16,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.submerged_mining_speed",
+          "value": 0.5,
+          "operation": "add_value"
+        }
+      }
+    ]
+  }
+}

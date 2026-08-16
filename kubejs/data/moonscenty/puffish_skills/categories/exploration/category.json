@@ -1,0 +1,21 @@
+{
+  "title": "탐험",
+  "description": "멀리 가고 많이 봅니다.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:compass"
+    }
+  },
+  "background": {
+    "texture": "minecraft:textures/block/mossy_cobblestone.png",
+    "position": "tile",
+    "width": 16,
+    "height": 16
+  },
+  "unlocked_by_default": true,
+  "starting_points": 1,
+  "exclusive_root": false,
+  "spent_points_limit": 0,
+  "erase_on_death": false
+}

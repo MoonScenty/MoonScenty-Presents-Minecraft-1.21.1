@@ -1,0 +1,47 @@
+{
+  "normal": {
+    "bidirectional": [
+      [
+        "root",
+        "body_health"
+      ],
+      [
+        "body_health",
+        "body_healing"
+      ],
+      [
+        "body_healing",
+        "body_overheal"
+      ],
+      [
+        "root",
+        "table_eat"
+      ],
+      [
+        "table_eat",
+        "table_harvest"
+      ],
+      [
+        "table_harvest",
+        "table_absorb"
+      ],
+      [
+        "root",
+        "fish_luck"
+      ],
+      [
+        "fish_luck",
+        "fish_lure"
+      ],
+      [
+        "fish_lure",
+        "fish_loot"
+      ]
+    ],
+    "unidirectional": []
+  },
+  "exclusive": {
+    "bidirectional": [],
+    "unidirectional": []
+  }
+}

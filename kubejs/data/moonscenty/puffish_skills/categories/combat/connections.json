@@ -1,0 +1,75 @@
+{
+  "normal": {
+    "bidirectional": [
+      [
+        "root",
+        "core_dodge"
+      ],
+      [
+        "core_dodge",
+        "core_armor"
+      ],
+      [
+        "root",
+        "melee_crit"
+      ],
+      [
+        "melee_crit",
+        "melee_crit_dmg"
+      ],
+      [
+        "melee_crit_dmg",
+        "melee_lifesteal"
+      ],
+      [
+        "melee_crit_dmg",
+        "melee_sweep"
+      ],
+      [
+        "melee_crit_dmg",
+        "melee_pierce"
+      ],
+      [
+        "root",
+        "ranged_draw"
+      ],
+      [
+        "ranged_draw",
+        "ranged_damage"
+      ],
+      [
+        "ranged_damage",
+        "ranged_velocity"
+      ],
+      [
+        "ranged_damage",
+        "ranged_projectile"
+      ],
+      [
+        "root",
+        "magic_mana"
+      ],
+      [
+        "magic_mana",
+        "magic_regen"
+      ],
+      [
+        "magic_regen",
+        "magic_power"
+      ],
+      [
+        "magic_regen",
+        "magic_cooldown"
+      ],
+      [
+        "magic_regen",
+        "magic_resist"
+      ]
+    ],
+    "unidirectional": []
+  },
+  "exclusive": {
+    "bidirectional": [],
+    "unidirectional": []
+  }
+}
