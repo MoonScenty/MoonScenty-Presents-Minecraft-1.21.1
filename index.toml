@@ -526,7 +526,7 @@ hash = "55affffe67e84dfe11e590769e235aee999b77f9484a3adf7ee8247a9f3d35ba"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "a2d380d4908df370ab38c62c80639c63c0aae58fd20a96158c0f2f6e8d39094a"
+hash = "d8bcf0a2bcf0b9fe3b88b14288fa94da396e4a0d1aa46c3ca4efbc0fbcf1b6dc"
 
 [[files]]
 file = "config/resourcepackoverrides.json"
@@ -766,11 +766,11 @@ hash = "908fc8a644b0bf865ce31ed31dcdb9716c4e4da89bbec7ce017bf8a69315315d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "71e9b07ecf8a8537dc0a07e6b076ee859803fc56a14f75c0a360dd39dc17e48e"
+hash = "df933f6525d4a7b039f23f5d6994aca1a16b73e0d815aac1aa181bdc7877462c"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/ko_kr.json"
-hash = "1544efb0af1562fe070bc69bcd7f7262648cbc1cbc610d417ff2e7e8ba2cd6b6"
+hash = "258fa3f8e0f6f4ad048c18f5a2c212070715399aa6bbd95494f7c5d19eaae25c"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
@@ -817,16 +817,168 @@ file = "kubejs/assets/kubejs/textures/block/molten_andesite_still.png.mcmeta"
 hash = "e9b8025fde1b09b0a4d2a38427b04f98f28a593045be6d177eb2b29164c872b0"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/broken_copper_pickaxe.png"
-hash = "9f42945e6a30d6fd41416785672ab266d47877850883c8a2f25ded816d5dbf6f"
+file = "kubejs/assets/kubejs/textures/item/andesite_alloy_axe_head.png"
+hash = "c4f69d5b8ef5bdd5cc0e128aab41d0e87fadad3b9a70e95dc7b628055ef0145a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/andesite_alloy_hoe_head.png"
+hash = "41845106d97143d510e6027739e6d0911863a7065555c9a413bcdeb89973a824"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/andesite_alloy_pickaxe_head.png"
+hash = "717229dc07f9ce9e3021162322df6e4dacb02e32bc06ac4188f9111c7e100fd2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/andesite_alloy_shovel_head.png"
+hash = "c6ebb1cd06640fa97e64666b77f28c4ea78e4cbdbef547d6845c926683b2c3dd"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/andesite_alloy_sword_head.png"
+hash = "02212c5ee20cfb2557928c7a48e71dca941a4c6e737fd25a2bfe97bc2cb294fe"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/brass_axe_head.png"
+hash = "12f9bf5861e4aa5cc2f3e4f5557faf005d646ab8ed67f3cedab8cb3bdce72b4a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/brass_hoe_head.png"
+hash = "c83f5d027e07ed6c0c70b6fc4eb1da822c1759b3bb2f154254d1d1d06ff4c09a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/brass_pickaxe_head.png"
+hash = "6f2e6a7b812326172d3ddac1ae7c6e61db99588a8f06077b3305e95dbde4d506"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/brass_shovel_head.png"
+hash = "54b8a5f4e3aa000414dd85cf763c42b288bae01e6423cd46bd206c23f47878a2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/brass_sword_head.png"
+hash = "7c91911d1289216bda587047eefb29d8b876aef73e0a4260ea8099c6d933a1bd"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_andesite_alloy_axe.png"
+hash = "683e9d963dea686ea02b4ebf8b7c4e2041fda575f84eadf8c6bf3b4a7a053b3e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_andesite_alloy_hoe.png"
+hash = "0e5d5a27f35b2529ae6906f8983028e8a73002fb69300f5057408c4db30079c2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_andesite_alloy_pickaxe.png"
+hash = "5244c7da1760ba756a67dc9af2e79ad362f4ad59485e7cc9bc003d45cefe408a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_andesite_alloy_shovel.png"
+hash = "20b1071f330c225cae34669f29ec0d5b620aeb747d800cd0e4a8e43e92f56e49"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_andesite_alloy_sword.png"
+hash = "086143c9402ddd4599af7b20a069a90030c32a3d2e1515e94fdb455328793655"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_brass_axe.png"
+hash = "c42bcabf72de25dcb19ca0d9b7657eba7073d4dba6ee04f2bd6f965e8798a299"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_brass_hoe.png"
+hash = "9d885a223e737e916b72d334ae5758b6ebc9fb02938363b8b52f09bf8fe73fc6"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_brass_pickaxe.png"
+hash = "ea9069a1d8a91fb2f3b3555cd09a93c0205a9ceb60b286c21d962100ae47fb2b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_brass_shovel.png"
+hash = "d314afe04db0bc15b9d22f7a4711f48b4d9347b018b91eab5f724d4ca2fd55d3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_brass_sword.png"
+hash = "4075bb9aa8bf1b24015df5b4eba9061266864fe454e72ada483d607985153cea"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_copper_axe.png"
+hash = "f6c22e363240c297b10e6b53785ba0ffa7504da5c8892b9ebec857b3ca94c7f5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_copper_hoe.png"
+hash = "6d61d844801aa70516b0ba04393dcd919163a759ab096818979d40b610b30622"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_copper_pickaxe.png"
+hash = "62c3e4b24d053c3f2c151dd0e9d87fa7caf97504c364e5691e1c92b2103efe6e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_copper_shovel.png"
+hash = "c1258554e4f7a61620710d58469527b5de6a2892a4fe2b9d7f1b581c33bfa1e7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_copper_sword.png"
+hash = "a3d4d3976ca3909a18baaf66c0b000b5559a98476e7ec529ea2c92b3461edd90"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_netherite_axe.png"
+hash = "0c3a351bf3cf9413713ee07888af8ac7de88eb15bd2ebda5de12fb3ccb64bc43"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_netherite_hoe.png"
+hash = "290734d9042f449598137d3f72e05b2dc7b0090dc1ecca3b6fd2ec7467ad8ed9"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_netherite_pickaxe.png"
+hash = "0d5c155d53780e4e1c9ac87fea4133138cab563c3e7870fa380c9a21f0820faf"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_netherite_shovel.png"
+hash = "a66891e4f479b15f8016c35fed26a31d06b1da558ba77d09460cb02405637928"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_netherite_sword.png"
+hash = "ffcb425c82f4ea53461130608bbb3f39d2cd4ee05add7cc9b615872f4685b1cf"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_steel_axe.png"
+hash = "5fbf2dc846901b07174b1586cefed735a6bf3c650bc574bb31d3cfba209fb28f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_steel_hoe.png"
+hash = "fc10c8785acbfd48a1b5b01190b4aa6daf131e637f83876296e32617ec1972b0"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_steel_pickaxe.png"
+hash = "6946a87a0230f6f47596fda6ba7393f5ebaa3c83e3f40194465ebc90808b673c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_steel_shovel.png"
+hash = "586d1b88a9b9686f57bea418702300f56ad225c366ef321ca4df6c30b0a3c9e6"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/broken_reforged_steel_sword.png"
+hash = "128763e655742293585982895cc3c025d4fb24684a6d6df101495e88203e1652"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/copper_axe_head.png"
+hash = "31169d6628ad6c4172d12f2c20bc8b99fdfbcdc31f7d5a227c69de47dfa91508"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/copper_filings.png"
 hash = "30a3788b54cd3cb0a5b584ca4dc64392bbeab6a11349600b2273d8c9d8055f8d"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/copper_pickaxe.png"
-hash = "88a5cf0f061da263787dc9afa20e43457058ee52b226b527d6b261771dd9baef"
+file = "kubejs/assets/kubejs/textures/item/copper_hoe_head.png"
+hash = "01a87e1f99183d03dab6a1388d3becc52d0762e8e0515a0636404c686b6b3561"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/copper_pickaxe_head.png"
+hash = "3a0da935f4341701f67ec3104baf00617021e95e861b5dd18c5d2839c1e0b0e4"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/copper_shovel_head.png"
+hash = "176ea09cbc131602f961f33ec2eb8af74958e9d99e474cc1651e98a32e984265"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/copper_sword_head.png"
+hash = "8d86839f250038e082dc1527d11e4c3cc77e118111fd4e59df4d33fd4eae1456"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/example_item.png"
@@ -837,6 +989,26 @@ file = "kubejs/assets/kubejs/textures/item/gold_filings.png"
 hash = "91660e3d6fcde48a08a7dc38d8e44489aa9732c94053651a41f9b84c9f84b838"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/graphite_axe_mold.png"
+hash = "aa1cc6ac38748f91de4dd78894a7fb08c65c0381f9f3865ac55bf0804f29c0bb"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/graphite_hoe_mold.png"
+hash = "aee559335bfe28221a1ae1aaf63beed78625e9e7f0550aec24f726013a38a4af"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/graphite_pickaxe_mold.png"
+hash = "fde504ec049ba83e5210cd08c87b7b78459f4f79b793f807bf4ceed5e9b6d44f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/graphite_shovel_mold.png"
+hash = "0409d1e93fe3197cf8f8d4ffe371adfef2e60706944244c4b33da8d14c8c1c39"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/graphite_sword_mold.png"
+hash = "082983518db6bbaa5bb46bf8e775e883cc0011b1e81f4f6b2da69f057c271393"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/iron_filings.png"
 hash = "3c2d2a7c37f0ffb8cb2d86ed4981826e321b074b37fbb01cd15bc147f10c45e4"
 
@@ -845,8 +1017,148 @@ file = "kubejs/assets/kubejs/textures/item/mortar.png"
 hash = "1131c3dcccdf6f82c290023e564d506145e5c1018587f87a49afe8b792852da0"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_andesite_alloy_axe.png"
+hash = "c338869ef5907d83034a68f2f39c9e7431a042b77e3aa57066592097f055ea20"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_andesite_alloy_hoe.png"
+hash = "ccf7b28d80953ab8c8092b6bc9c2354fb292fbca2349f2309532560be194dc0a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_andesite_alloy_pickaxe.png"
+hash = "160786cf96a2e8480886095f4c9ce8590f76caa13488f39285a04bd92ab83074"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_andesite_alloy_shovel.png"
+hash = "b56cb2c7377891ca23f461332ce6483360893dd95927ce51692662182d71b5a2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_andesite_alloy_sword.png"
+hash = "7f587bb0c3977c70de8aff49d3ea07c95ce6b4dfdd6f287dc6417ddec860de32"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_brass_axe.png"
+hash = "59cbc557785bd8efaaf4d7c1ffb80375ef04c14178c789ce44252cd90267199f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_brass_hoe.png"
+hash = "404c686c80c4d0a69145722823dc805ba2327da904761a54418befe6efa7d158"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_brass_pickaxe.png"
+hash = "4f94d79360c79c29be7d5497ac308b8fa5ab850683b73769eabe63ddcfa84d09"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_brass_shovel.png"
+hash = "9ef267888e7c0b09bd9952d832c4b6040bb5666e02783753d498cdfba2bee28b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_brass_sword.png"
+hash = "2fc99e334856c095a16999839ddea88ffa6869dc7e0f4e5c65c271635d1340b3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_copper_axe.png"
+hash = "a38da9391985c5a0eedbf8ddd59a9346e9910cb5dd94c515eac4eedf1fb4fc34"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_copper_hoe.png"
+hash = "0413f3982ba0c8f1816bdef79ff71f95b0a3f5ae9776a9c94a24fa3730d60f26"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_copper_pickaxe.png"
+hash = "1f3ade1eb1819b207c9da49356c67a47016c33862e576e04fc43e4305906192f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_copper_shovel.png"
+hash = "63f49714012a40a95a5b6ed37421f5e34efea911c4593430147f00e02292c8f1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_copper_sword.png"
+hash = "bd67af6761952658b6244c294c8154190d30f5a35a747e6691ecfc6fb8350ad1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_netherite_axe.png"
+hash = "f10e42ed9d11a43aaddb79e8b829c1a6e4ab66780997503da88ca173fac7b06f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_netherite_hoe.png"
+hash = "4f7f6c77899201898a4b78d53e112656624a1ad2b34113a71af7ee7e40f738ad"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_netherite_pickaxe.png"
+hash = "6860d57c0895ca8b6f816e18d1ebac2e06d176daaa3b26545fa0c3b6dc9c5af3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_netherite_shovel.png"
+hash = "30ea0be69a8c0d7bd4bb602eb55ec08ef110077e80d807037219fb8eab999fba"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_netherite_sword.png"
+hash = "ebfebdf61d204949ee91978c2dd7ee7e802262f2343c2bba676764ca758e17d1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_steel_axe.png"
+hash = "98cd4069cdd2ead232e65a31678fba2d4e73003ade547404ca2e40b249b10b4d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_steel_hoe.png"
+hash = "338a078cc9fb493f59a4e9558683e8420f6721b78080928e1d2acc3a68dac9f3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_steel_pickaxe.png"
+hash = "c5799f8aabbf465c57b0c75eda24f22179d8a85855b5820827abccd6d297efee"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_steel_shovel.png"
+hash = "91535ec1ad7d274f014b9380a639dbbf4429bd57bbc6b09df1bdc77e788a98d4"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/reforged_steel_sword.png"
+hash = "9d946d7a53c2f5509499a2fdc8fb963b40db66a1b827d7653a72909be3a27510"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/refractory_mortar_axe_mold.png"
+hash = "f771de90f8e47007feabcaf6411129dd989cb47aeea6595696e31c3885eda587"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/refractory_mortar_hoe_mold.png"
+hash = "b32ca740985d48d7cdabb08a918c0496325dec9a75b1eaa67b3a1d932636eb66"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/refractory_mortar_mold.png"
 hash = "1cfb8fa39b8ff5e440cc28e2562b56d9485a4732a74cbfe025c28ec11b20adf2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/refractory_mortar_pickaxe_mold.png"
+hash = "97d2797513abb60c238674863234d20e7f9a2e35cc421d99f89ed0fce17325e8"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/refractory_mortar_shovel_mold.png"
+hash = "84ed6d0cf786f0ca65505f940b4e9586c31adc04827232f519122e77714da245"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/refractory_mortar_sword_mold.png"
+hash = "c39ef8bce19b560a70428c41cc96fb80c0a6d192c73b9223cfc1c841e98773a7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/steel_axe_head.png"
+hash = "8569f45de93360e9498175940bd5823777de184e5ffc256c028fc13427585d05"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/steel_hoe_head.png"
+hash = "b62e0989e84faed3a73d3dba612a78ba42a7a181b781e9497246e8d6601b83fa"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/steel_pickaxe_head.png"
+hash = "2f52e5845ad46bc5cfb6c8684565d7e67d4a8c7d36a58252a89618db1e4184e1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/steel_shovel_head.png"
+hash = "555bef9fd86d90bbbd27cb0b712ac1a8cb081322c05df6ba9dea6c2d5b52a097"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/steel_sword_head.png"
+hash = "f63e0f312629075a6cb76530256c6ba2db3aea089162ee598d0edfe60cb2fa8b"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/wolframite_filings.png"
@@ -989,10 +1301,6 @@ file = "kubejs/assets/zeta/lang/ko_kr.json"
 hash = "00f5ff0458f53a8728bb7b25e4262d5e12a7f1e0171ea33cf76cc190802b9f78"
 
 [[files]]
-file = "kubejs/client_scripts/main.js"
-hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
-
-[[files]]
 file = "kubejs/config/client.json"
 hash = "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef"
 
@@ -1003,6 +1311,14 @@ hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 [[files]]
 file = "kubejs/config/web_server.json"
 hash = "e914347bd0879cc175bf2ccf301e2b7869bfebca4a40fdabe935821e53954739"
+
+[[files]]
+file = "kubejs/data/kubejs/enchantment/combat_proficiency.json"
+hash = "5f45a076d81823d440b862de643d7cb1abeb21c0ded0b5653e1428d5df09388a"
+
+[[files]]
+file = "kubejs/data/kubejs/enchantment/proficiency.json"
+hash = "e85e74ce3af5b21db868e8204e53e73f3e66301f5fae8b95830cc1839f5d98d8"
 
 [[files]]
 file = "kubejs/server_scripts/andesite.js"
@@ -1021,10 +1337,6 @@ file = "kubejs/server_scripts/lowheated.js"
 hash = "bfb5c35d7c04747801eaed17afae0e3f1ef50fafa593656bcacfbe8c60d7d882"
 
 [[files]]
-file = "kubejs/server_scripts/main.js"
-hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
-
-[[files]]
 file = "kubejs/server_scripts/materials.js"
 hash = "3f62b35ae96193f8566fb42f89d363425023c4c6d6bb9f0e39f180b821d4d9cb"
 
@@ -1033,8 +1345,24 @@ file = "kubejs/server_scripts/metallurgy.js"
 hash = "ee2165ab70653aeed67078742af501a93d2b9e4887b016f6bddaf62037131516"
 
 [[files]]
+file = "kubejs/server_scripts/molds.js"
+hash = "108524065a1ac0018808d103ed3a704e480871b2a5ea8185b4134b10267a665b"
+
+[[files]]
+file = "kubejs/server_scripts/netherite.js"
+hash = "1b5fc9576d0b98d3a7ea8a59282e0f7470a649d5a34386421102db188816fb9f"
+
+[[files]]
+file = "kubejs/server_scripts/proficiency.js"
+hash = "6493cb180100c375fc742e334c0dbe0fec4199beb13fbe591a1332f05a5b49d8"
+
+[[files]]
+file = "kubejs/server_scripts/tool_heads.js"
+hash = "7eec2de621b8bad01c6853e2113505483b0dc3dae8a7c04f7e830eab5052ed0e"
+
+[[files]]
 file = "kubejs/server_scripts/tools.js"
-hash = "d413829ff1917e32f3e03ad43a4ca5e8121607082ea24b7511cde806ed706b19"
+hash = "cde97ba5c9f5d77381033a4be96c849112db1b344d2f9025adede9bdaf5479af"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
@@ -1045,20 +1373,24 @@ file = "kubejs/startup_scripts/fluids.js"
 hash = "812b64de18a7d5804ba7acf03c93b569c3d07247cae6203791fb4b85772e1d58"
 
 [[files]]
-file = "kubejs/startup_scripts/main.js"
-hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
-
-[[files]]
 file = "kubejs/startup_scripts/materials.js"
 hash = "00902d44098d6b57c4eda03b6f82e407e28bc5aafa85aae755c3f99bcca3a1e7"
+
+[[files]]
+file = "kubejs/startup_scripts/molds.js"
+hash = "5cc8ba5a1f185017c289b41913ba3191d36c2f33414ba02058be4bca0a4ed203"
 
 [[files]]
 file = "kubejs/startup_scripts/tiers.js"
 hash = "4c372e79b2223140e31501f5a63ae2508c7d19c8d97536e0787dfed95f1ad1bb"
 
 [[files]]
+file = "kubejs/startup_scripts/tool_heads.js"
+hash = "04bd278221809033f262a69116c52687dcfe2827f65fe9a96e917011e05a48a7"
+
+[[files]]
 file = "kubejs/startup_scripts/tools.js"
-hash = "c302100ff39ce36d02d6601b41fd9a9e3606c53c88c0bb68250dc8e99668231c"
+hash = "d18a327dfb65d76658e0f7736185eb09bc27d8079faa8ee2b89ac391f6b1df1f"
 
 [[files]]
 file = "mods/accessories.pw.toml"
