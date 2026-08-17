@@ -11,11 +11,11 @@
 		string_id: "andesite_03_rubber"
 	}
 	loot_size: 4
-	order_index: 27
+	order_index: 26
 	rewards: [
 		{
 			count: 14
-			id: "82CD163889138539"
+			id: "59454D074DB6F113"
 			item: {
 				count: 8
 				id: "rubberworks:rubber"
@@ -23,7 +23,7 @@
 		}
 		{
 			count: 12
-			id: "A3AE92D866B764B3"
+			id: "2ADC55B5C11449E1"
 			item: {
 				count: 16
 				id: "minecraft:dried_kelp"
@@ -31,7 +31,7 @@
 		}
 		{
 			count: 12
-			id: "A45379137876ED5B"
+			id: "300757EAF19CE945"
 			item: {
 				count: 4
 				id: "minecraft:oak_sapling"
@@ -39,7 +39,7 @@
 		}
 		{
 			count: 10
-			id: "BA2678144D0FEC26"
+			id: "0800C44330E2FEF5"
 			item: {
 				count: 8
 				id: "minecraft:bone_meal"

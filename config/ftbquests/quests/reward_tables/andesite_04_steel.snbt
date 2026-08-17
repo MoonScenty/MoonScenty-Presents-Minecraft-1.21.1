@@ -11,7 +11,7 @@
 		string_id: "andesite_04_steel"
 	}
 	loot_size: 4
-	order_index: 28
+	order_index: 27
 	rewards: [
 		{
 			count: 14
@@ -31,7 +31,7 @@
 		}
 		{
 			count: 12
-			id: "9ABD889CF49BBDC3"
+			id: "50F96855C757E4E3"
 			item: {
 				count: 1
 				id: "createmetallurgy:graphite"
@@ -47,7 +47,7 @@
 		}
 		{
 			count: 8
-			id: "F111DBA095406D51"
+			id: "621FE3D8477E367E"
 			item: {
 				count: 4
 				id: "minecraft:clay_ball"
@@ -55,7 +55,7 @@
 		}
 		{
 			count: 5
-			id: "9037ABA8201B5987"
+			id: "14E9763E369A9390"
 			item: {
 				count: 2
 				id: "minecraft:diamond"

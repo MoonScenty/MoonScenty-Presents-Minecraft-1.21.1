@@ -11,7 +11,7 @@
 		string_id: "andesite_02_casing"
 	}
 	loot_size: 4
-	order_index: 26
+	order_index: 25
 	rewards: [
 		{
 			count: 14
@@ -47,7 +47,7 @@
 		}
 		{
 			count: 8
-			id: "B0648F64CEC0540E"
+			id: "24EA68FA5089681F"
 			item: {
 				count: 12
 				id: "minecraft:experience_bottle"

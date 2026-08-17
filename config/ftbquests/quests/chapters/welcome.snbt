@@ -8,6 +8,7 @@
 		id: "minecraft:book"
 	}
 	id: "1A6B9C2D4E7F8051"
+	images: [ ]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -19,6 +20,14 @@
 			id: "2A6B9C2D4E7F8051"
 			size: 2.0d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3A6B9C2D4E7F8051"
 				type: "checkmark"
 			}]
@@ -34,6 +43,14 @@
 			id: "2A6B9C2D4E7F8052"
 			size: 1.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3A6B9C2D4E7F8052"
 				type: "checkmark"
 			}]

@@ -11,7 +11,7 @@
 		string_id: "stone_age_01_mortar"
 	}
 	loot_size: 2
-	order_index: 20
+	order_index: 19
 	rewards: [
 		{
 			count: 14
@@ -31,7 +31,7 @@
 		}
 		{
 			count: 12
-			id: "A54C79908DB958FB"
+			id: "67393A0D66EF19B9"
 			item: {
 				count: 8
 				id: "minecraft:coal"
@@ -47,7 +47,7 @@
 		}
 		{
 			count: 8
-			id: "D13315FF74F81AAA"
+			id: "7C5FD534C0B60FEA"
 			item: {
 				count: 3
 				id: "minecraft:leather"

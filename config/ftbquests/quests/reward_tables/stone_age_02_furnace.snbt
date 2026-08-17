@@ -11,7 +11,7 @@
 		string_id: "stone_age_02_furnace"
 	}
 	loot_size: 2
-	order_index: 21
+	order_index: 20
 	rewards: [
 		{
 			count: 16
@@ -39,7 +39,7 @@
 		}
 		{
 			count: 8
-			id: "D4BEB8C4D97BCDA5"
+			id: "03BBCD9E38CE0BB9"
 			item: {
 				count: 16
 				id: "minecraft:scaffolding"
@@ -47,7 +47,7 @@
 		}
 		{
 			count: 8
-			id: "BB50155706086D8A"
+			id: "7AAADBDFD6DB64E5"
 			item: {
 				count: 9
 				id: "minecraft:iron_nugget"

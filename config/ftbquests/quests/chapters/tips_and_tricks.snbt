@@ -318,8 +318,8 @@
 					mode: "TOTAL_LEVEL"
 					second: 20
 				}
-				id: "7A1B20000000000D"
-				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:shulker_boxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "0E81A0B5A5D9ADCC"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:shulker_boxes))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -347,8 +347,8 @@
 				id: "7A1B20000000000E"
 				type: "checkmark"
 			}]
-			x: 5.0d
-			y: 4.5d
+			x: 8.0d
+			y: 8.5d
 		}
 		{
 			icon: {
@@ -399,8 +399,8 @@
 				item: { count: 1, id: "minecraft:stone_pickaxe" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.5d
+			x: 2.0d
+			y: 10.5d
 		}
 		{
 			icon: {
@@ -425,8 +425,8 @@
 				item: { count: 1, id: "create:wrench" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.5d
+			x: 0.0d
+			y: 10.5d
 		}
 		{
 			icon: {
@@ -452,7 +452,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 10.5d
+			y: 12.5d
 		}
 		{
 			icon: {
@@ -478,11 +478,11 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 10.5d
+			y: 12.5d
 		}
 		{
 			icon: {
-				id: "minecraft:white_bed"
+				id: "comforts:sleeping_bag_white"
 			}
 			id: "7A1B10000000001C"
 			rewards: [{
@@ -499,11 +499,12 @@
 					mode: "TOTAL_LEVEL"
 					second: 20
 				}
-				id: "7A1B20000000001C"
-				type: "checkmark"
+				id: "1463DE44F5342063"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(comforts:sleeping_bags))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
 			}]
-			x: 2.0d
-			y: 10.5d
+			x: 5.0d
+			y: 4.5d
 		}
 		{
 			icon: {
@@ -527,12 +528,12 @@
 				id: "7A1B20000000001D"
 				type: "checkmark"
 			}]
-			x: 4.0d
-			y: 10.5d
+			x: 2.0d
+			y: 12.5d
 		}
 		{
 			icon: {
-				id: "minecraft:golden_shovel"
+				id: "buildinggadgets2:gadget_building"
 			}
 			id: "7A1B10000000001E"
 			rewards: [{
@@ -549,15 +550,16 @@
 					mode: "TOTAL_LEVEL"
 					second: 20
 				}
-				id: "7A1B20000000001E"
-				type: "checkmark"
+				id: "34E5254880296522"
+				item: { components: { "ftbfiltersystem:filter": "or(item(buildinggadgets2:gadget_building)item(buildinggadgets2:gadget_exchanging)item(buildinggadgets2:gadget_copy_paste)item(buildinggadgets2:gadget_cut_paste)item(buildinggadgets2:gadget_destruction))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
 			}]
 			x: -2.0d
-			y: 12.5d
+			y: 14.5d
 		}
 		{
 			icon: {
-				id: "minecraft:stick"
+				id: "constructionstick:netherite_stick"
 			}
 			id: "7A1B10000000001F"
 			rewards: [{
@@ -574,11 +576,12 @@
 					mode: "TOTAL_LEVEL"
 					second: 20
 				}
-				id: "7A1B20000000001F"
-				type: "checkmark"
+				id: "6AF1FD2D3437CB71"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(constructionstick:construction_sticks))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
 			}]
 			x: 0.0d
-			y: 12.5d
+			y: 14.5d
 		}
 		{
 			icon: {
@@ -599,12 +602,12 @@
 					mode: "TOTAL_LEVEL"
 					second: 20
 				}
-				id: "7A1B200000000020"
-				item: { count: 1, id: "chipped:mason_table" }
+				id: "2FEE2629E891E134"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(chipped))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 2.0d
-			y: 12.5d
+			y: 14.5d
 		}
 		{
 			icon: {
@@ -616,21 +619,36 @@
 				type: "xp"
 				xp: 30
 			}]
-			tasks: [{
-				SkillsLevel: {
-					category: ""
-					check: 0b
-					comparison: "GREATER_OR_EQUAL"
-					first: 10
-					mode: "TOTAL_LEVEL"
-					second: 20
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "7A1B200000000021"
+					item: { count: 1, id: "framedblocks:framing_saw" }
+					type: "item"
 				}
-				id: "7A1B200000000021"
-				item: { count: 1, id: "framedblocks:framing_saw" }
-				type: "item"
-			}]
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "72CC13A0B5E4855E"
+					item: { count: 1, id: "copycats:copycat_block" }
+					type: "item"
+				}
+			]
 			x: 4.0d
-			y: 12.5d
+			y: 14.5d
 		}
 		{
 			icon: {
@@ -651,12 +669,12 @@
 					mode: "TOTAL_LEVEL"
 					second: 20
 				}
-				id: "7A1B200000000022"
-				item: { components: { "ftbfiltersystem:filter": "item_tag(handcrafted:fancy_beds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "58A150AA8A1650A0"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(handcrafted))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -7.0d
-			y: 14.5d
+			y: 16.5d
 		}
 		{
 			icon: {
@@ -682,7 +700,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 14.5d
+			y: 16.5d
 		}
 		{
 			icon: {
@@ -708,7 +726,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 14.5d
+			y: 16.5d
 		}
 		{
 			icon: {
@@ -718,7 +736,7 @@
 			rewards: [{
 				id: "7A1B200000001025"
 				type: "xp"
-				xp: 30
+				xp: 100
 			}]
 			tasks: [{
 				SkillsLevel: {
@@ -734,7 +752,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 14.5d
+			y: 16.5d
 		}
 		{
 			icon: {
@@ -759,7 +777,7 @@
 				type: "checkmark"
 			}]
 			x: 1.0d
-			y: 14.5d
+			y: 16.5d
 		}
 		{
 			icon: {
@@ -785,7 +803,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 14.5d
+			y: 16.5d
 		}
 		{
 			icon: {
@@ -811,11 +829,14 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 14.5d
+			y: 16.5d
 		}
 		{
 			icon: {
-				id: "minecraft:paper"
+				components: {
+					"ftbquests:icon": "chipped:block/carved_pumpkin/smiling_carved_pumpkin"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "7A1B100000000029"
 			rewards: [{
@@ -836,7 +857,7 @@
 				type: "checkmark"
 			}]
 			x: 7.0d
-			y: 14.5d
+			y: 16.5d
 		}
 		{
 			icon: {
@@ -862,7 +883,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 14.5d
+			y: 16.5d
 		}
 		{
 			icon: {
@@ -888,7 +909,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 16.5d
+			y: 18.5d
 		}
 		{
 			icon: {
@@ -898,7 +919,7 @@
 			rewards: [{
 				id: "7A1B20000000102C"
 				type: "xp"
-				xp: 30
+				xp: 100
 			}]
 			tasks: [{
 				SkillsLevel: {
@@ -914,7 +935,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 16.5d
+			y: 18.5d
 		}
 		{
 			icon: {
@@ -940,11 +961,14 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 16.5d
+			y: 18.5d
 		}
 		{
 			icon: {
-				id: "minecraft:note_block"
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/sprites/social_interactions/unmute_button.png"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "7A1B10000000002E"
 			rewards: [{
@@ -964,12 +988,12 @@
 				id: "7A1B20000000002E"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: 18.5d
+			x: -2.0d
+			y: 20.5d
 		}
 		{
 			icon: {
-				id: "cognition:cognitive_alloy"
+				id: "cognition:experience_obelisk"
 			}
 			id: "7A1B10000000002F"
 			rewards: [{
@@ -986,12 +1010,12 @@
 					mode: "TOTAL_LEVEL"
 					second: 20
 				}
-				id: "7A1B20000000002F"
-				item: { count: 1, id: "cognition:cognitive_alloy" }
+				id: "7832D44FB7CC046D"
+				item: { count: 1, id: "cognition:experience_obelisk" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 18.5d
+			x: 0.0d
+			y: 20.5d
 		}
 		{
 			icon: {
@@ -1015,12 +1039,15 @@
 				id: "7A1B200000000030"
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: 18.5d
+			x: 2.0d
+			y: 20.5d
 		}
 		{
 			icon: {
-				id: "minecraft:spyglass"
+				components: {
+					"ftbquests:icon": "owo:textures/gui/config_search.png"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "7A1B100000000031"
 			rewards: [{
@@ -1040,8 +1067,8 @@
 				id: "7A1B200000000031"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: 18.5d
+			x: 4.0d
+			y: 20.5d
 		}
 		{
 			icon: {
@@ -1051,7 +1078,7 @@
 			rewards: [{
 				id: "7A1B200000001032"
 				type: "xp"
-				xp: 30
+				xp: 100
 			}]
 			tasks: [{
 				SkillsLevel: {
@@ -1065,8 +1092,8 @@
 				id: "7A1B200000000032"
 				type: "checkmark"
 			}]
-			x: 5.0d
-			y: 18.5d
+			x: 4.0d
+			y: 12.5d
 		}
 		{
 			icon: {
@@ -1087,11 +1114,11 @@
 					mode: "TOTAL_LEVEL"
 					second: 20
 				}
-				id: "7A1B200000001033"
-				item: { components: { "ftbfiltersystem:filter": "item_tag(quark:stools)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "7E6608B156011592"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(quark:stools))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: 6.5d
 		}
 		{
@@ -1117,7 +1144,7 @@
 				item: { count: 1, id: "quark:redstone_randomizer" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: 6.5d
 		}
 		{
@@ -1143,7 +1170,7 @@
 				item: { count: 1, id: "quark:chute" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -4.0d
 			y: 6.5d
 		}
 		{
@@ -1169,7 +1196,7 @@
 				item: { count: 1, id: "quark:ender_watcher" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 6.5d
 		}
 		{
@@ -1195,7 +1222,7 @@
 				item: { count: 1, id: "quark:gravisand" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 6.5d
 		}
 		{
@@ -1221,7 +1248,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(quark:pickarang)item(quark:flamerang))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: 6.5d
 		}
 		{
@@ -1247,7 +1274,7 @@
 				item: { count: 1, id: "quark:slime_in_a_bucket" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: 6.5d
 		}
 		{
@@ -1273,8 +1300,8 @@
 				item: { count: 1, id: "quark:bottled_cloud" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: 6.5d
+			x: 0.0d
+			y: 8.5d
 		}
 		{
 			icon: {
@@ -1299,7 +1326,7 @@
 				item: { count: 1, id: "quark:trowel" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.0d
 			y: 8.5d
 		}
 		{
@@ -1325,7 +1352,7 @@
 				item: { count: 1, id: "quark:seed_pouch" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: 8.5d
 		}
 		{
@@ -1351,7 +1378,7 @@
 				item: { count: 1, id: "quark:abacus" }
 				type: "item"
 			}]
-			x: -7.0d
+			x: -6.0d
 			y: 8.5d
 		}
 		{
@@ -1377,7 +1404,7 @@
 				item: { count: 1, id: "quark:pathfinders_quill" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 2.0d
 			y: 8.5d
 		}
 		{
@@ -1399,11 +1426,11 @@
 					mode: "TOTAL_LEVEL"
 					second: 20
 				}
-				id: "7A1B20000000103F"
+				id: "1932C49791DA9E59"
 				item: { count: 1, id: "quark:soul_bead" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 4.0d
 			y: 8.5d
 		}
 		{
@@ -1429,7 +1456,7 @@
 				item: { count: 1, id: "quark:forgotten_hat" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 6.0d
 			y: 8.5d
 		}
 		{
@@ -1455,7 +1482,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(quark:glass_item_frame)item(quark:glowing_glass_item_frame))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.0d
 			y: 6.5d
 		}
 	]

@@ -11,7 +11,7 @@
 		string_id: "andesite_01_power"
 	}
 	loot_size: 4
-	order_index: 25
+	order_index: 24
 	rewards: [
 		{
 			count: 14
@@ -23,7 +23,7 @@
 		}
 		{
 			count: 12
-			id: "F5CED9E246F74251"
+			id: "2C5BDE7FAE7976E0"
 			item: {
 				count: 16
 				id: "minecraft:dried_kelp"
@@ -39,7 +39,7 @@
 		}
 		{
 			count: 10
-			id: "98F47A86A3C25D33"
+			id: "4A92B57A046AE9E5"
 			item: {
 				count: 6
 				id: "minecraft:leather"

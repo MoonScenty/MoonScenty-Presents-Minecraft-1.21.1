@@ -88,14 +88,12 @@
   "item.kubejs.refractory_mortar_sword_mold": "Refractory Mortar Sword Mold",
   "item.kubejs.graphite_sword_mold": "Graphite Sword Mold",
   "item.kubejs.refractory_mortar_mold": "Refractory Mortar Mold",
-
   "fluid.kubejs.molten_andesite": "Molten Andesite",
   "block.kubejs.molten_andesite": "Molten Andesite",
   "item.kubejs.molten_andesite_bucket": "Molten Andesite Bucket",
-
   "fluid.kubejs.molten_andesite_alloy": "Molten Andesite Alloy",
   "block.kubejs.molten_andesite_alloy": "Molten Andesite Alloy",
   "item.kubejs.molten_andesite_alloy_bucket": "Molten Andesite Alloy Bucket",
-
-  "block.kubejs.manufactured_iron_block": "Block of Manufactured Iron"
+  "block.kubejs.manufactured_iron_block": "Block of Manufactured Iron",
+  "block.kubejs.steel_casing": "Steel Casing"
 }

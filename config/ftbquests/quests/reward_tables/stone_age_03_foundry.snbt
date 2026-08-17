@@ -11,11 +11,11 @@
 		string_id: "stone_age_03_foundry"
 	}
 	loot_size: 3
-	order_index: 22
+	order_index: 21
 	rewards: [
 		{
 			count: 16
-			id: "D5A6BA6229494244"
+			id: "05D56913A20275C1"
 			item: {
 				count: 16
 				id: "minecraft:charcoal"
@@ -23,7 +23,7 @@
 		}
 		{
 			count: 6
-			id: "B9E2C652E016833B"
+			id: "2A44F88188AE1B1A"
 			item: {
 				count: 2
 				id: "minecraft:blaze_powder"
@@ -31,7 +31,7 @@
 		}
 		{
 			count: 14
-			id: "F31408883AD20213"
+			id: "72F8D4A7B82D4D57"
 			item: {
 				count: 6
 				id: "minecraft:cooked_porkchop"
@@ -39,7 +39,7 @@
 		}
 		{
 			count: 8
-			id: "971387D229BEE740"
+			id: "089556B41F0638C9"
 			item: {
 				count: 1
 				id: "minecraft:bucket"
@@ -47,7 +47,7 @@
 		}
 		{
 			count: 8
-			id: "AD19BE6CA64B7D32"
+			id: "76AE95700D90D60E"
 			item: {
 				count: 4
 				id: "minecraft:glass_bottle"

@@ -11,7 +11,7 @@
 		string_id: "stone_age_04_casting"
 	}
 	loot_size: 3
-	order_index: 23
+	order_index: 22
 	rewards: [
 		{
 			count: 12

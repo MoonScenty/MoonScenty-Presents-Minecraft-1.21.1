@@ -15,7 +15,7 @@
 	rewards: [
 		{
 			count: 14
-			id: "98E7E24F19D0C263"
+			id: "257FEE33E5536CFF"
 			item: {
 				count: 3
 				id: "minecraft:iron_block"
@@ -39,7 +39,7 @@
 		}
 		{
 			count: 10
-			id: "D3DC64AEE0D96FE9"
+			id: "6580EE134ACF0F8D"
 			item: {
 				count: 8
 				id: "createmetallurgy:steel_ingot"
@@ -47,7 +47,7 @@
 		}
 		{
 			count: 8
-			id: "ECC78DC54C4F0DBC"
+			id: "52CC01B1C0F68ABD"
 			item: {
 				count: 12
 				id: "rubberworks:rubber"

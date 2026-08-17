@@ -137,7 +137,7 @@
 			rotation: 0.0d
 			width: 5.0d
 			x: 62.5d
-			y: 13.0d
+			y: 9.5d
 		}
 		{
 			click_action: "none:"
@@ -180,14 +180,13 @@
 			y: 3.0d
 		}
 		{
-			click_action: "none:"
-			height: 5.0d
+			height: 1.0d
 			id: "24A77F1C337B68AF"
-			image: "moonscenty:textures/tutorial_17a_deep_dark.png"
+			image: ""
 			rotation: 0.0d
-			width: 5.0d
-			x: 120.5d
-			y: 7.5d
+			width: 1.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			click_action: "none:"
@@ -216,6 +215,14 @@
 			}]
 			size: 1.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3D7C2D86C420199C"
 				type: "checkmark"
 			}]
@@ -235,6 +242,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3ED8926E94DAC753"
 				type: "checkmark"
 			}]
@@ -255,6 +270,14 @@
 			}]
 			size: 2.0d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "34D5BC3C670B4C9A"
 				type: "checkmark"
 			}]
@@ -275,6 +298,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3751AAC1DA9326AD"
 				stat: "minecraft:jump"
 				type: "stat"
@@ -297,9 +328,16 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3CE4B2E3747D8BE4"
-				type: "break_block"
-				value: 1L
+				type: "custom"
 			}]
 			x: 0.0d
 			y: 1.0d
@@ -318,9 +356,16 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3457AC1850AA61A7"
-				type: "place_block"
-				value: 1L
+				type: "custom"
 			}]
 			x: 1.5d
 			y: 2.0d
@@ -339,6 +384,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "33896275D315B5BB"
 				type: "checkmark"
 			}]
@@ -359,6 +412,14 @@
 			}]
 			size: 1.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "38792EEC80A24E83"
 				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -379,6 +440,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 4L
 				id: "3B1AF94845FA29D6"
 				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:planks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -400,6 +469,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3D03D656F16E2231"
 				item: { count: 1, id: "minecraft:crafting_table" }
 				type: "item"
@@ -420,6 +497,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "35E9788F8877D602"
 				item: { count: 1, id: "minecraft:wooden_pickaxe" }
 				type: "item"
@@ -441,6 +526,14 @@
 			}]
 			size: 2.0d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 3L
 				id: "36AC9616A2E0311B"
 				item: { count: 1, id: "minecraft:cobblestone" }
@@ -463,6 +556,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3ED8F23FC05591CD"
 				item: { count: 1, id: "minecraft:wooden_axe" }
 				type: "item"
@@ -484,6 +585,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "330934A66570C780"
 				item: { count: 1, id: "minecraft:wooden_shovel" }
 				type: "item"
@@ -505,6 +614,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "31E86E0545CA4F01"
 				item: { count: 1, id: "minecraft:wooden_hoe" }
 				type: "item"
@@ -526,6 +643,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3BCB7F832EBC2910"
 				item: { count: 1, id: "minecraft:wooden_sword" }
 				type: "item"
@@ -547,6 +672,14 @@
 			}]
 			size: 1.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3C331C6BDF67456D"
 				item: { count: 1, id: "minecraft:stone_pickaxe" }
 				type: "item"
@@ -567,6 +700,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "38E6E845E0F6BD0E"
 				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:stone_sword)item(minecraft:stone_axe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -587,6 +728,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3A0E3FDA96416130"
 				item: { count: 1, id: "minecraft:furnace" }
 				type: "item"
@@ -607,6 +756,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "325846811FC3C479"
 				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:coals)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -627,6 +784,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 4L
 				id: "3971FFF97B71280A"
 				item: { count: 1, id: "minecraft:torch" }
@@ -648,6 +813,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3280E2C81C8DC0AB"
 				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:cooked_beef)item(minecraft:cooked_porkchop)item(minecraft:cooked_chicken)item(minecraft:cooked_mutton)item(minecraft:cooked_rabbit)item(minecraft:cooked_cod)item(minecraft:cooked_salmon)item(minecraft:baked_potato)item(minecraft:bread))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -668,6 +841,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3B1BE58F0E44C2A6"
 				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:beds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -689,6 +870,14 @@
 			}]
 			size: 2.0d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "38CAA5B7BD949D8B"
 				stat: "minecraft:sleep_in_bed"
 				type: "stat"
@@ -711,6 +900,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3BC5669B1C88CB98"
 				type: "checkmark"
 			}]
@@ -731,6 +928,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3815242FAB7BE4EB"
 				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:doors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -752,6 +957,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3F0CD106F881FAAC"
 				item: { count: 1, id: "minecraft:chest" }
 				type: "item"
@@ -773,6 +986,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "31BB74567CD13217"
 				stat: "minecraft:open_chest"
 				type: "stat"
@@ -795,6 +1016,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3EFC14ECA90B4B91"
 				item: { count: 1, id: "minecraft:glass" }
 				type: "item"
@@ -816,6 +1045,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3276806967753B99"
 				type: "checkmark"
 			}]
@@ -824,24 +1061,29 @@
 		}
 		{
 			dependencies: ["2FB316E5CA0968CA"]
-			hide_dependency_lines: false
 			icon: {
 				id: "minecraft:cooked_beef"
 			}
 			id: "2C95D7D3C915C4DE"
-			optional: true
 			rewards: [{
 				id: "6C0000000000001C"
 				type: "xp"
 				xp: 30
 			}]
-			size: 1.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3398F6AB732676DB"
 				type: "checkmark"
 			}]
-			x: 23.25d
-			y: -4.5d
+			x: 24.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2C95D7D3C915C4DE"]
@@ -857,13 +1099,21 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 8L
 				id: "33FEEA87EF6C00EE"
 				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:cooked_beef)item(minecraft:cooked_porkchop)item(minecraft:cooked_chicken)item(minecraft:cooked_mutton)item(minecraft:cooked_rabbit)item(minecraft:cooked_cod)item(minecraft:cooked_salmon)item(minecraft:baked_potato)item(minecraft:bread))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 24.5d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2843C8BB0B6A8C51"]
@@ -879,11 +1129,19 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "38DFA012671200E9"
 				type: "checkmark"
 			}]
 			x: 24.0d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["29E0F676B8EDF5D4"]
@@ -899,13 +1157,21 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "33514123EF297A78"
 				stat: "minecraft:sleep_in_bed"
 				type: "stat"
 				value: 2
 			}]
 			x: 22.5d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2D1F854A134D5D8B"]
@@ -921,10 +1187,18 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "329D6F59905D56BB"
 				type: "checkmark"
 			}]
-			x: 21.5d
+			x: 21.0d
 			y: -5.0d
 		}
 		{
@@ -941,10 +1215,18 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "34DB45B05EB6AA2D"
 				type: "checkmark"
 			}]
-			x: 20.5d
+			x: 20.0d
 			y: -6.5d
 		}
 		{
@@ -960,6 +1242,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "399429668A28560A"
 				item: { count: 1, id: "minecraft:wheat_seeds" }
 				type: "item"
@@ -978,9 +1268,17 @@
 			rewards: [{
 				id: "6C00000000000023"
 				type: "xp"
-				xp: 30
+				xp: 100
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3B9AF8206E150605"
 				item: { count: 1, id: "minecraft:wooden_hoe" }
 				type: "item"
@@ -1002,6 +1300,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3648F5279B58F208"
 				item: { count: 1, id: "minecraft:wheat" }
 				type: "item"
@@ -1024,6 +1330,14 @@
 			}]
 			size: 2.0d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3A898368D0ACE98E"
 				item: { count: 1, id: "minecraft:bread" }
 				type: "item"
@@ -1045,6 +1359,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3A962BB3CCEE0B0C"
 				type: "checkmark"
 			}]
@@ -1066,11 +1388,27 @@
 			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "3154B786423F6EA4"
 					item: { count: 1, id: "minecraft:potato" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "3154B886423F7057"
 					item: { count: 1, id: "minecraft:carrot" }
 					type: "item"
@@ -1081,24 +1419,30 @@
 		}
 		{
 			dependencies: ["216D61608B2F3189"]
-			hide_dependency_lines: false
 			icon: {
 				id: "minecraft:sugar_cane"
 			}
 			id: "24A49531A3B800D3"
-			optional: true
 			rewards: [{
 				id: "6C00000000000027"
 				type: "xp"
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "303C0BC5BAFF9E9A"
 				item: { count: 1, id: "minecraft:sugar_cane" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -6.0d
+			x: 3.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["24A49531A3B800D3"]
@@ -1114,12 +1458,20 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "39C530D09D0D6874"
 				item: { count: 1, id: "minecraft:composter" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -6.5d
+			x: 2.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2F679B2A0765D2ED"]
@@ -1135,6 +1487,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3F30FA93CE7DA848"
 				stat: "minecraft:animals_bred"
 				type: "stat"
@@ -1154,9 +1514,17 @@
 			rewards: [{
 				id: "6C0000000000002A"
 				type: "xp"
-				xp: 30
+				xp: 100
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3A6A551623567E9D"
 				item: { count: 1, id: "minecraft:white_wool" }
 				type: "item"
@@ -1178,6 +1546,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "378F6917C110FA30"
 				item: { count: 1, id: "minecraft:egg" }
 				type: "item"
@@ -1199,10 +1575,16 @@
 				xp: 30
 			}]
 			tasks: [{
-				entity: "minecraft:wolf"
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3A7829B0D1119AC6"
-				type: "tame_mob"
-				value: 1L
+				type: "custom"
 			}]
 			x: 10.5d
 			y: -9.5d
@@ -1221,10 +1603,16 @@
 				xp: 30
 			}]
 			tasks: [{
-				entity: "minecraft:cat"
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "390D92355478447A"
-				type: "tame_mob"
-				value: 1L
+				type: "custom"
 			}]
 			x: 9.0d
 			y: -10.0d
@@ -1243,6 +1631,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3F0ABD28C5C696F8"
 				item: { count: 1, id: "minecraft:fishing_rod" }
 				type: "item"
@@ -1261,13 +1657,19 @@
 			rewards: [{
 				id: "6C0000000000002F"
 				type: "xp"
-				xp: 30
+				xp: 100
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "393CB51F8D6A0582"
-				item_tag: "minecraft:fishes"
-				type: "fishing_catch"
-				value: 1L
+				type: "custom"
 			}]
 			x: 8.0d
 			y: -11.0d
@@ -1285,6 +1687,14 @@
 			}]
 			size: 1.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3AC70E42239D37BD"
 				item: { count: 1, id: "minecraft:raw_iron" }
 				type: "item"
@@ -1305,6 +1715,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "39925C4CCDB8B836"
 				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
@@ -1325,6 +1743,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "35E58AF0C6F9719A"
 				item: { count: 1, id: "minecraft:iron_pickaxe" }
 				type: "item"
@@ -1345,6 +1771,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3496C0382674D90F"
 				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:iron_sword)item(minecraft:iron_axe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -1365,6 +1799,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "32AA7EDDFE48485D"
 				item: { count: 1, id: "minecraft:shield" }
 				type: "item"
@@ -1385,6 +1827,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "314AAB5D3023AB8E"
 				item: { count: 1, id: "minecraft:bucket" }
 				type: "item"
@@ -1405,6 +1855,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "36B9338C57A0A32A"
 				item: { count: 1, id: "minecraft:water_bucket" }
 				type: "item"
@@ -1425,6 +1883,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3F2AEF4FEDEA2E32"
 				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:iron_helmet)item(minecraft:iron_chestplate)item(minecraft:iron_leggings)item(minecraft:iron_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -1447,21 +1913,53 @@
 			size: 2.0d
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "3BCE6266CF3FF0D4"
 					item: { count: 1, id: "minecraft:iron_helmet" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "3BCE6366CF3FF287"
 					item: { count: 1, id: "minecraft:iron_chestplate" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "3BCE6466CF3FF43A"
 					item: { count: 1, id: "minecraft:iron_leggings" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "3BCE6566CF3FF5ED"
 					item: { count: 1, id: "minecraft:iron_boots" }
 					type: "item"
@@ -1484,6 +1982,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "342CBC30DB53412E"
 				item: { count: 1, id: "minecraft:shears" }
 				type: "item"
@@ -1505,6 +2011,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3BE71ADE1287C6F1"
 				item: { count: 1, id: "minecraft:flint_and_steel" }
 				type: "item"
@@ -1526,6 +2040,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "33116FFC82EBBF82"
 				item: { count: 1, id: "minecraft:hopper" }
 				type: "item"
@@ -1547,6 +2069,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "33DA46236D097A6E"
 				item: { count: 1, id: "minecraft:anvil" }
 				type: "item"
@@ -1568,6 +2098,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3FA69ABCD2408F14"
 				item: { count: 1, id: "minecraft:compass" }
 				type: "item"
@@ -1589,6 +2127,14 @@
 			}]
 			size: 1.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3900654B7CD619C6"
 				type: "checkmark"
 			}]
@@ -1608,6 +2154,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "35456742F69D0431"
 				item: { count: 1, id: "minecraft:raw_copper" }
 				type: "item"
@@ -1628,6 +2182,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3E010FBA6EC11E34"
 				item: { count: 1, id: "minecraft:redstone" }
 				type: "item"
@@ -1645,9 +2207,17 @@
 			rewards: [{
 				id: "6C00000000000040"
 				type: "xp"
-				xp: 30
+				xp: 100
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "381392B082F3CB15"
 				item: { count: 1, id: "minecraft:lapis_lazuli" }
 				type: "item"
@@ -1668,6 +2238,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "30D23281C420688A"
 				item: { count: 1, id: "minecraft:raw_gold" }
 				type: "item"
@@ -1689,6 +2267,14 @@
 			}]
 			size: 2.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "314ED2FB5D7B9568"
 				item: { count: 1, id: "minecraft:diamond" }
 				type: "item"
@@ -1709,6 +2295,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3008E0749C5A3FB0"
 				item: { count: 1, id: "minecraft:diamond_pickaxe" }
 				type: "item"
@@ -1730,6 +2324,14 @@
 			}]
 			size: 2.0d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 10L
 				id: "348DCEBCD0796C85"
 				item: { count: 1, id: "minecraft:obsidian" }
@@ -1752,6 +2354,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3A1F93B590685131"
 				type: "checkmark"
 			}]
@@ -1772,6 +2382,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3FE771CAE820F16D"
 				type: "checkmark"
 			}]
@@ -1792,6 +2410,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "390EFFD8529A406F"
 				type: "checkmark"
 			}]
@@ -1812,6 +2438,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "33ACFD485CD562D1"
 				type: "checkmark"
 			}]
@@ -1832,6 +2466,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3857458E78052FDD"
 				type: "checkmark"
 			}]
@@ -1852,6 +2494,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3E211FBF1E8F50A0"
 				type: "checkmark"
 			}]
@@ -1872,6 +2522,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3CA2020B3D837A9B"
 				type: "checkmark"
 			}]
@@ -1892,6 +2550,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				icon: {
 					id: "minecraft:rail"
 				}
@@ -1916,6 +2582,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3D3A68390EE38FF4"
 				type: "checkmark"
 			}]
@@ -1936,6 +2610,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				entity: "minecraft:cave_spider"
 				id: "36BBC2072B9E66C3"
 				type: "kill"
@@ -1958,6 +2640,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3EE35B293EFDF6E6"
 				item: { count: 1, id: "minecraft:amethyst_shard" }
 				type: "item"
@@ -1979,6 +2669,14 @@
 			}]
 			size: 1.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "372256E8CF34B91C"
 				type: "checkmark"
 			}]
@@ -1999,6 +2697,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3F70F9439D8A10AC"
 				type: "checkmark"
 			}]
@@ -2019,6 +2725,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "381D6790EC3A77E1"
 				type: "checkmark"
 			}]
@@ -2039,6 +2753,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3E65B5119FB81834"
 				item: { count: 1, id: "minecraft:bow" }
 				type: "item"
@@ -2060,6 +2782,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 16L
 				id: "39F68BF2A3CF4E0E"
 				item: { count: 1, id: "minecraft:arrow" }
@@ -2082,6 +2812,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3A450DB8866751DB"
 				type: "checkmark"
 			}]
@@ -2102,6 +2840,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "33A42214F830B317"
 				type: "checkmark"
 			}]
@@ -2122,6 +2868,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "31EBB94DCA7F5AEE"
 				type: "checkmark"
 			}]
@@ -2142,6 +2896,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				entity: "minecraft:zombie"
 				id: "31AB21A309AD3D6B"
 				type: "kill"
@@ -2164,6 +2926,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				entity: "minecraft:skeleton"
 				id: "3424F3D61070ADDE"
 				type: "kill"
@@ -2186,6 +2956,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				entity: "minecraft:creeper"
 				id: "3D0C84B777DD0371"
 				type: "kill"
@@ -2208,6 +2986,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				entity: "minecraft:spider"
 				id: "3474642576264AEC"
 				type: "kill"
@@ -2231,6 +3017,14 @@
 			}]
 			size: 2.0d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				entity: "minecraft:enderman"
 				id: "39A10A5CF7CA3C53"
 				type: "kill"
@@ -2253,6 +3047,14 @@
 			}]
 			size: 1.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 3L
 				id: "3C3E9E6426445DCE"
 				item: { count: 1, id: "minecraft:paper" }
@@ -2272,9 +3074,17 @@
 			rewards: [{
 				id: "6C0000000000005C"
 				type: "xp"
-				xp: 30
+				xp: 100
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3BD43035B8BFB335"
 				item: { count: 1, id: "minecraft:book" }
 				type: "item"
@@ -2297,6 +3107,14 @@
 			}]
 			size: 2.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3DAFE44DCA433040"
 				item: { count: 1, id: "minecraft:enchanting_table" }
 				type: "item"
@@ -2318,6 +3136,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 15L
 				id: "32D840F5C5D256A7"
 				item: { count: 1, id: "minecraft:bookshelf" }
@@ -2340,6 +3166,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3B23196745058D6F"
 				type: "checkmark"
 			}]
@@ -2360,6 +3194,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3EB60D4986B58178"
 				stat: "minecraft:enchant_item"
 				type: "stat"
@@ -2382,6 +3224,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3C1D57BE76F7D3A0"
 				item: { count: 1, id: "minecraft:enchanted_book" }
 				type: "item"
@@ -2403,8 +3253,16 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3C9421A98B33329C"
-				stat: "minecraft:interact_with_anvil"
+				stat: "minecraft:mob_kills"
 				type: "stat"
 				value: 1
 			}]
@@ -2425,6 +3283,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3304D0CB8632D70F"
 				stat: "minecraft:interact_with_grindstone"
 				type: "stat"
@@ -2448,6 +3314,14 @@
 			}]
 			size: 2.0d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "37D33D142131CEB4"
 				type: "checkmark"
 			}]
@@ -2468,6 +3342,14 @@
 			}]
 			size: 1.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				icon: {
 					id: "minecraft:bell"
 				}
@@ -2480,46 +3362,54 @@
 		}
 		{
 			dependencies: ["2FB23CA24FE081C9"]
-			hide_dependency_lines: false
 			icon: {
 				id: "minecraft:emerald"
 			}
 			id: "27E94D31418A7BE8"
-			optional: true
 			rewards: [{
 				id: "6C00000000000065"
 				type: "xp"
 				xp: 30
 			}]
 			tasks: [{
-				check_buy_item: true
-				entity: "minecraft:villager"
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "30ACD29A92BD781B"
-				min_tags_required: 0
-				type: "trading"
-				value: 1L
+				type: "custom"
 			}]
-			x: 35.5d
+			x: 34.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["27E94D31418A7BE8"]
-			hide_dependency_lines: false
 			icon: {
 				id: "minecraft:lectern"
 			}
 			id: "20DA9946A9EA27AC"
-			optional: true
 			rewards: [{
 				id: "6C00000000000066"
 				type: "xp"
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "386E9D68B1BD2D7B"
 				type: "checkmark"
 			}]
-			x: 36.0d
+			x: 35.0d
 			y: -7.0d
 		}
 		{
@@ -2536,13 +3426,16 @@
 				xp: 30
 			}]
 			tasks: [{
-				check_buy_item: true
-				entity: "minecraft:villager"
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3C3C20E918DFEB12"
-				min_tags_required: 0
-				type: "trading"
-				value: 1L
-				villager_profession: "minecraft:farmer"
+				type: "custom"
 			}]
 			x: 35.5d
 			y: -8.5d
@@ -2561,13 +3454,16 @@
 				xp: 30
 			}]
 			tasks: [{
-				check_buy_item: true
-				entity: "minecraft:villager"
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3DF39EEB78CA047D"
-				min_tags_required: 0
-				type: "trading"
-				value: 1L
-				villager_profession: "minecraft:librarian"
+				type: "custom"
 			}]
 			x: 34.0d
 			y: -9.0d
@@ -2586,6 +3482,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "389D4C5BBB89CCAE"
 				type: "checkmark"
 			}]
@@ -2606,6 +3510,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "35B4005FF9A78291"
 				type: "checkmark"
 			}]
@@ -2626,6 +3538,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "36A3BFAE67E67243"
 				type: "checkmark"
 			}]
@@ -2646,6 +3566,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "32E64D84A0386DE2"
 				type: "checkmark"
 			}]
@@ -2667,11 +3595,27 @@
 			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "39D4C25BFF2E832C"
 					item: { components: { "minecraft:potion_contents": { potion: "minecraft:weakness" } }, count: 1, id: "minecraft:potion" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "39D4C35BFF2E84DF"
 					item: { count: 1, id: "minecraft:golden_apple" }
 					type: "item"
@@ -2695,6 +3639,14 @@
 			}]
 			size: 2.0d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3A4109F2B6943A84"
 				stat: "minecraft:raid_win"
 				type: "stat"
@@ -2717,6 +3669,14 @@
 			}]
 			size: 1.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "36F58F1F314B6736"
 				item: { count: 1, id: "minecraft:map" }
 				type: "item"
@@ -2738,6 +3698,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3A61607A20168159"
 				type: "checkmark"
 			}]
@@ -2758,6 +3726,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3ADEEEEBF24E6726"
 				item: { count: 1, id: "minecraft:spyglass" }
 				type: "item"
@@ -2767,18 +3743,24 @@
 		}
 		{
 			dependencies: ["2004FC52B8DAE583"]
-			hide_dependency_lines: false
 			icon: {
 				id: "minecraft:compass"
 			}
 			id: "236DE6C0D99A80C8"
-			optional: true
 			rewards: [{
 				id: "6C00000000000071"
 				type: "xp"
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "31388376948AF8F7"
 				type: "checkmark"
 			}]
@@ -2799,6 +3781,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "357C2F6E83B321A7"
 				type: "checkmark"
 			}]
@@ -2819,6 +3809,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				icon: {
 					id: "minecraft:chiseled_sandstone"
 				}
@@ -2843,6 +3841,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				icon: {
 					id: "minecraft:mossy_cobblestone"
 				}
@@ -2867,6 +3873,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				icon: {
 					id: "minecraft:oak_boat"
 				}
@@ -2891,6 +3905,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				icon: {
 					id: "minecraft:heart_of_the_sea"
 				}
@@ -2915,6 +3937,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3D9C6CD10B108366"
 				type: "checkmark"
 			}]
@@ -2935,6 +3965,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				icon: {
 					id: "minecraft:crossbow"
 				}
@@ -2959,6 +3997,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				icon: {
 					id: "minecraft:dark_oak_log"
 				}
@@ -2983,6 +4029,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				icon: {
 					id: "minecraft:brush"
 				}
@@ -3008,6 +4062,14 @@
 			}]
 			size: 2.0d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				icon: {
 					id: "minecraft:prismarine"
 				}
@@ -3033,11 +4095,27 @@
 			size: 1.5d
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "377726E989B551BE"
 					item: { count: 1, id: "minecraft:lever" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "377727E989B55371"
 					item: { count: 1, id: "minecraft:redstone_lamp" }
 					type: "item"
@@ -3060,6 +4138,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3F1FE6BF9CDE0A28"
 				type: "checkmark"
 			}]
@@ -3080,6 +4166,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3E9EDE74FC5FC304"
 				item: { count: 1, id: "minecraft:repeater" }
 				type: "item"
@@ -3101,6 +4195,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "39EFD36A8C767728"
 				item: { count: 1, id: "minecraft:comparator" }
 				type: "item"
@@ -3122,6 +4224,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3D6A8750D4BED35E"
 				item: { count: 1, id: "minecraft:observer" }
 				type: "item"
@@ -3143,6 +4253,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "30797EC25B72AB11"
 				item: { count: 1, id: "minecraft:piston" }
 				type: "item"
@@ -3164,6 +4282,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "366CD619DA694521"
 				item: { count: 1, id: "minecraft:sticky_piston" }
 				type: "item"
@@ -3185,6 +4311,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 2L
 				id: "374A83AFCA900795"
 				item: { count: 1, id: "minecraft:hopper" }
@@ -3207,6 +4341,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "335C17637286E1D7"
 				type: "checkmark"
 			}]
@@ -3227,6 +4369,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 6L
 				id: "3CE1D38D9C23585D"
 				item: { count: 1, id: "minecraft:powered_rail" }
@@ -3250,6 +4400,14 @@
 			}]
 			size: 2.0d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "395803DFF54EF5B8"
 				type: "checkmark"
 			}]
@@ -3269,6 +4427,14 @@
 			}]
 			size: 1.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 10L
 				id: "390215504A1D2F45"
 				item: { count: 1, id: "minecraft:obsidian" }
@@ -3287,10 +4453,18 @@
 			rewards: [{
 				id: "6C00000000000086"
 				type: "xp"
-				xp: 30
+				xp: 100
 			}]
 			size: 2.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3108B1303E5E483B"
 				type: "checkmark"
 			}]
@@ -3310,6 +4484,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				dimension: "minecraft:the_nether"
 				icon: {
 					id: "minecraft:netherrack"
@@ -3322,7 +4504,6 @@
 		}
 		{
 			dependencies: ["24422C192DBE3B20"]
-			hide_dependency_lines: false
 			icon: {
 				id: "minecraft:compass"
 			}
@@ -3333,6 +4514,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "36388F9DC7463EE4"
 				type: "checkmark"
 			}]
@@ -3352,6 +4541,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3C13FC7F74DCB06E"
 				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:golden_helmet)item(minecraft:golden_chestplate)item(minecraft:golden_leggings)item(minecraft:golden_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -3372,6 +4569,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "364C589E07152858"
 				item: { count: 1, id: "minecraft:quartz" }
 				type: "item"
@@ -3392,6 +4597,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				icon: {
 					id: "minecraft:nether_bricks"
 				}
@@ -3415,6 +4628,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				entity: "minecraft:blaze"
 				id: "3C7F8B4B7DD849E7"
 				type: "kill"
@@ -3433,9 +4654,17 @@
 			rewards: [{
 				id: "6C0000000000008D"
 				type: "xp"
-				xp: 30
+				xp: 100
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3CC2A1A3058FC4BA"
 				item: { count: 1, id: "minecraft:blaze_rod" }
 				type: "item"
@@ -3456,6 +4685,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3BC47DFF7AE5FF75"
 				item: { count: 1, id: "minecraft:nether_wart" }
 				type: "item"
@@ -3477,6 +4714,14 @@
 			}]
 			size: 2.0d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 2L
 				id: "36E7DEBF6D115930"
 				item: { count: 1, id: "minecraft:blaze_powder" }
@@ -3499,6 +4744,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "38A6E320658C7567"
 				type: "checkmark"
 			}]
@@ -3519,6 +4772,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "375B3C4BDB266977"
 				type: "checkmark"
 			}]
@@ -3539,6 +4800,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "30CF47560A4EDBD7"
 				type: "checkmark"
 			}]
@@ -3559,6 +4828,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3359094AB13B5B21"
 				type: "checkmark"
 			}]
@@ -3579,6 +4856,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3983FB5CCFE0A5D6"
 				type: "checkmark"
 			}]
@@ -3596,9 +4881,17 @@
 			rewards: [{
 				id: "6C00000000000094"
 				type: "xp"
-				xp: 30
+				xp: 100
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "31C42CC48F8E35D1"
 				type: "checkmark"
 			}]
@@ -3619,6 +4912,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "39B9882B5101897C"
 				type: "checkmark"
 			}]
@@ -3639,6 +4940,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "398823CB762FE5A8"
 				item: { count: 1, id: "minecraft:crying_obsidian" }
 				type: "item"
@@ -3660,6 +4969,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "306BC43E3E67AFA0"
 				item: { components: { "minecraft:potion_contents": { potion: "minecraft:fire_resistance" } }, count: 1, id: "minecraft:potion" }
 				type: "item"
@@ -3681,6 +4998,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				icon: {
 					id: "minecraft:polished_blackstone_bricks"
 				}
@@ -3705,6 +5030,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "30AF773A2DBD288C"
 				type: "checkmark"
 			}]
@@ -3725,6 +5058,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "369AC582886813E6"
 				item: { count: 1, id: "minecraft:ancient_debris" }
 				type: "item"
@@ -3746,6 +5087,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "33561E187280ECE6"
 				item: { count: 1, id: "minecraft:netherite_ingot" }
 				type: "item"
@@ -3755,25 +5104,30 @@
 		}
 		{
 			dependencies: ["23C9E89B45435A41"]
-			hide_dependency_lines: false
 			icon: {
 				id: "minecraft:brewing_stand"
 			}
 			id: "2BFC92150F5DF38C"
-			optional: true
 			rewards: [{
 				id: "6C0000000000009C"
 				type: "xp"
 				xp: 30
 			}]
-			size: 1.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "30B30858943177E7"
 				item: { count: 1, id: "minecraft:brewing_stand" }
 				type: "item"
 			}]
-			x: 66.0d
-			y: 8.25d
+			x: 67.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2BFC92150F5DF38C"]
@@ -3789,13 +5143,21 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3E6470C1FC7510D8"
 				stat: "minecraft:interact_with_brewingstand"
 				type: "stat"
 				value: 1
 			}]
-			x: 65.5d
-			y: 10.0d
+			x: 67.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["254E86B7542E4BA1"]
@@ -3811,11 +5173,19 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "37626BF9E10967EF"
 				item: { components: { "minecraft:potion_contents": { potion: "minecraft:awkward" } }, count: 1, id: "minecraft:potion" }
 				type: "item"
 			}]
-			x: 67.0d
+			x: 67.5d
 			y: 10.5d
 		}
 		{
@@ -3832,10 +5202,18 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3A90B886767990F6"
 				type: "checkmark"
 			}]
-			x: 67.5d
+			x: 67.0d
 			y: 12.0d
 		}
 		{
@@ -3852,10 +5230,18 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "306271EFF50A5C1A"
 				type: "checkmark"
 			}]
-			x: 67.0d
+			x: 66.5d
 			y: 13.5d
 		}
 		{
@@ -3872,12 +5258,20 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3F2A2508C95EB877"
 				item: { count: 1, id: "minecraft:splash_potion" }
 				type: "item"
 			}]
-			x: 67.5d
-			y: 15.0d
+			x: 65.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["241233BC1ACE1C04"]
@@ -3893,12 +5287,20 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "388509156C5A3562"
 				item: { components: { "minecraft:potion_contents": { potion: "minecraft:fire_resistance" } }, count: 1, id: "minecraft:potion" }
 				type: "item"
 			}]
-			x: 67.0d
-			y: 16.5d
+			x: 64.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["2162A265A74861B3"]
@@ -3914,12 +5316,20 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3954E54FC942CEA9"
 				item: { components: { "minecraft:potion_contents": { potion: "minecraft:slow_falling" } }, count: 1, id: "minecraft:potion" }
 				type: "item"
 			}]
-			x: 65.5d
-			y: 16.0d
+			x: 63.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["2D967FE90D2E9C7A"]
@@ -3935,12 +5345,20 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3743B05B9BD9DB61"
 				item: { components: { "minecraft:potion_contents": { potion: "minecraft:strength" } }, count: 1, id: "minecraft:potion" }
 				type: "item"
 			}]
-			x: 64.0d
-			y: 16.5d
+			x: 61.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["2D5DC1F047F7FC82"]
@@ -3957,12 +5375,20 @@
 			}]
 			size: 2.0d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "32F767B0AD9D374C"
 				item: { components: { "minecraft:potion_contents": { potion: "minecraft:healing" } }, count: 1, id: "minecraft:potion" }
 				type: "item"
 			}]
-			x: 61.0d
-			y: 17.0d
+			x: 59.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["2B1ED371A9BBD195"]
@@ -3977,6 +5403,14 @@
 			}]
 			size: 1.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3F0ACEE58C9AD785"
 				item: { count: 1, id: "minecraft:ender_pearl" }
 				type: "item"
@@ -3997,6 +5431,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 12L
 				id: "3161E0E9EA336252"
 				item: { count: 1, id: "minecraft:ender_eye" }
@@ -4018,6 +5460,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3A568BF2973DFAB2"
 				type: "checkmark"
 			}]
@@ -4037,6 +5487,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "39EB28084766E582"
 				type: "checkmark"
 			}]
@@ -4056,6 +5514,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				icon: {
 					id: "minecraft:stone_bricks"
 				}
@@ -4079,6 +5545,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3D344BB07DF8303A"
 				type: "checkmark"
 			}]
@@ -4099,6 +5573,14 @@
 			}]
 			size: 2.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "35F9EEE20857F6D0"
 				type: "checkmark"
 			}]
@@ -4118,6 +5600,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3FA985E09D1BC0FF"
 				type: "checkmark"
 			}]
@@ -4138,6 +5628,14 @@
 			}]
 			size: 2.0d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "378CF1432E0940B2"
 				type: "checkmark"
 			}]
@@ -4159,6 +5657,14 @@
 			}]
 			size: 1.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "373A6255B4136474"
 				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:diamond_sword)item(minecraft:diamond_axe)item(minecraft:netherite_sword)item(minecraft:netherite_axe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -4180,6 +5686,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "349480B27B761EB8"
 				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:bow)item(minecraft:crossbow))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -4201,6 +5715,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 64L
 				id: "32D5A59BFD0D803A"
 				item: { count: 1, id: "minecraft:arrow" }
@@ -4223,6 +5745,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3E22F6BDBA29E45F"
 				type: "checkmark"
 			}]
@@ -4243,6 +5773,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 64L
 				id: "343AE716A0710952"
 				item: { count: 1, id: "minecraft:cobblestone" }
@@ -4265,6 +5803,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3E89286092E3B4CB"
 				item: { count: 1, id: "minecraft:water_bucket" }
 				type: "item"
@@ -4286,6 +5832,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 4L
 				id: "3ACAE484461A1979"
 				item: { count: 1, id: "minecraft:ender_pearl" }
@@ -4308,6 +5862,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 16L
 				id: "3218B38A68FA4EF4"
 				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:cooked_beef)item(minecraft:cooked_porkchop)item(minecraft:cooked_chicken)item(minecraft:cooked_mutton)item(minecraft:cooked_rabbit)item(minecraft:cooked_cod)item(minecraft:cooked_salmon)item(minecraft:baked_potato)item(minecraft:bread)item(minecraft:golden_carrot))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -4330,6 +5892,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3C40E821F044B2FD"
 				item: { components: { "minecraft:potion_contents": { potion: "minecraft:slow_falling" } }, count: 1, id: "minecraft:potion" }
 				type: "item"
@@ -4351,6 +5921,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3DD7D6595AB7EE92"
 				stat: "minecraft:sleep_in_bed"
 				type: "stat"
@@ -4373,6 +5951,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3FC428CF9DED7B30"
 				item: { count: 1, id: "minecraft:chest" }
 				type: "item"
@@ -4395,6 +5981,14 @@
 			}]
 			size: 2.0d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3F5D31206D1FD0DD"
 				type: "checkmark"
 			}]
@@ -4414,6 +6008,14 @@
 			}]
 			size: 1.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				dimension: "minecraft:the_end"
 				id: "34E844067C38189C"
 				type: "dimension"
@@ -4434,6 +6036,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3A07A6C5E0400805"
 				type: "checkmark"
 			}]
@@ -4453,6 +6063,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "38EAFAC8191A8980"
 				type: "checkmark"
 			}]
@@ -4461,7 +6079,6 @@
 		}
 		{
 			dependencies: ["2D2897D8C814E32D"]
-			hide_dependency_lines: false
 			icon: {
 				id: "minecraft:end_crystal"
 			}
@@ -4472,6 +6089,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3FFA0595AB56D990"
 				type: "checkmark"
 			}]
@@ -4491,6 +6116,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "386D9A8D8785E758"
 				type: "checkmark"
 			}]
@@ -4510,6 +6143,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3708411B3BF36CDA"
 				type: "checkmark"
 			}]
@@ -4526,9 +6167,17 @@
 			rewards: [{
 				id: "6C000000000000BE"
 				type: "xp"
-				xp: 30
+				xp: 100
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3AAE03251785B49A"
 				type: "checkmark"
 			}]
@@ -4548,6 +6197,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3ADF9864EC54414C"
 				type: "checkmark"
 			}]
@@ -4568,6 +6225,14 @@
 			}]
 			size: 2.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				entity: "minecraft:ender_dragon"
 				id: "3FEE64B88B37B98E"
 				type: "kill"
@@ -4590,6 +6255,14 @@
 			}]
 			size: 2.0d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "35FA031A15392747"
 				type: "checkmark"
 			}]
@@ -4610,6 +6283,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3582A9E782DDD6C1"
 				item: { count: 1, id: "minecraft:dragon_breath" }
 				type: "item"
@@ -4631,6 +6312,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3E5463A2B11AD1BD"
 				item: { count: 1, id: "minecraft:dragon_egg" }
 				type: "item"
@@ -4640,18 +6329,24 @@
 		}
 		{
 			dependencies: ["2FC0FBEB5C3B3E55"]
-			hide_dependency_lines: false
 			icon: {
 				id: "minecraft:end_crystal"
 			}
 			id: "2B671527AF5A73CB"
-			optional: true
 			rewards: [{
 				id: "6C000000000000C3"
 				type: "xp"
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 4L
 				id: "3094DB05C68677F2"
 				item: { count: 1, id: "minecraft:end_crystal" }
@@ -4674,6 +6369,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				entity: "minecraft:ender_dragon"
 				id: "31930379B54B23C1"
 				type: "kill"
@@ -4696,6 +6399,14 @@
 			}]
 			size: 1.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "33447DF1CF424904"
 				type: "checkmark"
 			}]
@@ -4715,6 +6426,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "375FF357A1AF65E8"
 				type: "checkmark"
 			}]
@@ -4734,6 +6453,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "37A7E27A24EC99A7"
 				item: { count: 1, id: "minecraft:chorus_fruit" }
 				type: "item"
@@ -4754,6 +6481,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "32C12FFAEEDCC57D"
 				structure: "minecraft:end_city"
 				type: "structure"
@@ -4774,6 +6509,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				entity: "minecraft:shulker"
 				id: "3774C8548972CC40"
 				type: "kill"
@@ -4795,6 +6538,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "30743817D5E54823"
 				type: "checkmark"
 			}]
@@ -4814,6 +6565,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 2L
 				id: "3335EC296CE96B91"
 				item: { count: 1, id: "minecraft:shulker_shell" }
@@ -4832,9 +6591,17 @@
 			rewards: [{
 				id: "6C000000000000CC"
 				type: "xp"
-				xp: 30
+				xp: 100
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "38E9F57B7649BCAA"
 				item: { count: 1, id: "minecraft:shulker_box" }
 				type: "item"
@@ -4855,6 +6622,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "35ED0C0D4D0B3340"
 				type: "checkmark"
 			}]
@@ -4874,6 +6649,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "384BE498C258C1F5"
 				item: { count: 1, id: "minecraft:elytra" }
 				type: "item"
@@ -4894,6 +6677,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 16L
 				id: "3BAB515F65A4652E"
 				item: { count: 1, id: "minecraft:firework_rocket" }
@@ -4915,6 +6706,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "34787A29A6037521"
 				stat: "minecraft:aviate_one_cm"
 				type: "stat"
@@ -4937,6 +6736,14 @@
 			}]
 			size: 2.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "36EC3C113FC6EB02"
 				type: "checkmark"
 			}]
@@ -4945,25 +6752,29 @@
 		}
 		{
 			dependencies: ["203FD34AD0697ACD"]
-			hide_dependency_lines: false
-			hide_until_deps_complete: true
 			icon: {
-				id: "minecraft:sculk_shrieker"
+				id: "minecraft:echo_shard"
 			}
 			id: "2231512688E7D895"
-			optional: true
 			rewards: [{
 				id: "6C000000000000D1"
 				type: "xp"
 				xp: 30
 			}]
-			size: 1.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3C92F9BEB155629A"
 				type: "checkmark"
 			}]
 			x: 114.0d
-			y: 0.75d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2231512688E7D895"]
@@ -4979,6 +6790,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				biome: "minecraft:deep_dark"
 				id: "30E2361ED466550B"
 				type: "biome"
@@ -5000,6 +6819,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "35A367555A2B8F7A"
 				structure: "minecraft:ancient_city"
 				type: "structure"
@@ -5021,6 +6848,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "38603F1885BD7B72"
 				type: "checkmark"
 			}]
@@ -5041,6 +6876,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "383556A38C5C8E56"
 				item: { count: 1, id: "minecraft:echo_shard" }
 				type: "item"
@@ -5062,6 +6905,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3B6F56A0DF776320"
 				item: { count: 1, id: "minecraft:recovery_compass" }
 				type: "item"
@@ -5083,6 +6934,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3516A991FFD3FCB1"
 				type: "checkmark"
 			}]
@@ -5104,6 +6963,14 @@
 			}]
 			size: 2.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "32F640BFD662868F"
 				type: "checkmark"
 			}]
@@ -5124,6 +6991,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "32018939EDE6CFBE"
 				item: { count: 1, id: "minecraft:sculk" }
 				type: "item"
@@ -5145,6 +7020,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "33E01DC758598F47"
 				item: { count: 1, id: "minecraft:sculk_sensor" }
 				type: "item"
@@ -5166,6 +7049,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "379C7AE37F147108"
 				item: { count: 1, id: "minecraft:sculk_shrieker" }
 				type: "item"
@@ -5187,6 +7078,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "35DBB86AB916C806"
 				item: { components: { "ftbfiltersystem:filter": "tag(minecraft:wool)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -5196,25 +7095,31 @@
 		}
 		{
 			dependencies: ["28F84E0C8F487635"]
-			hide_dependency_lines: false
 			icon: {
 				id: "minecraft:leather_boots"
 			}
 			id: "27FB23EDF4A4FF37"
-			optional: true
 			rewards: [{
 				id: "6C000000000000DC"
 				type: "xp"
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3BAD2EFE94A4EDD4"
 				stat: "minecraft:sneak_time"
 				type: "stat"
 				value: 2000
 			}]
-			x: 119.5d
-			y: 0.0d
+			x: 118.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2231512688E7D895"]
@@ -5230,6 +7135,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 32L
 				id: "31EBA0366283A48C"
 				item: { components: { "ftbfiltersystem:filter": "tag(minecraft:wool)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -5252,6 +7165,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3DD53C91C287FD0C"
 				item: { count: 1, id: "minecraft:enchanted_book" }
 				type: "item"
@@ -5273,6 +7194,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "39DFDC74135EC04A"
 				item: { count: 1, id: "minecraft:disc_fragment_5" }
 				type: "item"
@@ -5294,6 +7223,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3A7AA32872051272"
 				item: { count: 1, id: "minecraft:music_disc_5" }
 				type: "item"
@@ -5315,6 +7252,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3B0B53C7BF25398E"
 				type: "checkmark"
 			}]
@@ -5335,6 +7280,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 16L
 				id: "332ABF92847AB90B"
 				item: { count: 1, id: "minecraft:snowball" }
@@ -5357,6 +7310,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3440EA925E8A1B5C"
 				type: "checkmark"
 			}]
@@ -5379,6 +7340,14 @@
 			}]
 			size: 1.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3067BA46B992A4A6"
 				type: "checkmark"
 			}]
@@ -5399,6 +7368,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 4L
 				id: "397FF0A1129B2F42"
 				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:soul_sand)item(minecraft:soul_soil))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -5421,6 +7398,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				entity: "minecraft:wither_skeleton"
 				id: "395B4046364CB353"
 				type: "kill"
@@ -5443,6 +7428,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "364910C7D18D85E6"
 				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
 				type: "item"
@@ -5464,6 +7457,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 3L
 				id: "354532C23D1E8A55"
 				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
@@ -5490,6 +7491,14 @@
 			}]
 			size: 2.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "33AC368764250C1B"
 				type: "checkmark"
 			}]
@@ -5507,10 +7516,18 @@
 			rewards: [{
 				id: "6C000000000000EA"
 				type: "xp"
-				xp: 30
+				xp: 100
 			}]
 			size: 2.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				entity: "minecraft:wither"
 				id: "3A175452C449F84A"
 				type: "kill"
@@ -5533,6 +7550,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3C60D038E2F2CC6F"
 				item: { count: 1, id: "minecraft:nether_star" }
 				type: "item"
@@ -5554,6 +7579,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3941B2A582D421B7"
 				item: { count: 1, id: "minecraft:beacon" }
 				type: "item"
@@ -5563,18 +7596,24 @@
 		}
 		{
 			dependencies: ["23F2794CB6E0444E"]
-			hide_dependency_lines: false
 			icon: {
 				id: "minecraft:beacon"
 			}
 			id: "246F7468C9CFB9B1"
-			optional: true
 			rewards: [{
 				id: "6C000000000000ED"
 				type: "xp"
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3F28EBE2544FD202"
 				stat: "minecraft:interact_with_beacon"
 				type: "stat"
@@ -5598,6 +7637,14 @@
 			}]
 			size: 2.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "396DB30FB0E1FE4B"
 				type: "checkmark"
 			}]
@@ -5618,6 +7665,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "363E0B101C2A4EF9"
 				item: { count: 1, id: "minecraft:diamond_sword" }
 				type: "item"
@@ -5639,6 +7694,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				count: 2L
 				id: "322E2DB98750D2E6"
 				item: { count: 1, id: "minecraft:milk_bucket" }
@@ -5661,6 +7724,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "323C47C541A526CD"
 				type: "checkmark"
 			}]
@@ -5681,6 +7752,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "32AEBD68DC745597"
 				type: "checkmark"
 			}]
@@ -5701,6 +7780,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "37DF31C28380F4EB"
 				type: "checkmark"
 			}]
@@ -5721,6 +7808,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3161DA459BED095A"
 				type: "checkmark"
 			}]
@@ -5741,6 +7836,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "3A46113EE3D8D985"
 				type: "checkmark"
 			}]

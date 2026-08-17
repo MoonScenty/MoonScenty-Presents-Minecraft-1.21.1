@@ -14,7 +14,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["5A0E10000000001E"]
+			dependencies: ["5A0E10000000001F"]
 			icon: {
 				id: "create:shaft"
 			}
@@ -122,8 +122,8 @@
 				item: { count: 1, id: "create:gearbox" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -3.0d
+			x: 3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5A0E110000000003"]
@@ -164,8 +164,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: -3.0d
+			x: 6.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5A0E110000000002"]
@@ -318,7 +318,7 @@
 				type: "checkmark"
 			}]
 			x: 12.0d
-			y: -6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5A0E11000000000A"]
@@ -398,8 +398,8 @@
 				item: { count: 1, id: "create:encased_fan" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: -3.0d
+			x: 15.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5A0E11000000000E"]
@@ -425,8 +425,8 @@
 				id: "5A0E2100000000F0"
 				type: "checkmark"
 			}]
-			x: 21.0d
-			y: -3.0d
+			x: 15.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["5A0E11000000000E"]
@@ -589,7 +589,7 @@
 				type: "item"
 			}]
 			x: 24.0d
-			y: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5A0E110000000014"]
@@ -643,8 +643,8 @@
 				item: { count: 1, id: "rubberworks:sapper" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 2.5d
+			x: 21.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5A0E110000000016"]
@@ -670,8 +670,8 @@
 				item: { count: 1, id: "rubberworks:resin_bucket" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 2.5d
+			x: 24.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5A0E110000000017"]
@@ -697,8 +697,8 @@
 				item: { count: 1, id: "rubberworks:compressor" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 2.5d
+			x: 27.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5A0E110000000018"]
@@ -725,8 +725,8 @@
 				item: { count: 1, id: "rubberworks:rubber" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 2.5d
+			x: 30.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5A0E110000000019"]
@@ -769,8 +769,8 @@
 				item: { count: 1, id: "rubberworks:rubber_sheet" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 2.5d
+			x: 30.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5A0E110000000001"]
@@ -796,11 +796,17 @@
 				item: { count: 1, id: "createmetallurgy:graphite" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 5.5d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["5A0E11000000001B"]
+			dependencies: [
+				"5A0E11000000001B"
+				"5A0E11000000000C"
+			]
+			icon: {
+				id: "createmetallurgy:graphite_ingot_mold"
+			}
 			id: "5A0E11000000001C"
 			rewards: [{
 				id: "0FD11F47BF348277"
@@ -820,8 +826,8 @@
 				item: { count: 1, id: "createmetallurgy:graphite_ingot_mold" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 4.5d
+			x: 15.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5A0E11000000001B"]
@@ -848,8 +854,8 @@
 				item: { count: 1, id: "createmetallurgy:coke" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 6.5d
+			x: 15.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -904,8 +910,8 @@
 				item: { count: 1, id: "createmetallurgy:steel_ingot" }
 				type: "item"
 			}]
-			x: 27.0d
-			y: 5.5d
+			x: 24.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -947,7 +953,7 @@
 				}
 				{
 					id: "29AA10DA622AE180"
-					table_id: 7642045617694310431L
+					table_id: 7642045617694310421L
 					type: "loot"
 				}
 				{
@@ -970,7 +976,7 @@
 				item: { count: 1, id: "createfurnaceengine:furnace_engine" }
 				type: "item"
 			}]
-			x: 32.0d
+			x: 33.0d
 			y: 0.0d
 		}
 		{
@@ -997,7 +1003,7 @@
 				id: "5A0E210000000200"
 				type: "checkmark"
 			}]
-			x: 35.0d
+			x: 36.0d
 			y: 0.0d
 		}
 		{
@@ -1025,8 +1031,8 @@
 				item: { count: 1, id: "create:mechanical_drill" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: 1.5d
+			x: 18.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5A0E11000000000C"]
@@ -1053,8 +1059,8 @@
 				item: { count: 1, id: "create:mechanical_saw" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 1.5d
+			x: 18.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5A0E110000000006"]
@@ -1096,8 +1102,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -1.5d
+			x: 9.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5A0E110000000006"]
@@ -1139,8 +1145,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: -1.5d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5A0E110000000002"]
@@ -1167,8 +1173,8 @@
 				item: { count: 1, id: "create:rope_pulley" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5A0E110000000002"]
@@ -1196,7 +1202,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5A0E11000000000A"]
@@ -1223,8 +1229,191 @@
 				item: { count: 1, id: "create_mechanical_extruder:mechanical_extruder" }
 				type: "item"
 			}]
-			x: 13.5d
-			y: -1.5d
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A0E110000000020"]
+			icon: {
+				id: "createmetallurgy:foundry_mixer"
+			}
+			id: "5A0E110000000028"
+			rewards: [{
+				id: "6EE88932CC0D9A0A"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "square"
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E210000000280"
+				type: "checkmark"
+			}]
+			x: 39.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5A0E110000000020"
+				"5A0E110000000015"
+			]
+			icon: {
+				id: "createrecipeneedrpm:rpm_mechanical_mixer"
+			}
+			id: "5A0E110000000029"
+			rewards: [{
+				id: "52939282006EE9E7"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "square"
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E210000000290"
+				type: "checkmark"
+			}]
+			x: 36.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5A0E110000000028"
+				"5A0E110000000029"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "create:brass_ingot"
+			}
+			id: "5A0E11000000002A"
+			rewards: [{
+				id: "239B8EB32C53DB7B"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				count: 8L
+				id: "5A0E2100000002A0"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 42.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5A0E110000000013"
+				"5A0E11000000001E"
+			]
+			icon: {
+				id: "kubejs:steel_casing"
+			}
+			id: "5A0E11000000002B"
+			rewards: [{
+				id: "65BBEC2FCDD52B86"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2100000002B0"
+				item: { count: 1, id: "kubejs:steel_casing" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5A0E11000000002A"
+				"5A0E11000000002B"
+			]
+			icon: {
+				id: "create:brass_casing"
+			}
+			id: "5A0E11000000002C"
+			rewards: [
+				{
+					id: "66B397B053F640B9"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2378312AE90E22F1"
+					item: {
+						count: 1
+						id: "kubejs:steel_casing"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "09967745C3F6AFD6"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "73F45B39E83819DB"
+					table_id: 7642045617694310431L
+					type: "loot"
+				}
+				{
+					id: "7EC72931891A11AD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2100000002C0"
+				item: { count: 1, id: "create:brass_casing" }
+				type: "item"
+			}]
+			x: 36.0d
+			y: 6.0d
 		}
 	]
 }

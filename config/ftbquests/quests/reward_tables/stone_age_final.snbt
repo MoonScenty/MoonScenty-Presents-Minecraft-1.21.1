@@ -11,11 +11,11 @@
 		string_id: "stone_age_final"
 	}
 	loot_size: 5
-	order_index: 24
+	order_index: 23
 	rewards: [
 		{
 			count: 12
-			id: "9EE66FF62053792D"
+			id: "7DE16C7F537AD0E7"
 			item: {
 				count: 2
 				id: "minecraft:copper_block"
@@ -31,7 +31,7 @@
 		}
 		{
 			count: 8
-			id: "95762E636D57A1E1"
+			id: "38A0D9372E1257D1"
 			item: {
 				count: 2
 				id: "minecraft:golden_apple"
@@ -47,7 +47,7 @@
 		}
 		{
 			count: 5
-			id: "B392CBA712273A98"
+			id: "68695DABB26A1DC0"
 			item: {
 				count: 3
 				id: "minecraft:diamond"
@@ -55,7 +55,7 @@
 		}
 		{
 			count: 8
-			id: "ECA02847F3801C20"
+			id: "1F9892E37BFBCCE9"
 			item: {
 				count: 4
 				id: "minecraft:obsidian"
