@@ -1,0 +1,66 @@
+{
+	id: "6A0E000000000013"
+	loot_crate: {
+		color: 3947580
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "안산암 3: 고무 상자"
+		string_id: "andesite_03_rubber"
+	}
+	loot_size: 4
+	order_index: 27
+	rewards: [
+		{
+			count: 14
+			id: "82CD163889138539"
+			item: {
+				count: 8
+				id: "rubberworks:rubber"
+			}
+		}
+		{
+			count: 12
+			id: "A3AE92D866B764B3"
+			item: {
+				count: 16
+				id: "minecraft:dried_kelp"
+			}
+		}
+		{
+			count: 12
+			id: "A45379137876ED5B"
+			item: {
+				count: 4
+				id: "minecraft:oak_sapling"
+			}
+		}
+		{
+			count: 10
+			id: "BA2678144D0FEC26"
+			item: {
+				count: 8
+				id: "minecraft:bone_meal"
+			}
+		}
+		{
+			count: 8
+			id: "7F1C376EE167B7A2"
+			item: {
+				count: 6
+				id: "minecraft:copper_block"
+			}
+		}
+		{
+			count: 6
+			id: "66229DF388C5D82E"
+			item: {
+				count: 16
+				id: "minecraft:experience_bottle"
+			}
+		}
+	]
+	use_title: true
+}

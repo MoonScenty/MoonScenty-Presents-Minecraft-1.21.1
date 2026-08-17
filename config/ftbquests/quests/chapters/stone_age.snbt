@@ -19,6 +19,13 @@
 			}
 			id: "5A0E100000000001"
 			size: 1.5d
+			rewards: [
+				{
+					id: "37A6BC9C23AA0611"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				id: "5A0E200000000001"
 				item: { count: 1, id: "create:raw_zinc" }
@@ -33,6 +40,13 @@
 				id: "create:zinc_ingot"
 			}
 			id: "5A0E100000000002"
+			rewards: [
+				{
+					id: "9BEC5507287BB464"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				id: "5A0E200000000002"
 				item: { count: 1, id: "create:zinc_ingot" }
@@ -47,6 +61,13 @@
 				id: "kubejs:mortar"
 			}
 			id: "5A0E100000000003"
+			rewards: [
+				{
+					id: "20CC88B19A9EA5AD"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				id: "5A0E200000000003"
 				item: { count: 1, id: "kubejs:mortar" }
@@ -61,6 +82,13 @@
 				id: "kubejs:zinc_filings"
 			}
 			id: "5A0E100000000004"
+			rewards: [
+				{
+					id: "A1EC413BA332548A"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				id: "5A0E200000000004"
 				item: { count: 1, id: "kubejs:zinc_filings" }
@@ -76,6 +104,30 @@
 			}
 			id: "5A0E100000000005"
 			shape: "square"
+			rewards: [
+				{
+					count: 8
+					id: "2CD1F22D59EF5628"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "FC16CE5D6FDF30E6"
+					item: "minecraft:bowl"
+					type: "item"
+				}
+				{
+					id: "4E0B4D24151AFEC2"
+					table_id: 7642045617694310401L
+					type: "loot"
+				}
+				{
+					id: "DB1D69BA2153FED4"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [
 				{
 					id: "5A0E200000000005"
@@ -102,6 +154,13 @@
 				id: "createmetallurgy:refractory_mortar"
 			}
 			id: "5A0E100000000006"
+			rewards: [
+				{
+					id: "F7CF84F18E387AA7"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				id: "5A0E200000000008"
 				item: { count: 1, id: "createmetallurgy:refractory_mortar" }
@@ -117,6 +176,13 @@
 			}
 			id: "5A0E100000000007"
 			shape: "square"
+			rewards: [
+				{
+					id: "B7567890FE918BB2"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "5A0E200000000009"
 				type: "checkmark"
@@ -130,6 +196,13 @@
 				id: "minecraft:stonecutter"
 			}
 			id: "5A0E100000000008"
+			rewards: [
+				{
+					id: "6B21331B669FBF6C"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				id: "5A0E20000000000A"
 				item: { count: 1, id: "minecraft:stonecutter" }
@@ -144,6 +217,13 @@
 				id: "create:industrial_iron_block"
 			}
 			id: "5A0E100000000009"
+			rewards: [
+				{
+					id: "8E0441347D8802D7"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				count: 4L
 				id: "5A0E20000000000B"
@@ -160,6 +240,24 @@
 			}
 			id: "5A0E10000000000A"
 			size: 1.5d
+			rewards: [
+				{
+					count: 16
+					id: "4CA847922ED601D0"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "45FF9DFC8961BE24"
+					table_id: 7642045617694310402L
+					type: "loot"
+				}
+				{
+					id: "7D63ED2FED91FA8E"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				count: 4L
 				id: "5A0E20000000000C"
@@ -176,6 +274,13 @@
 			}
 			id: "5A0E10000000000B"
 			shape: "square"
+			rewards: [
+				{
+					id: "B484FCAE5B06DA7A"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "5A0E20000000000D"
 				type: "checkmark"
@@ -192,6 +297,13 @@
 				id: "createmetallurgy:foundry_basin"
 			}
 			id: "5A0E10000000000C"
+			rewards: [
+				{
+					id: "85418EE9C52686A7"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				id: "5A0E20000000000E"
 				item: { count: 1, id: "createmetallurgy:foundry_basin" }
@@ -206,6 +318,13 @@
 				id: "createmetallurgy:foundry_lid"
 			}
 			id: "5A0E10000000000D"
+			rewards: [
+				{
+					id: "1DADC23339B98BE0"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				id: "5A0E20000000000F"
 				item: { count: 1, id: "createmetallurgy:foundry_lid" }
@@ -225,6 +344,24 @@
 			}
 			id: "5A0E10000000000E"
 			size: 1.5d
+			rewards: [
+				{
+					count: 3
+					id: "86F4303F6938ED1A"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+				{
+					id: "F69BAF762EE1F17D"
+					table_id: 7642045617694310403L
+					type: "loot"
+				}
+				{
+					id: "20AC887A44BBC405"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				id: "5A0E200000000010"
 				item: { count: 1, id: "createlowheated:basic_burner" }
@@ -240,6 +377,13 @@
 			}
 			id: "5A0E10000000000F"
 			shape: "square"
+			rewards: [
+				{
+					id: "62B637C11699EF1B"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "5A0E200000000011"
 				type: "checkmark"
@@ -253,6 +397,13 @@
 				id: "createmetallurgy:casting_basin"
 			}
 			id: "5A0E100000000010"
+			rewards: [
+				{
+					id: "550D2CE1E5B57142"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				id: "5A0E200000000012"
 				item: { count: 1, id: "createmetallurgy:casting_basin" }
@@ -267,6 +418,13 @@
 				id: "createmetallurgy:casting_table"
 			}
 			id: "5A0E100000000011"
+			rewards: [
+				{
+					id: "C8C1992FA822790C"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				id: "5A0E200000000013"
 				item: { count: 1, id: "createmetallurgy:casting_table" }
@@ -285,6 +443,24 @@
 			}
 			id: "5A0E100000000014"
 			size: 1.5d
+			rewards: [
+				{
+					count: 16
+					id: "5F757A185332D7D4"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					id: "403765E9681D2615"
+					table_id: 7642045617694310404L
+					type: "loot"
+				}
+				{
+					id: "FFDC1710A693B674"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				id: "5A0E200000000016"
 				item: { count: 1, id: "kubejs:refractory_mortar_mold" }
@@ -300,6 +476,13 @@
 			}
 			id: "5A0E100000000015"
 			shape: "square"
+			rewards: [
+				{
+					id: "504BBFA4629B65D4"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "5A0E200000000017"
 				type: "checkmark"
@@ -313,6 +496,13 @@
 				id: "createmetallurgy:sturdy_whisk"
 			}
 			id: "5A0E100000000016"
+			rewards: [
+				{
+					id: "964ADE2D6C59A1E6"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				id: "5A0E200000000018"
 				item: { count: 1, id: "createmetallurgy:sturdy_whisk" }
@@ -327,6 +517,13 @@
 				id: "createmetallurgy:foundry_mixer"
 			}
 			id: "5A0E100000000017"
+			rewards: [
+				{
+					id: "E8D11C5B9E78FDAA"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				id: "5A0E200000000019"
 				item: { count: 1, id: "createmetallurgy:foundry_mixer" }
@@ -341,6 +538,13 @@
 				id: "create:hand_crank"
 			}
 			id: "5A0E100000000018"
+			rewards: [
+				{
+					id: "1FA6DEAADDB08E73"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				id: "5A0E20000000001A"
 				item: { count: 1, id: "create:hand_crank" }
@@ -355,6 +559,13 @@
 				id: "createhandcogwheel:hand_cogwheel"
 			}
 			id: "5A0E100000000019"
+			rewards: [
+				{
+					id: "458FD589396AFE86"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				id: "5A0E20000000001B"
 				item: { count: 1, id: "createhandcogwheel:hand_cogwheel" }
@@ -364,18 +575,25 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["5A0E100000000019"]
+			dependencies: ["5A0E10000000001E"]
 			icon: {
 				id: "createtreadmill:treadmill"
 			}
 			id: "5A0E10000000001A"
 			shape: "square"
+			rewards: [
+				{
+					id: "CEFF3C9B436CAEB0"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "5A0E20000000001C"
 				type: "checkmark"
 			}]
-			x: 29.0d
-			y: 5.0d
+			x: 36.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -386,6 +604,13 @@
 				id: "kubejs:molten_andesite_bucket"
 			}
 			id: "5A0E10000000001B"
+			rewards: [
+				{
+					id: "6FF5B795FC26AAEC"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "5A0E20000000001D"
 				type: "checkmark"
@@ -402,6 +627,13 @@
 				id: "createmetallurgy:molten_zinc_bucket"
 			}
 			id: "5A0E10000000001C"
+			rewards: [
+				{
+					id: "19F593FEC8308DE6"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "5A0E20000000001E"
 				type: "checkmark"
@@ -418,6 +650,13 @@
 				id: "kubejs:molten_andesite_alloy_bucket"
 			}
 			id: "5A0E10000000001D"
+			rewards: [
+				{
+					id: "0A145EE3971483AF"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "5A0E20000000001F"
 				type: "checkmark"
@@ -432,6 +671,13 @@
 			}
 			id: "5A0E10000000001E"
 			size: 2.0d
+			rewards: [
+				{
+					id: "4C5A26E99B230594"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				id: "5A0E200000000020"
 				item: { count: 1, id: "create:andesite_alloy" }
@@ -441,13 +687,20 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5A0E10000000001E"]
+			dependencies: ["5A0E100000000024"]
 			icon: {
 				id: "create:cogwheel"
 			}
 			id: "5A0E10000000001F"
 			shape: "square"
 			size: 1.5d
+			rewards: [
+				{
+					id: "9692EC3CBAAB8CC2"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "5A0E200000000021"
 				type: "checkmark"
@@ -462,6 +715,13 @@
 			}
 			id: "5A0E100000000020"
 			optional: true
+			rewards: [
+				{
+					id: "C73A32BB956A0B6A"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				id: "5A0E200000000022"
 				item: { count: 1, id: "kubejs:refractory_mortar_pickaxe_mold" }
@@ -477,6 +737,13 @@
 			}
 			id: "5A0E100000000021"
 			optional: true
+			rewards: [
+				{
+					id: "054DD968173AA3E1"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				id: "5A0E200000000023"
 				item: { count: 1, id: "kubejs:andesite_alloy_pickaxe_head" }
@@ -493,6 +760,13 @@
 			id: "5A0E100000000022"
 			optional: true
 			size: 1.5d
+			rewards: [
+				{
+					id: "6C266E1C9D8134D8"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				id: "5A0E200000000024"
 				item: { count: 1, id: "kubejs:reforged_andesite_alloy_pickaxe" }
@@ -509,12 +783,57 @@
 			id: "5A0E100000000023"
 			optional: true
 			shape: "square"
+			rewards: [
+				{
+					id: "4F7A07B8EA92F772"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "5A0E200000000025"
 				type: "checkmark"
 			}]
 			x: 41.5d
 			y: 7.0d
+		}
+		{
+			dependencies: ["5A0E10000000001E"]
+			icon: {
+				id: "create:andesite_casing"
+			}
+			id: "5A0E100000000024"
+			rewards: [
+				{
+					count: 8
+					id: "46D13FD51303DF1D"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2326F4B691CFE980"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "918083EC8B1E6D45"
+					table_id: 7642045617694310415L
+					type: "loot"
+				}
+				{
+					id: "B1E0078E59F298C0"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [{
+				item: { count: 1, id: "create:andesite_casing" }
+				id: "5A0E200000000026"
+				type: "item"
+			}]
+			x: 39.0d
+			y: 2.5d
 		}
 	]
 }

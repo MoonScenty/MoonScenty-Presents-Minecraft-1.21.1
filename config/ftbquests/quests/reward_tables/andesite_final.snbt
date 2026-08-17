@@ -1,0 +1,74 @@
+{
+	id: "6A0E00000000001F"
+	loot_crate: {
+		color: 7240307
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "안산암 합금 시대 완주 상자"
+		string_id: "andesite_final"
+	}
+	loot_size: 5
+	order_index: 29
+	rewards: [
+		{
+			count: 14
+			id: "98E7E24F19D0C263"
+			item: {
+				count: 3
+				id: "minecraft:iron_block"
+			}
+		}
+		{
+			count: 12
+			id: "09E1EFEF8A758191"
+			item: {
+				count: 8
+				id: "minecraft:copper_block"
+			}
+		}
+		{
+			count: 12
+			id: "5D6DC267BFC0DE0F"
+			item: {
+				count: 24
+				id: "minecraft:experience_bottle"
+			}
+		}
+		{
+			count: 10
+			id: "D3DC64AEE0D96FE9"
+			item: {
+				count: 8
+				id: "createmetallurgy:steel_ingot"
+			}
+		}
+		{
+			count: 8
+			id: "ECC78DC54C4F0DBC"
+			item: {
+				count: 12
+				id: "rubberworks:rubber"
+			}
+		}
+		{
+			count: 6
+			id: "35B329128D852862"
+			item: {
+				count: 4
+				id: "minecraft:diamond"
+			}
+		}
+		{
+			count: 5
+			id: "5A09D1A0A43C8640"
+			item: {
+				count: 2
+				id: "minecraft:golden_apple"
+			}
+		}
+	]
+	use_title: true
+}

@@ -1,0 +1,58 @@
+{
+	id: "6A0E000000000004"
+	loot_crate: {
+		color: 10254932
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "석기 4: 주조 덤 상자"
+		string_id: "stone_age_04_casting"
+	}
+	loot_size: 3
+	order_index: 23
+	rewards: [
+		{
+			count: 12
+			id: "7157ECC795B69989"
+			item: {
+				count: 6
+				id: "minecraft:brick"
+			}
+		}
+		{
+			count: 16
+			id: "406E3A41DA7A41AA"
+			item: {
+				count: 16
+				id: "minecraft:charcoal"
+			}
+		}
+		{
+			count: 8
+			id: "35A7167997A7BAA5"
+			item: {
+				count: 4
+				id: "minecraft:golden_carrot"
+			}
+		}
+		{
+			count: 6
+			id: "480015891DDC8FC7"
+			item: {
+				count: 1
+				id: "minecraft:hopper"
+			}
+		}
+		{
+			count: 10
+			id: "0A23C576A460D4FD"
+			item: {
+				count: 8
+				id: "minecraft:paper"
+			}
+		}
+	]
+	use_title: true
+}

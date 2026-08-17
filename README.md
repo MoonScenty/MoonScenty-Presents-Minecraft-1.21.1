@@ -32,22 +32,42 @@ Minecraft 1.21.1과 NeoForge 21.1.248를 기반으로 제작한 모드팩입니�
 
 | 시대 | 주요 콘텐츠 | 동력 및 진행 목표 |
 | --- | --- | --- |
-| **Stone Age (석기 시대)** | Create: Metallurgy | 원시적인 자원 가공과 야금으로 안산암 합금 생산 기반을 준비합니다. Treadmill은 초기 회전력 생산 수단으로 활용하는 방향을 검토합니다. |
-| **Andesite Alloy Age (안산암 합금 시대)** | 기본 Create 기계, Create Tiers, Create Mechanical Extruder | 기본적인 Create 자동화를 시작합니다. 낮은 RPM 범위만 사용할 수 있으며 기계식 자원 생산 설비를 구축합니다. |
+| **Stone Age (석기 시대)** | Create: Metallurgy | 원시적인 자원 가공과 야금으로 안산암 합금 생산 기반을 준비합니다. 동력은 손 크랭크와 손 톱니바퀴까지만 다룹니다. |
+| **Andesite Alloy Age (안산암 합금 시대)** | 기본 Create 기계, Create Tiers, Create: Rubberworks, Create Mechanical Extruder | Crude 티어(32 RPM / 1024 SU) 안에서 기계식 자원 생산 설비를 구축합니다. 러닝머신으로 손 크랭크를 벗어나고, 고무와 강철을 거쳐 화로 엔진에 도달하는 것이 결승선입니다. |
 | **Brass Age (황동 시대)** | Create: Vintage, Create Tiers, Create: AE Generator | 황동 기계와 중간 RPM 범위를 해금합니다. AE Generator를 만들 수 있게 되지만 Applied Energistics 2의 본격적인 사용은 다음 시대부터 가능합니다. |
 | **Industrial Age (산업 시대)** | Create: Petrochem, Applied Energistics 2, Create Utilities J, Create Tiers | 석유와 유체를 사용하는 대규모 산업 시설을 구축하고 높은 RPM을 사용할 수 있습니다. AE2 저장망과 고급 물류도 이 시대부터 본격적으로 사용합니다. |
 | **Atomic Age (원자력 시대)** | Create: Atomic | 최종 생산 체계를 구축하고 강력하거나 특별한 보상형 아이템을 대량 생산해 사용할 수 있습니다. |
 
 ### 레시피와 동력 설계
 
-- Create의 기본 기계 제작법은 `Create: Recipe Need RPM`이 제공하는 RPM 요구 체계를 중심으로 재구성할 예정입니다.
-- Create Tiers를 이용해 시대별로 사용할 수 있는 RPM 범위를 제한합니다.
+#### 동력 계보
+
+동력은 손 크랭크에서 시작해 한 줄로 이어집니다. 앞 단계를 세우지 않으면 다음 단계에 닿을 수 없습니다.
+
+| 단계 | 동력원 | 시대 | 출력 | 유지 조건 |
+| --- | --- | --- | --- | --- |
+| 1 | 손 크랭크 | 석기 | — | 잡고 있어야 함 |
+| 2 | 손 톱니바퀴 | 석기 말 | — | 잡고 있어야 함 |
+| 3 | 러닝머신 | 안산암 초 | 32 RPM / 512 SU | 동물이 걸어야 함 |
+| 4 | 화로 엔진 | 안산암 말 | 32 RPM / 1024 SU | 연료 |
+| 5 | 증기 기관 | 황동 | 64 RPM / 2048 SU | 연료와 물 |
+
+물레방아, 대형 물레방아, 풍차 베어링과 돛은 놓고 잊는 공짜 동력이므로 제작법을 제거했습니다. 증기 기관은 원본 제작법이 금 판과 구리 블록, 안산암 합금뿐이라 안산암 시대에 열려 버리므로 황동 케이싱과 강철을 요구하도록 다시 썼습니다.
+
+#### RPM 체계
+
+- Create의 가공 기계는 전부 `Create: Recipe Need RPM`이 제공하는 RPM 인식 기계로 대체하고, 원본 기계의 제작법은 제거했습니다.
+- Create의 가공 레시피 427개를 RPM 타입으로 옮기면서 기본 `min_rpm: 32`를 붙였습니다. 최소 속도에 못 미치면 처리가 느려지는 것이 아니라 아예 시작하지 않습니다.
+- Create Tiers로 시대별 RPM 상한을 나눕니다. Crude 32 / Rough 64 / Standard 128 / Reinforced 256이며 최대 응력도 함께 올라갑니다.
+- 같은 입력에 여러 min_rpm 판본이 있으면 현재 속도를 넘지 않는 것 중 가장 높은 쪽이 선택됩니다. 빠를수록 좋은 결과가 나오는 구조입니다.
+
+#### 재료 게이팅
+
+- **케이싱 사슬**이 시대를 나눕니다. 원목에서 바로 만드는 경로를 모두 막고 안산암 케이싱 → 구리 케이싱 → 황동 케이싱 순서를 강제합니다. 전개기와 주조 두 경로 모두 같은 순서를 따릅니다.
+- 초기에는 내구도 16의 막자사발로 철·구리·금·아연·울프라마이트 원광을 광물 부스러기로 수동 가공합니다. 광물 손해가 나지만 용해로에 바로 넣을 수 있습니다.
+- 기계식 분쇄에는 다른 금속의 부스러기가 낮은 확률로 섞여 나옵니다. 한 종류만 캐도 다른 금속이 조금씩 쌓입니다.
 - 다음 시대에 진입하면 이전 시대 재료의 생산량을 높이거나 제작 공정을 단순화합니다.
-- 초기에는 내구도 16의 막자사발을 사용해 철·구리·금·아연·울프라마이트 원광을 광물 부스러기로 수동 가공합니다.
-- Create: Rubberworks의 유체 관련 제작법에는 고무 계열 재료가 실제로 소비되도록 조정합니다.
-- 동력은 손 크랭크에서 시작해 손 톱니바퀴, 러닝머신, 화로 엔진으로 이어집니다. 물레방아와 풍차는 놓고 잊는 공짜 동력이므로 제작법을 제거했습니다.
-- Create Utilities J는 산업 시대에 해금합니다.
-- Create Mechanical Extruder는 안산암 합금 시대에 해금합니다.
+- Create Mechanical Extruder는 안산암 합금 시대, Create Utilities J는 산업 시대에 해금합니다.
 
 ### 퀘스트 구성
 
@@ -58,7 +78,13 @@ Minecraft 1.21.1과 NeoForge 21.1.248를 기반으로 제작한 모드팩입니�
 
 마인크래프트 튜토리얼 퀘스트의 세부 구조와 구현 현황은 [QUEST_TUTORIAL.md](QUEST_TUTORIAL.md)에서 관리합니다. 실제 퀘스트는 `Tutorial` 단일 챕터의 큰 진행도로 구성하며 게임 내 기본 문구는 영어로 작성합니다.
 
-Create 기술 시대 퀘스트는 시대별로 문서를 나눠 관리합니다. 석기 시대의 세부 구조는 [QUEST_STONE_AGE.md](QUEST_STONE_AGE.md)에서 관리합니다.
+Create 기술 시대 퀘스트는 시대별로 문서를 나눠 관리합니다.
+
+| 시대 | 문서 | 규모 |
+| --- | --- | --- |
+| 석기 시대 | [QUEST_STONE_AGE.md](QUEST_STONE_AGE.md) | 34개 |
+| 안산암 합금 시대 | [QUEST_ANDESITE_ALLOY_AGE.md](QUEST_ANDESITE_ALLOY_AGE.md) | 38개 |
+| 황동 시대 이후 | 미작성 | — |
 
 진행도와 무관하게 유용한 아이템과 조작을 모아 안내하는 꿀팁과 노하우 챕터는 [QUEST_TIPS_AND_TRICKS.md](QUEST_TIPS_AND_TRICKS.md)에서 관리합니다.
 

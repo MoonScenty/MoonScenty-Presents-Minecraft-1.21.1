@@ -21,13 +21,27 @@ ServerEvents.recipes(event => {
       .id(`kubejs:crafting/${metal}_filings`)
   })
 
+  // 부스러기 용해는 열 등급에 따라 회수량이 달라진다.
+  //
+  //   기초 버너(lowheated)   45mb   주괴 절반. 초반에는 손해를 감수한다.
+  //   블레이즈 버너(heated)  90mb   주괴 한 개. 손실 없이 회수한다.
+  //
+  // 초반에는 원광을 갈아 쓰느라 절반을 버리지만, 버너를 갖추고 나면
+  // 분쇄 부산물로 들어온 부스러기를 온전히 되돌릴 수 있다.
+  const MELT = [
+    ['lowheated', 45, 40],
+    ['heated', 90, 30]
+  ]
+
   filings.forEach(([filing, , metal, molten]) => {
-    event.custom({
-      type: 'createmetallurgy:melting',
-      heat_requirement: 'lowheated',
-      ingredients: [{ item: filing }],
-      processing_time: 40,
-      results: [{ amount: 45, id: molten }]
-    }).id(`kubejs:melting/${metal}_filings`)
+    MELT.forEach(([heat, amount, time]) => {
+      event.custom({
+        type: 'createmetallurgy:melting',
+        heat_requirement: heat,
+        ingredients: [{ item: filing }],
+        processing_time: time,
+        results: [{ amount: amount, id: molten }]
+      }).id(`kubejs:melting/${metal}_filings_${heat}`)
+    })
   })
 })

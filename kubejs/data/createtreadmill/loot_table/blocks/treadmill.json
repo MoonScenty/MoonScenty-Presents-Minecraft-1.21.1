@@ -1,0 +1,21 @@
+{
+  "__comment": "원본 전리품 표가 존재하지 않는 createtreadmill:treadmill_item을 가리켜 러닝머신을 부수면 아무것도 떨어지지 않는다. 실제 아이템 ID로 고친 판본이다.",
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createtreadmill:treadmill"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

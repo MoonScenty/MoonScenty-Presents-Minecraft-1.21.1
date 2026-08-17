@@ -1,0 +1,58 @@
+{
+	id: "6A0E000000000003"
+	loot_crate: {
+		color: 11887901
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "석기 3: 용해로 덤 상자"
+		string_id: "stone_age_03_foundry"
+	}
+	loot_size: 3
+	order_index: 22
+	rewards: [
+		{
+			count: 16
+			id: "D5A6BA6229494244"
+			item: {
+				count: 16
+				id: "minecraft:charcoal"
+			}
+		}
+		{
+			count: 6
+			id: "B9E2C652E016833B"
+			item: {
+				count: 2
+				id: "minecraft:blaze_powder"
+			}
+		}
+		{
+			count: 14
+			id: "F31408883AD20213"
+			item: {
+				count: 6
+				id: "minecraft:cooked_porkchop"
+			}
+		}
+		{
+			count: 8
+			id: "971387D229BEE740"
+			item: {
+				count: 1
+				id: "minecraft:bucket"
+			}
+		}
+		{
+			count: 8
+			id: "AD19BE6CA64B7D32"
+			item: {
+				count: 4
+				id: "minecraft:glass_bottle"
+			}
+		}
+	]
+	use_title: true
+}

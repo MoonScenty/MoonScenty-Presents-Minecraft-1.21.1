@@ -1,0 +1,58 @@
+{
+	id: "6A0E000000000001"
+	loot_crate: {
+		color: 11047032
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "석기 1: 절구질 덤 상자"
+		string_id: "stone_age_01_mortar"
+	}
+	loot_size: 2
+	order_index: 20
+	rewards: [
+		{
+			count: 14
+			id: "67C1CF5E1DAA424F"
+			item: {
+				count: 4
+				id: "minecraft:cooked_beef"
+			}
+		}
+		{
+			count: 16
+			id: "677A00AF20232CF6"
+			item: {
+				count: 16
+				id: "minecraft:torch"
+			}
+		}
+		{
+			count: 12
+			id: "A54C79908DB958FB"
+			item: {
+				count: 8
+				id: "minecraft:coal"
+			}
+		}
+		{
+			count: 10
+			id: "6E0B3779AD1C05B2"
+			item: {
+				count: 8
+				id: "minecraft:bone_meal"
+			}
+		}
+		{
+			count: 8
+			id: "D13315FF74F81AAA"
+			item: {
+				count: 3
+				id: "minecraft:leather"
+			}
+		}
+	]
+	use_title: true
+}

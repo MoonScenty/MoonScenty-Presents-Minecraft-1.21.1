@@ -1,0 +1,66 @@
+{
+	id: "6A0E000000000011"
+	loot_crate: {
+		color: 5999726
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "안산암 1: 첫 동력 상자"
+		string_id: "andesite_01_power"
+	}
+	loot_size: 4
+	order_index: 25
+	rewards: [
+		{
+			count: 14
+			id: "1E7ABDEA6F9FE12B"
+			item: {
+				count: 4
+				id: "create:andesite_alloy_block"
+			}
+		}
+		{
+			count: 12
+			id: "F5CED9E246F74251"
+			item: {
+				count: 16
+				id: "minecraft:dried_kelp"
+			}
+		}
+		{
+			count: 12
+			id: "0C7258F0BB9DB8EA"
+			item: {
+				count: 8
+				id: "minecraft:iron_ingot"
+			}
+		}
+		{
+			count: 10
+			id: "98F47A86A3C25D33"
+			item: {
+				count: 6
+				id: "minecraft:leather"
+			}
+		}
+		{
+			count: 8
+			id: "5A498CD8F95F5238"
+			item: {
+				count: 16
+				id: "minecraft:wheat"
+			}
+		}
+		{
+			count: 6
+			id: "6089F9599909EFDD"
+			item: {
+				count: 2
+				id: "minecraft:golden_apple"
+			}
+		}
+	]
+	use_title: true
+}

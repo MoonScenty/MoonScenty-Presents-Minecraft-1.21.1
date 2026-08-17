@@ -1,0 +1,66 @@
+{
+	id: "6A0E000000000012"
+	loot_crate: {
+		color: 12088115
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "안산암 2: 케이싱 상자"
+		string_id: "andesite_02_casing"
+	}
+	loot_size: 4
+	order_index: 26
+	rewards: [
+		{
+			count: 14
+			id: "3CFAD9E209457AF0"
+			item: {
+				count: 6
+				id: "minecraft:copper_block"
+			}
+		}
+		{
+			count: 12
+			id: "7642BA1F855A9753"
+			item: {
+				count: 4
+				id: "create:andesite_casing"
+			}
+		}
+		{
+			count: 12
+			id: "4B8C25456B8C6530"
+			item: {
+				count: 16
+				id: "minecraft:oak_log"
+			}
+		}
+		{
+			count: 10
+			id: "5AD5D4C268F4520D"
+			item: {
+				count: 8
+				id: "minecraft:iron_ingot"
+			}
+		}
+		{
+			count: 8
+			id: "B0648F64CEC0540E"
+			item: {
+				count: 12
+				id: "minecraft:experience_bottle"
+			}
+		}
+		{
+			count: 5
+			id: "4B955815E710F117"
+			item: {
+				count: 2
+				id: "minecraft:diamond"
+			}
+		}
+	]
+	use_title: true
+}
