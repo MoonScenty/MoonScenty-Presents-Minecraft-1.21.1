@@ -13,8 +13,6 @@ key_create.keyinfo.rotate_menu:key.keyboard.unknown
 key_create.keyinfo.shift_modifier:key.keyboard.left.shift
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
-key_dndesires.keyinfo.drill_active:key.keyboard.left.alt
-key_dndesires.keyinfo.saw_active:key.keyboard.left.alt
 key_fpsreducer.key.forceIdle:key.keyboard.pause
 key_fpsreducer.key.openGui:key.keyboard.end
 key_framedblocks.key.update_cull:key.keyboard.unknown

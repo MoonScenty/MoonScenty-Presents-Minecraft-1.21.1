@@ -1,12 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
+file = "PUFFISH_SKILLS.md"
+hash = "6067b0731099a9d4e9c67cd1b3ca86c9cb9b7ac1718d0dec8e24b2407f5e9225"
+
+[[files]]
 file = "QUEST_STONE_AGE.md"
 hash = "57ca5d7c97caea55c98d02777aa757e6c6fd84a07f19caa28e901d01561c0787"
 
 [[files]]
 file = "QUEST_TIPS_AND_TRICKS.md"
-hash = "52487333763d62c287ffb3041b887f46dbc04c266e2bf0be6531a18d52afa5d1"
+hash = "a1f18f341c5ba9357850fb8f00eb13ab3fb18db719e8149c84ff743fd670b2d7"
 
 [[files]]
 file = "config/CreateEnergistics2-common.toml"
@@ -145,12 +149,8 @@ file = "config/createvintageneoforged-server.toml"
 hash = "019ea276b36769ef758991ad73af51b816ea13bf8dc19f98f6398f8f9b472868"
 
 [[files]]
-file = "config/dndesires-client.toml"
-hash = "4e031d691b0ba66366b0cdecc34925f540feec7f3b4617c572f0a0dee63e172f"
-
-[[files]]
-file = "config/dndesires-server.toml"
-hash = "5531577f4e8150519e15d8c6b28a17818f9621c82b9ab2a08a0847dc9feb3507"
+file = "config/defaultoptions/keybindings.txt"
+hash = "53a6ff872441ee20b58967a1188cee00ed5320721808385c375faf6b0d800de9"
 
 [[files]]
 file = "config/enchdesc.json"
@@ -278,11 +278,11 @@ hash = "24c9ba9fd84d39188ea74ec7b800402abd696b7bd18b54a4acb57be359beb3a2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stone_age.snbt"
-hash = "e3fe54fe13284661c629907fe9dd243ba1fad9f6ac460dc30baeb6e3eadd98bd"
+hash = "5d627481bad8c10c88a0816255ea354b6d6b46f8191043da030861f65473f4cf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks.snbt"
-hash = "39cb90882c67270b5e73f7e2f34ef9f64a4d920de752217285a8fd868071c45a"
+hash = "312fc91165bb47a3b6b6440d076cc0973529e95a6d4c8aa182f476c7d4c39d1a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tutorial.snbt"
@@ -298,7 +298,7 @@ hash = "24e9fe7e47c76996148659e54497635510fbf3e47fdec9798fd6c46df0c19a43"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "1582e749ecab24aa27730c29eb48072bd141c67fc60bd69a7efbf40cac0c70a8"
+hash = "707724bd94ed29aaf04dd2da545dd5f08980a9e61d0ef1ade34eabd9b133809f"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_00_welcome.snbt"
@@ -669,6 +669,10 @@ file = "config/zeta-common.toml"
 hash = "d985bfc68899c91aa642736400472f6ab876dedaaef4b8c31f38b52d48de633d"
 
 [[files]]
+file = "defaultconfigs/certain_questing_additions/client-config.snbt"
+hash = "307757584718063602501a5ebb47feb6577ccb09b557bfb2cf56d31f395df649"
+
+[[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
@@ -739,10 +743,6 @@ hash = "36e81b332e1a0723ac50eb84af07bf660277cd48a792508a8014f9394e751496"
 [[files]]
 file = "kubejs/assets/createvintageneoforged/lang/ko_kr.json"
 hash = "703bace15f80a6376c52535b56595cf655a1c0c2cbc3fa9c2c2947be0baf9f26"
-
-[[files]]
-file = "kubejs/assets/dndesires/lang/ko_kr.json"
-hash = "a268388c2c7b5ff0a4794ae16c83d6339df98d8b84cc7aef2613a62f77692e17"
 
 [[files]]
 file = "kubejs/assets/entity_model_features/lang/ko_kr.json"
@@ -1329,6 +1329,90 @@ file = "kubejs/data/kubejs/enchantment/proficiency.json"
 hash = "e85e74ce3af5b21db868e8204e53e73f3e66301f5fae8b95830cc1839f5d98d8"
 
 [[files]]
+file = "kubejs/data/moonscenty/puffish_skills/categories/combat/category.json"
+hash = "b95d024aaf5d8058a7afe71047442a4df026989a4625c22c972d19d97daf48e3"
+
+[[files]]
+file = "kubejs/data/moonscenty/puffish_skills/categories/combat/connections.json"
+hash = "829176c3fde0fa736aee842d1c5fd80f5d53a1e647b8833d0c1fa2123e46b027"
+
+[[files]]
+file = "kubejs/data/moonscenty/puffish_skills/categories/combat/definitions.json"
+hash = "2ac3d02a5a6b39420d596cc3616fe7e4d95e440bc86189851b00a457a73266bd"
+
+[[files]]
+file = "kubejs/data/moonscenty/puffish_skills/categories/combat/experience.json"
+hash = "9dd1fe26335ad2594bf53da5ada1c79117b128d399422c95b4c54c25da6a3183"
+
+[[files]]
+file = "kubejs/data/moonscenty/puffish_skills/categories/combat/skills.json"
+hash = "a2debef49fed48f7ed3c55693f2539966b3e6d948443652887bc56832c6eabb5"
+
+[[files]]
+file = "kubejs/data/moonscenty/puffish_skills/categories/exploration/category.json"
+hash = "ddd284f3d0ca85602b8db69abc0d76d53c8d261eac18661e2395d7c5dc11f754"
+
+[[files]]
+file = "kubejs/data/moonscenty/puffish_skills/categories/exploration/connections.json"
+hash = "829176c3fde0fa736aee842d1c5fd80f5d53a1e647b8833d0c1fa2123e46b027"
+
+[[files]]
+file = "kubejs/data/moonscenty/puffish_skills/categories/exploration/definitions.json"
+hash = "43b5970d2433f8821c8a57cbb57f922d069e4e18f23b42ead43e0749d788fac5"
+
+[[files]]
+file = "kubejs/data/moonscenty/puffish_skills/categories/exploration/experience.json"
+hash = "72612688be760cc1f4aa09943c3d8f1d871cad9ba7fd7c1f80bbfa15af3a7082"
+
+[[files]]
+file = "kubejs/data/moonscenty/puffish_skills/categories/exploration/skills.json"
+hash = "e4d0c99bc9ef745ff3a0bd726dfc1fd5cc4f7acbe7e2d8b533c04f4fca0675d5"
+
+[[files]]
+file = "kubejs/data/moonscenty/puffish_skills/categories/living/category.json"
+hash = "1874f94cd67e3cd3e08d6eb8deeed0d4d5859bf2c81bf213ba8119114c93b309"
+
+[[files]]
+file = "kubejs/data/moonscenty/puffish_skills/categories/living/connections.json"
+hash = "829176c3fde0fa736aee842d1c5fd80f5d53a1e647b8833d0c1fa2123e46b027"
+
+[[files]]
+file = "kubejs/data/moonscenty/puffish_skills/categories/living/definitions.json"
+hash = "2baee1a173eda55e17dd634f7d3e5b8a3bf0374006bda18940f7d53a85b4a6ba"
+
+[[files]]
+file = "kubejs/data/moonscenty/puffish_skills/categories/living/experience.json"
+hash = "24c1b110d74c9995e1f1a961328f50424ad4a550dcefba159eda728f5173cfb3"
+
+[[files]]
+file = "kubejs/data/moonscenty/puffish_skills/categories/living/skills.json"
+hash = "5b1a9300546b387d1dd1fde26168418ef89098b1c550199050b71e6a424ee4e9"
+
+[[files]]
+file = "kubejs/data/moonscenty/puffish_skills/categories/mining/category.json"
+hash = "74e969d594fa14c6db8d97f0cbf0759c91fba61af44ba6149ac1144726337801"
+
+[[files]]
+file = "kubejs/data/moonscenty/puffish_skills/categories/mining/connections.json"
+hash = "829176c3fde0fa736aee842d1c5fd80f5d53a1e647b8833d0c1fa2123e46b027"
+
+[[files]]
+file = "kubejs/data/moonscenty/puffish_skills/categories/mining/definitions.json"
+hash = "95a7f458718054d6b9fff7b94e25533a7d30923b639b48a8b698d63a73e54ae1"
+
+[[files]]
+file = "kubejs/data/moonscenty/puffish_skills/categories/mining/experience.json"
+hash = "7d0b8f3b3ab3b88f03eef158812878698b1991219030a230c50530ba973ce140"
+
+[[files]]
+file = "kubejs/data/moonscenty/puffish_skills/categories/mining/skills.json"
+hash = "2cc93a05b9645bd224d4fcca968721ae75d9ff5a9222cfcba6ff0af13eb154b3"
+
+[[files]]
+file = "kubejs/data/moonscenty/puffish_skills/config.json"
+hash = "0c52a8616e7c9a730026ad31fe199830e2e1656ce82526e2ec8c9ed9fef233ac"
+
+[[files]]
 file = "kubejs/server_scripts/andesite.js"
 hash = "583cf5b3df5bd1ee11d20fcdfdda471a307dd3a71385a4171ece97fe0992e9e6"
 
@@ -1337,8 +1421,12 @@ file = "kubejs/server_scripts/create.js"
 hash = "7e2512a1a8514a725e7ae82cf78a8b7b7b3e7b1482555c83ce370c26b10255f9"
 
 [[files]]
-file = "kubejs/server_scripts/dndesires.js"
-hash = "a828855625dfad290478d435f964b97b5c7fee964bead5a2bbc6e499f9338cbd"
+file = "kubejs/server_scripts/furnace_engine.js"
+hash = "9bab243dd996a6ff7a275fcd30c1e88c4bf65965cd368c1712153bdc6af89515"
+
+[[files]]
+file = "kubejs/server_scripts/hand_cogwheel.js"
+hash = "12713ac4719103e2ca196a630c6f50660eb0554c3e863ba5946ef025754ad430"
 
 [[files]]
 file = "kubejs/server_scripts/lowheated.js"
@@ -1359,6 +1447,10 @@ hash = "108524065a1ac0018808d103ed3a704e480871b2a5ea8185b4134b10267a665b"
 [[files]]
 file = "kubejs/server_scripts/netherite.js"
 hash = "1b5fc9576d0b98d3a7ea8a59282e0f7470a649d5a34386421102db188816fb9f"
+
+[[files]]
+file = "kubejs/server_scripts/power_sources.js"
+hash = "62892c5487da6cb547dee34b75b89670ea062a878112956504eb315967618f67"
 
 [[files]]
 file = "kubejs/server_scripts/proficiency.js"
@@ -1390,7 +1482,7 @@ hash = "5cc8ba5a1f185017c289b41913ba3191d36c2f33414ba02058be4bca0a4ed203"
 
 [[files]]
 file = "kubejs/startup_scripts/tiers.js"
-hash = "4c372e79b2223140e31501f5a63ae2508c7d19c8d97536e0787dfed95f1ad1bb"
+hash = "049cc9025d67290a4a9f6ce9004d555fd9572cf8017a1d126475bebf113c30f6"
 
 [[files]]
 file = "kubejs/startup_scripts/tool_heads.js"
@@ -1706,11 +1798,6 @@ hash = "87cc67538d60973cf296adf7cd6f198b2aa2ffb5a2a17e3ce9977c0cd05ddcef"
 metafile = true
 
 [[files]]
-file = "mods/create-dreams-desires.pw.toml"
-hash = "21c83a2a79ec084cf15634b178ad86c078e21a08ac1183d4ae2c09200a06e031"
-metafile = true
-
-[[files]]
 file = "mods/create-dynamic-lights.pw.toml"
 hash = "77ce35f9c20ed2a397c8e2b95eb9f672cf37e44e16f99f17f250c398cabd89bf"
 metafile = true
@@ -1808,6 +1895,16 @@ metafile = true
 [[files]]
 file = "mods/createatomic.pw.toml"
 hash = "a916d406935e42653d3f5af68637604be6073fcab663848a01fe116cdeb831e3"
+metafile = true
+
+[[files]]
+file = "mods/createfurnaceengine.pw.toml"
+hash = "ff7447f24b884e858931d260a1dd90ca363e1863fcf3b1ace503d609734ccb79"
+metafile = true
+
+[[files]]
+file = "mods/createhandcogwheel.pw.toml"
+hash = "1e89fbe2f6e13c8c1cc47c88152fdc5e6408fc279ed10c39d7c58b794522fbce"
 metafile = true
 
 [[files]]

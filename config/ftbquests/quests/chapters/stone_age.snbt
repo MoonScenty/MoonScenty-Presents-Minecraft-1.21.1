@@ -352,12 +352,12 @@
 		{
 			dependencies: ["5A0E100000000018"]
 			icon: {
-				id: "dndesires:cog_crank"
+				id: "createhandcogwheel:hand_cogwheel"
 			}
 			id: "5A0E100000000019"
 			tasks: [{
 				id: "5A0E20000000001B"
-				item: { count: 1, id: "dndesires:cog_crank" }
+				item: { count: 1, id: "createhandcogwheel:hand_cogwheel" }
 				type: "item"
 			}]
 			x: 29.0d
@@ -366,7 +366,7 @@
 		{
 			dependencies: ["5A0E100000000019"]
 			icon: {
-				id: "create:water_wheel"
+				id: "createtreadmill:treadmill"
 			}
 			id: "5A0E10000000001A"
 			shape: "square"

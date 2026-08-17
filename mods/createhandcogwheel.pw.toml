@@ -1,0 +1,8 @@
+name = "createhandcogwheel"
+filename = "createhandcogwheel-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/MoonScenty/CreateHandCogwheel/releases/download/beta/createhandcogwheel-1.0.0.jar"
+hash-format = "sha256"
+hash = "37ab10cffc0759f3ad4b8e2053dfe4a4d63098042669f2befb7db3d51445e1e7"
