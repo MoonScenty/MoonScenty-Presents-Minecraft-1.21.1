@@ -1,14 +1,14 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: "circle"
-	filename: "brass_age"
-	group: "4D41494E51554553"
+	filename: "cooking"
+	group: "4C49464545585031"
 	icon: {
-		id: "create:brass_ingot"
+		id: "farmersdelight:cooking_pot"
 	}
-	id: "5A0E000000000003"
+	id: "5A0E000000000010"
 	images: [ ]
-	order_index: 2
+	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [ ]

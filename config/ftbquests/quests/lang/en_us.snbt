@@ -7,7 +7,7 @@
 	chapter.5A0E000000000004.title: "산업 시대"
 	chapter.5A0E000000000005.title: "원자력 시대"
 	chapter.7A1B2C3D4E5F6001.title: "꿀팁과 노하우"
-	chapter_group.4D41494E51554553.title: "메인 퀘스트"
+	chapter_group.4D41494E51554553.title: "기술 시대"
 	file.0000000000000001.title: "MoonScenty Presents Minecraft"
 	quest.2004FC52B8DAE583.quest_desc: ["구리와 자수정 조각으로 망원경을 만드세요. 멀리 있는 구조물과 위험 요소를 먼저 확인해 불필요한 이동을 줄일 수 있습니다."]
 	quest.2004FC52B8DAE583.quest_subtitle: "망원경 제작"
@@ -1179,20 +1179,10 @@
 	]
 	quest.5A0E11000000001E.quest_subtitle: "강철 주괴 4개 제작"
 	quest.5A0E11000000001E.title: "철보다 강한 철"
-	quest.5A0E11000000001F.quest_desc: [
-		"고무 시트 여섯 장으로 몸통을 두르고 강철 주괴, 구리 케이싱, 피스톤을 넣습니다. 일반 제작대에서 만듭니다."
-		"화로 위에 올려 연료를 태우면 회전이 나옵니다. 동물도 사람도 필요 없는 이 시대의 최종 동력원입니다."
-		"화로 옆에 구리 블록을 붙이면 방열판으로 인식합니다. 이때 32 RPM에 1024 SU가 나오며, Crude 티어의 상한과 정확히 같습니다."
-		"방열판이 없으면 40 RPM으로 돌아 Crude 티어의 32 RPM 상한을 넘깁니다. 구리 블록을 반드시 붙이세요."
-		"이보다 더 뽑으려면 다음 시대로 가야 합니다."
-	]
+	quest.5A0E11000000001F.quest_desc: ["고무 시트 여섯 장으로 몸통을 두르고 강철 주괴, 구리 케이싱, 피스톤을 넣습니다. 일반 제작대에서 만듭니다.", "화로·용광로·훈연기의 옆면에만 붙습니다. 정면과 윗면은 안 됩니다. 화로 하나에 엔진 하나뿐입니다.", "엔진에서 바깥으로 두 칸 떨어진 자리에 플라이휠을 놓습니다. 사이 한 칸은 비워 둡니다. 플라이휠 축은 엔진이 뻗은 방향과 나란하면 안 되고 세로로도 놓을 수 없습니다.", "화로 옆에 구리 블록을 붙이면 방열판으로 인식합니다. 이때 32 RPM에 1024 SU가 나오며, Crude 티어의 상한과 정확히 같습니다.", "방열판이 없으면 40 RPM으로 돌아 Crude 티어의 32 RPM 상한을 넘깁니다. 구리 블록을 반드시 붙이세요."]
 	quest.5A0E11000000001F.quest_subtitle: "화로 엔진 제작"
 	quest.5A0E11000000001F.title: "불을 때서 돌립니다"
-	quest.5A0E110000000020.quest_desc: [
-		"응력계를 달아 보면 화로 엔진 하나가 1024 SU를 채우는 것을 볼 수 있습니다."
-		"더 필요하면 엔진을 늘려 톱니바퀴로 합치면 됩니다. 다만 속도는 여전히 32 RPM에서 막힙니다."
-		"황동 시대로 넘어가면 Rough 티어가 열려 64 RPM에 2048 SU까지 올라갑니다. 분쇄 바퀴와 증기 기관이 그때부터입니다."
-	]
+	quest.5A0E110000000020.quest_desc: ["엔진은 1 RPM으로 시동해 15틱마다 목표 속도의 12분의 1씩 올라갑니다. 기본 설정이라면 10초쯤 뒤에 목표 속도에 닿습니다.", "고글을 쓰면 엔진에 값 패널이 떠서 현재 RPM과 부하를 볼 수 있습니다. 응력계를 따로 달지 않아도 됩니다.", "더 필요하면 엔진을 늘려 톱니바퀴로 합치면 됩니다. 다만 속도는 여전히 32 RPM에서 막힙니다.", "황동 시대로 넘어가면 Rough 티어가 열려 64 RPM에 2048 SU까지 올라갑니다. 분쇄 바퀴와 증기 기관이 그때부터입니다."]
 	quest.5A0E110000000020.quest_subtitle: "응력 한계 확인"
 	quest.5A0E110000000020.title: "이 시대의 천장"
 	quest.5A0E110000000021.quest_desc: [
@@ -1649,4 +1639,22 @@
 	task.3C3C20E918DFEB12.title: "Unknown type: trading"
 	task.3CE4B2E3747D8BE4.title: "Unknown type: break_block"
 	task.3DF39EEB78CA047D.title: "Unknown type: trading"
+	quest.5A0E11000000002D.quest_desc: ["강철 주괴 여덟 개로 축 하나를 감싸면 플라이휠이 됩니다. 원래는 황동을 요구하지만 이 모드팩은 강철로 바꿔 두었습니다.", "화로 엔진은 축이 아니라 플라이휠로 동력을 내보냅니다. 엔진에서 바깥으로 두 칸 떨어뜨려 놓고 사이 한 칸은 비워 두세요.", "화로 엔진 본체와 강철 케이싱도 강철을 씁니다. 이 시대의 강철은 늘 모자랍니다."]
+	quest.5A0E11000000002D.quest_subtitle: "플라이휠 제작"
+	quest.5A0E11000000002D.title: "바퀴가 돌아야 힘이 나갑니다"
+	chapter_group.5354415254494E47.title: "시작하기"
+	chapter_group.4C49464545585031.title: "생활과 탐험"
+	chapter_group.4348414C4C454E47.title: "도전"
+	chapter.5A0E000000000010.title: "요리와 식탁"
+	chapter.5A0E000000000011.title: "모험과 구조물"
+	chapter.5A0E000000000013.title: "건축과 장식"
+	chapter.5A0E00000000001F.title: "챌린지 미션"
+	chapter_group.4D414749434D4F44.title: "마법"
+	chapter.5A0E000000000012.title: "Iron's Spells 'n Spellbooks"
+	chapter.5A0E000000000014.title: "Forbidden and Arcanus"
+	chapter.5A0E000000000015.title: "양봉과 벌통"
+	chapter_group.4C4F474953544943.title: "물류"
+	chapter.5A0E000000000016.title: "Applied Energistics 2"
+	chapter.5A0E000000000017.title: "저장과 운반"
+	chapter.5A0E000000000018.title: "황혼의 숲"
 }

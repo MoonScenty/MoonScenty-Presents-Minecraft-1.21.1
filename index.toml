@@ -5,6 +5,10 @@ file = "PUFFISH_SKILLS.md"
 hash = "6067b0731099a9d4e9c67cd1b3ca86c9cb9b7ac1718d0dec8e24b2407f5e9225"
 
 [[files]]
+file = "QUEST_ANDESITE_ALLOY_AGE.md"
+hash = "9e502a1c277152e689e504f0968b319231bf8358a1bc64e5e33b1b96ac4d3941"
+
+[[files]]
 file = "QUEST_STONE_AGE.md"
 hash = "57ca5d7c97caea55c98d02777aa757e6c6fd84a07f19caa28e901d01561c0787"
 
@@ -258,123 +262,167 @@ hash = "122a0205ec0cbf63f1db42f24f6c5c6095f54083f2c4f985c473acd2e228988f"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "0bd70012654aefba5b702ab2c13b8ff3df15ba249fd2518cba064f6bd35fa7ed"
+hash = "a163757839ba8aafbbf4b9827681fa8384479e8a63727c5d3ac63378cd80c9ac"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andesite_alloy_age.snbt"
-hash = "1aaeccfd9710fe565433be4cf1d228e58208200bd265f736880131ac05044347"
+hash = "00782ab694b04b47f33c20681bcc5d6f78b8b09dfc0436876f3ed391155c85e5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/atomic_age.snbt"
-hash = "5aa2a00af83fb45285ec07f22f7987b96347513b23c4ef44d2bc8d12cd75b9f3"
+hash = "95b175f0176574c72f64168bc5d568fdcf2083df59bd870a2d99654442dbbb96"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/brass_age.snbt"
-hash = "68fe9287a7354fa6c0e755bc5aa631aa55e9496c84148f20a167004abc8997e6"
+hash = "8376cda26166cc963070c85170161624e4ce6d21dab27c3b7bded7375f757b27"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_age.snbt"
-hash = "24c9ba9fd84d39188ea74ec7b800402abd696b7bd18b54a4acb57be359beb3a2"
+hash = "8a049e9a406944a5372fabb9443f574583bf94e5c7726031e669568f1017d01d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stone_age.snbt"
-hash = "5d627481bad8c10c88a0816255ea354b6d6b46f8191043da030861f65473f4cf"
+hash = "6a4cb1541c8656ec858bceb80f378fe15d2e174ac23cb3beacd932341aab3eeb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks.snbt"
-hash = "312fc91165bb47a3b6b6440d076cc0973529e95a6d4c8aa182f476c7d4c39d1a"
+hash = "c51e52a4731d6c07fbbca6dc547d85192ba4891b18b6889a65ad33c87f9109de"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tutorial.snbt"
-hash = "6496e8e65477e4fb2585a6620c24a319172af3bf2922387445a924a29eda95f7"
+hash = "5dafdeff09d3d0c3e2f6b585c0061e61663fcd6c96fda4ed6851e85b521f982e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
-hash = "ae5d51d1fa96f499f84518a45b10a6c8b1a5255fa67046e60b5f5fd3b3457353"
+hash = "93e7d03ad5c8c5dec86465034f0d32cff6a6c1dc669364f4db04ecd4fdcece81"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "24e9fe7e47c76996148659e54497635510fbf3e47fdec9798fd6c46df0c19a43"
+hash = "6cde88d5b4af7175fee7054dec818968be37abd1a1d77c7c22817bda7a0932ad"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "707724bd94ed29aaf04dd2da545dd5f08980a9e61d0ef1ade34eabd9b133809f"
+hash = "e6865ec84c9c8d5c7c9dde045e3e19a0fc9d4d4f1db19d76bdf59cfc0f037663"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/andesite_01_power.snbt"
+hash = "6e391269a48f23097567268967574e11d4aef837e921bd682ba2e8f76f6df2a9"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/andesite_02_casing.snbt"
+hash = "1f047afd64b965746694a0ba13a3e5d4f70a579cd9c3e575159a18dc3612bb51"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/andesite_03_rubber.snbt"
+hash = "bad04ebaf076526431fe0598bcc24e4922b091e1ed16d4a4e0b252922e73fe59"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/andesite_04_steel.snbt"
+hash = "db2b07365a3fa85c4a78326f1d4c963715edd3c200bcdf5c8a51285d2eb71e0c"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/andesite_05_engine.snbt"
+hash = "bc088df462ec38d5e48ff30004ef1b509e4c1f664f55028014857c8ea7ef5098"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/andesite_final.snbt"
+hash = "71b208f50c588737f8bca9c2c6d7e36065ad2a2c69e80539941d6d6ccc86e54d"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/stone_age_01_mortar.snbt"
+hash = "41efccb9e33cdff24d5856089726652383974cca262565ad6d9713851614e25f"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/stone_age_02_furnace.snbt"
+hash = "b3ad69a49f091cee815339816e43d6002d3f35c080dc4f19bcbc41c6caed7336"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/stone_age_03_foundry.snbt"
+hash = "4e293a6c3267fdf4773b431cd5255d299c04a933de8247755e3c5f2ba19996ae"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/stone_age_04_casting.snbt"
+hash = "499301bec346b6a698ee0e6b084fda1472300bda709a3d4231a10dd46b9b8ebf"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/stone_age_final.snbt"
+hash = "e416396e58d9d8e2aa290168554743780f406ce11d483e43269ffcbbbc96cf8c"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_00_welcome.snbt"
-hash = "36e072c5c234b0914143aca9d6010219ad0e5354036cd81b4be397ba929bc74a"
+hash = "79783e28bd907ad0a8d9cd44c86ab83a0ef3ba35f5f98e4b4bceb9bcca26be64"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_01_wood.snbt"
-hash = "e6ff73f19ad34c0f35b6e6b7dbd281e4e68ab6ffce3a483d704a2d7fd2b34e08"
+hash = "a5c7bd3738a484520c13416228b0b087fd12de25040bb6e0d91bec4093a026d4"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_02_stone.snbt"
-hash = "041b79dd1d0316362f035f9b7f786a1e817f3d599d35f2a23755123222d929d9"
+hash = "4a6163856fc4b0dabdc8e38f02b5f7b6ec0c425ee26ccb1a61b3765d4b3bf18f"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_03_food.snbt"
-hash = "d6f99fc85bb8abf023372df95eb8a23fbe8b7b905c92e1128dcd09263ee837ba"
+hash = "b683e44012c885faea0895c0a9bc7573ab5d217cc05c26836c0e182f8897aaa3"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_04_iron.snbt"
-hash = "8e21f0bcd7ada48e018d2f92eff59c3b106353adcaadc18d420e909354dc9dbf"
+hash = "c8bac81df296a0889336eecfb43b03087649eec09522d5b367b3d454c601fc82"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_05_mining.snbt"
-hash = "63888c0175beca5c26086f52353e8d941ad94c1238be58abb21b193d7f14a97d"
+hash = "0b2389a333fbb5f3bb043d61818c5c9988c2ed34892510224ab972b250064c33"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_06_combat.snbt"
-hash = "925d7e896c75a15a47ff0b61642314ab422d947094b8f8936ff08be4c2b98869"
+hash = "a0090d1ece2c53bb8fbae473e302b6e45d36bfd402900a2f8429d3dec9ef3335"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_07_enchanting.snbt"
-hash = "7180bae905939d087d706549337a84b7800a77a5159c10b2e0e644a50d905a1b"
+hash = "ab7180d11e52a3799100ff8c65fea1dcc5b1b98769a1feb3fd35e3ffdb9f42ec"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_08_villagers.snbt"
-hash = "848df5496acee1d592194217a6e9416b858f9f69df121aaaee6fbf5404ed53fc"
+hash = "0582f2a8485c129b9d4c45a4b5a82961325ffad83207512908487e58f28acd06"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_09_exploration.snbt"
-hash = "c521d115ae7ae1660c44b1a2f5230fec4c58349de237ee05a4bf29506dda392e"
+hash = "9ccb9bdf30505a256e6278b4d372db00308566572c0f4934444d1fff3cb4a243"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_10_redstone.snbt"
-hash = "8591066d1aaf3d7606cf202deb582a7d9c9e3e2dfbd015437c299f032e53c20a"
+hash = "e2da3cae6f0f5db7b2d71ae795239051f48925f4f08711d6e7a05dd1f51dc688"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_11_nether.snbt"
-hash = "de37c4677448ffc450a42b01922ee27dc1c1a7c627480731dfb71816fb39ee70"
+hash = "c11b7cde2d10963e23bcc9c48238db8adf213b9401fbc4dbc7b132d13f2573f8"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_12_brewing.snbt"
-hash = "8036fa74123da68de0f7575916234db6996138b219b886613ac38d48426c88c3"
+hash = "64fc79f58170ffb362233eb9a1fa4d88d61af62cb3a96d73ff8c3fead56a058e"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_13_stronghold.snbt"
-hash = "ed90b15dc91cf7757e24705a58256573c6f5ea67a46f8f90337054cf04b42afa"
+hash = "c68249a50e74de2512bc4d13e93561428c4c0bdbf3a4be0ca065b550caf84a43"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_14_dragon_prep.snbt"
-hash = "a0a8e68ff1ef89b7e4be2fa5965c7a24cd96b9dd703c5187d04a2d938e1d69f2"
+hash = "f4395607ad3496f1895c13d0099efa6a14b37b66a5b47cf8e6f875bdc19cf5ad"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_15_dragon.snbt"
-hash = "0011b93de7ae7acf5ca6507035d8521d6579e72c273e065527269f07a4e7d0dc"
+hash = "6622653a5e3c420efc5ac1e34110ff5a3debb29eb17c59a29de054571125b7f3"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_16_end.snbt"
-hash = "635bc1267e30f8d6786049eebdbccfcd4d7bdac0e99afb7a9cb54ab558232495"
+hash = "6012b6cca6477048996cbe737e0967ffcf383ced465fb720152e0d34a2119627"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_17a_deep_dark.snbt"
-hash = "b7969c7aebbcd7b2566a8b0813c9a49b60e4ded003576fafaabfdba028777554"
+hash = "0fa4ceaa611532683fdba030230a3da14298eff1971f9c7f2dcac0616a10f42c"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_17b_wither.snbt"
-hash = "17083aa0d1a896eb645c4607b21aa159823f1280ab2616f6ee0fa9681ea97ae9"
+hash = "d8c1eb0c12a3113f3350bfbaba0abffef835fc906a6a43484dd3eafb8fa84d48"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -685,6 +733,10 @@ file = "kubejs/assets/bookshelf/lang/ko_kr.json"
 hash = "b85d919b3936bd358cb082b52b02b621d312d39e3f0985bf5f978ad71edc89cf"
 
 [[files]]
+file = "kubejs/assets/create/textures/block/flywheel.png"
+hash = "3d58959a10710806ea4b07074272b725acd831ac9454d1df2ac15f51e40065aa"
+
+[[files]]
 file = "kubejs/assets/create_bb/lang/ko_kr.json"
 hash = "04ad8cca2ee85bd357b33450c1f941dfeb4bc8f3219f538d729bbad510168666"
 
@@ -774,11 +826,11 @@ hash = "908fc8a644b0bf865ce31ed31dcdb9716c4e4da89bbec7ce017bf8a69315315d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "df933f6525d4a7b039f23f5d6994aca1a16b73e0d815aac1aa181bdc7877462c"
+hash = "38a0b8c8fa871b279639daeae838c012473e91b88e2bb0cb990563d72b6ee535"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/ko_kr.json"
-hash = "258fa3f8e0f6f4ad048c18f5a2c212070715399aa6bbd95494f7c5d19eaae25c"
+hash = "b892e6465f405348468961c889701ffcd5df4796c7ea4b62259e5666ffe9d4bb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
@@ -823,6 +875,10 @@ hash = "e5e458826e42694eee9e1239e968b93b347b04c006226fc7395151aa3c62ad2a"
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/molten_andesite_still.png.mcmeta"
 hash = "e9b8025fde1b09b0a4d2a38427b04f98f28a593045be6d177eb2b29164c872b0"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/steel_casing.png"
+hash = "30ff35c3b9e84fb960d3652f002a397969e570303d5e7d851e036d59f0f8e685"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/andesite_alloy_axe_head.png"
@@ -1321,6 +1377,10 @@ file = "kubejs/config/web_server.json"
 hash = "e914347bd0879cc175bf2ccf301e2b7869bfebca4a40fdabe935821e53954739"
 
 [[files]]
+file = "kubejs/data/createtreadmill/loot_table/blocks/treadmill.json"
+hash = "6cc9e7a564030c640940f29f7906e45e75688b76188c40a93c28ccfe50d7bcca"
+
+[[files]]
 file = "kubejs/data/kubejs/enchantment/combat_proficiency.json"
 hash = "5f45a076d81823d440b862de643d7cb1abeb21c0ded0b5653e1428d5df09388a"
 
@@ -1417,16 +1477,28 @@ file = "kubejs/server_scripts/andesite.js"
 hash = "583cf5b3df5bd1ee11d20fcdfdda471a307dd3a71385a4171ece97fe0992e9e6"
 
 [[files]]
+file = "kubejs/server_scripts/casings.js"
+hash = "a8edc3a8c3e816a0581d4ff0cd307341f8a6902369f4cd566afc8fd8c082fb8c"
+
+[[files]]
 file = "kubejs/server_scripts/create.js"
 hash = "7e2512a1a8514a725e7ae82cf78a8b7b7b3e7b1482555c83ce370c26b10255f9"
 
 [[files]]
+file = "kubejs/server_scripts/flywheel.js"
+hash = "e7ed7c028e7c94078944e516b404a2cde5f844ff778a4f06276fe09837798e97"
+
+[[files]]
 file = "kubejs/server_scripts/furnace_engine.js"
-hash = "9bab243dd996a6ff7a275fcd30c1e88c4bf65965cd368c1712153bdc6af89515"
+hash = "6fb0de72b3e38e7c27fde793973cffc1d0ce773a07b6ae2cd72cb9d92ea687f9"
 
 [[files]]
 file = "kubejs/server_scripts/hand_cogwheel.js"
-hash = "12713ac4719103e2ca196a630c6f50660eb0554c3e863ba5946ef025754ad430"
+hash = "1784e8c91b63489dae14724126fe3105a271fba65f45429c11c7fbc22c6265b3"
+
+[[files]]
+file = "kubejs/server_scripts/kinetic_tiers.js"
+hash = "629f74b3621211275c17e5d7c5b68d7966862e4f35cb336b0d6dc27446e9ba8f"
 
 [[files]]
 file = "kubejs/server_scripts/lowheated.js"
@@ -1434,7 +1506,7 @@ hash = "bfb5c35d7c04747801eaed17afae0e3f1ef50fafa593656bcacfbe8c60d7d882"
 
 [[files]]
 file = "kubejs/server_scripts/materials.js"
-hash = "3f62b35ae96193f8566fb42f89d363425023c4c6d6bb9f0e39f180b821d4d9cb"
+hash = "7b45aa397ebc83d76eed2d5946214f8080e6f19f54910e09d1a95e83d0a90fdc"
 
 [[files]]
 file = "kubejs/server_scripts/metallurgy.js"
@@ -1449,12 +1521,28 @@ file = "kubejs/server_scripts/netherite.js"
 hash = "1b5fc9576d0b98d3a7ea8a59282e0f7470a649d5a34386421102db188816fb9f"
 
 [[files]]
+file = "kubejs/server_scripts/ore_byproducts.js"
+hash = "84c8b02773eea83a10d1c3ffe00389165aee2843d1ca99ae6f1ed67543c3371c"
+
+[[files]]
 file = "kubejs/server_scripts/power_sources.js"
-hash = "62892c5487da6cb547dee34b75b89670ea062a878112956504eb315967618f67"
+hash = "16fc07365cef910506e08e313def2a8ea07d25a117dca6e69b09365a0c27f3f5"
 
 [[files]]
 file = "kubejs/server_scripts/proficiency.js"
 hash = "6493cb180100c375fc742e334c0dbe0fec4199beb13fbe591a1332f05a5b49d8"
+
+[[files]]
+file = "kubejs/server_scripts/rpm_conversion.js"
+hash = "62c51df03af04684a42163d78b4ce908d8185365dc040662b17911d0c6bdddca"
+
+[[files]]
+file = "kubejs/server_scripts/rpm_machines.js"
+hash = "37013543b5a48c3d4454926936a86525ff6fb4682079402c97e0ada3ab889d1a"
+
+[[files]]
+file = "kubejs/server_scripts/shafts_to_crude.js"
+hash = "c2ff7c4a4361caeb521ddedc1004c2f7e94497014282435fd1b006beeee3bf0e"
 
 [[files]]
 file = "kubejs/server_scripts/tool_heads.js"
@@ -1466,7 +1554,7 @@ hash = "cde97ba5c9f5d77381033a4be96c849112db1b344d2f9025adede9bdaf5479af"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
-hash = "be5b4657e55609201a84c7d6b19537d712625d68955ce534b46ad5022164efb6"
+hash = "2df165d09ace24770ad9b0d1b3ae3d424df0999cca13cf3d5bed435180b8e7a4"
 
 [[files]]
 file = "kubejs/startup_scripts/fluids.js"
@@ -1569,7 +1657,7 @@ metafile = true
 
 [[files]]
 file = "mods/artifacts.pw.toml"
-hash = "f0aa35028d210e4c3b87e3029520dea9ead7db9d639e97faad2db374f6a9b2c1"
+hash = "9c89126af3d8cb8dd94ea18a76bc41b79e79a3c8fd9cb5fbbaea7b4bf919d7cd"
 metafile = true
 
 [[files]]
@@ -1808,6 +1896,16 @@ hash = "be0036035951859b6dd8ae612acbbdd403f838c284a180459d36726ca259933d"
 metafile = true
 
 [[files]]
+file = "mods/create-furnace-engine.pw.toml"
+hash = "a93184e04e65628de4a0248195723c003eed6ecd81b79617abc17ac310943feb"
+metafile = true
+
+[[files]]
+file = "mods/create-hand-cogwheel.pw.toml"
+hash = "ed1929ebf91f2c668a39388182ca90d941fa083da919b5a22c15caba12b5b17e"
+metafile = true
+
+[[files]]
 file = "mods/create-integrated-farming.pw.toml"
 hash = "49d4b23622668a00c07ad8052323db3ed447b6a8c8c2f568da34487b1a487a4c"
 metafile = true
@@ -1898,16 +1996,6 @@ hash = "a916d406935e42653d3f5af68637604be6073fcab663848a01fe116cdeb831e3"
 metafile = true
 
 [[files]]
-file = "mods/createfurnaceengine.pw.toml"
-hash = "088f00f7ae248a7bb957a2c75255ed279356f5f03e6192f643364035fba5f10d"
-metafile = true
-
-[[files]]
-file = "mods/createhandcogwheel.pw.toml"
-hash = "9cd470043a304ec422ccb452e9427a9f66ba328b05e7125fc8b044ff930bc999"
-metafile = true
-
-[[files]]
 file = "mods/creativecore.pw.toml"
 hash = "e85b645ee93f88915be1e4ab421939f287accf3597cef9e69cc603a9773a6855"
 metafile = true
@@ -1960,6 +2048,11 @@ metafile = true
 [[files]]
 file = "mods/dumplings-delight-rewrapped.pw.toml"
 hash = "8a736202905e37b8b2d5a1cf0919642ab4debede147aafd2d1c63365a0f5f088"
+metafile = true
+
+[[files]]
+file = "mods/dungeon-crawl.pw.toml"
+hash = "9f6b261565c185ab137b1f4ceceec488e4d6d262b14ef3349c4a88afdac958ae"
 metafile = true
 
 [[files]]
@@ -2039,7 +2132,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "efc2c4fe9e2cc169aff61a6b7a41ea9bc7a22a90aadf0776b22de647ddf3cef6"
+hash = "748f98aed76975838bd79cb4f5d06eb68aad156394239de5fa70302a02448a5b"
 metafile = true
 
 [[files]]
@@ -2144,7 +2237,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "e08ffd391c473a9b108eb5d4033fe511560155b6243033e776caf8d56e6e9b53"
+hash = "086f7c19410ca8759aa383671a5229a47b9dae71a31bcc286e12cd1af1e5008d"
 metafile = true
 
 [[files]]
@@ -2174,7 +2267,7 @@ metafile = true
 
 [[files]]
 file = "mods/functional-storage.pw.toml"
-hash = "201b5f2a7c20c5f71b248b6dad8ce3e69a3bea07fc7a8f0fd0f7e8b2d494d8e4"
+hash = "55c21e0159f5509b84d1e1fa42c2e478a3600c43007ede829cad5839aaa1b8da"
 metafile = true
 
 [[files]]
@@ -2219,7 +2312,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "37c3d507be086258aec8a0814224578a1c665749adbb0332d33c32a684086d94"
+hash = "d88c046f0312e7f5f2d1f42d142f0b5ffd626083707cf963ad3559d682c9ad34"
 metafile = true
 
 [[files]]
@@ -2703,6 +2796,11 @@ hash = "247b8a745886ca6662f32c703bcd281788ea149df0d6108f74b4e1f8c521bf5b"
 metafile = true
 
 [[files]]
+file = "mods/terrablender-neoforge.pw.toml"
+hash = "d77e4dc337b6090358c1ef01b0f99a8357e5279443e0e23e511de1be865c01c9"
+metafile = true
+
+[[files]]
 file = "mods/the-twilight-forest.pw.toml"
 hash = "9088f93a00bc3242f0239a7115bdcbc4480e19c6120f5396fb3af27d77abda3e"
 metafile = true
@@ -2790,6 +2888,76 @@ metafile = true
 [[files]]
 file = "mods/yeetusexperimentus.pw.toml"
 hash = "7c6f2e38a6932f846738747fd6cff3af239748a84e89350f6c967c8ac72a65d6"
+metafile = true
+
+[[files]]
+file = "mods/yungs-api-neoforge.pw.toml"
+hash = "7cb2156566e58df780f1e1248bc7c336fda5be86d8e5828e3485b951e3934471"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-caves.pw.toml"
+hash = "10815a3aa6dc436f8aa9b86dbb68368fbbcaff26f15fb06113b519b678e1a480"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-desert-temples-neoforge.pw.toml"
+hash = "a383e14bfb10544f993b68c1b5054be9364043878ba965091612fe100f55220c"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-dungeons-neoforge.pw.toml"
+hash = "c79a58526fab23bdac3e652a1696cb603fc94197c1173ebe48743659ee5656a5"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-end-island-neoforge.pw.toml"
+hash = "37417dc78726d2d6c01da523ef791c73ce752bb163965270ecec29ee1af54a0d"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-jungle-temples-neoforge.pw.toml"
+hash = "45b08aedb7926aaf079a98b037265aca98bff49a13cc1eb9740bec40f0f02cfb"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-mineshafts-neoforge.pw.toml"
+hash = "1c259e63d4a4a1f2b05eb7e68c8007f92274d2a012e951efdd8958c08985d315"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-nether-fortresses-neoforge.pw.toml"
+hash = "e467ffe83dd4e8d2d64f41d46067ddf52d0ca6f3271c56e5858829c15def3e3e"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-ocean-monuments-neoforge.pw.toml"
+hash = "499a8fffeca4ff272bfcc0ad266add8fb729a6419fec921d4b8a63f7b9bc2877"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-strongholds-neoforge.pw.toml"
+hash = "1dbfc17c73001270c3c1f60c02cd72b3f5652ff02557a5f0586fd638a083cd36"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-witch-huts-neoforge.pw.toml"
+hash = "a8145065cddbb2e4110de30af522f39dc666d2834537f87cd062c969c38fb978"
+metafile = true
+
+[[files]]
+file = "mods/yungs-bridges-neoforge.pw.toml"
+hash = "245e967489d88447ce203fe1db768657a95bd2b110ea3430516508d0f0aec29f"
+metafile = true
+
+[[files]]
+file = "mods/yungs-cave-biomes.pw.toml"
+hash = "895288a3b51192f27cbf3e7e7ebfefd0d31e5660157864a4da40828d5c1dac05"
+metafile = true
+
+[[files]]
+file = "mods/yungs-extras-neoforge.pw.toml"
+hash = "cd321f6365bc3938e0671450aadcd40c8e03af5cb24d0a545fb07c890b4793ac"
 metafile = true
 
 [[files]]

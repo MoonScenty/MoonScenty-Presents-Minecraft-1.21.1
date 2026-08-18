@@ -918,6 +918,7 @@
 				"5A0E110000000013"
 				"5A0E11000000001A"
 				"5A0E11000000001E"
+				"5A0E11000000002D"
 			]
 			icon: {
 				id: "createfurnaceengine:furnace_engine"
@@ -1414,6 +1415,25 @@
 			}]
 			x: 36.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["5A0E11000000001E"]
+			icon: {
+				id: "create:flywheel"
+			}
+			id: "5A0E11000000002D"
+			rewards: [{
+				id: "7C41A9E2D3B05F68"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "5A0E2100000002D0"
+				item: { count: 1, id: "create:flywheel" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 3.0d
 		}
 	]
 }

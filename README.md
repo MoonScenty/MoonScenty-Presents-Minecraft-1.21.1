@@ -33,7 +33,7 @@ Minecraft 1.21.1과 NeoForge 21.1.248를 기반으로 제작한 모드팩입니�
 | 시대 | 주요 콘텐츠 | 동력 및 진행 목표 |
 | --- | --- | --- |
 | **Stone Age (석기 시대)** | Create: Metallurgy | 원시적인 자원 가공과 야금으로 안산암 합금 생산 기반을 준비합니다. 동력은 손 크랭크와 손 톱니바퀴까지만 다룹니다. |
-| **Andesite Alloy Age (안산암 합금 시대)** | 기본 Create 기계, Create Tiers, Create: Rubberworks, Create Mechanical Extruder | Crude 티어(32 RPM / 1024 SU) 안에서 기계식 자원 생산 설비를 구축합니다. 러닝머신으로 손 크랭크를 벗어나고, 고무와 강철을 거쳐 화로 엔진에 도달하는 것이 결승선입니다. |
+| **Andesite Alloy Age (안산암 합금 시대)** | 기본 Create 기계, Create Tiers, Create: Rubberworks, Create Mechanical Extruder | Crude 티어(32 RPM / 1024 SU) 안에서 기계식 자원 생산 설비를 구축합니다. 러닝머신으로 손 크랭크를 벗어나고, 고무와 강철을 거쳐 화로 엔진에 도달합니다. 황동 케이싱을 손에 넣는 것이 결승선입니다. |
 | **Brass Age (황동 시대)** | Create: Vintage, Create Tiers, Create: AE Generator | 황동 기계와 중간 RPM 범위를 해금합니다. AE Generator를 만들 수 있게 되지만 Applied Energistics 2의 본격적인 사용은 다음 시대부터 가능합니다. |
 | **Industrial Age (산업 시대)** | Create: Petrochem, Applied Energistics 2, Create Utilities J, Create Tiers | 석유와 유체를 사용하는 대규모 산업 시설을 구축하고 높은 RPM을 사용할 수 있습니다. AE2 저장망과 고급 물류도 이 시대부터 본격적으로 사용합니다. |
 | **Atomic Age (원자력 시대)** | Create: Atomic | 최종 생산 체계를 구축하고 강력하거나 특별한 보상형 아이템을 대량 생산해 사용할 수 있습니다. |
@@ -63,7 +63,7 @@ Minecraft 1.21.1과 NeoForge 21.1.248를 기반으로 제작한 모드팩입니�
 
 #### 재료 게이팅
 
-- **케이싱 사슬**이 시대를 나눕니다. 원목에서 바로 만드는 경로를 모두 막고 안산암 케이싱 → 구리 케이싱 → 황동 케이싱 순서를 강제합니다. 전개기와 주조 두 경로 모두 같은 순서를 따릅니다.
+- **케이싱 사슬**이 시대를 나눕니다. 원목에서 바로 만드는 경로를 모두 막고 안산암 케이싱 → 구리 케이싱 → 강철 케이싱 → 황동 케이싱 순서를 강제합니다. 전개기와 주조 두 경로 모두 같은 순서를 따르며, 강철 케이싱은 이 모드팩이 추가한 블록입니다.
 - 초기에는 내구도 16의 막자사발로 철·구리·금·아연·울프라마이트 원광을 광물 부스러기로 수동 가공합니다. 광물 손해가 나지만 용해로에 바로 넣을 수 있습니다.
 - 기계식 분쇄에는 다른 금속의 부스러기가 낮은 확률로 섞여 나옵니다. 한 종류만 캐도 다른 금속이 조금씩 쌓입니다.
 - 다음 시대에 진입하면 이전 시대 재료의 생산량을 높이거나 제작 공정을 단순화합니다.
@@ -83,7 +83,7 @@ Create 기술 시대 퀘스트는 시대별로 문서를 나눠 관리합니다.
 | 시대 | 문서 | 규모 |
 | --- | --- | --- |
 | 석기 시대 | [QUEST_STONE_AGE.md](QUEST_STONE_AGE.md) | 34개 |
-| 안산암 합금 시대 | [QUEST_ANDESITE_ALLOY_AGE.md](QUEST_ANDESITE_ALLOY_AGE.md) | 38개 |
+| 안산암 합금 시대 | [QUEST_ANDESITE_ALLOY_AGE.md](QUEST_ANDESITE_ALLOY_AGE.md) | 43개 |
 | 황동 시대 이후 | 미작성 | — |
 
 진행도와 무관하게 유용한 아이템과 조작을 모아 안내하는 꿀팁과 노하우 챕터는 [QUEST_TIPS_AND_TRICKS.md](QUEST_TIPS_AND_TRICKS.md)에서 관리합니다.

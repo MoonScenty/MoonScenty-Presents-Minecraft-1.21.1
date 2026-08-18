@@ -1,12 +1,12 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: "circle"
-	filename: "brass_age"
-	group: "4D41494E51554553"
+	filename: "adventure"
+	group: "4C49464545585031"
 	icon: {
-		id: "create:brass_ingot"
+		id: "minecraft:filled_map"
 	}
-	id: "5A0E000000000003"
+	id: "5A0E000000000011"
 	images: [ ]
 	order_index: 2
 	progression_mode: "flexible"

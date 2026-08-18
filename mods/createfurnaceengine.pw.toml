@@ -1,8 +1,0 @@
-name = "createfurnaceengine"
-filename = "createfurnaceengine-1.0.2.jar"
-side = "both"
-
-[download]
-url = "https://github.com/MoonScenty/CreateFurnaceEngine/releases/download/1.0.2/createfurnaceengine-1.0.2.jar"
-hash-format = "sha256"
-hash = "14a0eeb79d62f0153093e1338646937205c4497463a2aec9c7528780b0812e2b"

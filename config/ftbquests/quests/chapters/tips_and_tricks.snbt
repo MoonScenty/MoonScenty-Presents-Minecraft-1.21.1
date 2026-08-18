@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: true
 	default_quest_shape: "circle"
 	filename: "tips_and_tricks"
-	group: ""
+	group: "5354415254494E47"
 	icon: {
 		id: "minecraft:spyglass"
 	}

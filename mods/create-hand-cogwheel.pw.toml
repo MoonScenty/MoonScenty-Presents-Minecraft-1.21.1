@@ -1,0 +1,13 @@
+name = "Create: Hand Cogwheel"
+filename = "createhandcogwheel-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4f34cc148001b5d0a3fea03ab23ac905e03fe4d3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8668472
+project-id = 1656383
