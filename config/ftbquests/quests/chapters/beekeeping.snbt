@@ -1,4 +1,5 @@
 {
+	autofocus_id: "5A0E150000000001"
 	default_hide_dependency_lines: false
 	default_quest_shape: "circle"
 	filename: "beekeeping"
@@ -11,5 +12,875 @@
 	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:honeycomb"
+			}
+			id: "5A0E150000000001"
+			rewards: [{
+				id: "28095935AA19165A"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				count: 3L
+				id: "5A0E250000000010"
+				item: { count: 1, id: "minecraft:honeycomb" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E150000000001"]
+			icon: {
+				id: "minecraft:honey_bottle"
+			}
+			id: "5A0E150000000002"
+			rewards: [{
+				id: "30CE4FCD0889588B"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E250000000020"
+				item: { count: 1, id: "minecraft:honey_bottle" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E150000000002"]
+			icon: {
+				id: "minecraft:beehive"
+			}
+			id: "5A0E150000000003"
+			rewards: [{
+				id: "1C45C415A4EF33C5"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E250000000030"
+				item: { count: 1, id: "minecraft:beehive" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E150000000003"]
+			icon: {
+				id: "productivebees:honey_treat"
+			}
+			id: "5A0E150000000004"
+			rewards: [
+				{
+					count: 16
+					id: "1DCF5AE783D6CA5E"
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6B7AC6E8427A2808"
+					item: {
+						count: 1
+						id: "minecraft:glass_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "5ACB244FBFFFBE88"
+					type: "xp"
+					xp: 30
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				count: 8L
+				id: "5A0E250000000040"
+				item: { count: 1, id: "productivebees:honey_treat" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E150000000004"]
+			icon: {
+				id: "productivebees:bee_cage"
+			}
+			id: "5A0E150000000005"
+			rewards: [{
+				id: "14BA66431DEC17CD"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E250000000050"
+				item: { count: 1, id: "productivebees:bee_cage" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A0E150000000005"]
+			icon: {
+				id: "productivebees:sturdy_bee_cage"
+			}
+			id: "5A0E150000000006"
+			optional: true
+			rewards: [{
+				id: "0E1AAD4960477CC2"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E250000000060"
+				item: { count: 1, id: "productivebees:sturdy_bee_cage" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A0E150000000004"]
+			icon: {
+				id: "productivebees:advanced_oak_beehive"
+			}
+			id: "5A0E150000000007"
+			rewards: [{
+				id: "3F4ADD351A3F97DE"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E250000000070"
+				item: { count: 1, id: "productivebees:advanced_oak_beehive" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E150000000007"]
+			icon: {
+				id: "productivebees:expansion_box_oak"
+			}
+			id: "5A0E150000000008"
+			rewards: [{
+				id: "15E8D08657AC73FB"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				count: 2L
+				id: "5A0E250000000080"
+				item: { count: 1, id: "productivebees:expansion_box_oak" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E150000000007"]
+			icon: {
+				id: "minecraft:poppy"
+			}
+			id: "5A0E150000000009"
+			rewards: [{
+				id: "224A913DFC48A3D6"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "square"
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E250000000090"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A0E150000000008"]
+			icon: {
+				id: "productivebees:centrifuge"
+			}
+			id: "5A0E15000000000A"
+			rewards: [{
+				id: "754C8F6A77F2E42D"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2500000000A0"
+				item: { count: 1, id: "productivebees:centrifuge" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E15000000000A"]
+			icon: {
+				id: "productivebees:wax"
+			}
+			id: "5A0E15000000000B"
+			rewards: [{
+				id: "4F5615EB863C37F0"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				count: 8L
+				id: "5A0E2500000000B0"
+				item: { count: 1, id: "productivebees:wax" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A0E15000000000A"]
+			icon: {
+				id: "productivebees:powered_centrifuge"
+			}
+			id: "5A0E15000000000C"
+			rewards: [{
+				id: "153952DB471F37D2"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2500000000C0"
+				item: { count: 1, id: "productivebees:powered_centrifuge" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E15000000000C"]
+			icon: {
+				id: "productivebees:heated_centrifuge"
+			}
+			id: "5A0E15000000000D"
+			optional: true
+			rewards: [{
+				id: "68F47A976494C692"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2500000000D0"
+				item: { count: 1, id: "productivebees:heated_centrifuge" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A0E15000000000C"]
+			icon: {
+				id: "productivebees:breeding_chamber"
+			}
+			id: "5A0E15000000000E"
+			rewards: [{
+				id: "06C568AFF3C05BCE"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2500000000E0"
+				item: { count: 1, id: "productivebees:breeding_chamber" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E15000000000E"]
+			icon: {
+				id: "productivebees:incubator"
+			}
+			id: "5A0E15000000000F"
+			rewards: [{
+				id: "452AEB28F54D45BE"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2500000000F0"
+				item: { count: 1, id: "productivebees:incubator" }
+				type: "item"
+			}]
+			x: 27.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E15000000000A"]
+			icon: {
+				id: "productivebees:catcher"
+			}
+			id: "5A0E150000000010"
+			optional: true
+			rewards: [{
+				id: "69106B5D393288CD"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E250000000100"
+				item: { count: 1, id: "productivebees:catcher" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A0E150000000009"]
+			icon: {
+				id: "productivebees:feeder"
+			}
+			id: "5A0E150000000011"
+			optional: true
+			rewards: [{
+				id: "4F641AD2909AEDCF"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E250000000110"
+				item: { count: 1, id: "productivebees:feeder" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A0E15000000000A"]
+			icon: {
+				id: "productivebees:bottler"
+			}
+			id: "5A0E150000000012"
+			optional: true
+			rewards: [{
+				id: "1F8A247C9FB7712E"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E250000000120"
+				item: { count: 1, id: "productivebees:bottler" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A0E150000000005"]
+			icon: {
+				id: "productivebees:jar_oak"
+			}
+			id: "5A0E150000000013"
+			optional: true
+			rewards: [{
+				id: "7FCE76A108B2A2CE"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E250000000130"
+				item: { count: 1, id: "productivebees:jar_oak" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5A0E15000000000C"]
+			icon: {
+				id: "productivebees:honey_generator"
+			}
+			id: "5A0E150000000014"
+			optional: true
+			rewards: [{
+				id: "0D4D6CC88189C62C"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E250000000140"
+				item: { count: 1, id: "productivebees:honey_generator" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A0E150000000004"]
+			icon: {
+				id: "productivebees:oak_wood_nest"
+			}
+			id: "5A0E150000000015"
+			rewards: [{
+				id: "30C87B44EE840D04"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "square"
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E250000000150"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A0E15000000000F"]
+			icon: {
+				id: "minecraft:rose_bush"
+			}
+			id: "5A0E150000000016"
+			rewards: [{
+				id: "40BEE07F1B40B744"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "square"
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E250000000160"
+				type: "checkmark"
+			}]
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E150000000004"]
+			icon: {
+				id: "minecraft:brush"
+			}
+			id: "5A0E150000000017"
+			rewards: [{
+				id: "661989AD19783298"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "square"
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E250000000170"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A0E150000000016"]
+			icon: {
+				id: "productivebees:gene"
+			}
+			id: "5A0E150000000018"
+			rewards: [{
+				id: "5223A226EF2AE305"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E250000000180"
+				item: { count: 1, id: "productivebees:gene" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E150000000018"]
+			icon: {
+				id: "productivebees:gene_indexer"
+			}
+			id: "5A0E150000000019"
+			rewards: [{
+				id: "0C793F2A392A7517"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E250000000190"
+				item: { count: 1, id: "productivebees:gene_indexer" }
+				type: "item"
+			}]
+			x: 36.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E150000000019"]
+			icon: {
+				id: "productivebees:gene_bottle"
+			}
+			id: "5A0E15000000001A"
+			rewards: [{
+				id: "51DF8597BA654197"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "square"
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2500000001A0"
+				type: "checkmark"
+			}]
+			x: 39.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E150000000019"]
+			icon: {
+				id: "productivebees:bee_nest_diamond_helmet"
+			}
+			id: "5A0E15000000001B"
+			optional: true
+			rewards: [{
+				id: "35D64F95C7DE177A"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2500000001B0"
+				item: { count: 1, id: "productivebees:bee_nest_diamond_helmet" }
+				type: "item"
+			}]
+			x: 36.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A0E150000000008"]
+			icon: {
+				id: "productivelib:upgrade_base"
+			}
+			id: "5A0E15000000001C"
+			rewards: [{
+				id: "3640FDBAAE0C659B"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2500000001C0"
+				item: { count: 1, id: "productivelib:upgrade_base" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5A0E15000000001C"]
+			icon: {
+				id: "productivelib:upgrade_base"
+			}
+			id: "5A0E15000000001D"
+			rewards: [{
+				id: "08DB5F93F717A56F"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "square"
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2500000001D0"
+				type: "checkmark"
+			}]
+			x: 33.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"5A0E15000000001A"
+				"5A0E15000000001D"
+			]
+			icon: {
+				id: "productivebees:honey_treat"
+			}
+			id: "5A0E15000000001E"
+			rewards: [
+				{
+					count: 16
+					id: "7342B5C412BF6DD5"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "70816F9AED34046A"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3D3C5C7291E03A0E"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2500000001E0"
+				type: "checkmark"
+			}]
+			x: 42.0d
+			y: 0.0d
+		}
+	]
 }
