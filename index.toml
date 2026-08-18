@@ -6,7 +6,7 @@ hash = "6067b0731099a9d4e9c67cd1b3ca86c9cb9b7ac1718d0dec8e24b2407f5e9225"
 
 [[files]]
 file = "QUEST_ANDESITE_ALLOY_AGE.md"
-hash = "9e502a1c277152e689e504f0968b319231bf8358a1bc64e5e33b1b96ac4d3941"
+hash = "dd17577468cb92184445aadc53aeb3343121cbddc0769967c91094367f67ddf5"
 
 [[files]]
 file = "QUEST_STONE_AGE.md"
@@ -262,39 +262,79 @@ hash = "122a0205ec0cbf63f1db42f24f6c5c6095f54083f2c4f985c473acd2e228988f"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "a163757839ba8aafbbf4b9827681fa8384479e8a63727c5d3ac63378cd80c9ac"
+hash = "9e32f41991c7a1efab3de0e9c5ec721debc47d8cc1956209bc873407b03e7b82"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/adventure.snbt"
+hash = "c76538b34fea4ba2015b4dddaf99c93c7faac04001f13f8c312ddcd546e23056"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andesite_alloy_age.snbt"
-hash = "00782ab694b04b47f33c20681bcc5d6f78b8b09dfc0436876f3ed391155c85e5"
+hash = "df3b393ccd6196df8aa1e2474532e21f045fb2bfb98612d0fd2a5b007574e022"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
+hash = "8793da92f3076a3f4742aa11b7452504abeb0e30e35119c249be53ff37cea645"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/atomic_age.snbt"
-hash = "95b175f0176574c72f64168bc5d568fdcf2083df59bd870a2d99654442dbbb96"
+hash = "2e2428614ce68000b704d776531679a96e6afafddda8749b01002f0725d060f0"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/beekeeping.snbt"
+hash = "05a49681cad88d1752013a74041e73c9f22ff86f7c3aea059666495f1fec48b2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/brass_age.snbt"
-hash = "8376cda26166cc963070c85170161624e4ce6d21dab27c3b7bded7375f757b27"
+hash = "38b89a58e906aa6fb4d46dd4e8153a32e64d354bd1e7ae02bf7f468b217d0029"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/building.snbt"
+hash = "e8ebf0c55c52b8784bdc5ba4e948f06dc141e22d2370a478ebf900ce9cdd9ec4"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/challenge.snbt"
+hash = "c35c3cf96efab3a6c5c44afd4c3f019970da3b0be0fb839f6251edad614f47ea"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/cooking.snbt"
+hash = "cc5fe788ba4827294368ba6451eedf362a22528d9314cec21d270ddfba585e80"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/forbidden_arcanus.snbt"
+hash = "dde4fcd2f43dec60eb2f1341b4f1e265c3a079f974d0d9aa248b864a6fe5719f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_age.snbt"
-hash = "8a049e9a406944a5372fabb9443f574583bf94e5c7726031e669568f1017d01d"
+hash = "d1edbb19feeeb873a37fca3b3e7ac57bb62be1de636190fb89e98fd3c978e250"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/irons_spells.snbt"
+hash = "2354f111bf52814d48d84576ae984f139ee179f0846c387990fac586d7fc93c2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stone_age.snbt"
 hash = "6a4cb1541c8656ec858bceb80f378fe15d2e174ac23cb3beacd932341aab3eeb"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/storage.snbt"
+hash = "70bea144aa3a50ad7b133473cbade4b3a10cfc936a1ec7ad92ad79b7dce75ec7"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks.snbt"
-hash = "c51e52a4731d6c07fbbca6dc547d85192ba4891b18b6889a65ad33c87f9109de"
+hash = "e0366f6e256414ff1f7c408a93d161625602f7da5ccd8336b473dc4fc85573e1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tutorial.snbt"
-hash = "5dafdeff09d3d0c3e2f6b585c0061e61663fcd6c96fda4ed6851e85b521f982e"
+hash = "0ee346cd8daad0fb42ef23b40004e5fa5b996974e3f2b6c5159f030d99034664"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/twilight_forest.snbt"
+hash = "bd596254ade3313df6269f9ed134b8d2017c74c2e6987e1944bdf2dacdf61a3c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
-hash = "93e7d03ad5c8c5dec86465034f0d32cff6a6c1dc669364f4db04ecd4fdcece81"
+hash = "34d31acf1286c27e8c611252fce81b155bf7c26d250aef9b29bdcaf4bad6fbfe"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -302,7 +342,7 @@ hash = "6cde88d5b4af7175fee7054dec818968be37abd1a1d77c7c22817bda7a0932ad"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "e6865ec84c9c8d5c7c9dde045e3e19a0fc9d4d4f1db19d76bdf59cfc0f037663"
+hash = "5bf4ee6cf78dafab9fb3d2b36cf714291859ce14c1b28c2703ea97e2ddde7459"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/andesite_01_power.snbt"
@@ -1613,6 +1653,11 @@ metafile = true
 [[files]]
 file = "mods/akashic-tome.pw.toml"
 hash = "039ecee245a68300feddca1ea7c7c98de9420cde01fbf32d9e01a1ff79e6c80f"
+metafile = true
+
+[[files]]
+file = "mods/almostunified.pw.toml"
+hash = "3e902846339c2bb422d614993ba499fef007f185c9c29cb55804e3270ebb5ef7"
 metafile = true
 
 [[files]]
