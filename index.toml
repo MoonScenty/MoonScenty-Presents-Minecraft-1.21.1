@@ -270,11 +270,11 @@ hash = "c76538b34fea4ba2015b4dddaf99c93c7faac04001f13f8c312ddcd546e23056"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andesite_alloy_age.snbt"
-hash = "df3b393ccd6196df8aa1e2474532e21f045fb2bfb98612d0fd2a5b007574e022"
+hash = "9d90f163a260d2d5460f774bf730c256137b17a6c750602943c871d6329ae2a2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
-hash = "8793da92f3076a3f4742aa11b7452504abeb0e30e35119c249be53ff37cea645"
+hash = "9cf58a4912ebdc92d53c946027accd279eb60a131977b56f34adbd3198b912b4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/atomic_age.snbt"
@@ -282,7 +282,7 @@ hash = "2e2428614ce68000b704d776531679a96e6afafddda8749b01002f0725d060f0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/beekeeping.snbt"
-hash = "05a49681cad88d1752013a74041e73c9f22ff86f7c3aea059666495f1fec48b2"
+hash = "58e5f08298874b8c72161c436f28122228c4b5487463de416e34d39d75697868"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/brass_age.snbt"
@@ -310,7 +310,7 @@ hash = "d1edbb19feeeb873a37fca3b3e7ac57bb62be1de636190fb89e98fd3c978e250"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spells.snbt"
-hash = "2354f111bf52814d48d84576ae984f139ee179f0846c387990fac586d7fc93c2"
+hash = "3b42751e48644cd66752735e55bd164a1f7ae9b82876b423246fb64d94de3990"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stone_age.snbt"
@@ -342,7 +342,7 @@ hash = "6cde88d5b4af7175fee7054dec818968be37abd1a1d77c7c22817bda7a0932ad"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "5bf4ee6cf78dafab9fb3d2b36cf714291859ce14c1b28c2703ea97e2ddde7459"
+hash = "e70f51d6baa0653e4fddd50385d1bca67c81930f03909578eff89511e33da0d5"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/andesite_01_power.snbt"
@@ -1702,7 +1702,7 @@ metafile = true
 
 [[files]]
 file = "mods/artifacts.pw.toml"
-hash = "9c89126af3d8cb8dd94ea18a76bc41b79e79a3c8fd9cb5fbbaea7b4bf919d7cd"
+hash = "a35c812005762698c71c87d55c26745ea4dd244c1ef5f2df19f0a78ae04c575d"
 metafile = true
 
 [[files]]
@@ -2397,7 +2397,7 @@ metafile = true
 
 [[files]]
 file = "mods/irons-spells-n-spellbooks.pw.toml"
-hash = "459e5a912d2f0115a17acc137a294a76c75de33214137be16a3adca54828564d"
+hash = "4f7ef8bd9e05ab690a81d0f698d38a25bbaf0729953fd015bca3a852aadf7689"
 metafile = true
 
 [[files]]
@@ -2412,7 +2412,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "8cb7d0a8dcf8c5b587d06a982b80fb63807bc46aac55bbb1b22b9bd6a6289d81"
+hash = "cc9ff8f836b242932bc70428c785c1b24838bf4a008f1614aa8c2fcbd3fd86d4"
 metafile = true
 
 [[files]]
@@ -2752,7 +2752,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "ddcc2fd889f5bd73c2b3c8c9f5b798cc26c0c5b6c068da264ffa44bb401a0cf7"
+hash = "8770f5990ed9e37aa0ff2b4bda34dd6036c5ff9ca78d7b5c07d7011471cbca26"
 metafile = true
 
 [[files]]
@@ -2812,7 +2812,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "b523ab242b94170321935199b1e0a406df1982af891423b970acd10687c9103a"
+hash = "20ea34230e9131937775739924be560897432e91ce494ccae1fec04464bc16e8"
 metafile = true
 
 [[files]]
@@ -2837,7 +2837,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "247b8a745886ca6662f32c703bcd281788ea149df0d6108f74b4e1f8c521bf5b"
+hash = "1cb429276e440bbb9b9b1a0007422e3c4edb9569290ab9a19809ad11f66a6b75"
 metafile = true
 
 [[files]]
