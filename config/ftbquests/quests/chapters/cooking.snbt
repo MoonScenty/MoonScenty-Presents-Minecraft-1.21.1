@@ -1,4 +1,5 @@
 {
+	autofocus_id: "5A0E170000000001"
 	default_hide_dependency_lines: false
 	default_quest_shape: "circle"
 	filename: "cooking"
@@ -11,5 +12,862 @@
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			icon: {
+				id: "farmersdelight:cutting_board"
+			}
+			id: "5A0E170000000001"
+			rewards: [{
+				id: "3E962ACC0C2B0E8A"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E270000000010"
+				item: { count: 1, id: "farmersdelight:cutting_board" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E170000000001"]
+			icon: {
+				id: "farmersdelight:stove"
+			}
+			id: "5A0E170000000002"
+			rewards: [{
+				id: "28180C709B2A1E8B"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E270000000020"
+				item: { count: 1, id: "farmersdelight:stove" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E170000000002"]
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "5A0E170000000003"
+			rewards: [{
+				id: "15F79B8BF2EFF61B"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E270000000030"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E170000000002"]
+			icon: {
+				id: "farmersdelight:skillet"
+			}
+			id: "5A0E170000000004"
+			rewards: [{
+				id: "388E5504265A9358"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E270000000040"
+				item: { count: 1, id: "farmersdelight:skillet" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A0E170000000004"]
+			icon: {
+				id: "farmersdelight:rope"
+			}
+			id: "5A0E170000000005"
+			optional: true
+			rewards: [{
+				id: "26480DEF5226083E"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				count: 4L
+				id: "5A0E270000000050"
+				item: { count: 1, id: "farmersdelight:rope" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5A0E170000000001"]
+			icon: {
+				id: "farmersdelight:oak_cabinet"
+			}
+			id: "5A0E170000000006"
+			optional: true
+			rewards: [{
+				id: "67D2B357E0C9D554"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E270000000060"
+				item: { count: 1, id: "farmersdelight:oak_cabinet" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A0E170000000003"]
+			icon: {
+				id: "cookingforblockheads:recipe_book"
+			}
+			id: "5A0E170000000007"
+			rewards: [{
+				id: "123C3ED50A546713"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E270000000070"
+				item: { count: 1, id: "cookingforblockheads:recipe_book" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E170000000007"]
+			icon: {
+				id: "cookingforblockheads:cooking_table"
+			}
+			id: "5A0E170000000008"
+			rewards: [{
+				id: "5B26E6E10C99EF0D"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E270000000080"
+				item: { count: 1, id: "cookingforblockheads:cooking_table" }
+				type: "item"
+			}]
+			x: 11.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E170000000008"]
+			icon: {
+				id: "cookingforblockheads:counter"
+			}
+			id: "5A0E170000000009"
+			rewards: [{
+				id: "09FE7AD1FAD73448"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E270000000090"
+					item: { count: 1, id: "cookingforblockheads:counter" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E270000000091"
+					item: { count: 1, id: "cookingforblockheads:cabinet" }
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E170000000009"]
+			icon: {
+				id: "cookingforblockheads:sink"
+			}
+			id: "5A0E17000000000A"
+			rewards: [{
+				id: "346CC64B58011B6A"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2700000000A0"
+				item: { count: 1, id: "cookingforblockheads:sink" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E17000000000A"]
+			icon: {
+				id: "cookingforblockheads:white_fridge"
+			}
+			id: "5A0E17000000000B"
+			rewards: [{
+				id: "22520A6D9DCE10A3"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "79214AB4202817F8"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(cookingforblockheads:fridges))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E17000000000B"]
+			icon: {
+				id: "cookingforblockheads:white_oven"
+			}
+			id: "5A0E17000000000C"
+			rewards: [{
+				id: "5BA9C2BA88DAC32B"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7519A576D198109D"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(cookingforblockheads:ovens))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E17000000000A"]
+			icon: {
+				id: "cookingforblockheads:heating_unit"
+			}
+			id: "5A0E17000000000D"
+			optional: true
+			rewards: [{
+				id: "5D0C98A84512FC4A"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2700000000D0"
+					item: { count: 1, id: "cookingforblockheads:heating_unit" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2700000000D1"
+					item: { count: 1, id: "cookingforblockheads:ice_unit" }
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A0E17000000000B"]
+			icon: {
+				id: "cookingforblockheads:milk_jar"
+			}
+			id: "5A0E17000000000E"
+			optional: true
+			rewards: [{
+				id: "7FB92F2E7B1FE9D1"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2700000000E0"
+					item: { count: 1, id: "cookingforblockheads:milk_jar" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2700000000E1"
+					item: { count: 1, id: "cookingforblockheads:cow_jar" }
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A0E17000000000C"]
+			icon: {
+				id: "cookingforblockheads:toaster"
+			}
+			id: "5A0E17000000000F"
+			optional: true
+			rewards: [{
+				id: "3EBF7347A197E0D7"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2700000000F0"
+					item: { count: 1, id: "cookingforblockheads:toaster" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2700000000F1"
+					item: { count: 1, id: "cookingforblockheads:tool_rack" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2700000000F2"
+					item: { count: 1, id: "cookingforblockheads:fruit_basket" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2700000000F3"
+					item: { count: 1, id: "cookingforblockheads:spice_rack" }
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A0E170000000008"]
+			icon: {
+				id: "sliceanddice:slicer"
+			}
+			id: "5A0E170000000010"
+			rewards: [{
+				id: "3192AF7C63AE2AE5"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E270000000100"
+				item: { count: 1, id: "sliceanddice:slicer" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5A0E170000000010"]
+			icon: {
+				id: "create_bic_bit:mechanical_fryer"
+			}
+			id: "5A0E170000000011"
+			rewards: [{
+				id: "724167663A3342B7"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E270000000110"
+				item: { count: 1, id: "create_bic_bit:mechanical_fryer" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5A0E170000000010"]
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "5A0E170000000012"
+			rewards: [{
+				id: "63F3E4C27A6A63C8"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "square"
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E270000000120"
+				type: "checkmark"
+			}]
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A0E170000000003"]
+			icon: {
+				id: "minersdelight:copper_pot"
+			}
+			id: "5A0E170000000013"
+			optional: true
+			rewards: [{
+				id: "7C783E86A1FEA774"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E270000000130"
+				item: { count: 1, id: "minersdelight:copper_pot" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A0E170000000002"]
+			icon: {
+				id: "barbequesdelight:grill"
+			}
+			id: "5A0E170000000014"
+			optional: true
+			rewards: [{
+				id: "328DF3C9A8F7859D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E270000000140"
+				item: { count: 1, id: "barbequesdelight:grill" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A0E170000000003"]
+			icon: {
+				id: "expandeddelight:juicer"
+			}
+			id: "5A0E170000000015"
+			optional: true
+			rewards: [{
+				id: "3DE9AC1AC711747B"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E270000000150"
+				item: { count: 1, id: "expandeddelight:juicer" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A0E170000000003"]
+			icon: {
+				id: "brewinandchewin:keg"
+			}
+			id: "5A0E170000000016"
+			optional: true
+			rewards: [{
+				id: "5F196F71C42E18EA"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E270000000160"
+				item: { count: 1, id: "brewinandchewin:keg" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E170000000003"]
+			icon: {
+				id: "veggiesdelight:lasagna_pan"
+			}
+			id: "5A0E170000000017"
+			optional: true
+			rewards: [{
+				id: "09474846DBA2FAB2"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E270000000170"
+				item: { count: 1, id: "veggiesdelight:lasagna_pan" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A0E170000000002"]
+			icon: {
+				id: "endersdelight:endstone_stove"
+			}
+			id: "5A0E170000000018"
+			optional: true
+			rewards: [{
+				id: "65BDA8FCCD913473"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E270000000180"
+					item: { count: 1, id: "endersdelight:endstone_stove" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E270000000181"
+					item: { count: 1, id: "mynethersdelight:nether_bricks_stove" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E270000000182"
+					item: { count: 1, id: "twilightdelight:maze_stove" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A0E170000000018"]
+			icon: {
+				id: "twilightdelight:fiery_cooking_pot"
+			}
+			id: "5A0E170000000019"
+			optional: true
+			rewards: [{
+				id: "2DAF254D19C5EFE9"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E270000000190"
+				item: { count: 1, id: "twilightdelight:fiery_cooking_pot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5A0E170000000011"
+				"5A0E17000000000C"
+			]
+			icon: {
+				id: "cookingforblockheads:cooking_table"
+			}
+			id: "5A0E17000000001A"
+			rewards: [
+				{
+					id: "66061DA25CF216C8"
+					item: {
+						count: 1
+						id: "farmersdelight:cooking_pot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "390FD4D9071D0595"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "292B7A24FCD924E0"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2700000001A0"
+				type: "checkmark"
+			}]
+			x: 22.5d
+			y: 0.0d
+		}
+	]
 }

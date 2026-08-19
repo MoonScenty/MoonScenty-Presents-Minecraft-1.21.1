@@ -18,21 +18,25 @@
 				id: "ae2:meteorite_compass"
 			}
 			id: "5A0E160000000001"
+			rewards: [{
+				id: "21E473DC83453FC0"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
-			rewards: [
-				{
-					id: "9FA9DCEB58101C42"
-					type: "xp"
-					xp: 30
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E260000000010"
-					item: { count: 1, id: "ae2:meteorite_compass" }
-					type: "item"
-				}
-			]
+				id: "5A0E260000000010"
+				item: { count: 1, id: "ae2:meteorite_compass" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -42,21 +46,25 @@
 				id: "ae2:certus_quartz_crystal"
 			}
 			id: "5A0E160000000002"
-			rewards: [
-				{
-					id: "C8BCF1278AAF7A1E"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "3B46877941FB76C1"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					count: 8L
-					id: "5A0E260000000020"
-					item: { count: 1, id: "ae2:certus_quartz_crystal" }
-					type: "item"
-				}
-			]
+				count: 8L
+				id: "5A0E260000000020"
+				item: { count: 1, id: "ae2:certus_quartz_crystal" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 0.0d
 		}
@@ -66,21 +74,25 @@
 				id: "ae2:silicon"
 			}
 			id: "5A0E160000000003"
-			rewards: [
-				{
-					id: "D74666C27BADF2E9"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "11A84968D3D4240B"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					count: 8L
-					id: "5A0E260000000030"
-					item: { count: 1, id: "ae2:silicon" }
-					type: "item"
-				}
-			]
+				count: 8L
+				id: "5A0E260000000030"
+				item: { count: 1, id: "ae2:silicon" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 0.0d
 		}
@@ -90,20 +102,24 @@
 				id: "ae2:charger"
 			}
 			id: "5A0E160000000004"
-			rewards: [
-				{
-					id: "193A6694078825D7"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "193A6694078825D7"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E260000000040"
-					item: { count: 1, id: "ae2:charger" }
-					type: "item"
-				}
-			]
+				id: "5A0E260000000040"
+				item: { count: 1, id: "ae2:charger" }
+				type: "item"
+			}]
 			x: 21.0d
 			y: 0.0d
 		}
@@ -113,34 +129,46 @@
 				id: "ae2:fluix_crystal"
 			}
 			id: "5A0E160000000005"
-			size: 1.5d
 			rewards: [
 				{
 					count: 16
 					id: "2C6C4FFC04DD81A9"
-					item: "ae2:certus_quartz_crystal"
+					item: {
+						count: 1
+						id: "ae2:certus_quartz_crystal"
+					}
 					type: "item"
 				}
 				{
 					count: 16
 					id: "188023C83CDDF9DD"
-					item: "ae2:silicon"
+					item: {
+						count: 1
+						id: "ae2:silicon"
+					}
 					type: "item"
 				}
 				{
-					id: "963AA2B6B5ED68C7"
+					id: "56C5BBFB6C5EE5AD"
 					type: "xp"
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					count: 8L
-					id: "5A0E260000000050"
-					item: { count: 1, id: "ae2:fluix_crystal" }
-					type: "item"
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
+				count: 8L
+				id: "5A0E260000000050"
+				item: { count: 1, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
 			x: 24.0d
 			y: 0.0d
 		}
@@ -150,21 +178,25 @@
 				id: "ae2:fluix_glass_cable"
 			}
 			id: "5A0E160000000006"
-			rewards: [
-				{
-					id: "1AE7057F876548F2"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "1AE7057F876548F2"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					count: 4L
-					id: "5A0E260000000060"
-					item: { count: 1, id: "ae2:fluix_glass_cable" }
-					type: "item"
-				}
-			]
+				count: 4L
+				id: "5A0E260000000060"
+				item: { count: 1, id: "ae2:fluix_glass_cable" }
+				type: "item"
+			}]
 			x: 27.0d
 			y: 0.0d
 		}
@@ -174,21 +206,25 @@
 				id: "ae2:fluix_smart_cable"
 			}
 			id: "5A0E160000000007"
-			rewards: [
-				{
-					id: "629C7092D3A4DB3D"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "629C7092D3A4DB3D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					count: 4L
-					id: "5A0E260000000070"
-					item: { count: 1, id: "ae2:fluix_smart_cable" }
-					type: "item"
-				}
-			]
+				count: 4L
+				id: "5A0E260000000070"
+				item: { count: 1, id: "ae2:fluix_smart_cable" }
+				type: "item"
+			}]
 			x: 30.0d
 			y: 0.0d
 		}
@@ -198,20 +234,24 @@
 				id: "ae2:fluix_smart_dense_cable"
 			}
 			id: "5A0E160000000008"
-			rewards: [
-				{
-					id: "5F685E9B603AE0CC"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "5F685E9B603AE0CC"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E260000000080"
-					item: { count: 1, id: "ae2:fluix_smart_dense_cable" }
-					type: "item"
-				}
-			]
+				id: "5A0E260000000080"
+				item: { count: 1, id: "ae2:fluix_smart_dense_cable" }
+				type: "item"
+			}]
 			x: 33.0d
 			y: 0.0d
 		}
@@ -221,20 +261,24 @@
 				id: "ae2:energy_acceptor"
 			}
 			id: "5A0E160000000009"
-			rewards: [
-				{
-					id: "16ED8A719D2FAC8D"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "16ED8A719D2FAC8D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E260000000090"
-					item: { count: 1, id: "ae2:energy_acceptor" }
-					type: "item"
-				}
-			]
+				id: "5A0E260000000090"
+				item: { count: 1, id: "ae2:energy_acceptor" }
+				type: "item"
+			}]
 			x: 9.0d
 			y: 0.0d
 		}
@@ -245,20 +289,24 @@
 			}
 			id: "5A0E16000000000A"
 			optional: true
-			rewards: [
-				{
-					id: "0F16CE4C5666ACEA"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "0F16CE4C5666ACEA"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2600000000A0"
-					item: { count: 1, id: "ae2:crystal_resonance_generator" }
-					type: "item"
-				}
-			]
+				id: "5A0E2600000000A0"
+				item: { count: 1, id: "ae2:crystal_resonance_generator" }
+				type: "item"
+			}]
 			x: 18.0d
 			y: -3.0d
 		}
@@ -268,22 +316,26 @@
 				id: "ae2:inscriber"
 			}
 			id: "5A0E16000000000B"
+			rewards: [{
+				id: "73BFBDFCE98D95F3"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
-			rewards: [
-				{
-					id: "DB11B5726A2B90EF"
-					type: "xp"
-					xp: 30
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					count: 3L
-					id: "5A0E2600000000B0"
-					item: { count: 1, id: "ae2:inscriber" }
-					type: "item"
-				}
-			]
+				count: 3L
+				id: "5A0E2600000000B0"
+				item: { count: 1, id: "ae2:inscriber" }
+				type: "item"
+			}]
 			x: 36.0d
 			y: 0.0d
 		}
@@ -293,31 +345,61 @@
 				id: "ae2:calculation_processor_press"
 			}
 			id: "5A0E16000000000C"
+			rewards: [{
+				id: "347FA9AB34EE1513"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
-			rewards: [
-				{
-					id: "A7748E7BCC8A6B6C"
-					type: "xp"
-					xp: 30
-				}
-			]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2600000000C0"
 					item: { count: 1, id: "ae2:silicon_press" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2600000000C1"
 					item: { count: 1, id: "ae2:logic_processor_press" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2600000000C2"
 					item: { count: 1, id: "ae2:calculation_processor_press" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2600000000C3"
 					item: { count: 1, id: "ae2:engineering_processor_press" }
 					type: "item"
@@ -332,40 +414,70 @@
 				id: "ae2:logic_processor"
 			}
 			id: "5A0E16000000000D"
-			size: 1.5d
 			rewards: [
 				{
 					count: 32
 					id: "6D49B18C274DFAE8"
-					item: "ae2:silicon"
+					item: {
+						count: 1
+						id: "ae2:silicon"
+					}
 					type: "item"
 				}
 				{
 					count: 32
 					id: "6E85F2830AAD1A60"
-					item: "minecraft:redstone"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
 					type: "item"
 				}
 				{
-					id: "BC45CD57796BC27C"
+					id: "488BDAEB3DDE0D03"
 					type: "xp"
 					xp: 30
 				}
 			]
+			size: 1.5d
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					count: 4L
 					id: "5A0E2600000000D0"
 					item: { count: 1, id: "ae2:logic_processor" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					count: 4L
 					id: "5A0E2600000000D1"
 					item: { count: 1, id: "ae2:calculation_processor" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					count: 4L
 					id: "5A0E2600000000D2"
 					item: { count: 1, id: "ae2:engineering_processor" }
@@ -381,12 +493,14 @@
 				id: "ae2:controller"
 			}
 			id: "5A0E16000000000E"
-			size: 2.0d
 			rewards: [
 				{
 					count: 16
-					id: "9DF6C16683EDD1EF"
-					item: "ae2:smooth_sky_stone_block"
+					id: "1C42C2B697E08693"
+					item: {
+						count: 1
+						id: "ae2:smooth_sky_stone_block"
+					}
 					type: "item"
 				}
 				{
@@ -395,13 +509,20 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "5A0E2600000000E0"
-					item: { count: 1, id: "ae2:controller" }
-					type: "item"
+			size: 2.0d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
+				id: "5A0E2600000000E0"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
 			x: 45.0d
 			y: 0.0d
 		}
@@ -411,15 +532,21 @@
 				id: "ae2:controller"
 			}
 			id: "5A0E16000000000F"
+			rewards: [{
+				id: "53DFD4F6B7D05913"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "square"
-			rewards: [
-				{
-					id: "D42D638451B99E26"
-					type: "xp"
-					xp: 20
-				}
-			]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "5A0E2600000000F0"
 				type: "checkmark"
 			}]
@@ -432,20 +559,24 @@
 				id: "ae2:item_storage_cell_1k"
 			}
 			id: "5A0E160000000010"
-			rewards: [
-				{
-					id: "13E22DC33A9621AC"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "13E22DC33A9621AC"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E260000000100"
-					item: { count: 1, id: "ae2:item_storage_cell_1k" }
-					type: "item"
-				}
-			]
+				id: "5A0E260000000100"
+				item: { count: 1, id: "ae2:item_storage_cell_1k" }
+				type: "item"
+			}]
 			x: 48.0d
 			y: 0.0d
 		}
@@ -455,20 +586,24 @@
 				id: "ae2:drive"
 			}
 			id: "5A0E160000000011"
-			rewards: [
-				{
-					id: "D462CA88B0EA42B6"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "0AC4C6371E066EAF"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E260000000110"
-					item: { count: 1, id: "ae2:drive" }
-					type: "item"
-				}
-			]
+				id: "5A0E260000000110"
+				item: { count: 1, id: "ae2:drive" }
+				type: "item"
+			}]
 			x: 51.0d
 			y: 0.0d
 		}
@@ -478,20 +613,24 @@
 				id: "ae2:terminal"
 			}
 			id: "5A0E160000000012"
-			rewards: [
-				{
-					id: "6FE9A27E75A8AC14"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "6FE9A27E75A8AC14"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E260000000120"
-					item: { count: 1, id: "ae2:terminal" }
-					type: "item"
-				}
-			]
+				id: "5A0E260000000120"
+				item: { count: 1, id: "ae2:terminal" }
+				type: "item"
+			}]
 			x: 54.0d
 			y: 0.0d
 		}
@@ -501,21 +640,25 @@
 				id: "ae2:crafting_terminal"
 			}
 			id: "5A0E160000000013"
+			rewards: [{
+				id: "174D6B19306613B9"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
-			rewards: [
-				{
-					id: "B7D9C9B3F2555EC5"
-					type: "xp"
-					xp: 30
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E260000000130"
-					item: { count: 1, id: "ae2:crafting_terminal" }
-					type: "item"
-				}
-			]
+				id: "5A0E260000000130"
+				item: { count: 1, id: "ae2:crafting_terminal" }
+				type: "item"
+			}]
 			x: 57.0d
 			y: 0.0d
 		}
@@ -525,20 +668,34 @@
 				id: "ae2:import_bus"
 			}
 			id: "5A0E160000000014"
-			rewards: [
-				{
-					id: "9B5B735DC01E889E"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "2D733A42B5B9ABEA"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E260000000140"
 					item: { count: 1, id: "ae2:import_bus" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E260000000141"
 					item: { count: 1, id: "ae2:export_bus" }
 					type: "item"
@@ -553,20 +710,24 @@
 				id: "ae2:storage_bus"
 			}
 			id: "5A0E160000000015"
-			rewards: [
-				{
-					id: "4537ECBA7DDCCCB9"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "4537ECBA7DDCCCB9"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E260000000150"
-					item: { count: 1, id: "ae2:storage_bus" }
-					type: "item"
-				}
-			]
+				id: "5A0E260000000150"
+				item: { count: 1, id: "ae2:storage_bus" }
+				type: "item"
+			}]
 			x: 54.0d
 			y: 3.0d
 		}
@@ -577,20 +738,24 @@
 			}
 			id: "5A0E160000000016"
 			optional: true
-			rewards: [
-				{
-					id: "46E4B20310F0741D"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "46E4B20310F0741D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E260000000160"
-					item: { count: 1, id: "ae2:interface" }
-					type: "item"
-				}
-			]
+				id: "5A0E260000000160"
+				item: { count: 1, id: "ae2:interface" }
+				type: "item"
+			}]
 			x: 57.0d
 			y: 3.0d
 		}
@@ -600,21 +765,25 @@
 				id: "ae2:molecular_assembler"
 			}
 			id: "5A0E160000000017"
+			rewards: [{
+				id: "2E11ED807A8134FF"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
-			rewards: [
-				{
-					id: "8D4928E9CAEA3518"
-					type: "xp"
-					xp: 30
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E260000000170"
-					item: { count: 1, id: "ae2:molecular_assembler" }
-					type: "item"
-				}
-			]
+				id: "5A0E260000000170"
+				item: { count: 1, id: "ae2:molecular_assembler" }
+				type: "item"
+			}]
 			x: 60.0d
 			y: 0.0d
 		}
@@ -624,20 +793,24 @@
 				id: "ae2:pattern_provider"
 			}
 			id: "5A0E160000000018"
-			rewards: [
-				{
-					id: "BD363DC6311B4194"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "5ED1804B6A8E395C"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E260000000180"
-					item: { count: 1, id: "ae2:pattern_provider" }
-					type: "item"
-				}
-			]
+				id: "5A0E260000000180"
+				item: { count: 1, id: "ae2:pattern_provider" }
+				type: "item"
+			}]
 			x: 63.0d
 			y: 0.0d
 		}
@@ -647,20 +820,34 @@
 				id: "ae2:pattern_encoding_terminal"
 			}
 			id: "5A0E160000000019"
-			rewards: [
-				{
-					id: "0BA4908D8E1FD418"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "0BA4908D8E1FD418"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E260000000190"
 					item: { count: 1, id: "ae2:pattern_encoding_terminal" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					count: 8L
 					id: "5A0E260000000191"
 					item: { count: 1, id: "ae2:blank_pattern" }
@@ -676,38 +863,68 @@
 				id: "ae2:1k_crafting_storage"
 			}
 			id: "5A0E16000000001A"
-			size: 1.5d
 			rewards: [
 				{
 					count: 8
-					id: "A90EF225C99D173F"
-					item: "ae2:calculation_processor"
+					id: "6E1E30D9D285BF55"
+					item: {
+						count: 1
+						id: "ae2:calculation_processor"
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "38D9944FCDDEC311"
-					item: "ae2:engineering_processor"
+					item: {
+						count: 1
+						id: "ae2:engineering_processor"
+					}
 					type: "item"
 				}
 				{
-					id: "FA7F65EABED02CE9"
+					id: "00D696917D6E4FCA"
 					type: "xp"
 					xp: 30
 				}
 			]
+			size: 1.5d
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2600000001A0"
 					item: { count: 1, id: "ae2:1k_crafting_storage" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2600000001A1"
 					item: { count: 1, id: "ae2:crafting_accelerator" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2600000001A2"
 					item: { count: 1, id: "ae2:crafting_unit" }
 					type: "item"
@@ -722,15 +939,21 @@
 				id: "ae2:crafting_unit"
 			}
 			id: "5A0E16000000001B"
+			rewards: [{
+				id: "7893F1D240D5B6C9"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "square"
-			rewards: [
-				{
-					id: "BB160AA0E41E4CFC"
-					type: "xp"
-					xp: 20
-				}
-			]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "5A0E2600000001B0"
 				type: "checkmark"
 			}]
@@ -743,15 +966,21 @@
 				id: "ae2:blank_pattern"
 			}
 			id: "5A0E16000000001C"
+			rewards: [{
+				id: "1DCBDD2C10DA4C2B"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "square"
-			rewards: [
-				{
-					id: "EF30AA177CCCE702"
-					type: "xp"
-					xp: 20
-				}
-			]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "5A0E2600000001C0"
 				type: "checkmark"
 			}]
@@ -764,20 +993,24 @@
 				id: "ae2:memory_card"
 			}
 			id: "5A0E16000000001D"
-			rewards: [
-				{
-					id: "F05EDEA222DA211A"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "50B76CD9CDB8D775"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2600000001D0"
-					item: { count: 1, id: "ae2:memory_card" }
-					type: "item"
-				}
-			]
+				id: "5A0E2600000001D0"
+				item: { count: 1, id: "ae2:memory_card" }
+				type: "item"
+			}]
 			x: 75.0d
 			y: 0.0d
 		}
@@ -787,22 +1020,26 @@
 				id: "ae2:me_p2p_tunnel"
 			}
 			id: "5A0E16000000001E"
+			rewards: [{
+				id: "403EA2329A3174B5"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
-			rewards: [
-				{
-					id: "C1C2F2F95DA63DB4"
-					type: "xp"
-					xp: 30
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					count: 2L
-					id: "5A0E2600000001E0"
-					item: { count: 1, id: "ae2:me_p2p_tunnel" }
-					type: "item"
-				}
-			]
+				count: 2L
+				id: "5A0E2600000001E0"
+				item: { count: 1, id: "ae2:me_p2p_tunnel" }
+				type: "item"
+			}]
 			x: 78.0d
 			y: 0.0d
 		}
@@ -812,20 +1049,24 @@
 				id: "ae2:quartz_fiber"
 			}
 			id: "5A0E16000000001F"
-			rewards: [
-				{
-					id: "5B09572F0BE15746"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "5B09572F0BE15746"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2600000001F0"
-					item: { count: 1, id: "ae2:quartz_fiber" }
-					type: "item"
-				}
-			]
+				id: "5A0E2600000001F0"
+				item: { count: 1, id: "ae2:quartz_fiber" }
+				type: "item"
+			}]
 			x: 75.0d
 			y: 3.0d
 		}
@@ -835,22 +1076,36 @@
 				id: "ae2:quantum_ring"
 			}
 			id: "5A0E160000000020"
+			rewards: [{
+				id: "3AFC2E2A3864BF37"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
-			rewards: [
-				{
-					id: "B30E3FA149DEC6E7"
-					type: "xp"
-					xp: 30
-				}
-			]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					count: 8L
 					id: "5A0E260000000200"
 					item: { count: 1, id: "ae2:quantum_ring" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E260000000201"
 					item: { count: 1, id: "ae2:quantum_link" }
 					type: "item"
@@ -868,14 +1123,20 @@
 			rewards: [
 				{
 					count: 8
-					id: "FE77663160FB83C5"
-					item: "ae2:quantum_ring"
+					id: "5AE157E4B5C829F9"
+					item: {
+						count: 1
+						id: "ae2:quantum_ring"
+					}
 					type: "item"
 				}
 				{
 					count: 8
 					id: "2AE566EAB6759D8E"
-					item: "minecraft:diamond"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
 					type: "item"
 				}
 				{
@@ -884,14 +1145,20 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					count: 2L
-					id: "5A0E260000000210"
-					item: { count: 1, id: "ae2:quantum_entangled_singularity" }
-					type: "item"
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
+				count: 2L
+				id: "5A0E260000000210"
+				item: { count: 1, id: "ae2:quantum_entangled_singularity" }
+				type: "item"
+			}]
 			x: 84.0d
 			y: 0.0d
 		}
@@ -902,38 +1169,48 @@
 			}
 			id: "5A0E160000000022"
 			optional: true
-			rewards: [
-				{
-					id: "1C559B235FE75413"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "1C559B235FE75413"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E260000000220"
-					item: { count: 1, id: "ae2:wireless_terminal" }
-					type: "item"
-				}
-			]
+				id: "5A0E260000000220"
+				item: { count: 1, id: "ae2:wireless_terminal" }
+				type: "item"
+			}]
 			x: 81.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5A0E160000000022"]
 			icon: {
-				id: "create_ae_generator:kinetic_acceptor"
+				id: "aeinfinitybooster:infinity_card"
 			}
 			id: "5A0E160000000023"
+			rewards: [{
+				id: "16F122C7007BC9DE"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "square"
-			rewards: [
-				{
-					id: "16F122C7007BC9DE"
-					type: "xp"
-					xp: 20
-				}
-			]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "5A0E260000000230"
 				type: "checkmark"
 			}]
@@ -949,19 +1226,23 @@
 				id: "ae2:controller"
 			}
 			id: "5A0E160000000024"
-			shape: "square"
-			size: 1.5d
 			rewards: [
 				{
 					count: 2
 					id: "0BAA3831600C3DB6"
-					item: "ae2:item_storage_cell_16k"
+					item: {
+						count: 1
+						id: "ae2:item_storage_cell_16k"
+					}
 					type: "item"
 				}
 				{
 					count: 16
-					id: "D1DD1CABD7F6BF53"
-					item: "minecraft:diamond"
+					id: "153FA1F9030E8159"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
 					type: "item"
 				}
 				{
@@ -970,7 +1251,17 @@
 					xp: 20
 				}
 			]
+			shape: "square"
+			size: 1.5d
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "5A0E260000000240"
 				type: "checkmark"
 			}]
@@ -989,8 +1280,16 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "5A0E260000000260"
-				item: { count: 4, id: "create_ae_generator:copper_coil" }
+				item: { count: 1, id: "create_ae_generator:copper_coil" }
 				type: "item"
 			}]
 			x: 12.0d
@@ -1003,11 +1302,19 @@
 			}
 			id: "5A0E160000000027"
 			rewards: [{
-				id: "9C4E28B1F70D5A62"
+				id: "408ECA2BDD62B8E8"
 				type: "xp"
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "5A0E260000000270"
 				item: { count: 1, id: "create_ae_generator:stator" }
 				type: "item"
@@ -1027,6 +1334,14 @@
 				xp: 30
 			}]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "5A0E260000000280"
 				item: { count: 1, id: "create_ae_generator:kinetic_acceptor" }
 				type: "item"
