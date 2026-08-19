@@ -1,15 +1,1434 @@
 {
+	autofocus_id: "5A0E1B0000000001"
 	default_hide_dependency_lines: false
 	default_quest_shape: "circle"
 	filename: "building"
 	group: "4C49464545585031"
 	icon: {
-		id: "minecraft:bricks"
+		id: "rechiseled:chisel"
 	}
 	id: "5A0E000000000013"
 	images: [ ]
 	order_index: 4
 	progression_mode: "flexible"
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			icon: {
+				id: "constructionstick:iron_stick"
+			}
+			id: "5A0E1B0000000001"
+			rewards: [{
+				id: "1A413FD02B89706A"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2B0000000010"
+				item: { count: 1, id: "constructionstick:iron_stick" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E1B0000000001"]
+			icon: {
+				id: "constructionstick:netherite_stick"
+			}
+			id: "5A0E1B0000000002"
+			rewards: [{
+				id: "4D700E569A9FB291"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000020"
+					item: { count: 1, id: "constructionstick:copper_stick" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000021"
+					item: { count: 1, id: "constructionstick:diamond_stick" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000022"
+					item: { count: 1, id: "constructionstick:netherite_stick" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A0E1B0000000002"]
+			icon: {
+				id: "constructionstick:template_angel"
+			}
+			id: "5A0E1B0000000003"
+			optional: true
+			rewards: [{
+				id: "344029D906BBB78D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "20EA45E80802F78B"
+					item: { count: 1, id: "constructionstick:template_angel" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "74FBF30DB5020FE0"
+					item: { count: 1, id: "constructionstick:template_destruction" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A0E1B0000000001"]
+			icon: {
+				id: "buildinggadgets2:gadget_building"
+			}
+			id: "5A0E1B0000000004"
+			rewards: [{
+				id: "245EBEB2194E9CA9"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2B0000000040"
+				item: { count: 1, id: "buildinggadgets2:gadget_building" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E1B0000000004"]
+			icon: {
+				id: "buildinggadgets2:gadget_exchanging"
+			}
+			id: "5A0E1B0000000005"
+			rewards: [{
+				id: "33A23B6475989E99"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2B0000000050"
+				item: { count: 1, id: "buildinggadgets2:gadget_exchanging" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E1B0000000005"]
+			icon: {
+				id: "buildinggadgets2:gadget_copy_paste"
+			}
+			id: "5A0E1B0000000006"
+			rewards: [{
+				id: "08BAA6C96B579315"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000060"
+					item: { count: 1, id: "buildinggadgets2:gadget_copy_paste" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000061"
+					item: { count: 1, id: "buildinggadgets2:gadget_cut_paste" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E1B0000000006"]
+			icon: {
+				id: "buildinggadgets2:gadget_destruction"
+			}
+			id: "5A0E1B0000000007"
+			rewards: [{
+				id: "7444FE71C4C06A59"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2B0000000070"
+				item: { count: 1, id: "buildinggadgets2:gadget_destruction" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E1B0000000006"]
+			icon: {
+				id: "buildinggadgets2:template_manager"
+			}
+			id: "5A0E1B0000000008"
+			optional: true
+			rewards: [{
+				id: "4DDD5DF0DBF4D62D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000080"
+					item: { count: 1, id: "buildinggadgets2:template_manager" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000081"
+					item: { count: 1, id: "buildinggadgets2:template" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000082"
+					item: { count: 1, id: "buildinggadgets2:redprint" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A0E1B0000000001"]
+			icon: {
+				id: "rechiseled:chisel"
+			}
+			id: "5A0E1B0000000009"
+			rewards: [{
+				id: "3C70608B42229022"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2B0000000090"
+				item: { count: 1, id: "rechiseled:chisel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A0E1B0000000009"]
+			icon: {
+				id: "chisel:chisel"
+			}
+			id: "5A0E1B000000000A"
+			rewards: [{
+				id: "3D01F24E4466C0E3"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2B00000000A0"
+				item: { count: 1, id: "chisel:chisel" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A0E1B000000000A"]
+			icon: {
+				id: "chipped:mason_table"
+			}
+			id: "5A0E1B000000000B"
+			rewards: [{
+				id: "3336BCAE4DCFA540"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B00000000B0"
+					item: { count: 1, id: "chipped:mason_table" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B00000000B1"
+					item: { count: 1, id: "chipped:carpenters_table" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B00000000B2"
+					item: { count: 1, id: "chipped:glassblower" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B00000000B3"
+					item: { count: 1, id: "chipped:loom_table" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B00000000B4"
+					item: { count: 1, id: "chipped:alchemy_bench" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B00000000B5"
+					item: { count: 1, id: "chipped:botanist_workbench" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B00000000B6"
+					item: { count: 1, id: "chipped:tinkering_table" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A0E1B0000000009"]
+			icon: {
+				id: "connectedglass:borderless_glass"
+			}
+			id: "5A0E1B000000000C"
+			optional: true
+			rewards: [{
+				id: "466D2C3FF48B5CCC"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				count: 8L
+				id: "5A0E2B00000000C0"
+				item: { count: 1, id: "connectedglass:borderless_glass" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A0E1B000000000A"]
+			icon: {
+				id: "domum_ornamentum:architectscutter"
+			}
+			id: "5A0E1B000000000D"
+			optional: true
+			rewards: [{
+				id: "33F8D809661B8636"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2B00000000D0"
+				item: { count: 1, id: "domum_ornamentum:architectscutter" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A0E1B000000000C"]
+			icon: {
+				id: "factory_blocks:factory"
+			}
+			id: "5A0E1B000000000E"
+			optional: true
+			rewards: [{
+				id: "6F3141C2BB017BF1"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				count: 4L
+				id: "5A0E2B00000000E0"
+				item: { count: 1, id: "factory_blocks:factory" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A0E1B0000000001"]
+			icon: {
+				id: "framedblocks:framing_saw"
+			}
+			id: "5A0E1B000000000F"
+			rewards: [{
+				id: "62E6224BA7D8D87C"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B00000000F0"
+					item: { count: 1, id: "framedblocks:framing_saw" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					count: 4L
+					id: "5A0E2B00000000F1"
+					item: { count: 1, id: "framedblocks:framed_cube" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A0E1B000000000F"]
+			icon: {
+				id: "framedblocks:framed_hammer"
+			}
+			id: "5A0E1B0000000010"
+			rewards: [{
+				id: "4E232E0A4B0852BD"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000100"
+					item: { count: 1, id: "framedblocks:framed_hammer" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000101"
+					item: { count: 1, id: "framedblocks:framed_screwdriver" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000102"
+					item: { count: 1, id: "framedblocks:framed_blueprint" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000103"
+					item: { count: 1, id: "framedblocks:framed_wrench" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A0E1B0000000010"]
+			icon: {
+				id: "framedblocks:framed_reinforcement"
+			}
+			id: "5A0E1B0000000011"
+			optional: true
+			rewards: [{
+				id: "28A240542F2D13B7"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				count: 4L
+				id: "5A0E2B0000000110"
+				item: { count: 1, id: "framedblocks:framed_reinforcement" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A0E1B000000000F"]
+			icon: {
+				id: "copycats:copycat_block"
+			}
+			id: "5A0E1B0000000012"
+			rewards: [{
+				id: "2404E159B1285111"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000120"
+					item: { count: 1, id: "copycats:copycat_block" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000121"
+					item: { count: 1, id: "copycats:copycat_beam" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000122"
+					item: { count: 1, id: "copycats:copycat_board" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A0E1B0000000001"]
+			icon: {
+				id: "handcrafted:hammer"
+			}
+			id: "5A0E1B0000000013"
+			rewards: [{
+				id: "4AEC9F403469F41A"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2B0000000130"
+				item: { count: 1, id: "handcrafted:hammer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5A0E1B0000000013"]
+			icon: {
+				id: "handcrafted:oak_chair"
+			}
+			id: "5A0E1B0000000014"
+			rewards: [{
+				id: "71F7CC2C2FD4835F"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					count: 2L
+					id: "5A0E2B0000000140"
+					item: { count: 1, id: "handcrafted:oak_chair" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					count: 2L
+					id: "5A0E2B0000000141"
+					item: { count: 1, id: "handcrafted:oak_table" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5A0E1B0000000014"]
+			icon: {
+				id: "handcrafted:oak_nightstand"
+			}
+			id: "5A0E1B0000000015"
+			optional: true
+			rewards: [{
+				id: "5205783BA42A719D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000150"
+					item: { count: 1, id: "handcrafted:oak_nightstand" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000151"
+					item: { count: 1, id: "handcrafted:oak_shelf" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5A0E1B0000000014"]
+			icon: {
+				id: "refurbished_furniture:oak_drawer"
+			}
+			id: "5A0E1B0000000016"
+			optional: true
+			rewards: [{
+				id: "4A733F82BCC4221B"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000160"
+					item: { count: 1, id: "refurbished_furniture:oak_chair" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000161"
+					item: { count: 1, id: "refurbished_furniture:oak_table" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000162"
+					item: { count: 1, id: "refurbished_furniture:oak_drawer" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5A0E1B0000000001"]
+			icon: {
+				id: "simplylight:illuminant_block"
+			}
+			id: "5A0E1B0000000017"
+			rewards: [{
+				id: "2669A6BE87AA9E7F"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					count: 4L
+					id: "5A0E2B0000000170"
+					item: { count: 1, id: "simplylight:illuminant_block" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					count: 2L
+					id: "5A0E2B0000000171"
+					item: { count: 1, id: "simplylight:wall_lamp" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5A0E1B0000000017"]
+			icon: {
+				id: "supplementaries:globe"
+			}
+			id: "5A0E1B0000000018"
+			optional: true
+			rewards: [{
+				id: "3250FA6FF3EC1C31"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000180"
+					item: { count: 1, id: "supplementaries:globe" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000181"
+					item: { count: 1, id: "supplementaries:clock_block" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5A0E1B0000000018"]
+			icon: {
+				id: "supplementaries:notice_board"
+			}
+			id: "5A0E1B0000000019"
+			optional: true
+			rewards: [{
+				id: "2CB2E1AA12ADA4E6"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000190"
+					item: { count: 1, id: "supplementaries:notice_board" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000191"
+					item: { count: 1, id: "supplementaries:blackboard" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5A0E1B0000000019"]
+			icon: {
+				id: "supplementaries:pedestal"
+			}
+			id: "5A0E1B000000001A"
+			optional: true
+			rewards: [{
+				id: "5EFE75E4007548DC"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					count: 2L
+					id: "5A0E2B00000001A0"
+					item: { count: 1, id: "supplementaries:pedestal" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					count: 2L
+					id: "5A0E2B00000001A1"
+					item: { count: 1, id: "supplementaries:item_shelf" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B00000001A2"
+					item: { count: 1, id: "supplementaries:statue" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5A0E1B000000001A"]
+			icon: {
+				id: "supplementaries:awning_white"
+			}
+			id: "5A0E1B000000001B"
+			optional: true
+			rewards: [{
+				id: "1B9B67F398B5E4A4"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					count: 4L
+					id: "5A0E2B00000001B0"
+					item: { count: 1, id: "supplementaries:awning_white" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B00000001B1"
+					item: { count: 1, id: "supplementaries:flag_white" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5A0E1B0000000017"]
+			icon: {
+				id: "elevatorid:elevator_white"
+			}
+			id: "5A0E1B000000001C"
+			optional: true
+			rewards: [{
+				id: "5D32771F7E9F1740"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				count: 2L
+				id: "5A0E2B00000001C0"
+				item: { count: 1, id: "elevatorid:elevator_white" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5A0E1B0000000017"]
+			icon: {
+				id: "immersive_paintings:painting"
+			}
+			id: "5A0E1B000000001D"
+			optional: true
+			rewards: [{
+				id: "3FF69F48F3E31461"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B00000001D0"
+					item: { count: 1, id: "immersive_paintings:painting" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B00000001D1"
+					item: { count: 1, id: "immersive_paintings:graffiti" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5A0E1B0000000017"]
+			icon: {
+				id: "etched:etching_table"
+			}
+			id: "5A0E1B000000001E"
+			optional: true
+			rewards: [{
+				id: "43BCA18F1BE69B57"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B00000001E0"
+					item: { count: 1, id: "etched:etching_table" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B00000001E1"
+					item: { count: 1, id: "etched:blank_music_disc" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B00000001E2"
+					item: { count: 1, id: "etched:music_label" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5A0E1B0000000001"]
+			icon: {
+				id: "createdeco:brass_sheet_metal"
+			}
+			id: "5A0E1B000000001F"
+			optional: true
+			rewards: [{
+				id: "2EE7AE9870890BC3"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					count: 4L
+					id: "5A0E2B00000001F0"
+					item: { count: 1, id: "createdeco:iron_sheet_metal" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					count: 4L
+					id: "5A0E2B00000001F1"
+					item: { count: 1, id: "createdeco:brass_sheet_metal" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5A0E1B000000001F"]
+			icon: {
+				id: "createdeco:iron_catwalk"
+			}
+			id: "5A0E1B0000000020"
+			optional: true
+			rewards: [{
+				id: "78E46672A47192A3"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					count: 4L
+					id: "5A0E2B0000000200"
+					item: { count: 1, id: "createdeco:iron_catwalk" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					count: 4L
+					id: "5A0E2B0000000201"
+					item: { count: 1, id: "createdeco:iron_ladder" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5A0E1B0000000020"]
+			icon: {
+				id: "bellsandwhistles:brass_pilot"
+			}
+			id: "5A0E1B0000000021"
+			optional: true
+			rewards: [{
+				id: "1C972AD42306105C"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					count: 2L
+					id: "5A0E2B0000000210"
+					item: { count: 1, id: "bellsandwhistles:brass_grab_rails" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2B0000000211"
+					item: { count: 1, id: "bellsandwhistles:brass_pilot" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -6.0d
+		}
+	]
 }

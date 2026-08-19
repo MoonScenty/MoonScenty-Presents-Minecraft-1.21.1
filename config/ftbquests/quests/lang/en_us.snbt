@@ -2587,4 +2587,217 @@
 	quest.5A0E190000000026.quest_desc: ["가시를 태우고 나아가면 &l마지막 성&r이 나옵니다.", "&l여기서부터는 아직 만들어지지 않았습니다.&r 최종 보스도, 성 안쪽의 내용도 미완성입니다.", "황혼의 숲이 지금까지 준비한 것은 여기까지입니다. 여덟 보스를 모두 넘긴 것을 축하합니다."]
 	quest.5A0E190000000026.quest_subtitle: "진행의 끝"
 	quest.5A0E190000000026.title: "여기가 끝입니다"
+	quest.5A0E1A0000000001.quest_desc: ["생물 군계를 골라 검색하면 &l그쪽 방향과 거리&r를 알려 줍니다.", "정글이 필요한데 눈밭만 나오는 상황이 사라집니다. 이 모드팩은 특정 군계에서만 나는 것이 많아 일찍 만들어 둘수록 좋습니다.", "이 챕터는 &l돌아다니는 데 필요한 것들&r을 모았습니다. 길잡이, 야영, 구조물, 그리고 그 안에서 나오는 물건들입니다."]
+	quest.5A0E1A0000000001.quest_subtitle: "자연의 나침반 제작"
+	quest.5A0E1A0000000001.title: "어디로 가야 하는지부터"
+	quest.5A0E1A0000000002.quest_desc: ["나침반과 같은 방식으로 &l구조물&r을 찾습니다. 마을이든 요새든 이름으로 검색합니다.", "이 모드팩에는 구조물 모드가 여럿 들어 있습니다. 목록이 길어서 검색창에 몇 글자만 쳐 넣는 편이 빠릅니다."]
+	quest.5A0E1A0000000002.quest_subtitle: "Explorer's Compass 제작"
+	quest.5A0E1A0000000002.title: "구조물도 찾아 줍니다"
+	quest.5A0E1A0000000003.quest_desc: ["돌과 흑요석으로 만듭니다. 설치하고 이름을 붙이면 &l그 자리로 언제든 돌아올 수 있습니다.&r", "세계 곳곳에 자연 생성된 것도 있습니다. 지나가다 보이면 우클릭해 등록해 두세요.", "거점, 네더 관문, 광산 입구 — 자주 오가는 곳에 하나씩 박아 두면 이동 시간이 사라집니다."]
+	quest.5A0E1A0000000003.quest_subtitle: "전송석 설치"
+	quest.5A0E1A0000000003.title: "돌아올 자리를 만듭니다"
+	quest.5A0E1A0000000004.quest_desc: ["들고 우클릭하면 등록해 둔 전송석 목록이 뜹니다. &l어디서든 돌아갈 수 있습니다.&r", "재사용 대기 시간이 있으니 도망칠 때만 믿기에는 위험합니다."]
+	quest.5A0E1A0000000004.quest_subtitle: "휴대용 전송석 제작"
+	quest.5A0E1A0000000004.title: "손에 들고 다니는 전송석"
+	quest.5A0E1A0000000005.quest_desc: ["&l귀환 주문서&r는 가장 가까운 전송석으로 보냅니다. &l연결 주문서&r는 미리 지정한 한 곳으로 보냅니다.", "&l전송 가루&r가 재료입니다. 엔더 진주와 청금석으로 만듭니다.", "짐이 무거워 죽기 아까울 때 한 장씩 들고 다니면 마음이 놓입니다."]
+	quest.5A0E1A0000000005.quest_subtitle: "주문서와 전송 가루 제작"
+	quest.5A0E1A0000000005.title: "한 번 쓰는 이동"
+	quest.5A0E1A0000000006.quest_desc: ["같은 색의 공명석끼리 서로 연결됩니다. 전송석과 달리 &l등록 없이 바로&r 오갈 수 있습니다.", "색을 용도별로 나눠 쓰면 편합니다. 파란색은 광산, 초록색은 농장 하는 식입니다."]
+	quest.5A0E1A0000000006.quest_subtitle: "공명석 설치"
+	quest.5A0E1A0000000006.title: "같은 색끼리 이어집니다"
+	quest.5A0E1A0000000007.quest_desc: ["전송판 두 개를 &l익숙한 파편&r으로 짝지으면, 한쪽을 밟는 순간 다른 쪽으로 보내집니다.", "아이템도 함께 보낼 수 있어 거점 사이의 짐 나르기에 씁니다. &l사출석&r을 곁들이면 도착점만 정해 둘 수도 있습니다."]
+	quest.5A0E1A0000000007.quest_subtitle: "전송판과 익숙한 파편 제작"
+	quest.5A0E1A0000000007.title: "밟으면 날아갑니다"
+	quest.5A0E1A0000000008.quest_desc: ["양털과 실로 만듭니다. 침대와 달리 &l부활 지점을 옮기지 않습니다.&r", "탐험 도중 밤을 넘길 때 씁니다. 자고 일어나면 회수되니 계속 들고 다닐 수 있습니다.", "거점의 부활 지점을 지키면서 밖에서 밤을 보내는 유일한 방법입니다."]
+	quest.5A0E1A0000000008.quest_subtitle: "하얀색 침낭 제작"
+	quest.5A0E1A0000000008.title: "밖에서 자는 법"
+	quest.5A0E1A0000000009.quest_desc: ["&l밧줄과 못&r을 마주 보게 두 개 박고 그 사이에 해먹을 겁니다.", "해먹은 &l낮에만&r 잘 수 있습니다. 밤을 넘기는 침낭과 반대입니다. 밤에 할 일이 있는 사람에게 맞습니다."]
+	quest.5A0E1A0000000009.quest_subtitle: "밧줄과 못, 해먹 제작"
+	quest.5A0E1A0000000009.title: "나무 사이에 매답니다"
+	quest.5A0E1A000000000A.quest_desc: ["설치하면 &l넓은 반경 안에서 적대 몹이 자연 생성되지 않습니다.&r 밝기와 무관합니다.", "거점 한가운데에 하나 박아 두면 횃불을 촘촘히 깔 필요가 없어집니다.", "&l드레드 조명&r은 반대로 동물 생성을 막습니다. 자동 농장 옆에서 씁니다."]
+	quest.5A0E1A000000000A.quest_subtitle: "메가 횃불 설치"
+	quest.5A0E1A000000000A.title: "몹이 안 나오게 막습니다"
+	quest.5A0E1A000000000B.quest_desc: ["주변 어두운 곳에 &l보이지 않는 빛을 자동으로 뿌립니다.&r 동굴 하나를 통째로 밝힐 수 있습니다.", "빛이 남아 지저분해지면 &l언 페럴&r로 지웁니다. 랜턴을 옮기기 전에 반드시 정리하세요."]
+	quest.5A0E1A000000000B.quest_subtitle: "페럴 플레어 랜턴 설치"
+	quest.5A0E1A000000000B.title: "보이지 않는 조명"
+	quest.5A0E1A000000000C.quest_desc: ["장신구 칸에 넣으면 &l크리에이티브 비행&r이 됩니다. 대신 &l경험치를 계속 먹습니다.&r", "경험치가 1레벨 아래로 떨어지면 마법이 풀리고 떨어집니다. 하늘에서 바닥날 일이 없게 하세요.", "재료가 만만치 않습니다. 이 챕터의 마지막 목표로 삼을 만합니다."]
+	quest.5A0E1A000000000C.quest_subtitle: "천사의 반지 제작"
+	quest.5A0E1A000000000C.title: "걸어 다니지 않아도 됩니다"
+	quest.5A0E1A000000000D.quest_desc: ["&lYUNG's Better Mineshafts&r가 폐광을 다시 만들었습니다. 층이 나뉘고 야영지와 창고가 딸려 있습니다.", "&lYUNG's Better Dungeons&r는 몹 생성기 방을 훨씬 크고 위험하게 바꿉니다. 상자도 그만큼 좋습니다.", "&lLootr&r이 들어 있어서 &l구조물 상자는 사람마다 따로 채워집니다.&r 먼저 연 사람이 다 가져가는 일이 없습니다.", "직접 내려가 보고 이 과제를 체크하세요."]
+	quest.5A0E1A000000000D.quest_subtitle: "폐광과 던전 탐사"
+	quest.5A0E1A000000000D.title: "땅속으로 뻗은 길"
+	quest.5A0E1A000000000E.quest_desc: ["&lYUNG's Better Desert Temples&r는 사원 아래에 지하 미궁을 붙였습니다. 바닥의 압력판만 조심하면 되는 곳이 아닙니다.", "&lYUNG's Better Jungle Temples&r도 마찬가지로 넓어졌습니다. 톱니바퀴 장치와 숨은 방이 있습니다.", "둘 다 초반에 갈 만한 곳은 아닙니다. 갑옷을 갖추고 가세요."]
+	quest.5A0E1A000000000E.quest_subtitle: "사막 사원과 정글 사원 탐사"
+	quest.5A0E1A000000000E.title: "모래와 덩굴 속의 함정"
+	quest.5A0E1A000000000F.quest_desc: ["&lYUNG's Better Strongholds&r가 요새를 미로에서 &l유적&r으로 바꿨습니다. 도서관과 감옥, 보물방이 생겼습니다.", "블레이즈 막대와 엔더 진주로 &l엔더의 눈&r을 만들어 던지면 방향을 알려 줍니다.", "엔드로 가는 유일한 문이 여기 있습니다."]
+	quest.5A0E1A000000000F.quest_subtitle: "요새 도달"
+	quest.5A0E1A000000000F.title: "엔더의 눈이 가리키는 곳"
+	quest.5A0E1A0000000010.quest_desc: ["넓은 어두운 참나무 숲 한가운데에 있습니다. Explorer's Compass로 찾는 편이 빠릅니다.", "&l환기꾼&r이 &l불사의 토템&r을 떨굽니다. 죽는 순간 한 번 살려 주는 물건입니다.", "방마다 다른 함정과 몹이 있습니다. 혼자 가려면 준비를 단단히 하세요."]
+	quest.5A0E1A0000000010.quest_subtitle: "산림 대저택 공략"
+	quest.5A0E1A0000000010.title: "숲속의 저택"
+	quest.5A0E1A0000000011.quest_desc: ["탑 꼭대기의 두목을 잡으면 &l불길한 병&r이 나옵니다.", "이 병을 마시면 &l불길한 예감&r이 걸리고, 그 상태로 시험의 방에 들어가면 보상이 훨씬 좋아집니다.", "마을에서 마시면 습격이 시작됩니다. 어디서 마실지 정해 두고 가세요."]
+	quest.5A0E1A0000000011.quest_subtitle: "약탈자 전초기지 공략"
+	quest.5A0E1A0000000011.title: "약탈자의 깃발"
+	quest.5A0E1A0000000012.quest_desc: ["깊은 지하에 있는 1.21의 구조물입니다. 시련 생성기에서 몹이 쏟아지고, 다 잡으면 상자가 열립니다.", "&l시련의 열쇠&r로 금고를 열고, &l무거운 핵&r을 얻으면 철퇴를 만들 수 있습니다.", "&l철퇴&r는 높이 떨어질수록 세게 때립니다. 이 모드팩에서 가장 특이한 무기 중 하나입니다."]
+	quest.5A0E1A0000000012.quest_subtitle: "시련의 열쇠와 무거운 핵 획득"
+	quest.5A0E1A0000000012.title: "시험의 방"
+	quest.5A0E1A0000000013.quest_desc: ["&l워든&r이 있습니다. 싸우지 마세요. 소리를 내지 않고 지나가는 것이 정답입니다.", "&l메아리 조각&r으로 회복 나침반을 만들면 마지막으로 죽은 자리를 가리킵니다.", "웅크려 걷고, 양털을 깔고, 스컬크 감지체를 피하세요. 상자에는 이 모드팩 최상급 인챈트 책이 들어 있습니다."]
+	quest.5A0E1A0000000013.quest_subtitle: "고대 도시 탐사"
+	quest.5A0E1A0000000013.title: "깊은 어둠 속의 도시"
+	quest.5A0E1A0000000014.quest_desc: ["&lYUNG's Better Ocean Monuments&r가 내부를 크게 넓혔습니다. 방이 늘고 보물도 늘었습니다.", "&l가디언&r과 채굴 피로가 문제입니다. 우유를 챙기거나 수중 호흡과 물갈퀴를 준비하세요.", "&l해면&r은 물을 빨아들입니다. 수중 건축에 쓸모가 많습니다."]
+	quest.5A0E1A0000000014.quest_subtitle: "해양 기념물 공략"
+	quest.5A0E1A0000000014.title: "바닷속 신전"
+	quest.5A0E1A0000000015.quest_desc: ["난파선 상자에 &l보물지도&r가 들어 있습니다. 지도가 가리키는 자리를 파면 &l바다의 심장&r이 나옵니다.", "여기에 노틸러스 껍데기 여덟 개를 더하면 &l전달체&r가 됩니다. 물속에서 살다시피 할 수 있게 됩니다."]
+	quest.5A0E1A0000000015.quest_subtitle: "바다의 심장 획득"
+	quest.5A0E1A0000000015.title: "가라앉은 배와 보물지도"
+	quest.5A0E1A0000000016.quest_desc: ["&lWhen Dungeons Arise&r가 마흔 개가 넘는 대형 구조물을 추가합니다.", "해적선, 콜로세움, 등대, 수도원, 버섯 마을, 하늘을 나는 비행선까지 있습니다. 하나하나가 작은 던전입니다.", "&l보스는 없지만 보상은 큽니다.&r Explorer's Compass에 `dungeons_arise`로 검색하면 목록이 나옵니다.", "마음에 드는 곳 하나를 끝까지 털고 이 과제를 체크하세요."]
+	quest.5A0E1A0000000016.quest_subtitle: "When Dungeons Arise 탐사"
+	quest.5A0E1A0000000016.title: "세계 곳곳의 유적"
+	quest.5A0E1A0000000017.quest_desc: ["&lDungeon Crawl&r은 지하에 &l여러 층짜리 미로 던전&r을 만듭니다. 생물 군계에 따라 모습이 다릅니다.", "층마다 상자와 몹 생성기가 있고, 아래로 갈수록 보상이 좋아집니다.", "바닥까지 내려가 보고 체크하세요."]
+	quest.5A0E1A0000000017.quest_subtitle: "Dungeon Crawl 탐사"
+	quest.5A0E1A0000000017.title: "층층이 내려가는 던전"
+	quest.5A0E1A0000000018.quest_desc: ["&lYUNG's Bridges&r는 협곡과 강에 다리를 놓고, &lYUNG's Extras&r는 오두막과 폐허를 흩뿌립니다.", "&lYUNG's Better Caves&r와 &lCave Biomes&r가 지하를 완전히 다시 그렸습니다. 바닐라의 동굴과는 다른 곳입니다.", "&l마녀 오두막&r, &l네더 요새&r, &l엔드 섬&r도 전부 손이 갔습니다. 아는 곳이라고 방심하지 마세요."]
+	quest.5A0E1A0000000018.quest_subtitle: "YUNG's 시리즈 둘러보기"
+	quest.5A0E1A0000000018.title: "다리와 동굴"
+	quest.5A0E1A0000000019.quest_desc: ["&lYUNG's Better Nether Fortresses&r가 요새를 크게 다시 지었습니다. 넓고 위험합니다.", "&l블레이즈 막대&r가 목표입니다. 양조와 엔더의 눈에 들어갑니다.", "화염 저항 물약과 활을 챙기세요. 블레이즈는 붙어서 싸울 상대가 아닙니다."]
+	quest.5A0E1A0000000019.quest_subtitle: "네더 요새 공략"
+	quest.5A0E1A0000000019.title: "불의 세계"
+	quest.5A0E1A000000001A.quest_desc: ["&l네더라이트 강화 형판&r은 요새 잔해에서만 나옵니다. 다른 어디에도 없습니다.", "금 갑옷을 입고 들어가세요. 안 그러면 피글린이 전부 달려듭니다.", "상자를 열면 어차피 화가 나니, 열기 전에 도망칠 길을 봐 두는 편이 낫습니다."]
+	quest.5A0E1A000000001A.quest_subtitle: "요새 잔해 공략"
+	quest.5A0E1A000000001A.title: "돼지들의 요새"
+	quest.5A0E1A000000001B.quest_desc: ["요새의 관문에 엔더의 눈을 채워 엔드로 갑니다.", "흑요석 기둥의 &l엔드 수정&r부터 부수세요. 부수지 않으면 용이 계속 회복합니다.", "잡으면 &l드래곤 알&r이 놓입니다. 직접 캘 수 없으니 피스톤으로 밀어 떨어뜨려 주우세요."]
+	quest.5A0E1A000000001B.quest_subtitle: "엔더 드래곤 처치"
+	quest.5A0E1A000000001B.title: "하늘 끝의 용"
+	quest.5A0E1A000000001C.quest_desc: ["&lYUNG's Better End Island&r가 중앙 섬을 다시 그렸습니다. 바깥 섬으로 가려면 엔더 진주를 던져 관문을 넘습니다.", "&l겉날개&r는 배 끝에 걸려 있습니다. 이 모드팩의 이동 문제 절반이 여기서 해결됩니다.", "&l셜커 껍데기&r 두 개면 셜커 상자 하나입니다. 짐 나르기가 완전히 달라집니다."]
+	quest.5A0E1A000000001C.quest_subtitle: "겉날개와 셜커 껍데기 획득"
+	quest.5A0E1A000000001C.title: "엔드 도시로"
+	quest.5A0E1A000000001D.quest_desc: ["&lUnusual End&r이 엔드를 완전히 다시 만들었습니다. 새 군계, 새 생물, 새 구조물이 있습니다.", "&lCitrine Chunk&r는 새로 생긴 광물이고, &lBolok Scale&r은 엔드에 사는 생물에게서 나옵니다.", "황량하던 엔드가 갈 만한 곳이 되었습니다. 겉날개를 얻은 뒤 천천히 둘러보세요."]
+	quest.5A0E1A000000001D.quest_subtitle: "Unusual End 탐사"
+	quest.5A0E1A000000001D.title: "낯선 엔드"
+	quest.5A0E1A000000001E.quest_desc: ["&lEnderblob Shield&r는 엔드의 생물에게서 얻는 방패입니다.", "&lChorus Flute&r는 후렴 열매를 다루는 도구입니다. 엔드 구조물에서 나옵니다.", "Unusual End의 물건은 대부분 JEI에 나옵니다. 뭐가 있는지 한 번 훑어보세요."]
+	quest.5A0E1A000000001E.quest_subtitle: "Enderblob Shield와 Chorus Flute 획득"
+	quest.5A0E1A000000001E.title: "엔드의 물건들"
+	quest.5A0E1A000000001F.quest_desc: ["&lArtifacts&r가 지하 야영지와 던전 상자에 &l장신구&r를 흩뿌립니다.", "종류가 마흔 가지가 넘고, 대부분 &lCurios 슬롯&r에 넣어 쓰는 물건입니다.", "어떤 것이든 하나 손에 넣었다면 이 과제를 체크하세요. 아래는 그중 눈여겨볼 만한 것들입니다."]
+	quest.5A0E1A000000001F.quest_subtitle: "첫 유물 획득"
+	quest.5A0E1A000000001F.title: "야영지의 상자"
+	quest.5A0E1A0000000020.quest_desc: ["쓰고 있으면 밤에도 동굴에서도 훤합니다. 횃불을 아낄 수 있습니다.", "탐험 유물 중 체감이 가장 큰 물건입니다."]
+	quest.5A0E1A0000000020.quest_subtitle: "야간투시경 획득"
+	quest.5A0E1A0000000020.title: "어둠이 사라집니다"
+	quest.5A0E1A0000000021.quest_desc: ["주변에 떨어진 아이템을 끌어당깁니다. 웅크리면 꺼집니다.", "채굴할 때 뒤돌아 줍는 시간이 사라집니다."]
+	quest.5A0E1A0000000021.quest_subtitle: "아이템 자석 획득"
+	quest.5A0E1A0000000021.title: "줍지 않아도 들어옵니다"
+	quest.5A0E1A0000000022.quest_desc: ["&l병에 들어있는 구름&r은 공중에서 한 번 더 뛰게 해 줍니다.", "&l헬륨 플라밍고&r는 물 위를 헤엄치듯 하늘을 잠깐 떠다니게 합니다.", "겉날개를 얻기 전까지 높은 곳을 다루는 수단이 됩니다."]
+	quest.5A0E1A0000000022.quest_subtitle: "병에 들어있는 구름과 헬륨 플라밍고 획득"
+	quest.5A0E1A0000000022.title: "공중에서 한 번 더"
+	quest.5A0E1A0000000023.quest_desc: ["&l화염 건틀렛&r은 때린 상대에게 불을 붙이고 &l화상 피해를 막아 줍니다.&r", "&l흑요석 해골&r은 폭발 피해를 크게 줄입니다. 크리퍼가 무섭지 않아집니다.", "네더에 들어가기 전에 갖추면 편합니다."]
+	quest.5A0E1A0000000023.quest_subtitle: "화염 건틀렛과 흑요석 해골 획득"
+	quest.5A0E1A0000000023.title: "불과 충격을 견딥니다"
+	quest.5A0E1A0000000024.quest_desc: ["&lRelics&r의 물건은 &l경험치를 먹여 등급을 올릴 수 있습니다.&r 쓸수록 강해지는 장신구입니다.", "&l매직 미러&r는 부활 지점으로 돌아갑니다. 전송석이 없는 곳에서 빠져나올 때 씁니다.", "Relics는 던전 상자에서 나옵니다. Artifacts와 섞여 나오니 상자를 부지런히 여세요."]
+	quest.5A0E1A0000000024.quest_subtitle: "매직 미러 획득"
+	quest.5A0E1A0000000024.title: "성장하는 장신구"
+	quest.5A0E1A0000000025.quest_desc: ["먹어도 사라지지 않는 고기입니다. 재사용 대기 시간만 지나면 계속 먹을 수 있습니다.", "요리 챕터를 다 갖추기 전까지 배고픔 문제를 통째로 덮어 줍니다."]
+	quest.5A0E1A0000000025.quest_subtitle: "Infinite Ham 획득"
+	quest.5A0E1A0000000025.title: "배고픔이 사라집니다"
+	quest.5A0E1A0000000026.quest_desc: ["겉날개를 쓰는 중에 추진력을 더해 줍니다. 폭죽을 아낄 수 있습니다.", "겉날개를 얻은 뒤에 진가가 나옵니다."]
+	quest.5A0E1A0000000026.quest_subtitle: "Elytra Booster 획득"
+	quest.5A0E1A0000000026.title: "더 멀리 납니다"
+	quest.5A0E1B0000000001.quest_desc: ["Construction Sticks의 막대입니다. 블록을 보고 우클릭하면 &l같은 블록이 한 줄로 깔립니다.&r", "바닥을 고르고 벽을 세우는 일이 몇 번의 클릭으로 끝납니다. 인벤토리에 든 블록을 씁니다.", "이 챕터는 &l짓고 꾸미는 데 필요한 것들&r을 모았습니다. 도구부터 시작해 블록 변형, 가구, 조명 순입니다."]
+	quest.5A0E1B0000000001.quest_subtitle: "Iron Stick 제작"
+	quest.5A0E1B0000000001.title: "한 번에 한 면씩"
+	quest.5A0E1B0000000002.quest_desc: ["구리·다이아몬드·네더라이트 순으로 한 번에 놓는 개수가 늘어납니다.", "네더라이트까지 가면 벽 한 면을 한 번에 채웁니다. 큰 건물을 지을 생각이라면 값어치를 합니다."]
+	quest.5A0E1B0000000002.quest_subtitle: "상위 Stick 제작"
+	quest.5A0E1B0000000002.title: "더 넓게 깝니다"
+	quest.5A0E1B0000000003.quest_desc: ["&lAngel 강화&r가 붙으면 아무것도 없는 허공에도 블록을 놓습니다. 비계를 세울 필요가 없어집니다.", "&lDestruction 강화&r는 반대로 한 번에 여러 블록을 뜯어냅니다. 잘못 지은 벽을 지울 때 씁니다.", "떨어지는 중에도 발밑에 블록을 놓아 살아남을 수 있습니다. 공허에 빠졌을 때 마지막 수단이 됩니다."]
+	quest.5A0E1B0000000003.quest_subtitle: "Angel과 Destruction 강화"
+	quest.5A0E1B0000000003.title: "허공에 놓고 뜯어냅니다"
+	quest.5A0E1B0000000004.quest_desc: ["Building Gadgets 2의 첫 도구입니다. &l벽, 기둥, 계단, 원, 구&r 같은 모양을 골라 한 번에 세웁니다.", "Stick이 손이 닿는 범위를 다룬다면 이쪽은 &l멀리서 큰 덩어리&r를 다룹니다.", "동력이 필요합니다. 이 모드팩에서는 Create Crafts & Additions의 발전기로 댈 수 있습니다."]
+	quest.5A0E1B0000000004.quest_subtitle: "Building Gadget 제작"
+	quest.5A0E1B0000000004.title: "형태를 그려서 짓습니다"
+	quest.5A0E1B0000000005.quest_desc: ["이미 지어 놓은 구조물의 &l블록 종류만 바꿉니다.&r 모양은 그대로 둡니다.", "돌로 지은 성을 벽돌로 바꾸는 일이 클릭 몇 번입니다. 건축에서 가장 자주 쓰게 되는 도구입니다."]
+	quest.5A0E1B0000000005.quest_subtitle: "Exchanging Gadget 제작"
+	quest.5A0E1B0000000005.title: "재질만 갈아 끼웁니다"
+	quest.5A0E1B0000000006.quest_desc: ["&lCopy Paste Gadget&r은 지어 둔 구조물을 통째로 복사해 다른 곳에 붙입니다.", "&lCut Paste Gadget&r은 원본을 들어내 옮깁니다. 집을 통째로 이사시킬 수 있습니다.", "붙일 때 필요한 블록이 인벤토리에 있어야 합니다. 미리 세어 두세요."]
+	quest.5A0E1B0000000006.quest_subtitle: "Copy Paste와 Cut Paste Gadget 제작"
+	quest.5A0E1B0000000006.title: "복사해서 붙입니다"
+	quest.5A0E1B0000000007.quest_desc: ["넓은 범위를 한 번에 부숩니다. 부순 블록은 인벤토리로 들어옵니다.", "지형을 밀어내고 자리를 만들 때 씁니다. 실수하면 되돌리기 어려우니 범위를 확인하고 쓰세요."]
+	quest.5A0E1B0000000007.quest_subtitle: "Destruction Gadget 제작"
+	quest.5A0E1B0000000007.title: "통째로 지웁니다"
+	quest.5A0E1B0000000008.quest_desc: ["복사해 둔 구조물을 &lTemplate&r과 &lRedprint&r로 저장합니다.", "Template Manager에 넣으면 이름을 붙여 관리할 수 있고, 다른 사람에게 건네줄 수도 있습니다.", "같은 건물을 여러 번 지을 일이 있다면 한 번 만들어 두고 계속 찍어내면 됩니다."]
+	quest.5A0E1B0000000008.quest_subtitle: "Template Manager 제작"
+	quest.5A0E1B0000000008.title: "설계도를 보관합니다"
+	quest.5A0E1B0000000009.quest_desc: ["돌 하나로 &l수십 가지 무늬&r를 만듭니다. 끌을 들고 블록을 우클릭하면 변형 목록이 뜹니다.", "무늬 중에는 &l이어지는 것&r도 있습니다. 여러 개를 붙여 놓으면 하나의 큰 무늬가 됩니다.", "건축의 폭이 가장 크게 넓어지는 지점입니다. 일찍 만들어 두세요."]
+	quest.5A0E1B0000000009.quest_subtitle: "Rechiseled Chisel 제작"
+	quest.5A0E1B0000000009.title: "같은 재료, 다른 얼굴"
+	quest.5A0E1B000000000A.quest_desc: ["Chisel 모드의 끌입니다. Rechiseled와 겹치지 않는 무늬들을 다룹니다.", "&lArray&r 계열처럼 이쪽에만 있는 무늬가 있습니다. 둘 다 들고 다니는 편이 낫습니다."]
+	quest.5A0E1B000000000A.quest_subtitle: "Chisel 제작"
+	quest.5A0E1B000000000A.title: "또 하나의 끌"
+	quest.5A0E1B000000000B.quest_desc: ["Chipped는 &l작업대마다 다른 계열&r을 다룹니다. 일곱 개를 전부 갖춰야 전체를 쓸 수 있습니다.", "&lMason Table&r은 돌, &lCarpenters Table&r은 나무, &lGlassblower&r는 유리, &lLoom Table&r은 천입니다.", "&lAlchemy Bench&r, &lBotanist Workbench&r, &lTinkering Table&r이 나머지를 맡습니다.", "블록 하나가 수십 가지로 갈라집니다. 이 모드팩에서 장식 블록이 가장 많이 나오는 곳입니다."]
+	quest.5A0E1B000000000B.quest_subtitle: "Chipped 작업대 제작"
+	quest.5A0E1B000000000B.title: "일곱 개의 작업대"
+	quest.5A0E1B000000000C.quest_desc: ["여러 장을 붙여 놓으면 &l경계선이 사라져 한 장처럼&r 보입니다.", "온실이나 통유리 벽에 씁니다. 색유리와 유리판 판본도 전부 있습니다."]
+	quest.5A0E1B000000000C.quest_subtitle: "연결된 유리 제작"
+	quest.5A0E1B000000000C.title: "테두리 없는 유리"
+	quest.5A0E1B000000000D.quest_desc: ["Domum Ornamentum의 작업대입니다. &l두 가지 재료를 섞어&r 한 블록으로 만듭니다.", "나무 기둥에 돌 테두리, 벽돌에 다른 색 벽돌 같은 조합이 됩니다.", "바닐라 석재 절단기로는 나오지 않는 모양이 많습니다."]
+	quest.5A0E1B000000000D.quest_subtitle: "Architect's Cutter 제작"
+	quest.5A0E1B000000000D.title: "여러 재료를 섞습니다"
+	quest.5A0E1B000000000E.quest_desc: ["Factory Blocks가 추가하는 산업풍 블록입니다. 배관, 회로, 경고 표시 같은 무늬가 있습니다.", "Create 설비를 감싸는 벽으로 잘 어울립니다."]
+	quest.5A0E1B000000000E.quest_subtitle: "Factory Block 제작"
+	quest.5A0E1B000000000E.title: "공장 느낌으로"
+	quest.5A0E1B000000000F.quest_desc: ["FramedBlocks는 &l모양만 있는 빈 블록&r을 줍니다. 여기에 아무 블록이나 넣어 겉모습을 씌웁니다.", "&lFraming Saw&r로 계단, 반 블록, 경사, 기둥 등 &l수백 가지 모양&r을 잘라냅니다.", "돌 계단을 다이아몬드 블록 무늬로 만드는 식입니다. 건축에서 재료 걱정이 사라집니다."]
+	quest.5A0E1B000000000F.quest_subtitle: "Framed Cube와 Framing Saw 제작"
+	quest.5A0E1B000000000F.title: "모양과 재질을 따로 정합니다"
+	quest.5A0E1B0000000010.quest_desc: ["&lFramed Hammer&r는 겉모습을 벗겨내고, &lFramed Screwdriver&r는 세부 설정을 바꿉니다.", "&lFramed Blueprint&r는 완성된 틀의 설정을 복사합니다. 같은 블록을 여러 개 만들 때 씁니다.", "&lFramed Wrench&r로 방향을, &lFramed Key&r로 잠금을 다룹니다."]
+	quest.5A0E1B0000000010.quest_subtitle: "Framed 도구 제작"
+	quest.5A0E1B0000000010.title: "틀을 다루는 도구"
+	quest.5A0E1B0000000011.quest_desc: ["틀 블록은 속이 비어 있어서 &l몹이 생성되거나 빛이 새어 나갈 수 있습니다.&r", "보강재를 넣으면 일반 블록처럼 동작합니다. 벽이나 바닥으로 쓸 틀에는 넣어 두세요."]
+	quest.5A0E1B0000000011.quest_subtitle: "Framed Reinforcement 제작"
+	quest.5A0E1B0000000011.title: "빛이 새지 않게"
+	quest.5A0E1B0000000012.quest_desc: ["Create의 모방 블록을 Copycats+가 크게 늘렸습니다. &l모방 블록&r, &l모방 막대 기둥&r, &l모방 보드&r 등입니다.", "FramedBlocks와 하는 일은 비슷하지만 &lCreate의 조립체에 실을 수 있습니다.&r 움직이는 구조물을 꾸밀 때는 이쪽입니다.", "렌치로 모양을 바꾸고, 블록을 들고 우클릭하면 겉모습이 씌워집니다."]
+	quest.5A0E1B0000000012.quest_subtitle: "모방 블록 제작"
+	quest.5A0E1B0000000012.title: "Create식 흉내내기"
+	quest.5A0E1B0000000013.quest_desc: ["Handcrafted의 &l망치&r입니다. 가구를 만들고, 이미 놓인 가구의 모양을 바꿉니다.", "의자 등받이를 떼거나 탁자 다리를 바꾸는 식입니다. 없으면 가구가 한 모양으로만 나옵니다."]
+	quest.5A0E1B0000000013.quest_subtitle: "망치 제작"
+	quest.5A0E1B0000000013.title: "가구를 만듭니다"
+	quest.5A0E1B0000000014.quest_desc: ["&l참나무 의자&r에는 실제로 앉을 수 있습니다. &l참나무 탁자&r는 여러 개를 이어 붙이면 하나로 연결됩니다.", "나무 종류마다 다 있고, 양털을 더하면 쿠션이 붙습니다."]
+	quest.5A0E1B0000000014.quest_subtitle: "참나무 의자와 참나무 탁자 제작"
+	quest.5A0E1B0000000014.title: "앉을 자리와 놓을 자리"
+	quest.5A0E1B0000000015.quest_desc: ["&l참나무 협탁&r은 침대 옆에 두는 작은 서랍장입니다. 물건을 넣을 수 있습니다.", "&lOak Shelf&r는 벽에 붙이는 선반입니다. 올려 둔 물건이 그대로 보입니다.", "Handcrafted에는 이 밖에도 소파, 식기, 액자, 커튼까지 있습니다. JEI에서 한 번 훑어보세요."]
+	quest.5A0E1B0000000015.quest_subtitle: "참나무 협탁과 Oak Shelf 제작"
+	quest.5A0E1B0000000015.title: "방을 채웁니다"
+	quest.5A0E1B0000000016.quest_desc: ["Refurbished Furniture는 &l현대식 가구&r를 다룹니다. 서랍장, 식탁, 소파, 욕조, 심지어 변기까지 있습니다.", "일부 가구는 &l실제로 동작합니다.&r 냉장고에 음식을 넣고, 우편함으로 물건을 주고받을 수 있습니다.", "Handcrafted가 소박한 쪽이라면 이쪽은 말끔한 쪽입니다. 취향에 맞게 섞어 쓰세요."]
+	quest.5A0E1B0000000016.quest_subtitle: "Refurbished Furniture 제작"
+	quest.5A0E1B0000000016.title: "현대식 가구"
+	quest.5A0E1B0000000017.quest_desc: ["Simply Light의 조명입니다. 횃불이나 광원 블록과 달리 &l면이 매끈합니다.&r", "&lIlluminant Fixture&r는 벽과 천장에 붙습니다. 염료로 색을 바꿀 수 있고, 레드스톤으로 껐다 켤 수 있습니다.", "실내 건축에서 조명이 튀지 않게 하는 가장 쉬운 방법입니다."]
+	quest.5A0E1B0000000017.quest_subtitle: "Illuminant Block 제작"
+	quest.5A0E1B0000000017.title: "깔끔한 조명"
+	quest.5A0E1B0000000018.quest_desc: ["Supplementaries의 소품입니다. &l지구본&r은 우클릭하면 돌아가고, &l시계 블록&r은 시간을 보여 줍니다.", "장식이지만 실제로 쓸모가 있습니다. 시계 블록은 지하 거점에서 특히 요긴합니다."]
+	quest.5A0E1B0000000018.quest_subtitle: "지구본과 시계 블록 제작"
+	quest.5A0E1B0000000018.title: "벽에 거는 것들"
+	quest.5A0E1B0000000019.quest_desc: ["&l게시판&r에는 책을 넣어 여러 장의 글을 걸 수 있습니다.", "&l칠판&r에는 직접 그림을 그립니다. 염료로 색을 넣을 수 있습니다.", "창고 앞에 무엇이 들었는지 적어 두면 나중에 자신에게 도움이 됩니다."]
+	quest.5A0E1B0000000019.quest_subtitle: "게시판과 칠판 제작"
+	quest.5A0E1B0000000019.title: "글을 남깁니다"
+	quest.5A0E1B000000001A.quest_desc: ["&l받침대&r 위에 올린 물건은 천천히 돌아갑니다. 전리품을 늘어놓기 좋습니다.", "&l아이템 선반&r은 벽에 붙여 물건을 걸어 둡니다. &l조각상&r은 그냥 장식입니다.", "황혼의 숲 트로피나 유물을 늘어놓으면 거점이 박물관처럼 됩니다."]
+	quest.5A0E1B000000001A.quest_subtitle: "받침대와 조각상 제작"
+	quest.5A0E1B000000001A.title: "전시합니다"
+	quest.5A0E1B000000001B.quest_desc: ["&l하얀색 천막&r은 창문과 문 위에 다는 차양입니다. 건물 정면이 단숨에 그럴듯해집니다.", "&l하얀색 깃발&r은 바닐라 깃발과 달리 &l바람에 흔들립니다.&r 문양도 그대로 들어갑니다.", "둘 다 열여섯 색이 있습니다."]
+	quest.5A0E1B000000001B.quest_subtitle: "하얀색 천막과 하얀색 깃발 제작"
+	quest.5A0E1B000000001B.title: "천을 겁니다"
+	quest.5A0E1B000000001C.quest_desc: ["같은 색의 엘리베이터를 위아래로 두고 &l점프하거나 웅크리면&r 그쪽으로 순간 이동합니다.", "사다리나 계단 없이 층을 잇습니다. 높은 탑을 지을 때 특히 편합니다.", "양털과 엔더 진주로 만듭니다."]
+	quest.5A0E1B000000001C.quest_subtitle: "하얀색 엘리베이터 설치"
+	quest.5A0E1B000000001C.title: "층을 오르내립니다"
+	quest.5A0E1B000000001D.quest_desc: ["Immersive Paintings는 &l크기를 자유롭게 정하는 액자&r를 줍니다. 바닐라 그림과 달리 원하는 만큼 키울 수 있습니다.", "&l그래피티&r는 벽에 직접 그리는 낙서입니다. 빛나는 판본도 있습니다.", "직접 찍은 스크린샷을 그림으로 불러올 수도 있습니다."]
+	quest.5A0E1B000000001D.quest_subtitle: "그림과 그래피티 제작"
+	quest.5A0E1B000000001D.title: "벽에 그림을 겁니다"
+	quest.5A0E1B000000001E.quest_desc: ["&lEtching Table&r에서 &lBlank Music Disc&r에 소리를 새깁니다.", "&lMusic Label&r로 이름을 붙이고, 인터넷 주소를 넣어 원하는 음악을 담을 수도 있습니다.", "&lMinecart with Jukebox&r에 실으면 달리는 광산 수레에서 음악이 나옵니다."]
+	quest.5A0E1B000000001E.quest_subtitle: "Etching Table 제작"
+	quest.5A0E1B000000001E.title: "직접 만든 음반"
+	quest.5A0E1B000000001F.quest_desc: ["Create Deco의 &lSheet Metal&r입니다. 철, 구리, 아연, 황동, 산업용 철 판본이 있습니다.", "Create 설비 주변을 감싸면 기계 냄새가 확 살아납니다. 계단과 반 블록도 전부 있습니다."]
+	quest.5A0E1B000000001F.quest_subtitle: "판금 제작"
+	quest.5A0E1B000000001F.title: "공장을 꾸밉니다"
+	quest.5A0E1B0000000020.quest_desc: ["&lCatwalk&r은 기계 위를 걸어 다니게 해 주는 발판입니다. 난간이 자동으로 붙습니다.", "&lLadder&r는 금속 사다리입니다. 공장 분위기에 맞습니다.", "큰 설비를 지을 때 점검 통로를 깔아 두면 보기에도 좋고 다니기도 편합니다."]
+	quest.5A0E1B0000000020.quest_subtitle: "통로와 사다리 제작"
+	quest.5A0E1B0000000020.title: "발판과 사다리"
+	quest.5A0E1B0000000021.quest_desc: ["Bells & Whistles가 Create 열차용 장식을 추가합니다.", "&l황동 손잡이&r는 객차 옆에 붙이는 난간이고, &l황동 배장기&r는 기관차 앞의 쐐기입니다.", "안산암·구리 판본도 있습니다. 열차가 아니어도 건축 소재로 쓸 만합니다."]
+	quest.5A0E1B0000000021.quest_subtitle: "황동 손잡이와 황동 배장기 제작"
+	quest.5A0E1B0000000021.title: "열차를 꾸밉니다"
 }
