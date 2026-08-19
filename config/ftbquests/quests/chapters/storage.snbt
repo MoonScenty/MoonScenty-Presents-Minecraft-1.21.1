@@ -1,4 +1,5 @@
 {
+	autofocus_id: "5A0E180000000001"
 	default_hide_dependency_lines: false
 	default_quest_shape: "circle"
 	filename: "storage"
@@ -11,5 +12,1538 @@
 	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			icon: {
+				id: "sophisticatedstorage:barrel"
+			}
+			id: "5A0E180000000001"
+			rewards: [{
+				id: "1A8702D6287B5E0C"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E280000000010"
+				item: { count: 1, id: "sophisticatedstorage:barrel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E180000000001"]
+			icon: {
+				id: "sophisticatedstorage:chest"
+			}
+			id: "5A0E180000000002"
+			rewards: [{
+				id: "3BBCF0F9B0E8E1B9"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E280000000020"
+				item: { count: 1, id: "sophisticatedstorage:chest" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E180000000002"]
+			icon: {
+				id: "sophisticatedstorage:upgrade_base"
+			}
+			id: "5A0E180000000003"
+			rewards: [{
+				id: "507E8C1F4762B8CE"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000030"
+					item: { count: 1, id: "sophisticatedstorage:upgrade_base" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000031"
+					item: { count: 1, id: "sophisticatedstorage:packing_tape" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E180000000003"]
+			icon: {
+				id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+			}
+			id: "5A0E180000000004"
+			rewards: [{
+				id: "608E8674299ACC6B"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000040"
+					item: { count: 1, id: "sophisticatedstorage:basic_tier_upgrade" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000041"
+					item: { count: 1, id: "sophisticatedstorage:basic_to_iron_tier_upgrade" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E180000000004"]
+			icon: {
+				id: "sophisticatedstorage:storage_tool"
+			}
+			id: "5A0E180000000005"
+			rewards: [{
+				id: "038699634BD5CD9D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E280000000050"
+				item: { count: 1, id: "sophisticatedstorage:storage_tool" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E180000000005"]
+			icon: {
+				id: "sophisticatedstorage:controller"
+			}
+			id: "5A0E180000000006"
+			rewards: [{
+				id: "52338B2B73208569"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000060"
+					item: { count: 1, id: "sophisticatedstorage:controller" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000061"
+					item: { count: 1, id: "sophisticatedstorage:storage_link" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E180000000006"]
+			icon: {
+				id: "sophisticatedstorage:storage_io"
+			}
+			id: "5A0E180000000007"
+			rewards: [{
+				id: "33E52E1993F5D8A3"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E280000000070"
+				item: { count: 1, id: "sophisticatedstorage:storage_io" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E180000000006"]
+			icon: {
+				id: "sophisticatedstorage:compacting_upgrade"
+			}
+			id: "5A0E180000000008"
+			optional: true
+			rewards: [{
+				id: "12E565A2C10C3B80"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000080"
+					item: { count: 1, id: "sophisticatedstorage:compacting_upgrade" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000081"
+					item: { count: 1, id: "sophisticatedstorage:void_upgrade" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000082"
+					item: { count: 1, id: "sophisticatedstorage:filter_upgrade" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000083"
+					item: { count: 1, id: "sophisticatedstorage:hopper_upgrade" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000084"
+					item: { count: 1, id: "sophisticatedstorage:auto_smelting_upgrade" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A0E180000000007"]
+			icon: {
+				id: "sophisticatedstorage:shulker_box"
+			}
+			id: "5A0E180000000009"
+			optional: true
+			rewards: [{
+				id: "725FB988CC0CD020"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E280000000090"
+				item: { count: 1, id: "sophisticatedstorage:shulker_box" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "functionalstorage:oak_1"
+			}
+			id: "5A0E18000000000A"
+			rewards: [{
+				id: "305AB3502FB4001D"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2800000000A0"
+				item: { count: 1, id: "functionalstorage:oak_1" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A0E18000000000A"]
+			icon: {
+				id: "functionalstorage:oak_4"
+			}
+			id: "5A0E18000000000B"
+			rewards: [{
+				id: "66F11121619F9821"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2800000000B0"
+				item: { count: 1, id: "functionalstorage:oak_4" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A0E18000000000B"]
+			icon: {
+				id: "functionalstorage:diamond_upgrade"
+			}
+			id: "5A0E18000000000C"
+			rewards: [{
+				id: "18DFD96B80411AED"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2800000000C0"
+					item: { count: 1, id: "functionalstorage:copper_upgrade" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2800000000C1"
+					item: { count: 1, id: "functionalstorage:gold_upgrade" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2800000000C2"
+					item: { count: 1, id: "functionalstorage:diamond_upgrade" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2800000000C3"
+					item: { count: 1, id: "functionalstorage:netherite_upgrade" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A0E18000000000C"]
+			icon: {
+				id: "functionalstorage:compacting_drawer"
+			}
+			id: "5A0E18000000000D"
+			rewards: [{
+				id: "410A17D6178FBD5A"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2800000000D0"
+					item: { count: 1, id: "functionalstorage:simple_compacting_drawer" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2800000000D1"
+					item: { count: 1, id: "functionalstorage:compacting_drawer" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A0E18000000000D"]
+			icon: {
+				id: "functionalstorage:storage_controller"
+			}
+			id: "5A0E18000000000E"
+			rewards: [{
+				id: "44FCEE479E0CE5A1"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2800000000E0"
+				item: { count: 1, id: "functionalstorage:storage_controller" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A0E18000000000E"]
+			icon: {
+				id: "functionalstorage:controller_extension"
+			}
+			id: "5A0E18000000000F"
+			rewards: [{
+				id: "3233075346A00F1C"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2800000000F0"
+				item: { count: 1, id: "functionalstorage:controller_extension" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A0E18000000000F"]
+			icon: {
+				id: "functionalstorage:linking_tool"
+			}
+			id: "5A0E180000000010"
+			rewards: [{
+				id: "36896E5606F19DB6"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000100"
+					item: { count: 1, id: "functionalstorage:linking_tool" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000101"
+					item: { count: 1, id: "functionalstorage:configuration_tool" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A0E180000000010"]
+			icon: {
+				components: {
+					"functionalstorage:direction": "north"
+				}
+				id: "functionalstorage:collector_upgrade"
+			}
+			id: "5A0E180000000011"
+			rewards: [{
+				id: "047F2F1C9673C6B5"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000110"
+					item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:collector_upgrade" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000111"
+					item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:puller_upgrade" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000112"
+					item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:pusher_upgrade" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000113"
+					item: { count: 1, id: "functionalstorage:void_upgrade" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000114"
+					item: { components: { "functionalstorage:slot": 0 }, count: 1, id: "functionalstorage:redstone_upgrade" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A0E180000000011"]
+			icon: {
+				id: "functionalstorage:armory_cabinet"
+			}
+			id: "5A0E180000000012"
+			optional: true
+			rewards: [{
+				id: "6F0ED49BF66033F8"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E280000000120"
+				item: { count: 1, id: "functionalstorage:armory_cabinet" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5A0E180000000010"]
+			icon: {
+				id: "functionalstorage:ender_drawer"
+			}
+			id: "5A0E180000000013"
+			optional: true
+			rewards: [{
+				id: "20E679D6DA34C620"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000130"
+					item: { count: 1, id: "functionalstorage:ender_drawer" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000131"
+					item: { count: 1, id: "functionalstorage:fluid_1" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 7.0d
+		}
+		{
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "5A0E180000000014"
+			rewards: [{
+				id: "7DE0F67193A26C6A"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E280000000140"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5A0E180000000014"]
+			icon: {
+				id: "sophisticatedbackpacks:gold_backpack"
+			}
+			id: "5A0E180000000015"
+			rewards: [{
+				id: "32F9F7415C910724"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000150"
+					item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000151"
+					item: { count: 1, id: "sophisticatedbackpacks:gold_backpack" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5A0E180000000015"]
+			icon: {
+				id: "sophisticatedbackpacks:netherite_backpack"
+			}
+			id: "5A0E180000000016"
+			rewards: [{
+				id: "54656C2AB42E0F9A"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000160"
+					item: { count: 1, id: "sophisticatedbackpacks:diamond_backpack" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000161"
+					item: { count: 1, id: "sophisticatedbackpacks:netherite_backpack" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5A0E180000000014"]
+			icon: {
+				id: "sophisticatedbackpacks:magnet_upgrade"
+			}
+			id: "5A0E180000000017"
+			optional: true
+			rewards: [{
+				id: "2451C77601D66E81"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000170"
+					item: { count: 1, id: "sophisticatedbackpacks:pickup_upgrade" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000171"
+					item: { count: 1, id: "sophisticatedbackpacks:magnet_upgrade" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5A0E180000000015"]
+			icon: {
+				id: "sophisticatedbackpacks:feeding_upgrade"
+			}
+			id: "5A0E180000000018"
+			optional: true
+			rewards: [{
+				id: "3EEC2EBB4E22EF7A"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000180"
+					item: { count: 1, id: "sophisticatedbackpacks:restock_upgrade" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000181"
+					item: { count: 1, id: "sophisticatedbackpacks:deposit_upgrade" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000182"
+					item: { count: 1, id: "sophisticatedbackpacks:feeding_upgrade" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5A0E180000000016"]
+			icon: {
+				id: "sophisticatedbackpacks:everlasting_upgrade"
+			}
+			id: "5A0E180000000019"
+			optional: true
+			rewards: [{
+				id: "1AFF14F5A15C60AF"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000190"
+					item: { count: 1, id: "sophisticatedbackpacks:crafting_upgrade" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000191"
+					item: { count: 1, id: "sophisticatedbackpacks:tool_swapper_upgrade" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000192"
+					item: { count: 1, id: "sophisticatedbackpacks:everlasting_upgrade" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			icon: {
+				id: "pipez:item_pipe"
+			}
+			id: "5A0E18000000001A"
+			rewards: [{
+				id: "2EE2A48E1BA753EC"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2800000001A0"
+				item: { count: 1, id: "pipez:item_pipe" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5A0E18000000001A"]
+			icon: {
+				id: "pipez:wrench"
+			}
+			id: "5A0E18000000001B"
+			rewards: [{
+				id: "262878BFDDB4A792"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2800000001B0"
+					item: { count: 1, id: "pipez:wrench" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2800000001B1"
+					item: { count: 1, id: "pipez:basic_upgrade" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2800000001B2"
+					item: { count: 1, id: "pipez:ultimate_upgrade" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5A0E18000000001B"]
+			icon: {
+				id: "pipez:universal_pipe"
+			}
+			id: "5A0E18000000001C"
+			optional: true
+			rewards: [{
+				id: "5F4D27084188D3FC"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2800000001C0"
+					item: { count: 1, id: "pipez:fluid_pipe" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2800000001C1"
+					item: { count: 1, id: "pipez:energy_pipe" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2800000001C2"
+					item: { count: 1, id: "pipez:universal_pipe" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5A0E18000000001B"]
+			icon: {
+				id: "laserio:logic_chip"
+			}
+			id: "5A0E18000000001D"
+			rewards: [{
+				id: "7A2985C8540D2277"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E2800000001D0"
+				item: { count: 1, id: "laserio:logic_chip" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5A0E18000000001D"]
+			icon: {
+				id: "laserio:laser_node"
+			}
+			id: "5A0E18000000001E"
+			rewards: [{
+				id: "5CDC8C404D2703FC"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2800000001E0"
+					item: { count: 1, id: "laserio:laser_node" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2800000001E1"
+					item: { count: 1, id: "laserio:laser_connector" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5A0E18000000001E"]
+			icon: {
+				id: "laserio:card_item"
+			}
+			id: "5A0E18000000001F"
+			rewards: [{
+				id: "08979F5D2A3115CF"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2800000001F0"
+					item: { count: 1, id: "laserio:card_item" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E2800000001F1"
+					item: { count: 1, id: "laserio:card_holder" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5A0E18000000001F"]
+			icon: {
+				id: "laserio:laser_wrench"
+			}
+			id: "5A0E180000000020"
+			rewards: [
+				{
+					id: "4349ED09E0E3B49D"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:controller"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1DBCD502496A8154"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "72122E856D9F47DD"
+					type: "xp"
+					xp: 30
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E280000000200"
+				item: { count: 1, id: "laserio:laser_wrench" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 15.0d
+		}
+		{
+			icon: {
+				id: "supplementaries:sack"
+			}
+			id: "5A0E180000000021"
+			rewards: [{
+				id: "1989B5E93FDBB675"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E280000000210"
+				item: { count: 1, id: "supplementaries:sack" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["5A0E180000000021"]
+			icon: {
+				id: "trashcans:item_trash_can"
+			}
+			id: "5A0E180000000022"
+			rewards: [{
+				id: "3DE33ED25A2976F6"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E280000000220"
+				item: { count: 1, id: "trashcans:item_trash_can" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["5A0E180000000022"]
+			icon: {
+				id: "trashcans:ultimate_trash_can"
+			}
+			id: "5A0E180000000023"
+			optional: true
+			rewards: [{
+				id: "207B12F1CA97AFE0"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E280000000230"
+				item: { count: 1, id: "trashcans:ultimate_trash_can" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["5A0E180000000021"]
+			icon: {
+				id: "simplemagnets:advancedmagnet"
+			}
+			id: "5A0E180000000024"
+			rewards: [{
+				id: "5545C73DD618237C"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000240"
+					item: { count: 1, id: "simplemagnets:basicmagnet" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E280000000241"
+					item: { count: 1, id: "simplemagnets:advancedmagnet" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["5A0E180000000024"]
+			icon: {
+				id: "simplemagnets:basic_demagnetization_coil"
+			}
+			id: "5A0E180000000025"
+			optional: true
+			rewards: [{
+				id: "681FEFADD5E5138C"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E280000000250"
+				item: { count: 1, id: "simplemagnets:basic_demagnetization_coil" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["5A0E180000000022"]
+			icon: {
+				id: "uppers:upper"
+			}
+			id: "5A0E180000000026"
+			optional: true
+			rewards: [{
+				id: "58AA533F93A6C226"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E280000000260"
+				item: { count: 1, id: "uppers:upper" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["5A0E180000000023"]
+			icon: {
+				id: "createutilities:void_chest"
+			}
+			id: "5A0E180000000027"
+			optional: true
+			rewards: [{
+				id: "6EA08BD3F3F29345"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E280000000270"
+				item: { count: 1, id: "createutilities:void_chest" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 20.0d
+		}
+	]
 }
