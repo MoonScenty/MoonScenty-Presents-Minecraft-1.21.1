@@ -1,13 +1,13 @@
 name = "Create: Furnace Engine"
-filename = "createfurnaceengine-1.1.0.jar"
+filename = "createfurnaceengine-1.1.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "7a82f4564ed868389cf87f903c7d1c57202d31d6"
+hash = "57a9f761c5ec75c54fdd994e90fce726a5e59d4b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8678614
+file-id = 8682940
 project-id = 1656378

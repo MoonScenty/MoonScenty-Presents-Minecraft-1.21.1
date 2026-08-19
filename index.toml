@@ -1942,7 +1942,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-furnace-engine.pw.toml"
-hash = "a93184e04e65628de4a0248195723c003eed6ecd81b79617abc17ac310943feb"
+hash = "9366c032e43af65e5336000355111ff340c380fb1097439f32d05125305abf74"
 metafile = true
 
 [[files]]
