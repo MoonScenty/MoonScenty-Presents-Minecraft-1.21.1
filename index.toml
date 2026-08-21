@@ -266,15 +266,15 @@ hash = "9e32f41991c7a1efab3de0e9c5ec721debc47d8cc1956209bc873407b03e7b82"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/adventure.snbt"
-hash = "c76538b34fea4ba2015b4dddaf99c93c7faac04001f13f8c312ddcd546e23056"
+hash = "7fec77345e39136238e75965023dbdca5931a41861c8cd9a4c012bd354f44784"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andesite_alloy_age.snbt"
-hash = "9d90f163a260d2d5460f774bf730c256137b17a6c750602943c871d6329ae2a2"
+hash = "61458abb493cc5a0bc90138215900a075de085fbe1b26d2272bbb6dee556cd69"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
-hash = "9cf58a4912ebdc92d53c946027accd279eb60a131977b56f34adbd3198b912b4"
+hash = "52c0b81069431f716ba9ebdeaa361a2cb4c3cd8279a2cf3245249dd33c45c624"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/atomic_age.snbt"
@@ -286,11 +286,11 @@ hash = "58e5f08298874b8c72161c436f28122228c4b5487463de416e34d39d75697868"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/brass_age.snbt"
-hash = "38b89a58e906aa6fb4d46dd4e8153a32e64d354bd1e7ae02bf7f468b217d0029"
+hash = "5f371553cf6e3264c95977f832c3ee08ff444c6d87aaf7a9ff0d73503c552a09"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building.snbt"
-hash = "e8ebf0c55c52b8784bdc5ba4e948f06dc141e22d2370a478ebf900ce9cdd9ec4"
+hash = "0ccb39cffd12146f6ab899b29cae29307f55b527d81198f2c79638c4bf5828a4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/challenge.snbt"
@@ -298,11 +298,11 @@ hash = "c35c3cf96efab3a6c5c44afd4c3f019970da3b0be0fb839f6251edad614f47ea"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cooking.snbt"
-hash = "cc5fe788ba4827294368ba6451eedf362a22528d9314cec21d270ddfba585e80"
+hash = "d401e9aaf3761df27ce8e6e38eb761beef6402ee5d630feee8405507e5f36783"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/forbidden_arcanus.snbt"
-hash = "dde4fcd2f43dec60eb2f1341b4f1e265c3a079f974d0d9aa248b864a6fe5719f"
+hash = "21f1f5bf1233276e8ca04d3db3d5253dffe540ddf0d4c55d01a965724b1304f0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_age.snbt"
@@ -310,7 +310,7 @@ hash = "d1edbb19feeeb873a37fca3b3e7ac57bb62be1de636190fb89e98fd3c978e250"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spells.snbt"
-hash = "3b42751e48644cd66752735e55bd164a1f7ae9b82876b423246fb64d94de3990"
+hash = "7d84f9dc1b6b859e2166859d3fe25c51ec8ee9fe3d20289af32565f90a13f3c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stone_age.snbt"
@@ -318,7 +318,7 @@ hash = "6a4cb1541c8656ec858bceb80f378fe15d2e174ac23cb3beacd932341aab3eeb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage.snbt"
-hash = "70bea144aa3a50ad7b133473cbade4b3a10cfc936a1ec7ad92ad79b7dce75ec7"
+hash = "9c1a13ac74ad3681d9bf8b23493d1b21b0ba61da0dd62aba0465faf417e32ff6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks.snbt"
@@ -330,7 +330,7 @@ hash = "0ee346cd8daad0fb42ef23b40004e5fa5b996974e3f2b6c5159f030d99034664"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/twilight_forest.snbt"
-hash = "bd596254ade3313df6269f9ed134b8d2017c74c2e6987e1944bdf2dacdf61a3c"
+hash = "a4dbd868daa62d1911245cddf9d8f80b2b981e8d6570f05e436c496409a6c86c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
@@ -342,7 +342,7 @@ hash = "6cde88d5b4af7175fee7054dec818968be37abd1a1d77c7c22817bda7a0932ad"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "e70f51d6baa0653e4fddd50385d1bca67c81930f03909578eff89511e33da0d5"
+hash = "19b657fdb86030aae7da84c9baad8b8e105b23c8c0cb1eea513c7522fc7f838c"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/andesite_01_power.snbt"
@@ -1513,6 +1513,10 @@ file = "kubejs/data/moonscenty/puffish_skills/config.json"
 hash = "0c52a8616e7c9a730026ad31fe199830e2e1656ce82526e2ec8c9ed9fef233ac"
 
 [[files]]
+file = "kubejs/server_scripts/ae_generator.js"
+hash = "3c2443b496e2a0f39301505c14bbb35fa308905eb561a43441b0b02e76702947"
+
+[[files]]
 file = "kubejs/server_scripts/andesite.js"
 hash = "583cf5b3df5bd1ee11d20fcdfdda471a307dd3a71385a4171ece97fe0992e9e6"
 
@@ -2282,7 +2286,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "086f7c19410ca8759aa383671a5229a47b9dae71a31bcc286e12cd1af1e5008d"
+hash = "7baf8ef642d3c40608b344fbbfe3634c09b38f8670099b2f307df8f7a4143d99"
 metafile = true
 
 [[files]]
@@ -2797,12 +2801,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "41343a364eeff7106d903f2bb658b91ae8b0ce216ddba103e1be5edb1a27649f"
+hash = "36f88cb2feecf33ec2933b3fc9e77fac2fbf3b04acde286ee17619afd8d8ad5d"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "9ee0490b06b36ba9bff93af9f75493f3dd4e71a1ab8ce4ee778ee5fdb11eb49c"
+hash = "12b0f46799fdfab546f65fdf4225dbc26ae46fcf0fd2a7a74b5037fdb1d0825b"
 metafile = true
 
 [[files]]
@@ -2812,7 +2816,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "20ea34230e9131937775739924be560897432e91ce494ccae1fec04464bc16e8"
+hash = "1e4dd7bcdaa5fa5c66ebb3d10ed34992c8009294b048eaaa310377f10e1a733d"
 metafile = true
 
 [[files]]
@@ -2937,12 +2941,12 @@ metafile = true
 
 [[files]]
 file = "mods/yungs-api-neoforge.pw.toml"
-hash = "7cb2156566e58df780f1e1248bc7c336fda5be86d8e5828e3485b951e3934471"
+hash = "549c266793e57f511b704a961858b3c2240a460f8e8126863cdc9aacced2617d"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-caves.pw.toml"
-hash = "10815a3aa6dc436f8aa9b86dbb68368fbbcaff26f15fb06113b519b678e1a480"
+hash = "c6dec83ea7f04aa7b9963370647675e759aba503369c398585b0e1ed47e25601"
 metafile = true
 
 [[files]]
