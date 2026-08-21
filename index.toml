@@ -262,7 +262,7 @@ hash = "54f72a2d9aadc59c68d6be759c87a14cba667bd3064938361a7dee2c2b7de731"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/atomic_age.snbt"
-hash = "95b175f0176574c72f64168bc5d568fdcf2083df59bd870a2d99654442dbbb96"
+hash = "255b93df04b47dc2cef9cca3a5341497276e26cc904641f6ed197ae16a612ee7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/beekeeping.snbt"
@@ -290,7 +290,7 @@ hash = "b32ada5be74507757aa2a548682b86910114d5b8d2a68e6e6d66a419225a1362"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_age.snbt"
-hash = "8a049e9a406944a5372fabb9443f574583bf94e5c7726031e669568f1017d01d"
+hash = "673fbcd7d2d47ddcd73c9638de6d32618b712d9cf33042ce20b207d10eb6bd23"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spells.snbt"
@@ -326,7 +326,7 @@ hash = "6cde88d5b4af7175fee7054dec818968be37abd1a1d77c7c22817bda7a0932ad"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "0e0684547e1512aba18619edc06fc539db81a620910c1a3007933fa4bfac2613"
+hash = "2f744b9a31cfd5c172ee5d608628bc3dfebaca51bbcf9dcecad7427ba37b78a2"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/andesite_01_power.snbt"
