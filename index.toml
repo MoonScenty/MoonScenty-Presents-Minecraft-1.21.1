@@ -270,7 +270,7 @@ hash = "03928ebb635ff10479897182137b3bf09baa44e982fbf982b8c82e52f39c50ab"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/brass_age.snbt"
-hash = "3f0b551ee603c5af10d8be9d07f4bc48870c7f8e605ab935bb537ab4e80b6aed"
+hash = "525ab4abebe00f5b02ffc9fcedeca39dc8b24fb9fccc9eb4378d7fa35e177363"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building.snbt"
@@ -326,7 +326,7 @@ hash = "6cde88d5b4af7175fee7054dec818968be37abd1a1d77c7c22817bda7a0932ad"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "19b657fdb86030aae7da84c9baad8b8e105b23c8c0cb1eea513c7522fc7f838c"
+hash = "0e0684547e1512aba18619edc06fc539db81a620910c1a3007933fa4bfac2613"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/andesite_01_power.snbt"
