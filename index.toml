@@ -250,7 +250,7 @@ hash = "027babdfe167e86d8f6d10cb45fc2e8b2b3dc7c81e44c7e7434d7ef1c135fc62"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/adventure.snbt"
-hash = "e9eefdbafc6d5c95cef1061f85c146c98c63f0698d42831cec99822205c04c6d"
+hash = "4e0244ddc37fc5e563ebada6ce5610bf401e1e18a2ebbeeaf41dc63a887b943d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andesite_alloy_age.snbt"
@@ -258,7 +258,7 @@ hash = "9401ad4c84b278041c21f18a4c14f436a6eefacad77d0af7642a8f3b26b0aea1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
-hash = "a96de8e5756e8b33aed19c1ae0a2873bf094aabf68c9109c274b4bd8f5563bce"
+hash = "54f72a2d9aadc59c68d6be759c87a14cba667bd3064938361a7dee2c2b7de731"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/atomic_age.snbt"
@@ -266,7 +266,7 @@ hash = "95b175f0176574c72f64168bc5d568fdcf2083df59bd870a2d99654442dbbb96"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/beekeeping.snbt"
-hash = "352ea9a8b8c4f0ed1075fe7587c4c49f32d1693830cd8e9eaf23f11986fa30b5"
+hash = "03928ebb635ff10479897182137b3bf09baa44e982fbf982b8c82e52f39c50ab"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/brass_age.snbt"
@@ -274,7 +274,7 @@ hash = "3f0b551ee603c5af10d8be9d07f4bc48870c7f8e605ab935bb537ab4e80b6aed"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building.snbt"
-hash = "c2f13adbe64b05e62be50166fa2d621959ee6a375e02d5929f8082c804de03a9"
+hash = "2a55ec9385e06ac4f18bb94f7b3e0bb26f1aa5c6ea6608ac9c6049cbdcf6522e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/challenge.snbt"
@@ -286,7 +286,7 @@ hash = "4aa7180521a40e692dedfc00917322803ef3999cfbe55f70945e19ead8a5e9e0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/forbidden_arcanus.snbt"
-hash = "f0c1d958d6949c36e4e803a8c3e0d9ab9e2796a72cf538599de92bb908da8bb2"
+hash = "b32ada5be74507757aa2a548682b86910114d5b8d2a68e6e6d66a419225a1362"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_age.snbt"
@@ -294,7 +294,7 @@ hash = "8a049e9a406944a5372fabb9443f574583bf94e5c7726031e669568f1017d01d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spells.snbt"
-hash = "2133f3090a305a031213d0bc606f62f5ea881f938072296fb7785c65d954919e"
+hash = "fcdac77588c94b3b8cf8a3f39646a74359d32a09671006ec7c59eec666096a10"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stone_age.snbt"

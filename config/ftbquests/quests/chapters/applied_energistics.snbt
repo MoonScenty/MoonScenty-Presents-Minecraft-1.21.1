@@ -702,7 +702,7 @@
 				}
 			]
 			x: 51.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5A0E160000000014"]
@@ -729,7 +729,7 @@
 				type: "item"
 			}]
 			x: 54.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5A0E160000000015"]
@@ -757,7 +757,7 @@
 				type: "item"
 			}]
 			x: 57.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5A0E160000000013"]
@@ -957,8 +957,8 @@
 				id: "5A0E2600000001B0"
 				type: "checkmark"
 			}]
-			x: 72.0d
-			y: -3.0d
+			x: 71.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5A0E16000000001A"]
@@ -984,8 +984,8 @@
 				id: "5A0E2600000001C0"
 				type: "checkmark"
 			}]
-			x: 72.0d
-			y: 3.0d
+			x: 71.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5A0E16000000001A"]
@@ -1067,8 +1067,8 @@
 				item: { count: 1, id: "ae2:quartz_fiber" }
 				type: "item"
 			}]
-			x: 75.0d
-			y: 3.0d
+			x: 76.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5A0E16000000001E"]
@@ -1187,8 +1187,8 @@
 				item: { count: 1, id: "ae2:wireless_terminal" }
 				type: "item"
 			}]
-			x: 81.0d
-			y: 3.0d
+			x: 66.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5A0E160000000022"]
@@ -1214,8 +1214,8 @@
 				id: "5A0E260000000230"
 				type: "checkmark"
 			}]
-			x: 84.0d
-			y: 3.0d
+			x: 78.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [

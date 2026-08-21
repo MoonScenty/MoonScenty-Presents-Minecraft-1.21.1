@@ -459,8 +459,8 @@
 				id: "5A0E2A00000000D0"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: 7.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5A0E1A000000000D"]
@@ -486,8 +486,8 @@
 				id: "5A0E2A00000000E0"
 				type: "checkmark"
 			}]
-			x: 3.5d
-			y: -2.0d
+			x: 6.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["5A0E1A000000000D"]
@@ -514,8 +514,8 @@
 				item: { count: 1, id: "minecraft:ender_eye" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.0d
+			x: 8.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5A0E1A000000000F"]
@@ -541,8 +541,8 @@
 				item: { count: 1, id: "minecraft:totem_of_undying" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.0d
+			x: 10.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5A0E1A0000000010"]
@@ -568,7 +568,7 @@
 				item: { count: 1, id: "minecraft:ominous_bottle" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 11.5d
 			y: -5.0d
 		}
 		{
@@ -611,8 +611,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: -3.0d
+			x: 13.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5A0E1A0000000012"]
@@ -638,8 +638,8 @@
 				item: { count: 1, id: "minecraft:echo_shard" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: -3.0d
+			x: 15.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5A0E1A000000000D"]
@@ -667,7 +667,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -7.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["5A0E1A0000000014"]
@@ -694,8 +694,8 @@
 				item: { count: 1, id: "minecraft:heart_of_the_sea" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: -6.5d
+			x: 9.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5A0E1A0000000002"]
@@ -722,8 +722,8 @@
 				id: "5A0E2A0000000160"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -7.0d
+			x: 2.25d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5A0E1A0000000016"]
@@ -749,8 +749,8 @@
 				id: "5A0E2A0000000170"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: -7.0d
+			x: 4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["5A0E1A0000000017"]
@@ -777,7 +777,7 @@
 				id: "5A0E2A0000000180"
 				type: "checkmark"
 			}]
-			x: 6.0d
+			x: 5.0d
 			y: -7.0d
 		}
 		{
@@ -806,7 +806,7 @@
 				item: { count: 1, id: "minecraft:blaze_rod" }
 				type: "item"
 			}]
-			x: 14.0d
+			x: 10.5d
 			y: -3.0d
 		}
 		{
@@ -833,8 +833,8 @@
 				item: { count: 1, id: "minecraft:netherite_upgrade_smithing_template" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: -3.0d
+			x: 12.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5A0E1A000000001A"]
@@ -861,8 +861,8 @@
 				item: { count: 1, id: "minecraft:dragon_egg" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: -3.0d
+			x: 15.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5A0E1A000000001B"]
@@ -916,8 +916,8 @@
 					type: "item"
 				}
 			]
-			x: 20.0d
-			y: -3.0d
+			x: 17.25d
+			y: -2.25d
 		}
 		{
 			dependencies: ["5A0E1A000000001C"]
@@ -959,8 +959,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: -6.0d
+			x: 19.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5A0E1A000000001D"]
@@ -1002,8 +1002,8 @@
 					type: "item"
 				}
 			]
-			x: 20.0d
-			y: -6.0d
+			x: 20.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5A0E1A0000000001"]

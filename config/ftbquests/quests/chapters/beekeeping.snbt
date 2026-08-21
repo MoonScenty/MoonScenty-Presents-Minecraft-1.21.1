@@ -279,7 +279,7 @@
 				id: "5A0E250000000090"
 				type: "checkmark"
 			}]
-			x: 15.0d
+			x: 12.0d
 			y: -3.0d
 		}
 		{
@@ -335,8 +335,8 @@
 				item: { count: 1, id: "productivebees:wax" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 3.0d
+			x: 15.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5A0E15000000000A"]
@@ -390,7 +390,7 @@
 				item: { count: 1, id: "productivebees:heated_centrifuge" }
 				type: "item"
 			}]
-			x: 21.0d
+			x: 22.5d
 			y: -3.0d
 		}
 		{
@@ -472,8 +472,8 @@
 				item: { count: 1, id: "productivebees:catcher" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: 3.0d
+			x: 16.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5A0E150000000009"]
@@ -500,8 +500,8 @@
 				item: { count: 1, id: "productivebees:feeder" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: -3.0d
+			x: 12.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5A0E15000000000A"]
@@ -528,8 +528,8 @@
 				item: { count: 1, id: "productivebees:bottler" }
 				type: "item"
 			}]
-			x: 21.0d
-			y: 3.0d
+			x: 18.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5A0E150000000005"]
@@ -584,8 +584,8 @@
 				item: { count: 1, id: "productivebees:honey_generator" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 3.0d
+			x: 21.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5A0E150000000004"]
@@ -611,7 +611,7 @@
 				id: "5A0E250000000150"
 				type: "checkmark"
 			}]
-			x: 12.0d
+			x: 9.0d
 			y: -3.0d
 		}
 		{
@@ -665,7 +665,7 @@
 				id: "5A0E250000000170"
 				type: "checkmark"
 			}]
-			x: 9.0d
+			x: 6.0d
 			y: -3.0d
 		}
 		{
@@ -775,7 +775,7 @@
 				type: "item"
 			}]
 			x: 36.0d
-			y: 3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5A0E150000000008"]
@@ -802,7 +802,7 @@
 				type: "item"
 			}]
 			x: 24.0d
-			y: -6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5A0E15000000001C"]
@@ -829,7 +829,7 @@
 				type: "checkmark"
 			}]
 			x: 33.0d
-			y: -6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [

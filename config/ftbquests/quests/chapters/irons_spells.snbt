@@ -5,6 +5,14 @@
 	filename: "irons_spells"
 	group: "4D414749434D4F44"
 	icon: {
+		components: {
+			"irons_spellbooks:spell_container": {
+				data: [ ]
+				maxSpells: 10
+				mustEquip: 1b
+				spellWheel: 1b
+			}
+		}
 		id: "irons_spellbooks:diamond_spell_book"
 	}
 	id: "5A0E000000000012"
@@ -15,24 +23,36 @@
 	quests: [
 		{
 			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 5
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
 				id: "irons_spellbooks:copper_spell_book"
 			}
 			id: "5A0E1C0000000001"
+			rewards: [{
+				id: "467B087874823E90"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
-			rewards: [
-				{
-					id: "467B087874823E90"
-					type: "xp"
-					xp: 30
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2C0000000010"
-					item: { count: 1, id: "irons_spellbooks:copper_spell_book" }
-					type: "item"
-				}
-			]
+				id: "5A0E2C0000000010"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 5, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:copper_spell_book" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -42,22 +62,26 @@
 				id: "irons_spellbooks:inscription_table"
 			}
 			id: "5A0E1C0000000002"
+			rewards: [{
+				id: "26D5FEBE7BAD1DBE"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
-			rewards: [
-				{
-					id: "26D5FEBE7BAD1DBE"
-					type: "xp"
-					xp: 30
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2C0000000020"
-					item: { count: 1, id: "irons_spellbooks:inscription_table" }
-					type: "item"
-				}
-			]
-			x: 2.0d
+				id: "5A0E2C0000000020"
+				item: { count: 1, id: "irons_spellbooks:inscription_table" }
+				type: "item"
+			}]
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -66,21 +90,25 @@
 				id: "irons_spellbooks:scroll"
 			}
 			id: "5A0E1C0000000003"
-			rewards: [
-				{
-					id: "81BF926AC75765DC"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "714AFB1922E1D4BB"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2C0000000030"
-					item: { count: 1, id: "irons_spellbooks:scroll" }
-					type: "item"
-				}
-			]
-			x: 4.0d
+				id: "5A0E2C0000000030"
+				item: { count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -89,46 +117,62 @@
 				id: "irons_spellbooks:arcane_essence"
 			}
 			id: "5A0E1C0000000004"
-			rewards: [
-				{
-					id: "6F5A278949B13B91"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "6F5A278949B13B91"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					count: 4L
-					id: "5A0E2C0000000040"
-					item: { count: 1, id: "irons_spellbooks:arcane_essence" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 0.0d
+				count: 4L
+				id: "5A0E2C0000000040"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5A0E1C0000000003"]
 			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 6
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
 				id: "irons_spellbooks:iron_spell_book"
 			}
 			id: "5A0E1C0000000005"
-			rewards: [
-				{
-					id: "CDE2BD0577A6C0C4"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "47079AD8D9CDB7D4"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2C0000000050"
-					item: { count: 1, id: "irons_spellbooks:iron_spell_book" }
-					type: "item"
-				}
-			]
-			x: 8.0d
-			y: 0.0d
+				id: "5A0E2C0000000050"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 6, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:iron_spell_book" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -136,24 +180,36 @@
 				"5A0E1C0000000005"
 			]
 			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 8
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
 				id: "irons_spellbooks:gold_spell_book"
 			}
 			id: "5A0E1C0000000006"
-			rewards: [
-				{
-					id: "4E848553966E1032"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "4E848553966E1032"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2C0000000060"
-					item: { count: 1, id: "irons_spellbooks:gold_spell_book" }
-					type: "item"
-				}
-			]
-			x: 10.0d
+				id: "5A0E2C0000000060"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:gold_spell_book" }
+				type: "item"
+			}]
+			x: 11.0d
 			y: 0.0d
 		}
 		{
@@ -162,59 +218,83 @@
 				id: "irons_spellbooks:magic_cloth"
 			}
 			id: "5A0E1C0000000007"
-			rewards: [
-				{
-					id: "9E9D00F67584113B"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "505D8D3BEEAB31CC"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					count: 4L
-					id: "5A0E2C0000000070"
-					item: { count: 1, id: "irons_spellbooks:magic_cloth" }
-					type: "item"
-				}
-			]
-			x: 12.0d
-			y: 0.0d
+				count: 4L
+				id: "5A0E2C0000000070"
+				item: { count: 1, id: "irons_spellbooks:magic_cloth" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5A0E1C0000000007"]
 			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
 				id: "irons_spellbooks:diamond_spell_book"
 			}
 			id: "5A0E1C0000000008"
-			size: 1.5d
 			rewards: [
 				{
 					count: 8
-					id: "E0FCD95B98E0EA57"
-					item: "irons_spellbooks:arcane_essence"
+					id: "31D193CF14BD1EAC"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
 					type: "item"
 				}
 				{
 					count: 4
-					id: "BE4F6C257CE0A452"
-					item: "minecraft:diamond"
+					id: "46433656A6515FD4"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
 					type: "item"
 				}
 				{
-					id: "D6A89D8B08275810"
+					id: "493A2EF3BDA70913"
 					type: "xp"
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "5A0E2C0000000080"
-					item: { count: 1, id: "irons_spellbooks:diamond_spell_book" }
-					type: "item"
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			x: 14.0d
-			y: 0.0d
+				id: "5A0E2C0000000080"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:diamond_spell_book" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.25d
 		}
 		{
 			dependencies: ["5A0E1C0000000003"]
@@ -222,23 +302,27 @@
 				id: "irons_spellbooks:scroll_forge"
 			}
 			id: "5A0E1C0000000009"
+			rewards: [{
+				id: "70FD74302DE83942"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
-			rewards: [
-				{
-					id: "70FD74302DE83942"
-					type: "xp"
-					xp: 30
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2C0000000090"
-					item: { count: 1, id: "irons_spellbooks:scroll_forge" }
-					type: "item"
-				}
-			]
-			x: 4.0d
-			y: -3.0d
+				id: "5A0E2C0000000090"
+				item: { count: 1, id: "irons_spellbooks:scroll_forge" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.25d
 		}
 		{
 			dependencies: ["5A0E1C0000000004"]
@@ -246,28 +330,42 @@
 				id: "irons_spellbooks:arcane_anvil"
 			}
 			id: "5A0E1C000000000A"
+			rewards: [{
+				id: "186E842B0335CF44"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
-			rewards: [
-				{
-					id: "186E842B0335CF44"
-					type: "xp"
-					xp: 30
-				}
-			]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C00000000A0"
 					item: { count: 1, id: "irons_spellbooks:arcane_anvil" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C00000000A1"
 					item: { count: 1, id: "irons_spellbooks:shriving_stone" }
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -3.0d
+			x: 5.25d
+			y: 2.25d
 		}
 		{
 			dependencies: ["5A0E1C000000000A"]
@@ -275,32 +373,54 @@
 				id: "irons_spellbooks:mana_upgrade_orb"
 			}
 			id: "5A0E1C000000000B"
-			rewards: [
-				{
-					id: "8DFF66CED5CAC987"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "75FA1005244C7108"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C00000000B0"
 					item: { count: 1, id: "irons_spellbooks:upgrade_orb" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C00000000B1"
 					item: { count: 1, id: "irons_spellbooks:mana_upgrade_orb" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C00000000B2"
 					item: { count: 1, id: "irons_spellbooks:cooldown_upgrade_orb" }
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: -3.0d
+			x: 2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5A0E1C000000000B"]
@@ -309,22 +429,26 @@
 			}
 			id: "5A0E1C000000000C"
 			optional: true
-			rewards: [
-				{
-					id: "8AB7AEBF3E441F71"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "46F76246CF9F34B1"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2C00000000C0"
-					item: { count: 1, id: "irons_spellbooks:lesser_spell_slot_upgrade" }
-					type: "item"
-				}
-			]
-			x: 10.0d
-			y: -3.0d
+				id: "5A0E2C00000000C0"
+				item: { count: 1, id: "irons_spellbooks:lesser_spell_slot_upgrade" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5A0E1C000000000A"]
@@ -332,27 +456,41 @@
 				id: "irons_spellbooks:alchemist_cauldron"
 			}
 			id: "5A0E1C000000000D"
-			rewards: [
-				{
-					id: "2F1F79C89F95CE5B"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "2F1F79C89F95CE5B"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C00000000D0"
 					item: { count: 1, id: "irons_spellbooks:cinder_essence" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C00000000D1"
 					item: { count: 1, id: "irons_spellbooks:alchemist_cauldron" }
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: -3.0d
+			x: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5A0E1C000000000B"]
@@ -361,32 +499,54 @@
 			}
 			id: "5A0E1C000000000E"
 			optional: true
-			rewards: [
-				{
-					id: "9831AEAB17BC055F"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "4D70D3091634EFA3"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C00000000E0"
 					item: { count: 1, id: "irons_spellbooks:blank_rune" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C00000000E1"
 					item: { count: 1, id: "irons_spellbooks:fire_rune" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C00000000E2"
 					item: { count: 1, id: "irons_spellbooks:protection_rune" }
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: -3.0d
+			x: 0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5A0E1C0000000004"]
@@ -394,23 +554,27 @@
 				id: "irons_spellbooks:hogskin"
 			}
 			id: "5A0E1C000000000F"
-			rewards: [
-				{
-					id: "C0FEF0B535295E73"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "2D7FA55E1B8DF08B"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					count: 4L
-					id: "5A0E2C00000000F0"
-					item: { count: 1, id: "irons_spellbooks:hogskin" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 3.0d
+				count: 4L
+				id: "5A0E2C00000000F0"
+				item: { count: 1, id: "irons_spellbooks:hogskin" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5A0E1C0000000004"]
@@ -419,23 +583,27 @@
 			}
 			id: "5A0E1C0000000010"
 			optional: true
-			rewards: [
-				{
-					id: "FE657D3D309ABDCD"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "3A7A3C90558552F7"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					count: 2L
-					id: "5A0E2C0000000100"
-					item: { count: 1, id: "irons_spellbooks:frozen_bone" }
-					type: "item"
-				}
-			]
-			x: 8.0d
-			y: 3.0d
+				count: 2L
+				id: "5A0E2C0000000100"
+				item: { count: 1, id: "irons_spellbooks:frozen_bone" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5A0E1C0000000004"]
@@ -444,21 +612,25 @@
 			}
 			id: "5A0E1C0000000011"
 			optional: true
-			rewards: [
-				{
-					id: "93313D431906E968"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "3FFC03A694BE1F60"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2C0000000110"
-					item: { count: 1, id: "irons_spellbooks:ruined_book" }
-					type: "item"
-				}
-			]
-			x: 10.0d
+				id: "5A0E2C0000000110"
+				item: { count: 1, id: "irons_spellbooks:ruined_book" }
+				type: "item"
+			}]
+			x: 11.0d
 			y: 3.0d
 		}
 		{
@@ -467,58 +639,92 @@
 				id: "irons_spellbooks:arcane_ingot"
 			}
 			id: "5A0E1C0000000012"
-			rewards: [
-				{
-					id: "C416082F32EF9C0F"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "32C5B3C049FC4BAA"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C0000000120"
 					item: { count: 1, id: "irons_spellbooks:arcane_ingot" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					count: 9L
 					id: "5A0E2C0000000121"
 					item: { count: 1, id: "irons_spellbooks:mithril_scrap" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C0000000122"
 					item: { count: 1, id: "irons_spellbooks:mithril_ingot" }
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 3.0d
+			x: 13.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5A0E1C0000000008"]
 			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 12
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
 				id: "irons_spellbooks:dragonskin_spell_book"
 			}
 			id: "5A0E1C0000000013"
 			optional: true
+			rewards: [{
+				id: "64203BFD5A0E7CAD"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
-			rewards: [
-				{
-					id: "D0B92FEE93B0A5A4"
-					type: "xp"
-					xp: 30
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2C0000000130"
-					item: { count: 1, id: "irons_spellbooks:dragonskin_spell_book" }
-					type: "item"
-				}
-			]
-			x: 14.0d
-			y: 3.0d
+				id: "5A0E2C0000000130"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:dragonskin_spell_book" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5A0E1C0000000012"]
@@ -526,23 +732,27 @@
 				id: "irons_spellbooks:mana_ring"
 			}
 			id: "5A0E1C0000000014"
+			rewards: [{
+				id: "464FC2A0A37A293F"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
-			rewards: [
-				{
-					id: "8FBA606F7397AF90"
-					type: "xp"
-					xp: 30
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2C0000000140"
-					item: { count: 1, id: "irons_spellbooks:mana_ring" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 6.0d
+				id: "5A0E2C0000000140"
+				item: { count: 1, id: "irons_spellbooks:mana_ring" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.25d
 		}
 		{
 			dependencies: ["5A0E1C0000000014"]
@@ -551,27 +761,41 @@
 			}
 			id: "5A0E1C0000000015"
 			optional: true
-			rewards: [
-				{
-					id: "5F865AF3A16893D0"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "5F865AF3A16893D0"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C0000000150"
 					item: { count: 1, id: "irons_spellbooks:cooldown_ring" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C0000000151"
 					item: { count: 1, id: "irons_spellbooks:cast_time_ring" }
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 6.0d
+			x: 19.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5A0E1C0000000014"]
@@ -580,22 +804,26 @@
 			}
 			id: "5A0E1C0000000016"
 			optional: true
-			rewards: [
-				{
-					id: "ED74D742A54C439C"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "475236040113DBB5"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2C0000000160"
-					item: { count: 1, id: "irons_spellbooks:concentration_amulet" }
-					type: "item"
-				}
-			]
-			x: 4.0d
-			y: 6.0d
+				id: "5A0E2C0000000160"
+				item: { count: 1, id: "irons_spellbooks:concentration_amulet" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5A0E1C0000000015"]
@@ -604,106 +832,196 @@
 			}
 			id: "5A0E1C0000000017"
 			optional: true
-			rewards: [
-				{
-					id: "D1E06A142E294B44"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "272A8FACC8160A94"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C0000000170"
 					item: { count: 1, id: "irons_spellbooks:fireward_ring" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C0000000171"
 					item: { count: 1, id: "irons_spellbooks:frostward_ring" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C0000000172"
 					item: { count: 1, id: "irons_spellbooks:poisonward_ring" }
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 6.0d
+			x: 21.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5A0E1C0000000014"]
 			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
 				id: "irons_spellbooks:electromancer_chestplate"
 			}
 			id: "5A0E1C0000000018"
 			optional: true
-			rewards: [
-				{
-					id: "25F6A1C868818AC9"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "25F6A1C868818AC9"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C0000000180"
-					item: { count: 1, id: "irons_spellbooks:electromancer_chestplate" }
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:electromancer_chestplate" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C0000000181"
-					item: { count: 1, id: "irons_spellbooks:cryomancer_chestplate" }
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:cryomancer_chestplate" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C0000000182"
-					item: { count: 1, id: "irons_spellbooks:priest_chestplate" }
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:priest_chestplate" }
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 6.0d
+			x: 15.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5A0E1C0000000018"]
 			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
 				id: "irons_spellbooks:netherite_mage_chestplate"
 			}
 			id: "5A0E1C0000000019"
 			optional: true
+			rewards: [{
+				id: "671BA9D41B7FA5FB"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
-			rewards: [
-				{
-					id: "FBD747EB31E6B3E0"
-					type: "xp"
-					xp: 30
-				}
-			]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C0000000190"
 					item: { count: 1, id: "irons_spellbooks:netherite_mage_helmet" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C0000000191"
-					item: { count: 1, id: "irons_spellbooks:netherite_mage_chestplate" }
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:netherite_mage_chestplate" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C0000000192"
 					item: { count: 1, id: "irons_spellbooks:netherite_mage_leggings" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C0000000193"
 					item: { count: 1, id: "irons_spellbooks:netherite_mage_boots" }
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: 6.0d
+			x: 16.5d
+			y: 8.25d
 		}
 		{
 			dependencies: ["5A0E1C0000000002"]
@@ -711,23 +1029,27 @@
 				id: "irons_spellbooks:wayward_compass"
 			}
 			id: "5A0E1C000000001A"
+			rewards: [{
+				id: "0443AD68FAC4500E"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
-			rewards: [
-				{
-					id: "EC1A37DAC729D551"
-					type: "xp"
-					xp: 30
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2C00000001A0"
-					item: { count: 1, id: "irons_spellbooks:wayward_compass" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: -6.0d
+				id: "5A0E2C00000001A0"
+				item: { count: 1, id: "irons_spellbooks:wayward_compass" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.25d
 		}
 		{
 			dependencies: ["5A0E1C000000001A"]
@@ -736,22 +1058,26 @@
 			}
 			id: "5A0E1C000000001B"
 			optional: true
-			rewards: [
-				{
-					id: "57C5149D199FF2AE"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "57C5149D199FF2AE"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2C00000001B0"
-					item: { count: 1, id: "irons_spellbooks:furled_map" }
-					type: "item"
-				}
-			]
-			x: 2.0d
-			y: -6.0d
+				id: "5A0E2C00000001B0"
+				item: { count: 1, id: "irons_spellbooks:furled_map" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5A0E1C0000000009"]
@@ -760,56 +1086,109 @@
 			}
 			id: "5A0E1C000000001C"
 			optional: true
-			rewards: [
-				{
-					id: "E0E31F4DD6359A50"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "37BCF08D7BC5BB06"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2C00000001C0"
-					item: { count: 1, id: "irons_spellbooks:legendary_ink" }
-					type: "item"
-				}
-			]
-			x: 4.0d
-			y: -6.0d
+				id: "5A0E2C00000001C0"
+				item: { count: 1, id: "irons_spellbooks:legendary_ink" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5A0E1C000000001A"]
 			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [
+							{
+								id: "irons_spellbooks:fang_strike"
+								index: 0
+								level: 6
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:fang_ward"
+								index: 1
+								level: 4
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:summon_vex"
+								index: 2
+								level: 4
+								locked: 1b
+							}
+						]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
 				id: "irons_spellbooks:evoker_spell_book"
 			}
 			id: "5A0E1C000000001D"
 			optional: true
-			rewards: [
-				{
-					id: "0E17EDA76E66D458"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "0E17EDA76E66D458"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C00000001D0"
-					item: { count: 1, id: "irons_spellbooks:evoker_spell_book" }
+					item: { components: { "irons_spellbooks:spell_container": { data: [ { id: "irons_spellbooks:fang_strike", index: 0, level: 6, locked: 1b }, { id: "irons_spellbooks:fang_ward", index: 1, level: 4, locked: 1b }, { id: "irons_spellbooks:summon_vex", index: 2, level: 4, locked: 1b } ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:evoker_spell_book" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C00000001D1"
-					item: { count: 1, id: "irons_spellbooks:druidic_spell_book" }
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:druidic_spell_book" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2C00000001D2"
-					item: { count: 1, id: "irons_spellbooks:villager_spell_book" }
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:villager_spell_book" }
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -6.0d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5A0E1C0000000010"]
@@ -818,22 +1197,26 @@
 			}
 			id: "5A0E1C000000001E"
 			optional: true
-			rewards: [
-				{
-					id: "52D8EC20C9FFB0A9"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "52D8EC20C9FFB0A9"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2C00000001E0"
-					item: { count: 1, id: "irons_spellbooks:ice_staff" }
-					type: "item"
-				}
-			]
-			x: 8.0d
-			y: -6.0d
+				id: "5A0E2C00000001E0"
+				item: { count: 1, id: "irons_spellbooks:ice_staff" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["5A0E1C000000000D"]
@@ -842,22 +1225,26 @@
 			}
 			id: "5A0E1C000000001F"
 			optional: true
-			rewards: [
-				{
-					id: "33C0AA4142EBF470"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "33C0AA4142EBF470"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2C00000001F0"
-					item: { count: 1, id: "irons_spellbooks:blood_staff" }
-					type: "item"
-				}
-			]
-			x: 10.0d
-			y: -6.0d
+				id: "5A0E2C00000001F0"
+				item: { count: 1, id: "irons_spellbooks:blood_staff" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -869,29 +1256,38 @@
 			}
 			id: "5A0E1C0000000020"
 			optional: true
-			size: 1.5d
 			rewards: [
 				{
 					count: 8
-					id: "FF792B32D484AF40"
-					item: "minecraft:diamond"
+					id: "3DCB63AE0B2DA276"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
 					type: "item"
 				}
 				{
-					id: "D2F32E9304071974"
+					id: "5B61FB8A4D0F3E14"
 					type: "xp"
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "5A0E2C0000000200"
-					item: { count: 1, id: "irons_spellbooks:graybeard_staff" }
-					type: "item"
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			x: 12.0d
-			y: -6.0d
+				id: "5A0E2C0000000200"
+				item: { count: 1, id: "irons_spellbooks:graybeard_staff" }
+				type: "item"
+			}]
+			x: 5.25d
+			y: 8.25d
 		}
 	]
 }

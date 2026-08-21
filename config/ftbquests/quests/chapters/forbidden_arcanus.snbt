@@ -18,22 +18,26 @@
 				id: "forbidden_arcanus:darkstone"
 			}
 			id: "5A0E1D0000000001"
+			rewards: [{
+				id: "083A9328C8623218"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
-			rewards: [
-				{
-					id: "083A9328C8623218"
-					type: "xp"
-					xp: 30
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					count: 32L
-					id: "5A0E2D0000000010"
-					item: { count: 1, id: "forbidden_arcanus:darkstone" }
-					type: "item"
-				}
-			]
+				count: 32L
+				id: "5A0E2D0000000010"
+				item: { count: 1, id: "forbidden_arcanus:darkstone" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -43,29 +47,43 @@
 				id: "forbidden_arcanus:polished_darkstone"
 			}
 			id: "5A0E1D0000000002"
-			rewards: [
-				{
-					id: "F3841968399F2116"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "3E587FE40CEE45D3"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					count: 16L
 					id: "5A0E2D0000000020"
 					item: { count: 1, id: "forbidden_arcanus:polished_darkstone" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					count: 4L
 					id: "5A0E2D0000000021"
 					item: { count: 1, id: "forbidden_arcanus:chiseled_polished_darkstone" }
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5A0E1D0000000001"]
@@ -73,30 +91,44 @@
 				id: "forbidden_arcanus:arcane_crystal"
 			}
 			id: "5A0E1D0000000003"
+			rewards: [{
+				id: "4B6F2E42B8350AB2"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
-			rewards: [
-				{
-					id: "4B6F2E42B8350AB2"
-					type: "xp"
-					xp: 30
-				}
-			]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					count: 8L
 					id: "5A0E2D0000000030"
 					item: { count: 1, id: "forbidden_arcanus:arcane_crystal" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					count: 4L
 					id: "5A0E2D0000000031"
 					item: { count: 1, id: "forbidden_arcanus:arcane_crystal_dust" }
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 0.0d
+			x: 1.5d
+			y: -2.25d
 		}
 		{
 			dependencies: ["5A0E1D0000000001"]
@@ -104,35 +136,57 @@
 				id: "forbidden_arcanus:edelwood_log"
 			}
 			id: "5A0E1D0000000004"
-			rewards: [
-				{
-					id: "11D960C9C03E60A8"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "11D960C9C03E60A8"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					count: 8L
 					id: "5A0E2D0000000040"
 					item: { count: 1, id: "forbidden_arcanus:edelwood_log" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					count: 4L
 					id: "5A0E2D0000000041"
 					item: { count: 1, id: "forbidden_arcanus:edelwood_planks" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					count: 4L
 					id: "5A0E2D0000000042"
 					item: { count: 1, id: "forbidden_arcanus:edelwood_stick" }
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 0.0d
+			x: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5A0E1D0000000004"]
@@ -140,22 +194,26 @@
 				id: "forbidden_arcanus:utrem_jar"
 			}
 			id: "5A0E1D0000000005"
-			rewards: [
-				{
-					id: "91EBD23F14E27F74"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "2216E650E844D869"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2D0000000050"
-					item: { count: 1, id: "forbidden_arcanus:utrem_jar" }
-					type: "item"
-				}
-			]
-			x: 8.0d
-			y: 0.0d
+				id: "5A0E2D0000000050"
+				item: { count: 1, id: "forbidden_arcanus:utrem_jar" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5A0E1D0000000002"]
@@ -163,23 +221,27 @@
 				id: "forbidden_arcanus:clibano_core"
 			}
 			id: "5A0E1D0000000006"
+			rewards: [{
+				id: "5CC83F5EDEA6FE38"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
-			rewards: [
-				{
-					id: "DD2536A75AD95F78"
-					type: "xp"
-					xp: 30
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2D0000000060"
-					item: { count: 1, id: "forbidden_arcanus:clibano_core" }
-					type: "item"
-				}
-			]
-			x: 10.0d
-			y: 0.0d
+				id: "5A0E2D0000000060"
+				item: { count: 1, id: "forbidden_arcanus:clibano_core" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5A0E1D0000000006"]
@@ -187,22 +249,26 @@
 				id: "forbidden_arcanus:obsidiansteel_ingot"
 			}
 			id: "5A0E1D0000000007"
-			rewards: [
-				{
-					id: "8A8B415C2E4CEA79"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "575DB25653AA1FA0"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2D0000000070"
-					item: { count: 1, id: "forbidden_arcanus:obsidiansteel_ingot" }
-					type: "item"
-				}
-			]
-			x: 12.0d
-			y: 0.0d
+				id: "5A0E2D0000000070"
+				item: { count: 1, id: "forbidden_arcanus:obsidiansteel_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5A0E1D0000000003"]
@@ -210,27 +276,41 @@
 				id: "forbidden_arcanus:deorum_ingot"
 			}
 			id: "5A0E1D0000000008"
-			rewards: [
-				{
-					id: "19FB21E935B8BA01"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "19FB21E935B8BA01"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2D0000000080"
 					item: { count: 1, id: "forbidden_arcanus:mundabitur_dust" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2D0000000081"
 					item: { count: 1, id: "forbidden_arcanus:deorum_ingot" }
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 0.0d
+			x: 5.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5A0E1D0000000003"]
@@ -238,28 +318,50 @@
 				id: "forbidden_arcanus:gilded_chiseled_polished_darkstone"
 			}
 			id: "5A0E1D0000000009"
+			rewards: [{
+				id: "0A938D889B868C35"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
-			rewards: [
-				{
-					id: "BC2F3D20877DACA6"
-					type: "xp"
-					xp: 30
-				}
-			]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					count: 9L
 					id: "5A0E2D0000000090"
 					item: { count: 1, id: "forbidden_arcanus:gilded_chiseled_polished_darkstone" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					count: 4L
 					id: "5A0E2D0000000091"
 					item: { count: 1, id: "forbidden_arcanus:chiseled_arcane_polished_darkstone" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					count: 45L
 					id: "5A0E2D0000000092"
 					item: { count: 1, id: "forbidden_arcanus:polished_darkstone" }
@@ -275,16 +377,22 @@
 				id: "forbidden_arcanus:arcane_polished_darkstone"
 			}
 			id: "5A0E1D000000000A"
+			rewards: [{
+				id: "3FC93DB3C7374904"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "square"
 			size: 1.5d
-			rewards: [
-				{
-					id: "3FC93DB3C7374904"
-					type: "xp"
-					xp: 20
-				}
-			]
 			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
 				id: "5A0E2D00000000A0"
 				type: "checkmark"
 			}]
@@ -297,21 +405,35 @@
 				id: "forbidden_arcanus:darkstone_pedestal"
 			}
 			id: "5A0E1D000000000B"
-			rewards: [
-				{
-					id: "0D5D6A7B08933FEA"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "0D5D6A7B08933FEA"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					count: 4L
 					id: "5A0E2D00000000B0"
 					item: { count: 1, id: "forbidden_arcanus:darkstone_pedestal" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2D00000000B1"
 					item: { count: 1, id: "forbidden_arcanus:arcane_crystal_obelisk" }
 					type: "item"
@@ -326,28 +448,42 @@
 				id: "forbidden_arcanus:aureal_bottle"
 			}
 			id: "5A0E1D000000000C"
-			rewards: [
-				{
-					id: "8A7B02321ECB72A3"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "18C51D67D0A5909A"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					count: 4L
 					id: "5A0E2D00000000C0"
 					item: { count: 1, id: "forbidden_arcanus:aureal_bottle" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2D00000000C1"
 					item: { count: 1, id: "forbidden_arcanus:aureal_tank" }
 					type: "item"
 				}
 			]
 			x: 10.0d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5A0E1D000000000C"]
@@ -355,22 +491,26 @@
 				id: "forbidden_arcanus:xpetrified_orb"
 			}
 			id: "5A0E1D000000000D"
-			rewards: [
-				{
-					id: "6D549517C8DCCAB9"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "6D549517C8DCCAB9"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2D00000000D0"
-					item: { count: 1, id: "forbidden_arcanus:xpetrified_orb" }
-					type: "item"
-				}
-			]
-			x: 12.0d
-			y: -3.0d
+				id: "5A0E2D00000000D0"
+				item: { count: 1, id: "forbidden_arcanus:xpetrified_orb" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5A0E1D000000000C"]
@@ -378,28 +518,42 @@
 				id: "forbidden_arcanus:soul_extractor"
 			}
 			id: "5A0E1D000000000E"
-			rewards: [
-				{
-					id: "A84E970A69EFE546"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "16884B30A70671A0"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2D00000000E0"
 					item: { count: 1, id: "forbidden_arcanus:soul_extractor" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					count: 4L
 					id: "5A0E2D00000000E1"
 					item: { count: 1, id: "forbidden_arcanus:soul" }
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: -3.0d
+			x: 11.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5A0E1D000000000E"]
@@ -408,32 +562,54 @@
 			}
 			id: "5A0E1D000000000F"
 			optional: true
-			rewards: [
-				{
-					id: "A895989781DA3DAD"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "05A4C107A8BEA7CC"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2D00000000F0"
 					item: { count: 1, id: "forbidden_arcanus:artisan_relic" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2D00000000F1"
 					item: { count: 1, id: "forbidden_arcanus:crescent_moon" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2D00000000F2"
 					item: { count: 1, id: "forbidden_arcanus:crimson_stone" }
 					type: "item"
 				}
 			]
-			x: 16.0d
-			y: -3.0d
+			x: 11.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5A0E1D000000000F"]
@@ -442,32 +618,54 @@
 			}
 			id: "5A0E1D0000000010"
 			optional: true
-			rewards: [
-				{
-					id: "D62D765709D3EED1"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "57C713211B1F450C"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2D0000000100"
 					item: { count: 1, id: "forbidden_arcanus:elementarium" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2D0000000101"
 					item: { count: 1, id: "forbidden_arcanus:divine_pact" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2D0000000102"
 					item: { count: 1, id: "forbidden_arcanus:maledictus_pact" }
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: -3.0d
+			x: 12.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5A0E1D0000000008"]
@@ -475,27 +673,41 @@
 				id: "forbidden_arcanus:iron_blacksmith_gavel"
 			}
 			id: "5A0E1D0000000011"
-			rewards: [
-				{
-					id: "30DAE489CB193C70"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "30DAE489CB193C70"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2D0000000110"
 					item: { count: 1, id: "forbidden_arcanus:blacksmith_gavel_head" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2D0000000111"
 					item: { count: 1, id: "forbidden_arcanus:iron_blacksmith_gavel" }
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 3.0d
+			x: 6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5A0E1D0000000008"]
@@ -503,23 +715,27 @@
 				id: "forbidden_arcanus:magic_wand"
 			}
 			id: "5A0E1D0000000012"
+			rewards: [{
+				id: "0C9569C6B8996B57"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
-			rewards: [
-				{
-					id: "0C9569C6B8996B57"
-					type: "xp"
-					xp: 30
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2D0000000120"
-					item: { count: 1, id: "forbidden_arcanus:magic_wand" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 3.0d
+				id: "5A0E2D0000000120"
+				item: { count: 1, id: "forbidden_arcanus:magic_wand" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.75d
 		}
 		{
 			dependencies: ["5A0E1D0000000003"]
@@ -528,34 +744,56 @@
 			}
 			id: "5A0E1D0000000013"
 			optional: true
-			rewards: [
-				{
-					id: "C17AD5C16506BC7E"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "7D3F0BEABFB8EFED"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					count: 4L
 					id: "5A0E2D0000000130"
 					item: { count: 1, id: "forbidden_arcanus:rune" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					count: 4L
 					id: "5A0E2D0000000131"
 					item: { count: 1, id: "forbidden_arcanus:runic_glass" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2D0000000132"
 					item: { count: 1, id: "forbidden_arcanus:test_tube" }
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 3.0d
+			x: 1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5A0E1D0000000012"]
@@ -563,22 +801,26 @@
 				id: "forbidden_arcanus:spectral_eye_amulet"
 			}
 			id: "5A0E1D0000000014"
+			rewards: [{
+				id: "72B668B01493ECD3"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
-			rewards: [
-				{
-					id: "72B668B01493ECD3"
-					type: "xp"
-					xp: 30
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2D0000000140"
-					item: { count: 1, id: "forbidden_arcanus:spectral_eye_amulet" }
-					type: "item"
-				}
-			]
-			x: 10.0d
+				id: "5A0E2D0000000140"
+				item: { count: 1, id: "forbidden_arcanus:spectral_eye_amulet" }
+				type: "item"
+			}]
+			x: 6.0d
 			y: 3.0d
 		}
 		{
@@ -588,22 +830,26 @@
 			}
 			id: "5A0E1D0000000015"
 			optional: true
-			rewards: [
-				{
-					id: "2779D77E5480ABD4"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "2779D77E5480ABD4"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2D0000000150"
-					item: { count: 1, id: "forbidden_arcanus:quantum_catcher" }
-					type: "item"
-				}
-			]
-			x: 12.0d
-			y: 3.0d
+				id: "5A0E2D0000000150"
+				item: { count: 1, id: "forbidden_arcanus:quantum_catcher" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5A0E1D000000000C"]
@@ -612,27 +858,41 @@
 			}
 			id: "5A0E1D0000000016"
 			optional: true
-			rewards: [
-				{
-					id: "B74E524F079A4A00"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "082955DB48BFCCDE"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2D0000000160"
 					item: { count: 1, id: "forbidden_arcanus:obsidian_skull" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2D0000000161"
 					item: { count: 1, id: "forbidden_arcanus:aurealic_obsidian_skull" }
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 3.0d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5A0E1D0000000014"]
@@ -641,27 +901,41 @@
 			}
 			id: "5A0E1D0000000017"
 			optional: true
-			rewards: [
-				{
-					id: "6092AAEAEE09C266"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "6092AAEAEE09C266"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2D0000000170"
 					item: { count: 1, id: "forbidden_arcanus:aureal_wardstone" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2D0000000171"
 					item: { count: 1, id: "forbidden_arcanus:corrupti_dust" }
 					type: "item"
 				}
 			]
-			x: 16.0d
-			y: 3.0d
+			x: 8.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -673,21 +947,25 @@
 			}
 			id: "5A0E1D0000000018"
 			optional: true
+			rewards: [{
+				id: "59D7AAF887382C4F"
+				type: "xp"
+				xp: 30
+			}]
 			size: 1.5d
-			rewards: [
-				{
-					id: "59D7AAF887382C4F"
-					type: "xp"
-					xp: 30
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2D0000000180"
-					item: { count: 1, id: "forbidden_arcanus:dark_nether_star" }
-					type: "item"
-				}
-			]
+				id: "5A0E2D0000000180"
+				item: { count: 1, id: "forbidden_arcanus:dark_nether_star" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 6.0d
 		}
@@ -698,22 +976,26 @@
 			}
 			id: "5A0E1D0000000019"
 			optional: true
-			rewards: [
-				{
-					id: "CE5603A31BFA230C"
-					type: "xp"
-					xp: 30
+			rewards: [{
+				id: "412E6D534203E33E"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			tasks: [
-				{
-					id: "5A0E2D0000000190"
-					item: { count: 1, id: "forbidden_arcanus:stellarite_piece" }
-					type: "item"
-				}
-			]
-			x: 8.0d
-			y: 6.0d
+				id: "5A0E2D0000000190"
+				item: { count: 1, id: "forbidden_arcanus:stellarite_piece" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5A0E1D0000000019"]
@@ -722,29 +1004,38 @@
 			}
 			id: "5A0E1D000000001A"
 			optional: true
-			size: 1.5d
 			rewards: [
 				{
 					count: 8
 					id: "004274255BB2324A"
-					item: "minecraft:diamond"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
 					type: "item"
 				}
 				{
-					id: "A1668FB1B39ABF11"
+					id: "49B71FA4E43B53B2"
 					type: "xp"
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "5A0E2D00000001A0"
-					item: { count: 1, id: "forbidden_arcanus:eternal_stella" }
-					type: "item"
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
 				}
-			]
-			x: 10.0d
-			y: 6.0d
+				id: "5A0E2D00000001A0"
+				item: { count: 1, id: "forbidden_arcanus:eternal_stella" }
+				type: "item"
+			}]
+			x: 11.25d
+			y: 9.0d
 		}
 		{
 			dependencies: ["5A0E1D0000000018"]
@@ -753,26 +1044,40 @@
 			}
 			id: "5A0E1D000000001B"
 			optional: true
-			rewards: [
-				{
-					id: "9190AD86FCA20E8C"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "672F7D8C229BFC87"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2D00000001B0"
 					item: { count: 1, id: "forbidden_arcanus:dragon_scale" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2D00000001B1"
 					item: { count: 1, id: "forbidden_arcanus:golden_dragon_scale" }
 					type: "item"
 				}
 			]
-			x: 12.0d
+			x: 9.5d
 			y: 6.0d
 		}
 		{
@@ -785,26 +1090,40 @@
 			}
 			id: "5A0E1D000000001C"
 			optional: true
-			rewards: [
-				{
-					id: "F8F0F885A835F2D7"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "7E1F615D098F0EE2"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2D00000001C0"
 					item: { count: 1, id: "forbidden_arcanus:mortem_chestplate" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2D00000001C1"
 					item: { count: 1, id: "forbidden_arcanus:tyr_chestplate" }
 					type: "item"
 				}
 			]
-			x: 14.0d
+			x: 12.0d
 			y: 6.0d
 		}
 		{
@@ -817,18 +1136,22 @@
 			}
 			id: "5A0E1D000000001D"
 			optional: true
-			size: 2.0d
 			rewards: [
 				{
-					count: 1
 					id: "523AB93B74463E02"
-					item: "forbidden_arcanus:eternal_stella"
+					item: {
+						count: 1
+						id: "forbidden_arcanus:eternal_stella"
+					}
 					type: "item"
 				}
 				{
 					count: 16
 					id: "0E6836175124A3C4"
-					item: "minecraft:diamond"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
 					type: "item"
 				}
 				{
@@ -837,13 +1160,30 @@
 					xp: 30
 				}
 			]
+			size: 2.0d
 			tasks: [
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2D00000001D0"
 					item: { count: 1, id: "forbidden_arcanus:draco_arcanus_chestplate" }
 					type: "item"
 				}
 				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
 					id: "5A0E2D00000001D1"
 					item: { count: 1, id: "forbidden_arcanus:draco_arcanus_staff" }
 					type: "item"
