@@ -1554,7 +1554,7 @@ hash = "84c8b02773eea83a10d1c3ffe00389165aee2843d1ca99ae6f1ed67543c3371c"
 
 [[files]]
 file = "kubejs/server_scripts/power_sources.js"
-hash = "16fc07365cef910506e08e313def2a8ea07d25a117dca6e69b09365a0c27f3f5"
+hash = "59c6391229e2dc4b944b48d54d7265267999509538175f36fa29d748b887500d"
 
 [[files]]
 file = "kubejs/server_scripts/proficiency.js"
