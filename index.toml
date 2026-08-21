@@ -1,22 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "PUFFISH_SKILLS.md"
-hash = "6067b0731099a9d4e9c67cd1b3ca86c9cb9b7ac1718d0dec8e24b2407f5e9225"
-
-[[files]]
-file = "QUEST_ANDESITE_ALLOY_AGE.md"
-hash = "dd17577468cb92184445aadc53aeb3343121cbddc0769967c91094367f67ddf5"
-
-[[files]]
-file = "QUEST_STONE_AGE.md"
-hash = "57ca5d7c97caea55c98d02777aa757e6c6fd84a07f19caa28e901d01561c0787"
-
-[[files]]
-file = "QUEST_TIPS_AND_TRICKS.md"
-hash = "a1f18f341c5ba9357850fb8f00eb13ab3fb18db719e8149c84ff743fd670b2d7"
-
-[[files]]
 file = "config/CreateEnergistics2-common.toml"
 hash = "eb20ae8de018f79c09ec336e8e55a4a61ffa59e1ba6d8b5db15d92d06a133dfe"
 

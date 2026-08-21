@@ -5,9 +5,8 @@
 /.packwizignore
 /.tmp/
 /.claude/
-/README.md
-/CHANGELOG.md
-/QUEST_TUTORIAL.md
+# 설계 문서는 배포본에 포함하지 않는다. 문서가 늘어도 따로 손대지 않도록 확장자로 막는다.
+*.md
 *.zip
 *.mrpack
 packwiz.exe
