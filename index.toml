@@ -254,7 +254,7 @@ hash = "4e0244ddc37fc5e563ebada6ce5610bf401e1e18a2ebbeeaf41dc63a887b943d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andesite_alloy_age.snbt"
-hash = "9401ad4c84b278041c21f18a4c14f436a6eefacad77d0af7642a8f3b26b0aea1"
+hash = "6759e6c3370553f04d90d24f9c6a08406cf94291c504dee86d683c3e1f9c7347"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
@@ -262,7 +262,7 @@ hash = "54f72a2d9aadc59c68d6be759c87a14cba667bd3064938361a7dee2c2b7de731"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/atomic_age.snbt"
-hash = "255b93df04b47dc2cef9cca3a5341497276e26cc904641f6ed197ae16a612ee7"
+hash = "4819ae253f186375889c36cdeec9cc6a1a4538f82086177af142983238f6f8e2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/beekeeping.snbt"
@@ -270,7 +270,7 @@ hash = "03928ebb635ff10479897182137b3bf09baa44e982fbf982b8c82e52f39c50ab"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/brass_age.snbt"
-hash = "525ab4abebe00f5b02ffc9fcedeca39dc8b24fb9fccc9eb4378d7fa35e177363"
+hash = "8376cda26166cc963070c85170161624e4ce6d21dab27c3b7bded7375f757b27"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building.snbt"
@@ -290,7 +290,7 @@ hash = "b32ada5be74507757aa2a548682b86910114d5b8d2a68e6e6d66a419225a1362"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_age.snbt"
-hash = "673fbcd7d2d47ddcd73c9638de6d32618b712d9cf33042ce20b207d10eb6bd23"
+hash = "66cc4510024c209218a14662b6f39fc8d4a39425a3065c358aa992837b4bac80"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spells.snbt"
@@ -298,7 +298,7 @@ hash = "fcdac77588c94b3b8cf8a3f39646a74359d32a09671006ec7c59eec666096a10"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stone_age.snbt"
-hash = "671f0fdb612aec3bfa772207b196ddeac855c89cedf5db38142baaa294302fad"
+hash = "028d839c642e890a1dcd6b210e19dc7a798171c454a962cc352fe56a82a1762a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage.snbt"
@@ -326,51 +326,7 @@ hash = "6cde88d5b4af7175fee7054dec818968be37abd1a1d77c7c22817bda7a0932ad"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "2f744b9a31cfd5c172ee5d608628bc3dfebaca51bbcf9dcecad7427ba37b78a2"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/andesite_01_power.snbt"
-hash = "6e391269a48f23097567268967574e11d4aef837e921bd682ba2e8f76f6df2a9"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/andesite_02_casing.snbt"
-hash = "1f047afd64b965746694a0ba13a3e5d4f70a579cd9c3e575159a18dc3612bb51"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/andesite_03_rubber.snbt"
-hash = "bad04ebaf076526431fe0598bcc24e4922b091e1ed16d4a4e0b252922e73fe59"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/andesite_04_steel.snbt"
-hash = "db2b07365a3fa85c4a78326f1d4c963715edd3c200bcdf5c8a51285d2eb71e0c"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/andesite_05_engine.snbt"
-hash = "bc088df462ec38d5e48ff30004ef1b509e4c1f664f55028014857c8ea7ef5098"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/andesite_final.snbt"
-hash = "71b208f50c588737f8bca9c2c6d7e36065ad2a2c69e80539941d6d6ccc86e54d"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/stone_age_01_mortar.snbt"
-hash = "41efccb9e33cdff24d5856089726652383974cca262565ad6d9713851614e25f"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/stone_age_02_furnace.snbt"
-hash = "b3ad69a49f091cee815339816e43d6002d3f35c080dc4f19bcbc41c6caed7336"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/stone_age_03_foundry.snbt"
-hash = "4e293a6c3267fdf4773b431cd5255d299c04a933de8247755e3c5f2ba19996ae"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/stone_age_04_casting.snbt"
-hash = "499301bec346b6a698ee0e6b084fda1472300bda709a3d4231a10dd46b9b8ebf"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/stone_age_final.snbt"
-hash = "e416396e58d9d8e2aa290168554743780f406ce11d483e43269ffcbbbc96cf8c"
+hash = "80c2d0e63af886f057631eef83430e190fb7426e6d3716aa145f49719bd950f5"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_00_welcome.snbt"
@@ -1495,118 +1451,6 @@ hash = "2cc93a05b9645bd224d4fcca968721ae75d9ff5a9222cfcba6ff0af13eb154b3"
 [[files]]
 file = "kubejs/data/moonscenty/puffish_skills/config.json"
 hash = "0c52a8616e7c9a730026ad31fe199830e2e1656ce82526e2ec8c9ed9fef233ac"
-
-[[files]]
-file = "kubejs/server_scripts/ae_generator.js"
-hash = "3c2443b496e2a0f39301505c14bbb35fa308905eb561a43441b0b02e76702947"
-
-[[files]]
-file = "kubejs/server_scripts/andesite.js"
-hash = "583cf5b3df5bd1ee11d20fcdfdda471a307dd3a71385a4171ece97fe0992e9e6"
-
-[[files]]
-file = "kubejs/server_scripts/casings.js"
-hash = "a8edc3a8c3e816a0581d4ff0cd307341f8a6902369f4cd566afc8fd8c082fb8c"
-
-[[files]]
-file = "kubejs/server_scripts/create.js"
-hash = "7e2512a1a8514a725e7ae82cf78a8b7b7b3e7b1482555c83ce370c26b10255f9"
-
-[[files]]
-file = "kubejs/server_scripts/flywheel.js"
-hash = "e7ed7c028e7c94078944e516b404a2cde5f844ff778a4f06276fe09837798e97"
-
-[[files]]
-file = "kubejs/server_scripts/furnace_engine.js"
-hash = "6fb0de72b3e38e7c27fde793973cffc1d0ce773a07b6ae2cd72cb9d92ea687f9"
-
-[[files]]
-file = "kubejs/server_scripts/hand_cogwheel.js"
-hash = "1784e8c91b63489dae14724126fe3105a271fba65f45429c11c7fbc22c6265b3"
-
-[[files]]
-file = "kubejs/server_scripts/kinetic_tiers.js"
-hash = "629f74b3621211275c17e5d7c5b68d7966862e4f35cb336b0d6dc27446e9ba8f"
-
-[[files]]
-file = "kubejs/server_scripts/lowheated.js"
-hash = "bfb5c35d7c04747801eaed17afae0e3f1ef50fafa593656bcacfbe8c60d7d882"
-
-[[files]]
-file = "kubejs/server_scripts/materials.js"
-hash = "7b45aa397ebc83d76eed2d5946214f8080e6f19f54910e09d1a95e83d0a90fdc"
-
-[[files]]
-file = "kubejs/server_scripts/metallurgy.js"
-hash = "ee2165ab70653aeed67078742af501a93d2b9e4887b016f6bddaf62037131516"
-
-[[files]]
-file = "kubejs/server_scripts/molds.js"
-hash = "108524065a1ac0018808d103ed3a704e480871b2a5ea8185b4134b10267a665b"
-
-[[files]]
-file = "kubejs/server_scripts/netherite.js"
-hash = "1b5fc9576d0b98d3a7ea8a59282e0f7470a649d5a34386421102db188816fb9f"
-
-[[files]]
-file = "kubejs/server_scripts/ore_byproducts.js"
-hash = "84c8b02773eea83a10d1c3ffe00389165aee2843d1ca99ae6f1ed67543c3371c"
-
-[[files]]
-file = "kubejs/server_scripts/power_sources.js"
-hash = "59c6391229e2dc4b944b48d54d7265267999509538175f36fa29d748b887500d"
-
-[[files]]
-file = "kubejs/server_scripts/proficiency.js"
-hash = "6493cb180100c375fc742e334c0dbe0fec4199beb13fbe591a1332f05a5b49d8"
-
-[[files]]
-file = "kubejs/server_scripts/rpm_conversion.js"
-hash = "62c51df03af04684a42163d78b4ce908d8185365dc040662b17911d0c6bdddca"
-
-[[files]]
-file = "kubejs/server_scripts/rpm_machines.js"
-hash = "37013543b5a48c3d4454926936a86525ff6fb4682079402c97e0ada3ab889d1a"
-
-[[files]]
-file = "kubejs/server_scripts/shafts_to_crude.js"
-hash = "c2ff7c4a4361caeb521ddedc1004c2f7e94497014282435fd1b006beeee3bf0e"
-
-[[files]]
-file = "kubejs/server_scripts/tool_heads.js"
-hash = "7eec2de621b8bad01c6853e2113505483b0dc3dae8a7c04f7e830eab5052ed0e"
-
-[[files]]
-file = "kubejs/server_scripts/tools.js"
-hash = "cde97ba5c9f5d77381033a4be96c849112db1b344d2f9025adede9bdaf5479af"
-
-[[files]]
-file = "kubejs/startup_scripts/blocks.js"
-hash = "2df165d09ace24770ad9b0d1b3ae3d424df0999cca13cf3d5bed435180b8e7a4"
-
-[[files]]
-file = "kubejs/startup_scripts/fluids.js"
-hash = "812b64de18a7d5804ba7acf03c93b569c3d07247cae6203791fb4b85772e1d58"
-
-[[files]]
-file = "kubejs/startup_scripts/materials.js"
-hash = "00902d44098d6b57c4eda03b6f82e407e28bc5aafa85aae755c3f99bcca3a1e7"
-
-[[files]]
-file = "kubejs/startup_scripts/molds.js"
-hash = "5cc8ba5a1f185017c289b41913ba3191d36c2f33414ba02058be4bca0a4ed203"
-
-[[files]]
-file = "kubejs/startup_scripts/tiers.js"
-hash = "049cc9025d67290a4a9f6ce9004d555fd9572cf8017a1d126475bebf113c30f6"
-
-[[files]]
-file = "kubejs/startup_scripts/tool_heads.js"
-hash = "04bd278221809033f262a69116c52687dcfe2827f65fe9a96e917011e05a48a7"
-
-[[files]]
-file = "kubejs/startup_scripts/tools.js"
-hash = "d18a327dfb65d76658e0f7736185eb09bc27d8079faa8ee2b89ac391f6b1df1f"
 
 [[files]]
 file = "mods/accessories.pw.toml"
