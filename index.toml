@@ -881,6 +881,10 @@ file = "kubejs/assets/kubejs/textures/item/andesite_alloy_sword_head.png"
 hash = "02212c5ee20cfb2557928c7a48e71dca941a4c6e737fd25a2bfe97bc2cb294fe"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/andesite_dust.png"
+hash = "0f87f6274e0ca5f69d151c8bd2e93eb574537b6bfa02e6b8358ae8c36d562c08"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/brass_axe_head.png"
 hash = "12f9bf5861e4aa5cc2f3e4f5557faf005d646ab8ed67f3cedab8cb3bdce72b4a"
 
@@ -1165,16 +1169,40 @@ file = "kubejs/assets/kubejs/textures/item/refractory_mortar_axe_mold.png"
 hash = "f771de90f8e47007feabcaf6411129dd989cb47aeea6595696e31c3885eda587"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/refractory_mortar_blank_mold.png"
+hash = "4c0e7b8333ee866a1ccb217e5eb37498ec50de6d0cea1c5bcd9e80dee9275401"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/refractory_mortar_gear_mold.png"
+hash = "a64f6a04706bb5f231abb0ed04f9a4132f44e59c157b7026bcf6880e08696a3b"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/refractory_mortar_hoe_mold.png"
 hash = "b32ca740985d48d7cdabb08a918c0496325dec9a75b1eaa67b3a1d932636eb66"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/refractory_mortar_ingot_mold.png"
+hash = "4fa1591ad1ced68761a76297a50857dfdadb57d7c836db2e41e1f1baae587cb1"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/refractory_mortar_mold.png"
 hash = "1cfb8fa39b8ff5e440cc28e2562b56d9485a4732a74cbfe025c28ec11b20adf2"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/refractory_mortar_nugget_mold.png"
+hash = "454e70367c939ccad9c98e4af125520c36577645d90a2c274cc12d938d0263c7"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/refractory_mortar_pickaxe_mold.png"
 hash = "97d2797513abb60c238674863234d20e7f9a2e35cc421d99f89ed0fce17325e8"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/refractory_mortar_plate_mold.png"
+hash = "9a805e9842df1c5052dab94f4530969c499b8fb054934a5d2c08ce027ca7e364"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/refractory_mortar_rod_mold.png"
+hash = "0dcbca5a0886609c512eef282c0cf81b99efa2157504cc33f41bd4660f7eef6a"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/refractory_mortar_shovel_mold.png"
@@ -1451,6 +1479,26 @@ hash = "2cc93a05b9645bd224d4fcca968721ae75d9ff5a9222cfcba6ff0af13eb154b3"
 [[files]]
 file = "kubejs/data/moonscenty/puffish_skills/config.json"
 hash = "0c52a8616e7c9a730026ad31fe199830e2e1656ce82526e2ec8c9ed9fef233ac"
+
+[[files]]
+file = "kubejs/server_scripts/molds.js"
+hash = "496788369c98346ae39a7e5189a9a7ff28503180ee5fed1147db3afbba6c3e4b"
+
+[[files]]
+file = "kubejs/server_scripts/stone_age.js"
+hash = "a5519cf11c7a1e8c29464d070594398a4c62db2c04d7e0c9f135384a764983c5"
+
+[[files]]
+file = "kubejs/startup_scripts/blocks.js"
+hash = "3f7c8ab1385d9060e8215e9fb9999644a0dc8042aaed97996f5e9cb2760ecf18"
+
+[[files]]
+file = "kubejs/startup_scripts/fluids.js"
+hash = "812b64de18a7d5804ba7acf03c93b569c3d07247cae6203791fb4b85772e1d58"
+
+[[files]]
+file = "kubejs/startup_scripts/items.js"
+hash = "c946e04b4ed2f306419284d77d4d74114577fd47b3fd4cffaeec4ee2ed03a640"
 
 [[files]]
 file = "mods/accessories.pw.toml"
