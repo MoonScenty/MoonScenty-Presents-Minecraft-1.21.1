@@ -1,15 +1,736 @@
 {
+	autofocus_id: "5A0E100000000101"
 	default_hide_dependency_lines: false
 	default_quest_shape: "circle"
 	filename: "stone_age"
 	group: "4D41494E51554553"
 	icon: {
-		id: "minecraft:stone_pickaxe"
+		id: "create:andesite_casing"
 	}
 	id: "5A0E000000000001"
 	images: [ ]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			icon: {
+				id: "create:raw_zinc"
+			}
+			id: "5A0E100000000101"
+			rewards: [{
+				id: "5A0E300000000000"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				count: 8L
+				id: "5A0E200000000000"
+				item: { count: 1, id: "create:raw_zinc" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000000101"]
+			icon: {
+				id: "create:zinc_ingot"
+			}
+			id: "5A0E100000000102"
+			rewards: [{
+				id: "5A0E300000000001"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				count: 4L
+				id: "5A0E200000000001"
+				item: { count: 1, id: "create:zinc_ingot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000000101"]
+			icon: {
+				id: "minecraft:andesite"
+			}
+			id: "5A0E100000000103"
+			rewards: [{
+				id: "5A0E300000000002"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				count: 16L
+				id: "5A0E200000000002"
+				item: { count: 1, id: "minecraft:andesite" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E100000000103"]
+			icon: {
+				id: "create:hand_crank"
+			}
+			id: "5A0E100000000201"
+			rewards: [{
+				id: "5A0E300000000003"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000000003"
+				item: { count: 1, id: "create:hand_crank" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E100000000201"]
+			icon: {
+				id: "createhandcogwheel:hand_cogwheel"
+			}
+			id: "5A0E100000000202"
+			rewards: [{
+				id: "5A0E300000000004"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000000004"
+				item: { count: 1, id: "createhandcogwheel:hand_cogwheel" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E100000000202"]
+			icon: {
+				id: "create:millstone"
+			}
+			id: "5A0E100000000203"
+			rewards: [{
+				id: "5A0E300000000005"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000000005"
+				item: { count: 1, id: "create:millstone" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E100000000102"]
+			icon: {
+				id: "create:industrial_iron_block"
+			}
+			id: "5A0E100000000301"
+			rewards: [{
+				id: "5A0E300000000006"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				count: 8L
+				id: "5A0E200000000006"
+				item: { count: 1, id: "create:industrial_iron_block" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000000301"]
+			icon: {
+				id: "kubejs:manufactured_iron_block"
+			}
+			id: "5A0E100000000302"
+			rewards: [{
+				id: "5A0E300000000007"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				count: 8L
+				id: "5A0E200000000007"
+				item: { count: 1, id: "kubejs:manufactured_iron_block" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000000302"]
+			icon: {
+				id: "createmetallurgy:refractory_mortar"
+			}
+			id: "5A0E100000000401"
+			rewards: [{
+				id: "5A0E300000000008"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000000008"
+				item: { count: 1, id: "createmetallurgy:refractory_mortar" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000000401"]
+			icon: {
+				id: "createmetallurgy:foundry_basin"
+			}
+			id: "5A0E100000000402"
+			rewards: [{
+				id: "5A0E300000000009"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000000009"
+				item: { count: 1, id: "createmetallurgy:foundry_basin" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5A0E100000000402"]
+			icon: {
+				id: "createmetallurgy:foundry_lid"
+			}
+			id: "5A0E100000000403"
+			rewards: [{
+				id: "5A0E30000000000A"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000000000A"
+				item: { count: 1, id: "createmetallurgy:foundry_lid" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5A0E100000000402"]
+			icon: {
+				id: "createlowheated:basic_burner"
+			}
+			id: "5A0E100000000404"
+			rewards: [{
+				id: "5A0E30000000000B"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000000000B"
+				item: { count: 1, id: "createlowheated:basic_burner" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5A0E100000000302"]
+			icon: {
+				id: "createmetallurgy:casting_basin"
+			}
+			id: "5A0E100000000501"
+			rewards: [{
+				id: "5A0E30000000000C"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000000000C"
+				item: { count: 1, id: "createmetallurgy:casting_basin" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000000302"]
+			icon: {
+				id: "createmetallurgy:casting_table"
+			}
+			id: "5A0E100000000502"
+			rewards: [{
+				id: "5A0E30000000000D"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000000000D"
+				item: { count: 1, id: "createmetallurgy:casting_table" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000000302"]
+			icon: {
+				id: "createmetallurgy:sturdy_whisk"
+			}
+			id: "5A0E100000000503"
+			rewards: [{
+				id: "5A0E30000000000E"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000000000E"
+				item: { count: 1, id: "createmetallurgy:sturdy_whisk" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000000503"]
+			icon: {
+				id: "createmetallurgy:foundry_mixer"
+			}
+			id: "5A0E100000000504"
+			rewards: [{
+				id: "5A0E30000000000F"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000000000F"
+				item: { count: 1, id: "createmetallurgy:foundry_mixer" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000000401"]
+			icon: {
+				id: "createmetallurgy:refractory_mortar_ball"
+			}
+			id: "5A0E100000000601"
+			rewards: [{
+				id: "5A0E300000000010"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				count: 8L
+				id: "5A0E200000000010"
+				item: { count: 1, id: "createmetallurgy:refractory_mortar_ball" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A0E100000000601"]
+			icon: {
+				id: "kubejs:refractory_mortar_blank_mold"
+			}
+			id: "5A0E100000000602"
+			rewards: [{
+				id: "5A0E300000000011"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000000011"
+				item: { count: 1, id: "kubejs:refractory_mortar_blank_mold" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000000602"]
+			icon: {
+				id: "kubejs:refractory_mortar_ingot_mold"
+			}
+			id: "5A0E100000000603"
+			rewards: [{
+				id: "5A0E300000000012"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000000012"
+				item: { count: 1, id: "kubejs:refractory_mortar_ingot_mold" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A0E100000000603"]
+			icon: {
+				id: "createmetallurgy:graphite_ingot_mold"
+			}
+			id: "5A0E100000000604"
+			rewards: [{
+				id: "5A0E300000000013"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000000013"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A0E100000000203"]
+			icon: {
+				id: "kubejs:andesite_dust"
+			}
+			id: "5A0E100000000701"
+			rewards: [{
+				id: "5A0E300000000014"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				count: 4L
+				id: "5A0E200000000014"
+				item: { count: 1, id: "kubejs:andesite_dust" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000000203"]
+			icon: {
+				id: "createmetallurgy:zinc_dust"
+			}
+			id: "5A0E100000000702"
+			rewards: [{
+				id: "5A0E300000000015"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				count: 4L
+				id: "5A0E200000000015"
+				item: { count: 1, id: "createmetallurgy:zinc_dust" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5A0E100000000404"
+				"5A0E100000000504"
+				"5A0E100000000603"
+				"5A0E100000000701"
+				"5A0E100000000702"
+			]
+			icon: {
+				id: "create:andesite_alloy"
+			}
+			id: "5A0E100000000801"
+			rewards: [{
+				id: "5A0E300000000016"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000000016"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A0E100000000801"]
+			icon: {
+				id: "minecraft:crafting_table"
+			}
+			id: "5A0E100000000802"
+			rewards: [{
+				id: "5A0E300000000017"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000000017"
+				type: "checkmark"
+			}]
+			x: 20.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5A0E100000000801"]
+			icon: {
+				id: "create:andesite_casing"
+			}
+			id: "5A0E100000000901"
+			rewards: [{
+				id: "5A0E300000000018"
+				type: "xp"
+				xp: 40
+			}]
+			size: 2.0d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000000018"
+				item: { count: 1, id: "create:andesite_casing" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A0E100000000504"]
+			icon: {
+				id: "create:wrench"
+			}
+			id: "5A0E100000000505"
+			optional: true
+			rewards: [{
+				id: "5A0E300000000505"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000000505"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+	]
 }

@@ -298,7 +298,7 @@ hash = "fcdac77588c94b3b8cf8a3f39646a74359d32a09671006ec7c59eec666096a10"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stone_age.snbt"
-hash = "028d839c642e890a1dcd6b210e19dc7a798171c454a962cc352fe56a82a1762a"
+hash = "53a1e2383924ca02d7012ad47aaac6f09a07fbdd638884c322a795f81599e38f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage.snbt"
@@ -326,7 +326,7 @@ hash = "6cde88d5b4af7175fee7054dec818968be37abd1a1d77c7c22817bda7a0932ad"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "80c2d0e63af886f057631eef83430e190fb7426e6d3716aa145f49719bd950f5"
+hash = "c6e93633089d7d8a3276f779cc346059dc141088f64a5d475703fa8985fa654b"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_00_welcome.snbt"
