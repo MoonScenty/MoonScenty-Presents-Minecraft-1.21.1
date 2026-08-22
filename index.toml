@@ -1813,11 +1813,6 @@ hash = "dc9680cc5e4444efb3c40dff62d3f71d5e96f31d568fa3ebe1e3f36109c324c8"
 metafile = true
 
 [[files]]
-file = "mods/create-recipe-need-rpm.pw.toml"
-hash = "8f4f7a2b1dbd81705fd82f9e57862fde3999e96abe070a3e0bc90fe7d3661c93"
-metafile = true
-
-[[files]]
 file = "mods/create-rubberworks.pw.toml"
 hash = "31c3d1a049b685618fbc3edb730f36d438b446c539ccc84471179a22bcab1fca"
 metafile = true
