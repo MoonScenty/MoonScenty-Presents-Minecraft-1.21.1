@@ -1506,7 +1506,7 @@ hash = "0dc2d2158c09d5eea1b3a2a3b894109eab0409857bcbb767b31154993a2401cb"
 
 [[files]]
 file = "kubejs/startup_scripts/tiers.js"
-hash = "4fcd3c9e2232fc477d4af31f067bb5cd0b8510c3ca2cdbe45c75a7bc1b544390"
+hash = "631fb6031321e0326ca8f724db64ac2e00c6aa16b9d9927c3b1622c3bf748f37"
 
 [[files]]
 file = "mods/accessories.pw.toml"
