@@ -2,11 +2,16 @@
 
 Create 기술 시대의 첫 장입니다. 바닐라 튜토리얼의 철기 구간을 마친 플레이어가 진입합니다.
 
+## 진행 방식
+
+안산암과 아연을 얻고 야금 기계와 거푸집, 열원을 만드는 법을 익히면서 최종 목표인 **안산암 케이싱**에 도달하도록 합니다.
+
 ## 구현 현황
 
 - **레시피 구현 완료.** `kubejs/server_scripts/`와 `kubejs/startup_scripts/`의 다섯 파일에 들어 있습니다.
-- **퀘스트 챕터 작성 완료.** 인게임 검증이 남아 있습니다.
-- 게임 내 기본 언어와 관계없이 같은 문구가 표시되도록 `en_us` 언어 파일에 한글 제목과 부제를 작성합니다. 설명은 아직 비어 있습니다.
+- **퀘스트 챕터 작성 완료.** 26개이며 제목, 부제, 설명을 모두 넣었습니다. 인게임 검증이 남아 있습니다.
+- 게임 내 기본 언어와 관계없이 같은 문구가 표시되도록 `en_us` 언어 파일에 한글로 작성합니다.
+- 설명은 핵심만 세 문장 이내로 적고 문단 사이를 빈 줄로 띄웁니다. 길어지는 것은 선택 퀘스트로 뺍니다.
 
 ## 설계 원칙
 
@@ -39,8 +44,8 @@ Create의 산업용 철 블록은 석재 절단으로 **철 주괴 하나에서 
 
 | 대상 | 제거 | 추가 |
 | --- | --- | --- |
-| 손 크랭크 | `create:crafting/kinetics/hand_crank` | shaped — 판자 3, 안산암 1 |
-| 손 톱니바퀴 | `createhandcogwheel:hand_cogwheel` | shapeless — 손 크랭크, 안산암, 판자 |
+| 손 크랭크 | `create:crafting/kinetics/hand_crank` | shaped — `#minecraft:planks` 3, `minecraft:andesite` 1 |
+| 손 톱니바퀴 | `createhandcogwheel:hand_cogwheel` | shapeless — `create:hand_crank`, `minecraft:andesite`, `#minecraft:planks` |
 
 원본은 둘 다 안산암 합금을 요구합니다. 합금이 이 시대의 목표이므로 순환이 생겨 안산암 원석으로 내렸습니다.
 
@@ -64,7 +69,7 @@ SSS     C = #c:cobblestones
 
 | 기계 | 제거할 레시피 | 배치 |
 | --- | --- | --- |
-| 내화 모르타르 | (제거 없음, 수동 제작법 추가) | shapeless — 모래 4, 물 양동이, 점토 4 |
+| 내화 모르타르 | (제거 없음, 수동 제작법 추가) | shapeless — `#c:sands` 4, `minecraft:water_bucket` 1, `minecraft:clay_ball` 4 |
 | Foundry Basin | `createmetallurgy:crafting/content/foundry_basin` | `M M` / `MRM` / `MMM` |
 | Foundry Lid | `createmetallurgy:crafting/content/foundry_lid` | `MMM` / `M M` |
 | Casting Basin | `createmetallurgy:crafting/content/casting_basin` | `M M` / `M M` / ` M ` |
@@ -72,7 +77,15 @@ SSS     C = #c:cobblestones
 | Sturdy Whisk | `createmetallurgy:crafting/content/sturdy_whisk` | ` A ` / `MAM` / `MMM` |
 | Foundry Mixer | `createmetallurgy:crafting/content/foundry_mixer` | `PAP` / `CLC` / ` W ` |
 
-`M` 승급 철 블록 · `R` 내화 모르타르 · `A` 안산암 · `P` 판자 · `C` 구리 주괴 · `L` 껍질 벗긴 원목 · `W` 튼튼한 거품기
+| 기호 | 재료 | ID |
+| --- | --- | --- |
+| `M` | 승급 철 블록 | `kubejs:manufactured_iron_block` |
+| `R` | 내화 모르타르 | `createmetallurgy:refractory_mortar` |
+| `A` | 안산암 | `minecraft:andesite` |
+| `P` | 판자 | `#minecraft:planks` |
+| `C` | 구리 주괴 | `#c:ingots/copper` |
+| `L` | 껍질 벗긴 원목 | `#c:stripped_logs` |
+| `W` | 튼튼한 거품기 | `createmetallurgy:sturdy_whisk` |
 
 내화 모르타르의 원본은 혼합기(모래 2 + 점토 1 + 물 100mb)를 씁니다. 혼합기는 안산암 케이싱을 먹으므로 이 시대에 없습니다. 재료를 더 들이는 대신 손으로 만들 수 있게 했습니다.
 
@@ -93,7 +106,7 @@ SSS     C = #c:cobblestones
 | 항목 | 값 |
 | --- | --- |
 | ID | `kubejs:refractory_mortar_{blank,ingot,nugget,plate,rod,gear}_mold` |
-| 빈 거푸집 제작 | shaped — `refractory_mortar_ball` 8개를 테두리에 |
+| 빈 거푸집 제작 | shaped — `createmetallurgy:refractory_mortar_ball` 8개를 테두리에, **1개 출력** |
 | 형태 변환 | 석재 절단, 태그 `#kubejs:refractory_mortar_molds` |
 
 모르타르 볼은 자체 제작법이 없습니다. 모르타르 블록을 분해해야만 나오므로 **거푸집 1개는 블록 2개, 즉 모래 8개와 점토 8개**입니다. 거푸집이 일회용이므로 이것이 그대로 주조의 유지비가 됩니다.
@@ -136,24 +149,26 @@ Metallurgy의 기본 주조 레시피는 거푸집을 태그가 아니라 **아�
 
 ## 퀘스트 구성
 
-챕터 `stone_age`에 퀘스트 25개를 아홉 묶음으로 배치했습니다.
+챕터 `stone_age`에 퀘스트 26개를 아홉 묶음으로 배치했습니다.
 
 ```text
 [튜토리얼: 철기 구간]
    │
-   ├─ 원광 아연 ─ 아연 주괴 ─┬─ 산업용 철 블록 ─ 승급 철 블록 ─┬─ 내화 모르타르 ─┬─ 용해로 대야 ─ 뚜껑
-   │                          │                                  │                 │
-   └─ 안산암 ─ 손 크랭크 ─────┘                                  │                 ├─ 기초 버너
-              └ 손 톱니바퀴 ─ 맷돌 ─┬─ 안산암 가루               │                 ├─ 주조 대야
-                                     └─ 아연 가루                 │                 ├─ 주조 탁자
-                                                                  │                 └─ 거품기 ─ 믹서
-                                                                  │
-                                                                  └─ 모르타르 볼 ─ 빈 거푸집 ─ 잉곳 거푸집
-                                                                                                   │
-                                                                        안산암 합금 ────────────────┘
-                                                                             │
-                                                                      안산암 케이싱
+   └─ 원광 아연 ─┬─ 아연 주괴 ─ 산업용 철 블록 ─ 승급 철 블록 ─┬─ 내화 모르타르 ─┬─ 용해로 대야 ─ 뚜껑
+                 │                                              │                 │
+                 └─ 안산암 ─ 손 크랭크 ─ 손 톱니바퀴 ─ 맷돌 ─┐  │                 ├─ 기초 버너
+                                                              │  │                 ├─ 주조 대야
+                                             ┌────────────────┘  │                 ├─ 주조 탁자
+                                             ├─ 안산암 가루      │                 └─ 거품기 ─ 믹서 ─ (선택) 뚜껑 창
+                                             └─ 아연 가루        │
+                                                                 └─ 모르타르 볼 ─ 빈 거푸집 ─ 잉곳 거푸집
+                                                                                                  │
+                                                                       안산암 합금 ───────────────┘
+                                                                            │
+                                                                     안산암 케이싱
 ```
+
+합금 퀘스트에 기초 버너, 믹서, 잉곳 거푸집, 안산암 가루, 아연 가루 다섯 갈래가 모입니다. 설비를 다 세우지 않으면 닿지 않습니다.
 
 | 장 | 내용 | 개수 |
 | --- | --- | --- |
@@ -161,11 +176,17 @@ Metallurgy의 기본 주조 레시피는 거푸집을 태그가 아니라 **아�
 | 2 | 손 동력 — 손 크랭크, 손 톱니바퀴, 맷돌 | 3 |
 | 3 | 승급 철 — 산업용 철 블록, 승급 철 블록 | 2 |
 | 4 | 용해로 — 내화 모르타르, 대야, 뚜껑, 기초 버너 | 4 |
-| 5 | 주조 설비 — 주조 대야, 주조 탁자, 거품기, 믹서 | 4 |
+| 5 | 주조 설비 — 주조 대야, 주조 탁자, 거품기, 믹서, (선택) 뚜껑 창 | 5 |
 | 6 | 거푸집 — 모르타르 볼, 빈 거푸집, 잉곳 거푸집, 소모 안내 | 4 |
 | 7 | 분쇄 — 안산암 가루, 아연 가루 | 2 |
 | 8 | 합금 — 안산암 합금, 지름길 없음 안내 | 2 |
 | 9 | 결승선 — 안산암 케이싱 | 1 |
+
+### 선택 퀘스트
+
+**뚜껑에 창을 냅니다** — `foundry_lid`에는 `window` 상태가 따로 있고, 렌치로 창을 내지 않으면 믹서가 아래 쇳물을 섞지 않습니다. 믹서 퀘스트 본문에 넣으면 세 문장을 넘겨 떼어냈습니다.
+
+설명에 적은 조작은 모드의 Ponder 문구에서 확인한 것만 씁니다. 용해로 대야가 같은 종류 아홉 개까지 담는 것, 뚜껑이 닫혀야 공정이 시작되는 것, 주조 탁자의 잠금 칸도 같은 출처입니다.
 
 ## 검토가 필요한 부분
 
@@ -173,7 +194,6 @@ Metallurgy의 기본 주조 레시피는 거푸집을 태그가 아니라 **아�
 - **아연 획득 경로가 셋입니다.** 원광 제련, 광석 블록 직접 제련, 분쇄 원광 제련 모두 화로면 됩니다. 막을 이유는 없어 보이지만 후반에 분쇄기가 생기면 수율이 올라갑니다.
 - 승급 철 블록이 아연 34개를 요구합니다. 설비를 세우는 초반 부담이 적절한지 측정합니다.
 - 흑연 거푸집은 이 시대에서 얻을 수 없습니다. 재사용 거푸집을 어느 시대에 열지 정해야 합니다.
-- 퀘스트 설명(`quest_desc`)이 비어 있습니다.
 
 ## 참고 자료
 
