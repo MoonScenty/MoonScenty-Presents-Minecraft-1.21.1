@@ -1481,6 +1481,10 @@ file = "kubejs/data/moonscenty/puffish_skills/config.json"
 hash = "0c52a8616e7c9a730026ad31fe199830e2e1656ce82526e2ec8c9ed9fef233ac"
 
 [[files]]
+file = "kubejs/server_scripts/andesite_alloy_age.js"
+hash = "4ac640f7d8e7ba277a116611e7dfd8ebfff4a84e81214500ab28d798ae227b77"
+
+[[files]]
 file = "kubejs/server_scripts/molds.js"
 hash = "496788369c98346ae39a7e5189a9a7ff28503180ee5fed1147db3afbba6c3e4b"
 
@@ -1490,7 +1494,7 @@ hash = "a5519cf11c7a1e8c29464d070594398a4c62db2c04d7e0c9f135384a764983c5"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
-hash = "3f7c8ab1385d9060e8215e9fb9999644a0dc8042aaed97996f5e9cb2760ecf18"
+hash = "48bd334ea11a195d16d4dfbca7590c41256653dba067a879f88db3f28a3c9be3"
 
 [[files]]
 file = "kubejs/startup_scripts/fluids.js"
@@ -1498,7 +1502,7 @@ hash = "812b64de18a7d5804ba7acf03c93b569c3d07247cae6203791fb4b85772e1d58"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "c946e04b4ed2f306419284d77d4d74114577fd47b3fd4cffaeec4ee2ed03a640"
+hash = "0dc2d2158c09d5eea1b3a2a3b894109eab0409857bcbb767b31154993a2401cb"
 
 [[files]]
 file = "kubejs/startup_scripts/tiers.js"

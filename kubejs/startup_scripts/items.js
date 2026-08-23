@@ -39,4 +39,15 @@ StartupEvents.registry('item', event => {
       .displayName(`Refractory Mortar ${name} Mold`)
       .texture(`kubejs:item/refractory_mortar_${id}_mold`)
   })
+
+  // 팬으로 유령 가공한 황동 판.
+  //
+  // 황동 케이싱을 만드는 유일한 재료다. 황동 주괴와 판은 자유롭게 만들 수
+  // 있고 이 한 단계만 팬을 요구하므로, 팬이 안산암 합금 시대의 마지막
+  // 관문이 된다.
+  //
+  // 텍스처는 아직 황동 판을 그대로 빌려 쓴다.
+  event.create('haunted_brass_sheet')
+    .displayName('Haunted Brass Sheet')
+    .texture('create:item/brass_sheet')
 })

@@ -19,4 +19,20 @@ StartupEvents.registry('block', event => {
     .resistance(6)
     .requiresTool()
     .tag(['minecraft:mineable/pickaxe', 'minecraft:needs_stone_tool'])
+
+  // 구리 케이싱에 고무를 댄 것.
+  //
+  // 유체를 다루는 기계 넷이 전부 이것을 요구한다. 고무를 만들어야 유체로
+  // 넘어가는 순서를 이 블록 하나로 강제한다.
+  //
+  // Item Application은 놓여 있는 블록을 바꾸는 방식이라 아이템이 아니라
+  // 블록이어야 한다. 텍스처는 아직 구리 케이싱을 그대로 빌려 쓴다.
+  event.create('waterproof_copper_casing')
+    .displayName('Waterproof Copper Casing')
+    .parentModel('minecraft:block/cube_all')
+    .textures({ all: 'create:block/copper_casing' })
+    .soundType(SoundType.WOOD)
+    .hardness(2)
+    .resistance(4)
+    .tag(['minecraft:mineable/axe'])
 })
