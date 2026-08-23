@@ -1501,6 +1501,10 @@ file = "kubejs/startup_scripts/items.js"
 hash = "c946e04b4ed2f306419284d77d4d74114577fd47b3fd4cffaeec4ee2ed03a640"
 
 [[files]]
+file = "kubejs/startup_scripts/tiers.js"
+hash = "4fcd3c9e2232fc477d4af31f067bb5cd0b8510c3ca2cdbe45c75a7bc1b544390"
+
+[[files]]
 file = "mods/accessories.pw.toml"
 hash = "39ec3cac812f819f45b88a70f6b83eb8c0e6007e9272bbccfb3f364b421d2631"
 metafile = true
