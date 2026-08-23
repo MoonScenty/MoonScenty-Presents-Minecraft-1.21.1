@@ -8,14 +8,16 @@ Create 기술 시대의 두 번째 장입니다. 석기 시대를 안산암 케�
 
 ```
 안산암 합금 → 동력 부품과 기계
+안산암 합금 → 벨트와 퍼널, 물류의 시작
 압착기 → 구리 판 → 구리 케이싱 → 유체 가공 → 고무
 고무 → 믹서 → 팬 → 유령 가공 → 황동 케이싱
 ```
 
 ## 구현 현황
 
-- **설계 단계입니다.** 레시피와 퀘스트 모두 아직 작성하지 않았습니다.
-- 티어 등록만 `kubejs/startup_scripts/tiers.js`에 들어가 있습니다. 부품 제작법은 없습니다.
+- 티어 등록은 `kubejs/startup_scripts/tiers.js`에 있습니다.
+- 레시피는 `kubejs/server_scripts/andesite_alloy_age.js`에 있습니다. 제거 24건, 추가 30건입니다.
+- 퀘스트는 `config/ftbquests/quests/chapters/andesite_alloy_age.snbt`에 있습니다. 본선 28개, 선택 28개입니다.
 - 문서의 레시피 ID 46개와 아이템 ID 16개는 전부 팩에서 실재를 확인했습니다.
 
 ## 설계 원칙
@@ -37,14 +39,42 @@ Create 기술 시대의 두 번째 장입니다. 석기 시대를 안산암 케�
 
 ```js
 CreateTiers.registerTiers([
-  { name: 'andesite_alloy', level: 1, maxRPM: 32,  maxSU: 1024,     shaftColor: 0x707572, cogwheelColor: 0x6E7A73, displayName: 'Andesite Alloy' },
-  { name: 'brass',          level: 2, maxRPM: 64,  maxSU: 2048,     shaftColor: 0x707572, cogwheelColor: 0xC89B59, displayName: 'Brass' },
-  { name: 'steel',          level: 3, maxRPM: 128, maxSU: 4096,     shaftColor: 0x707572, cogwheelColor: 0x8A8D91, displayName: 'Steel' },
-  { name: 'void_steel',     level: 4, maxRPM: 256, maxSU: 67108864, shaftColor: 0x936C3D, cogwheelColor: 0x258474, displayName: 'Void Steel' }
+  { name: 'andesite_alloy', level: 1, maxRPM: 32,  maxSU: 1024,     shaftColor: 0xF5FFF6, cogwheelColor: 0xF5FFF6, displayName: 'Andesite Alloy' },
+  { name: 'brass',          level: 2, maxRPM: 64,  maxSU: 2048,     shaftColor: 0xFFC672, cogwheelColor: 0xFFC672, displayName: 'Brass' },
+  { name: 'steel',          level: 3, maxRPM: 128, maxSU: 4096,     shaftColor: 0xA5A5A5, cogwheelColor: 0xAAAAAA, displayName: 'Steel' },
+  { name: 'void_steel',     level: 4, maxRPM: 256, maxSU: 67108864, shaftColor: 0x1E9D8A, cogwheelColor: 0x1EA28E, displayName: 'Void Steel' }
 ])
 ```
 
 아이템 ID는 `createtiers:<부품>_<티어>` 형태입니다. 인게임에서 확인했습니다.
+
+#### 색상 값의 의미
+
+두 색은 화면에 그대로 찍히는 값이 아닙니다. Create Tiers는 Create의 원본 텍스처를 Rec.709 휘도로 회색조화한 뒤 바닐라 색 핸들러로 **곱하기 틴트**를 겁니다.
+
+```
+화면에 보이는 색 = 회색조 밝기 × 틴트 / 255
+```
+
+재질의 색을 그대로 적으면 두 번 어두워집니다. 그래서 기준 텍스처의 평균 휘도로 나눠 되돌린 값을 넣었습니다.
+
+| 항목 | 기준 텍스처 | 평균 휘도 |
+| --- | --- | --- |
+| shaftColor | `create:block/axis` + `axis_top` | 113.22 |
+| cogwheelColor | `create:block/cogwheel_axis` | 110.04 |
+
+| 티어 | 재질 출처 | 재질 평균색 |
+| --- | --- | --- |
+| 안산암 합금 | `create:block/axis` 원본 | `#6E726F` |
+| 황동 | `create:block/brass_block` | `#C89B59` |
+| 강철 | `createmetallurgy:block/steel_block` | `#494949` |
+| 공허 강철 | `createutilities:block/void_steel_block` | `#0D463D` |
+
+티어마다 두 색이 거의 같은 것은 정상입니다. 둘 다 같은 금속 축을 칠하며 기준 텍스처의 밝기만 다릅니다. 톱니바퀴의 나무 이는 회색조 대상이 아니라 어떤 티어에서도 나무색으로 남습니다.
+
+황동만 예외입니다. 황동 블록이 기준 텍스처보다 밝아 곱하기 틴트로는 그 밝기에 닿지 못합니다. 색조만 맞춘 값이라 화면에서는 조금 어두운 황동으로 보입니다.
+
+강철은 Metallurgy 쪽을 기준으로 삼았습니다. Petrochem에도 같은 태그의 강철이 있고 그쪽이 조금 밝습니다(`#585858` → `0xC6C6C6` / `0xCBCBCB`).
 
 ```
 createtiers:shaft_andesite_alloy
@@ -204,6 +234,37 @@ Create Utilities J의 기어박스 셋은 산업 시대에 되살립니다. 카�
 | 스프링클러 | `sliceanddice:sprinkler` | `'CWC'` / `' P '` / `' B '` |
 
 `C` 구리 판 · `W` 방수 케이싱 · `P` `create:fluid_pipe` · `B` `minecraft:iron_bars`
+
+### 물류
+
+물류는 이 시대에 열립니다. **레시피는 손대지 않습니다.** 원본이 이미 안산암 합금과 철 판만 요구하므로 시대 구분이 그대로 맞습니다.
+
+| 대상 | 재료 | 열리는 시점 |
+| --- | --- | --- |
+| 벨트 | `minecraft:dried_kelp` 6 | 바로 |
+| 안산암 퍼널 · 터널 | 안산암 합금 + 말린 켈프 | 바로 |
+| 디팟 | 안산암 합금 + 안산암 케이싱 | 바로 |
+| 우편함 | 안산암 합금 + 통 + 염료 | 바로 |
+| 아이템 해치 | 안산암 합금 + 철 다락문 | 바로 |
+| 슈트 | `#c:plates/iron` + 철 주괴 | 압착기 이후 |
+| 아이템 보관함 | 철 판 + `#c:barrels/wooden` | 압착기 이후 |
+| 데스크 벨 | 안산암 케이싱 + `#c:plates/gold` | 압착기 이후 |
+| 휴대용 저장고 인터페이스 | 안산암 케이싱 + 슈트 | 슈트 이후 |
+| 송신기 | `#c:plates/copper` + 피뢰침 + 레드스톤 | 구리 판 이후 |
+| 레드스톤 링크 | 송신기 + 안산암 케이싱 | 송신기 이후 |
+
+**택배 계통**도 이 시대에 전부 열립니다. 골판지가 관문이며 믹서와 압착기를 함께 요구합니다.
+
+```
+대나무·사탕수수·묘목 4 + 물 250 → 펄프   (create:mixing)
+펄프 → 골판지                            (create:pressing)
+```
+
+골판지 다음으로 포장기, 우편함, 프로그포트, 스톡 링크, 스톡 티커, 레드스톤 리퀘스터가 이어집니다. 팩토리 게이지만 정밀 기구를 요구해 황동 시대로 넘어갑니다.
+
+아래 것들은 **황동 케이싱이나 전자관을 요구해 자연히 다음 시대**입니다. 따로 막을 필요가 없습니다.
+
+재고 스위치, 내용물 감지기, 디스플레이 링크, 팩토리 게이지, 기계식 팔
 
 ### 황동 — 결승선
 

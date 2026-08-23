@@ -254,7 +254,7 @@ hash = "4e0244ddc37fc5e563ebada6ce5610bf401e1e18a2ebbeeaf41dc63a887b943d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andesite_alloy_age.snbt"
-hash = "6759e6c3370553f04d90d24f9c6a08406cf94291c504dee86d683c3e1f9c7347"
+hash = "a03af7a970f40e94aa7ba09c629b4fb5a7f0d58a98281e0a906ff30c5b4cdb7e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
@@ -326,7 +326,7 @@ hash = "6cde88d5b4af7175fee7054dec818968be37abd1a1d77c7c22817bda7a0932ad"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "c6e93633089d7d8a3276f779cc346059dc141088f64a5d475703fa8985fa654b"
+hash = "c3dca90244aa1af5a9a024a16f7d8316ff7199c6329862573f181fc86c27b1da"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_00_welcome.snbt"
