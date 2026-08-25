@@ -13,6 +13,26 @@ file = "config/ae2-common.toml"
 hash = "65207df2f552fd29929199ea7fbae556276c08d0acfa3d2040d44f5666993cff"
 
 [[files]]
+file = "config/almostunified/duplicates.json"
+hash = "b70f57eadf6eec0ce43acd4c441f08feac1432826e04cb8e2736a73997c20c08"
+
+[[files]]
+file = "config/almostunified/placeholders.json"
+hash = "43733b207b9f0238c7a5bec47f19e8fd5bec80499b286e0ac4994671702dfed9"
+
+[[files]]
+file = "config/almostunified/startup.json"
+hash = "37f013c49586db025c17f9fa6657c6f239e0169ebc97ef682ff114a2ede43c5e"
+
+[[files]]
+file = "config/almostunified/tags.json"
+hash = "3f0d92c8abaf95a68ff79bb2ef9169fd598500070de7e5a616b755f9c5123e6f"
+
+[[files]]
+file = "config/almostunified/unification/materials.json"
+hash = "74f2711be50b7b8c08df045cb171043973db830b806329b5af865902d6b7a898"
+
+[[files]]
 file = "config/better-advanced-tooltips-client.toml"
 hash = "5b0da765c45397402cffe340f632544a8e740a767937f353a3a8206b6cdde0fa"
 
@@ -246,7 +266,7 @@ hash = "ba49eda8d5a51927c0aae6fde8a36bb8c10b9e519e2ef5c3563c33b1f445c32b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andesite_alloy_age.snbt"
-hash = "a03af7a970f40e94aa7ba09c629b4fb5a7f0d58a98281e0a906ff30c5b4cdb7e"
+hash = "f21172e28a93301f6de36f03b70f292c958e456a6021c0c3d0e3aaeaf8c670c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
@@ -262,7 +282,7 @@ hash = "03928ebb635ff10479897182137b3bf09baa44e982fbf982b8c82e52f39c50ab"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/brass_age.snbt"
-hash = "93f5f31a825083d678efd8c1b7f2a1a7dc51a285fbebd92ed1f2df96ea4dc862"
+hash = "e9242adf00430a635549e46cf9dfdad5322aa9395a78b154a4da3c687ad94564"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building.snbt"
@@ -318,7 +338,7 @@ hash = "6cde88d5b4af7175fee7054dec818968be37abd1a1d77c7c22817bda7a0932ad"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "167882d0ba05cd5e3fccf2eee7502019e483601286460d5602b5f3febfe4eea0"
+hash = "de8b5e05287e6a97be88348318149389c506f0fb0f2be36893da45e07896ecd7"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_00_welcome.snbt"
@@ -1490,7 +1510,7 @@ hash = "3d0daa4c38dd5e3c48280bcd66a04c392269d57903026e5896c7896c3c981bbc"
 
 [[files]]
 file = "kubejs/server_scripts/brass_age.js"
-hash = "1dd0e56d5f174ae2098220317620d43beb669cfcdbaea6da9e92a13ac173211d"
+hash = "92f05c7171764b3f16b33042d5bcfc58f4a786981b552546f0d67598f3b14d85"
 
 [[files]]
 file = "kubejs/server_scripts/metallurgy_transfer_ladle.js"
@@ -1498,7 +1518,7 @@ hash = "82898a1aa69ab521a9ee10c2beab6bc6889e4d2a8a98d78b3ba50c72f11e85f1"
 
 [[files]]
 file = "kubejs/server_scripts/molds.js"
-hash = "496788369c98346ae39a7e5189a9a7ff28503180ee5fed1147db3afbba6c3e4b"
+hash = "6d5390b88aadfa086272c16713133bd02354e119f46ec076d1a3949dc2dfcc02"
 
 [[files]]
 file = "kubejs/server_scripts/stone_age.js"
@@ -1893,6 +1913,11 @@ metafile = true
 [[files]]
 file = "mods/create-threaded-trains.pw.toml"
 hash = "5b38747d6ac0f9b216885a6a1d45508354a0ab6077d72510c73b65e147210ca5"
+metafile = true
+
+[[files]]
+file = "mods/create-tiers-engine-compat.pw.toml"
+hash = "c887e4cf65f7edf097ae587e76d8694e83b4f8038f388d21d3491da7b4179594"
 metafile = true
 
 [[files]]
