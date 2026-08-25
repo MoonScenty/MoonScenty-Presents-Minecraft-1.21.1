@@ -481,7 +481,32 @@ Petrochem 쪽 철 주괴 + 석탄 혼합은 강철을 그냥 내주므로 함께
 
 **석유 코크스 우회는 자기 자신이 막습니다.** 증류탑 제어기가 `#c:plates/steel`을 요구하므로 강철 없이는 석유 코크스에 닿지 못합니다.
 
-Metallurgy 강철 주괴를 압착하면 Petrochem 강철 판이 나옵니다. Almost Unified가 두 모드의 강철을 같은 태그로 묶어 두어 생기는 일이며, 어느 쪽 강철이든 `#c:plates/steel`로 통합됩니다.
+#### 강철은 Petrochem 것으로 통일합니다
+
+이 팩에는 강철 주괴와 블록이 두 모드에 하나씩 있습니다. 그대로 두면 JEI에 같은 물건이 둘씩 뜨고 어느 쪽을 쥐고 있느냐에 따라 되는 레시피가 갈립니다.
+
+**Almost Unified의 `mod_priorities`에 `petrochem`을 더해 해결합니다.** `config/almostunified/unification/materials.json`입니다.
+
+```json
+"mod_priorities": ["minecraft", "kubejs", "create", "petrochem"]
+```
+
+`create` 뒤에 붙입니다. Create는 강철을 들고 있지 않으므로 Petrochem이 이기고, Create가 우선인 다른 태그는 흔들리지 않습니다.
+
+Almost Unified는 레시피의 입력만이 아니라 **결과물도 통일합니다**(`unifyOutputs`). 그래서 레시피를 하나씩 다시 쓸 필요가 없습니다.
+
+두 모드가 함께 든 통일 대상 태그는 딱 둘입니다.
+
+| 태그 | 내용물 | 통일 후 |
+| --- | --- | --- |
+| `c:ingots/steel` | `createmetallurgy:steel_ingot` · `petrochem:steel_ingot` | Petrochem |
+| `c:storage_blocks/steel` | `createmetallurgy:steel_block` · `petrochem:steel_block` | Petrochem |
+
+나머지 강철 형태는 원래부터 Petrochem 것뿐이라 다툼이 없습니다 (`c:plates/steel` = `petrochem:steel_sheet`).
+
+Metallurgy 주조는 **판·봉·너깃·기어를 이미 태그로 내놓습니다.** 못박혀 있던 것은 `casting_in_table/steel/ingot`과 `casting_in_basin/steel/block` 둘뿐이고, 그 둘을 Almost Unified가 잡아 줍니다.
+
+**용융 강철은 그대로 둡니다.** `createmetallurgy:molten_steel`은 유체라 통일 대상이 아니며, 위 합금 레시피도 손댈 필요가 없습니다.
 
 #### 강철 케이싱
 

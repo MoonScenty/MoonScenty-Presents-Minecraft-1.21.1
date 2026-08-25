@@ -457,7 +457,7 @@
 		{
 			dependencies: ["5A0E100000020010"]
 			icon: {
-				id: "createmetallurgy:steel_ingot"
+				id: "petrochem:steel_ingot"
 			}
 			id: "5A0E100000020011"
 			rewards: [{
@@ -476,7 +476,7 @@
 				}
 				count: 4L
 				id: "5A0E200000020011"
-				item: { count: 1, id: "createmetallurgy:steel_ingot" }
+				item: { count: 1, id: "petrochem:steel_ingot" }
 				type: "item"
 			}]
 			x: 35.0d
