@@ -35,4 +35,21 @@ StartupEvents.registry('block', event => {
     .hardness(2)
     .resistance(4)
     .tag(['minecraft:mineable/axe'])
+
+  // 강철 케이싱.
+  //
+  // 황동 시대의 결승선이다. 안산암 케이싱에 강철 판을 우클릭해 만든다.
+  // 강철 판은 정제 코크스를 거쳐야 나오고 정제 코크스는 원심분리기를 요구하므로,
+  // 이 블록 하나가 황동 시대의 가공 사슬 전체를 뒤에 달고 있다.
+  //
+  // Item Application은 놓여 있는 블록을 바꾸는 방식이라 블록이어야 한다.
+  // 텍스처는 아직 안산암 케이싱을 그대로 빌려 쓴다.
+  event.create('steel_casing')
+    .displayName('Steel Casing')
+    .parentModel('minecraft:block/cube_all')
+    .textures({ all: 'create:block/andesite_casing' })
+    .soundType(SoundType.WOOD)
+    .hardness(2)
+    .resistance(4)
+    .tag(['minecraft:mineable/axe'])
 })
