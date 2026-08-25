@@ -1493,6 +1493,10 @@ file = "kubejs/server_scripts/brass_age.js"
 hash = "1dd0e56d5f174ae2098220317620d43beb669cfcdbaea6da9e92a13ac173211d"
 
 [[files]]
+file = "kubejs/server_scripts/metallurgy_transfer_ladle.js"
+hash = "82898a1aa69ab521a9ee10c2beab6bc6889e4d2a8a98d78b3ba50c72f11e85f1"
+
+[[files]]
 file = "kubejs/server_scripts/molds.js"
 hash = "496788369c98346ae39a7e5189a9a7ff28503180ee5fed1147db3afbba6c3e4b"
 
