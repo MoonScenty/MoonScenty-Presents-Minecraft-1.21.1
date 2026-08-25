@@ -105,7 +105,7 @@
 	quest.21BAC370613B26D5.quest_desc: ["유효한 침대와 충분한 음식을 제공해 주민을 번식시키세요. 주민 수를 늘려야 필요한 직업과 거래를 동시에 운영할 수 있습니다."]
 	quest.21BAC370613B26D5.quest_subtitle: "주민 번식"
 	quest.21BAC370613B26D5.title: "마을 인구 정상화"
-	quest.21C9C5409FFB45FA.quest_desc: ["양에게 가위를 사용해 해치지 않고 양털을 얻으세요."]
+	quest.21C9C5409FFB45FA.quest_desc: ["양에게 가위를 사용해 해치지 않고 양털을 얻으세요.", "", "양은 잔디를 먹으면 양털이 다시 자랍니다. 잡지 말고 몇 번이고 깎으세요.", "", "JEI에서 가위에 커서를 두고 &lW&r를 누르면 Ponder로 확인할 수 있습니다."]
 	quest.21C9C5409FFB45FA.quest_subtitle: "가위 사용"
 	quest.21C9C5409FFB45FA.title: "양털 깎는 노인...은 아닙니다"
 	quest.21CF78563D572C07.quest_desc: ["드래곤 처치 뒤 생성된 엔드 관문을 찾으세요. 관문을 이용해야 겉날개와 셜커가 있는 외곽 엔드에 빠르게 도달할 수 있습니다."]
@@ -363,7 +363,7 @@
 	quest.270A46992DCED9E2.quest_desc: ["요새 농장이나 보루 전리품에서 네더 사마귀를 얻으세요. 대부분의 효과 물약은 네더 사마귀로 만든 어색한 물약에서 시작합니다."]
 	quest.270A46992DCED9E2.quest_subtitle: "네더 사마귀 획득"
 	quest.270A46992DCED9E2.title: "빨간 혹 같은 그것"
-	quest.271398FBD71A64FF.quest_desc: ["양털, 나뭇잎, 덩굴과 거미줄에 사용할 가위를 만드세요."]
+	quest.271398FBD71A64FF.quest_desc: ["양털, 나뭇잎, 덩굴과 거미줄에 사용할 가위를 만드세요.", "", "JEI에서 가위에 커서를 두고 &lW&r를 누르면 Ponder가 열립니다. 양털 깎는 법과 나뭇잎 베는 법을 눈으로 볼 수 있습니다."]
 	quest.271398FBD71A64FF.quest_subtitle: "가위 제작"
 	quest.271398FBD71A64FF.title: "깎아 주세요"
 	quest.272150786C755A60.quest_desc: ["갈림길 표시를 통일하고 탐색이 끝난 막다른 길은 구분하세요."]
