@@ -1,0 +1,18 @@
+#Furnace Engine RPM when no heat sink is adjacent to the furnace
+# Default: 40
+# Range: 1 ~ 256
+baseRpm = 64
+#Furnace Engine stress capacity per RPM when no heat sink is present
+# Default: 32
+# Range: 1 ~ 1024
+baseSuPerRpm = 32
+#Block id recognized as a heat sink
+heatSinkBlock = "minecraft:copper_block"
+#Furnace Engine RPM when at least one heat sink is adjacent to the furnace
+# Default: 32
+# Range: 1 ~ 256
+heatSinkRpm = 32
+#Furnace Engine stress capacity per RPM when a heat sink is present
+# Default: 32
+# Range: 1 ~ 1024
+heatSinkSuPerRpm = 32
