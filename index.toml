@@ -113,6 +113,10 @@ file = "config/createdynlight-server.toml"
 hash = "0d33cc877b08f3f3cbcb5db499153be52578512f3ac76ce0dd38e18d07ecc150"
 
 [[files]]
+file = "config/createfurnaceengine-common.toml"
+hash = "be6be32c53b3e8c8be50e94ae6629ee2e4be8b4b5c29af47c21ad911de494e0b"
+
+[[files]]
 file = "config/createtransmission-server.toml"
 hash = "f05f18b98c32fae988fb028da22e2c0af13845ac991e638e13860aa0cade8803"
 
@@ -314,7 +318,7 @@ hash = "6cde88d5b4af7175fee7054dec818968be37abd1a1d77c7c22817bda7a0932ad"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "bdab7adcabb08ec34b81d05d1dc9fb57992794d0a87bbe1b22918c31f83f3c6f"
+hash = "cdc230fbe1a0a6119eaf927e1367331041367d306897519cb1239fcf3ee7b33e"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_00_welcome.snbt"
@@ -1359,6 +1363,10 @@ hash = "2f7acc8caa0e6d6f93bfecad0c2af5629c9312c92bb111464569b05068bf095d"
 [[files]]
 file = "kubejs/assets/zeta/lang/ko_kr.json"
 hash = "00f5ff0458f53a8728bb7b25e4262d5e12a7f1e0171ea33cf76cc190802b9f78"
+
+[[files]]
+file = "kubejs/client_scripts/ponder_shears.js"
+hash = "c566639c091d4980b835a5cba5e1c548332592cf9ef7766d292f6f67eacd9b25"
 
 [[files]]
 file = "kubejs/config/client.json"
