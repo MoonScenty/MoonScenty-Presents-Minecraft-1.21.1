@@ -507,13 +507,32 @@ ServerEvents.recipes(event => {
     if (!results.length) return
 
     const bee = (j.ingredient.components || {})['productivebees:bee_type'] || ''
-    copied.push({ ingredient: j.ingredient, results: results, bee: bee })
+
+    // 모드는 벌집 낱개(configurable_honeycomb)와 벌집 블록(configurable_comb)
+    // 양쪽에 레시피를 둔다. 둘은 산출물이 아예 다르므로 배수 관계가 아니다.
+    // 벌 종류가 같아 ID가 겹치니 입력 종류로 갈라 둔다.
+    const items = String(j.ingredient.items || j.ingredient.item || '')
+    const isBlock = items.indexOf('configurable_comb') >= 0
+
+    copied.push({ ingredient: j.ingredient, results: results, bee: bee, isBlock: isBlock })
   })
 
   const COMB_SKIP = ['productivebees:breeze', 'productivebees:blazing']
 
   copied.forEach((c, i) => {
     const name = c.bee ? c.bee.split(':').pop() : `entry_${i}`
+
+    // 모드가 이미 들고 있던 Comb Block 판본은 블록 규격으로 옮긴다.
+    if (c.isBlock) {
+      event.custom({
+        type: 'vintageimprovements:centrifugation',
+        ingredients: [c.ingredient],
+        results: c.results,
+        processing_time: 100,
+        minimal_rpm: 128
+      }).id(`kubejs:centrifugation/comb/${name}`)
+      return
+    }
 
     event.custom({
       type: 'vintageimprovements:centrifugation',

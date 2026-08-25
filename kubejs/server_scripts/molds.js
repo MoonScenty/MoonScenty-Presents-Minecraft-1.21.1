@@ -48,7 +48,10 @@ ServerEvents.recipes(event => {
   event.forEachRecipe({ type: 'createmetallurgy:casting_in_table' }, recipe => {
     let json
     try {
-      json = JSON.parse(recipe.json.toString())
+      // 손대지 않은 원본을 읽는다. recipe.json 쪽은 Almost Unified 가 태그
+      // 결과물을 아이템으로 바꿔 놓은 상태이고, 그때 result.item 이 객체가
+      // 아니라 문자열로 적혀 casting_output 코덱이 읽지 못한다.
+      json = JSON.parse((recipe.originalJson || recipe.json).toString())
     } catch (e) {
       return
     }
@@ -62,6 +65,11 @@ ServerEvents.recipes(event => {
     copy.ingredients[idx] = { item: `kubejs:refractory_mortar_${shape}_mold` }
     copy.mold_consumed = true
     delete copy['neoforge:conditions']
+
+    // 안전망. result.item 이 문자열이면 객체 형태로 되돌린다.
+    if (copy.result && typeof copy.result.item === 'string') {
+      copy.result = { item: { id: copy.result.item, count: copy.result.count || 1 } }
+    }
 
     mirrored.push([copy, shape])
   })
