@@ -111,6 +111,110 @@ ServerEvents.recipes(event => {
     ' A '
   ], { A: CASING, C: T.cog }).id('kubejs:crafting/chain_conveyor')
 
+  // ── 기계 ──────────────────────────────────────────────────────────────
+  //
+  // 프레스와 팬은 바닐라 축을, 믹서는 바닐라 톱니바퀴를 요구한다. 둘 다
+  // 제작법을 지웠으므로 티어 부품으로 바꿔 준다. 모양과 나머지 재료는
+  // 원본 그대로 둔다.
+  event.remove({ id: 'create:crafting/kinetics/mechanical_press' })
+  event.shaped('create:mechanical_press', [
+    'S',
+    'C',
+    'I'
+  ], {
+    S: T.shaft,
+    C: CASING,
+    I: '#c:storage_blocks/iron'
+  }).id('kubejs:crafting/mechanical_press')
+
+  event.remove({ id: 'create:crafting/kinetics/encased_fan' })
+  event.shaped('create:encased_fan', [
+    'S',
+    'A',
+    'P'
+  ], {
+    S: T.shaft,
+    A: CASING,
+    P: 'create:propeller'
+  }).id('kubejs:crafting/encased_fan')
+
+  event.remove({ id: 'create:crafting/kinetics/mechanical_mixer' })
+  event.shaped('create:mechanical_mixer', [
+    'S',
+    'C',
+    'I'
+  ], {
+    S: T.cog,
+    C: CASING,
+    I: 'create:whisk'
+  }).id('kubejs:crafting/mechanical_mixer')
+
+  // 렌치도 바닐라 톱니바퀴를 요구한다. Create 블록을 돌리고 설정하는 데
+  // 사실상 필수인 도구라 막혀 있으면 곤란하다.
+  event.remove({ id: 'create:crafting/kinetics/wrench' })
+  event.shaped('create:wrench', [
+    'GG',
+    'GP',
+    ' S'
+  ], {
+    G: '#c:plates/gold',
+    P: T.cog,
+    S: '#c:rods/wooden'
+  }).id('kubejs:crafting/wrench')
+
+  // 압출기도 바닐라 축을 요구한다. 안산암 챕터의 퀘스트 아이템이라 막혀
+  // 있으면 시대를 끝낼 수 없다. 황동 판본은 황동 케이싱을 쓰므로 그대로 둔다.
+  event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder' })
+  event.shaped('create_mechanical_extruder:mechanical_extruder', [
+    ' S ',
+    'GAG',
+    ' G '
+  ], {
+    S: T.shaft,
+    G: '#c:glass_blocks',
+    A: CASING
+  }).id('kubejs:crafting/mechanical_extruder')
+
+  // 동력 부품이 아니지만 바닐라 축과 톱니바퀴를 요구하는 것들.
+  // 배치와 나머지 재료는 원본 그대로 둔다.
+  //
+  // 공구상자는 갈색 하나만 조합으로 만든다. 나머지 열다섯 색은
+  // create:toolbox_dyeing 으로 염색해 얻으므로 여기만 고치면 전부 열린다.
+  event.remove({ id: 'create:crafting/appliances/copper_backtank' })
+  event.shaped('create:copper_backtank', [
+    'AGA',
+    'PBP',
+    ' P '
+  ], {
+    A: 'create:andesite_alloy',
+    G: T.shaft,
+    P: 'minecraft:copper_ingot',
+    B: 'minecraft:copper_block'
+  }).id('kubejs:crafting/copper_backtank')
+
+  event.remove({ id: 'create:crafting/kinetics/gantry_carriage' })
+  event.shaped('create:gantry_carriage', [
+    'B',
+    'C',
+    'I'
+  ], {
+    B: '#minecraft:wooden_slabs',
+    C: CASING,
+    I: T.cog
+  }).id('kubejs:crafting/gantry_carriage')
+
+  event.remove({ id: 'create:crafting/curiosities/brown_toolbox' })
+  event.shaped('create:brown_toolbox', [
+    ' C ',
+    'SWS',
+    ' L '
+  ], {
+    C: T.cog,
+    S: 'create:golden_sheet',
+    W: '#c:chests/wooden',
+    L: 'minecraft:leather'
+  }).id('kubejs:crafting/brown_toolbox')
+
   // ── 동력원 ────────────────────────────────────────────────────────────
   //
   // 물레방아와 풍차는 놓고 잊는 공짜 동력이다. 증기 기관은 보일러가 유체
