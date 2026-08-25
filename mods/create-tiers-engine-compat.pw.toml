@@ -1,0 +1,8 @@
+name = "Create Tiers: Engine Compat"
+filename = "createtiersenginecompat-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/MoonScenty/CreateTiersEngineCompat/releases/download/1.0.0/createtiersenginecompat-1.0.0.jar"
+hash-format = "sha256"
+hash = "be717b4bf8ef4048276778ef1bd11e372fc7e515911b4a6dfb323ad122447e6a"
