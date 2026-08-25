@@ -1072,6 +1072,213 @@
 	quest.5A0E10000001011C.quest_desc: ["팬은 바로 앞에 놓인 블록에서 성질을 가져옵니다.", "", "영혼불을 두어야 유령 가공이 됩니다. 일반 불을 두면 제련이 되어 버립니다."]
 	quest.5A0E10000001011C.quest_subtitle: "유령 가공 설치"
 	quest.5A0E10000001011C.title: "불을 골라 켜야 합니다"
+	quest.5A0E100000020001.quest_desc: ["안산암 축에 유령 들린 황동 판을 얹으면 황동 축이 됩니다.", "", "지난 시대의 설비를 그대로 씁니다. 판을 만들려면 팬이 계속 돌아야 합니다.", "", "64RPM까지 견디고 응력은 2048까지 올라갑니다. 안산암의 두 배입니다."]
+	quest.5A0E100000020001.quest_subtitle: "황동 축 제작"
+	quest.5A0E100000020001.title: "판 한 장이 등급을 올립니다"
+	quest.5A0E100000020002.quest_desc: ["안산암 톱니바퀴에 유령 들린 황동 판 하나입니다.", "", "축이든 톱니든 기어박스든 승급 방법은 하나뿐입니다."]
+	quest.5A0E100000020002.quest_subtitle: "황동 톱니바퀴 제작"
+	quest.5A0E100000020002.title: "톱니도 같은 방법으로"
+	quest.5A0E100000020003.quest_desc: ["큰 톱니와 작은 톱니를 물리면 속도가 두 배가 되거나 절반이 됩니다.", "", "화로 엔진은 32RPM까지만 냅니다. 황동 기계가 요구하는 속도는 여기서 만듭니다."]
+	quest.5A0E100000020003.quest_subtitle: "큰 황동 톱니바퀴 제작"
+	quest.5A0E100000020003.title: "속도를 바꾸려면"
+	quest.5A0E100000020004.quest_desc: ["회전을 네 방향으로 나눠 보냅니다.", "", "수직 기어박스와 서로 바꿔 만들 수 있습니다. 둘 중 하나만 만들면 됩니다."]
+	quest.5A0E100000020004.quest_subtitle: "황동 기어박스 제작"
+	quest.5A0E100000020004.title: "모퉁이를 도는 회전"
+	quest.5A0E100000020005.quest_desc: ["사포와 벨트로 만듭니다. 제작법은 원본 그대로입니다.", "", "소모품이 아니라 부품입니다. 하나면 됩니다."]
+	quest.5A0E100000020005.quest_subtitle: "Grinder Belt 제작"
+	quest.5A0E100000020005.title: "사포를 벨트에 감습니다"
+	quest.5A0E100000020006.quest_desc: ["&l황동 케이싱과 황동 축&r을 요구합니다.", "", "연마 공정을 담당합니다. 이 시대의 사슬이 여기서 시작합니다.", "", "옆면으로 축을 물려 돌립니다."]
+	quest.5A0E100000020006.quest_subtitle: "Belt Grinder 제작"
+	quest.5A0E100000020006.title: "이 시대의 첫 기계"
+	quest.5A0E100000020007.quest_desc: ["안산암 합금 넷과 철 블록 하나입니다.", "", "이대로는 쓸 수 없습니다. 갈아야 진짜 휠이 됩니다."]
+	quest.5A0E100000020007.quest_subtitle: "Angled Wheel 제작"
+	quest.5A0E100000020007.title: "아직 다듬지 않은 바퀴"
+	quest.5A0E100000020008.quest_desc: ["&lBelt Grinder&r 위로 Angled Wheel을 흘려보냅니다.", "", "속도 제한은 없습니다. 느려도 나옵니다."]
+	quest.5A0E100000020008.quest_subtitle: "Spring Coiling Wheel 확보"
+	quest.5A0E100000020008.title: "갈아야 모양이 잡힙니다"
+	quest.5A0E100000020009.quest_desc: ["방금 만든 휠과 황동 케이싱, 황동 축, 철 주괴 둘로 만듭니다.", "", "이 뒤의 모든 기계가 여기서 나오는 스프링을 요구합니다."]
+	quest.5A0E100000020009.quest_subtitle: "Spring Coiling Machine 제작"
+	quest.5A0E100000020009.title: "철을 말아 감는 기계"
+	quest.5A0E10000002000A.quest_desc: ["철 주괴를 Spring Coiling Machine에 넣습니다.", "", "다음 기계에 둘, 그 뒤로도 계속 들어갑니다. 넉넉히 만들어 두세요."]
+	quest.5A0E10000002000A.quest_subtitle: "Iron Spring 확보"
+	quest.5A0E10000002000A.title: "여덟 개는 있어야 합니다"
+	quest.5A0E10000002000B.quest_desc: ["Create: Vintage Improvements의 &lCompressor&r입니다. 진공 처리를 담당합니다.", "", "고무를 만들던 Rubberworks의 Compressor와 &l이름이 같습니다.&r JEI에서 고를 때 주의하세요.", "", "Iron Spring 둘과 황동 케이싱, 기계식 펌프가 들어갑니다."]
+	quest.5A0E10000002000B.quest_subtitle: "Compressor 제작"
+	quest.5A0E10000002000B.title: "공기를 빼내는 통"
+	quest.5A0E10000002000C.quest_desc: ["Iron Spring을 Compressor에 넣어 진공 처리합니다.", "", "&l이 시대 후반부의 관문입니다.&r Vibrating Table, Centrifuge, Curving Press, Laser 넷이 전부 이것을 요구합니다."]
+	quest.5A0E10000002000C.quest_subtitle: "Precision Iron Spring 확보"
+	quest.5A0E10000002000C.title: "한 번 더 조인 스프링"
+	quest.5A0E10000002000D.quest_desc: ["Precision Iron Spring 넷과 나무 반 블록, 기계식 피스톤입니다.", "", "진동 공정을 담당합니다. 이 시대에 쓸 일은 딱 하나입니다."]
+	quest.5A0E10000002000D.quest_subtitle: "Vibrating Table 제작"
+	quest.5A0E10000002000D.title: "떨어서 골라냅니다"
+	quest.5A0E10000002000E.quest_desc: ["거품기를 Vibrating Table에 올립니다.", "", "원심분리기의 핵심 부품입니다. 거품기 하나 때문에 진동대를 세우는 셈입니다."]
+	quest.5A0E10000002000E.quest_subtitle: "Vibrated Whisk 제작"
+	quest.5A0E10000002000E.title: "떨린 거품기"
+	quest.5A0E10000002000F.quest_desc: ["Precision Iron Spring 넷, 황동 케이싱, 황동 축, 원목 둘, 그리고 Vibrated Whisk입니다.", "", "&l돌리려면 64 RPM이 필요합니다.&r 황동 티어의 상한이 정확히 64이므로 큰 톱니바퀴로 속도를 끝까지 올려야 합니다.", "", "여기까지 왔으면 결승선이 눈앞입니다."]
+	quest.5A0E10000002000F.quest_subtitle: "Centrifuge 제작"
+	quest.5A0E10000002000F.title: "이 시대에서 가장 비싼 기계"
+	quest.5A0E100000020010.quest_desc: ["Metallurgy의 코크스를 Centrifuge에 넣습니다. 100틱이 걸리고 64 RPM이 필요합니다.", "", "&l강철 합금의 유일한 연료입니다.&r 원본이 받던 석탄 코크스 태그를 이것으로 못박았습니다."]
+	quest.5A0E100000020010.quest_subtitle: "Refined Coke 확보"
+	quest.5A0E100000020010.title: "코크스를 한 번 더"
+	quest.5A0E100000020011.quest_desc: ["Refined Coke와 용융 철 270mb를 합금로에 넣습니다. 가열이 필요합니다.", "", "석유 코크스로 우회할 수는 있지만, 증류탑 제어기가 강철 판을 요구해 스스로 막힙니다."]
+	quest.5A0E100000020011.quest_subtitle: "Steel Ingot 확보"
+	quest.5A0E100000020011.title: "드디어 강철"
+	quest.5A0E100000020012.quest_desc: ["안산암 케이싱에 강철 판을 우클릭합니다.", "", "&l이 시대의 마지막 퀘스트입니다.&r 산업 시대가 여기서 시작합니다."]
+	quest.5A0E100000020012.quest_subtitle: "Steel Casing 제작"
+	quest.5A0E100000020012.title: "황동 시대의 끝"
+	quest.5A0E100000020101.quest_desc: ["안산암 퍼널과 달리 &l필터를 끼울 수 있습니다.&r", "", "황동 주괴가 아니라 유령 들린 황동 판을 씁니다. 팬을 한 번 더 거치는 셈입니다."]
+	quest.5A0E100000020101.quest_subtitle: "황동 퍼널 제작"
+	quest.5A0E100000020101.title: "걸러서 받습니다"
+	quest.5A0E100000020102.quest_desc: ["벨트 위 아이템을 여러 갈래로 나눠 보냅니다.", "", "터널끼리 붙여 놓으면 분배 방식을 고를 수 있습니다."]
+	quest.5A0E100000020102.quest_subtitle: "황동 터널 제작"
+	quest.5A0E100000020102.title: "벨트 위에서 나눕니다"
+	quest.5A0E100000020103.quest_desc: ["슈트에 전지 튜브를 달아 필터를 끼울 수 있게 만든 것입니다."]
+	quest.5A0E100000020103.quest_subtitle: "스마트 슈트 제작"
+	quest.5A0E100000020103.title: "슈트에도 눈을 답니다"
+	quest.5A0E100000020104.quest_desc: ["파이프에 유체 필터를 끼웁니다. 여러 액체를 한 배관으로 다룰 때 씁니다."]
+	quest.5A0E100000020104.quest_subtitle: "스마트 유체 파이프 제작"
+	quest.5A0E100000020104.title: "유체도 골라 보냅니다"
+	quest.5A0E100000020105.quest_desc: ["기계 손의 부품입니다. 그 자체로는 쓸 데가 없습니다."]
+	quest.5A0E100000020105.quest_subtitle: "황동 손 제작"
+	quest.5A0E100000020105.title: "무언가를 쥘 손"
+	quest.5A0E100000020106.quest_desc: ["플레이어의 우클릭과 좌클릭을 대신합니다.", "", "&l케이싱을 황동으로 올렸습니다.&r 순차 조립의 관문입니다."]
+	quest.5A0E100000020106.quest_subtitle: "기계 손 제작"
+	quest.5A0E100000020106.title: "사람 대신 우클릭"
+	quest.5A0E100000020107.quest_desc: ["&l순차 조립&r으로 만듭니다. 금 판을 디팟에 놓고 기계 손 셋이 차례로 톱니바퀴, 큰 톱니바퀴, 철 너깃을 찍습니다. 다섯 번 반복합니다.", "", "안산암 티어 부품을 씁니다. 기계 손이 이미 황동 케이싱을 요구하므로 여기서 또 막지 않습니다."]
+	quest.5A0E100000020107.quest_subtitle: "정밀 기계장치 제작"
+	quest.5A0E100000020107.title: "조립 라인의 첫 결과물"
+	quest.5A0E100000020108.quest_desc: ["레드스톤 신호를 받으면 미리 정해 둔 각도만큼 돌고 멈춥니다.", "", "문이나 다리처럼 정확한 위치가 필요한 장치에 씁니다."]
+	quest.5A0E100000020108.quest_subtitle: "순서 기어쉬프트 제작"
+	quest.5A0E100000020108.title: "정해진 만큼만 돌립니다"
+	quest.5A0E100000020109.quest_desc: ["&l케이싱을 황동으로 올렸습니다.&r 원본은 안산암 케이싱만 요구해 지난 시대에 열려 버립니다.", "", "위를 보게 놓으면 가공기, 옆을 보게 놓으면 나무를 벱니다."]
+	quest.5A0E100000020109.quest_subtitle: "톱 제작"
+	quest.5A0E100000020109.title: "나무도 광물도 켭니다"
+	quest.5A0E10000002010A.quest_desc: ["움직이는 구조물에 달아 앞의 블록을 캡니다.", "", "톱과 마찬가지로 황동 케이싱을 요구하도록 바꿨습니다."]
+	quest.5A0E10000002010A.quest_subtitle: "드릴 제작"
+	quest.5A0E10000002010A.title: "앞을 파냅니다"
+	quest.5A0E10000002010B.quest_desc: ["움직이는 구조물에 달아 다 자란 작물만 수확합니다. 씨앗은 그대로 남습니다."]
+	quest.5A0E10000002010B.quest_subtitle: "수확기 제작"
+	quest.5A0E10000002010B.title: "다 자란 것만 벱니다"
+	quest.5A0E10000002010C.quest_desc: ["안산암 판본보다 빠르고 다룰 수 있는 조합이 많습니다.", "", "제작법은 원본 그대로입니다. 황동 케이싱과 황동 판, 금속 거더, 틀 유리 다락문을 요구해 시대가 이미 맞습니다."]
+	quest.5A0E10000002010C.quest_subtitle: "Mechanical Brass Extruder 제작"
+	quest.5A0E10000002010C.title: "황동 판본 압출기"
+	quest.5A0E10000002010D.quest_desc: ["유령 들린 황동 판 넷과 안산암 판입니다.", "", "Curving Press의 부품입니다."]
+	quest.5A0E10000002010D.quest_subtitle: "Head Mounter 제작"
+	quest.5A0E10000002010D.title: "머리를 갈아 끼우는 자리"
+	quest.5A0E10000002010E.quest_desc: ["헤드를 갈아 끼워 쓰는 기계입니다. 어떤 헤드를 끼우느냐에 따라 결과물이 달라집니다.", "", "&lAE2의 회로 인쇄기를 대신할 수 있습니다.&r 프레스 넷을 헤드로 끼우면 인쇄물이 나옵니다."]
+	quest.5A0E10000002010E.quest_subtitle: "Curving Press 제작"
+	quest.5A0E10000002010E.title: "찍어 눌러 모양을 냅니다"
+	quest.5A0E10000002010F.quest_desc: ["정밀 기계장치와 Precision Iron Spring, Laser 부품이 들어갑니다.", "", "유리를 색깔별로 잘라 냅니다. 기계식 제작으로 만드는 두 번째 경로도 있습니다."]
+	quest.5A0E10000002010F.quest_subtitle: "Laser 제작"
+	quest.5A0E10000002010F.title: "빛으로 자릅니다"
+	quest.5A0E100000020110.quest_desc: ["&l기계식 제작&r으로 만듭니다. 배치가 큽니다.", "", "바닐라 축을 황동 축으로 바꾼 것 말고는 원본 그대로입니다."]
+	quest.5A0E100000020110.quest_subtitle: "Helve Hammer 제작"
+	quest.5A0E100000020110.title: "내려찍는 망치"
+	quest.5A0E100000020111.quest_desc: ["기계식 제작이며 정밀 기계장치도 요구합니다.", "", "봉과 축 모양의 부품을 뽑아 냅니다."]
+	quest.5A0E100000020111.quest_subtitle: "Lathe 제작"
+	quest.5A0E100000020111.title: "깎아서 다듬습니다"
+	quest.5A0E100000020112.quest_desc: ["운동 에너지 수용기의 부품입니다.", "", "AE2 챕터에서 같은 내용을 더 자세히 다룹니다."]
+	quest.5A0E100000020112.quest_subtitle: "스테이터 제작"
+	quest.5A0E100000020112.title: "돌지 않는 쪽"
+	quest.5A0E100000020113.quest_desc: ["축을 물리면 Create의 회전력이 그대로 AE 전력이 됩니다.", "", "&l이 모드팩에서 AE를 만드는 유일한 길입니다.&r 설정에서 FE 환율을 사실상 0으로 내려 두어 다른 모드의 발전기로는 AE가 차지 않습니다.", "", "액정 수정을 요구하므로 테슬라 코일로 서투스를 먼저 충전해야 합니다."]
+	quest.5A0E100000020113.quest_subtitle: "운동 에너지 수용기 제작"
+	quest.5A0E100000020113.title: "회전이 곧 AE입니다"
+	quest.5A0E100000020114.quest_desc: ["FE를 받아 아래로 지나가는 아이템을 충전합니다.", "", "&lAE2의 충전기 제작법을 지웠습니다.&r 서투스 석영을 충전하는 일은 이제 이 블록이 맡습니다.", "", "AE가 아니라 FE로 돕니다. Alternator나 Honey Generator를 물리세요."]
+	quest.5A0E100000020114.quest_subtitle: "테슬라 코일 제작"
+	quest.5A0E100000020114.title: "충전기를 대신합니다"
+	quest.5A0E100000020115.quest_desc: ["서투스 석영 수정을 테슬라 코일 아래로 흘려보냅니다.", "", "액정 수정의 재료이고, 액정 수정이 있어야 운동 에너지 수용기를 만들 수 있습니다."]
+	quest.5A0E100000020115.quest_subtitle: "충전된 서투스 석영 수정 확보"
+	quest.5A0E100000020115.title: "전기를 먹은 수정"
+	quest.5A0E100000020119.quest_desc: ["&lProductive Bees의 원심분리기 넷을 전부 지웠습니다.&r 벌집 가공은 Create: Vintage Improvements의 Centrifuge가 맡습니다.", "", "낱개 Honeycomb은 50틱에 64 RPM입니다. 벌 종류에 따라 나오는 것이 다릅니다.", "", "&lComb Block으로 넣으면 열 배가 나옵니다.&r 다만 100틱이 걸리고 &l128 RPM&r을 요구해 황동 티어로는 돌릴 수 없습니다. 강철 축이 나온 뒤의 몫입니다."]
+	quest.5A0E100000020119.quest_subtitle: "Honeycomb 확보"
+	quest.5A0E100000020119.title: "벌집도 원심분리기로"
+	quest.5A0E10000002011A.quest_desc: ["장미 석영을 사포로 연마하고 철 판과 합칩니다.", "", "&l아래 갈래 대부분이 이것을 요구합니다.&r 조합기, 신호 장치, 전시 장치가 전부 여기서 시작합니다."]
+	quest.5A0E10000002011A.quest_subtitle: "전지 튜브 확보"
+	quest.5A0E10000002011A.title: "여러 갈래의 뿌리"
+	quest.5A0E10000002011B.quest_desc: ["여러 개를 이어 붙이고 화살표를 한 곳으로 모으면 &l기계식 제작&r이 됩니다.", "", "3×3보다 큰 배치를 다룰 수 있는 유일한 방법입니다.", "", "분쇄 휠, 외장형 연장 팔, 대칭의 지팡이, Helve Hammer, Lathe가 전부 이 뒤에 있습니다."]
+	quest.5A0E10000002011B.quest_subtitle: "조합기 확보"
+	quest.5A0E10000002011B.title: "기계식 제작의 문"
+	quest.5A0E10000002011C.quest_desc: ["기계식 제작으로 만듭니다. 배치가 5×5입니다.", "", "&l반드시 둘을 나란히 놓고 서로 반대로 돌려야 합니다.&r 하나만으로는 아무것도 갈지 못합니다."]
+	quest.5A0E10000002011C.quest_subtitle: "분쇄 휠 2개 제작"
+	quest.5A0E10000002011C.title: "둘이 마주 봐야 돕니다"
+	quest.5A0E10000002011D.quest_desc: ["원석을 분쇄 휠에 떨어뜨리면 분쇄된 원석이 나옵니다. 구우면 주괴가 됩니다.", "", "야금 공정과는 별개의 길입니다. 어느 쪽을 쓸지는 취향입니다."]
+	quest.5A0E10000002011D.quest_subtitle: "분쇄된 철 원석 확보"
+	quest.5A0E10000002011D.title: "원석을 두 배로"
+	quest.5A0E10000002011E.quest_desc: ["분쇄 과정에서 낮은 확률로 함께 나옵니다.", "", "모아 두었다가 필요할 때 경험치로 바꿉니다."]
+	quest.5A0E10000002011E.quest_subtitle: "경험 조각 확보"
+	quest.5A0E10000002011E.title: "갈면 나오는 부산물"
+	quest.5A0E10000002011F.quest_desc: ["움직이는 구조물에 달아 땅을 고르고 길을 깝니다.", "", "분쇄 휠이 부품으로 들어갑니다."]
+	quest.5A0E10000002011F.quest_subtitle: "롤러 제작"
+	quest.5A0E10000002011F.title: "길을 깔면서 지나갑니다"
+	quest.5A0E100000020120.quest_desc: ["큰 톱니바퀴를 위에 얹고 값을 정하면 &l그 속도로 고정됩니다.&r", "", "톱니비를 계산할 필요가 없어집니다. 다만 응력은 그만큼 더 먹습니다."]
+	quest.5A0E100000020120.quest_subtitle: "회전 속도 제어기 제작"
+	quest.5A0E100000020120.title: "원하는 속도로 못박기"
+	quest.5A0E100000020121.quest_desc: ["입력과 출력을 지정해 두면 알아서 아이템을 옮깁니다.", "", "조합기에 재료를 넣거나 디팟 사이를 오갈 때 씁니다."]
+	quest.5A0E100000020121.quest_subtitle: "기계 팔 제작"
+	quest.5A0E100000020121.title: "집어서 옮깁니다"
+	quest.5A0E100000020122.quest_desc: ["재고량을 정해 두면 모자랄 때 자동으로 제작을 요청합니다.", "", "택배 계통과 묶어 쓰는 물건입니다."]
+	quest.5A0E100000020122.quest_subtitle: "공장 게이지 제작"
+	quest.5A0E100000020122.title: "재고를 보고 주문합니다"
+	quest.5A0E100000020123.quest_desc: ["전지 튜브 둘이면 만들어집니다.", "", "레드스톤 세기나 디스플레이 링크가 보낸 값을 보여 줍니다."]
+	quest.5A0E100000020123.quest_subtitle: "닉시관 제작"
+	quest.5A0E100000020123.title: "숫자를 띄웁니다"
+	quest.5A0E100000020124.quest_desc: ["여러 장을 이어 붙이면 큰 화면이 됩니다.", "", "디스플레이 링크로 값을 보냅니다."]
+	quest.5A0E100000020124.quest_subtitle: "디스플레이 화면 제작"
+	quest.5A0E100000020124.title: "글자를 붙입니다"
+	quest.5A0E100000020125.quest_desc: ["창고의 재고량, 열차 시각, 유체량 같은 값을 읽어 화면으로 보냅니다."]
+	quest.5A0E100000020125.quest_subtitle: "디스플레이 링크 제작"
+	quest.5A0E100000020125.title: "값을 실어 보냅니다"
+	quest.5A0E100000020126.quest_desc: ["벨트나 슈트를 지나는 아이템을 보고 조건이 맞으면 신호를 냅니다."]
+	quest.5A0E100000020126.quest_subtitle: "스마트 관측기 제작"
+	quest.5A0E100000020126.title: "지나가는 것을 봅니다"
+	quest.5A0E100000020127.quest_desc: ["상자의 내용물이 정해 둔 양을 넘거나 밑돌면 레드스톤 신호를 바꿉니다."]
+	quest.5A0E100000020127.quest_subtitle: "한계점 스위치 제작"
+	quest.5A0E100000020127.title: "차면 알려줍니다"
+	quest.5A0E100000020128.quest_desc: ["&l펄스 중계기&r는 짧은 신호를 만들고, &l펄스 연장기&r는 길이를 늘리고, &l펄스 타이머&r는 정해진 간격으로 신호를 냅니다.", "", "셋 다 전지 튜브를 요구합니다."]
+	quest.5A0E100000020128.quest_subtitle: "펄스 장치 3종 제작"
+	quest.5A0E100000020128.title: "신호를 다듬는 셋"
+	quest.5A0E100000020129.quest_desc: ["레드스톤 세기에 따라 회전 속도와 방향을 바꿉니다.", "", "체인 드라이브에 전지 튜브를 더하면 됩니다."]
+	quest.5A0E100000020129.quest_subtitle: "벨트 변속기 제작"
+	quest.5A0E100000020129.title: "달리는 중에 속도를 바꿉니다"
+	quest.5A0E10000002012A.quest_desc: ["움직이는 구조물에 달아 두면 올라타서 직접 조작할 수 있습니다."]
+	quest.5A0E10000002012A.quest_subtitle: "구조물 조정기 제작"
+	quest.5A0E10000002012A.title: "타고 조종합니다"
+	quest.5A0E10000002012B.quest_desc: ["구조물을 하루 주기나 시계 방향으로 천천히 돌립니다.", "", "장식 시계나 회전 간판에 씁니다."]
+	quest.5A0E10000002012B.quest_subtitle: "시계 베어링 제작"
+	quest.5A0E10000002012B.title: "시계처럼 돕니다"
+	quest.5A0E10000002012C.quest_desc: ["기둥을 세우고 각 층에 접점을 두면 승강기가 됩니다.", "", "고무 블록과 철 판, 황동 케이싱으로 만듭니다."]
+	quest.5A0E10000002012C.quest_subtitle: "엘리베이터 도르래 제작"
+	quest.5A0E10000002012C.title: "층을 오르내립니다"
+	quest.5A0E10000002012D.quest_desc: ["황동 케이싱에 흑요석 판을 더합니다.", "", "&l철도 계통 전체가 이 케이스 뒤에 있습니다.&r"]
+	quest.5A0E10000002012D.quest_subtitle: "기차 케이스 제작"
+	quest.5A0E10000002012D.title: "철도의 시작"
+	quest.5A0E10000002012E.quest_desc: ["구간을 나눠 열차가 겹치지 않게 합니다.", "", "여러 대를 굴릴 생각이면 필수입니다."]
+	quest.5A0E10000002012E.quest_subtitle: "기차 신호기 제작"
+	quest.5A0E10000002012E.title: "충돌을 막습니다"
+	quest.5A0E10000002012F.quest_desc: ["레드스톤 세기로 광산 수레의 속도와 방향을 정합니다."]
+	quest.5A0E10000002012F.quest_subtitle: "방향 레일 제작"
+	quest.5A0E10000002012F.title: "속도를 지정하는 레일"
+	quest.5A0E100000020130.quest_desc: ["열차에 달아 두면 앉아서 직접 운전할 수 있습니다.", "", "기차 케이스와 정밀 기계장치가 들어갑니다."]
+	quest.5A0E100000020130.quest_subtitle: "기차 조종기 제작"
+	quest.5A0E100000020130.title: "직접 몰아 봅니다"
+	quest.5A0E100000020131.quest_desc: ["기계식 제작으로 만듭니다.", "", "손에 들면 닿는 거리가 늘어납니다. 건축할 때 편합니다."]
+	quest.5A0E100000020131.quest_subtitle: "외장형 연장 팔 제작"
+	quest.5A0E100000020131.title: "팔이 길어집니다"
+	quest.5A0E100000020132.quest_desc: ["기준점을 잡아 두면 블록을 놓을 때마다 반대편에도 같이 놓입니다."]
+	quest.5A0E100000020132.quest_subtitle: "대칭의 지팡이 제작"
+	quest.5A0E100000020132.title: "한 번에 좌우로"
+	quest.5A0E100000020133.quest_desc: ["작물마다 위력과 효과가 다릅니다. 구운 감자가 잘 나갑니다."]
+	quest.5A0E100000020133.quest_subtitle: "감자포 제작"
+	quest.5A0E100000020133.title: "농작물을 쏩니다"
+	quest.5A0E100000020134.quest_desc: ["울리면 주변의 영혼이 잠깐 눈에 보입니다.", "", "유령 가공 자리를 찾을 때 씁니다."]
+	quest.5A0E100000020134.quest_subtitle: "황동 종 제작"
+	quest.5A0E100000020134.title: "영혼이 보입니다"
+	quest.5A0E100000020135.quest_desc: ["아이템 하나를 액자처럼 걸어 전시합니다."]
+	quest.5A0E100000020135.quest_subtitle: "플래카드 제작"
+	quest.5A0E100000020135.title: "벽에 걸어 둡니다"
+	quest.5A0E100000020136.quest_desc: ["문, 창살, 사다리, 비계, 탁자 덮개입니다.", "", "전부 황동 주괴만 있으면 만들어집니다. 제작법은 손대지 않았습니다."]
+	quest.5A0E100000020136.quest_subtitle: "황동 장식 5종 확보"
+	quest.5A0E100000020136.title: "황동으로 짓습니다"
 	quest.5A0E150000000001.quest_desc: [
 		"모든 것은 바닐라 벌에서 시작합니다. 꽃 숲(flowering forest)에 야생 벌집이 흔합니다."
 		"꿀이 가득 찬 벌집에 가위를 쓰면 벌집 조각이 나옵니다. 병을 쓰면 꿀 병이 나옵니다."
