@@ -98,7 +98,7 @@
 [powerRatios]
 	# Default: 0.5
 	# Range: 4.9E-324 ~ 1.7976931348623157E308
-	forgeEnergy = 0.5
+	forgeEnergy = 1.0E-9
 	# Default: 1.0
 	# Range: 0.01 ~ 1.7976931348623157E308
 	usageMultiplier = 1.0
