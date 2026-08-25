@@ -262,7 +262,7 @@ hash = "027babdfe167e86d8f6d10cb45fc2e8b2b3dc7c81e44c7e7434d7ef1c135fc62"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/adventure.snbt"
-hash = "ba49eda8d5a51927c0aae6fde8a36bb8c10b9e519e2ef5c3563c33b1f445c32b"
+hash = "b0acb3d144f5ce52428ed4c67809f88a122693ca820bca230701748e68f904e3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andesite_alloy_age.snbt"

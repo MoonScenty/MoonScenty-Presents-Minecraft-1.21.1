@@ -1199,6 +1199,7 @@
 				}
 				id: "5A0E2A0000000240"
 				item: { count: 1, id: "relics:chorus_staff" }
+				match_components: "none"
 				type: "item"
 			}]
 			x: 0.0d
@@ -1227,6 +1228,7 @@
 				}
 				id: "5A0E2A0000000250"
 				item: { count: 1, id: "relics:chef_hat" }
+				match_components: "none"
 				type: "item"
 			}]
 			x: 2.0d
@@ -1255,6 +1257,7 @@
 				}
 				id: "5A0E2A0000000260"
 				item: { count: 1, id: "relics:kinetic_belt" }
+				match_components: "none"
 				type: "item"
 			}]
 			x: 4.0d
