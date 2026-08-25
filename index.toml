@@ -318,7 +318,7 @@ hash = "6cde88d5b4af7175fee7054dec818968be37abd1a1d77c7c22817bda7a0932ad"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "08bbb483a6436fc8f2ed6a08853d9704912fc58cc59f2b9434c54116ea36569c"
+hash = "167882d0ba05cd5e3fccf2eee7502019e483601286460d5602b5f3febfe4eea0"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_00_welcome.snbt"
@@ -1367,6 +1367,10 @@ hash = "00f5ff0458f53a8728bb7b25e4262d5e12a7f1e0171ea33cf76cc190802b9f78"
 [[files]]
 file = "kubejs/client_scripts/ponder_enchanting_table.js"
 hash = "fd9540cc88baceadcccc696b51ff03150ab0f17bd381677beb4177677b2354a3"
+
+[[files]]
+file = "kubejs/client_scripts/ponder_hopper.js"
+hash = "66b168b7506ba7b75047a053053521f33ee38438ebbc9a95e313d2f35e8940c8"
 
 [[files]]
 file = "kubejs/client_scripts/ponder_shears.js"
