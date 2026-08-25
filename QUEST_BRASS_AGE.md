@@ -18,9 +18,14 @@ Create 기술 시대의 세 번째 장입니다. 안산암 합금 시대를 황�
 
 ## 구현 현황
 
-- 설계만 마친 상태입니다. 스크립트와 퀘스트는 아직 작성하지 않았습니다.
+- **레시피 구현 완료.** `kubejs/server_scripts/brass_age.js`에 있습니다. 제거 26건, 추가 37건에 원심분리 대량 복사가 더해집니다.
+- **퀘스트 챕터 작성 완료.** `config/ftbquests/quests/chapters/brass_age.snbt`에 69개이며 본선 18개, 선택 51개입니다. 제목·부제·설명을 모두 넣었습니다.
+- 신규 아이템 다섯은 `kubejs/startup_scripts/items.js`, 강철 케이싱은 `blocks.js`에 등록했습니다.
+- 안산암 시대의 임시 트윅이던 `kubejs/server_scripts/ae_generator.js`는 지웠습니다.
 - 문서의 레시피 ID 31개와 아이템 ID 54개는 전부 팩에서 실재를 확인했습니다.
 - 티어 부품 ID는 `kubejs/startup_scripts/tiers.js`에 등록된 `brass` 티어에서 나옵니다.
+
+**KubeJS 서버 스크립트는 전역 스코프를 공유합니다.** 다른 파일과 같은 이름으로 `const`를 선언하면 그 파일이 통째로 로드되지 않습니다. 시대 스크립트를 더할 때는 상수 이름을 겹치지 않게 두십시오.
 
 ## 설계 원칙
 
@@ -57,6 +62,19 @@ vertical_gearbox_brass ← gearbox_brass
 ```
 
 황동 티어는 64 RPM / 2048 SU입니다. 안산암의 두 배입니다.
+
+#### 최소 RPM
+
+Vintage Improvements의 원심분리는 **레시피마다 최소 회전 속도를 요구합니다.** 스키마의 기본값이 100이라 손대지 않으면 이 시대에서는 하나도 돌지 않습니다. 황동 티어 상한이 64이기 때문입니다.
+
+| 대상 | 최소 RPM | 뜻 |
+| --- | --- | --- |
+| Honeycomb 가공 · 정제 코크스 · 모드 원본 13건 | 64 | 황동 티어를 꽉 채워야 돕니다 |
+| Comb Block 가공 (10배 산출) | 128 | 강철 티어 이후입니다 |
+
+모드 원본 13건은 `minimal_rpm`을 생략해 기본값 100이 걸립니다. 지우고 64를 박아 `kubejs:` 이름으로 다시 넣습니다. 재료와 산출물, 처리 시간은 손대지 않습니다.
+
+`vintageimprovements:` 로 시작하는 ID만 골라내므로 이 스크립트가 추가한 것들은 두 번 처리되지 않습니다.
 
 ### 신규 아이템
 
@@ -137,6 +155,8 @@ vertical_gearbox_brass ← gearbox_brass
 
 원본은 `#vintageimprovements:springs/iron` 태그였습니다. 아이템으로 못박아 다른 모드의 스프링이 끼어들 여지를 없앱니다.
 
+**인게임 표시 이름은 `Compressor`입니다.** 고무를 만드는 Rubberworks의 `Compressor`와 표시 이름이 완전히 같습니다. 문서에서는 진공실로 부르지만 JEI에서는 둘을 구분해야 합니다.
+
 #### 정밀 철 스프링
 
 | 항목 | 값 |
@@ -174,6 +194,8 @@ vertical_gearbox_brass ← gearbox_brass
 `P` `kubejs:precision_iron_spring` · `B` `create:brass_casing` · `L` `#minecraft:logs` · `S` `createtiers:shaft_brass` · `V` `kubejs:vibrated_whisk`
 
 정밀 스프링 넷과 진동 거품기 하나가 들어갑니다. 이 시대에서 가장 비싼 기계이며 결승선 바로 앞에 섭니다.
+
+돌리려면 64 RPM이 필요합니다. 황동 티어의 상한이 정확히 그 값입니다.
 
 #### 헤드 마운터 → 커빙 프레스
 
@@ -385,34 +407,42 @@ Productive Bees는 자기 원심분리기 넷을 들고 있습니다. 전부 지
 제거 : productivebees:centrifuge
 제거 : productivebees:powered_centrifuge/vanilla
 제거 : productivebees:heated_centrifuge
-제거 : vintageimprovements:centrifugation/honey_comb
 ```
 
-`centrifugation/honey_comb`은 바닐라 벌집을 꿀 100mb로 바꾸는 것이라 아래 대량 복사와 겹칩니다.
+`centrifugation/honey_comb`은 **지우지 않습니다.** 바닐라 벌집을 `create:honey` 100mb로 바꾸는 유일한 경로이며, 최소 RPM만 64로 내립니다.
 
 #### 복사
 
-`productivebees:centrifuge` 타입 레시피를 전부 `vintageimprovements:centrifugation`으로 옮깁니다.
+`productivebees:centrifuge` 타입 레시피를 `vintageimprovements:centrifugation`으로 옮깁니다.
 
 | 항목 | 값 |
 | --- | --- |
-| 원본 수 | 325개 (전부 `productivebees:configurable_honeycomb` 입력) |
-| 이 팩에서 살아남는 수 | 약 177개 |
-| `processing_time` | 1000 |
+| 데이터팩에 있는 수 | 325개 |
+| **이 팩에서 실제로 옮겨지는 수** | **55개** |
+| `processing_time` | 50 |
+| `minimal_rpm` | 64 |
 
-325개 중 294개가 `neoforge:mod_loaded` 조건을 달고 있고 그 대부분이 이 팩에 없는 모드입니다. **하드코딩하지 말고 `event.forEachRecipe`로 실제 적재된 것만 훑어야 합니다.** 그래야 조건이 알아서 걸러집니다.
+325개 중 294개가 `neoforge:mod_loaded` 조건을 달고 있고, 그 위에 `productivebees:bee_exists` 조건이 또 걸립니다. **하드코딩하지 말고 `event.forEachRecipe`로 실제 적재된 것만 훑어야 합니다.** 그래야 조건이 알아서 걸러집니다.
 
-#### 벌집 판본 추가
+옮길 때 두 가지를 챙겨야 합니다.
 
-같은 벌 종류의 `productivebees:configurable_comb` 입력을 새로 만듭니다.
+- **유체 산출물.** 325개 중 39개가 `outputs`가 아니라 별도의 `fluid` 필드로 유체를 내놓습니다. Create의 가공 결과는 아이템과 유체를 같은 배열에 담으므로 `{ id, amount }`로 밀어 넣습니다. 태그로 적힌 10건은 이 팩에 없는 모드 것이라 버립니다.
+- **바닐라 벌집은 건너뜁니다.** Productive Bees에도 `minecraft:honeycomb`을 받는 레시피가 있지만 Vintage가 이미 꿀 100mb로 바꾸는 레시피를 들고 있습니다. 그쪽이 Create의 꿀을 내주어 이 팩에서 더 쓸모가 있고, 같은 입력에 레시피가 둘이면 기계가 어느 쪽을 고를지 알 수 없습니다.
+
+#### Comb Block 판본 추가
+
+같은 벌 종류의 `productivebees:configurable_comb` 입력을 새로 만듭니다. 인게임 표시 이름은 **Comb Block**이고, 낱개 쪽은 **Honeycomb**입니다.
 
 | 항목 | 값 |
 | --- | --- |
 | 입력 | `productivebees:configurable_comb[productivebees:bee_type="<BEE_TYPE>"]` |
-| 생산물 | 벌집 판본의 10배 |
-| `processing_time` | 2000 |
+| 생산물 | Honeycomb 판본의 10배 (유체도 10배) |
+| `processing_time` | 100 |
+| `minimal_rpm` | 128 |
 
 `comb_breeze`와 `comb_blazing` 둘은 모드가 이미 들고 있으므로 건너뜁니다.
+
+**128 RPM은 황동 티어로 못 냅니다.** 강철 축이 나온 뒤에야 돌릴 수 있으므로 10배 산출은 산업 시대의 몫이 됩니다.
 
 ### 강철 — 결승선
 
@@ -423,7 +453,8 @@ Productive Bees는 자기 원심분리기 넷을 들고 있습니다. 전부 지
 | 추가 | `vintageimprovements:centrifugation` |
 | 입력 | `createmetallurgy:coke` |
 | 출력 | `kubejs:refined_coke` |
-| `processing_time` | 2000 |
+| `processing_time` | 100 |
+| `minimal_rpm` | 64 |
 
 원심분리기가 있어야 나옵니다. 위 사슬 전체가 이 한 아이템으로 수렴합니다.
 
@@ -473,6 +504,14 @@ Metallurgy 강철 주괴를 압착하면 Petrochem 강철 판이 나옵니다. A
 
 ---
 
+## AE2 챕터와 어긋나는 곳
+
+이 시대의 레시피 변경이 기존 AE2 챕터를 두 군데 깨뜨립니다. **아직 고치지 않았습니다.**
+
+- **충전기 퀘스트가 완료 불가.** `ae2:charger`를 만드는 레시피는 팩 전체에 `network/blocks/crystal_processing_charger` 하나뿐인데 이 시대에서 지웁니다. AE2 챕터의 「전기를 먹여 봅시다」가 죽습니다. 테슬라 코일로 바꿔야 합니다.
+- **사슬 순서가 뒤집힘.** AE2 챕터는 스테이터 → 운동 에너지 수용기 → 충전기 → 액정 수정 순입니다. 그런데 이 시대에서 운동 에너지 수용기가 액정 수정을 요구하도록 바꿨습니다. 순환은 아닙니다. 테슬라 코일이 FE로 돌아 AE를 먹지 않기 때문입니다. 퀘스트 배치만 어긋납니다.
+- **스테이터와 운동 에너지 수용기가 두 챕터에 중복**됩니다. AE2 챕터가 이미 코일 → 스테이터 → 수용기를 다룹니다.
+
 ## 다음 시대로 넘긴 것
 
 **애드온 기계들**입니다. 전부 바닐라 축이나 톱니바퀴를 요구해 지금은 만들 수 없으며, 산업 시대 문서에서 재료를 조정합니다.
@@ -498,7 +537,7 @@ AE2 저장망, 고급 물류, 높은 RPM 구간도 산업 시대입니다.
 | 티어 승급 | 안산암 부품 1 + 유령 들린 황동 판 1 |
 | 정밀 철 스프링 | 철 스프링 1 (진공 1회) |
 | 원심분리기 | 정밀 스프링 4 + 진동 거품기 1 + 황동 케이싱 1 + 황동 축 1 |
-| 정제 코크스 | 코크스 1 (원심분리 2000틱) |
+| 정제 코크스 | 코크스 1 (원심분리 100틱 · 64 RPM) |
 | 강철 | 정제 코크스 1 + 용융 철 270mb |
 
 원심분리기까지 가는 길이 이 시대에서 가장 깁니다. 그라인더 → 휠 → 코일링 → 스프링 → 진공 → 정밀 스프링 → 진동대 → 거품기 → 원심분리기로 아홉 단계입니다. 다만 한 번 세우고 나면 강철은 코크스 하나당 270mb로 계속 나옵니다. 고통은 일회성이고 끝에 큰 보상이 옵니다.

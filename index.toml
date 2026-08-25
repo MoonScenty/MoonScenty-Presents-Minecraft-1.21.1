@@ -258,7 +258,7 @@ hash = "03928ebb635ff10479897182137b3bf09baa44e982fbf982b8c82e52f39c50ab"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/brass_age.snbt"
-hash = "8376cda26166cc963070c85170161624e4ce6d21dab27c3b7bded7375f757b27"
+hash = "93f5f31a825083d678efd8c1b7f2a1a7dc51a285fbebd92ed1f2df96ea4dc862"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building.snbt"
@@ -314,7 +314,7 @@ hash = "6cde88d5b4af7175fee7054dec818968be37abd1a1d77c7c22817bda7a0932ad"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "c697532e5f41180f1491baf7dbacdfac69544a8a020539e0e7e30b4fe584eca6"
+hash = "bdab7adcabb08ec34b81d05d1dc9fb57992794d0a87bbe1b22918c31f83f3c6f"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_00_welcome.snbt"
@@ -1469,12 +1469,12 @@ file = "kubejs/data/moonscenty/puffish_skills/config.json"
 hash = "0c52a8616e7c9a730026ad31fe199830e2e1656ce82526e2ec8c9ed9fef233ac"
 
 [[files]]
-file = "kubejs/server_scripts/ae_generator.js"
-hash = "aa5d170aaf91af7c48a36d28a03326d75847735fec4d421377b3ec8f9e8699c2"
-
-[[files]]
 file = "kubejs/server_scripts/andesite_alloy_age.js"
 hash = "3d0daa4c38dd5e3c48280bcd66a04c392269d57903026e5896c7896c3c981bbc"
+
+[[files]]
+file = "kubejs/server_scripts/brass_age.js"
+hash = "1dd0e56d5f174ae2098220317620d43beb669cfcdbaea6da9e92a13ac173211d"
 
 [[files]]
 file = "kubejs/server_scripts/molds.js"
@@ -1486,7 +1486,7 @@ hash = "a5519cf11c7a1e8c29464d070594398a4c62db2c04d7e0c9f135384a764983c5"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
-hash = "48bd334ea11a195d16d4dfbca7590c41256653dba067a879f88db3f28a3c9be3"
+hash = "d88853d3ed9f53f8ed59986aee2e70705a64de064b24196c522b047277e2a356"
 
 [[files]]
 file = "kubejs/startup_scripts/fluids.js"
@@ -1494,7 +1494,7 @@ hash = "812b64de18a7d5804ba7acf03c93b569c3d07247cae6203791fb4b85772e1d58"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "0dc2d2158c09d5eea1b3a2a3b894109eab0409857bcbb767b31154993a2401cb"
+hash = "51bc664013353bd3596f1ed04bbf10a6a6427d3068ae1da2696c84e8b888be9e"
 
 [[files]]
 file = "kubejs/startup_scripts/tiers.js"
