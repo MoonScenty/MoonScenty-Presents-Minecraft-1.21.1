@@ -34,7 +34,7 @@ Minecraft 1.21.1과 NeoForge 21.1.248를 기반으로 제작한 모드팩입니�
 | --- | --- | --- |
 | **Stone Age (석기 시대)** | Create: Metallurgy | 원시적인 자원 가공과 야금으로 안산암 합금 생산 기반을 준비합니다. 동력은 손 크랭크와 손 톱니바퀴까지만 다룹니다. |
 | **Andesite Alloy Age (안산암 합금 시대)** | 기본 Create 기계, Create Tiers, Create: Rubberworks, Create Mechanical Extruder | 안산암 합금 티어(32 RPM / 1024 SU) 안에서 기계식 자원 생산 설비를 구축합니다. 러닝머신으로 손 크랭크를 벗어나고, 압착기와 구리 판을 거쳐 고무와 화로 엔진에 도달합니다. 황동 케이싱을 손에 넣는 것이 결승선입니다. |
-| **Brass Age (황동 시대)** | Vintage Improvements, Create Tiers, Create: AE Generator, Create Crafts & Additions | 황동 티어(64 RPM / 2048 SU)를 해금하고 Vintage의 가공 기계 사슬을 세웁니다. 커빙 프레스와 테슬라 코일이 AE2의 회로 인쇄기와 충전기를 대신하며 AE Generator로 AE 전력의 문이 열립니다. 강철 케이싱을 손에 넣는 것이 결승선입니다. |
+| **Brass Age (황동 시대)** | Vintage Improvements, Create Tiers, Create: AE Generator, Create Crafts & Additions | 황동 티어(64 RPM / 2048 SU)를 해금하고 Vintage의 가공 기계 사슬을 세웁니다. 화로 엔진에서 히트싱크를 떼면 이 티어를 그대로 채웁니다. 커빙 프레스와 테슬라 코일이 AE2의 회로 인쇄기와 충전기를 대신하며 AE Generator로 AE 전력의 문이 열립니다. 강철 케이싱을 손에 넣는 것이 결승선입니다. |
 | **Industrial Age (산업 시대)** | Create: Petrochem, Applied Energistics 2, Create Utilities J, Create Tiers | 석유와 유체를 사용하는 대규모 산업 시설을 구축하고 높은 RPM을 사용할 수 있습니다. AE2 저장망과 고급 물류도 이 시대부터 본격적으로 사용합니다. |
 | **Atomic Age (원자력 시대)** | Create: Atomic | 최종 생산 체계를 구축하고 강력하거나 특별한 보상형 아이템을 대량 생산해 사용할 수 있습니다. |
 
@@ -49,11 +49,24 @@ Minecraft 1.21.1과 NeoForge 21.1.248를 기반으로 제작한 모드팩입니�
 | 1 | 손 크랭크 | 석기 | — | 잡고 있어야 함 |
 | 2 | 손 톱니바퀴 | 석기 말 | — | 잡고 있어야 함 |
 | 3 | 러닝머신 | 안산암 초 | 32 RPM / 512 SU | 동물이 걸어야 함 |
-| 4 | 화로 엔진 | 안산암 말 | 32 RPM / 1024 SU | 연료 |
+| 4 | 화로 엔진 (히트싱크) | 안산암 말 | 32 RPM / 1024 SU | 연료 |
+| 5 | 화로 엔진 (히트싱크 없음) | 황동 | 64 RPM / 2048 SU | 연료 |
 
 물레방아, 대형 물레방아와 풍차 베어링은 놓고 잊는 공짜 동력이므로 제작법을 제거했습니다. 돛과 돛 틀은 남기되 퀘스트에서 장식용임을 밝힙니다.
 
-증기 기관도 제작법을 제거했습니다. 보일러가 유체 탱크를 키우는 만큼 출력이 올라 이후 시대의 요구까지 한 번에 덮어 버리기 때문입니다. 황동 시대 이후의 전용 동력원은 아직 정하지 않았으며, 지금은 화로 엔진의 출력을 톱니비로 올려 씁니다.
+증기 기관도 제작법을 제거했습니다. 보일러가 유체 탱크를 키우는 만큼 출력이 올라 이후 시대의 요구까지 한 번에 덮어 버리기 때문입니다.
+
+**화로 엔진 하나가 두 시대를 덮습니다.** 옆에 구리 블록을 붙이면 32 RPM / 1024 SU로 떨어지고, 떼면 64 RPM / 2048 SU를 냅니다. 두 값이 안산암 티어와 황동 티어의 상한과 정확히 같습니다. 티어를 올리기 전에는 히트싱크를 붙여 부품이 터지지 않게 하고, 황동 부품을 갖춘 뒤에 떼어 전력을 두 배로 씁니다.
+
+값은 `config/createfurnaceengine-common.toml`에서 관리합니다.
+
+```
+baseRpm     = 64    heatSinkRpm      = 32
+baseSuPerRpm = 32   heatSinkSuPerRpm = 32
+heatSinkBlock = "minecraft:copper_block"
+```
+
+**산업 시대 이후의 동력원은 아직 정하지 않았습니다.** 강철 티어가 128 RPM이므로 화로 엔진으로는 닿지 않습니다. Petrochem의 엔진이 석유 사슬과 맞물려 후보로 유력합니다.
 
 #### 동력 부품 티어
 
