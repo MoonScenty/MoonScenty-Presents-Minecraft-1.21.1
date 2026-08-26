@@ -425,6 +425,31 @@ ServerEvents.recipes(event => {
     result: { count: 1, id: 'createaddition:alternator' }
   }).id('kubejs:mechanical_crafting/alternator')
 
+  // 테슬라 코일도 구리 스풀 셋을 요구했다. 스풀은 이 팩에서 갈 곳이
+  // 없어졌으므로 황동 주괴로 바꾼다. 배치와 나머지 재료는 원본 그대로다.
+  //
+  // 테슬라 코일은 AE2 충전기를 대신하므로 이 시대에서 반드시 닿아야 한다.
+  event.remove({ id: 'createaddition:mechanical_crafting/tesla_coil' })
+  event.custom({
+    type: 'create:mechanical_crafting',
+    accept_mirrored: true,
+    key: {
+      S: { tag: 'c:ingots/brass' },
+      A: { item: 'create:andesite_alloy' },
+      C: { item: 'createaddition:capacitor' },
+      B: { item: BRASS_CASING },
+      P: { tag: 'c:plates/brass' },
+      E: { item: ELECTRON_TUBE }
+    },
+    pattern: [
+      'SSS',
+      ' A ',
+      'CBC',
+      'PEP'
+    ],
+    result: { count: 1, id: 'createaddition:tesla_coil' }
+  }).id('kubejs:mechanical_crafting/tesla_coil')
+
   // ── AE 전력 ───────────────────────────────────────────────────────────
   //
   // ae2-common.toml에서 FE 환율을 사실상 0으로 내려 두었으므로 다른 모드의

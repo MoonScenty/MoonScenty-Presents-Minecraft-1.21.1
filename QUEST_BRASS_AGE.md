@@ -18,7 +18,7 @@ Create 기술 시대의 세 번째 장입니다. 안산암 합금 시대를 황�
 
 ## 구현 현황
 
-- **레시피 구현 완료.** `kubejs/server_scripts/brass_age.js`에 있습니다. 제거 26건, 추가 37건에 원심분리 대량 복사가 더해집니다.
+- **레시피 구현 완료.** `kubejs/server_scripts/brass_age.js`에 있습니다. 제거 28건, 추가 39건에 원심분리 대량 복사가 더해집니다.
 - **퀘스트 챕터 작성 완료.** `config/ftbquests/quests/chapters/brass_age.snbt`에 69개이며 본선 18개, 선택 51개입니다. 제목·부제·설명을 모두 넣었습니다.
 - 신규 아이템 다섯은 `kubejs/startup_scripts/items.js`, 강철 케이싱은 `blocks.js`에 등록했습니다.
 - 안산암 시대의 임시 트윅이던 `kubejs/server_scripts/ae_generator.js`는 지웠습니다.
@@ -330,6 +330,51 @@ event.custom({
 
 원본과 같은 무형 조합이며 톱니바퀴만 티어로 올렸습니다.
 
+### Crafts & Additions
+
+이 시대에서 FE가 처음 열립니다. 그런데 원본 제작법 둘 다 안산암 합금 시대 재료만 요구해 그대로 두면 너무 일찍 열립니다.
+
+#### 교류발전기
+
+팩 안에서 **FE를 만드는 유일한 입구**입니다. 원본은 구리 스풀과 철 막대만 요구합니다.
+
+| 항목 | 값 |
+| --- | --- |
+| 제거 | `createaddition:mechanical_crafting/alternator` |
+| 추가 | `kubejs:mechanical_crafting/alternator` |
+
+배치는 원본의 마름모를 그대로 두고, 스풀을 황동 판으로 올리며 한가운데를 강철 케이싱으로 바꿉니다.
+
+```
+  A          A = create:andesite_alloy
+ IBI         I = #c:plates/iron
+IBCBI        B = #c:plates/brass
+ IBI         C = kubejs:steel_casing
+  A
+```
+
+**강철 케이싱이 들어가므로 이 시대의 결승선을 넘어야 손이 닿습니다.** 받는 쪽을 막는 대신 만드는 쪽을 늦추는 방식이고, JEI에서 이유가 그대로 보입니다.
+
+팩 안에서 FE를 실제로 소비하는 것은 **전해조 · 테슬라 코일 · 레이저** 셋뿐입니다. 셋 다 남겨 두고 싶으므로 화이트리스트보다 이쪽이 맞습니다.
+
+#### 테슬라 코일
+
+AE2 차저를 대신하므로 이 시대에 반드시 닿아야 합니다. 원본은 구리 스풀 셋을 요구하는데, **스풀은 산업 시대에서 다섯 종을 전부 지웁니다.** 그래서 황동 주괴로 바꿉니다.
+
+| 항목 | 값 |
+| --- | --- |
+| 제거 | `createaddition:mechanical_crafting/tesla_coil` |
+| 추가 | `kubejs:mechanical_crafting/tesla_coil` |
+
+```
+SSS        S = #c:ingots/brass      (원본은 createaddition:copper_spool)
+ A         A = create:andesite_alloy
+CBC        C = createaddition:capacitor  ·  B = create:brass_casing
+PEP        P = #c:plates/brass  ·  E = create:electron_tube
+```
+
+**배치와 나머지 재료는 원본 그대로입니다.** 바뀐 것은 맨 윗줄 셋뿐입니다.
+
 ### AE2 — 문 열기
 
 AE2는 이 시대에 **설비만 갖춥니다.** 저장망 운용은 산업 시대입니다.
@@ -353,7 +398,7 @@ AE 전력의 유일한 입구입니다. `config/ae2-common.toml`에서 `[powerRa
 | --- | --- |
 | 제거 | `ae2:network/blocks/crystal_processing_charger` |
 
-Create Crafts & Additions의 테슬라 코일이 대신합니다. 테슬라 코일 제작법은 그대로 둡니다.
+Create Crafts & Additions의 테슬라 코일이 대신합니다. 제작법은 [Crafts & Additions](#crafts--additions) 절에서 다시 썼습니다.
 
 | 추가 (`createaddition:charging`) | 입력 | 에너지 | 출력 |
 | --- | --- | --- | --- |

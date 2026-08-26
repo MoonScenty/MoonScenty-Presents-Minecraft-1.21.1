@@ -142,6 +142,12 @@ ServerEvents.recipes(event => {
   // 커넥터 계열은 전부 빼고 배선은 PIPEZ 에 맡긴다. 압연기는 Vintage 의
   // 벨트 그라인더와 역할이 겹친다.
   //
+  // 스풀은 다섯 종을 전부 미다. 커넥터와 전기 모터가 사라지고, 황동
+  // 시대에서 교류발전기와 테슬라 코일의 구리 스풀도 뺀 터라 쓰는 곳이 없다.
+  //
+  // Metallurgy 의 텅스텐 와이어 스풀은 이름만 같은 별개다. 전구 16종이
+  // 전부 그것을 요구하므로 건드리지 않는다.
+  //
   // 씨앗 기름은 c:plantoil 을 채우는 유일한 레시피이고, 바이오매스 여덟
   // 갈래가 전부 그 태그를 요구한다. 그래서 이것 하나로 에탄올 노선 전체가
   // 닫힌다. 벌집과 에탄올을 따로 지우는 것은 JEI 에서 이유를 분명히 하려는
@@ -157,7 +163,12 @@ ServerEvents.recipes(event => {
     'createaddition:crafting/portable_energy_interface',
     'createaddition:mixing/bioethanol',
     'createaddition:mixing/biomass_from_honeycomb',
-    'createaddition:compacting/seed_oil'
+    'createaddition:compacting/seed_oil',
+    'createaddition:crafting/spool',
+    'createaddition:crafting/copper_spool',
+    'createaddition:crafting/gold_spool',
+    'createaddition:crafting/electrum_spool',
+    'createaddition:crafting/festive_spool'
   ].forEach(id => event.remove({ id: id }))
 
   // 개발용으로 남은 레시피다. 입력 유체 gearbox:petroleum 을 가진 모드가

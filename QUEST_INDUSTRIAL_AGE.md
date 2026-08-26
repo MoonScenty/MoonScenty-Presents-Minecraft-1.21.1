@@ -18,10 +18,10 @@ Create 기술 시대의 네 번째 장입니다. 황동 시대를 강철 케이�
 
 ## 구현 현황
 
-- **레시피 구현 완료.** `kubejs/server_scripts/industrial_age.js`에 있습니다. 제거 25건, 추가 27건입니다.
+- **레시피 구현 완료.** `kubejs/server_scripts/industrial_age.js`에 있습니다. 제거 30건, 추가 27건입니다.
 - 신규 아이템 `tin_ingot`은 `kubejs/startup_scripts/items.js`, `tin_block`은 `blocks.js`에 등록했습니다. 텍스처는 `kubejs/assets/kubejs/textures/`에 있습니다.
 - **퀘스트 챕터는 아직 비어 있습니다.** `config/ftbquests/quests/chapters/industrial_age.snbt`가 대상입니다.
-- 문서의 레시피 ID 25개와 아이템·태그 ID는 전부 팩에서 실재를 확인했습니다.
+- 문서의 레시피 ID 30개와 아이템·태그 ID는 전부 팩에서 실재를 확인했습니다.
 - 티어 부품 ID는 `kubejs/startup_scripts/tiers.js`에 등록된 `steel` 티어에서 나옵니다.
 
 **KubeJS 서버 스크립트는 전역 스코프를 공유합니다.** 이 파일의 상수는 전부 `IND_` 로 열어 다른 시대와 겹치지 않게 두었습니다.
@@ -230,6 +230,11 @@ mixing/basic_deasphalting    중유 300 + LPG 50  →  아스팔트 2 + 윤활�
 | `createaddition:mixing/bioethanol` | 에탄올 노선을 접습니다 |
 | `createaddition:mixing/biomass_from_honeycomb` | 〃 |
 | `createaddition:compacting/seed_oil` | 〃 |
+| `createaddition:crafting/spool` | 스풀 다섯 종을 전부 접습니다 |
+| `createaddition:crafting/copper_spool` | 〃 |
+| `createaddition:crafting/gold_spool` | 〃 |
+| `createaddition:crafting/electrum_spool` | 〃 |
+| `createaddition:crafting/festive_spool` | 〃 |
 
 #### 바이오매스를 막는 지렛대는 씨앗 기름입니다
 
@@ -244,11 +249,31 @@ seed_oil 을 만드는 레시피 = createaddition:compacting/seed_oil   단 하�
 
 씨앗 기름이 사라지면 액체 블레이즈 버너의 `liquid_burning/plantoil`도 함께 죽습니다. 디젤·가솔린·크레오소트·용암이 남으므로 실질 손해는 없습니다.
 
-#### 남는 것들
+#### 스풀은 다섯 종을 전부 접습니다
 
-커넥터를 지우면 **스풀 다섯 종**(`copper_spool`·`spool`·`gold_spool`·`electrum_spool`·`festive_spool`)이 소비처를 잃습니다. 황동 시대에서 알터네이터의 구리 스풀도 이미 뺐습니다. 어떻게 할지는 아직 정하지 않았습니다.
+커넥터와 전기 모터가 사라지면 스풀 대부분이 갈 곳을 잃습니다. 남아 있던 소비처 둘도 황동 시대에서 이미 뗐습니다.
 
-`createaddition:crafting/modular_accumulator`도 남아 있습니다.
+| 소비처 | 처리 | 어디서 |
+| --- | --- | --- |
+| 교류발전기 | 구리 스풀 → 황동 판 | 황동 시대 |
+| 테슬라 코일 | 구리 스풀 → `#c:ingots/brass` | 황동 시대 |
+| 커넥터 3종 · 중계기 · 철조망 · 휴대용 인터페이스 | 제작법 제거 | 이 시대 |
+| 전기 모터 | 제작법 제거 | 이 시대 |
+
+그래서 다섯 종을 전부 지웁니다.
+
+```
+createaddition:crafting/spool
+createaddition:crafting/copper_spool
+createaddition:crafting/gold_spool
+createaddition:crafting/electrum_spool
+createaddition:crafting/festive_spool
+```
+
+> **`createmetallurgy:tungsten_wire_spool` 은 이름만 같은 별개입니다.**
+> 전구 16종이 전부 이것을 요구합니다. 건드리지 마십시오.
+
+`createaddition:crafting/modular_accumulator` 는 남아 있습니다.
 
 ### Petrochem 설비
 
@@ -413,7 +438,6 @@ minecraft:obsidian 에 createutilities:void_steel_sheet 를 우클릭
 - **공허 강철 티어(256 RPM / 67108864 SU).** `tiers.js`에 등록만 되어 있고 부품 제작법이 없습니다. 원자력 시대에서 엽니다.
 - **황.** 바닐라 백포트가 `minecraft:sulfur`와 전용 동굴 바이옴(`sulfur_caves`)을 들고 왔는데 팩 안에서 완전히 고립돼 있습니다. 반대로 Vintage의 황 화학(황 → SO₂ → SO₃ → 황산)은 사슬이 완성돼 있는데 재료를 돌 분쇄 부산물로만 받습니다. 분쇄 레시피 두어 개로 이을 수 있습니다.
 - **Petrochem 탈황 유체 셋** (`desulfurized_heavy_diesel` 등). 등록만 되어 있고 레시피가 전혀 없습니다. 원유 정제 부산물로 황이 나오는 구조를 짜 넣을 자리가 통째로 비어 있습니다.
-- **스풀 다섯 종의 처리.**
 - **`petrochem:sulfur_dust`.** 만드는 레시피가 없고 유일한 소비처도 `petrochem_expert` 모드가 있어야 켜집니다. 지금은 죽은 아이템입니다.
 
 ## 밸런스
