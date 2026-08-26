@@ -52,4 +52,21 @@ StartupEvents.registry('block', event => {
     .hardness(2)
     .resistance(4)
     .tag(['minecraft:mineable/axe'])
+
+  // 주석 블록.
+  //
+  // 주괴 아홉을 묶어 둔 보관용이다. 기계 재료로 들어가지는 않는다.
+  //
+  // 텍스처는 Create 아연 블록의 형태를 두고 주석 팔레트로 옮겼다. 원본은
+  // 고유색이 일곱 개라 주석 단계 아홉 중 어두운 쪽 일곱에 얹혀 금속 무게를
+  // 남겼다. 밝은 쪽에 맞추면 색이 떠서 금속처럼 보이지 않는다.
+  event.create('tin_block')
+    .displayName('Block of Tin')
+    .parentModel('minecraft:block/cube_all')
+    .textures({ all: 'kubejs:block/tin_block' })
+    .soundType(SoundType.METAL)
+    .hardness(5)
+    .resistance(6)
+    .requiresTool()
+    .tag(['minecraft:mineable/pickaxe', 'minecraft:needs_stone_tool'])
 })

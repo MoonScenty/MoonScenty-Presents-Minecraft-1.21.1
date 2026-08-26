@@ -102,4 +102,19 @@ StartupEvents.registry('item', event => {
   event.create('refined_coke')
     .displayName('Refined Coke')
     .texture('createmetallurgy:item/coke')
+
+  // ── 산업 시대 ──────────────────────────────────────────────────────
+
+  // 주석 주괴.
+  //
+  // Petrochem 은 주석을 너깃으로만 들고 있고, 팩 안 어느 모드도 주괴를
+  // 내놓지 않는다. 청동을 주괴 3 : 1 로 묶으려면 주괴가 필요하므로 여기서
+  // 만든다.
+  //
+  // 텍스처는 Create 아연 주괴의 형태를 그대로 두고 색만 옮겼다. 둘 다
+  // 고유색이 아홉 개라 광도 순서로 1:1 대응시켰다. 기준은 Petrochem 의
+  // 주석 너깃이어서 너깃·주괴·블록 셋을 나란히 놓아도 같은 금속으로 보인다.
+  event.create('tin_ingot')
+    .displayName('Tin Ingot')
+    .texture('kubejs:item/tin_ingot')
 })

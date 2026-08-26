@@ -873,6 +873,10 @@ file = "kubejs/assets/kubejs/textures/block/steel_casing.png"
 hash = "30ff35c3b9e84fb960d3652f002a397969e570303d5e7d851e036d59f0f8e685"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/tin_block.png"
+hash = "0cc6303ca6c6f8a73a38cf53ab7754527f6a31a1a77c59c0436b8d7a577f3bc6"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/andesite_alloy_axe_head.png"
 hash = "c4f69d5b8ef5bdd5cc0e128aab41d0e87fadad3b9a70e95dc7b628055ef0145a"
 
@@ -1245,6 +1249,10 @@ file = "kubejs/assets/kubejs/textures/item/steel_sword_head.png"
 hash = "f63e0f312629075a6cb76530256c6ba2db3aea089162ee598d0edfe60cb2fa8b"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/tin_ingot.png"
+hash = "dc319ca38956446293657119e889237c2ace5a86f27fb49cdb58dade052ccf3f"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/wolframite_filings.png"
 hash = "490e1f52293f19787e2d1fa17261bda8d999ebc9c3143941ab35dfde14441706"
 
@@ -1510,7 +1518,11 @@ hash = "3d0daa4c38dd5e3c48280bcd66a04c392269d57903026e5896c7896c3c981bbc"
 
 [[files]]
 file = "kubejs/server_scripts/brass_age.js"
-hash = "92f05c7171764b3f16b33042d5bcfc58f4a786981b552546f0d67598f3b14d85"
+hash = "f0fbe653534f98c5222fd5e51f2b1ae9d42f11c0ab3ace29858d7a28eb93ab5e"
+
+[[files]]
+file = "kubejs/server_scripts/industrial_age.js"
+hash = "27ed751fe0c580f0eb28ded5db0415c87c7714a3b23c8db83d8032e4c8441408"
 
 [[files]]
 file = "kubejs/server_scripts/metallurgy_transfer_ladle.js"
@@ -1526,7 +1538,7 @@ hash = "a5519cf11c7a1e8c29464d070594398a4c62db2c04d7e0c9f135384a764983c5"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
-hash = "d88853d3ed9f53f8ed59986aee2e70705a64de064b24196c522b047277e2a356"
+hash = "7563b412d67c04314d74eba7697e69ce3f736dc404154ec6ce82d714095c6fbd"
 
 [[files]]
 file = "kubejs/startup_scripts/fluids.js"
@@ -1534,7 +1546,7 @@ hash = "812b64de18a7d5804ba7acf03c93b569c3d07247cae6203791fb4b85772e1d58"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "51bc664013353bd3596f1ed04bbf10a6a6427d3068ae1da2696c84e8b888be9e"
+hash = "2a06e2de15a9d024e29ff367cf6783ead5decf398471975fe13f60f2029377b0"
 
 [[files]]
 file = "kubejs/startup_scripts/tiers.js"
