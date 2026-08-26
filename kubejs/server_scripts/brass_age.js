@@ -397,6 +397,34 @@ ServerEvents.recipes(event => {
   event.shapeless('create:sequenced_gearshift', [BRASS_CASING, BRASS.cog, ELECTRON_TUBE])
     .id('kubejs:crafting/sequenced_gearshift')
 
+  // ── Crafts & Additions ────────────────────────────────────────────────
+  //
+  // 교류발전기는 이 팩에서 FE를 만드는 유일한 입구다. 원본은 구리
+  // 스풀과 철 막대만 요구해 안산암 합금 시대에 이미 열려 버린다.
+  //
+  // 배치는 원본의 마름모 그대로 두고, 스풀을 황동 판으로 올리며
+  // 한가운데를 강철 케이싱으로 바꾼다. 강철이 들어가므로 황동 시대
+  // 끝에야 손이 닿는다.
+  event.remove({ id: 'createaddition:mechanical_crafting/alternator' })
+  event.custom({
+    type: 'create:mechanical_crafting',
+    accept_mirrored: true,
+    key: {
+      A: { item: 'create:andesite_alloy' },
+      I: { tag: 'c:plates/iron' },
+      B: { tag: 'c:plates/brass' },
+      C: { item: 'kubejs:steel_casing' }
+    },
+    pattern: [
+      '  A  ',
+      ' IBI ',
+      'IBCBI',
+      ' IBI ',
+      '  A  '
+    ],
+    result: { count: 1, id: 'createaddition:alternator' }
+  }).id('kubejs:mechanical_crafting/alternator')
+
   // ── AE 전력 ───────────────────────────────────────────────────────────
   //
   // ae2-common.toml에서 FE 환율을 사실상 0으로 내려 두었으므로 다른 모드의
