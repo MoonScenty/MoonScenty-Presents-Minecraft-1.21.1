@@ -1587,7 +1587,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "f50e9b66d0be7909fd407bf2e0b572ae04a26be595535dd8e1414a990bc890d2"
+hash = "dc538273e409c1c1a4b6aea4cc862468ebe6a29bbc7f09b90b39ea892e5a26b7"
 metafile = true
 
 [[files]]
@@ -1877,7 +1877,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-integrated-farming.pw.toml"
-hash = "49d4b23622668a00c07ad8052323db3ed447b6a8c8c2f568da34487b1a487a4c"
+hash = "1cc5a2717a5aa0a77a5f1f05172464d530522597ea8456b876636c7808a70fe5"
 metafile = true
 
 [[files]]
@@ -2087,7 +2087,7 @@ metafile = true
 
 [[files]]
 file = "mods/fancy-toasts.pw.toml"
-hash = "29be823efa9da654953dcb7df12bc20f69be6aaed73a9d1e05c5aae85538c10b"
+hash = "6969a12b418dd946165713afdf9e558cd0654dfeebef52cfc7b8f076b81dc815"
 metafile = true
 
 [[files]]
@@ -2202,7 +2202,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "7baf8ef642d3c40608b344fbbfe3634c09b38f8670099b2f307df8f7a4143d99"
+hash = "6a451ba7022f1afab59b6884ded7e2c533f7d4279738477030d6de496e3de1a4"
 metafile = true
 
 [[files]]
@@ -2217,7 +2217,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-teams-forge.pw.toml"
-hash = "e717bb275a54a5caadaa7cf82bc34df3589f49402074adf93c31eaac43860313"
+hash = "c21c2308684a75cda7dd9d557d129c9f89f49be527da3d5aa675fff444c11f5e"
 metafile = true
 
 [[files]]
@@ -2332,7 +2332,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "cc9ff8f836b242932bc70428c785c1b24838bf4a008f1614aa8c2fcbd3fd86d4"
+hash = "4520268d4ae061f16fe109c519d08d4a1bf60824fd2c8bdbda2595905ce0dd57"
 metafile = true
 
 [[files]]
@@ -2757,7 +2757,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "1cb429276e440bbb9b9b1a0007422e3c4edb9569290ab9a19809ad11f66a6b75"
+hash = "a62d00b724dbac4906afd5d8676f6f65be306eedf2eb9cdb5b6aec1fc80c300a"
 metafile = true
 
 [[files]]
