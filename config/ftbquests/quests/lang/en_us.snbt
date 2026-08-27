@@ -2168,6 +2168,288 @@
 	quest.5A0E10000003011F.quest_desc: ["상자와 같은 원리로 유체를 다룹니다."]
 	quest.5A0E10000003011F.quest_subtitle: "Void Tank 제작"
 	quest.5A0E10000003011F.title: "어디서나 같은 탱크"
+	quest.5A0E100000040001.quest_desc: [
+		"강철 축에 공허 강철 판을 얹으면 공허 강철 축이 됩니다."
+		""
+		"세 시대 내내 같은 방법이었습니다. 안산암에 유령 들린 황동 판, 황동에 강철 판, 이번에는 공허 강철 판입니다."
+		""
+		"256RPM까지 견딥니다. 응력 상한은 사실상 없앴습니다."
+	]
+	quest.5A0E100000040001.quest_subtitle: "공허 강철 축 제작"
+	quest.5A0E100000040001.title: "마지막 판 한 장"
+	quest.5A0E100000040002.quest_desc: [
+		"강철 톱니바퀴에 공허 강철 판 하나입니다."
+		""
+		"&l이 티어의 응력 상한은 6,700만입니다.&r 세 시대 동안 예산을 재며 왔지만 여기서는 놓아 줍니다."
+		""
+		"이제 조이는 것은 응력이 아니라 연료입니다."
+	]
+	quest.5A0E100000040002.quest_subtitle: "공허 강철 톱니바퀴 제작"
+	quest.5A0E100000040002.title: "이제 응력을 세지 않아도 됩니다"
+	quest.5A0E100000040003.quest_desc: [
+		"32에서 시작해 두 배씩 네 번 올라와 256이 되었습니다."
+		""
+		"우라늄 농축이 이 속도를 요구합니다. 그 하나 때문에 여기까지 왔습니다."
+	]
+	quest.5A0E100000040003.quest_subtitle: "큰 공허 강철 톱니바퀴 제작"
+	quest.5A0E100000040003.title: "속도는 끝까지 올렸습니다"
+	quest.5A0E100000040004.quest_desc: [
+		"회전을 네 방향으로 나눕니다."
+		""
+		"세로 기어박스와는 서로 뒤집을 수 있습니다."
+	]
+	quest.5A0E100000040004.quest_subtitle: "공허 강철 기어박스 제작"
+	quest.5A0E100000040004.title: "마지막 갈래"
+	quest.5A0E100000040005.quest_desc: [
+		"믹서에 강철 2개와 청동 1개와 석탄 1개를 넣습니다."
+		""
+		"&l이 시대의 부품이 거의 전부 이것을 요구합니다.&r 연료봉, 제어봉, 냉각봉, 반사체, 원자로 케이싱, 증기 터빈, 방호복까지입니다."
+		""
+		"원본은 철과 구리를 받았습니다. 앞선 두 시대의 금속으로 올렸습니다. 코크스를 태워도 됩니다."
+	]
+	quest.5A0E100000040005.quest_subtitle: "Dense Alloy 제작"
+	quest.5A0E100000040005.title: "원자력의 바탕"
+	quest.5A0E100000040006.quest_desc: [
+		"우라늄 광석은 깊은 곳에 있습니다. 전용 광맥을 찾아야 합니다."
+		""
+		"원석을 그대로 제련해도 되지만 분쇄를 거치는 편이 훨씬 많이 나옵니다."
+	]
+	quest.5A0E100000040006.quest_subtitle: "Raw Uranium 확보"
+	quest.5A0E100000040006.title: "땅속의 무거운 것"
+	quest.5A0E100000040007.quest_desc: [
+		"광석을 분쇄하면 부스러기가 평균 2.5개 나옵니다."
+		""
+		"부스러기를 제련하면 우라늄 주괴가 됩니다. 다만 이대로는 연료가 되지 않습니다."
+	]
+	quest.5A0E100000040007.quest_subtitle: "Uranium Ingot 확보"
+	quest.5A0E100000040007.title: "갈아서 늘립니다"
+	quest.5A0E100000040008.quest_desc: [
+		"부스러기에 물을 뿌리면 우라늄 너깃 6개와 정제 우라늄 너깃 3~4개가 나옵니다."
+		""
+		"&l연료가 되는 것은 정제 우라늄뿐입니다.&r 그런데 그냥 우라늄이 1.7배로 더 나옵니다."
+		""
+		"남는 것을 되돌리는 길을 이 시대에서 엽니다."
+	]
+	quest.5A0E100000040008.quest_subtitle: "Refined Uranium Ingot 확보"
+	quest.5A0E100000040008.title: "씻어서 가릅니다"
+	quest.5A0E100000040009.quest_desc: [
+		"전해조에 물을 넣으면 수소와 산소로 갈라집니다."
+		""
+		"&l산소는 우라늄을 되돌릴 때 씁니다.&r 산업 시대에 세운 전해조가 다시 돌아갑니다."
+	]
+	quest.5A0E100000040009.quest_subtitle: "Oxygen 확보"
+	quest.5A0E100000040009.title: "물을 가릅니다"
+	quest.5A0E10000004000A.quest_desc: [
+		"황 하나가 황산 1,000mB가 됩니다. 가압기를 세 번 거칩니다."
+		""
+		"황은 산업 시대에서 열었습니다. 황 동굴을 한 번 털어 두면 한동안 돌아갑니다."
+		""
+		"&l황산 1,000mB가 재정제 한 번 분량입니다.&r"
+	]
+	quest.5A0E10000004000A.quest_subtitle: "Sulfuric Acid 확보"
+	quest.5A0E10000004000A.title: "황에서 온 산"
+	quest.5A0E10000004000B.quest_desc: [
+		"우라늄 주괴 4개를 원심분리기에 넣습니다."
+		""
+		"&l256RPM이 필요합니다.&r 공허 강철 부품을 갖추지 않으면 돌지 않습니다."
+		""
+		"원심분리는 회전만 씁니다. 실제 우라늄 농축도 원심분리기로 하고, 화학은 그다음입니다."
+	]
+	quest.5A0E10000004000B.quest_subtitle: "Yellow Cake 제작"
+	quest.5A0E10000004000B.title: "노란 덩어리"
+	quest.5A0E10000004000C.quest_desc: [
+		"옐로케이크에 산소와 황산을 부으면 정제 우라늄 2개가 나옵니다. 우라늄 4개가 2개가 되는 셈입니다."
+		""
+		"&l광석 하나당 정제 우라늄이 두 배가 되고 창고에 쌓이던 우라늄이 사라집니다.&r"
+		""
+		"정제 우라늄에 Dense Alloy를 얹으면 연료봉입니다."
+	]
+	quest.5A0E10000004000C.quest_subtitle: "Refined Uranium Rod 제작"
+	quest.5A0E10000004000C.title: "되돌아온 우라늄"
+	quest.5A0E10000004000D.quest_desc: [
+		"유체 탱크에 Dense Alloy를 우클릭합니다."
+		""
+		"쌓아 올려 다중 블록을 만듭니다. 크게 지을수록 담을 수 있는 출력이 커집니다."
+		""
+		"&l여기서부터 방사능이 시작됩니다.&r 방호복을 갖추지 않으면 가까이 서 있기 어렵습니다."
+	]
+	quest.5A0E10000004000D.quest_subtitle: "Reactor Casing 제작"
+	quest.5A0E10000004000D.title: "탱크가 노심이 됩니다"
+	quest.5A0E10000004000E.quest_desc: [
+		"원자로 케이싱 위에 얹습니다. 연료봉과 제어봉을 여기에 꽂습니다."
+		""
+		"&l연료봉은 개수와 인접도에 비례해 출력을 냅니다.&r 붙여 놓을수록 급격히 올라갑니다."
+		""
+		"출력이 노심 용량을 넘으면 내구도가 깎입니다. 제어봉과 판으로 버티는 것이 이 기계의 전부입니다."
+	]
+	quest.5A0E10000004000E.quest_subtitle: "Rod Assembly 제작"
+	quest.5A0E10000004000E.title: "봉을 꽂는 자리"
+	quest.5A0E10000004000F.quest_desc: [
+		"케이싱 옆면에 붙입니다. 신호를 주면 기동하고 끊으면 멈춥니다."
+		""
+		"&l신호가 끊기면 SCRAM입니다.&r 제어봉이 전부 내려오고 반응이 멎습니다."
+		""
+		"디스플레이 링크로 온도와 내구도와 수위를 뽑을 수 있습니다. 자동 안전장치를 짜 두는 편이 낫습니다."
+	]
+	quest.5A0E10000004000F.quest_subtitle: "Reactor Redstone Interface 제작"
+	quest.5A0E10000004000F.title: "멈추는 법을 먼저"
+	quest.5A0E100000040010.quest_desc: [
+		"케이싱 면에 붙이면 원자로의 열이 회전력이 됩니다."
+		""
+		"&l이 시대의 산물은 전기가 아니라 SU입니다.&r 다섯 시대 내내 다뤄 온 그 회전력입니다."
+		""
+		"물을 펌프로 케이싱에 넣어야 식습니다. 안 넣으면 온도가 올라갑니다."
+	]
+	quest.5A0E100000040010.quest_subtitle: "Steam Turbine 제작"
+	quest.5A0E100000040010.title: "열을 회전으로"
+	quest.5A0E100000040011.quest_desc: [
+		"연료봉은 두 시간이면 소진됩니다. 다 탄 봉을 빼내면 이것이 남습니다."
+		""
+		"&l제작법이 없습니다. 원자로를 실제로 돌려야만 나옵니다.&r"
+		""
+		"기계 팔 두 대를 붙이면 자동으로 갈아 끼울 수 있습니다."
+	]
+	quest.5A0E100000040011.quest_subtitle: "Depleted Uranium Rod 확보"
+	quest.5A0E100000040011.title: "타고 남은 것"
+	quest.5A0E100000040012.quest_desc: [
+		"고갈 연료봉을 분쇄하면 우라늄과 함께 플루토늄이 나옵니다."
+		""
+		"&l플루토늄은 원자로를 돌려야만 나옵니다.&r 사 모으거나 캘 수 없습니다."
+		""
+		"우라늄 너깃도 함께 나오니 그것은 다시 재정제로 돌립니다. 여기서 순환이 닫힙니다."
+	]
+	quest.5A0E100000040012.quest_subtitle: "Plutonium Ingot 확보"
+	quest.5A0E100000040012.title: "재 속의 새 연료"
+	quest.5A0E100000040013.quest_desc: [
+		"다섯 시대의 케이싱을 전부 모으고 한가운데에 플루토늄을 놓습니다. 조합기가 필요합니다."
+		""
+		"안산암, 구리, 방수 구리, 황동, 강철, 공허. 여섯 종을 다 만들어 봤어야 손에 들 수 있습니다."
+		""
+		"&l재료를 사 모으는 것으로는 만들 수 없습니다.&r 한가운데가 플루토늄이기 때문입니다."
+	]
+	quest.5A0E100000040013.quest_subtitle: "Ultimate Casing 제작"
+	quest.5A0E100000040013.title: "지나온 길을 한 손에"
+	quest.5A0E100000040014.quest_desc: [
+		"궁극 케이싱의 유일한 쓸모입니다."
+		""
+		"다섯 시대 내내 땅에서 회전축을 다뤄 왔습니다. 손 크랭크에서 시작해 원자로까지 왔습니다."
+		""
+		"&l이 모드팩의 마지막 퀘스트입니다.&r 이제 날아도 됩니다."
+	]
+	quest.5A0E100000040014.quest_subtitle: "천사의 반지 제작"
+	quest.5A0E100000040014.title: "땅을 떠납니다"
+	quest.5A0E100000040101.quest_desc: ["가로 기어박스와 서로 오갑니다."]
+	quest.5A0E100000040101.quest_subtitle: "세로 공허 강철 기어박스 제작"
+	quest.5A0E100000040101.title: "눕히거나 세우거나"
+	quest.5A0E100000040102.quest_desc: ["많이 만들게 되므로 묶어 두면 편합니다."]
+	quest.5A0E100000040102.quest_subtitle: "Dense Alloy Block 제작"
+	quest.5A0E100000040102.title: "아홉을 하나로"
+	quest.5A0E100000040103.quest_desc: [
+		"구리 판 넷을 조합기에 한 줄로 놓습니다."
+		""
+		"냉각봉과 RTG의 재료입니다."
+	]
+	quest.5A0E100000040103.quest_subtitle: "Heatsink 제작"
+	quest.5A0E100000040103.title: "열을 빼냅니다"
+	quest.5A0E100000040104.quest_desc: ["재정제로 돌릴 우라늄을 쌓아 둘 때 씁니다."]
+	quest.5A0E100000040104.quest_subtitle: "Uranium Block 제작"
+	quest.5A0E100000040104.title: "보관용"
+	quest.5A0E100000040105.quest_desc: ["연료봉으로 만들기 전까지 모아 둡니다."]
+	quest.5A0E100000040105.quest_subtitle: "Refined Uranium Block 제작"
+	quest.5A0E100000040105.title: "보관용"
+	quest.5A0E100000040106.quest_desc: [
+		"물을 가르면 산소 100mB당 수소가 200mB 나옵니다. 산소만 쓰면 수소가 두 배로 남습니다."
+		""
+		"&l남는 수소는 폭탄으로 갑니다.&r"
+	]
+	quest.5A0E100000040106.quest_subtitle: "Hydrogen 확보"
+	quest.5A0E100000040106.title: "남는 절반"
+	quest.5A0E100000040107.quest_desc: [
+		"화약에 수소를 채웁니다."
+		""
+		"재정제 한 번이 수소 1,000mB를 남기므로 장약 두 개가 나옵니다."
+	]
+	quest.5A0E100000040107.quest_subtitle: "Hydrogen Charge 제작"
+	quest.5A0E100000040107.title: "수소를 담습니다"
+	quest.5A0E100000040108.quest_desc: [
+		"Create 고글이 들어갑니다. 쓰면 원자로 상태가 함께 보입니다."
+		""
+		"&l방호복은 풀세트를 입어야 효과가 있습니다.&r"
+	]
+	quest.5A0E100000040108.quest_subtitle: "Hazmat Helmet 제작"
+	quest.5A0E100000040108.title: "얼굴부터"
+	quest.5A0E100000040109.quest_desc: ["방사능을 막습니다. 네 부위를 다 갖춰야 합니다."]
+	quest.5A0E100000040109.quest_subtitle: "Hazmat Suit 제작"
+	quest.5A0E100000040109.title: "몸통"
+	quest.5A0E10000004010A.quest_desc: ["방사능을 막습니다."]
+	quest.5A0E10000004010A.quest_subtitle: "Hazmat Leggings 제작"
+	quest.5A0E10000004010A.title: "다리"
+	quest.5A0E10000004010B.quest_desc: ["이것으로 풀세트입니다. 이제 원자로 옆에 서 있어도 됩니다."]
+	quest.5A0E10000004010B.quest_subtitle: "Hazmat Boots 제작"
+	quest.5A0E10000004010B.title: "발"
+	quest.5A0E10000004010C.quest_desc: [
+		"출력을 흡수합니다. 철 블록 하나와 Dense Alloy입니다."
+		""
+		"연료봉으로 올리고 제어봉으로 누르는 것이 원자로 운전의 전부입니다."
+	]
+	quest.5A0E10000004010C.quest_subtitle: "Small Control Rod 제작"
+	quest.5A0E10000004010C.title: "조금 누릅니다"
+	quest.5A0E10000004010D.quest_desc: ["철 블록 두 개짜리입니다. 흡수량이 큽니다."]
+	quest.5A0E10000004010D.quest_subtitle: "Large Control Rod 제작"
+	quest.5A0E10000004010D.title: "많이 누릅니다"
+	quest.5A0E10000004010E.quest_desc: [
+		"중성자를 노심으로 되돌려 인접 보너스를 올립니다."
+		""
+		"출력이 오르는 만큼 위험도 오릅니다."
+	]
+	quest.5A0E10000004010E.quest_subtitle: "Neutron Reflector 제작"
+	quest.5A0E10000004010E.title: "되돌려 보냅니다"
+	quest.5A0E10000004010F.quest_desc: ["온도를 낮춥니다. 구리 블록과 히트싱크와 Dense Alloy입니다."]
+	quest.5A0E10000004010F.quest_subtitle: "Cooling Rod 제작"
+	quest.5A0E10000004010F.title: "식힙니다"
+	quest.5A0E100000040110.quest_desc: [
+		"플루토늄으로 만든 연료봉입니다. 네 시간을 갑니다."
+		""
+		"&l우라늄 연료봉의 두 배입니다.&r 원자로가 자립하는 지점입니다."
+	]
+	quest.5A0E100000040110.quest_subtitle: "Plutonium Fuel Rod 제작"
+	quest.5A0E100000040110.title: "두 배로 오래"
+	quest.5A0E100000040111.quest_desc: ["귀한 것이니 모아 두는 편이 낫습니다."]
+	quest.5A0E100000040111.quest_subtitle: "Plutonium Block 제작"
+	quest.5A0E100000040111.title: "보관용"
+	quest.5A0E100000040112.quest_desc: [
+		"방사성 붕괴만으로 10 FE/t를 냅니다. 연료도 조작도 필요 없습니다."
+		""
+		"대신 반경 네 칸에 방사능을 뿜습니다."
+	]
+	quest.5A0E100000040112.quest_subtitle: "RTG 제작"
+	quest.5A0E100000040112.title: "가만히 두어도"
+	quest.5A0E100000040113.quest_desc: [
+		"붕괴열로 보일러를 데웁니다. 블레이즈 버너 자리에 놓습니다."
+		""
+		"&l이틀마다 한 단계씩 식습니다.&r 다 식으면 플루토늄 3개로 다시 채웁니다."
+	]
+	quest.5A0E100000040113.quest_subtitle: "Radioisotope Heat Generator 제작"
+	quest.5A0E100000040113.title: "보일러의 열원"
+	quest.5A0E100000040114.quest_desc: [
+		"수소 장약 여섯과 Dense Alloy와 플루토늄입니다."
+		""
+		"원본은 화약만 요구했습니다. 이제 화학 라인을 세워야 만들 수 있습니다."
+		""
+		"&l부싯돌로 점화하면 10초 뒤 터집니다.&r 그 안에 충분히 멀어져야 합니다."
+	]
+	quest.5A0E100000040114.quest_subtitle: "Crude Nuclear Bomb 제작"
+	quest.5A0E100000040114.title: "이름값을 합니다"
+	quest.5A0E100000040115.quest_desc: ["플루토늄 연료봉이 다 타면 남습니다. 분쇄하면 플루토늄이 돌아옵니다."]
+	quest.5A0E100000040115.quest_subtitle: "Depleted Plutonium Rod 확보"
+	quest.5A0E100000040115.title: "이것도 남습니다"
+	quest.5A0E100000040116.quest_desc: [
+		"가스트 눈물과 다이아 블록, 그리고 엘리트라가 들어갑니다."
+		""
+		"&l엔드를 다녀와야 합니다.&r 천사의 반지의 재료입니다."
+	]
+	quest.5A0E100000040116.quest_subtitle: "다이아몬드 반지 제작"
+	quest.5A0E100000040116.title: "반지의 절반"
 	quest.5A0E150000000001.quest_desc: [
 		"모든 것은 바닐라 벌에서 시작합니다. 꽃 숲(flowering forest)에 야생 벌집이 흔합니다."
 		"꿀이 가득 찬 벌집에 가위를 쓰면 벌집 조각이 나옵니다. 병을 쓰면 꿀 병이 나옵니다."
