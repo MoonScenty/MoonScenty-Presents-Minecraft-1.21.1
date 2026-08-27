@@ -379,6 +379,61 @@ K K K      L = petrochem:lubricant_bucket
 
 입력 유체 `gearbox:petroleum`을 가진 모드가 팩에 없어 쓸 수도 없고 로그만 더럽힙니다.
 
+### 황 — 정유소의 곁가지
+
+**미구현.** 설계만 되어 있습니다.
+
+바닐라 백포트가 `minecraft:sulfur`와 전용 동굴 바이옴(`minecraft:sulfur_caves`)을 들고 왔는데 팩 안에서 완전히 고립돼 있습니다. 태그에도 안 들어가 있고 가공 경로도 없어 순수 건축 블록입니다.
+
+반대로 **Vintage의 황 화학은 사슬이 완성돼 있는데 재료가 없습니다.** 아수린과 스코리아를 분쇄할 때 부산물로 조금 나오는 것이 전부입니다.
+
+**둘을 잇습니다.**
+
+```
+minecraft:sulfur        → 분쇄 → vintageimprovements:sulfur
+minecraft:potent_sulfur → 분쇄 → 더 많이     (황 5개를 압축한 블록)
+minecraft:sulfur_spike  → 조합 → minecraft:sulfur ×4   (바닐라 백포트 원본)
+```
+
+그러면 굶고 있던 사슬이 살아납니다.
+
+```
+c:gems/sulfur ─[가압 · 가열 600틱]→ 이산화황 1,000mB
+이산화황 250 + c:nuggets/iron ─[가압]→ 삼산화황 250
+삼산화황 1,000 ─[가압]→ 황산 1,000
+```
+
+**황 하나가 황산 1,000mB입니다.**
+
+#### 왜 산업 시대인가
+
+정유는 원래 황을 다루는 일입니다. Petrochem이 `desulfurized_heavy_diesel` · `desulfurized_heavy_naphta` · `desulfurized_kerosene` 셋을 **등록만 해 두고 레시피를 비워 둔 것**도 그 자리입니다.
+
+황 동굴을 이 시대에 열면 **정유소를 세우는 시점과 황을 다루기 시작하는 시점이 겹칩니다.** 주제가 맞습니다.
+
+그리고 황산 자체는 이 시대에서도 쓸 데가 있습니다.
+
+```
+황산 200 + 물 200 + 구리 주괴 ─[가압]→ vintageimprovements:copper_sulfate
+```
+
+**본격적인 소비처는 원자력 시대입니다.** 우라늄 재정제가 배치마다 황산 1,000mB를 먹습니다. 자세한 것은 [QUEST_ATOMIC_AGE.md](QUEST_ATOMIC_AGE.md)를 보십시오.
+
+#### 죽은 아이템 하나를 같이 살립니다
+
+`petrochem:sulfur_dust`는 만드는 레시피가 없고 유일한 소비처도 `petrochem_expert` 조건이라 꺼져 있습니다. 이것을 `c:dusts/sulfur`에 넣으면 Vintage가 준비해 둔 호환 레시피가 켜집니다.
+
+```json
+// pressurizing/compat/sulfur_dioxide_from_dust.json
+"conditions": [{ "not": { "tag_empty": "c:dusts/sulfur" } }]
+```
+
+**태그가 비어 있지 않으면 저절로 켜지는 레시피입니다.** 다른 모드 황을 받아 줄 문을 Vintage가 미리 열어 둔 셈입니다.
+
+#### 남겨 둔 것
+
+`desulfurized_*` 셋에 레시피를 넣어 **정제 과정에서 황이 나오게** 만들 수도 있습니다. 실제 수첨탈황이 그 공정이고요. 다만 그러려면 수소가 필요한데 수소는 원자력 시대에서 되살립니다. **지금은 황을 캐는 것으로만 둡니다.**
+
 ### 공허 강철 — 결승선
 
 #### 주괴
@@ -435,10 +490,22 @@ minecraft:obsidian 에 createutilities:void_steel_sheet 를 우클릭
 
 ---
 
+## 알려진 문제
+
+**선택 퀴스트 `0102 Hydrogen` · `0103 Oxygen` 은 지금 완료할 수 없습니다.**
+
+```
+electrolyzing/water_electrolysis
+  조건: mod_loaded "petrochem_expert"   <- 팩에 없으므로 비활성
+```
+
+수소·산소를 내는 유일한 레시피가 꺼져 있고, 팩 안에 소비처도 하나 없습니다.
+
+**원자력 시대에서 되살립니다.** 산소가 우라늄 농축의 재료가 되므로 챕터는 그대로 두고, 그때까지는 미완료로 남습니다. 상세는 [QUEST_ATOMIC_AGE.md](QUEST_ATOMIC_AGE.md) 를 보십시오.
+
 ## 다음 시대로 넘긴 것
 
 - **공허 강철 티어(256 RPM / 67108864 SU).** `tiers.js`에 등록만 되어 있고 부품 제작법이 없습니다. 원자력 시대에서 엽니다.
-- **황.** 바닐라 백포트가 `minecraft:sulfur`와 전용 동굴 바이옴(`sulfur_caves`)을 들고 왔는데 팩 안에서 완전히 고립돼 있습니다. 반대로 Vintage의 황 화학(황 → SO₂ → SO₃ → 황산)은 사슬이 완성돼 있는데 재료를 돌 분쇄 부산물로만 받습니다. 분쇄 레시피 두어 개로 이을 수 있습니다.
 - **Petrochem 탈황 유체 셋** (`desulfurized_heavy_diesel` 등). 등록만 되어 있고 레시피가 전혀 없습니다. 원유 정제 부산물로 황이 나오는 구조를 짜 넣을 자리가 통째로 비어 있습니다.
 - **`petrochem:sulfur_dust`.** 만드는 레시피가 없고 유일한 소비처도 `petrochem_expert` 모드가 있어야 켜집니다. 지금은 죽은 아이템입니다.
 
