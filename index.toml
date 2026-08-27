@@ -1522,7 +1522,7 @@ hash = "3d0daa4c38dd5e3c48280bcd66a04c392269d57903026e5896c7896c3c981bbc"
 
 [[files]]
 file = "kubejs/server_scripts/atomic_age.js"
-hash = "a0353fc684e332973db0a3e152aa8c3f3835ffa31dfa7b2e3e4cd5433b594ccb"
+hash = "d00b3fc31250eac63be4d4eec60666723698491e3f67cf2e7db8ea8de002cc4d"
 
 [[files]]
 file = "kubejs/server_scripts/brass_age.js"

@@ -138,43 +138,56 @@ ServerEvents.recipes(event => {
   //
   // 더 후하면 세척 노선이 무의미해지고, 더 박하면 우라늄이 계속 쌓인다.
 
-  // 앞 — 농축. 옐로케이크는 Create: Atomic 에 에셋만 남아 있고 AtomicBlocks 에도
-  // AtomicItems 에도 등록되어 있지 않다. 게임 안에 없는 유령이라 이 팩이 아이템으로
-  // 따로 만들었다. 실제 우라늄 정련의 중간체이기도 하다.
+  // 앞 — 농축. 회전만 쓴다.
+  //
+  // 원심분리기는 유체를 secondary_fluid_output 으로 내보내기만 하고 입력
+  // 탱크가 없다. 레시피에 유체 재료를 적으면 로드는 되지만 기계가 받지
+  // 않는다. 그래서 여기는 아이템만 쓰고 화학은 전부 뒤쪽으로 몰았다.
+  //
+  // 실제 원심분리도 물리적 농축이지 화학 공정이 아니므로 이쪽이 더 맞다.
   //
   // minimal_rpm 256 을 걸어 공허 강철 티어를 강제한다. 황동 64, Comb Block
   // 128 로 올라온 사다리의 마지막 칸이다.
+  //
+  // 옐로케이크는 Create: Atomic 에 에셋만 남아 있고 등록이 빠져 있다.
+  // 게임 안에 없는 유령이라 이 팩이 아이템으로 따로 만들었다. 실제 우라늄
+  // 정련의 중간체이기도 하다.
   event.custom({
     type: 'vintageimprovements:centrifugation',
     ingredients: [
       { item: 'createatomic:uranium_ingot' },
       { item: 'createatomic:uranium_ingot' },
       { item: 'createatomic:uranium_ingot' },
-      { item: 'createatomic:uranium_ingot' },
-      { type: 'neoforge:single', amount: 500, fluid: 'petrochem:oxygen' }
+      { item: 'createatomic:uranium_ingot' }
     ],
     results: [{ count: 1, id: 'kubejs:yellow_cake' }],
     processing_time: 600,
     minimal_rpm: 256
   }).id('kubejs:centrifugation/yellow_cake')
 
-  // 뒤 — 재변환. 농축한 뒤 화학으로 연료 형태로 되돌리는 실제 공정과 같다.
+  // 뒤 — 재변환. 화학 두 가지가 여기서 한꺼번에 들어간다.
+  //
+  // 베이슨은 유체를 둘까지 받는다. Vintage 의 황산구리가 황산과 물과 구리
+  // 주괴를 함께 쓰는 것이 같은 형태다.
   //
   // 전해조를 두 번 쓰게 되는 것이 이 설계의 요점이다. 산업 시대에 세운
   // 기계가 장식으로 남지 않는다.
   //
   // 황산 1,000mB 는 황 하나다. 황은 산업 시대에서 연다.
+  // 산소 500mB 는 물 전기분해 다섯 번이고, 그때 수소가 1,000mB 남는다.
   event.custom({
     type: 'petrochem:electrolyzing',
     energy: 400,
     ingredients: [
       { item: 'kubejs:yellow_cake' },
+      { type: 'neoforge:single', amount: 500, fluid: 'petrochem:oxygen' },
       { type: 'neoforge:tag', amount: 1000, tag: 'c:sulfuric_acid' }
     ],
     results: [
       { count: 2, id: 'createatomic:refined_uranium_ingot' }
     ]
   }).id('kubejs:electrolyzing/refined_uranium')
+
 
   // ── 수소 폭탄 ─────────────────────────────────────────────────────────
   //
