@@ -1879,6 +1879,295 @@
 	]
 	quest.5A0E100000020136.quest_subtitle: "황동 장식 5종 확보"
 	quest.5A0E100000020136.title: "황동으로 짓습니다"
+	quest.5A0E100000030001.quest_desc: [
+		"황동 축에 강철 판을 얹으면 강철 축이 됩니다."
+		""
+		"안산암에서 황동으로 올라올 때와 같은 방법입니다. 그때는 유령 들린 황동 판이었고 이번에는 강철 판입니다."
+		""
+		"128RPM까지 견디고 응력은 4096까지 올라갑니다. 황동의 두 배입니다."
+	]
+	quest.5A0E100000030001.quest_subtitle: "강철 축 제작"
+	quest.5A0E100000030001.title: "다시 판 한 장입니다"
+	quest.5A0E100000030002.quest_desc: [
+		"황동 톱니바퀴에 강철 판 하나입니다."
+		""
+		"강철 판은 정제 코크스를 거쳐야 나옵니다. 황동 시대에 세운 원심분리기가 계속 돌아야 합니다."
+	]
+	quest.5A0E100000030002.quest_subtitle: "강철 톱니바퀴 제작"
+	quest.5A0E100000030002.title: "톱니도 마찬가지로"
+	quest.5A0E100000030003.quest_desc: [
+		"큰 톱니와 작은 톱니를 물려 속도를 바꿉니다."
+		""
+		"128RPM까지 올릴 수 있게 되었지만 &l동력원이 그만큼 내주지는 않습니다.&r 화로 엔진은 64에서 멈춥니다."
+		""
+		"이 시대의 동력은 석유에서 나옵니다."
+	]
+	quest.5A0E100000030003.quest_subtitle: "큰 강철 톱니바퀴 제작"
+	quest.5A0E100000030003.title: "두 배와 절반"
+	quest.5A0E100000030004.quest_desc: [
+		"회전을 네 방향으로 나눕니다."
+		""
+		"세로 기어박스와는 서로 뒤집을 수 있습니다. 하나만 만들어 두면 됩니다."
+	]
+	quest.5A0E100000030004.quest_subtitle: "강철 기어박스 제작"
+	quest.5A0E100000030004.title: "네 갈래로"
+	quest.5A0E100000030005.quest_desc: [
+		"대야 위에 얹어 쓰는 기계입니다. &l회전과 FE를 동시에 먹습니다.&r"
+		""
+		"재료는 강철 판뿐이라 지금 바로 만들 수 있습니다. 문제는 전기입니다."
+		""
+		"황동 시대에 만든 교류발전기를 옆에 붙이면 됩니다. 이 모드팩에는 전선이 없습니다. 발전기를 기계에 직접 대야 합니다."
+		""
+		"스크롤로 속도를 올리면 소모 전력도 같이 올라갑니다."
+	]
+	quest.5A0E100000030005.quest_subtitle: "Electrolyzer 제작"
+	quest.5A0E100000030005.title: "전기로 물을 가릅니다"
+	quest.5A0E100000030006.quest_desc: [
+		"아연 너깃에 진한 물약을 붓습니다. 가압기에서 열을 받아야 합니다."
+		""
+		"진한 물약은 네더 사마귀만 넣고 끓인 것입니다. 아무 효과도 없는 물약이지요."
+		""
+		"&l주석은 이 시대의 진짜 관문입니다.&r 청동이 여기서 시작합니다."
+	]
+	quest.5A0E100000030006.quest_subtitle: "Tin Nugget 제작"
+	quest.5A0E100000030006.title: "물약을 부어 만드는 금속"
+	quest.5A0E100000030007.quest_desc: [
+		"너깃 아홉 개를 모으면 주괴가 됩니다."
+		""
+		"팩 안의 어느 모드도 주석 주괴를 내놓지 않아 이 모드팩이 직접 만듭니다."
+	]
+	quest.5A0E100000030007.quest_subtitle: "Tin Ingot 제작"
+	quest.5A0E100000030007.title: "너깃 아홉이 주괴 하나"
+	quest.5A0E100000030008.quest_desc: [
+		"믹서에 구리 주괴 3개와 주석 주괴 1개를 넣고 가열합니다."
+		""
+		"주괴 기준 3 대 1입니다. 주석 주괴 하나가 너깃 아홉이니 &l청동 하나에 아연 너깃 아홉이 들어갑니다.&r"
+		""
+		"용융 구리와 용융 주석을 합치는 길도 있습니다. 비율은 같습니다."
+	]
+	quest.5A0E100000030008.quest_subtitle: "Bronze Ingot 제작"
+	quest.5A0E100000030008.title: "구리 셋에 주석 하나"
+	quest.5A0E100000030009.quest_desc: [
+		"정유소의 혈관입니다. 한 번에 네 개가 나옵니다."
+		""
+		"이제부터 다루는 것은 대부분 유체입니다. 넉넉히 만들어 두는 편이 낫습니다."
+	]
+	quest.5A0E100000030009.quest_subtitle: "Steel Fluid Pipe 제작"
+	quest.5A0E100000030009.title: "유체를 나릅니다"
+	quest.5A0E10000003000A.quest_desc: [
+		"조합기가 필요합니다. 7칸 곱하기 2칸짜리 배치입니다."
+		""
+		"강철 케이싱과 강철 축이 들어갑니다. 원본보다 무겁게 만들어 두었습니다."
+	]
+	quest.5A0E10000003000A.quest_subtitle: "Pumpjack Arm 제작"
+	quest.5A0E10000003000A.title: "땅속을 퍼올리는 팔"
+	quest.5A0E10000003000B.quest_desc: [
+		"팔과 크랭크와 유정이 한 벌입니다. 셋을 맞춰야 원유가 올라옵니다."
+		""
+		"&l유정은 자리마다 매장량이 다릅니다.&r 파 보기 전에는 알 수 없습니다."
+	]
+	quest.5A0E10000003000B.quest_subtitle: "Pumpjack Well 제작"
+	quest.5A0E10000003000B.title: "유정을 뚫습니다"
+	quest.5A0E10000003000C.quest_desc: [
+		"펌프잭이 돌면 원유가 올라옵니다."
+		""
+		"이대로는 아무 데도 못 씁니다. &l증류를 거쳐야 쓸모가 생깁니다.&r"
+	]
+	quest.5A0E10000003000C.quest_subtitle: "Oil 확보"
+	quest.5A0E10000003000C.title: "검은 피"
+	quest.5A0E10000003000D.quest_desc: [
+		"증류탑의 머리입니다. &l청동 판을 요구하므로 주석을 뚫어야 손이 닿습니다.&r"
+		""
+		"탑을 쌓고 출력구를 층마다 붙이면 끓는 점이 다른 것들이 층별로 나옵니다."
+		""
+		"원유는 먼저 플래시 증류로 나뉘고, 그다음 상압증류로 갈라집니다."
+	]
+	quest.5A0E10000003000D.quest_subtitle: "Distillation Controller 제작"
+	quest.5A0E10000003000D.title: "끓는 점으로 가릅니다"
+	quest.5A0E10000003000E.quest_desc: [
+		"상압증류에서 나오는 것 중 하나입니다."
+		""
+		"디젤과 등유와 중질 나프타와 잔사유가 함께 나옵니다. 한 가지만 쓰고 나머지를 버리면 탑이 막힙니다."
+		""
+		"&l등유는 공허 강철의 재료입니다.&r 이 시대의 끝까지 이어집니다."
+	]
+	quest.5A0E10000003000E.quest_subtitle: "Kerosene 확보"
+	quest.5A0E10000003000E.title: "등유를 뽑습니다"
+	quest.5A0E10000003000F.quest_desc: [
+		"128 FE/t를 냅니다. 연료는 &lLPG&r이고, LPG는 플래시 증류의 부산물입니다."
+		""
+		"교류발전기도 강철 축이면 180 FE/t를 냅니다. 숫자로는 더 높지요."
+		""
+		"다만 그 180은 &l응력 예산을 깎아먹는 180&r입니다. 터빈은 회전축을 건드리지 않습니다."
+		""
+		"증기로도 돌아가지만 소모량이 LPG의 5,000배입니다."
+	]
+	quest.5A0E10000003000F.quest_subtitle: "Gas Turbine 제작"
+	quest.5A0E10000003000F.title: "응력을 쓰지 않는 발전"
+	quest.5A0E100000030010.quest_desc: [
+		"회전을 내는 엔진입니다. 윤활유가 들어갑니다."
+		""
+		"&l윤활유는 LPG를 먹습니다.&r 터빈에 태울지 윤활유로 바꿀지 골라야 합니다."
+	]
+	quest.5A0E100000030010.quest_subtitle: "Gasoline Engine 제작"
+	quest.5A0E100000030010.title: "가솔린을 태웁니다"
+	quest.5A0E100000030011.quest_desc: [
+		"강철 티어를 채우는 동력원입니다. 화로 엔진은 64에서 멈추니 여기서 갈아탑니다."
+		""
+		"&lCreate의 동력 축을 씁니다.&r 티어 축을 물리려면 Create Tiers: Engine Compat이 필요한데, 이 모드팩에 이미 들어 있습니다."
+	]
+	quest.5A0E100000030011.quest_subtitle: "Diesel Engine 제작"
+	quest.5A0E100000030011.title: "이 시대의 동력"
+	quest.5A0E100000030012.quest_desc: [
+		"가압기에 엔더 진주와 강철, 그리고 등유 1000mB를 넣습니다."
+		""
+		"원본은 네더라이트를 요구했습니다. 이 모드팩에서는 &l정유소를 세운 사람만&r 여기에 닿습니다."
+	]
+	quest.5A0E100000030012.quest_subtitle: "Void Steel Ingot 제작"
+	quest.5A0E100000030012.title: "엔더 진주를 강철에 녹입니다"
+	quest.5A0E100000030013.quest_desc: [
+		"주괴를 압착하거나 주조로 바로 뽑습니다."
+		""
+		"흑연 거푸집은 남고 내화 모르타르 거푸집은 한 번 쓰면 사라집니다."
+	]
+	quest.5A0E100000030013.quest_subtitle: "Void Steel Sheet 제작"
+	quest.5A0E100000030013.title: "판으로 폅니다"
+	quest.5A0E100000030014.quest_desc: [
+		"흑요석에 공허 강철 판을 우클릭합니다."
+		""
+		"&l이 시대의 마지막 퀘스트입니다.&r 원자력 시대가 여기서 시작합니다."
+	]
+	quest.5A0E100000030014.quest_subtitle: "Void Casing 제작"
+	quest.5A0E100000030014.title: "산업 시대의 끝"
+	quest.5A0E100000030101.quest_desc: ["가로 기어박스와 서로 오갑니다. 조합대에 하나만 넣으면 바뀝니다."]
+	quest.5A0E100000030101.quest_subtitle: "세로 강철 기어박스 제작"
+	quest.5A0E100000030101.title: "눕히거나 세우거나"
+	quest.5A0E100000030102.quest_desc: [
+		"전해조에 물을 넣으면 수소와 산소로 갈라집니다."
+		""
+		"수소는 뒤쪽 정제 공정에서 다시 쓰입니다."
+	]
+	quest.5A0E100000030102.quest_subtitle: "Hydrogen 확보"
+	quest.5A0E100000030102.title: "물을 가른 결과 하나"
+	quest.5A0E100000030103.quest_desc: ["수소와 함께 나옵니다."]
+	quest.5A0E100000030103.quest_subtitle: "Oxygen 확보"
+	quest.5A0E100000030103.title: "물을 가른 결과 둘"
+	quest.5A0E100000030104.quest_desc: ["소금물을 전기분해하면 나옵니다. 염소와 함께 얻습니다."]
+	quest.5A0E100000030104.quest_subtitle: "Caustic Soda 확보"
+	quest.5A0E100000030104.title: "소금물을 가릅니다"
+	quest.5A0E100000030105.quest_desc: ["원유에는 소금기가 섞여 있습니다. 탈염을 거치면 소금이 남습니다."]
+	quest.5A0E100000030105.quest_subtitle: "Salt Dust 확보"
+	quest.5A0E100000030105.title: "원유에 섞인 것"
+	quest.5A0E100000030106.quest_desc: ["주괴 아홉 개를 묶습니다. 보관용입니다."]
+	quest.5A0E100000030106.quest_subtitle: "Block of Tin 제작"
+	quest.5A0E100000030106.title: "아홉을 하나로"
+	quest.5A0E100000030107.quest_desc: [
+		"압착기에 청동 주괴를 넣습니다."
+		""
+		"증류탑 제어기와 엔진 둘 다 이 판을 요구합니다."
+	]
+	quest.5A0E100000030107.quest_subtitle: "Bronze Sheet 제작"
+	quest.5A0E100000030107.title: "청동도 판으로"
+	quest.5A0E100000030108.quest_desc: ["유체를 저장합니다. 쌓아 올리면 용량이 늘어납니다."]
+	quest.5A0E100000030108.quest_subtitle: "Steel Fluid Tank 제작"
+	quest.5A0E100000030108.title: "담아 둡니다"
+	quest.5A0E100000030109.quest_desc: ["유체관의 흐름을 끊습니다. 레드스톤으로 조작합니다."]
+	quest.5A0E100000030109.quest_subtitle: "Steel Fluid Valve 제작"
+	quest.5A0E100000030109.title: "잠급니다"
+	quest.5A0E10000003010A.quest_desc: ["지정한 유체만 통과시킵니다. 증류탑 출력을 갈라 보낼 때 씁니다."]
+	quest.5A0E10000003010A.quest_subtitle: "Steel Smart Fluid Pipe 제작"
+	quest.5A0E10000003010A.title: "골라서 보냅니다"
+	quest.5A0E10000003010B.quest_desc: ["회전을 받아 유체를 밀어냅니다. 강철 톱니와 유체관 하나면 됩니다."]
+	quest.5A0E10000003010B.quest_subtitle: "Steel Pump 제작"
+	quest.5A0E10000003010B.title: "밀어 보냅니다"
+	quest.5A0E10000003010C.quest_desc: [
+		"펌프잭 팔을 움직이는 부품입니다."
+		""
+		"회전 속도 제어기가 들어갑니다. 속도를 다루는 기계임을 재료가 말해 줍니다."
+	]
+	quest.5A0E10000003010C.quest_subtitle: "Pumpjack Crank 제작"
+	quest.5A0E10000003010C.title: "팔을 돌립니다"
+	quest.5A0E10000003010D.quest_desc: [
+		"증류탑의 각 층에 붙여 그 높이에서 갈라진 것을 받습니다."
+		""
+		"&l높이마다 나오는 것이 다릅니다.&r 무거운 것이 아래, 가벼운 것이 위입니다."
+	]
+	quest.5A0E10000003010D.quest_subtitle: "Distillation Output 제작"
+	quest.5A0E10000003010D.title: "층마다 받습니다"
+	quest.5A0E10000003010E.quest_desc: [
+		"쓸 데 없는 기체를 태워 버립니다."
+		""
+		"정유소는 원하는 것만 내놓지 않습니다. 막히기 전에 흘려보낼 곳이 필요합니다."
+	]
+	quest.5A0E10000003010E.quest_subtitle: "Flarestack 제작"
+	quest.5A0E10000003010E.title: "남는 것을 태웁니다"
+	quest.5A0E10000003010F.quest_desc: [
+		"플래시 증류에서 원유와 함께 나옵니다."
+		""
+		"가스 터빈의 연료이면서 윤활유의 재료이기도 합니다. &l둘 중 하나를 골라야 합니다.&r"
+	]
+	quest.5A0E10000003010F.quest_subtitle: "Lpg 확보"
+	quest.5A0E10000003010F.title: "터빈의 밥"
+	quest.5A0E100000030110.quest_desc: ["상압증류에서 나옵니다. 디젤 엔진의 연료입니다."]
+	quest.5A0E100000030110.quest_subtitle: "Diesel 확보"
+	quest.5A0E100000030110.title: "무거운 연료"
+	quest.5A0E100000030111.quest_desc: ["나프타를 한 번 더 처리하면 나옵니다. 가솔린 엔진의 연료입니다."]
+	quest.5A0E100000030111.quest_subtitle: "Gasoline 확보"
+	quest.5A0E100000030111.title: "가벼운 연료"
+	quest.5A0E100000030112.quest_desc: [
+		"중유와 LPG를 섞어 탈아스팔트 공정을 거치면 나옵니다."
+		""
+		"&l엔진 둘 다 이것을 요구합니다.&r 아스팔트가 함께 나옵니다."
+	]
+	quest.5A0E100000030112.quest_subtitle: "Lubricant 확보"
+	quest.5A0E100000030112.title: "기계를 부드럽게"
+	quest.5A0E100000030113.quest_desc: ["탈아스팔트 공정의 부산물입니다. 건축에 씁니다."]
+	quest.5A0E100000030113.quest_subtitle: "Asphalt Block 확보"
+	quest.5A0E100000030113.title: "길을 깝니다"
+	quest.5A0E100000030114.quest_desc: ["진공증류에서 나옵니다. 윤활유의 재료입니다."]
+	quest.5A0E100000030114.quest_subtitle: "Fuel Oil 확보"
+	quest.5A0E100000030114.title: "바닥에 남는 것"
+	quest.5A0E100000030115.quest_desc: ["상압증류에서 나옵니다. 더 처리하면 가솔린이 됩니다."]
+	quest.5A0E100000030115.quest_subtitle: "Heavy Naphta 확보"
+	quest.5A0E100000030115.title: "가솔린이 되기 전"
+	quest.5A0E100000030116.quest_desc: ["상압증류에서 가장 무겁게 남는 것입니다. 진공증류로 넘깁니다."]
+	quest.5A0E100000030116.quest_subtitle: "Oil Residue 확보"
+	quest.5A0E100000030116.title: "더 갈라야 할 것"
+	quest.5A0E100000030117.quest_desc: ["잔사유를 압축하면 나옵니다. 연료로 씁니다."]
+	quest.5A0E100000030117.quest_subtitle: "Petroleum Coke 확보"
+	quest.5A0E100000030117.title: "굳은 찌꺼기"
+	quest.5A0E100000030118.quest_desc: ["정유소가 내놓는 것 중 연료가 아닌 것입니다."]
+	quest.5A0E100000030118.quest_subtitle: "Plastic 확보"
+	quest.5A0E100000030118.title: "석유로 만드는 것"
+	quest.5A0E100000030119.quest_desc: ["공허 강철 주괴 아홉 개를 묶습니다."]
+	quest.5A0E100000030119.quest_subtitle: "Block of Void Steel 제작"
+	quest.5A0E100000030119.title: "아홉을 하나로"
+	quest.5A0E10000003011A.quest_desc: ["석재 절단기에 공허 강철을 넣습니다. 장식용입니다."]
+	quest.5A0E10000003011A.quest_subtitle: "Void Steel Bars 제작"
+	quest.5A0E10000003011A.title: "틈으로 보입니다"
+	quest.5A0E10000003011B.quest_desc: [
+		"자수정 조각을 사포로 다듬습니다."
+		""
+		"그래비톤 튜브의 재료입니다."
+	]
+	quest.5A0E10000003011B.quest_subtitle: "Polished Amethyst 제작"
+	quest.5A0E10000003011B.title: "사포로 문지릅니다"
+	quest.5A0E10000003011C.quest_desc: [
+		"광택 자수정과 공허 강철 판을 겹칩니다."
+		""
+		"Create Utilities J의 기계들이 전부 이것을 요구합니다."
+	]
+	quest.5A0E10000003011C.quest_subtitle: "Graviton Tube 제작"
+	quest.5A0E10000003011C.title: "중력을 담습니다"
+	quest.5A0E10000003011D.quest_desc: ["그래비톤 튜브와 공허 케이싱으로 만듭니다."]
+	quest.5A0E10000003011D.quest_subtitle: "Void Battery 제작"
+	quest.5A0E10000003011D.title: "전기를 담아 둡니다"
+	quest.5A0E10000003011E.quest_desc: ["떨어져 있어도 같은 내용물을 봅니다."]
+	quest.5A0E10000003011E.quest_subtitle: "Void Chest 제작"
+	quest.5A0E10000003011E.title: "어디서나 같은 상자"
+	quest.5A0E10000003011F.quest_desc: ["상자와 같은 원리로 유체를 다룹니다."]
+	quest.5A0E10000003011F.quest_subtitle: "Void Tank 제작"
+	quest.5A0E10000003011F.title: "어디서나 같은 탱크"
 	quest.5A0E150000000001.quest_desc: [
 		"모든 것은 바닐라 벌에서 시작합니다. 꽃 숲(flowering forest)에 야생 벌집이 흔합니다."
 		"꿀이 가득 찬 벌집에 가위를 쓰면 벌집 조각이 나옵니다. 병을 쓰면 꿀 병이 나옵니다."
