@@ -61,6 +61,11 @@ ServerEvents.tags('item', event => {
   event.add('c:storage_blocks/tin', 'kubejs:tin_block')
 })
 
+ServerEvents.tags('item', event => {
+  // 죽어 있던 Petrochem 황 가루를 태그에 넣어 Vintage 호환 레시피를 켜다.
+  event.add('c:dusts/sulfur', 'petrochem:sulfur_dust')
+})
+
 ServerEvents.tags('block', event => {
   event.add('c:storage_blocks/tin', 'kubejs:tin_block')
 })
@@ -171,9 +176,17 @@ ServerEvents.recipes(event => {
     'createaddition:crafting/festive_spool'
   ].forEach(id => event.remove({ id: id }))
 
-  // 개발용으로 남은 레시피다. 입력 유체 gearbox:petroleum 을 가진 모드가
-  // 팩에 없어 쓸 수도 없고 로그만 더럽힌다.
-  event.remove({ id: 'petrochem:distilling/test' })
+  // Petrochem 이 gearbox 네임스페이스로 들고 있는 개발용 잔재 16 건이다.
+  // 전부 gearbox: 유체나 타입을 참조해 이 팩에서는 로드조차 되지 않는다.
+  // 로그만 더럽히므로 명시적으로 지운다.
+  ;[
+    'centrifuging/test', 'centrifuging/test2',
+    'compressing/obsidian', 'compressing/test', 'compressing/test2',
+    'distilling/test', 'electrolyzing/test', 'irradiating/test01',
+    'laser_drilling/test', 'mechanizing/test', 'pumpjack/test',
+    'pyroprocessing/test', 'reacting/test', 'sapping/test',
+    'sequenced_assembly/test_assembly', 'transmuting/test01'
+  ].forEach(id => event.remove({ id: `gearbox:${id}` }))
 
   // ── Petrochem 설비 ────────────────────────────────────────────────────
   //
@@ -273,6 +286,44 @@ ServerEvents.recipes(event => {
     L: IND_LUBRICANT,
     K: '#c:storage_blocks/steel'
   }).id('kubejs:crafting/medium_engine')
+
+  // ── 황 ──────────────────────────────────────────────────────
+  //
+  // 바닐라 백포트가 minecraft:sulfur 와 전용 동굴 바이옴을 들고 왔는데 팩
+  // 안에서 완전히 고립돼 있다. 태그에도 안 들어가 있고 가공 경로도 없어
+  // 순수 건축 블록이다.
+  //
+  // 반대로 Vintage 의 황 화학은 사슬이 완성돼 있는데 재료가 없다.
+  // 아수린과 스코리아를 분쇄할 때 부산물로 조금 나오는 것이 전부다.
+  //
+  // 둘을 잇는다. 정유가 원래 황을 다루는 일이므로 이 시대에 둔다.
+  //
+  // 황 하나가 황산 1,000mB 다. 본격적인 소비처는 원자력 시대의
+  // 우라늄 재정제다. 배치마다 황산 1,000mB 를 먹는다.
+  event.custom({
+    type: 'create:crushing',
+    ingredients: [{ item: 'minecraft:sulfur' }],
+    results: [{ count: 2, id: 'vintageimprovements:sulfur' }],
+    processing_time: 250
+  }).id('kubejs:crushing/sulfur')
+
+  // 강한 황은 황 다섯을 뚝친 블록이다. 그만큼 더 나온다.
+  event.custom({
+    type: 'create:crushing',
+    ingredients: [{ item: 'minecraft:potent_sulfur' }],
+    results: [{ count: 10, id: 'vintageimprovements:sulfur' }],
+    processing_time: 400
+  }).id('kubejs:crushing/potent_sulfur')
+
+  // 죽어 있던 petrochem:sulfur_dust 를 같이 살린다. Vintage 에
+  // c:dusts/sulfur 가 비어 있지 않으면 켜지는 호환 레시피가 준비돼 있다.
+  event.custom({
+    type: 'vintageimprovements:polishing',
+    ingredients: [{ item: 'vintageimprovements:sulfur' }],
+    results: [{ id: 'petrochem:sulfur_dust' }],
+    processing_time: 100,
+    speed_limits: 0
+  }).id('kubejs:polishing/sulfur_dust')
 
   // ── 공허 강철 ─────────────────────────────────────────────────────────
   //
