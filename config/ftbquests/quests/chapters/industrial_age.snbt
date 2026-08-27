@@ -1,4 +1,5 @@
 {
+	autofocus_id: "5A0E100000030001"
 	default_hide_dependency_lines: false
 	default_quest_shape: "circle"
 	filename: "industrial_age"
@@ -11,5 +12,1385 @@
 	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["5A0E100000020012"]
+			icon: {
+				id: "createtiers:shaft_steel"
+			}
+			id: "5A0E100000030001"
+			rewards: [{
+				id: "5A0E300000030001"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030001"
+				item: { count: 1, id: "createtiers:shaft_steel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000030001"]
+			icon: {
+				id: "createtiers:cogwheel_steel"
+			}
+			id: "5A0E100000030002"
+			rewards: [{
+				id: "5A0E300000030002"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030002"
+				item: { count: 1, id: "createtiers:cogwheel_steel" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000030002"]
+			icon: {
+				id: "createtiers:large_cogwheel_steel"
+			}
+			id: "5A0E100000030003"
+			rewards: [{
+				id: "5A0E300000030003"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030003"
+				item: { count: 1, id: "createtiers:large_cogwheel_steel" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000030003"]
+			icon: {
+				id: "createtiers:gearbox_steel"
+			}
+			id: "5A0E100000030004"
+			rewards: [{
+				id: "5A0E300000030004"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030004"
+				item: { count: 1, id: "createtiers:gearbox_steel" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000030004"]
+			icon: {
+				id: "petrochem:electrolyzer"
+			}
+			id: "5A0E100000030005"
+			rewards: [{
+				id: "5A0E300000030005"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030005"
+				item: { count: 1, id: "petrochem:electrolyzer" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000030005"]
+			icon: {
+				id: "petrochem:tin_nugget"
+			}
+			id: "5A0E100000030006"
+			rewards: [{
+				id: "5A0E300000030006"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030006"
+				item: { count: 1, id: "petrochem:tin_nugget" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000030006"]
+			icon: {
+				id: "kubejs:tin_ingot"
+			}
+			id: "5A0E100000030007"
+			rewards: [{
+				id: "5A0E300000030007"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030007"
+				item: { count: 1, id: "kubejs:tin_ingot" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000030007"]
+			icon: {
+				id: "petrochem:bronze_ingot"
+			}
+			id: "5A0E100000030008"
+			rewards: [{
+				id: "5A0E300000030008"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030008"
+				item: { count: 1, id: "petrochem:bronze_ingot" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000030008"]
+			icon: {
+				id: "petrochem:steel_fluid_pipe"
+			}
+			id: "5A0E100000030009"
+			rewards: [{
+				id: "5A0E300000030009"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030009"
+				item: { count: 1, id: "petrochem:steel_fluid_pipe" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000030009"]
+			icon: {
+				id: "petrochem:pumpjack_arm"
+			}
+			id: "5A0E10000003000A"
+			rewards: [{
+				id: "5A0E30000003000A"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000003000A"
+				item: { count: 1, id: "petrochem:pumpjack_arm" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E10000003000A"]
+			icon: {
+				id: "petrochem:pumpjack_well"
+			}
+			id: "5A0E10000003000B"
+			rewards: [{
+				id: "5A0E30000003000B"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000003000B"
+				item: { count: 1, id: "petrochem:pumpjack_well" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E10000003000B"]
+			icon: {
+				id: "petrochem:oil_bucket"
+			}
+			id: "5A0E10000003000C"
+			rewards: [{
+				id: "5A0E30000003000C"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000003000C"
+				item: { count: 1, id: "petrochem:oil_bucket" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E10000003000C"]
+			icon: {
+				id: "petrochem:distillation_controller"
+			}
+			id: "5A0E10000003000D"
+			rewards: [{
+				id: "5A0E30000003000D"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000003000D"
+				item: { count: 1, id: "petrochem:distillation_controller" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E10000003000D"]
+			icon: {
+				id: "petrochem:kerosene_bucket"
+			}
+			id: "5A0E10000003000E"
+			rewards: [{
+				id: "5A0E30000003000E"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000003000E"
+				item: { count: 1, id: "petrochem:kerosene_bucket" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E10000003000E"]
+			icon: {
+				id: "petrochem:turbine"
+			}
+			id: "5A0E10000003000F"
+			rewards: [{
+				id: "5A0E30000003000F"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000003000F"
+				item: { count: 1, id: "petrochem:turbine" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E10000003000F"]
+			icon: {
+				id: "petrochem:small_engine"
+			}
+			id: "5A0E100000030010"
+			rewards: [{
+				id: "5A0E300000030010"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030010"
+				item: { count: 1, id: "petrochem:small_engine" }
+				type: "item"
+			}]
+			x: 40.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000030010"]
+			icon: {
+				id: "petrochem:medium_engine"
+			}
+			id: "5A0E100000030011"
+			rewards: [{
+				id: "5A0E300000030011"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030011"
+				item: { count: 1, id: "petrochem:medium_engine" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000030011"]
+			icon: {
+				id: "createutilities:void_steel_ingot"
+			}
+			id: "5A0E100000030012"
+			rewards: [{
+				id: "5A0E300000030012"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030012"
+				item: { count: 1, id: "createutilities:void_steel_ingot" }
+				type: "item"
+			}]
+			x: 45.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000030012"]
+			icon: {
+				id: "createutilities:void_steel_sheet"
+			}
+			id: "5A0E100000030013"
+			rewards: [{
+				id: "5A0E300000030013"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030013"
+				item: { count: 1, id: "createutilities:void_steel_sheet" }
+				type: "item"
+			}]
+			x: 47.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000030013"]
+			icon: {
+				id: "createutilities:void_casing"
+			}
+			id: "5A0E100000030014"
+			rewards: [{
+				id: "5A0E300000030014"
+				type: "xp"
+				xp: 40
+			}]
+			size: 2.0d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030014"
+				item: { count: 1, id: "createutilities:void_casing" }
+				type: "item"
+			}]
+			x: 50.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000030004"]
+			icon: {
+				id: "createtiers:vertical_gearbox_steel"
+			}
+			id: "5A0E100000030101"
+			rewards: [{
+				id: "5A0E300000030101"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030101"
+				item: { count: 1, id: "createtiers:vertical_gearbox_steel" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000030005"]
+			icon: {
+				id: "petrochem:hydrogen_bucket"
+			}
+			id: "5A0E100000030102"
+			rewards: [{
+				id: "5A0E300000030102"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030102"
+				item: { count: 1, id: "petrochem:hydrogen_bucket" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E100000030005"]
+			icon: {
+				id: "petrochem:oxygen_bucket"
+			}
+			id: "5A0E100000030103"
+			rewards: [{
+				id: "5A0E300000030103"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030103"
+				item: { count: 1, id: "petrochem:oxygen_bucket" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E100000030005"]
+			icon: {
+				id: "petrochem:caustic_soda"
+			}
+			id: "5A0E100000030104"
+			rewards: [{
+				id: "5A0E300000030104"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030104"
+				item: { count: 1, id: "petrochem:caustic_soda" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000030005"]
+			icon: {
+				id: "petrochem:salt_dust"
+			}
+			id: "5A0E100000030105"
+			rewards: [{
+				id: "5A0E300000030105"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030105"
+				item: { count: 1, id: "petrochem:salt_dust" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000030007"]
+			icon: {
+				id: "kubejs:tin_block"
+			}
+			id: "5A0E100000030106"
+			rewards: [{
+				id: "5A0E300000030106"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030106"
+				item: { count: 1, id: "kubejs:tin_block" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000030008"]
+			icon: {
+				id: "petrochem:bronze_sheet"
+			}
+			id: "5A0E100000030107"
+			rewards: [{
+				id: "5A0E300000030107"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030107"
+				item: { count: 1, id: "petrochem:bronze_sheet" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000030009"]
+			icon: {
+				id: "petrochem:steel_fluid_tank"
+			}
+			id: "5A0E100000030108"
+			rewards: [{
+				id: "5A0E300000030108"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030108"
+				item: { count: 1, id: "petrochem:steel_fluid_tank" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000030009"]
+			icon: {
+				id: "petrochem:steel_fluid_valve"
+			}
+			id: "5A0E100000030109"
+			rewards: [{
+				id: "5A0E300000030109"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030109"
+				item: { count: 1, id: "petrochem:steel_fluid_valve" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000030009"]
+			icon: {
+				id: "petrochem:steel_smart_fluid_pipe"
+			}
+			id: "5A0E10000003010A"
+			rewards: [{
+				id: "5A0E30000003010A"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000003010A"
+				item: { count: 1, id: "petrochem:steel_smart_fluid_pipe" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E100000030009"]
+			icon: {
+				id: "petrochem:steel_pump"
+			}
+			id: "5A0E10000003010B"
+			rewards: [{
+				id: "5A0E30000003010B"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000003010B"
+				item: { count: 1, id: "petrochem:steel_pump" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E10000003000A"]
+			icon: {
+				id: "petrochem:pumpjack_crank"
+			}
+			id: "5A0E10000003010C"
+			rewards: [{
+				id: "5A0E30000003010C"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000003010C"
+				item: { count: 1, id: "petrochem:pumpjack_crank" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E10000003000D"]
+			icon: {
+				id: "petrochem:distillation_output"
+			}
+			id: "5A0E10000003010D"
+			rewards: [{
+				id: "5A0E30000003010D"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000003010D"
+				item: { count: 1, id: "petrochem:distillation_output" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E10000003000D"]
+			icon: {
+				id: "petrochem:flarestack"
+			}
+			id: "5A0E10000003010E"
+			rewards: [{
+				id: "5A0E30000003010E"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000003010E"
+				item: { count: 1, id: "petrochem:flarestack" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E10000003000D"]
+			icon: {
+				id: "petrochem:lpg_bucket"
+			}
+			id: "5A0E10000003010F"
+			rewards: [{
+				id: "5A0E30000003010F"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000003010F"
+				item: { count: 1, id: "petrochem:lpg_bucket" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E10000003000E"]
+			icon: {
+				id: "petrochem:diesel_bucket"
+			}
+			id: "5A0E100000030110"
+			rewards: [{
+				id: "5A0E300000030110"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030110"
+				item: { count: 1, id: "petrochem:diesel_bucket" }
+				type: "item"
+			}]
+			x: 32.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E10000003000E"]
+			icon: {
+				id: "petrochem:gasoline_bucket"
+			}
+			id: "5A0E100000030111"
+			rewards: [{
+				id: "5A0E300000030111"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030111"
+				item: { count: 1, id: "petrochem:gasoline_bucket" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E10000003000E"]
+			icon: {
+				id: "petrochem:lubricant_bucket"
+			}
+			id: "5A0E100000030112"
+			rewards: [{
+				id: "5A0E300000030112"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030112"
+				item: { count: 1, id: "petrochem:lubricant_bucket" }
+				type: "item"
+			}]
+			x: 32.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E10000003000E"]
+			icon: {
+				id: "petrochem:asphalt"
+			}
+			id: "5A0E100000030113"
+			rewards: [{
+				id: "5A0E300000030113"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030113"
+				item: { count: 1, id: "petrochem:asphalt" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E10000003000E"]
+			icon: {
+				id: "petrochem:fuel_oil_bucket"
+			}
+			id: "5A0E100000030114"
+			rewards: [{
+				id: "5A0E300000030114"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030114"
+				item: { count: 1, id: "petrochem:fuel_oil_bucket" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E10000003000E"]
+			icon: {
+				id: "petrochem:heavy_naphta_bucket"
+			}
+			id: "5A0E100000030115"
+			rewards: [{
+				id: "5A0E300000030115"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030115"
+				item: { count: 1, id: "petrochem:heavy_naphta_bucket" }
+				type: "item"
+			}]
+			x: 36.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5A0E10000003000E"]
+			icon: {
+				id: "petrochem:oil_residue_bucket"
+			}
+			id: "5A0E100000030116"
+			rewards: [{
+				id: "5A0E300000030116"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030116"
+				item: { count: 1, id: "petrochem:oil_residue_bucket" }
+				type: "item"
+			}]
+			x: 33.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5A0E10000003000E"]
+			icon: {
+				id: "petrochem:petroleum_coke"
+			}
+			id: "5A0E100000030117"
+			rewards: [{
+				id: "5A0E300000030117"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030117"
+				item: { count: 1, id: "petrochem:petroleum_coke" }
+				type: "item"
+			}]
+			x: 33.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5A0E10000003000E"]
+			icon: {
+				id: "petrochem:plastic_bucket"
+			}
+			id: "5A0E100000030118"
+			rewards: [{
+				id: "5A0E300000030118"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030118"
+				item: { count: 1, id: "petrochem:plastic_bucket" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E100000030012"]
+			icon: {
+				id: "createutilities:void_steel_block"
+			}
+			id: "5A0E100000030119"
+			rewards: [{
+				id: "5A0E300000030119"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000030119"
+				item: { count: 1, id: "createutilities:void_steel_block" }
+				type: "item"
+			}]
+			x: 45.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000030013"]
+			icon: {
+				id: "createutilities:void_steel_bars"
+			}
+			id: "5A0E10000003011A"
+			rewards: [{
+				id: "5A0E30000003011A"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000003011A"
+				item: { count: 1, id: "createutilities:void_steel_bars" }
+				type: "item"
+			}]
+			x: 47.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000030013"]
+			icon: {
+				id: "createutilities:polished_amethyst"
+			}
+			id: "5A0E10000003011B"
+			rewards: [{
+				id: "5A0E30000003011B"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000003011B"
+				item: { count: 1, id: "createutilities:polished_amethyst" }
+				type: "item"
+			}]
+			x: 45.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E100000030013"]
+			icon: {
+				id: "createutilities:graviton_tube"
+			}
+			id: "5A0E10000003011C"
+			rewards: [{
+				id: "5A0E30000003011C"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000003011C"
+				item: { count: 1, id: "createutilities:graviton_tube" }
+				type: "item"
+			}]
+			x: 47.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E100000030014"]
+			icon: {
+				id: "createutilities:void_battery"
+			}
+			id: "5A0E10000003011D"
+			rewards: [{
+				id: "5A0E30000003011D"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000003011D"
+				item: { count: 1, id: "createutilities:void_battery" }
+				type: "item"
+			}]
+			x: 52.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000030014"]
+			icon: {
+				id: "createutilities:void_chest"
+			}
+			id: "5A0E10000003011E"
+			rewards: [{
+				id: "5A0E30000003011E"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000003011E"
+				item: { count: 1, id: "createutilities:void_chest" }
+				type: "item"
+			}]
+			x: 50.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E100000030014"]
+			icon: {
+				id: "createutilities:void_tank"
+			}
+			id: "5A0E10000003011F"
+			rewards: [{
+				id: "5A0E30000003011F"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000003011F"
+				item: { count: 1, id: "createutilities:void_tank" }
+				type: "item"
+			}]
+			x: 50.0d
+			y: 2.5d
+		}
+	]
 }
