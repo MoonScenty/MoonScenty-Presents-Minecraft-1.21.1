@@ -403,8 +403,9 @@ ServerEvents.recipes(event => {
   // 스풀과 철 막대만 요구해 안산암 합금 시대에 이미 열려 버린다.
   //
   // 배치는 원본의 마름모 그대로 두고, 스풀을 황동 판으로 올리며
-  // 한가운데를 강철 케이싱으로 바꾼다. 강철이 들어가므로 황동 시대
-  // 끝에야 손이 닿는다.
+  // 한가운데를 황동 케이싱으로 바꾼다. 교류발전기는 황동 시대의
+  // 기계이므로 이 시대 안에서 손이 닿아야 한다. 테슬라 코일과 같은
+  // 비슷한 시점에 열린다.
   event.remove({ id: 'createaddition:mechanical_crafting/alternator' })
   event.custom({
     type: 'create:mechanical_crafting',
@@ -413,7 +414,7 @@ ServerEvents.recipes(event => {
       A: { item: 'create:andesite_alloy' },
       I: { tag: 'c:plates/iron' },
       B: { tag: 'c:plates/brass' },
-      C: { item: 'kubejs:steel_casing' }
+      C: { item: BRASS_CASING }
     },
     pattern: [
       '  A  ',
