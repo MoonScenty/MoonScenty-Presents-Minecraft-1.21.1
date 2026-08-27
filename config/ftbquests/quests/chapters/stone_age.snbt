@@ -5,7 +5,7 @@
 	filename: "stone_age"
 	group: "4D41494E51554553"
 	icon: {
-		id: "create:andesite_casing"
+		id: "createmetallurgy:foundry_basin"
 	}
 	id: "5A0E000000000001"
 	images: [ ]

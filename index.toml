@@ -266,7 +266,7 @@ hash = "b0acb3d144f5ce52428ed4c67809f88a122693ca820bca230701748e68f904e3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andesite_alloy_age.snbt"
-hash = "f21172e28a93301f6de36f03b70f292c958e456a6021c0c3d0e3aaeaf8c670c4"
+hash = "b29386d2df5a688c45b3270ef71305b266bd3e88f357a6cef3caa45897f822fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
@@ -282,7 +282,7 @@ hash = "03928ebb635ff10479897182137b3bf09baa44e982fbf982b8c82e52f39c50ab"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/brass_age.snbt"
-hash = "e9242adf00430a635549e46cf9dfdad5322aa9395a78b154a4da3c687ad94564"
+hash = "f1a6aadb5abfba52873be659fe9ee5c9fc3f0fca80974596fecd054d82fcb6c8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building.snbt"
@@ -302,7 +302,7 @@ hash = "b32ada5be74507757aa2a548682b86910114d5b8d2a68e6e6d66a419225a1362"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_age.snbt"
-hash = "66cc4510024c209218a14662b6f39fc8d4a39425a3065c358aa992837b4bac80"
+hash = "b369712896111b4385f151f4d1623a8a571cedaa1a5f31791a1c06ff4e281bb0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spells.snbt"
@@ -310,7 +310,7 @@ hash = "fcdac77588c94b3b8cf8a3f39646a74359d32a09671006ec7c59eec666096a10"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stone_age.snbt"
-hash = "53a1e2383924ca02d7012ad47aaac6f09a07fbdd638884c322a795f81599e38f"
+hash = "80f6ae9d47be56f2924a211a86e3da66cfd181727f6bf5858d74bc0d6bac13f6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage.snbt"

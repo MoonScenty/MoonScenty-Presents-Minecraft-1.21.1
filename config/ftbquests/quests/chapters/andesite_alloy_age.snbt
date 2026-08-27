@@ -5,7 +5,7 @@
 	filename: "andesite_alloy_age"
 	group: "4D41494E51554553"
 	icon: {
-		id: "create:brass_casing"
+		id: "create:andesite_alloy"
 	}
 	id: "5A0E000000000002"
 	images: [ ]

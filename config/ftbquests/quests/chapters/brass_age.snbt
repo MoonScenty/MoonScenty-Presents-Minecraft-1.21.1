@@ -5,7 +5,7 @@
 	filename: "brass_age"
 	group: "4D41494E51554553"
 	icon: {
-		id: "kubejs:steel_casing"
+		id: "create:brass_ingot"
 	}
 	id: "5A0E000000000003"
 	images: [ ]
