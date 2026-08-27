@@ -117,4 +117,34 @@ StartupEvents.registry('item', event => {
   event.create('tin_ingot')
     .displayName('Tin Ingot')
     .texture('kubejs:item/tin_ingot')
+
+  // ── 원자력 시대 ────────────────────────────────────────────────────
+
+  // 수소 장약.
+  //
+  // 물을 전기분해하면 산소 100mB당 수소가 200mB 나온다. 우라늄 재정제는
+  // 산소만 쓰므로 수소가 두 배로 남는다. 그 수소를 여기에 담는다.
+  //
+  // 핵폭탄의 화약 자리를 이것으로 바꾼다. 원본은 화약과 플루토늄만 요구해
+  // 원자로만 돌리면 바로 만들 수 있었는데, 이제 화학 라인까지 세워야 한다.
+  //
+  // 텍스처는 아직 화약을 그대로 빌려 쓴다.
+  event.create('hydrogen_charge')
+    .displayName('Hydrogen Charge')
+    .texture('minecraft:item/gunpowder')
+
+  // 옐로케이크.
+  //
+  // 우라늄 농축의 중간 산물이다. 실제 우라늄 정련에서도 옐로케이크(U3O8)를
+  // 거친다.
+  //
+  // Create: Atomic 에 이 이름의 블록이 들어 있지만 블록스테이트와 모델과
+  // 텍스처만 남아 있고 AtomicBlocks 에도 AtomicItems 에도 등록되어 있지 않다.
+  // 게임 안에 존재하지 않는 유령이라 참조할 수 없다.
+  //
+  // 그래서 이 팩이 아이템으로 만든다. 텍스처는 그쪽에 남아 있는 것을 빌려
+  // 쓴다. 파일은 jar 안에 그대로 있으므로 경로만 가리키면 된다.
+  event.create('yellow_cake')
+    .displayName('Yellow Cake')
+    .texture('createatomic:item/yellow_cake')
 })

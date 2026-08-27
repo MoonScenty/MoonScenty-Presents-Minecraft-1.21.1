@@ -176,7 +176,7 @@ Create 기술 시대는 시대별로 설계 문서를 나눠 관리합니다. �
 | 안산암 합금 시대 | [QUEST_ANDESITE_ALLOY_AGE.md](QUEST_ANDESITE_ALLOY_AGE.md) | 레시피·퀘스트 구현 완료 |
 | 황동 시대 | [QUEST_BRASS_AGE.md](QUEST_BRASS_AGE.md) | 레시피·퀘스트 구현 완료 |
 | 산업 시대 | [QUEST_INDUSTRIAL_AGE.md](QUEST_INDUSTRIAL_AGE.md) | 레시피 구현 완료 |
-| 원자력 시대 | [QUEST_ATOMIC_AGE.md](QUEST_ATOMIC_AGE.md) | 설계안 작성, 구현 전 |
+| 원자력 시대 | [QUEST_ATOMIC_AGE.md](QUEST_ATOMIC_AGE.md) | 레시피 구현 완료, 퀴스트 미작성 |
 
 그 밖의 문서입니다.
 

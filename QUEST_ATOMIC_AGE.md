@@ -2,7 +2,7 @@
 
 Create 기술 시대의 마지막 장입니다. 산업 시대를 공허 케이싱으로 마친 플레이어가 진입합니다.
 
-**아직 구현하지 않았습니다.** 이 문서는 설계안이며 레시피와 퀘스트는 이후에 작성합니다.
+**레시피 구현 완료.** 퀘스트 챕터는 아직 비어 있습니다.
 
 ## 진행 방식
 
@@ -33,10 +33,14 @@ Create 기술 시대의 마지막 장입니다. 산업 시대를 공허 케이�
 
 ## 구현 현황
 
-- **레시피 미구현.** `kubejs/server_scripts/atomic_age.js`가 대상입니다.
-- **퀘스트 챕터 비어 있음.** `config/ftbquests/quests/chapters/atomic_age.snbt`입니다.
-- 이 문서의 아이템·레시피 ID는 팩에서 실재를 확인했습니다.
-- 티어 부품 ID는 `kubejs/startup_scripts/tiers.js`의 `void_steel` 티어에서 나옵니다.
+- **레시피 구현 완료.** `kubejs/server_scripts/atomic_age.js`에 있습니다. 제거 6건, 추가 19건입니다.
+- 황 연결은 `kubejs/server_scripts/industrial_age.js`에 있습니다. 정유가 황을 다루는 일이라 그쪽 시대에 두었습니다.
+- 신규 아이템 셋을 등록했습니다. `hydrogen_charge` · `yellow_cake` 는 `items.js`, `ultimate_casing` 은 `blocks.js` 입니다.
+- 궁극 케이싱 텍스처는 `kubejs/assets/kubejs/textures/block/ultimate_casing.png` 입니다.
+- **퀘스트 챕터는 비어 있습니다.** `config/ftbquests/quests/chapters/atomic_age.snbt` 가 대상입니다.
+- 참조한 레시피 ID와 아이템·태그는 전부 팩에서 실재를 확인했습니다.
+
+**KubeJS 서버 스크립트는 전역 스코프를 공유합니다.** 이 파일의 상수는 전부 `ATOM_` 로 열어 다른 시대와 겹치지 않게 두었습니다.
 
 ## 설계 원칙
 
@@ -312,15 +316,31 @@ Petrochem 원본을 조건 없이 다시 넣습니다.
 
 **연료봉을 태울수록 사이클에 들어갈 우라늄이 돌아옵니다.** 광석 채굴이 줄고 화학 라인이 늘어나는 구조입니다.
 
-#### 옐로케이크는 이미 있습니다
+#### 옐로케이크는 이 팩이 만듭니다
+
+Create: Atomic 에 `yellow_cake` 라는 이름의 블록이 들어 있습니다. 블록스테이트, 조각까지 나뉘는 모델 일곱 개, 아이템 모델, 텍스처가 전부 jar 안에 있습니다.
+
+**그런데 등록이 빠져 있습니다.**
 
 ```
-assets/createatomic/blockstates/yellow_cake.json
-assets/createatomic/models/block/yellow_cake/slice0~6.json
-assets/createatomic/textures/item/yellow_cake.png
+AtomicBlocks   yellow_cake 없음
+AtomicItems    yellow_cake 없음
 ```
 
-**케이크 모양으로 조각까지 나뉘는 블록인데 레시피도 전리품표도 없습니다.** 텍스처와 이름이 준비된 채 놀고 있으므로 중간 산물로 씁니다. 실제 우라늄 정련의 중간체가 옐로케이크이기도 합니다.
+에셋만 남고 실제 등록이 없는 유령이라 **게임 안에 존재하지 않습니다.** 참조하면 `Unknown registry key in minecraft:item` 이 납니다.
+
+그래서 이 팩이 아이템으로 만듭니다. 텍스처는 그쪽 jar 에 파일이 그대로 있으므로 경로만 가리키면 됩니다.
+
+```js
+event.create('yellow_cake')
+  .displayName('Yellow Cake')
+  .texture('createatomic:item/yellow_cake')
+```
+
+실제 우라늄 정련의 중간체가 옐로케이크(U₃O₈)이기도 합니다.
+
+> **번역 키가 있다고 아이템이 있는 것은 아닙니다.**
+> `block.createatomic.yellow_cake` 는 lang 파일에 멀쩡히 들어 있습니다. 아이템 존재 확인을 lang 으로만 하면 이런 것을 놓칩니다.
 
 #### 순서가 실제 공정과 같습니다
 

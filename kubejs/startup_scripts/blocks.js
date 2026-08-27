@@ -69,4 +69,26 @@ StartupEvents.registry('block', event => {
     .resistance(6)
     .requiresTool()
     .tag(['minecraft:mineable/pickaxe', 'minecraft:needs_stone_tool'])
+
+  // 궁극 케이싱.
+  //
+  // 이 모드팩 전체의 마지막 아이템이다. 앞선 다섯 시대의 케이싱을 전부 모으고
+  // 한가운데에 플루토늄을 놓아야 만들어진다. 플루토늄은 원자로를 실제로
+  // 돌려야만 나오므로 재료를 사 모으는 것으로는 닿지 않는다.
+  //
+  // 기능은 없다. 천사의 반지 하나에만 들어간다. 다섯 시대 내내 땅에서
+  // 회전축을 다뤄 온 끝에 땅을 떠나는 것이 이 팩의 마지막 보상이다.
+  //
+  // 텍스처는 안산암 케이싱의 형태를 두고 대각선 무지개를 입혔다. 광도는
+  // 원본을 따라가되 나무 판만 조금 어둡게 눌러 테두리가 살아 있게 했다.
+  // 이 팩이 추가하는 유일한 화려한 블록이다.
+  event.create('ultimate_casing')
+    .displayName('Ultimate Casing')
+    .parentModel('minecraft:block/cube_all')
+    .textures({ all: 'kubejs:block/ultimate_casing' })
+    .soundType(SoundType.METAL)
+    .hardness(5)
+    .resistance(1200)
+    .requiresTool()
+    .tag(['minecraft:mineable/pickaxe', 'minecraft:needs_diamond_tool'])
 })

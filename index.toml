@@ -877,6 +877,10 @@ file = "kubejs/assets/kubejs/textures/block/tin_block.png"
 hash = "0cc6303ca6c6f8a73a38cf53ab7754527f6a31a1a77c59c0436b8d7a577f3bc6"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/ultimate_casing.png"
+hash = "a4842ae16a8b1c9ee82bfafdcf61aee25136e4de7cacaa14a1c549d07a9443b0"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/andesite_alloy_axe_head.png"
 hash = "c4f69d5b8ef5bdd5cc0e128aab41d0e87fadad3b9a70e95dc7b628055ef0145a"
 
@@ -1517,12 +1521,16 @@ file = "kubejs/server_scripts/andesite_alloy_age.js"
 hash = "3d0daa4c38dd5e3c48280bcd66a04c392269d57903026e5896c7896c3c981bbc"
 
 [[files]]
+file = "kubejs/server_scripts/atomic_age.js"
+hash = "a0353fc684e332973db0a3e152aa8c3f3835ffa31dfa7b2e3e4cd5433b594ccb"
+
+[[files]]
 file = "kubejs/server_scripts/brass_age.js"
 hash = "257eb35504c112c31b2e8bf217a1982c2ec3d28d6bd5493d032fae3b0ce64e0f"
 
 [[files]]
 file = "kubejs/server_scripts/industrial_age.js"
-hash = "b1098d32dc6c7bfcbc24ad38a85f30658a7602abdaadec218dbb1b5e5237a482"
+hash = "06f76cb1cf308670fe4710ef1a6b1770246411613c227c1000a407aa57c9eb00"
 
 [[files]]
 file = "kubejs/server_scripts/metallurgy_light_bulbs.js"
@@ -1542,7 +1550,7 @@ hash = "a5519cf11c7a1e8c29464d070594398a4c62db2c04d7e0c9f135384a764983c5"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
-hash = "7563b412d67c04314d74eba7697e69ce3f736dc404154ec6ce82d714095c6fbd"
+hash = "9ec1b25f47da062d61f7c66966a427d5ae9db124219aa689ba378e1ff2697209"
 
 [[files]]
 file = "kubejs/startup_scripts/fluids.js"
@@ -1550,7 +1558,7 @@ hash = "812b64de18a7d5804ba7acf03c93b569c3d07247cae6203791fb4b85772e1d58"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "2a06e2de15a9d024e29ff367cf6783ead5decf398471975fe13f60f2029377b0"
+hash = "86fe01820ed8b27d00fa3758e8014b7e729a1d0932917c72b4fd4578f072c5b0"
 
 [[files]]
 file = "kubejs/startup_scripts/tiers.js"
