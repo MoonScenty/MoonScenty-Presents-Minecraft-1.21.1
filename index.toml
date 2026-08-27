@@ -1518,11 +1518,15 @@ hash = "3d0daa4c38dd5e3c48280bcd66a04c392269d57903026e5896c7896c3c981bbc"
 
 [[files]]
 file = "kubejs/server_scripts/brass_age.js"
-hash = "d6f1162ff1800ec2c27a54a961dc13b989f26f009a9043ad213417ab5a4edaa0"
+hash = "257eb35504c112c31b2e8bf217a1982c2ec3d28d6bd5493d032fae3b0ce64e0f"
 
 [[files]]
 file = "kubejs/server_scripts/industrial_age.js"
-hash = "ed6519213ae4422a0931f7cd1339f694db89700d531d05455d947bc354cf2440"
+hash = "b1098d32dc6c7bfcbc24ad38a85f30658a7602abdaadec218dbb1b5e5237a482"
+
+[[files]]
+file = "kubejs/server_scripts/metallurgy_light_bulbs.js"
+hash = "c143db02f7652e58808c262a399094b8373f33b0c9c479831274ffb0c72c515a"
 
 [[files]]
 file = "kubejs/server_scripts/metallurgy_transfer_ladle.js"

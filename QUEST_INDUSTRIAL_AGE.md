@@ -271,7 +271,9 @@ createaddition:crafting/festive_spool
 ```
 
 > **`createmetallurgy:tungsten_wire_spool` 은 이름만 같은 별개입니다.**
-> 전구 16종이 전부 이것을 요구합니다. 건드리지 마십시오.
+> 전구 16종이 전부 이것을 요구합니다. 스풀을 하나만 남기지 않기 위해 이것도 지우되,
+> 전구가 대신 텅스텐 주괴를 바로 받게 했습니다. 시대 진행과 무관한 정리라
+> `kubejs/server_scripts/metallurgy_light_bulbs.js` 에 따로 둡니다.
 
 `createaddition:crafting/modular_accumulator` 는 남아 있습니다.
 
