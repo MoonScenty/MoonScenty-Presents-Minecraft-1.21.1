@@ -1,4 +1,5 @@
 {
+	autofocus_id: "5A0E100000040001"
 	default_hide_dependency_lines: false
 	default_quest_shape: "circle"
 	filename: "atomic_age"
@@ -11,5 +12,1142 @@
 	order_index: 4
 	progression_mode: "flexible"
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["5A0E100000030014"]
+			icon: {
+				id: "createtiers:shaft_void_steel"
+			}
+			id: "5A0E100000040001"
+			rewards: [{
+				id: "5A0E300000040001"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.5d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040001"
+				item: { count: 1, id: "createtiers:shaft_void_steel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000040001"]
+			icon: {
+				id: "createtiers:cogwheel_void_steel"
+			}
+			id: "5A0E100000040002"
+			rewards: [{
+				id: "5A0E300000040002"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040002"
+				item: { count: 1, id: "createtiers:cogwheel_void_steel" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000040002"]
+			icon: {
+				id: "createtiers:large_cogwheel_void_steel"
+			}
+			id: "5A0E100000040003"
+			rewards: [{
+				id: "5A0E300000040003"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040003"
+				item: { count: 1, id: "createtiers:large_cogwheel_void_steel" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000040003"]
+			icon: {
+				id: "createtiers:gearbox_void_steel"
+			}
+			id: "5A0E100000040004"
+			rewards: [{
+				id: "5A0E300000040004"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040004"
+				item: { count: 1, id: "createtiers:gearbox_void_steel" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000040004"]
+			icon: {
+				id: "createatomic:dense_alloy"
+			}
+			id: "5A0E100000040005"
+			rewards: [{
+				id: "5A0E300000040005"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040005"
+				item: { count: 1, id: "createatomic:dense_alloy" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000040005"]
+			icon: {
+				id: "createatomic:raw_uranium"
+			}
+			id: "5A0E100000040006"
+			rewards: [{
+				id: "5A0E300000040006"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040006"
+				item: { count: 1, id: "createatomic:raw_uranium" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000040006"]
+			icon: {
+				id: "createatomic:uranium_ingot"
+			}
+			id: "5A0E100000040007"
+			rewards: [{
+				id: "5A0E300000040007"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040007"
+				item: { count: 1, id: "createatomic:uranium_ingot" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000040007"]
+			icon: {
+				id: "createatomic:refined_uranium_ingot"
+			}
+			id: "5A0E100000040008"
+			rewards: [{
+				id: "5A0E300000040008"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040008"
+				item: { count: 1, id: "createatomic:refined_uranium_ingot" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000040008"]
+			icon: {
+				id: "petrochem:oxygen_bucket"
+			}
+			id: "5A0E100000040009"
+			rewards: [{
+				id: "5A0E300000040009"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040009"
+				item: { count: 1, id: "petrochem:oxygen_bucket" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000040009"]
+			icon: {
+				id: "vintageimprovements:sulfuric_acid_bucket"
+			}
+			id: "5A0E10000004000A"
+			rewards: [{
+				id: "5A0E30000004000A"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000004000A"
+				item: { count: 1, id: "vintageimprovements:sulfuric_acid_bucket" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E10000004000A"]
+			icon: {
+				id: "kubejs:yellow_cake"
+			}
+			id: "5A0E10000004000B"
+			rewards: [{
+				id: "5A0E30000004000B"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000004000B"
+				item: { count: 1, id: "kubejs:yellow_cake" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E10000004000B"]
+			icon: {
+				id: "createatomic:refined_uranium_rod"
+			}
+			id: "5A0E10000004000C"
+			rewards: [{
+				id: "5A0E30000004000C"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000004000C"
+				item: { count: 1, id: "createatomic:refined_uranium_rod" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E10000004000C"]
+			icon: {
+				id: "createatomic:reactor_casing"
+			}
+			id: "5A0E10000004000D"
+			rewards: [{
+				id: "5A0E30000004000D"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000004000D"
+				item: { count: 1, id: "createatomic:reactor_casing" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E10000004000D"]
+			icon: {
+				id: "createatomic:rod_assembly"
+			}
+			id: "5A0E10000004000E"
+			rewards: [{
+				id: "5A0E30000004000E"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000004000E"
+				item: { count: 1, id: "createatomic:rod_assembly" }
+				type: "item"
+			}]
+			x: 32.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E10000004000E"]
+			icon: {
+				id: "createatomic:reactor_redstone_interface"
+			}
+			id: "5A0E10000004000F"
+			rewards: [{
+				id: "5A0E30000004000F"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000004000F"
+				item: { count: 1, id: "createatomic:reactor_redstone_interface" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E10000004000F"]
+			icon: {
+				id: "createatomic:steam_turbine"
+			}
+			id: "5A0E100000040010"
+			rewards: [{
+				id: "5A0E300000040010"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040010"
+				item: { count: 1, id: "createatomic:steam_turbine" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000040010"]
+			icon: {
+				id: "createatomic:depleted_uranium_rod"
+			}
+			id: "5A0E100000040011"
+			rewards: [{
+				id: "5A0E300000040011"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040011"
+				item: { count: 1, id: "createatomic:depleted_uranium_rod" }
+				type: "item"
+			}]
+			x: 40.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000040011"]
+			icon: {
+				id: "createatomic:plutonium_ingot"
+			}
+			id: "5A0E100000040012"
+			rewards: [{
+				id: "5A0E300000040012"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040012"
+				item: { count: 1, id: "createatomic:plutonium_ingot" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000040012"]
+			icon: {
+				id: "kubejs:ultimate_casing"
+			}
+			id: "5A0E100000040013"
+			rewards: [{
+				id: "5A0E300000040013"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040013"
+				item: { count: 1, id: "kubejs:ultimate_casing" }
+				type: "item"
+			}]
+			x: 45.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000040013"]
+			icon: {
+				id: "angelring:angel_ring"
+			}
+			id: "5A0E100000040014"
+			rewards: [{
+				id: "5A0E300000040014"
+				type: "xp"
+				xp: 40
+			}]
+			size: 2.0d
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040014"
+				item: { count: 1, id: "angelring:angel_ring" }
+				type: "item"
+			}]
+			x: 47.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0E100000040004"]
+			icon: {
+				id: "createtiers:vertical_gearbox_void_steel"
+			}
+			id: "5A0E100000040101"
+			rewards: [{
+				id: "5A0E300000040101"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040101"
+				item: { count: 1, id: "createtiers:vertical_gearbox_void_steel" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000040005"]
+			icon: {
+				id: "createatomic:dense_alloy_block"
+			}
+			id: "5A0E100000040102"
+			rewards: [{
+				id: "5A0E300000040102"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040102"
+				item: { count: 1, id: "createatomic:dense_alloy_block" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E100000040005"]
+			icon: {
+				id: "createatomic:heatsink"
+			}
+			id: "5A0E100000040103"
+			rewards: [{
+				id: "5A0E300000040103"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040103"
+				item: { count: 1, id: "createatomic:heatsink" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000040007"]
+			icon: {
+				id: "createatomic:uranium_block"
+			}
+			id: "5A0E100000040104"
+			rewards: [{
+				id: "5A0E300000040104"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040104"
+				item: { count: 1, id: "createatomic:uranium_block" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000040008"]
+			icon: {
+				id: "createatomic:refined_uranium_block"
+			}
+			id: "5A0E100000040105"
+			rewards: [{
+				id: "5A0E300000040105"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040105"
+				item: { count: 1, id: "createatomic:refined_uranium_block" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000040009"]
+			icon: {
+				id: "petrochem:hydrogen_bucket"
+			}
+			id: "5A0E100000040106"
+			rewards: [{
+				id: "5A0E300000040106"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040106"
+				item: { count: 1, id: "petrochem:hydrogen_bucket" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E100000040009"]
+			icon: {
+				id: "kubejs:hydrogen_charge"
+			}
+			id: "5A0E100000040107"
+			rewards: [{
+				id: "5A0E300000040107"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040107"
+				item: { count: 1, id: "kubejs:hydrogen_charge" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E10000004000D"]
+			icon: {
+				id: "createatomic:hazmat_helmet"
+			}
+			id: "5A0E100000040108"
+			rewards: [{
+				id: "5A0E300000040108"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040108"
+				item: { count: 1, id: "createatomic:hazmat_helmet" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E10000004000D"]
+			icon: {
+				id: "createatomic:hazmat_chestplate"
+			}
+			id: "5A0E100000040109"
+			rewards: [{
+				id: "5A0E300000040109"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040109"
+				item: { count: 1, id: "createatomic:hazmat_chestplate" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E10000004000D"]
+			icon: {
+				id: "createatomic:hazmat_leggings"
+			}
+			id: "5A0E10000004010A"
+			rewards: [{
+				id: "5A0E30000004010A"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000004010A"
+				item: { count: 1, id: "createatomic:hazmat_leggings" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E10000004000D"]
+			icon: {
+				id: "createatomic:hazmat_boots"
+			}
+			id: "5A0E10000004010B"
+			rewards: [{
+				id: "5A0E30000004010B"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000004010B"
+				item: { count: 1, id: "createatomic:hazmat_boots" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E10000004000E"]
+			icon: {
+				id: "createatomic:small_control_rod"
+			}
+			id: "5A0E10000004010C"
+			rewards: [{
+				id: "5A0E30000004010C"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000004010C"
+				item: { count: 1, id: "createatomic:small_control_rod" }
+				type: "item"
+			}]
+			x: 32.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E10000004000E"]
+			icon: {
+				id: "createatomic:large_control_rod"
+			}
+			id: "5A0E10000004010D"
+			rewards: [{
+				id: "5A0E30000004010D"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000004010D"
+				item: { count: 1, id: "createatomic:large_control_rod" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E10000004000E"]
+			icon: {
+				id: "createatomic:neutron_reflector"
+			}
+			id: "5A0E10000004010E"
+			rewards: [{
+				id: "5A0E30000004010E"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000004010E"
+				item: { count: 1, id: "createatomic:neutron_reflector" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E10000004000E"]
+			icon: {
+				id: "createatomic:cooling_rod"
+			}
+			id: "5A0E10000004010F"
+			rewards: [{
+				id: "5A0E30000004010F"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000004010F"
+				item: { count: 1, id: "createatomic:cooling_rod" }
+				type: "item"
+			}]
+			x: 32.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E100000040012"]
+			icon: {
+				id: "createatomic:plutonium_rod"
+			}
+			id: "5A0E100000040110"
+			rewards: [{
+				id: "5A0E300000040110"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040110"
+				item: { count: 1, id: "createatomic:plutonium_rod" }
+				type: "item"
+			}]
+			x: 40.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000040012"]
+			icon: {
+				id: "createatomic:plutonium_block"
+			}
+			id: "5A0E100000040111"
+			rewards: [{
+				id: "5A0E300000040111"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040111"
+				item: { count: 1, id: "createatomic:plutonium_block" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000040012"]
+			icon: {
+				id: "createatomic:rtg"
+			}
+			id: "5A0E100000040112"
+			rewards: [{
+				id: "5A0E300000040112"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040112"
+				item: { count: 1, id: "createatomic:rtg" }
+				type: "item"
+			}]
+			x: 45.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E100000040012"]
+			icon: {
+				id: "createatomic:radioisotope_heat_generator_kindled"
+			}
+			id: "5A0E100000040113"
+			rewards: [{
+				id: "5A0E300000040113"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040113"
+				item: { count: 1, id: "createatomic:radioisotope_heat_generator_kindled" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A0E100000040107"]
+			icon: {
+				id: "createatomic:crude_nuclear_bomb"
+			}
+			id: "5A0E100000040114"
+			rewards: [{
+				id: "5A0E300000040114"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040114"
+				item: { count: 1, id: "createatomic:crude_nuclear_bomb" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000040110"]
+			icon: {
+				id: "createatomic:depleted_plutonium_rod"
+			}
+			id: "5A0E100000040115"
+			rewards: [{
+				id: "5A0E300000040115"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040115"
+				item: { count: 1, id: "createatomic:depleted_plutonium_rod" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A0E100000040013"]
+			icon: {
+				id: "angelring:diamond_ring"
+			}
+			id: "5A0E100000040116"
+			rewards: [{
+				id: "5A0E300000040116"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E200000040116"
+				item: { count: 1, id: "angelring:diamond_ring" }
+				type: "item"
+			}]
+			x: 45.0d
+			y: 2.5d
+		}
+	]
 }
