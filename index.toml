@@ -262,7 +262,7 @@ hash = "027babdfe167e86d8f6d10cb45fc2e8b2b3dc7c81e44c7e7434d7ef1c135fc62"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/adventure.snbt"
-hash = "b0acb3d144f5ce52428ed4c67809f88a122693ca820bca230701748e68f904e3"
+hash = "ba9d944c9d28bdea0dac1bc2de9f6637e5766f70502518f191e8db2995cf1b92"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andesite_alloy_age.snbt"
@@ -318,15 +318,15 @@ hash = "549b18a8e51fdb7e8b3266ce3fd380ff3bbef2ab8d9fc5963b9ec900466ff711"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks.snbt"
-hash = "0ffd55f29f2fde982d4d767a30cf0d1ac71e0511eedf7b0105e6b465d414d08f"
+hash = "c8c1b9cb0e9879880147e198afd509b77d69058b5906947ef05b70de1606f158"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tutorial.snbt"
-hash = "fd32d0c640f4e7fdd0ac593e63e9f7e3dcda778aa6b08818fc3dd0b85be4f5b7"
+hash = "831acb201c46c1b57e26cc5c7bd6ad446b35d41a5633de38d41862557a854378"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/twilight_forest.snbt"
-hash = "4da1bbce8df700930f950b47bb767df457314e3453f94d5e64e162e34c5b90ba"
+hash = "8d081718acef1379031bfad0eec9372ded1ffe00b15d6fd427c687f02e8be112"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
@@ -338,7 +338,7 @@ hash = "6cde88d5b4af7175fee7054dec818968be37abd1a1d77c7c22817bda7a0932ad"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "ee92fabe6a4058b2915421a93b92f9adefee5d0d03d34e08584b7563d9c8a542"
+hash = "18e48a2e6952f0ab0a4e262245d125b6b8b91de0735dfedaddead5341a6319f9"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_00_welcome.snbt"
@@ -1442,7 +1442,7 @@ hash = "829176c3fde0fa736aee842d1c5fd80f5d53a1e647b8833d0c1fa2123e46b027"
 
 [[files]]
 file = "kubejs/data/moonscenty/puffish_skills/categories/combat/definitions.json"
-hash = "2ac3d02a5a6b39420d596cc3616fe7e4d95e440bc86189851b00a457a73266bd"
+hash = "4b940887b0131fc6f190235cd3eee540220c4d0431bf28d16ec8d0433d0a8a50"
 
 [[files]]
 file = "kubejs/data/moonscenty/puffish_skills/categories/combat/experience.json"
@@ -1462,7 +1462,7 @@ hash = "829176c3fde0fa736aee842d1c5fd80f5d53a1e647b8833d0c1fa2123e46b027"
 
 [[files]]
 file = "kubejs/data/moonscenty/puffish_skills/categories/exploration/definitions.json"
-hash = "43b5970d2433f8821c8a57cbb57f922d069e4e18f23b42ead43e0749d788fac5"
+hash = "224dbafdacab994d8f81af9273e1d31f8bbb6c9493390fb59bb362722d4561a4"
 
 [[files]]
 file = "kubejs/data/moonscenty/puffish_skills/categories/exploration/experience.json"
@@ -1482,7 +1482,7 @@ hash = "829176c3fde0fa736aee842d1c5fd80f5d53a1e647b8833d0c1fa2123e46b027"
 
 [[files]]
 file = "kubejs/data/moonscenty/puffish_skills/categories/living/definitions.json"
-hash = "2baee1a173eda55e17dd634f7d3e5b8a3bf0374006bda18940f7d53a85b4a6ba"
+hash = "5cd49a23ed8b00d00bcaded605a7eec4b57ae400aea5b2d8f074381bf527778d"
 
 [[files]]
 file = "kubejs/data/moonscenty/puffish_skills/categories/living/experience.json"
@@ -1502,7 +1502,7 @@ hash = "829176c3fde0fa736aee842d1c5fd80f5d53a1e647b8833d0c1fa2123e46b027"
 
 [[files]]
 file = "kubejs/data/moonscenty/puffish_skills/categories/mining/definitions.json"
-hash = "95a7f458718054d6b9fff7b94e25533a7d30923b639b48a8b698d63a73e54ae1"
+hash = "cd6d93677e8302954bf0bb08073f7613ac21dea483dc1a98b1d212724ff4a656"
 
 [[files]]
 file = "kubejs/data/moonscenty/puffish_skills/categories/mining/experience.json"
