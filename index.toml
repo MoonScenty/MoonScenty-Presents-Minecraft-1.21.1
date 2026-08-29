@@ -574,7 +574,7 @@ hash = "d8bcf0a2bcf0b9fe3b88b14288fa94da396e4a0d1aa46c3ca4efbc0fbcf1b6dc"
 
 [[files]]
 file = "config/resourcepackoverrides.json"
-hash = "190406bbd1c9c87a029e05ed1476d34582a9b5f1dd16baca14a2678c9cea55c6"
+hash = "e0c435d4c910327de263c1e0a907958ff9b451e6d56a364ab14040aceb8806c5"
 
 [[files]]
 file = "config/rubberworks-common.toml"
@@ -2994,11 +2994,6 @@ hash = "fa1d7ba075806a4650ed488c13d5f0f8debfdb5b248edb0fc428ce2859baf728"
 metafile = true
 
 [[files]]
-file = "resourcepacks/fresh-animations-extensions.pw.toml"
-hash = "633345333ff363fd71d17faa2bb39be6c3b1041bb1c5fdcc616827d2221c152f"
-metafile = true
-
-[[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
 hash = "da66421a2a0dcab59fc4b17705b0aae4cd88b20634ebea20b0224fee2bef8251"
 metafile = true
@@ -3011,6 +3006,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/icon-xaeros.pw.toml"
 hash = "10c4bfeb1e50970014df2b34176ca67dc02a966062f593a53ff1f02741bee2cd"
+metafile = true
+
+[[files]]
+file = "resourcepacks/pretty-x-smart-pipez.pw.toml"
+hash = "75b811a77e333696a0b8eafc723ae206ede852c880c89cb4a0eacebb45deba86"
 metafile = true
 
 [[files]]

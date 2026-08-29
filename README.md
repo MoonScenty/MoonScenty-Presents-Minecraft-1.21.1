@@ -576,16 +576,16 @@ Farmer's Delight를 기반으로 작물, 요리와 조리 기구를 넓히는 �
 
 리소스팩은 아래 순서로 겹쳐 적용되며, 아이템 텍스처를 교체하는 팩은 포함하지 않습니다.
 
-1. **Mc둥근모**
+1. **Pretty X Smart Pipez**
+   - PIPEZ의 파이프 다섯 종과 연결부, 렌치·업그레이드 아이콘을 다듬습니다. 목록 맨 위, **모드 에셋(`mod_resources`)보다 위**에 두어야 적용됩니다.
+2. **Mc둥근모**
    - 공식 Neo둥근모를 사용해 한글을 선명한 도트 글꼴로 표시합니다.
-2. **Slightly Improved Font**
+3. **Slightly Improved Font**
    - 바닐라 감각을 유지한 32× 영문·유럽 문자 글꼴을 적용합니다. Mc둥근모의 공급자 순서와 조합되어 한글에는 영향을 주지 않습니다.
-3. **Fresh Animations: Extensions**
-   - 몹의 세부 모델과 표정, 화살통, 발광 효과를 보강하고 상자·보트·광산 수레 같은 오브젝트에 생동감 있는 동작을 추가합니다.
-4. **Fresh Animations**
-   - 바닐라 몹의 외형 감각은 유지하면서 움직임과 표정을 마인크래프트 트레일러처럼 풍부하게 만듭니다.
-5. **Fresh Animations: Player Extension**
+4. **Fresh Animations: Player Extension**
    - 플레이어의 대기, 이동, 점프, 수영, 등반, 비행과 장비 사용 동작을 Fresh Animations 스타일로 확장합니다. 플레이어 모델(`player.jem`)을 정의하는 유일한 팩입니다.
+5. **Fresh Animations**
+   - 바닐라 몹의 외형 감각은 유지하면서 움직임과 표정을 마인크래프트 트레일러처럼 풍부하게 만듭니다.
 6. **Icon Fresh**
    - Xaero's Minimap의 몹 아이콘을 Fresh Animations 감각에 맞춘 형태로 교체합니다. Icon Xaero's와 겹치는 아이콘은 이쪽이 우선합니다.
 7. **Icon Xaero's**
@@ -594,6 +594,10 @@ Farmer's Delight를 기반으로 작물, 요리와 조리 기구를 넓히는 �
    - 보스별로 구분되는 체력 표시줄 텍스처를 제공합니다. 같은 이름의 Enhanced Boss Bars 모드가 이 텍스처를 사용합니다.
 
 Fresh Animations 계열 리소스팩은 이미 포함된 Entity Model Features 및 Entity Texture Features를 사용합니다. 아이템을 들고 먹거나 마시는 동작 등은 Not Enough Animations가, 1인칭 손 표시는 Hold My Items - Reforged가 보완합니다. 리소스팩은 CurseForge에 올라와 있는 것만 사용해 배포 경로를 하나로 유지합니다. 기본 활성화 순서는 Resource Pack Overrides의 `config/resourcepackoverrides.json`에서 관리합니다.
+
+**모드 에셋을 덮는 팩은 `mod_resources`보다 위에 두어야 합니다.** 이 모드팩에서는 모드가 제공하는 리소스가 사용자 리소스팩보다 뒤에, 즉 더 높은 우선순위로 적용됩니다. 바닐라 에셋을 덮는 팩(Fresh Animations 계열, 글꼴)은 바닐라가 맨 아래라 어디에 두어도 먹히지만, 모드 자신의 에셋을 덮는 팩은 그렇지 않습니다. Pretty X Smart Pipez를 사용자 팩 사이에 두었을 때 아무 변화가 없었던 이유가 이것입니다. 그래서 `default_packs`에는 `vanilla`와 `mod_resources`를 포함한 전체 목록을 순서대로 적어 둡니다.
+
+**Fresh Animations: Extensions를 제외했습니다.** 이 팩은 기본 `assets/`가 1.21.5 이후 기준으로만 작성되어 있습니다. 오버레이가 `21-2` `21-5` `21-6` 셋뿐이라 1.21.1(팩 포맷 34)에서는 하나도 걸리지 않고 기본만 읽힙니다. 그 기본이 소, 무시룸, 돼지, 거미, 동굴 거미, 엔더맨의 모델을 `textureSize: [64, 64]`로 선언하는데 1.21.1의 해당 텍스처는 모두 64×32입니다. 인게임에서 소의 몸통이 뚫리고 텍스처가 엉뚱한 자리에서 확대되어 나왔습니다. v1.6에서도 같은 값이라 구버전으로 내려도 해결되지 않습니다. Fresh Animations 본체는 기본을 64×32로 두고 `21-5` 오버레이에서 64×64로 올리므로 본체만 쓰면 문제가 없습니다.
 
 **플레이어 모델을 정의하는 팩은 하나만 유지합니다.** `player.jem`을 정의하는 팩을 둘 이상 켜면 우선순위가 높은 하나만 적용되고 나머지는 무시됩니다. 같은 이유로 Fresh Moves를 제외했습니다. Detailed Animations는 현재 EMF 버전에서 애니메이션 파싱에 실패해(`ASM animation was invalid`) 사용하지 않습니다.
 
