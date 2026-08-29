@@ -1,12 +1,12 @@
 name = "MoonScenty Presents Minecraft 1.21.1"
 author = "MoonScenty"
-version = "0.2.2a"
+version = "0.2.3a"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "0bbdafbeb7d466dc404148e5a8ca317195ff47aa9ebe541b0e2585ba6eea8ed8"
+hash = "01b35533fc430cd5d10914ff530e7626064a1ca2c04d491b584579911226ccba"
 
 [versions]
 minecraft = "1.21.1"

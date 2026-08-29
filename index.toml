@@ -1433,6 +1433,54 @@ file = "kubejs/data/kubejs/enchantment/proficiency.json"
 hash = "e85e74ce3af5b21db868e8204e53e73f3e66301f5fae8b95830cc1839f5d98d8"
 
 [[files]]
+file = "kubejs/data/moonscenty/curios/slots/back.json"
+hash = "61eb1e152788aa3dcd30094b1084fba3329826dcdd4396ca81e0801a0d090360"
+
+[[files]]
+file = "kubejs/data/moonscenty/curios/slots/belt.json"
+hash = "61eb1e152788aa3dcd30094b1084fba3329826dcdd4396ca81e0801a0d090360"
+
+[[files]]
+file = "kubejs/data/moonscenty/curios/slots/body.json"
+hash = "61eb1e152788aa3dcd30094b1084fba3329826dcdd4396ca81e0801a0d090360"
+
+[[files]]
+file = "kubejs/data/moonscenty/curios/slots/bracelet.json"
+hash = "61eb1e152788aa3dcd30094b1084fba3329826dcdd4396ca81e0801a0d090360"
+
+[[files]]
+file = "kubejs/data/moonscenty/curios/slots/charm.json"
+hash = "61eb1e152788aa3dcd30094b1084fba3329826dcdd4396ca81e0801a0d090360"
+
+[[files]]
+file = "kubejs/data/moonscenty/curios/slots/curio.json"
+hash = "61eb1e152788aa3dcd30094b1084fba3329826dcdd4396ca81e0801a0d090360"
+
+[[files]]
+file = "kubejs/data/moonscenty/curios/slots/feet.json"
+hash = "637160e6436c9d1f0d8a6ddaee750598703f1916b91bddcfbf45e40cc3f73fdc"
+
+[[files]]
+file = "kubejs/data/moonscenty/curios/slots/hands.json"
+hash = "637160e6436c9d1f0d8a6ddaee750598703f1916b91bddcfbf45e40cc3f73fdc"
+
+[[files]]
+file = "kubejs/data/moonscenty/curios/slots/head.json"
+hash = "61eb1e152788aa3dcd30094b1084fba3329826dcdd4396ca81e0801a0d090360"
+
+[[files]]
+file = "kubejs/data/moonscenty/curios/slots/necklace.json"
+hash = "61eb1e152788aa3dcd30094b1084fba3329826dcdd4396ca81e0801a0d090360"
+
+[[files]]
+file = "kubejs/data/moonscenty/curios/slots/ring.json"
+hash = "637160e6436c9d1f0d8a6ddaee750598703f1916b91bddcfbf45e40cc3f73fdc"
+
+[[files]]
+file = "kubejs/data/moonscenty/curios/slots/spellbook.json"
+hash = "61eb1e152788aa3dcd30094b1084fba3329826dcdd4396ca81e0801a0d090360"
+
+[[files]]
 file = "kubejs/data/moonscenty/puffish_skills/categories/combat/category.json"
 hash = "de12046bd343a2784f2f0da87556daf03f8fd87bf100f6b633ce624a232218f1"
 
@@ -1502,7 +1550,7 @@ hash = "829176c3fde0fa736aee842d1c5fd80f5d53a1e647b8833d0c1fa2123e46b027"
 
 [[files]]
 file = "kubejs/data/moonscenty/puffish_skills/categories/mining/definitions.json"
-hash = "cd6d93677e8302954bf0bb08073f7613ac21dea483dc1a98b1d212724ff4a656"
+hash = "cdec814feda31c4794db2209ac7e076ae6c253835e3194510128c2745d6435c1"
 
 [[files]]
 file = "kubejs/data/moonscenty/puffish_skills/categories/mining/experience.json"
@@ -1510,7 +1558,7 @@ hash = "7d0b8f3b3ab3b88f03eef158812878698b1991219030a230c50530ba973ce140"
 
 [[files]]
 file = "kubejs/data/moonscenty/puffish_skills/categories/mining/skills.json"
-hash = "2cc93a05b9645bd224d4fcca968721ae75d9ff5a9222cfcba6ff0af13eb154b3"
+hash = "f5c2356d88d435cf0de2843936b9247e5682752d7f02381db49da243ce9c7198"
 
 [[files]]
 file = "kubejs/data/moonscenty/puffish_skills/config.json"
@@ -1531,6 +1579,10 @@ hash = "257eb35504c112c31b2e8bf217a1982c2ec3d28d6bd5493d032fae3b0ce64e0f"
 [[files]]
 file = "kubejs/server_scripts/industrial_age.js"
 hash = "06f76cb1cf308670fe4710ef1a6b1770246411613c227c1000a407aa57c9eb00"
+
+[[files]]
+file = "kubejs/server_scripts/metallurgy_faucet.js"
+hash = "c97d850e5d92747957bd0f419187952d0d66f878fcd450d7c745b8de89cd775d"
 
 [[files]]
 file = "kubejs/server_scripts/metallurgy_light_bulbs.js"
@@ -2259,6 +2311,11 @@ hash = "01290866d0c405f7b637961b71b13f36124c897e1f4fc748951a3eaa671dd082"
 metafile = true
 
 [[files]]
+file = "mods/fuelgoeshere.pw.toml"
+hash = "167e16c3a9bce43fa315af831930487448833b9c5a5f00676532df8a193e27b0"
+metafile = true
+
+[[files]]
 file = "mods/functional-storage.pw.toml"
 hash = "55c21e0159f5509b84d1e1fa42c2e478a3600c43007ede829cad5839aaa1b8da"
 metafile = true
@@ -2306,6 +2363,11 @@ metafile = true
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "96c488556336d9ae44a0f17182d4c2bf2dc8414c29f9006d334ff97e6a14ca2a"
+metafile = true
+
+[[files]]
+file = "mods/immersive-lanterns.pw.toml"
+hash = "932c985b60d1ad9defb6544fb5aa7b3490be7b6497dc7537b640d2ee060275fa"
 metafile = true
 
 [[files]]
@@ -2826,6 +2888,11 @@ metafile = true
 [[files]]
 file = "mods/twilights-flavors-delight.pw.toml"
 hash = "24f7c7e71dfc654dfa73999e236955f03cfef2ef7a3851b9fff7981995ba7331"
+metafile = true
+
+[[files]]
+file = "mods/txnilib.pw.toml"
+hash = "7d7deb14e956b71fe2f9c999acefdb5edbfc264d9c66e5e2fce7c90ee704d05a"
 metafile = true
 
 [[files]]
