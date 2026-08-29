@@ -65,14 +65,16 @@
 | 정의 | 값 |
 | --- | --- |
 | `ultimine+3` `ultimine+6` `ultimine+10` | `ftbultimine:max_blocks_modifier` |
-| `ultimine_xp+10%` `ultimine_xp+25%` | `ftbultimine:experience_modifier` |
-| `ultimine_cost-25%` | `exhaustion_modifier`와 `cooldown_modifier` 동시 감소 |
+| `break_speed+5%` `break_speed+15%` | `player.block_break_speed` |
+| `ultimine_exhaustion-4` | `ftbultimine:exhaustion_modifier` |
 | `reach+0.5` `reach+1` | `player.block_interaction_range` |
 | `safe_fall+1` `fall_dmg-10%` | `safe_fall_distance` / `fall_damage_multiplier` |
 | `oxygen+1` `burn-10%` | `oxygen_bonus` / `burning_time` |
 | `sneak+5%` `step+0.25` `water_mining+25%` | `sneaking_speed` / `step_height` / `submerged_mining_speed` |
 
-일괄 채굴 개수를 늘리는 것은 **속도**지 복제가 아니므로 게이팅과 충돌하지 않습니다.
+일괄 채굴 개수를 늘리는 것도, 블록 파괴 속도를 올리는 것도 **속도**지 복제가 아니므로 게이팅과 충돌하지 않습니다.
+
+**`ftbultimine`의 수정자 넷 중 셋은 비용입니다.** `max_blocks_modifier`만 올리면 이득이고 `experience_modifier` `exhaustion_modifier` `cooldown_modifier`는 올리면 손해입니다. 계산식이 `max(0, 기준값 + 수정자)`인 덧셈이라 퍼센트로 적어서도 안 됩니다. 이 팩의 기준값은 개수 64, 경험치 소모 0, 허기 20, 대기 0입니다. 기준값이 0인 둘은 손댈 자리가 없으므로 허기만 씁니다.
 
 경험치는 캔 블록에 따라 다릅니다. 심층암 광석 9, 일반 광석 7, 겉돌 0.25이며 그 밖의 블록은 오르지 않습니다. 흙을 파도 소용없습니다.
 
@@ -270,6 +272,7 @@ kubejs/data/moonscenty/puffish_skills/
 - 인게임에서 스킬 창이 열리고 네 탭이 모두 표시되는 것을 확인했습니다.
 - 작성한 정의의 보상 속성을 AttributeFix가 뽑아 둔 등록 속성 361개와 대조해 미등록 참조가 없음을 확인했습니다.
 - 고립된 노드, 좌표 충돌, 정의 참조 누락, 쓰이지 않는 정의가 없음을 확인했습니다.
+- 채굴 탭에서 찍으면 손해이던 노드 아홉 개를 블록 파괴 속도와 허기 절감으로 갈아끼웠습니다.
 - `spent_points_limit: 0`이 네 탭 모두에 들어가 있어 경험치를 아무리 쌓아도 포인트를 한 점도 쓸 수 없던 것을 확인하고 키를 지웠습니다.
 - 노드 63개의 제목을 인게임 속성 이름에 맞추고 설명을 모두 채웠습니다. 보상으로 걸린 속성의 기준값과 연산 방향을 모드 jar에서 하나씩 확인했습니다.
 - `ftbultimine`의 네 수정자가 배수가 아니라 덧셈이고, 그중 셋이 비용이라는 것을 확인했습니다.
@@ -285,7 +288,6 @@ kubejs/data/moonscenty/puffish_skills/
 ## 남은 작업
 
 - 인게임 수치 검증과 곡선 조정
-- **채굴 탭의 세 노드가 효과 자체를 손봐야 합니다.** `ultimine_xp+10%`와 `ultimine_xp+25%`는 경험치를 주는 것이 아니라 소모를 늘립니다. 이 팩의 기준 소모량이 0이라 찍으면 없던 비용이 생깁니다. `ultimine_cost-25%`는 허기를 20에서 19.75로 줄일 뿐이고, 함께 걸린 대기 시간은 기준값이 0이라 아무 일도 하지 않습니다.
 - 꿀팁과 노하우 챕터에 스킬 트리 안내 항목 추가
 - 시대 진행과 연동할지 결정 — `unlocked_by_default: false`와 `CommandReward`로 탭을 잠글 수 있습니다
 - 퀘스트 보상으로 포인트를 주는 방안 검토 — `puffish_skills:points` 보상을 씁니다

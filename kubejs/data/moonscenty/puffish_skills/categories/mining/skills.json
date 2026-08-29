@@ -51,12 +51,12 @@
     "y": -147.8
   },
   "11": {
-    "definition": "ultimine_xp+10%",
+    "definition": "break_speed+5%",
     "x": 64.0,
     "y": -110.85
   },
   "12": {
-    "definition": "ultimine_xp+10%",
+    "definition": "break_speed+5%",
     "x": 128.0,
     "y": -73.9
   },
@@ -111,17 +111,17 @@
     "y": -147.8
   },
   "23": {
-    "definition": "ultimine_xp+10%",
+    "definition": "break_speed+5%",
     "x": -64.0,
     "y": -184.75
   },
   "24": {
-    "definition": "ultimine_xp+10%",
+    "definition": "break_speed+5%",
     "x": 0.0,
     "y": -221.7
   },
   "25": {
-    "definition": "ultimine_xp+10%",
+    "definition": "break_speed+5%",
     "x": 64.0,
     "y": -184.75
   },
@@ -216,22 +216,22 @@
     "y": -295.6
   },
   "44": {
-    "definition": "ultimine_xp+25%",
+    "definition": "break_speed+15%",
     "x": 64.0,
     "y": -258.65
   },
   "45": {
-    "definition": "ultimine_xp+25%",
+    "definition": "break_speed+15%",
     "x": 128.0,
     "y": -221.7
   },
   "46": {
-    "definition": "ultimine_cost-25%",
+    "definition": "ultimine_exhaustion-4",
     "x": 192.0,
     "y": -184.75
   },
   "47": {
-    "definition": "ultimine_cost-25%",
+    "definition": "ultimine_exhaustion-4",
     "x": 256.0,
     "y": -147.8
   },
