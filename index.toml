@@ -274,7 +274,7 @@ hash = "54f72a2d9aadc59c68d6be759c87a14cba667bd3064938361a7dee2c2b7de731"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/atomic_age.snbt"
-hash = "72a8ca6e9810508cd4d688a913d8692ee9f89edc623426e60892b1723d54bd43"
+hash = "719e86147d3f308ffb1e9dafdf09d59a2f3ce1604a6090296a33f4f3b6e03755"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/beekeeping.snbt"
@@ -322,7 +322,7 @@ hash = "0ffd55f29f2fde982d4d767a30cf0d1ac71e0511eedf7b0105e6b465d414d08f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tutorial.snbt"
-hash = "b1595e18552123dcb6daf5ee05016372a744e7bb7e51f2172da720ca5782bf59"
+hash = "fd32d0c640f4e7fdd0ac593e63e9f7e3dcda778aa6b08818fc3dd0b85be4f5b7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/twilight_forest.snbt"
@@ -338,7 +338,7 @@ hash = "6cde88d5b4af7175fee7054dec818968be37abd1a1d77c7c22817bda7a0932ad"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "40b37e70f7b5cefb021a785418ca5785fb868bd46a2a1136d9118546012b707e"
+hash = "ee92fabe6a4058b2915421a93b92f9adefee5d0d03d34e08584b7563d9c8a542"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_00_welcome.snbt"

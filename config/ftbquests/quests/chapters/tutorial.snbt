@@ -198,6 +198,16 @@
 			x: 127.0d
 			y: -6.5d
 		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "1A0FA14EBFCB3DEE"
+			image: "moonscenty:textures/tutorial_17a_deep_dark.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 121.0d
+			y: 8.0d
+		}
 	]
 	order_index: 0
 	progression_mode: "flexible"
