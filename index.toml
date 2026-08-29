@@ -570,7 +570,7 @@ hash = "55affffe67e84dfe11e590769e235aee999b77f9484a3adf7ee8247a9f3d35ba"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "d8bcf0a2bcf0b9fe3b88b14288fa94da396e4a0d1aa46c3ca4efbc0fbcf1b6dc"
+hash = "e0ce9e4388248aae1f1089bcf432f5a8f9c63bab75d6771e6f0ddb2d72791180"
 
 [[files]]
 file = "config/resourcepackoverrides.json"
@@ -1852,7 +1852,7 @@ metafile = true
 
 [[files]]
 file = "mods/construction-sticks.pw.toml"
-hash = "f22871063cbfb6a6220cb82fa4a8b92e7659cc5c9f30987e8eb001fbb2446970"
+hash = "f9467bea7593983f43d8cbaeb34ec5ea3d643992843b8455a0b80e94f8f2a105"
 metafile = true
 
 [[files]]
@@ -1942,7 +1942,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
-hash = "c0ad1113a9e301fc8bef016ac5677686029d02da3c37f9d75723d05d329900d6"
+hash = "3081454bb18ab118d7b449a10bf1350d0761ab6892cd88b2ec59b4eb25e375f1"
 metafile = true
 
 [[files]]
@@ -1957,7 +1957,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-integrated-farming.pw.toml"
-hash = "1cc5a2717a5aa0a77a5f1f05172464d530522597ea8456b876636c7808a70fe5"
+hash = "cd39142a4bbf918c58f8feae2ed0ffc2af6515c395f75920172b6039c4c7eb20"
 metafile = true
 
 [[files]]
@@ -2052,7 +2052,7 @@ metafile = true
 
 [[files]]
 file = "mods/cupboard.pw.toml"
-hash = "6e6e089e208a0f1309fd704a2733e644c86ecce953b4ec31e7d0f1bdef6005d4"
+hash = "8e83d6344bba3711337872275843631ec1046884d44b1b579f3c4566448c3697"
 metafile = true
 
 [[files]]
@@ -2172,7 +2172,7 @@ metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "18dee4357a741a909904d20d5a9952fba48ab2713a9e18c764d1fbb440216b12"
+hash = "10208ca3f0f29e42f973363bf9cb3daf3e19de5af0ae69237103cc3c17cd0289"
 metafile = true
 
 [[files]]
@@ -2362,7 +2362,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "96c488556336d9ae44a0f17182d4c2bf2dc8414c29f9006d334ff97e6a14ca2a"
+hash = "7d297447424c74ce0b038fdd5c5d50832f95fb8775144137233491530b2d9810"
 metafile = true
 
 [[files]]
@@ -2422,7 +2422,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "4520268d4ae061f16fe109c519d08d4a1bf60824fd2c8bdbda2595905ce0dd57"
+hash = "8da660f47b338e994d8acf2caa10d9d5845b96f9c425ace479e7870191974f21"
 metafile = true
 
 [[files]]
@@ -2557,7 +2557,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-quest-types.pw.toml"
-hash = "e7cd37629df693ca65bbf6693c0540026c3d556878e951d60e3a10858f165b9a"
+hash = "60663b11a02ee31790d1c4bc438330d0b4c33d4a8b6d1da124f6d6ebe630c869"
 metafile = true
 
 [[files]]
@@ -2762,7 +2762,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "e64cfe869742d68a73990c10a3e5b34c7ecec0910cda586d0d13b6633ec872e2"
+hash = "25bd3df81f1db5736274c1b7db2bc622f221b2c5dfc7e855ff4ebce345aecc30"
 metafile = true
 
 [[files]]
@@ -2797,7 +2797,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "3d615c32683131c6a98a7da16c28263c5ca5cf50e4f33029e8c72c3558bb362c"
+hash = "3fc6fd4a464740bd6cfe89571517cfda837dbad69f0218ef1159b527b1be45d6"
 metafile = true
 
 [[files]]
@@ -2847,7 +2847,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "a62d00b724dbac4906afd5d8676f6f65be306eedf2eb9cdb5b6aec1fc80c300a"
+hash = "d8a69a6367d92895e093e003c436de43abb3292a3c676908a95d0c0db1d14830"
 metafile = true
 
 [[files]]
@@ -2867,7 +2867,7 @@ metafile = true
 
 [[files]]
 file = "mods/titanium.pw.toml"
-hash = "7830a79862c572434679f36377d3bd985a11a6ccb508d8f1911138138e647a4c"
+hash = "55df9531ad6c2db9a814bdb32c0cac04b4bc28d0ed720086d18655a0b4a622ff"
 metafile = true
 
 [[files]]
