@@ -278,7 +278,7 @@
 				item: { count: 1, id: "comforts:sleeping_bag_white" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 3.0d
 		}
 		{
@@ -322,7 +322,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 4.0d
 			y: 3.0d
 		}
 		{
@@ -349,7 +349,7 @@
 				item: { count: 1, id: "torchmaster:megatorch" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: 3.0d
 		}
 		{
@@ -392,7 +392,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 8.0d
 			y: 3.0d
 		}
 		{
@@ -432,7 +432,7 @@
 				item: { count: 1, id: "angelring:angel_ring" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 10.0d
 			y: 3.0d
 		}
 		{
@@ -1036,6 +1036,34 @@
 		{
 			dependencies: ["5A0E1A000000001F"]
 			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								vision: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										amount: {
+											initialQuality: 3
+										}
+										damage_bonus: {
+											initialQuality: 9
+										}
+										miss_chance: {
+											initialQuality: 3
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
 				id: "artifacts:night_vision_goggles"
 			}
 			id: "5A0E1A0000000020"
@@ -1055,15 +1083,37 @@
 					second: 20
 				}
 				id: "5A0E2A0000000200"
-				item: { count: 1, id: "artifacts:night_vision_goggles" }
+				item: { components: { "relics:data": { abilities: { abilities: { vision: { lock: { breaks: 5 }, points: 0, stats: { amount: { initialQuality: 6 }, damage_bonus: { initialQuality: 2 }, miss_chance: { initialQuality: 2 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:night_vision_goggles" }
 				type: "item"
 			}]
 			x: 2.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5A0E1A000000001F"]
 			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								magnetism: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										radius: {
+											initialQuality: 6
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
 				id: "artifacts:universal_attractor"
 			}
 			id: "5A0E1A0000000021"
@@ -1083,15 +1133,43 @@
 					second: 20
 				}
 				id: "5A0E2A0000000210"
-				item: { count: 1, id: "artifacts:universal_attractor" }
+				item: { components: { "relics:data": { abilities: { abilities: { magnetism: { lock: { breaks: 5 }, points: 0, stats: { radius: { initialQuality: 6 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:universal_attractor" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.0d
+			x: 2.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5A0E1A0000000020"]
 			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								jump: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										count: {
+											initialQuality: 9
+										}
+										slow_fall_duration: {
+											initialQuality: 8
+										}
+										updraft_bonus: {
+											initialQuality: 4
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
 				id: "artifacts:cloud_in_a_bottle"
 			}
 			id: "5A0E1A0000000022"
@@ -1112,7 +1190,7 @@
 						second: 20
 					}
 					id: "5A0E2A0000000220"
-					item: { count: 1, id: "artifacts:cloud_in_a_bottle" }
+					item: { components: { "relics:data": { abilities: { abilities: { jump: { lock: { breaks: 5 }, points: 0, stats: { count: { initialQuality: 5 }, slow_fall_duration: { initialQuality: 10 }, updraft_bonus: { initialQuality: 2 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:cloud_in_a_bottle" }
 					type: "item"
 				}
 				{
@@ -1125,16 +1203,56 @@
 						second: 20
 					}
 					id: "5A0E2A0000000221"
-					item: { count: 1, id: "artifacts:helium_flamingo" }
+					item: { components: { "relics:data": { abilities: { abilities: { flying: { lock: { breaks: 5 }, points: 0, stats: { ranged_damage_bonus: { initialQuality: 4 }, resistance: { initialQuality: 4 }, speed_bonus: { initialQuality: 3 }, time: { initialQuality: 3 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:helium_flamingo" }
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 6.0d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5A0E1A0000000021"]
 			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								flame: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										burning_damage_bonus: {
+											initialQuality: 2
+										}
+										fire_duration: {
+											initialQuality: 10
+										}
+										spark_count: {
+											initialQuality: 4
+										}
+										spark_damage: {
+											initialQuality: 7
+										}
+										spark_fire_duration: {
+											initialQuality: 6
+										}
+										spread_fire_duration: {
+											initialQuality: 1
+										}
+										spread_radius: {
+											initialQuality: 5
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
 				id: "artifacts:fire_gauntlet"
 			}
 			id: "5A0E1A0000000023"
@@ -1155,7 +1273,7 @@
 						second: 20
 					}
 					id: "5A0E2A0000000230"
-					item: { count: 1, id: "artifacts:fire_gauntlet" }
+					item: { components: { "relics:data": { abilities: { abilities: { flame: { lock: { breaks: 5 }, points: 0, stats: { burning_damage_bonus: { initialQuality: 7 }, fire_duration: { initialQuality: 1 }, spark_count: { initialQuality: 8 }, spark_damage: { initialQuality: 2 }, spark_fire_duration: { initialQuality: 2 }, spread_fire_duration: { initialQuality: 10 }, spread_radius: { initialQuality: 3 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:fire_gauntlet" }
 					type: "item"
 				}
 				{
@@ -1168,16 +1286,44 @@
 						second: 20
 					}
 					id: "5A0E2A0000000231"
-					item: { count: 1, id: "artifacts:obsidian_skull" }
+					item: { components: { "relics:data": { abilities: { abilities: { lava: { lock: { breaks: 5 }, points: 0, stats: { damage_reduction: { initialQuality: 10 }, duration: { initialQuality: 4 }, low_reserve_speed_bonus: { initialQuality: 7 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:obsidian_skull" }
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 6.0d
+			x: 4.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5A0E1A000000001F"]
 			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								blink: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										cooldown: {
+											initialQuality: 2
+										}
+										distance: {
+											initialQuality: 2
+										}
+										max_charge: {
+											initialQuality: 1
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
 				id: "relics:chorus_staff"
 			}
 			id: "5A0E1A0000000024"
@@ -1198,8 +1344,7 @@
 					second: 20
 				}
 				id: "5A0E2A0000000240"
-				item: { count: 1, id: "relics:chorus_staff" }
-				match_components: "none"
+				item: { components: { "relics:data": { abilities: { abilities: { blink: { lock: { breaks: 5 }, points: 0, stats: { cooldown: { initialQuality: 3 }, distance: { initialQuality: 10 }, max_charge: { initialQuality: 8 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:chorus_staff" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -1208,6 +1353,31 @@
 		{
 			dependencies: ["5A0E1A0000000024"]
 			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								satiety: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										chance: {
+											initialQuality: 6
+										}
+										healing: {
+											initialQuality: 5
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
 				id: "relics:chef_hat"
 			}
 			id: "5A0E1A0000000025"
@@ -1227,8 +1397,7 @@
 					second: 20
 				}
 				id: "5A0E2A0000000250"
-				item: { count: 1, id: "relics:chef_hat" }
-				match_components: "none"
+				item: { components: { "relics:data": { abilities: { abilities: { satiety: { lock: { breaks: 5 }, points: 0, stats: { chance: { initialQuality: 8 }, healing: { initialQuality: 9 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:chef_hat" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -1237,6 +1406,45 @@
 		{
 			dependencies: ["5A0E1A0000000024"]
 			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								gliding: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										damage: {
+											initialQuality: 4
+										}
+										efficiency: {
+											initialQuality: 10
+										}
+										resistance: {
+											initialQuality: 5
+										}
+									}
+								}
+								slots: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										amount: {
+											initialQuality: 6
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
 				id: "relics:kinetic_belt"
 			}
 			id: "5A0E1A0000000026"
@@ -1256,8 +1464,7 @@
 					second: 20
 				}
 				id: "5A0E2A0000000260"
-				item: { count: 1, id: "relics:kinetic_belt" }
-				match_components: "none"
+				item: { components: { "relics:data": { abilities: { abilities: { gliding: { lock: { breaks: 5 }, points: 0, stats: { damage: { initialQuality: 5 }, efficiency: { initialQuality: 4 }, resistance: { initialQuality: 1 } } }, slots: { lock: { breaks: 5 }, points: 0, stats: { amount: { initialQuality: 6 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:kinetic_belt" }
 				type: "item"
 			}]
 			x: 4.0d

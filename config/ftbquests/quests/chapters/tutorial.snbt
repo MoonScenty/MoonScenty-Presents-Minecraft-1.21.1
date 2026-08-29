@@ -339,15 +339,16 @@
 			}]
 			tasks: [{
 				SkillsLevel: {
-					category: ""
+					category: "minecraft:"
 					check: 0b
 					comparison: "GREATER_OR_EQUAL"
 					first: 10
 					mode: "TOTAL_LEVEL"
 					second: 20
 				}
-				id: "3CE4B2E3747D8BE4"
-				type: "custom"
+				id: "13C6204BE17DA950"
+				type: "break_block"
+				value: 1L
 			}]
 			x: 0.0d
 			y: 1.0d
@@ -367,15 +368,16 @@
 			}]
 			tasks: [{
 				SkillsLevel: {
-					category: ""
+					category: "minecraft:"
 					check: 0b
 					comparison: "GREATER_OR_EQUAL"
 					first: 10
 					mode: "TOTAL_LEVEL"
 					second: 20
 				}
-				id: "3457AC1850AA61A7"
-				type: "custom"
+				id: "5F900351F1262165"
+				type: "use_block"
+				value: 1L
 			}]
 			x: 1.5d
 			y: 2.0d
@@ -423,12 +425,15 @@
 			size: 1.5d
 			tasks: [{
 				SkillsLevel: {
-					category: ""
+					category: "minecraft:"
 					check: 0b
 					comparison: "GREATER_OR_EQUAL"
 					first: 10
 					mode: "TOTAL_LEVEL"
 					second: 20
+				}
+				icon: {
+					id: "minecraft:oak_log"
 				}
 				id: "38792EEC80A24E83"
 				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -451,7 +456,7 @@
 			}]
 			tasks: [{
 				SkillsLevel: {
-					category: ""
+					category: "minecraft:"
 					check: 0b
 					comparison: "GREATER_OR_EQUAL"
 					first: 10
@@ -459,6 +464,9 @@
 					second: 20
 				}
 				count: 4L
+				icon: {
+					id: "minecraft:oak_planks"
+				}
 				id: "3B1AF94845FA29D6"
 				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:planks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -968,15 +976,18 @@
 			}]
 			tasks: [{
 				SkillsLevel: {
-					category: ""
+					category: "minecraft:"
 					check: 0b
 					comparison: "GREATER_OR_EQUAL"
 					first: 10
 					mode: "TOTAL_LEVEL"
 					second: 20
 				}
-				id: "3F0CD106F881FAAC"
-				item: { count: 1, id: "minecraft:chest" }
+				icon: {
+					id: "minecraft:chest"
+				}
+				id: "3C1FB8EF99BCC5A6"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:chests/wooden))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 21.0d
@@ -1282,16 +1293,18 @@
 			}]
 			tasks: [{
 				SkillsLevel: {
-					category: ""
+					category: "minecraft:"
 					check: 0b
 					comparison: "GREATER_OR_EQUAL"
 					first: 10
 					mode: "TOTAL_LEVEL"
 					second: 20
 				}
-				id: "3B9AF8206E150605"
+				hand_mode: "MAIN_HAND"
+				id: "7405EDD6F92C7CC8"
 				item: { count: 1, id: "minecraft:wooden_hoe" }
-				type: "item"
+				type: "use_item"
+				value: 1L
 			}]
 			x: 9.0d
 			y: -5.5d
@@ -1586,15 +1599,17 @@
 			}]
 			tasks: [{
 				SkillsLevel: {
-					category: ""
+					category: "minecraft:"
 					check: 0b
 					comparison: "GREATER_OR_EQUAL"
 					first: 10
 					mode: "TOTAL_LEVEL"
 					second: 20
 				}
-				id: "3A7829B0D1119AC6"
-				type: "custom"
+				entity: "minecraft:wolf"
+				id: "1CA1940684D29C03"
+				type: "tame_mob"
+				value: 1L
 			}]
 			x: 10.5d
 			y: -9.5d
@@ -1614,15 +1629,17 @@
 			}]
 			tasks: [{
 				SkillsLevel: {
-					category: ""
+					category: "minecraft:"
 					check: 0b
 					comparison: "GREATER_OR_EQUAL"
 					first: 10
 					mode: "TOTAL_LEVEL"
 					second: 20
 				}
-				id: "390D92355478447A"
-				type: "custom"
+				entity: "minecraft:cat"
+				id: "73726C08CB19C911"
+				type: "tame_mob"
+				value: 1L
 			}]
 			x: 9.0d
 			y: -10.0d
@@ -1671,15 +1688,16 @@
 			}]
 			tasks: [{
 				SkillsLevel: {
-					category: ""
+					category: "minecraft:"
 					check: 0b
 					comparison: "GREATER_OR_EQUAL"
 					first: 10
 					mode: "TOTAL_LEVEL"
 					second: 20
 				}
-				id: "393CB51F8D6A0582"
-				type: "custom"
+				id: "6857E202CA573FF4"
+				type: "fishing_catch"
+				value: 1L
 			}]
 			x: 8.0d
 			y: -11.0d
@@ -2561,7 +2579,7 @@
 			}]
 			tasks: [{
 				SkillsLevel: {
-					category: ""
+					category: "minecraft:"
 					check: 0b
 					comparison: "GREATER_OR_EQUAL"
 					first: 10
@@ -2572,7 +2590,7 @@
 					id: "minecraft:rail"
 				}
 				id: "3A878F7EF9AE6BA9"
-				structure: "#minecraft:mineshafts"
+				structure: "#minecraft:mineshaft"
 				type: "structure"
 			}]
 			x: 35.5d
@@ -3353,18 +3371,15 @@
 			size: 1.5d
 			tasks: [{
 				SkillsLevel: {
-					category: ""
+					category: "minecraft:"
 					check: 0b
 					comparison: "GREATER_OR_EQUAL"
 					first: 10
 					mode: "TOTAL_LEVEL"
 					second: 20
 				}
-				icon: {
-					id: "minecraft:bell"
-				}
-				id: "3A6D7817408CAE58"
-				structure: "#minecraft:villages"
+				id: "4CD7FACD98229680"
+				structure: "#minecraft:village"
 				type: "structure"
 			}]
 			x: 34.5d
@@ -3383,15 +3398,19 @@
 			}]
 			tasks: [{
 				SkillsLevel: {
-					category: ""
+					category: "minecraft:"
 					check: 0b
 					comparison: "GREATER_OR_EQUAL"
 					first: 10
 					mode: "TOTAL_LEVEL"
 					second: 20
 				}
-				id: "30ACD29A92BD781B"
-				type: "custom"
+				check_buy_item: true
+				entity: "minecraft:villager"
+				id: "56A6E7EA1F1A2E3F"
+				min_tags_required: 0
+				type: "trading"
+				value: 1L
 			}]
 			x: 34.5d
 			y: -5.5d
@@ -3437,15 +3456,20 @@
 			}]
 			tasks: [{
 				SkillsLevel: {
-					category: ""
+					category: "minecraft:"
 					check: 0b
 					comparison: "GREATER_OR_EQUAL"
 					first: 10
 					mode: "TOTAL_LEVEL"
 					second: 20
 				}
-				id: "3C3C20E918DFEB12"
-				type: "custom"
+				check_buy_item: true
+				entity: "minecraft:villager"
+				id: "26B613ACD77F6B0B"
+				min_tags_required: 0
+				traded_item: { count: 1, id: "minecraft:wheat" }
+				type: "trading"
+				value: 1L
 			}]
 			x: 35.5d
 			y: -8.5d
@@ -3465,15 +3489,20 @@
 			}]
 			tasks: [{
 				SkillsLevel: {
-					category: ""
+					category: "minecraft:"
 					check: 0b
 					comparison: "GREATER_OR_EQUAL"
 					first: 10
 					mode: "TOTAL_LEVEL"
 					second: 20
 				}
-				id: "3DF39EEB78CA047D"
-				type: "custom"
+				check_buy_item: true
+				entity: "minecraft:villager"
+				id: "3ECF6036087E4BFF"
+				min_tags_required: 0
+				traded_item: { count: 1, id: "minecraft:paper" }
+				type: "trading"
+				value: 1L
 			}]
 			x: 34.0d
 			y: -9.0d
@@ -3493,15 +3522,20 @@
 			}]
 			tasks: [{
 				SkillsLevel: {
-					category: ""
+					category: "minecraft:"
 					check: 0b
 					comparison: "GREATER_OR_EQUAL"
 					first: 10
 					mode: "TOTAL_LEVEL"
 					second: 20
 				}
-				id: "389D4C5BBB89CCAE"
-				type: "checkmark"
+				check_buy_item: true
+				entity: "minecraft:villager"
+				id: "725C63A97FC204CA"
+				min_tags_required: 0
+				traded_item: { count: 1, id: "minecraft:coal" }
+				type: "trading"
+				value: 1L
 			}]
 			x: 32.5d
 			y: -8.5d
@@ -6762,6 +6796,7 @@
 		}
 		{
 			dependencies: ["203FD34AD0697ACD"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:echo_shard"
 			}
@@ -6801,7 +6836,7 @@
 			}]
 			tasks: [{
 				SkillsLevel: {
-					category: ""
+					category: "minecraft:"
 					check: 0b
 					comparison: "GREATER_OR_EQUAL"
 					first: 10
@@ -6809,7 +6844,7 @@
 					second: 20
 				}
 				biome: "minecraft:deep_dark"
-				id: "30E2361ED466550B"
+				id: "316CE96DE382DB10"
 				type: "biome"
 			}]
 			x: 115.5d
@@ -6830,14 +6865,14 @@
 			}]
 			tasks: [{
 				SkillsLevel: {
-					category: ""
+					category: "minecraft:"
 					check: 0b
 					comparison: "GREATER_OR_EQUAL"
 					first: 10
 					mode: "TOTAL_LEVEL"
 					second: 20
 				}
-				id: "35A367555A2B8F7A"
+				id: "4955901B19E0FE7B"
 				structure: "minecraft:ancient_city"
 				type: "structure"
 			}]
@@ -7075,36 +7110,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["228E5EDBEB613B0A"]
-			hide_dependency_lines: false
-			icon: {
-				id: "minecraft:white_wool"
-			}
-			id: "28F84E0C8F487635"
-			optional: true
-			rewards: [{
-				id: "6C000000000000DB"
-				type: "xp"
-				xp: 30
-			}]
-			tasks: [{
-				SkillsLevel: {
-					category: ""
-					check: 0b
-					comparison: "GREATER_OR_EQUAL"
-					first: 10
-					mode: "TOTAL_LEVEL"
-					second: 20
-				}
-				id: "35DBB86AB916C806"
-				item: { components: { "ftbfiltersystem:filter": "tag(minecraft:wool)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 118.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["28F84E0C8F487635"]
+			dependencies: ["21B2A3A587E3CF59"]
 			icon: {
 				id: "minecraft:leather_boots"
 			}
@@ -7128,8 +7134,8 @@
 				type: "stat"
 				value: 2000
 			}]
-			x: 118.5d
-			y: -1.0d
+			x: 111.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2231512688E7D895"]
@@ -7146,7 +7152,7 @@
 			}]
 			tasks: [{
 				SkillsLevel: {
-					category: ""
+					category: "minecraft:"
 					check: 0b
 					comparison: "GREATER_OR_EQUAL"
 					first: 10
@@ -7154,8 +7160,11 @@
 					second: 20
 				}
 				count: 32L
-				id: "31EBA0366283A48C"
-				item: { components: { "ftbfiltersystem:filter": "tag(minecraft:wool)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				icon: {
+					id: "minecraft:white_wool"
+				}
+				id: "6261F1016A0F9ABA"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(minecraft:wool))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 112.5d
@@ -7183,8 +7192,8 @@
 					mode: "TOTAL_LEVEL"
 					second: 20
 				}
-				id: "3DD53C91C287FD0C"
-				item: { count: 1, id: "minecraft:enchanted_book" }
+				id: "327414FF59C68443"
+				item: { components: { "ftbfiltersystem:filter": "or(and(item(minecraft:enchanted_book)component(fuzzy:{\"minecraft:stored_enchantments\":{levels:{\"minecraft:swift_sneak\":1}}}))and(item(minecraft:enchanted_book)component(fuzzy:{\"minecraft:stored_enchantments\":{levels:{\"minecraft:swift_sneak\":2}}}))and(item(minecraft:enchanted_book)component(fuzzy:{\"minecraft:stored_enchantments\":{levels:{\"minecraft:swift_sneak\":3}}})))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 113.5d

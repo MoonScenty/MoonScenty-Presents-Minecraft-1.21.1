@@ -1034,34 +1034,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["5A0E19000000001B"]
-			icon: {
-				id: "twilightforest:cube_of_annihilation"
-			}
-			id: "5A0E19000000001C"
-			optional: true
-			rewards: [{
-				id: "7BC847345FCBEEFE"
-				type: "xp"
-				xp: 30
-			}]
-			tasks: [{
-				SkillsLevel: {
-					category: ""
-					check: 0b
-					comparison: "GREATER_OR_EQUAL"
-					first: 10
-					mode: "TOTAL_LEVEL"
-					second: 20
-				}
-				id: "5A0E2900000001C0"
-				item: { count: 1, id: "twilightforest:cube_of_annihilation" }
-				type: "item"
-			}]
-			x: 38.5d
-			y: -4.0d
-		}
-		{
 			dependencies: ["5A0E19000000001A"]
 			icon: {
 				id: "twilightforest:experiment_115"

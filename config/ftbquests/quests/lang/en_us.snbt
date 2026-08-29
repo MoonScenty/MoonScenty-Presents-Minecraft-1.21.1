@@ -484,9 +484,6 @@
 	quest.28C0D79B888A8041.quest_desc: ["전투 전체에 쓸 화살을 넉넉하게 준비하세요."]
 	quest.28C0D79B888A8041.quest_subtitle: "충분한 화살 준비"
 	quest.28C0D79B888A8041.title: "화살은 많을수록 좋다"
-	quest.28F84E0C8F487635.quest_desc: ["양털 블록과 양탄자는 감지기 주변의 여러 진동을 막거나 줄입니다."]
-	quest.28F84E0C8F487635.quest_subtitle: "양털로 진동을 차단하는 방법 안내"
-	quest.28F84E0C8F487635.title: "양털은 생각보다 조용하다"
 	quest.28F9EF64615A116B.quest_desc: ["철 방어구 한 부위 이상을 만들어 착용하세요. 방어구는 실수 한 번이 사망으로 이어지는 상황을 줄여 줍니다."]
 	quest.28F9EF64615A116B.quest_subtitle: "철 방어구 한 부위 제작"
 	quest.28F9EF64615A116B.title: "입으면 단단해집니다"
@@ -752,7 +749,7 @@
 	quest.2DEB7AC25A6BAE43.quest_desc: ["내구도를 수리한 강한 근접 무기를 준비하세요."]
 	quest.2DEB7AC25A6BAE43.quest_subtitle: "다이아몬드 무기 권장"
 	quest.2DEB7AC25A6BAE43.title: "믿을 만한 한 자루"
-	quest.2DFA570C709DACC6.quest_desc: ["집 좌표를 기록하거나 Xaero 웨이포인트를 만드세요. 귀환 지점을 남겨 두면 먼 탐험에서도 기지와 보관품을 잃지 않습니다."]
+	quest.2DFA570C709DACC6.quest_desc: ["집 좌표를 기록하거나 Xaero 웨이포인트를 만드세요. 서 있는 자리에 웨이포인트를 찍는 단축키는 이 모드팩에서 &lN&r입니다. 귀환 지점을 남겨 두면 먼 탐험에서도 기지와 보관품을 잃지 않습니다."]
 	quest.2DFA570C709DACC6.quest_subtitle: "좌표 또는 웨이포인트 기록 안내"
 	quest.2DFA570C709DACC6.title: "집 나가면 좌표 고생"
 	quest.2E210D1406F05126.quest_desc: ["중요 시설에서 멀리 떨어진 단단한 지하 공간을 전장으로 고르세요."]
@@ -3516,12 +3513,6 @@
 	]
 	quest.5A0E19000000001B.quest_subtitle: "카미나이트 장치 제작"
 	quest.5A0E19000000001B.title: "탑의 장치들"
-	quest.5A0E19000000001C.quest_desc: [
-		"카미나이트와 흑요석으로 만듭니다. 던지면 &l앞에 있는 것을 갈아 없애며&r 날아갑니다."
-		"블록을 뚫고 지나가니 벽을 넘어갈 때도 쓸 수 있습니다. 던진 뒤 돌아옵니다."
-	]
-	quest.5A0E19000000001C.quest_subtitle: "소멸의 정육면체 제작"
-	quest.5A0E19000000001C.title: "던지는 파괴"
 	quest.5A0E19000000001D.quest_desc: [
 		"어둠의 탑의 실험실에 놓여 있는 분홍색 덩어리입니다. &l먹으면 다시 자랍니다.&r"
 		"먹을 것 걱정이 사라집니다. 다만 계속 먹으면 메스꺼움이 옵니다."
@@ -4855,12 +4846,4 @@
 	reward_table.6A00000000000010.title: "16장: 엔드 탐험 보급품"
 	reward_table.6A00000000000011.title: "17A장: Deep Dark 탐사 보급품"
 	reward_table.6A00000000000012.title: "17B장: 위더 토벌 보급품"
-	task.30ACD29A92BD781B.title: "Unknown type: trading"
-	task.3457AC1850AA61A7.title: "Unknown type: place_block"
-	task.390D92355478447A.title: "Unknown type: tame_mob"
-	task.393CB51F8D6A0582.title: "Unknown type: fishing_catch"
-	task.3A7829B0D1119AC6.title: "Unknown type: tame_mob"
-	task.3C3C20E918DFEB12.title: "Unknown type: trading"
-	task.3CE4B2E3747D8BE4.title: "Unknown type: break_block"
-	task.3DF39EEB78CA047D.title: "Unknown type: trading"
 }

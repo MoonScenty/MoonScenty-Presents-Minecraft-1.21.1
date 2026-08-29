@@ -516,18 +516,33 @@
 				type: "xp"
 				xp: 30
 			}]
-			tasks: [{
-				SkillsLevel: {
-					category: ""
-					check: 0b
-					comparison: "GREATER_OR_EQUAL"
-					first: 10
-					mode: "TOTAL_LEVEL"
-					second: 20
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "7A1B20000000001D"
+					type: "checkmark"
 				}
-				id: "7A1B20000000001D"
-				type: "checkmark"
-			}]
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "6275EBC66C4F0CE5"
+					item: { count: 1, id: "naturescompass:naturescompass" }
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 12.5d
 		}
