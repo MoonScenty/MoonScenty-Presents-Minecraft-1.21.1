@@ -386,7 +386,7 @@ hash = "e2da3cae6f0f5db7b2d71ae795239051f48925f4f08711d6e7a05dd1f51dc688"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_11_nether.snbt"
-hash = "c11b7cde2d10963e23bcc9c48238db8adf213b9401fbc4dbc7b132d13f2573f8"
+hash = "982cb179977378e628df6a9502041d2d20d4d744bfd392eafe000738ada99074"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_12_brewing.snbt"

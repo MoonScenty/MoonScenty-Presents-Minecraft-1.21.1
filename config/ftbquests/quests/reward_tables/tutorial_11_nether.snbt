@@ -1,6 +1,58 @@
 {
 	id: "6A0000000000000B"
-	loot_size: 1
+	loot_crate: {
+		color: 8323072
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "11장: 네더 원정대의 상자"
+		string_id: "tutorial_11_nether"
+	}
+	loot_size: 2
 	order_index: 11
-	rewards: [ ]
+	rewards: [
+		{
+			count: 16
+			id: "1800ED4DA6787339"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+		}
+		{
+			count: 32
+			id: "5CE76249A36369D9"
+			item: {
+				count: 1
+				id: "minecraft:quartz"
+			}
+		}
+		{
+			count: 8
+			id: "6FDDE7B4C97B58BC"
+			item: {
+				count: 1
+				id: "minecraft:magma_cream"
+			}
+		}
+		{
+			count: 16
+			id: "6E87E34E901007C4"
+			item: {
+				count: 1
+				id: "minecraft:glowstone_dust"
+			}
+		}
+		{
+			count: 32
+			id: "0132A3ABA05DCFD5"
+			item: {
+				count: 1
+				id: "minecraft:blackstone"
+			}
+		}
+	]
+	use_title: true
 }
