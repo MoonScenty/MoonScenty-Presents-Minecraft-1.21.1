@@ -1042,145 +1042,6 @@
 		}
 		{
 			icon: {
-				id: "pipez:item_pipe"
-			}
-			id: "5A0E18000000001A"
-			rewards: [{
-				id: "2EE2A48E1BA753EC"
-				type: "xp"
-				xp: 30
-			}]
-			size: 1.5d
-			tasks: [{
-				SkillsLevel: {
-					category: ""
-					check: 0b
-					comparison: "GREATER_OR_EQUAL"
-					first: 10
-					mode: "TOTAL_LEVEL"
-					second: 20
-				}
-				id: "5A0E2800000001A0"
-				item: { count: 1, id: "pipez:item_pipe" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 15.0d
-		}
-		{
-			dependencies: ["5A0E18000000001A"]
-			icon: {
-				id: "pipez:wrench"
-			}
-			id: "5A0E18000000001B"
-			rewards: [{
-				id: "262878BFDDB4A792"
-				type: "xp"
-				xp: 30
-			}]
-			tasks: [
-				{
-					SkillsLevel: {
-						category: ""
-						check: 0b
-						comparison: "GREATER_OR_EQUAL"
-						first: 10
-						mode: "TOTAL_LEVEL"
-						second: 20
-					}
-					id: "5A0E2800000001B0"
-					item: { count: 1, id: "pipez:wrench" }
-					type: "item"
-				}
-				{
-					SkillsLevel: {
-						category: ""
-						check: 0b
-						comparison: "GREATER_OR_EQUAL"
-						first: 10
-						mode: "TOTAL_LEVEL"
-						second: 20
-					}
-					id: "5A0E2800000001B1"
-					item: { count: 1, id: "pipez:basic_upgrade" }
-					type: "item"
-				}
-				{
-					SkillsLevel: {
-						category: ""
-						check: 0b
-						comparison: "GREATER_OR_EQUAL"
-						first: 10
-						mode: "TOTAL_LEVEL"
-						second: 20
-					}
-					id: "5A0E2800000001B2"
-					item: { count: 1, id: "pipez:ultimate_upgrade" }
-					type: "item"
-				}
-			]
-			x: 2.0d
-			y: 15.0d
-		}
-		{
-			dependencies: ["5A0E18000000001B"]
-			icon: {
-				id: "pipez:universal_pipe"
-			}
-			id: "5A0E18000000001C"
-			optional: true
-			rewards: [{
-				id: "5F4D27084188D3FC"
-				type: "xp"
-				xp: 30
-			}]
-			tasks: [
-				{
-					SkillsLevel: {
-						category: ""
-						check: 0b
-						comparison: "GREATER_OR_EQUAL"
-						first: 10
-						mode: "TOTAL_LEVEL"
-						second: 20
-					}
-					id: "5A0E2800000001C0"
-					item: { count: 1, id: "pipez:fluid_pipe" }
-					type: "item"
-				}
-				{
-					SkillsLevel: {
-						category: ""
-						check: 0b
-						comparison: "GREATER_OR_EQUAL"
-						first: 10
-						mode: "TOTAL_LEVEL"
-						second: 20
-					}
-					id: "5A0E2800000001C1"
-					item: { count: 1, id: "pipez:energy_pipe" }
-					type: "item"
-				}
-				{
-					SkillsLevel: {
-						category: ""
-						check: 0b
-						comparison: "GREATER_OR_EQUAL"
-						first: 10
-						mode: "TOTAL_LEVEL"
-						second: 20
-					}
-					id: "5A0E2800000001C2"
-					item: { count: 1, id: "pipez:universal_pipe" }
-					type: "item"
-				}
-			]
-			x: 4.0d
-			y: 15.0d
-		}
-		{
-			dependencies: ["5A0E18000000001B"]
-			icon: {
 				id: "laserio:logic_chip"
 			}
 			id: "5A0E18000000001D"
@@ -1202,7 +1063,7 @@
 				item: { count: 1, id: "laserio:logic_chip" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 0.0d
 			y: 15.0d
 		}
 		{
@@ -1245,7 +1106,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 2.0d
 			y: 15.0d
 		}
 		{
@@ -1287,7 +1148,7 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
+			x: 4.0d
 			y: 15.0d
 		}
 		{
@@ -1334,7 +1195,7 @@
 				item: { count: 1, id: "laserio:laser_wrench" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 6.0d
 			y: 15.0d
 		}
 		{

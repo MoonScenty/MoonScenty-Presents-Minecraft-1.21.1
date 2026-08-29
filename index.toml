@@ -266,7 +266,7 @@ hash = "ba9d944c9d28bdea0dac1bc2de9f6637e5766f70502518f191e8db2995cf1b92"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andesite_alloy_age.snbt"
-hash = "b29386d2df5a688c45b3270ef71305b266bd3e88f357a6cef3caa45897f822fe"
+hash = "2918ce7a3223d346771ba68ba2bc48e31496abae04966f944d8600dd897ab5fc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
@@ -314,7 +314,7 @@ hash = "80f6ae9d47be56f2924a211a86e3da66cfd181727f6bf5858d74bc0d6bac13f6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage.snbt"
-hash = "549b18a8e51fdb7e8b3266ce3fd380ff3bbef2ab8d9fc5963b9ec900466ff711"
+hash = "1bae73e0b04bd1603ab399edf311f2237b64975393a0b7784a979bfa6294a652"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks.snbt"
@@ -338,7 +338,7 @@ hash = "6cde88d5b4af7175fee7054dec818968be37abd1a1d77c7c22817bda7a0932ad"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "18e48a2e6952f0ab0a4e262245d125b6b8b91de0735dfedaddead5341a6319f9"
+hash = "7fc1ff3fdc9ab12b3c8e05f93f4e7dc51a874cff650c68c01fbf9bd0d6fc7cda"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_00_welcome.snbt"
@@ -1543,6 +1543,10 @@ hash = "82898a1aa69ab521a9ee10c2beab6bc6889e4d2a8a98d78b3ba50c72f11e85f1"
 [[files]]
 file = "kubejs/server_scripts/molds.js"
 hash = "6d5390b88aadfa086272c16713133bd02354e119f46ec076d1a3949dc2dfcc02"
+
+[[files]]
+file = "kubejs/server_scripts/pipez.js"
+hash = "a89e3616f59c88174940cddd607c4a4cbd10e57373bb08ab72269f17e7a145d7"
 
 [[files]]
 file = "kubejs/server_scripts/stone_age.js"

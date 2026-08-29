@@ -565,8 +565,8 @@
 				item: { count: 1, id: "create:brass_sheet" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: 2.5d
+			x: 12.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -596,7 +596,7 @@
 				item: { count: 1, id: "kubejs:haunted_brass_sheet" }
 				type: "item"
 			}]
-			x: 12.5d
+			x: 15.0d
 			y: 5.0d
 		}
 		{
@@ -1554,7 +1554,7 @@
 				id: "5A0E20000001011B"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: -2.5d
 			y: -2.5d
 		}
 		{
@@ -1583,6 +1583,133 @@
 			}]
 			x: 10.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["5A0E100000010013"]
+			icon: {
+				id: "pipez:item_pipe"
+			}
+			id: "5A0E10000001011D"
+			optional: true
+			rewards: [{
+				id: "5A0E30000001011D"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5A0E20000001011D"
+				item: { count: 1, id: "pipez:item_pipe" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5A0E10000001011D"]
+			icon: {
+				id: "pipez:wrench"
+			}
+			id: "5A0E10000001011E"
+			optional: true
+			rewards: [{
+				id: "5A0E30000001011E"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E20000001011E"
+					item: { count: 1, id: "pipez:wrench" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E21000001011E"
+					item: { count: 1, id: "pipez:basic_upgrade" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E22000001011E"
+					item: { count: 1, id: "pipez:ultimate_upgrade" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5A0E10000001011E"]
+			icon: {
+				id: "pipez:fluid_pipe"
+			}
+			id: "5A0E10000001011F"
+			optional: true
+			rewards: [{
+				id: "5A0E30000001011F"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E20000001011F"
+					item: { count: 1, id: "pipez:fluid_pipe" }
+					type: "item"
+				}
+				{
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5A0E21000001011F"
+					item: { count: 1, id: "pipez:energy_pipe" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 7.5d
 		}
 	]
 }
