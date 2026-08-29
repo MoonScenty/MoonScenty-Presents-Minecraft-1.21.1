@@ -1,13 +1,13 @@
 name = "More Quest Types"
-filename = "more_quest_types-neoforge-1.3.5.jar"
+filename = "more_quest_types-neoforge-1.3.6.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "708b3021320f054c3500435a30bf896f634883d2"
+hash = "d2b87227c263628dd9f6919040eeca7d8d1beb84"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8592908
+file-id = 8748509
 project-id = 1361832
