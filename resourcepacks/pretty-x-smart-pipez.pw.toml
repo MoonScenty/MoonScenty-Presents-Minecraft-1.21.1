@@ -1,6 +1,6 @@
 name = "Pretty X Smart Pipez"
 filename = "Pretty X Smart Pipez.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

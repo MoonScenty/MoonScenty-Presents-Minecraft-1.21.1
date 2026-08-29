@@ -1,6 +1,6 @@
 name = "Icon Fresh"
 filename = "Icon Fresh 0.4.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

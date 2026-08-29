@@ -1,6 +1,6 @@
 name = "Build Guide"
 filename = "BuildGuide-1.21-0.4.9.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

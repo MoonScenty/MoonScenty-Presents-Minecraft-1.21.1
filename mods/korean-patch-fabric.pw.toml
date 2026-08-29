@@ -1,6 +1,6 @@
 name = "Korean Chat Patch"
 filename = "koreanpatch-neoforge-1.9.6+mc1.21.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

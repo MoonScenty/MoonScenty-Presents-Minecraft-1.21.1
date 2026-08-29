@@ -1,6 +1,6 @@
 name = "Icon Xaero's"
 filename = "Icon Xaero's 1.22.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
