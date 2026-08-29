@@ -511,6 +511,7 @@
 				type: "xp"
 				xp: 40
 			}]
+			size: 2.0d
 			tasks: [{
 				SkillsLevel: {
 					category: ""
@@ -524,11 +525,11 @@
 				item: { count: 1, id: "kubejs:ultimate_casing" }
 				type: "item"
 			}]
-			x: 45.0d
+			x: 47.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["5A0E100000040013"]
+			dependencies: ["5A0E100000040116"]
 			icon: {
 				id: "angelring:angel_ring"
 			}
@@ -538,7 +539,7 @@
 				type: "xp"
 				xp: 40
 			}]
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				SkillsLevel: {
 					category: ""
@@ -552,8 +553,8 @@
 				item: { count: 1, id: "angelring:angel_ring" }
 				type: "item"
 			}]
-			x: 47.5d
-			y: 0.0d
+			x: 50.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5A0E100000040004"]
@@ -1146,7 +1147,7 @@
 				item: { count: 1, id: "angelring:diamond_ring" }
 				type: "item"
 			}]
-			x: 45.0d
+			x: 47.5d
 			y: 2.5d
 		}
 	]
