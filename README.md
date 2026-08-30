@@ -2,7 +2,7 @@
 
 Minecraft 1.21.1과 NeoForge 21.1.248를 기반으로 제작한 모드팩입니다. packwiz를 사용해 모드와 설정을 관리합니다.
 
-현재 버전은 **0.2.9a**입니다. Create 기술 시대 다섯이 모두 들어간 알파 릴리즈이며, 변경 내역은 [CHANGELOG.md](CHANGELOG.md)에 있습니다.
+현재 버전은 **0.2.10a**입니다. Create 기술 시대 다섯이 모두 들어간 알파 릴리즈이며, 변경 내역은 [CHANGELOG.md](CHANGELOG.md)에 있습니다.
 
 ## 모드팩 콘셉트
 
@@ -698,7 +698,7 @@ packwiz refresh
 CurseForge 앱에서 가져올 수 있는 클라이언트용 ZIP을 생성합니다.
 
 ```powershell
-packwiz curseforge export -o "MoonScenty-Presents-0.2.9a.zip"
+packwiz curseforge export -o "MoonScenty-Presents-0.2.10a.zip"
 ```
 
 정식 릴리즈가 아닌 테스트 빌드는 `output/모드팩이름-YYYY-MM-DD-HHmmss.zip` 형식으로 생성합니다.
