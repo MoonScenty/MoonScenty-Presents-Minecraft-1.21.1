@@ -1425,6 +1425,166 @@ file = "kubejs/config/web_server.json"
 hash = "e914347bd0879cc175bf2ccf301e2b7869bfebca4a40fdabe935821e53954739"
 
 [[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/andesite_encased_cogwheel_andesite_alloy.json"
+hash = "3e8a4006672fe86f3eb54affeb7eb64446aa500cb67538bba3ee9d332b92c3ca"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/andesite_encased_cogwheel_brass.json"
+hash = "05532b00a13b9619574c52f3cfab1a7984685f7b3b45bb6e26993f7215684015"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/andesite_encased_cogwheel_steel.json"
+hash = "edcf996a0fa3164a1d246f6b4ed4ce974ad4b53c0b15f9ab9d59b47743859346"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/andesite_encased_cogwheel_void_steel.json"
+hash = "0dee5171926435b0502313a598f2cb65b0d255bb79405b76cfcc2311d280fdc9"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/andesite_encased_large_cogwheel_andesite_alloy.json"
+hash = "72bc588b9fbc425d29140ca4936d14e077af4f4f9b2bda13d216b4b886db03a7"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/andesite_encased_large_cogwheel_brass.json"
+hash = "7a058bb3e28da78ce9daa466d2f925f6d4ee2c6418f5053dcbd5dc9d580f38f0"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/andesite_encased_large_cogwheel_steel.json"
+hash = "d1821a5d948d6259b4e75edcfe1c6374426d05d7cdc5c12f97dbfc759e685b77"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/andesite_encased_large_cogwheel_void_steel.json"
+hash = "6534fa42eb071d0f2b2349af7b826d16bb554bcf2999a00f982853b12f2803f2"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/andesite_encased_shaft_andesite_alloy.json"
+hash = "85010fc4edb160f5ead43bbd1349ba8ee44537c85dd3d3961b085cd8c1f6d4a4"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/andesite_encased_shaft_brass.json"
+hash = "02bba796ada5a12a3516de943188c436220f879bc929a3e551917c7683885cbb"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/andesite_encased_shaft_steel.json"
+hash = "956259e9994b541b395794ef70f1f951fbfb91bae9c54cfaa6a564ef61674ea7"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/andesite_encased_shaft_void_steel.json"
+hash = "9c3619e313021dbd80f0fce21126f80867074463df041185ae2d3e1287198bba"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/brass_encased_cogwheel_andesite_alloy.json"
+hash = "66b321248a0a764ce8d52db8dc7a9250d12cfbf05122e48c717fbab8daa2b874"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/brass_encased_cogwheel_brass.json"
+hash = "679707e85ed31f0e61f82824db38ca709250f6f16c00ed8c7de95b1114c4e18d"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/brass_encased_cogwheel_steel.json"
+hash = "0ffd2836a25e12cb7b9647691fe951a4166c5ac97b915610b264d7f58f15600a"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/brass_encased_cogwheel_void_steel.json"
+hash = "d5f3c82933ff557f26567eb4449e8aa2d6df63a3add72cb605cf705efdd598aa"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/brass_encased_large_cogwheel_andesite_alloy.json"
+hash = "7b1a407789dbfcfc5cc1730c6e847710b76cb7a69873353aafb23f6ac7eb90a9"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/brass_encased_large_cogwheel_brass.json"
+hash = "31d2a1e3862e8ddf7f59f7f7afb9ab44349f265b8500eea618287df735b9d644"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/brass_encased_large_cogwheel_steel.json"
+hash = "4c99bc7357ec1c7d4905422274aeccfeed182415377d9ccc2bd6664b53743a96"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/brass_encased_large_cogwheel_void_steel.json"
+hash = "f4571324e547489013eb1a3505de7c085a172ea4902e307eee439749c44aa30c"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/brass_encased_shaft_andesite_alloy.json"
+hash = "dec92a86c0799fda4e91c2c4bc10c9f1316eeb1d7274ffcf4945c80b2be74d38"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/brass_encased_shaft_brass.json"
+hash = "084255c454f84ed5abaf67dea2b2c9536e88582b8c6ceb61effab8e14697c41b"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/brass_encased_shaft_steel.json"
+hash = "c900c93eca259cb3b3c4dfcb4fb8a5d620a942d6fac642767fc746c0100b8d63"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/brass_encased_shaft_void_steel.json"
+hash = "fd4fd786c798b360ca2f6dd8be2c713fcdff476ef21cf49d668f2dfa8dd1631f"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/cogwheel_andesite_alloy.json"
+hash = "5fd5f4139561fc193ed64171e9ab392cbdc41f948ae63a20c67fcd18b64526ed"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/cogwheel_brass.json"
+hash = "977b01b95ab8906d44ded2113539c9fecd6ca3e555c953ae1c22e08f01b1c407"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/cogwheel_steel.json"
+hash = "7ccdd2c7fab22d52be9311f9dc4d9e3493fab39374ab08ba323817b9ec8cc68d"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/cogwheel_void_steel.json"
+hash = "44191d369e79b303d9fb036b606b4f449db1fb3e5a98a832e7caf63ad565ad7e"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/gearbox_andesite_alloy.json"
+hash = "36306a9d39ad8d7c8ef33a6e21dac83b308c5eafefe47fa54707c65bccbb4cc1"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/gearbox_brass.json"
+hash = "cd7640bc874dc0bb14108c2d83f40d29426fe9956105a8055fe98230463b231c"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/gearbox_steel.json"
+hash = "535aabc09334768fc3acc170000d0ba254aad53a4f8e46943b9c6207ed03f224"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/gearbox_void_steel.json"
+hash = "0d4a4e863d0564fdfe424d5d54a9d5ad91cf2cc60a8883514b4801349ce0a649"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/large_cogwheel_andesite_alloy.json"
+hash = "0d171f44594f335ddd2ffe8846cdf9360074ee9d54a71d7b1d947249ead5f0bd"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/large_cogwheel_brass.json"
+hash = "bd1ac6d680b36084a797d11ad6de8e2c55ab580063b7142f7b1be8ebcf3b4d68"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/large_cogwheel_steel.json"
+hash = "7d93e4b14bf1fd8d1fff6f4abe0cac9812b7b5e9f23fdc9e1c6ecf1b8f785795"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/large_cogwheel_void_steel.json"
+hash = "28a923839786a780e0cd74958e2056f823339adcdc2cd9bbfd79a7c581629fac"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/shaft_andesite_alloy.json"
+hash = "7909a31d481605aecbb5ccab14a80f7c3978053f1194bf100e9f307fe73dc224"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/shaft_brass.json"
+hash = "04721c57ec46bb6738390ae9eb7eee12599cdeb4bcd6ef51cc4c863276ded38d"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/shaft_steel.json"
+hash = "25f3176171d9a4b61824d1dd69c85bab394ae4ff2776dbf3db64ac00851b0bd9"
+
+[[files]]
+file = "kubejs/data/createtiers/loot_table/blocks/shaft_void_steel.json"
+hash = "f477f7f150db19a5f535aff6b440c0a3ea19451678c41710c7e3646039031913"
+
+[[files]]
 file = "kubejs/data/createtreadmill/loot_table/blocks/treadmill.json"
 hash = "6cc9e7a564030c640940f29f7906e45e75688b76188c40a93c28ccfe50d7bcca"
 
@@ -1435,6 +1595,10 @@ hash = "5f45a076d81823d440b862de643d7cb1abeb21c0ded0b5653e1428d5df09388a"
 [[files]]
 file = "kubejs/data/kubejs/enchantment/proficiency.json"
 hash = "e85e74ce3af5b21db868e8204e53e73f3e66301f5fae8b95830cc1839f5d98d8"
+
+[[files]]
+file = "kubejs/data/minecraft/tags/block/mineable/pickaxe.json"
+hash = "62d661f17884b4d0d37e4fce187102b72a25eb3e8c7a8f4c5056fe8e8bbbfe5f"
 
 [[files]]
 file = "kubejs/data/moonscenty/curios/slots/back.json"
@@ -1627,6 +1791,10 @@ hash = "86fe01820ed8b27d00fa3758e8014b7e729a1d0932917c72b4fd4578f072c5b0"
 [[files]]
 file = "kubejs/startup_scripts/tiers.js"
 hash = "631fb6031321e0326ca8f724db64ac2e00c6aa16b9d9927c3b1622c3bf748f37"
+
+[[files]]
+file = "kubejs/startup_scripts/tiers_hardness.js"
+hash = "f364feda5455157d9ba9c041e6d20b99481b8a27912589548100dfe92f464fe8"
 
 [[files]]
 file = "mods/accessories.pw.toml"
