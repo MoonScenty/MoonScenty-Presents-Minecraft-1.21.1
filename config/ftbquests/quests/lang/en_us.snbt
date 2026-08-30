@@ -1541,15 +1541,8 @@
 	]
 	quest.5A0E10000002000D.quest_subtitle: "Vibrating Table 제작"
 	quest.5A0E10000002000D.title: "떨어서 골라냅니다"
-	quest.5A0E10000002000E.quest_desc: [
-		"거품기를 Vibrating Table에 올립니다."
-		""
-		"원심분리기의 핵심 부품입니다. 거품기 하나 때문에 진동대를 세우는 셈입니다."
-	]
-	quest.5A0E10000002000E.quest_subtitle: "Vibrated Whisk 제작"
-	quest.5A0E10000002000E.title: "떨린 거품기"
 	quest.5A0E10000002000F.quest_desc: [
-		"Precision Iron Spring 넷, 황동 케이싱, 황동 축, 원목 둘, 그리고 Vibrated Whisk입니다."
+		"Precision Iron Spring 넷, 황동 케이싱, 황동 축, 그리고 원목 둘입니다."
 		""
 		"&l돌리려면 64 RPM이 필요합니다.&r 화로 엔진에서 히트싱크를 뗀 출력이 정확히 그 값입니다."
 		""

@@ -165,25 +165,17 @@ ServerEvents.recipes(event => {
     M: 'create:mechanical_piston'
   }).id('kubejs:crafting/vibrating_table')
 
-  event.custom({
-    type: 'vintageimprovements:vibrating',
-    ingredients: [{ item: 'create:whisk' }],
-    results: [{ count: 1, id: 'kubejs:vibrated_whisk' }],
-    processing_time: 400
-  }).id('kubejs:vibrating/vibrated_whisk')
-
   // 이 시대에서 가장 비싼 기계다. 결승선 바로 앞에 선다.
   event.remove({ id: 'vintageimprovements:craft/centrifuge' })
   event.shaped('vintageimprovements:centrifuge', [
     'PBP',
     'LSL',
-    'PVP'
+    'P P'
   ], {
     P: PRECISE_SPRING,
     B: BRASS_CASING,
     L: '#minecraft:logs',
-    S: BRASS.shaft,
-    V: 'kubejs:vibrated_whisk'
+    S: BRASS.shaft
   }).id('kubejs:crafting/centrifuge')
 
   // 커빙 프레스의 헤드 장착부를 별도 부품으로 뽑아 낸다.

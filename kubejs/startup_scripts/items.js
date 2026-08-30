@@ -73,15 +73,6 @@ StartupEvents.registry('item', event => {
     .displayName('Precision Iron Spring')
     .texture('vintageimprovements:item/iron_spring')
 
-  // 진동대로 떨어 놓은 거품기.
-  //
-  // 원심분리기의 핵심 부품이다. 거품기 하나 때문에 진동대를 세워야 한다.
-  //
-  // 텍스처는 아직 원본 거품기를 그대로 빌려 쓴다.
-  event.create('vibrated_whisk')
-    .displayName('Vibrated Whisk')
-    .texture('create:item/whisk')
-
   // 커빙 프레스의 헤드 장착부.
   //
   // 커빙 프레스는 헤드를 갈아 끼우는 기계다. 그 장착부를 별도 부품으로 뽑아
