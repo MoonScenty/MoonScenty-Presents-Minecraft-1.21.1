@@ -1605,6 +1605,10 @@ file = "kubejs/server_scripts/pipez.js"
 hash = "a89e3616f59c88174940cddd607c4a4cbd10e57373bb08ab72269f17e7a145d7"
 
 [[files]]
+file = "kubejs/server_scripts/rubberworks_flowers.js"
+hash = "bd45391e2a9e761879383a0f1be5abe0aca842d5f9b5c40f0ad8718e73516c39"
+
+[[files]]
 file = "kubejs/server_scripts/stone_age.js"
 hash = "a5519cf11c7a1e8c29464d070594398a4c62db2c04d7e0c9f135384a764983c5"
 
