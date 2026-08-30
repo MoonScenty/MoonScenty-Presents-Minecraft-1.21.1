@@ -338,7 +338,7 @@ hash = "6cde88d5b4af7175fee7054dec818968be37abd1a1d77c7c22817bda7a0932ad"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "7fc1ff3fdc9ab12b3c8e05f93f4e7dc51a874cff650c68c01fbf9bd0d6fc7cda"
+hash = "c4f9820451baf11197c7524eab387f8a92278c42df75be3db1c9e9855bb974d5"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tutorial_00_welcome.snbt"
@@ -651,6 +651,10 @@ hash = "60420a41571a4658b91babfa2b47d6fefb7c1766eeea969f51ff98ab34c2431c"
 [[files]]
 file = "config/trender.json"
 hash = "0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124"
+
+[[files]]
+file = "config/twilightforest-common.toml"
+hash = "fb23d373fee6bf585a536538fd486552bc8b24906b4c197fcbe9cd65a4460112"
 
 [[files]]
 file = "config/xaero/lib/client.cfg"
