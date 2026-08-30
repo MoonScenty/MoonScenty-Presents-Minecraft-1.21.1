@@ -2285,11 +2285,6 @@ hash = "9f6b261565c185ab137b1f4ceceec488e4d6d262b14ef3349c4a88afdac958ae"
 metafile = true
 
 [[files]]
-file = "mods/dynamiclantern.pw.toml"
-hash = "442dcf6130f516482f027853a692e7f68b4ad6b5139f9e0d1e9521bd7235d36a"
-metafile = true
-
-[[files]]
 file = "mods/dynamiclights-reforged.pw.toml"
 hash = "f619c1ed2e189f9d482d081411fccee4bd26c05cce52a5db914f1989303f080c"
 metafile = true
@@ -2552,6 +2547,11 @@ metafile = true
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "7d297447424c74ce0b038fdd5c5d50832f95fb8775144137233491530b2d9810"
+metafile = true
+
+[[files]]
+file = "mods/immersive-lanterns.pw.toml"
+hash = "932c985b60d1ad9defb6544fb5aa7b3490be7b6497dc7537b640d2ee060275fa"
 metafile = true
 
 [[files]]
@@ -3072,6 +3072,11 @@ metafile = true
 [[files]]
 file = "mods/twilights-flavors-delight.pw.toml"
 hash = "24f7c7e71dfc654dfa73999e236955f03cfef2ef7a3851b9fff7981995ba7331"
+metafile = true
+
+[[files]]
+file = "mods/txnilib.pw.toml"
+hash = "7d7deb14e956b71fe2f9c999acefdb5edbfc264d9c66e5e2fce7c90ee704d05a"
 metafile = true
 
 [[files]]
