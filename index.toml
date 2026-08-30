@@ -610,7 +610,7 @@ hash = "44478bef0973f1aa587c0493568a5cbc5426233b611f14bd2be489b5b862fa7f"
 
 [[files]]
 file = "config/sodiumdynamiclights-client.toml"
-hash = "d8ebc5a26f6f4fc0d27c3746a3aa6ec8d2652873bd3cec6f254be1628f0472f7"
+hash = "9a439ebfe79ce34cd5ae800207fd2db3ca9740e969b580d788d4080b23b98dab"
 
 [[files]]
 file = "config/solcarrot-server.toml"
