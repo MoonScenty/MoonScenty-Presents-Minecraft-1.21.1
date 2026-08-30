@@ -2,7 +2,7 @@
 
 Minecraft 1.21.1과 NeoForge 21.1.248를 기반으로 제작한 모드팩입니다. packwiz를 사용해 모드와 설정을 관리합니다.
 
-현재 버전은 **0.2.11a**입니다. Create 기술 시대 다섯이 모두 들어간 알파 릴리즈이며, 변경 내역은 [CHANGELOG.md](CHANGELOG.md)에 있습니다.
+현재 버전은 **0.2.12a**입니다. Create 기술 시대 다섯이 모두 들어간 알파 릴리즈이며, 변경 내역은 [CHANGELOG.md](CHANGELOG.md)에 있습니다.
 
 ## 모드팩 콘셉트
 
@@ -135,7 +135,7 @@ Create Tiers로 시대별 회전 속도 상한과 최대 응력을 나눕니다.
 
 퀘스트는 기능을 직접 해금하는 수단이 아니라 플레이어에게 목표와 진행 방향을 알려주는 안내 장치로 사용합니다.
 
-챕터는 여섯 개의 그룹으로 나눠 배치합니다. 현재 18개 챕터에 퀘스트 867개가 들어 있습니다.
+챕터는 여섯 개의 그룹으로 나눠 배치합니다. 현재 18개 챕터에 퀘스트 866개가 들어 있습니다.
 
 | 그룹 | 챕터 | 퀘스트 | 내용 |
 | --- | --- | --- | --- |
@@ -699,7 +699,7 @@ packwiz refresh
 CurseForge 앱에서 가져올 수 있는 클라이언트용 ZIP을 생성합니다.
 
 ```powershell
-packwiz curseforge export -o "MoonScenty-Presents-0.2.11a.zip"
+packwiz curseforge export -o "MoonScenty-Presents-0.2.12a.zip"
 ```
 
 정식 릴리즈가 아닌 테스트 빌드는 `output/모드팩이름-YYYY-MM-DD-HHmmss.zip` 형식으로 생성합니다.
@@ -715,7 +715,7 @@ packwiz curseforge export -o "output/MoonScenty Presents Minecraft 1.21.1-$build
 - 새 월드를 생성하고 다시 접속할 수 있는지
 - JEI에서 레시피가 정상적으로 표시되는지
 - Create 장치와 KubeJS 레시피가 정상적으로 작동하는지
-- FTB Quests의 여섯 그룹 18개 챕터가 오류 없이 열리고 퀘스트 867개의 배치, 목표 판정과 의존 관계가 정상적으로 작동하는지
+- FTB Quests의 여섯 그룹 18개 챕터가 오류 없이 열리고 퀘스트 866개의 배치, 목표 판정과 의존 관계가 정상적으로 작동하는지
 - 튜토리얼 챕터의 Deep Dark와 위더 구간이 에필로그 완료 전에는 숨겨지고 완료 후 각각 독립적으로 열리는지
 - 스킬 창의 네 탭이 열리고 노드 240개의 능력치가 정상적으로 적용되는지
 - Corpse가 일반 지형, 용암과 공허에서 사망 아이템을 정상적으로 보존하는지
