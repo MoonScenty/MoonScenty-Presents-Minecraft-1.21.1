@@ -2351,7 +2351,7 @@ metafile = true
 
 [[files]]
 file = "mods/fancy-toasts.pw.toml"
-hash = "6969a12b418dd946165713afdf9e558cd0654dfeebef52cfc7b8f076b81dc815"
+hash = "319a195ec43dc73d16946c5c57baf261e81dec60430ead3ba05545a11b5da68b"
 metafile = true
 
 [[files]]
@@ -2361,7 +2361,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "748f98aed76975838bd79cb4f5d06eb68aad156394239de5fa70302a02448a5b"
+hash = "d9ed9ac8e0db9db29078dafa22bc2d86ac702f10863ae7cb1d5245111c5ea17b"
 metafile = true
 
 [[files]]
@@ -2606,7 +2606,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "8da660f47b338e994d8acf2caa10d9d5845b96f9c425ace479e7870191974f21"
+hash = "e844a58a6bd0229686957e89fddd40ab74e0877cdddc4ba3dab692bf79a497b5"
 metafile = true
 
 [[files]]
@@ -2726,7 +2726,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "b0364f6b95f6ed837239c232bad0e2d7317e58f0e4c040e66a4f533239d5775e"
+hash = "ed6ac1b169f40d6ea67376edac878c6eb842c935f743553016ba3817e67b9830"
 metafile = true
 
 [[files]]
@@ -3031,7 +3031,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "d8a69a6367d92895e093e003c436de43abb3292a3c676908a95d0c0db1d14830"
+hash = "8c96af726e9109bcfafc08b86126933eca586f77dd0517e751bbbefc6e75d5a2"
 metafile = true
 
 [[files]]
