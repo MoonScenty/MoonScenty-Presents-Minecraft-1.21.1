@@ -19,7 +19,7 @@ const T = {
 }
 
 const CASING = 'create:andesite_casing'
-const SHEET = 'createdeco:andesite_sheet'
+const SHEET = '#c:plates/andesite'
 const COPPER = 'create:copper_sheet'
 const WATERPROOF = 'kubejs:waterproof_copper_casing'
 

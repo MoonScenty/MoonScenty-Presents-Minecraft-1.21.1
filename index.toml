@@ -18,7 +18,7 @@ hash = "b70f57eadf6eec0ce43acd4c441f08feac1432826e04cb8e2736a73997c20c08"
 
 [[files]]
 file = "config/almostunified/placeholders.json"
-hash = "43733b207b9f0238c7a5bec47f19e8fd5bec80499b286e0ac4994671702dfed9"
+hash = "21028d2b5d488827bc95185c48c4ceeb5d231625a23cfcbe5e28f19159ae5aa9"
 
 [[files]]
 file = "config/almostunified/startup.json"
@@ -30,7 +30,7 @@ hash = "3f0d92c8abaf95a68ff79bb2ef9169fd598500070de7e5a616b755f9c5123e6f"
 
 [[files]]
 file = "config/almostunified/unification/materials.json"
-hash = "74f2711be50b7b8c08df045cb171043973db830b806329b5af865902d6b7a898"
+hash = "46e27893000ee2d1636e22413a55cb1ccd421baf76d9ca222cf6cf465036ba9b"
 
 [[files]]
 file = "config/apotheosis/apothic_attributes.cfg"
@@ -1429,6 +1429,10 @@ file = "kubejs/config/web_server.json"
 hash = "e914347bd0879cc175bf2ccf301e2b7869bfebca4a40fdabe935821e53954739"
 
 [[files]]
+file = "kubejs/data/c/tags/item/plates/andesite.json"
+hash = "1d10fdcc582d174a150f15c3d1b1b269db710412628f2f2e5985846784fca975"
+
+[[files]]
 file = "kubejs/data/createtiers/loot_table/blocks/andesite_encased_cogwheel_andesite_alloy.json"
 hash = "3e8a4006672fe86f3eb54affeb7eb64446aa500cb67538bba3ee9d332b92c3ca"
 
@@ -1738,7 +1742,7 @@ hash = "0c52a8616e7c9a730026ad31fe199830e2e1656ce82526e2ec8c9ed9fef233ac"
 
 [[files]]
 file = "kubejs/server_scripts/andesite_alloy_age.js"
-hash = "3d0daa4c38dd5e3c48280bcd66a04c392269d57903026e5896c7896c3c981bbc"
+hash = "2c311f00bc6a2e3a933922943c4789ea6ceb398fc4dadd40517ee09d1bb1e711"
 
 [[files]]
 file = "kubejs/server_scripts/atomic_age.js"
@@ -1746,7 +1750,7 @@ hash = "d00b3fc31250eac63be4d4eec60666723698491e3f67cf2e7db8ea8de002cc4d"
 
 [[files]]
 file = "kubejs/server_scripts/brass_age.js"
-hash = "257eb35504c112c31b2e8bf217a1982c2ec3d28d6bd5493d032fae3b0ce64e0f"
+hash = "bf23c9a113605bc6f756ee7635f43ec7f5bb19e05a3b427abfd89602846f056f"
 
 [[files]]
 file = "kubejs/server_scripts/industrial_age.js"

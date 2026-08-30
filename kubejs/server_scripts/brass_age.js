@@ -193,7 +193,7 @@ ServerEvents.recipes(event => {
     ' H '
   ], {
     H: HAUNTED_SHEET,
-    D: 'createdeco:andesite_sheet'
+    D: '#c:plates/andesite'
   }).id('kubejs:crafting/head_mounter')
 
   event.remove({ id: 'vintageimprovements:craft/curving_press' })
